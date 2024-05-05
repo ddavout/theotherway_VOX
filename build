@@ -1,0 +1,962 @@
+#!/usr/bin/env bash
+unset IFS
+# set -f  Désactive la génération de nom de fichier (globbing)
+# set -o pipefail     the return value of a pipeline is the status of
+#                     the last command to exit with a non-zero status,
+#                     or zero if no command exited with a non-zero status
+# set -u Treat unset variables as an error when substituting.
+# Ces indicateurs peuvent être désactivés en utilisant « + » plutôt que « - Ils peuvent être utilisés lors de l'appel au shell. Le jeu d'indicateurs actuel peut être trouvé dans « $-
+# set -e  Exit immediately if a command exits with a non-zero status.
+#TODO doc /!\ a "single command", not a compound ?
+# set -a: -a  Marque pour l'export toutes les variables qui sont modifiées ou créées.
+# Variables that are marked for export will be inherited by any child process. Variables inherited in this way are called Environment Variables.
+set -eauo pipefail -
+shopt -s extglob
+#    ?(list): Matches zero or one occurrence of the given patterns.
+#    *(list): Matches zero or more occurrences of the given patterns.
+#    +(list): Matches one or more occurrences of the given patterns.
+#    @(list): Matches one of the given patterns.
+#    !(list): Matches anything but the given patterns.
+# ex: echo !(*jpg|*bmp)
+#so that an empty directory won't give you a literal '*'
+shopt -s nullglob
+chmod +x ./bin/*
+voices='/home/dop7/MyDevelop/Voices/'
+
+# caveats :
+# les fichiers waves fournis sont supposés tous adéquats ie SAMPFREQ=16000 mono ... etc.
+# hypothèse tacite de speech_tools
+SAMPFREQ=16000
+export SAMPFREQ
+
+###########################################################################
+general="${voices}"/config/general.cfg
+environ="${voices}"/config/env_festvox_settings0.cfg
+# à terme TODO ne contiendra que des variables paramétrables (voeu pieu ..)
+structure="${voices}"/config/env_settings2.cfg
+# modele pour la variante $VARIANTE de INST_LANG_VOX_cg
+LANG_VOX=fr
+# TODO symlink clunits.scm pb ,
+modele=${voices}/build/fr/900_mars
+
+waves16='/home/dop7/MyDevelop/Voices/frenchy/waves16'
+############################################################################
+# to be used to accueillir une nouvelle voix
+scratch="${scratch:-scratch}"
+# to be used as reference, if you are willing to change some files, or change the $modele
+scratch_clean="${scratch_clean:-scratch_clean}"
+# pour récup_debug_investigation
+# fork='${voices}/build/fr/abouties/voix_complete_200_prompts_avec_tests_SPTK/INST_LANG_VOX/'
+
+analyse="${voices}"/config/env_ehmm_settings.cfg
+############################################################################
+# appel obligatoire à "$0" pour changer de VARIANTE
+#declare -r VARIANTE
+export VARIANTE
+VARIANTE="${VARIANTE:-$scratch}"
+#if [[ ! "${VARIANTE}" ]]; then ( echo choose your VARIANTE; exit 77) fi
+
+NEW=${NEW:-0}
+n=${n:-0}
+# respect minimum du modele via rsync
+IGNORE_LIST=""
+RSYNC_PARAMS=( -b --recursive --times --perms -v  --links \
+	    --hard-links --ignore-existing --itemize-changes --protect-args \
+	    --exclude-from="${IGNORE_LIST}" )
+
+# exportation des variables environnement, outils, structure, analyse
+names=( "${general}" "${structure}" "${environ}" "${analyse}" )
+for cfg in "${names[@]}"; do
+    #shellcheck source=/dev/null
+    source "$cfg";
+    awk '/^[a-zA-Z0-9_]+=/ {
+        split($0, a, /=/);
+        # print a[1];
+        export a[1]
+    }' <"$cfg"
+done
+
+# exports supplémentaires
+TOP="$PWD"
+BUILD=${voices}/build/"${LANG_VOX}"
+
+# TODO DIR_VOX mal nommé: pas de s  VOX ou même pour éviter les confusions DIR_VOX,  
+ # DIR_VOX conviendrait plus à BUILD, utiliser aussi une variable PROJECT
+ # ici PROJECT='${voices}'
+# TODO encours
+
+# pour batterie de tests
+TEST="test"
+
+### mon vocabulaire
+# plutôt VOX_DIR ?
+DIR_VOX="${BUILD}"/"${VARIANTE}"/INST_LANG_VOX_cg
+WAV="$DIR_VOX"/"${sig_dir}"
+PROMPTFILE="${PROMPTFILE:-"${DIR_VOX}"/etc/txt.done.data}"
+STAMPS="${DIR_VOX}"/stamps
+data_file="${DIR_VOX}"/data_file.txt
+declare -ax requisite_files
+declare -ax temoin_dir1
+declare -ax temoin_dir2
+declare -ax temoin_ext1
+declare -ax temoin_ext2
+declare -ax temoin_files
+
+
+### ma panoplie petites fonctions exportables
+function echov() {
+    # aim : verbose function without output pollution
+    if [ "${verbose:-1}" = "1" ] ; then printf '%s\n' "$@" >/dev/stderr ; fi
+}
+export -f echov
+
+function name_stepname() {
+    #usage
+    # stepname="$(name_stepname "${action}")"
+    local action name
+    action=$1
+    echo "$n"_stamp_start_"${action##*/}"
+}
+export -f name_stepname
+
+# attest whether the action was previously successfully fulfilled
+# removed function stepstamp
+# le build fail ça nous suffir .. hmm en cas de reprise ? sûr ...mais le fichier stamp pouvait tout aussi bien manqué
+
+function name_action_list() {
+    #usage
+    local action name
+    action=$1
+    name="${0##*\/}" # ACF !! 2201
+    # shellcheck disable=SC2154
+    echo data_"${action}""${list_ext}"
+}
+export -f name_action_list 
+function dir_action() {
+    # usage arraydir=( "truc1" "truc2")
+    # dir_action "${arraydir[@]}"
+    # creation of the directories unless ..
+    # mkdir: cannot create directory ‘’: No such file or directory
+    # mkdir: missing operand
+    # etc.
+    # rm -f -r -v "$@" trop dangereux : choix d'1 même répertoire
+    echov "creation ? $*"
+    mkdir -p -v "$@" >/dev/stderr
+}
+export -f dir_action
+
+
+function name_tmpdir_action() {
+    #usage
+    # tmpdir_action="$(name_tmpdir_action "${action}")"
+    local action name
+    action=$1
+    #2905  name="${0##*\/}"
+   # shellcheck disable=SC2154
+   echo "${tmpdir}/${action}/"
+}
+export -f name_tmpdir_action
+
+function name_log_action() {
+    #usage
+    # log_action="$(name_log_action "${action}")"
+    local action name
+    action=$1
+    name="${0##*\/}"
+    echo "$(name_tmpdir_action "${action}" "${name}")log${action}"
+}
+export -f name_log_action
+
+
+
+# caveat action -> nom *légal* de fichier
+function quehapassado() {
+    # usage quehapassado action 
+    #       quehapassado action dir
+    #       quehapassado action dir stampreffile
+    local action stamp dir
+    action=$1
+    stamp=${3:-"$STAMPS"/now}
+    dir=${2:-'./'}
+    {
+        date
+        echo "${action}"
+        find -L "$dir" -newer "$stamp">"$STAMPS"/cours_"$action"_"$$"
+    }
+}
+export -f quehapassado 
+
+# shellcheck disable=SC2120 # optional parameter
+function wcl() {
+    local file
+    if [[ "$#" -ge "1" ]]; then
+        file="$1"
+        # for file not stream
+        if [ ! -e "$file" ]; then
+            echov "yes $file is missing " >/dev/stderr
+            exit 66
+        else
+            grep -c -E "$" "$file"
+        fi
+    else
+    { echo error code use of wcl ; exit 77 ;}
+    fi
+
+}
+export -f wcl
+
+## suivi du projet, aides au diagnostic
+
+# shellcheck disable=SC2120 # optional parameter
+function dir_status(){
+    dir="${1:-"$DIR_VOX"}"
+    find "$dir" -type f -printf '%T+ %p\n' | sort | tail -n 10
+}
+export -f dir_status
+
+function log_status(){
+local log logline_success logline_failure time_out
+# printf ... if the input data contains backslash
+while IFS= read -r logline || [[ -n "$logline" ]]; do
+    printf '%s\n' "$logline"
+    [[ "${logline}" == "${logline_success}" ]] && exit 0
+    [[ "${logline}" == "${logline_failure}" ]] && exit 1
+done < <(timeout "${time_out}" tail -f "$log")
+exit 3
+}
+
+
+function update_datas() {
+    export data_file CHMOD x z PROMPTFILE FIND DIR_VOX sig_dir sig_ext GREP CP RM TOP echov
+    declare -x -g FIND
+    command "$TOP"/bin/update_datas.sh || exit 
+}
+export -f update_datas
+
+# expected as prequisite of an action and expected as a "result" temoin_dir1 temoin_dir2 temoin_files
+function expected_list_files (){
+    # When a match is found, the corresponding list is executed.  
+    # If the ;; operator is used, no subsequent matches are attempted after the first pattern match.
+
+    case "$1" in
+    do_build_build_prompts) { temoin_files=()
+                            requisite_files=()
+                            temoin_dir1=()
+                            temoin_ext1=()
+                            temoin_dir2=()
+                            temoin_ext2=() ;};;
+
+    do_build_setup)        { temoin_files=("./ehmm/etc/mysp_settings")
+                            requisite_files=()
+                            temoin_dir1=()
+                            temoin_ext1=()
+                            temoin_dir2=()
+                            temoin_ext2=(); };;
+    do_build_phseq) temoin_files=("./ehmm/etc/txt.phseq.data" "./ehmm/etc/ph_list" "./ehmm/etc/mywavelist") requisite_files=() temoin_dir1=() temoin_ext1=() temoin_dir2=() temoin_ext2=();;
+    do_build_feats) temoin_files=("./mvar.txt" "./tmp.txt") requisite_files=() temoin_dir1=() temoin_ext1=() temoin_dir2=() temoin_ext2=();;
+    do_build_bw) temoin_files=("./ehmm/etc/ph_list.int_log" "./ehmm/mod/log100.txt" "./ehmm/mod/model100.txt" "./ehmm/mod/model101.txt") requisite_files=() temoin_dir1=() temoin_ext1=() temoin_dir2=() temoin_ext2=();;
+    do_build_align) temoin_files=("./etc/statenames" "./ehmm/mod/log101.txt") requisite_files=() temoin_dir1=() temoin_ext1=() temoin_dir2=() temoin_ext2=();;
+    do_build_standardize_statenames) temoin_files=("./etc/mapstatenames.awk" "./etc/statenames.ehmm" "./etc/statenames.bak") requisite_files=() temoin_dir1=() temoin_ext1=() temoin_dir2=() temoin_ext2=();;
+    do_clustergen_desc)     { requisite_files=("etc/statenames")
+                              temoin_files=("festival/clunits/statenames" "festival/clunits/phonenames" "festival/clunits/mcep.desc" "festival/clunits/all.desc" "festival/clunits/mceptraj.desc")
+                              temoin_dir1=()
+                              temoin_ext1=()
+                              temoin_dir2=()
+                              temoin_ext2=() ;} ;;
+    do_build_build_utts) requisite_files=() temoin_files=()  temoin_dir1=() temoin_ext1=() temoin_dir2=() temoin_ext2=() ;;
+    do_clustergen_f0) requisite_files=() temoin_files=()  temoin_dir1=() temoin_ext1=() temoin_dir2=() temoin_ext2=() ;;
+    do_clustergen_mcep) requisite_files=() temoin_files=()  temoin_dir1=() temoin_ext1=() temoin_dir2=() temoin_ext2=() ;;
+    do_clustergen_voicing) requisite_files=() temoin_files=()  temoin_dir1=() temoin_ext1=() temoin_dir2=() temoin_ext2=() ;;
+    do_clustergen_combine_coeffs) requisite_files=() temoin_files=()  temoin_dir1=() temoin_ext1=() temoin_dir2=() temoin_ext2=() ;;
+    do_clustergen_generate_statenames) requisite_files=("etc/statenames") temoin_files=()  temoin_dir1=() temoin_ext1=() temoin_dir2=() temoin_ext2=() ;;
+    do_clustergen_generate_filters) requisite_files=() temoin_files=()  temoin_dir1=() temoin_ext1=() temoin_dir2=() temoin_ext2=() ;;
+    do_clustergen_cluster) requisite_files=() temoin_files=()  temoin_dir1=() temoin_ext1=() temoin_dir2=() temoin_ext2=() ;;
+    do_clustergen_dur) requisite_files=() temoin_files=()  temoin_dir1=() temoin_ext1=() temoin_dir2=() temoin_ext2=() ;;
+    do_clustergen_festvox_dist_cg) { requisite_files=("festival/trees/INST_LANG_VOX_f0.tree" "festival/trees/INST_LANG_VOX_mcep.tree" "festival/trees/INST_LANG_VOX_mcep.params")
+                                     temoin_files=("festival/lib/voices/LANG/INST_LANG_VOX_cg/festvox_INST_LANG_VOX_cg.tar.gz")
+                                     temoin_dir1=()
+                                     temoin_ext1=()
+                                     temoin_dir2=()
+                                     temoin_ext2=() ;} ;;
+
+     *) temoin_files=("truc");;
+    esac }
+export -f expected_list_files
+
+# The exit status of a function definition is zero unless a syntax error occurs or a readonly function with the same name
+# already exists.  When executed, the exit status of a function is the exit status of the last command executed in  the  body.
+enforce_requisite(){
+    # usage action 
+    expected_list_files "$1"
+    # check requisites and allow/stop
+    ok=1
+    for file in "${requisite_files[@]}"; do
+        if [[ ! -s "$file" ]]; then ok=0; missing=$file; continue; fi
+    done
+    if [[ "$ok" == "0" ]]; then 
+        echo at least a requisite is missing "$missing" >/dev/stdout
+        echo check them all : "${requisite_files[*]}" > /dev/stdout
+        exit 1
+    fi
+}
+export -f enforce_requisite
+
+# final ex:pour do_build_feats, pas ("./ehmm/feat" ".txt") ni (ehmm/feat" ".mfcc") ou
+# ("./ehmm/binfeat" ".ft")
+# mais seulement le dernier construit ("./ehmm/binfeat" ".scaledft")
+# pb différent pour build_prompts création "simultanée de 2 répertoires distinctes
+# prompt_lab_dir et prompt_utt_dir
+# syntaxe name=(  key1  value1  key2  value2  ...)
+
+#    do ehmm_phseq) temoin_dir=("");&
+
+
+
+
+
+default() {
+    echo 'are you afraid of missing files or exports ?'
+    echo "${list_ext}"
+    echo "${DIR_VOX}"
+    # ls -l "${DIR_VOX}"/wav
+    # TODO virer les non .sh
+   shellcheck -ax ./build ./bin/*.sh # || true
+    expected_list_files "do_clustergen_desc"
+    # check requisites and allow/stop
+    ok=1
+    echo "just checking"
+    for file in "${requisite_files[@]}"; do
+        echo "${DIR_VOX}"/"$file"
+        if [[ ! -s "${DIR_VOX}"/"$file" ]]; then ok=0; missing=$file; continue; fi
+    done
+    if [[ "$ok" == "0" ]]; then 
+        echo at least a requisite is missing "$missing"
+        echo check them all : "${requisite_files[*]}"; exit 66
+    fi
+    
+}
+# shellcheck disable=SC2317
+# mon bac à sable personnel
+bac() {
+    action_do_clustergen_generate_statenames
+
+    # TODO our own ?
+    action_do_clustergen_generate_filters
+    action_do_clustergen_cluster
+    action_do_clustergen_dur
+    # export NEW=1; export VARIANTE="scratch; ./build our_setup_cg
+    # export NEW=0; export VARIANTE="scratch"; ./build common_cg
+    # new_scratch 'dry-run'
+    #new_scratch 'run'
+    #stepstamp "bidon"
+    #__verif_functions
+    #wcl './bin/truc.sh'
+    #./bin/truc.sh
+}
+
+our_setup_cg() {
+    if [[ "$NEW" == "1" ]] ; then
+        #                                   vanilla setup_cg
+        setup_cg;
+        echo "**"the apriori vanilla vox files are to be replaced
+        rm -r -f -I "${DIR_VOX}"/festvox
+        #                                   the wav folder
+        # rmdir supprimer le ou les RÉPERTOIRE, s'ils sont vides. (sans l'option --ignore-fail-on-non-empty )
+        rmdir "$WAV" || rm -f -I "$WAV" || exit 66
+        #                                   création de répertoires supplémentaires
+        ourfolders
+        #
+        echo "*"we don\'t remove the eventual stamps
+        # rm -r -f "${STAMPS}"; mkdir "${STAMPS}"
+        echo our tempary folder would be: "$tmpdir"
+    fi
+    # rsync permet hopefully de respecter des modifications personnelles
+    #                                   our vox files
+    ourfestvox1
+    #                                   our ADDENDA 
+    ouraddenda
+    # par exemple en imposant un txt.done.data préalable dans INST_LANG_VOX_cg/etc
+    #                                   our txt.done.data
+    ourtextdonedata
+    # avec élmination de l'éventuel do_clustergen vanilla
+    ourbin
+    # devrait permettre un soft link, après tout les variantes apriori ne dépendent pas des waves
+    #                                   the waves
+    ourwav
+    #
+    #in the French case, our proposed f0.params
+    ourf0params
+    ourconveniencebinlinks
+    echov setup_cg
+    update_datas;
+    # stop pour permettre de créer une voix *vide* pour future référence 
+    NEW=0;
+}
+
+
+sync_file () {
+    echo "$1" "$2" > /dev/stdout
+    echo "${RSYNC}" "${RSYNC_PARAMS[@]}"
+    "${RSYNC}" "${RSYNC_PARAMS[@]}" "$1" "$2" > /dev/stdout
+}
+
+action(){
+    # usage action $1 $2
+    # action do_clustergen_desc do_clustergen cherchera d'abord bin/do_clustergen.desc.sh, sinon revient à l'option desc
+    # l'excutable do_clustergen contenu dans le répertoire festvox
+    local ok missing
+    step="$1"
+    # do_build, do_ehmm, do_clustergen possibles, pour l'instant on se passe de la distinction do_ehmm
+    # au prix d'un manque de transparence do_build_setup concerne le setup de do_ehmm 
+    refer="$2"
+    # not strictly needed in every case
+    # but the name $step is internal (in the first case)
+    prg="${TOP}"/bin/"$step".sh;
+    echo debug prg: "$prg"
+    option="$(basename --suffix .sh "$prg")"
+    option="${option#"$refer"_}"
+    echo option "$option"
+    echov "       step: $step";
+
+    cd "${DIR_VOX}" || { echo did you specify the right VARIANTE "?";  exit 66 ;}
+    mkdir -p "$(name_tmpdir_action "$option")"
+    mkdir -p "$STAMPS"
+    touch "$STAMPS"/now "$STAMPS"/now_"$option" || exit 67
+    # read the expectations function of $option
+    expected_list_files "$1" # do_clustergen_desc
+    # check requisites and allow/stop
+    enforce_requisite "$1" || exit 6
+    if [[ -s "$prg" ]]; then
+        echo "we have our own version"
+        shellcheck -x "$prg" || { echo check the code; exit 66; }
+        chmod +x "$prg";
+        instr="$(command -v "$prg")"
+        echo we will now run: "$instr"
+        command "$instr"
+    else
+        # ${parameter%%pattern}
+        # paramter# The 'pattern' is matched against the beginning of 'parameter;  The result is the expanded value of 'parameter' with the shortest match deleted.
+        echo 'for this step, until now, we dont use our own version'
+        instr="$(command -v bin/"$refer")"
+        echo we will now run: "$instr" with the option "$option"
+        command "$instr" "$option"
+     fi
+     # check results and conclue
+     if [ "${invest:-1}" = "1" ] ; then quehapassado "$step" './' ; fi
+}
+export -f action
+# TODO
+HEAPSIZE=2000000
+export HEAPSIZE
+
+action_do_build_build_prompts(){
+ action do_build_build_prompts do_build
+}
+action_do_build_setup(){
+ action do_build_setup do_build
+}
+action_do_build_phseq(){
+ action do_build_phseq do_build
+}
+action_do_build_feats(){
+ action do_build_feats do_build
+}
+action_do_build_bw(){
+ action do_build_bw do_build
+}
+action_do_build_align(){
+ action do_build_align do_build
+}
+action_do_build_standardize_statenames(){
+ action do_build_standardize_statenames do_build
+}
+action_do_build_build_utts(){
+ action do_build_build_utts do_build
+}
+
+# TODO changer 2e lgne des ex do_ehmm*
+trunk_cg(){
+    # TODO our own ?
+    action_do_build_build_prompts
+    action_do_build_setup
+    action_do_build_phseq
+    action_do_build_feats
+    action_do_build_bw
+    action_do_build_align
+    action_do_build_standardize_statenames
+    action_do_clustergen_desc
+    # TODO our own ?
+    action_do_build_build_utts
+}
+
+action_do_clustergen_f0(){
+	 action do_clustergen_f0 do_clustergen
+}
+action_do_clustergen_mcep(){
+	 action do_clustergen_mcep do_clustergen
+}
+action_do_clustergen_voicing(){
+	 action do_clustergen_voicing do_clustergen
+}
+action_do_clustergen_combine_coeffs(){
+	 action do_clustergen_combine_coeffs do_clustergen
+}
+action_do_clustergen_generate_statenames(){
+     # we don't accept a missing etc/statenames 
+	 action do_clustergen_generate_statenames do_clustergen
+}
+action_do_clustergen_generate_filters(){
+	 action do_clustergen_generate_filters do_clustergen
+}
+# dans la version vanilla, le calcul de mcep.desc est fait au niveau de clustergen "generate_statenames"  à partir d'un modèle 
+# qui même adapté donnera des gpos non voulus, provoquant des bad values lors de l'action cluster
+# on garde le nom en do_cluster mais on le fait en do build.
+# si l'on veut utiliser la version vanilla pour l'action generate_statenames, il faut supprimer ce qui suit
+# après le commentaire # Wagon .desc file
+# et fournir un etc/statenames ( obligatoire pas de if -f etc/statenames et on exige qu'il soit non vide ...
+action_do_clustergen_desc(){
+    action do_clustergen_desc do_clustergen
+}
+action_do_clustergen_cluster() {
+    action do_clustergen_cluster do_clustergen
+}
+action_do_clustergen_dur() {
+    action do_clustergen_dur do_clustergen
+}
+# for a simple cg type, vanilla do_clustergen cares for both simple cg and random forest one
+# de plus du moment de mettre en place on doit changer le INST_LANG_VOX_cg.scm
+# dans le build on chargeit prélblement un fichier "local" festvox/safeload.scm
+# on doit ajouter après
+# ;;;  Add the directory contains general voice stuff to load-path
+# (set! load-path (cons (path-append INST_LANG_VOX::dir "festvox/") 
+#		      load-path))
+
+#(set! load-path (cons (path-append libdir "INST_LANG/")
+#		      load-path))
+#(set! load-path (cons (path-append lexdir "INST_LANG/")
+#		      load-path))
+
+#(require 'INST_LANG_phones)
+#(require 'INST_LANG_token)
+#(require 'INST_LANG_VOX_phoneset)
+#(INST_LANG_VOX::select_phoneset)
+# now the patch is festvox/patch_INST_LANG_VOX_cg
+# but the 2 first has to be changed 
+# they are hard-coded
+# check if the file cn be used in the build, makes it simpler, now that the safelod is OK !
+# but probbly work to do for clunits.scm
+# and anyway, we need to change the INST LANG and VOX
+# TODO
+
+action_do_clustergen_festvox_dist_cg() {
+    action do_clustergen_festvox_dist_cg do_clustergen
+}
+
+# without SPTK
+classic_cg() {
+    export -n SPTKDIR
+    action_do_clustergen_f0
+
+    # TODO our own ?
+    action_do_clustergen_mcep
+
+    # TODO our own ?
+    action_do_clustergen_voicing
+    action_do_clustergen_combine_coeffs
+
+    # TODO our own ? I've prefered to change  do_clustergen and  raise an issue in festvox
+    action_do_clustergen_generate_statenames
+
+    # TODO our own ?
+    action_do_clustergen_generate_filters
+    action_do_clustergen_cluster
+    action_do_clustergen_dur
+}
+
+apres_chgt_desc() {
+    action_do_clustergen_desc
+    action_do_build_build_utts
+    action_do_clustergen_generate_statenames
+    action_do_clustergen_generate_filters
+    action_do_clustergen_cluster
+    action_do_clustergen_dur
+}
+issue_make_f0_pm() {
+    # shellcheck disable=SC2006,SC2034,SC2086
+    { cd "${DIR_VOX}"
+    fname="neut_book_s01_0001"
+    cp pm_unfilled/$fname.pm pm_unfilled/$fname.native.pm || true
+
+    F0MIN=50
+    F0MAX=200
+    F0MEAN=110
+    F0_ARGS=`echo $F0MIN $F0MAX $F0MEAN | awk '{printf("-min %f -max %f -def %f",1.0/$2,1.0/$1,1.0/$3)}'`
+    PM_ARGS='-wave_end -lx_lf 140 -lx_lo 111 -lx_hf 80 -lx_ho 51 -med_o 0'
+    $ESTDIR/bin/ch_wave -scaleN 0.9 wav/$fname.wav -F 16000 | 
+    $ESTDIR/bin/pitchmark -o pm_unfilled/$fname.pm -otype est $PM_ARGS $F0_ARGS ;}
+    # TODO
+    # Write access failed for temporary file
+    # Cannot open file TMP/est_868612_00000 as tokenstream
+    # Wave load: can't open file "TMP/est_868612_00000"
+    # Cannot recognize file format or cannot access file: "-"
+    # explanation pitchmark a pour entrée un nom de fichier et non un wav
+}
+issue_suggest_make_f0_pm() {
+    # shellcheck disable=SC2006,SC2034,SC2086
+    { cd "${DIR_VOX}"
+    fname="neut_book_s01_0001"
+    cp pm_unfilled/$fname.pm pm_unfilled/$fname.native.pm || true
+
+    F0MIN=50
+    F0MAX=200
+    F0MEAN=110
+    F0_ARGS=`echo $F0MIN $F0MAX $F0MEAN | awk '{printf("-min %f -max %f -def %f",1.0/$2,1.0/$1,1.0/$3)}'`
+    PM_ARGS='-wave_end -lx_lf 140 -lx_lo 111 -lx_hf 80 -lx_ho 51 -med_o 0'
+    
+    # pitchmark as a file name as input
+    "$ESTDIR"/bin/ch_wave -scaleN 0.9 -F 16000 wav/"$fname".wav -o tmp_"$fname"
+    "$ESTDIR"/bin/pitchmark -o pm_unfilled/"$fname".pm -otype est  $PM_ARGS $F0_ARGS tmp_"$fname" ;}
+}
+
+issue_desc(){
+    cd "${DIR_VOX}"
+    mv 'festival/clunits/mcep.desc' 'festival/clunits/mcep_native.desc'
+    cp 'issues/mcep.desc' 'festival/clunits/mcep.desc'
+    action_do_clustergen_desc
+    action_do_clustergen_cluster
+}
+
+issue_build_clunits(){
+    # Possible misspelling: EST may not be assigned.
+    # shellcheck disable=SC2153
+    # ;; to stop that var name being mapped.
+    (system
+     (format nil "$EST%s/bin/ch_track" "DIR" )) 
+}
+
+erreur_() {
+    local message action
+    # TODO
+    # shellcheck disable=SC2006,SC2034,SC2086
+    message=$1
+    # Error reading ESPS file ccoefs/neut_book_s01_0001.mcep
+    #  in clustergen cluster
+    # grep: festival/clunits/mcep.desc-old
+    # grep: festival/clunits/mcep.desc: No such file or directory
+
+    # Have you run the action  action do_clustergen_desc do_clustergen ?
+    # Is there the right mcep.desc inside your models folder ?
+
+    # check the existence of the file statenames in festival/clunits/statenames
+    # should have been generated in do_build_standardize_statenames
+    # it is needed in do_clustergen_generate_statenames
+    
+    # check that you have not a vanilla bin/clustergen 
+    
+    # we rely, in general, on the set stanza set -eauo pipefail -
+    # TODO code our own version of do_clustergen generate_statenames
+    
+    # Error reading ESPS file .//festival/trees/INST_LANG_VOX_mcep.params
+    # Cannot load track: .//festival/trees/INST_LANG_VOX_mcep.params
+    # SIOD ERROR: could not open file .//festival/trees/INST_LANG_VOX_mcep.tree
+    # in clustergen cluster
+    # misuse of if [ ! "$needtodoit" ]; then
+
+    # we will now run: /home/dop7/MyDevelop/theotherway/bin/do_clustergen_dur.sh
+    #;;; Finding mean durations and standard deviation of each phone type
+    # Cannot open file festival/utts_hmm/neut_parl_s01_0081.utt as tokenstream
+    #load_utt: can't open utterance input file festival/utts_hmm/neut_parl_s01_0081.utt
+    # in do_clustergen_dur
+    # dans make_dur_model_mcep 
+    # regarder (clustergen::process_utts numbered_files)
+}
+our_issue_do_clustergen_f0(){
+    echo "solution on the way";
+    # Write access failed for temporary file
+    # Cannot open file TMP/est_1021008_00000 as tokenstream
+    # Wave load: can't open file "TMP/est_1021008_00000"
+
+    # do_clustergen_f0
+    # in the mean time use our own f0.params, find_stats ne marche plus
+}
+
+build_cg_voice() {
+    mkdir -p "${DIR_VOX}"
+    our_setup_cg
+    trunk_cg
+    classic_cg
+}
+
+setup_cg() {
+    chmod +x ./bin/setup_cg.sh
+    export BUILD VARIANTE ESTDIR FESTVOXDIR
+    command ./bin/setup_cg.sh
+    if [[ ! -d "${modele}"/INST_LANG_VOX_cg/festival/clunits ]]; then
+        echo 'check the modele you exported'
+        ls -l "${modele}"
+        exit 66
+    fi
+    cd "${DIR_VOX}" || exit 67
+    rm festival/clunits/mceptraj.desc festival/clunits/mcep.desc festival/clunits/all.desc
+    touch festival/clunits/all.desc
+    cp -p "${modele}"/INST_LANG_VOX_cg/festival/clunits/posnames  festival/clunits/posnames || exit 66
+}
+
+ourfestvox1() {
+    sync_file "${modele}"/INST_LANG_VOX_cg/festvox "${DIR_VOX}"/
+    # important utilisé dans festvox/clunits_build.scm alors que le vanilla (require 'clunits) est contrarié par notre (set! provided nil) 
+    ln -v -f -s "${FESTIVALDIR}"/lib/clunits.scm "${BUILD}"/"${VARIANTE}"/INST_LANG_VOX_cg/festvox    
+    ln -b -s "$FESTIVALDIR"/lib/clunits.scm "${DIR_VOX}"/festvox
+    # our own statedur.scm voir issue_use_poslex dans clustergen TODO
+    # without gpos at least and our own desc models
+    sync_file "${modele}"/INST_LANG_VOX_cg/festvox "${DIR_VOX}"/
+}
+
+ouraddenda() {
+    sync_file "${modele}"/INST_LANG_VOX_cg/ADDENDA "${DIR_VOX}"/
+}
+
+ourtextdonedata() {
+    mkdir -p "${DIR_VOX}"/etc
+    sync_file "${modele}"/INST_LANG_VOX_cg/etc/txt.done.data "${DIR_VOX}"/etc
+}
+
+ourbin() {
+    # to reset the binary folder to our own defaults
+    # usage export NEW=1 export VARIANTE=scratch ./build ourbin
+    if [[ "$NEW" == "0" ]]; then 
+        sync_file "${modele}"/INST_LANG_VOX_cg/bin "${DIR_VOX}"/
+    else
+        # on simplifie, pas de personnalisation préalable
+        cp -rf "${modele}"/INST_LANG_VOX_cg/bin/ "${DIR_VOX}" || { echo 'our executables were not all copied into the bin directory' ; exit 66 ; }
+    fi
+    # at minima neutralisant les changements de bin/do_clustergen des all.desc, mcep.desc et mcep_traj.desc
+    # à générer avant d'effectuer ./bin/do_clustergen generate_statenames
+    # première étape de clustering
+    # TODO tant que le vanilla do_clustergen n'est pas francophile
+    if [[ -e "${DIR_VOX}"/bin/do_clustergen ]];  then
+        # notre copie ou pas, bénéfice du doute, responsabilité de l'user 
+        diff -q  "$FESTVOXDIR"/src/clustergen/do_clustergen "${DIR_VOX}"/bin/do_clustergen >/dev/null || true;
+    else 
+       echo we need to remove the vanilla script do_clustergen; 
+       rm -i "${DIR_VOX}"/bin/do_clustergen || { echo we can\'t remove the vanilla script do_clustergen; exit 66 ;}
+    fi
+    #chmod never changes the permissions of symbolic links; the chmod system call cannot change their permissions.  This is not a problem since
+    #   the  permissions  of symbolic links are never used.  However, for each symbolic link listed on the command line, chmod changes the permissions of the pointed-to file.  In contrast, chmod ignores symbolic links encountered during recursive directory traversals.
+
+    chmod -c -R +x "${DIR_VOX}"/bin || exit 67
+
+}
+
+ourwav(){
+    # rmdir supprimer le ou les RÉPERTOIRE(s), s'ils sont vides. (sans l'option --ignore-fail-on-non-empty )
+    if [[ -d "$WAV" ]] ; then rmdir "$WAV" || { echo your folder wav is not empty;}; fi
+    # rsync the folder not the contents !
+    # sync_file "${waves16}"/ "${DIR_VOX}"/wav
+    if [[ ! -d "$WAV" ]]; then ln -v -f -s "${waves16}" "${DIR_VOX}"/wav ; fi
+}
+
+ourf0params(){
+    cp -b ${modele}/INST_LANG_VOX_cg/etc/f0.params "${DIR_VOX}"/etc/
+}
+ourconveniencebinlinks() {
+    # would be useful in build_cluster
+    ln -f -s "${ESTDIR}"/bin/wagon "${BUILD}"/"${VARIANTE}"/INST_LANG_VOX_cg/bin
+    ln -f -s "${ESTDIR}"/bin/ch_track "${BUILD}"/"${VARIANTE}"/INST_LANG_VOX_cg/bin
+    ln -f -s "${ESTDIR}"/bin/ch_wave "${BUILD}"/"${VARIANTE}"/INST_LANG_VOX_cg/bin
+    ln -f -s "${ESTDIR}"/bin/wagon_test "${BUILD}"/"${VARIANTE}"/INST_LANG_VOX_cg/bin
+
+    # no more $ESTDIR/../festival
+    ln -f -s "${FESTIVALDIR}"/bin/festival "${BUILD}"/"${VARIANTE}"/INST_LANG_VOX_cg/bin
+
+}
+ourfolders() {
+# dissociés du modèle x raison(s)
+# TODO
+# syntaxe importante "${myfiles[@]}"
+REQUIRED_DIRS=(
+	 "${DIR_VOX}/${coeffs_dir}"
+	 "${DIR_VOX}/${catalogue_dir}"
+	 "${DIR_VOX}/${ccoefs_dir}"
+	 "${DIR_VOX}/${disttabs_dir}"
+	 "${DIR_VOX}/${dur_dir}/data"
+	 "${DIR_VOX}/${dur_dir}/etc"
+	 "${DIR_VOX}/${dur_dir}/feats"
+	 "${DIR_VOX}/${dur_dir}/tree"
+	 "${DIR_VOX}/${dur_dir}"
+	 "${DIR_VOX}/${ehmm_dir}/binfeat"
+	 "${DIR_VOX}/${ehmm_dir}/etc"
+	 "${DIR_VOX}/${ehmm_dir}/feat"
+	 "${DIR_VOX}/${ehmm_dir}/mod"
+	 "${DIR_VOX}/${ehmm_dir}"
+	 "${DIR_VOX}/${etc_dir}"
+	 "${DIR_VOX}/${f0_dir}"
+	 "${DIR_VOX}/${feats_dir}"
+	 "${DIR_VOX}/${festival_dir}"
+	 "${DIR_VOX}/${filters_dir}"
+	 "${DIR_VOX}/${firfilters_dir}"
+	 "${DIR_VOX}/${lab_dir}"
+	 "${DIR_VOX}/${mcep_deltas_dir}"
+	 "${DIR_VOX}/${mcep_dir}"
+	 "${DIR_VOX}/${mcep_sptk_dir}"
+	 "${DIR_VOX}/${minmax_dir}"
+	 "${DIR_VOX}/${pm_dir}"
+	 "${DIR_VOX}/${pm_unfilled_dir}"
+	 "${DIR_VOX}/${prompt_lab_dir}"
+	 "${DIR_VOX}/${prompt_utt_dir}"
+	 "${DIR_VOX}/${raw_dir}"
+	 "${DIR_VOX}/${sf_dir}"
+	 "${DIR_VOX}/${sig_dir}"
+	 "${DIR_VOX}/${split_dir}"
+	 "${DIR_VOX}/${stamps_dir}"
+	 "${DIR_VOX}/${sptk_f0_dir}"
+ 	 "${DIR_VOX}/${tmpdir}"
+     "${DIR_VOX}/${trees_dir}"
+	 "${DIR_VOX}/${trees_hmm_dir}"
+	 "${DIR_VOX}/${utts_dir}"
+	 "${DIR_VOX}/${utts_hmm_dir}"
+	 "${DIR_VOX}/${v_dir}" )
+	 for dir in "${REQUIRED_DIRS[@]}"; do
+        if  [[ ! -d "$dir" ]] ; then
+        echov "                            $dir est/était peut-être aussi requis" ;
+        mkdir -p "$dir";
+        fi
+     done
+}
+# to allow the same build with a different ttd
+our_cleanfolders() {
+    TOBECLEANED_DIRS=(
+	 "${DIR_VOX}/${coeffs_dir}"
+	 "${DIR_VOX}/${ccoefs_dir}"
+	 "${DIR_VOX}/${disttabs_dir}"
+	 "${DIR_VOX}/${dur_dir}/data"
+	 "${DIR_VOX}/${dur_dir}/feats"
+	 "${DIR_VOX}/${dur_dir}/tree"
+	 "${DIR_VOX}/${ehmm_dir}/binfeat"
+	 "${DIR_VOX}/${ehmm_dir}/etc"
+	 "${DIR_VOX}/${ehmm_dir}/feat"
+	 "${DIR_VOX}/${ehmm_dir}/mod"
+	 "${DIR_VOX}/${filters_dir}"
+	 "${DIR_VOX}/${firfilters_dir}"
+	 "${DIR_VOX}/${utts_dir}"
+	 "${DIR_VOX}/${utts_hmm_dir}"
+	 "${DIR_VOX}/${v_dir}" )
+	 for dir in "${TOBECLEANED_DIRS[@]}"; do
+        { find -L "$dir" -maxdepth 1 -type f -delete ; }
+     done
+}
+
+
+scratch_clean_voice() {
+    # usage : export scratch_clean=scratch_clean03 ;  ./build scratch_clean_voice
+    echov "VARIANTE: $VARIANTE"
+    NEW=1; export NEW ; export VARIANTE="${scratch_clean}"; ./build our_setup_cg;
+}
+
+new_scratch() {
+    # usage export  scratch_clean=scratch_clean03 scratch=scratch ; new_scratch 'dry-run'
+    # création ou mise au propre de scratch
+    # / final pour le répertoire source
+    # -n ou --dry-run
+    # TODO changer de paramètre n au lieu de 1 ?
+    local dat
+    dat=$(date +%s)
+    run="${run:-'dry-run'}"
+    source="${source:-"$BUILD"/"${scratch_clean}"}"/
+    target="${target:-"$BUILD"/"${scratch}"}"/
+    output="${output:-"$BUILD"/rsync_scratch_"$dat"}"
+    echov "source: $source, target: $target output $output" 
+    if [[ ! -d "$source" ]] || [[ ! -d "$target" ]]; then
+        printf 'check the existence of your source or target directory: source: %s target:%s' "$source" "$target"; exit 66
+    fi
+    touch "$output" || { echo check you permission on "$output"; exit 67 ;}
+    echo run: "$run"
+    # --dry-run, -n
+    # --times, -t
+    # --perms, -p              preserve permissions
+    # --owner, -o              preserve owner (super-user only)
+    # --group, -g              preserve group
+    # --verbose, -v            increase verbosity
+    # --links, -l              copy symlinks as symlinks
+    # --omit-dir-times, -O     omit directories from --times
+    # --protect-args, -s       no space-splitting; wildcard chars only
+    # --itemize-changes, -i    output a change-summary for all updates
+    # --checksum, -c
+    if [[ "$run" == "run" ]]; then
+       printf -v commande "rsync -r -t -p -o -g -v --progress -l -i -s --log-file=%s %s %s" "$output" "$source" "$target"
+       printf "are you sure you want to run the not fully tested:%s ?\n" "$commande"
+       command -v "$commande"
+    else
+        # -t -p -o -g -v -l -i -s
+        
+        rsync -n -O --itemize-changes --info=NAME2 -r  --log-file="$output" "$source" "$target"
+    fi
+    echo the log-file is "$output"
+
+}
+
+__verif_seta() {
+    prg=bin/__verif_seta.sh
+    shellcheck -x "$prg"
+    chmod +x "$prg"
+    export TEST=test
+    command "$prg" || { echo "probleme détecté" ; exit 63 ; }
+}
+
+__verif_function() {
+    # usage __verif_function 'seta'
+    local fonction
+    fonction="$1"
+    prg=bin/__verif_"$fonction".sh
+    chmod +x "$prg" # assure le caractère exécutable (et donc l'existence)
+    shellcheck -x "$prg" || { echo "probleme code détecté" >/dev/stderr ; exit 64 ; }
+    "$prg" || { printf  'probleme fonction détecté: %s' "$fonction" >/dev/tty; exit 67 ; }
+    exit
+}
+export -f __verif_function
+
+__verif_functions() {
+    local fct
+    for fct in "update_datas" "seta" "wcl"; do
+        echo function : "$fct" > /dev/tty
+       ( __verif_function "$fct" ) || { echo "$?" > /dev/tty ;};
+    done
+
+}
+oneway() {
+    ( NEW=1; export NEW ; VARIANTE=vanilla; export VARIANTE;  ./build setup_cg )
+    # scratch_clean
+        # avec changement de VARIANTE grâce à l'export et l'utilisation de $0
+     VARIANTE="${scratch_clean}" ; export VARIANTE; "$0"  scratch_clean_voice
+}
+
+# TODO autoriser succession de taches
+
+# TODO dans quehapassado, toucher en premier le fichier, avant de checrher à le remplir
+# TODO dans cluster on a get_param default wagon_other_params ""
+# TODO TODO mettre à jour et compléter les expected_list_files
+# TODO mettre au point la procédure systématique minima, expected, 
+# TODO pack the voice : in progress
+# TODO cg test
+
+if [ "$#" -eq 0 ]; then
+    DEFAULT_TASK="${DEFAULT_TASK:-default}"
+    "$DEFAULT_TASK"
+    exit 0
+fi
+
+if [ "$#" -eq 1 ]; then
+    DEFAULT_TASK="$1"
+    shift
+fi
+
+
+if [ "$#" -eq 0 ]; then
+    echo "${DEFAULT_TASK}"
+    "${DEFAULT_TASK}" #|| { echov "if ${DEFAULT_TASK}() exists, shellcheck the ./build itself" ; exit 66 ; }
+    exit 0
+fi
+
+
+
+
