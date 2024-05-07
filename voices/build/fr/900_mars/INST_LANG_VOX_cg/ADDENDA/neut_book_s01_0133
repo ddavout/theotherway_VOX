@@ -1,0 +1,13 @@
+(set! fileid "neut_book_s01_0133")
+(lex.add.entry '("gédéon_NAM" "NAM" (((zh e) 0) ((d e) 0) ((ohn) 0))))
+(lex.add.entry '("spilett_NAM" "NAM" (((s p i) 0) ((l eh t) 0))))
+(lex.add.entry '("marquait_VER" "VER" ((("m" "a" "rh") 0) (("k" "eh") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((t "o") 0)))); LIA
+(lex.add.entry '("premier_ADJ" "ADJ" ((("p" "rh" "ae") 0) (("m" "j" "e") 0))))
+(lex.add.entry '("rang_NOM" "NOM" ((("rh" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("délégués_NOM" "NOM" ((("d" "e") 0) (("l" "e") 0) (("g" "e") 0))))
+
+(set! text "gédéon Spilett marquait au premier rang de ces délégués.") ; neut_book_s01_0133
+(dSayText text)

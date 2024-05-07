@@ -1,0 +1,21 @@
+(set! fileid "neut_book_s01_0098")
+(lex.add.entry '("je_PRO:per" PRO:per ((("zh" "ae") 0))))
+(lex.add.entry '("vois_VER" VER ((("v" "w" "a") 0))))
+(lex.add.entry '("que_CON" CON (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" PRO:per ((("n" "u") 0))))
+(lex.add.entry '("commençons_VER" VER ((("k" "oh") 0) (("m" "ahn") 0) (("s" "ohn") 0))))
+(lex.add.entry '("à_PRE" PRE ((("a") 0))))
+(lex.add.entry '("nous_PRO:per" PRO:per ((("n" "u") 0))))
+(lex.add.entry '("entendre_VER" VER (((z "ahn") 0) (("t" "ahn")0) (("d" "rh" ae) 0)))) ; LIA
+(lex.add.entry '("monsieur_NOM" NOM (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("professeur_NOM" NOM ((("p" "rh" "oh") 0) (("f" "eh") 0) (("s" "oe" "rh") 0))))
+(lex.add.entry '("me_PRO:per" PRO:per (((m "ae") 0))))
+(lex.add.entry '("dit_VER" VER ((("d" "i") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("capitaine_NOM" NOM ((("k" "a") 0) (("p" "i") 0) (("t" "eh" "n") 0))))
+(lex.add.entry '("souriant_VER" VER ((("s" "u") 0) (("rh" "j" "ahn") 0))))
+(lex.add.entry '("à_demi_ADV" ADV (((t "a") 0))))
+
+(set! text "Je vois que nous commençons à nous entendre, monsieur le professeur, me dit le capitaine souriant à demi.") ; neut_book_s01_0098
+(dSayText text)

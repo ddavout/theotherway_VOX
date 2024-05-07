@@ -1,0 +1,6 @@
+(set! fileid "neut_book_s01_0150")
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" ((("m" "ae") 0) (("s" "j" "eu") 0))))
+(lex.add.entry '("cyrus_NAM" "NAM" (((s i) 0) ((rh y s) 0))))
+(set! text "oui, monsieur cyrus.") ; neut_book_s01_0150
+(dSayText text)

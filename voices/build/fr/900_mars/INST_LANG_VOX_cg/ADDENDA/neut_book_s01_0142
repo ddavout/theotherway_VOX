@@ -1,0 +1,27 @@
+(set! fileid "neut_book_s01_0142")
+;(lex.add.entry '("voyage_VER" "VER" ((("v" "w" "a") 0) (("j" "a" "zh") 0)))); confusion
+(lex.add.entry '("voyage_NOM" "NOM" ((("v" "w" "a") 0) (("j" "a" "zh") 0))))
+
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("fallait_VER" "VER" ((("f" "a") 0) (("l" "eh") 0))))
+(lex.add.entry '("compter_VER" "VER" ((("k" "ohn") 0) (("t" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("terre_NOM" "NOM" ((("t" "eh" "rh") 0))))
+(lex.add.entry '("vingt_deux_ADJ:num" "ADJ:num" ((("v" "ehn" t) 0) (("d" "eu") 0))))
+(lex.add.entry '("milles_NOM" "NOM" ((("m" "i" "l") 0))))
+(lex.add.entry '("environ_ADV" "ADV" ((("ahn") 0) (("v" "i") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("voyage"  nil ((("v" "w" "a") 0) (("j" "a" "zh") 0)))); confusion NOM VER ..TODO XXX PRE + VER impose l'infiniif
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("jours_NOM" "NOM" ((("zh" "u" "rh") 0))))
+(lex.add.entry '("suivant_PRE" "PRE" ((("s" "hw" i) 0) (("v" "ahn") 0))))
+(lex.add.entry '("l_opinion_NOM" "NOM" (((l "oh") 0) (("p" "i") 0) (("n" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0)))) 
+(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
+(lex.add.entry '("oncle_NOM" "NOM" (((n "ohn")0) (("k" "l" ae) 0)))); LIA
+
+
+(set! text "il fallait compter par terre vingt-deux milles environ, voyage à faire en deux jours, suivant l'opinion de mon oncle.") ; neut_book_s01_0142
+(dSayText text)

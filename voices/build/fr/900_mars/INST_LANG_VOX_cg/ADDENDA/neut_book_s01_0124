@@ -1,0 +1,12 @@
+(set! fileid "neut_book_s01_0124")
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("capitaine_NOM" "NOM" ((("k" "a") 0) (("p" "i") 0) (("t" "eh" "n") 0))))
+(lex.add.entry '("pressa_VER" "VER" ((("p" "rh" "e") 0) (("s" "a") 0))))
+(lex.add.entry '("trois_ADJ:num" "ADJ:num" (((t rh w a) 0))))
+(lex.add.entry '("fois_NOM" "NOM" ((("f" "w" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("timbre_NOM" "NOM" ((("t" "ehn" "b" "rh") 0))))
+(lex.add.entry '("électrique_ADJ" "ADJ" ((("e") 0) (("l" "e" "k") 0) (("t" "rh" "i" "k") 0))))
+
+(set! text "Le capitaine pressa trois fois, un timbre électrique.") ; neut_book_s01_0124
+(dSayText text)

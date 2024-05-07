@@ -1,0 +1,12 @@
+(set! fileid "neut_book_s01_01")
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("déjeuner_NOM" "NOM" (((d e) 0) ((zh oe) 0) ((n e) 0))))
+(lex.add.entry '("terminé_VER" "VER" ((("t" "eh" "rh") 0) (("m" "i") 0) (("n" "e") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("rendis_VER" "VER" ((("rh" "ahn") 0) (("d" "i") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("terre_NOM" "NOM" ((("t" "eh" "rh") 0))))
+
+(set! text "le déjeuner terminé, je me rendis à terre.") ; neut_book_s01_0099
+(dSayText text)

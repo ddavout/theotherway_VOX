@@ -1,0 +1,15 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("rapporteur_NOM" NOM ((("rh" "a") 0) (("p" "oh" "rh") 0) (("t" "oe" "rh") 0))))
+(lex.add.entry '("général_ADJ" "ADJ" ((("zh" "e") 0) (("n" "e") 0) (("rh" "a")0) (("l" ae) 0))))
+(lex.add.entry '("m_a_AUX" AUX (((m a) 0))))
+(lex.add.entry '("répondu_VER" "VER" ((("rh" "e") 0) (("p" "ohn") 0) (("d" "y") 0))))
+(lex.add.entry '("que_CON" "CON" (((k oe) 0)))); Q
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("l_absence_NOM" "NOM" (((l "a" "p") 0) (("s" "ahn" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("disposition_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("contraire_ADJ" "ADJ" ((("k" "ohn") 0) (("t" "rh" "eh" "rh") 0))))
+
+(set! text "le rapporteur général, m'a répondu que oui, en l'absence de disposition contraire.") ; neut_parl_s01_0022
+(dSayText text)

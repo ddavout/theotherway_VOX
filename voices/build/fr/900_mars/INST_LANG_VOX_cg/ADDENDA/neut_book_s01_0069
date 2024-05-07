@@ -1,0 +1,21 @@
+(set! fileid "neut_book_s01_0069")
+(lex.add.entry '("vers_PRE" PRE ((("v" "eh" "rh") 0))))
+(lex.add.entry '("sept_ADJ:num" "ADJ:num" (((s eh) 0))))
+(lex.add.entry '("heures_NOM" NOM (((t "oe" "rh") 0)))); LIA
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("soir_NOM" "NOM" ((("s" "w" "a" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("nautilus_NAM" "NAM" (((n o) 0) ((t i) 0) ((l y s) 0))))
+(lex.add.entry '("à_demi_ADV" "ADV" (((a) 0) ((d ae) 0) ((m i)0))))
+(lex.add.entry '("immergé_ADJ" "ADJ" ((("i") 0) (("m" "eh" "rh") 0) (("zh" "e") 0)))); confusion possible ADJ VER
+(lex.add.entry '("immergé_VER" "VER" ((("i") 0) (("m" "eh" "rh") 0) (("zh" "e") 0))))
+(lex.add.entry '("navigua_VER" "VER" ((("n" "a") 0) (("v" "i") 0) (("g" "a") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("milieu_NOM" "NOM" ((("m" "i") 0) (("l" "j" "eu") 0))))
+(lex.add.entry '("d_une_ART:ind" "ART:ind" (((d "y" "n") 0))))
+(lex.add.entry '("mer_NOM" "NOM" ((("m" "eh" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("lait_NOM" "NOM" ((("l" "eh") 0))))
+
+(set! text "vers sept heures du soir, le nautilus à demi immergé navigua au milieu d'une mer de lait.") ; neut_book_s01_0069
+(dSayText text)

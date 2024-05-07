@@ -1,0 +1,24 @@
+(set! fileid "neut_book_s01_0013")
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("premier_NOM" NOM ((("p" "rh" "ae") 0) (("m" "j" "e") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("s_avança_VER" VER (((s "a") 0) (("v" "ahn") 0) (("s" "a") 0))))
+(lex.add.entry '("était_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("seigneur_NOM" "NOM" ((("s" "e") 0) ((jg "oe" "rh") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("riche_ADJ" "ADJ" ((("rh" "i" "sh") 0))))
+(lex.add.entry '("nommé_VER" "VER" ((("n" "oh") 0) (("m" "e") 0))))
+(lex.add.entry '("itobad_NAM" "NAM" ((("i") 0) (("t" "oh") 0) (("b" "a")0) (("d" ae) 0))))
+(lex.add.entry '("fort_ADV" ADV ((("f" "oh" "rh") 0))))
+(lex.add.entry '("vain_ADJ" "ADJ" ((("v" "ehn") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("courageux_ADJ" "ADJ" ((("k" "u") 0) (("rh" "a") 0) (("zh" "eu") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("maladroit_ADJ" "ADJ" ((("m" "a") 0) (("l" "a") 0) ((d "rh" "w" "a") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("sans_PRE" PRE ((("s" "ahn") 0))))
+(lex.add.entry '("esprit_NOM" "NOM" (((z "e" "s") 0) (("p" "rh" "i") 0)))); LIA
+
+(set! text "le premier qui s'avança, était un seigneur très riche, nommé itobad, fort vain, peu courageux, très maladroit, et sans esprit.") ; neut_book_s01_0013
+(dSayText text)

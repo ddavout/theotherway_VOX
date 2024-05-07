@@ -1,0 +1,7 @@
+(set! fileid "neut_book_s01_0146")
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("grain_NOM" "NOM" ((("g" "rh" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("blé_NOM" "NOM" ((("b" "l" "e") 0))))
+(set! text "un grain de blé !") ; neut_book_s01_0146
+(dSayText text)

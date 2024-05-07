@@ -1,0 +1,16 @@
+(set! fileid "parl_s01_0026")
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("alsaciens_NOM" NOM (((z "a" "l") 0) (("z" "a") 0) (("s" "j" "ehn") 0)))); LIA
+(lex.add.entry '("ont_VER" "VER" ((("ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("suite_NOM" "NOM" ((("s" "hw" i "t") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("idées_NOM" NOM (((z "i") 0) (("d" "e") 0)))) ; LIA
+
+(set! text "les alsaciens ont de la suite dans les idées.") ; neut_parl_s01_0026
+(dSayText text)
+
+
+

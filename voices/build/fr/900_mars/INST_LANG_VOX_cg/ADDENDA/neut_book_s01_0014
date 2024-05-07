@@ -1,0 +1,48 @@
+(set! fileid "neut_book_s01_0014")
+(lex.add.entry '("après_PRE" "PRE" ((("a") 0) ((p rh eh) 0))))
+(lex.add.entry '("avoir_AUX" "AUX" (((z "a") 0) (("v" "w" "a" "rh") 0)))) ; LIA
+(lex.add.entry '("pansé_VER" "VER" ((("p" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("malheureux_NOM" "NOM" ((("m" "a") 0) (("l" "eu") 0) (("rh" "eu") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("rajustai_VER" VER ((("rh" "a") 0) (("zh" "y" "s") 0) (("t" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("linges_NOM" NOM ((("l" "ehn" "zh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("sa_ADJ:pos" "ADJ:pos" ((("s" "a") 0))))
+(lex.add.entry '("tête_NOM" "NOM" ((("t" "eh")0) (("t" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("retournai_VER" VER ((("rh" "ae") 0) (("t" "u" "rh") 0) (("n" "e") 0))))
+(lex.add.entry '("vers_PRE" PRE ((("v" "eh" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("capitaine_NOM" "NOM" ((("k" "a") 0) (("p" "i") 0) (("t" "eh" "n") 0))))
+(lex.add.entry '("nemo_NAM" "NAM" (((n e) 0) ((m o) 0))))
+
+
+(set! text "après avoir pansé ce malheureux, je rajustai les linges de sa tête, et je me retournai, vers le capitaine nemo.") ; neut_book_s01_0014
+(dSayText text)
+
+;id _21 ; name après ; pos_index 15 ; pos_index_score 0 ; pos PRE ; pbreak NB ; 
+;id _22 ; name avoir ; pos_index 9 ; pos_index_score 0 ; pos AUX ; pbreak NB ; 
+;id _23 ; name pansé ; pos_index 22 ; pos_index_score 0 ; pos VER ; pbreak NB ; 
+;id _24 ; name ce ; pos_index 1 ; pos_index_score 0 ; pos ADJ:dem ; pbreak NB ; 
+;id _25 ; name malheureux ; pos_index 13 ; pos_index_score 0 ; pos NOM ; pbreak B ; 
+;id _26 ; name je ; pos_index 19 ; pos_index_score 0 ; pos PRO:per ; pbreak NB ; 
+;id _27 ; name rajustai ; pos_index 22 ; pos_index_score 0 ; pos VER ; pbreak NB ; 
+;id _28 ; name les ; pos_index 7 ; pos_index_score 0 ; pos ART:def ; pbreak NB ; 
+;id _29 ; name linges ; pos_index 13 ; pos_index_score 0 ; pos NOM ; pbreak NB ; 
+;id _30 ; name de ; pos_index 15 ; pos_index_score 0 ; pos PRE ; pbreak NB ; 
+;id _31 ; name sa ; pos_index 5 ; pos_index_score 0 ; pos ADJ:pos ; pbreak NB ; 
+;id _32 ; name tête ; pos_index 13 ; pos_index_score 0 ; pos NOM ; pbreak B ; 
+;id _33 ; name et ; pos_index 10 ; pos_index_score 0 ; pos CON ; pbreak NB ; 
+;id _34 ; name je ; pos_index 19 ; pos_index_score 0 ; pos PRO:per ; pbreak NB ; 
+;id _35 ; name me ; pos_index 19 ; pos_index_score 0 ; pos PRO:per ; pbreak NB ; 
+;id _36 ; name retournai ; pos_index 22 ; pos_index_score 0 ; pos VER ; pbreak B ; 
+;id _37 ; name vers ; pos_index 15 ; pos_index_score 0 ; pos PRE ; pbreak NB ; 
+;id _38 ; name le ; pos_index 7 ; pos_index_score 0 ; pos ART:def ; pbreak NB ; 
+;id _39 ; name capitaine ; pos_index 13 ; pos_index_score 0 ; pos NOM ; pbreak NB ; 
+;id _40 ; name nemo ; pos_index 12 ; pos_index_score 0 ; pos NAM ; pbreak BB ; 
+
+(set! flat_expected "<{(0 a )(0 p  rh  eh )}{(0 a )(0 v  w  a  rh )}{(0 p  ahn )(0 s  e )}{(0 s  ae )}{(0 m  a )(0 l  eu )(0 rh  eu )}> _B <{(0 zh  ae )}{(0 rh  a )(0 zh  y  s )(0 t  e )}{(0 l  e )}{(0 l  ehn  zh )}{(0 d  ae )}{(0 s  a )}{(0 t  eh )(0 t  ae )}> _B <{(0 e )}{(0 zh  ae )}{(0 m  ae )}{(0 rh  ae )(0 t  u  rh )(0 n  e )}> _B <{(0 v  eh  rh )}{(0 l  ae )}{(0 k  a )(0 p  i )(0 t  eh  n )}{(0 n  e )(0 m  o )}> _BB ")

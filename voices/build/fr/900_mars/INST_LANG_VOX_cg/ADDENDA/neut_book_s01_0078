@@ -1,0 +1,23 @@
+(set! fileid "neut_book_s01_0078")
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("pensais_VER" VER ((("p" "ahn") 0) (("s" "eh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("car_CON" "CON" ((("k" "a" "rh") 0))))
+(lex.add.entry '("jusqu_ici_ADV" ADV ((("zh" "y" "s") 0) (("k" "i") 0) (("s" "i") 0))))
+(lex.add.entry '("toutes_ADJ" ADJ ((("t" "u" "t") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("tentatives_NOM" NOM ((("t" "ahn") 0) (("t" "a") 0) (("t" "i" "v") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("s_élever_VER" VER (((s "e" "l") 0) (("v" "e") 0))))
+(lex.add.entry '("jusqu_à_PRE" "PRE" (((zh y s) 0) ((k a) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("globe_NOM" "NOM" ((("g" "l" "oh")0) (("b" ae) 0))))
+(lex.add.entry '("avaient_AUX" "AUX" ((("a") 0) (("v" "e") 0))))
+(lex.add.entry '("échoué_VER" "VER" (((t "e") 0) (("sh" "w" "e") 0)))); LIA
+
+(set! text "je ne le pensais pas, car jusqu'ici, toutes les tentatives pour s'élever jusqu'à ce point du globe, avaient échoué.") ; neut_book_s01_0078
+(dSayText text)
