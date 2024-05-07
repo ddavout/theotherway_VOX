@@ -1,0 +1,16 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("aurons_VER" "VER" (((z "o") 0) (("rh" "ohn") 0)))); LIA
+(lex.add.entry '("nécessairement_ADV" "ADV" ((("n" "e") 0) (("s" "e") 0) (("s" "eh" "rh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("moment_NOM" "NOM" ((("m" "oh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("un_autre_PRO:ind" "PRO:ind" ((("oen") 0)((n o t rh)0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("législature_NOM" "NOM" ((("l" "e") 0) (("zh" "i" s) 0) (("l" "a") 0) (("t" "y" "rh") 0))))
+
+(set! text "Nous aurons nécessairement ce débat à un moment ou à un autre de cette législature.") ; 
+(dSayText text); neut_parl_s01_0601

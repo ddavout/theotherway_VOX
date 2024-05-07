@@ -1,0 +1,8 @@
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("balaye_VER" VER ((("b" "a") 0) (("l" "eh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+(dSayText "Moi je ne le balaye pas.") ; neut_parl_s04_0333

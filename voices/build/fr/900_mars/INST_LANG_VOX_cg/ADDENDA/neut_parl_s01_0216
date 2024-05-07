@@ -1,0 +1,11 @@
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("sûr_ADJ" "ADJ" ((("s" "y" "rh") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("rame_VER" VER ((("rh" "a" m )0)))) ;(("m" "ae") 0)))); Q?
+(lex.add.entry '("depuis_PRE" "PRE" (((d ae) 0) ((p hw i) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0)))); no LIA
+(lex.add.entry '("an_NOM" "NOM" ((("ahn") 0))))
+
+(set! text "bien sûr, on rame depuis un an.") ; 
+(dSayText text); neut_parl_s01_0216
+

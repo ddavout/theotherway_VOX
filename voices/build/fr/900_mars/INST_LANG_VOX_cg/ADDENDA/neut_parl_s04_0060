@@ -1,0 +1,15 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("clairement_ADV" "ADV" ((("k" "l" "eh" "rh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("lieu_NOM" "NOM" ((("l" "j" "eu") 0))))
+(lex.add.entry '("utile_ADJ" "ADJ" ((("y") 0) (("t" "i")0) (("l" ae) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("égalité_NOM" "NOM" ((("e") 0) (("g" "a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("chances_NOM" NOM ((("sh" "ahn")0) (("s" ae) 0))))
+
+(set! list_exclus*-> (append (list "clairement") list_exclus*->_default))
+
+(dSayText "C'est clairement un lieu utile à l'égalité des chances.") ; neut_parl_s04_0060

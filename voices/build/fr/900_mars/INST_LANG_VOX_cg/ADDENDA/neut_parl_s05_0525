@@ -1,0 +1,12 @@
+(lex.add.entry '("parce_qu_CON" CON (((p a rh s) 0))))
+(lex.add.entry '("qu_on_PRO:per" "PRO:per" (((k ohn) 0))))
+(lex.add.entry '("n_a_AUX" AUX ((("n" "a") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("su_VER" "VER" ((("s" "y") 0))))
+(lex.add.entry '("organiser_VER" VER ((("oh" "rh") 0) (("g" "a") 0) (("n" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("transferts_NOM" NOM ((("t" "rh" "ahn" "s") 0) (("f" "eh" "rh") 0))))
+(lex.add.entry '("progressifs_ADJ" ADJ ((("p" "rh" "oh") 0) (("g" "rh" "e") 0) (("s" "i" "f") 0))))
+
+(set! text "Parce qu'on n'a pas su organiser les transferts progressifs.") ; neut_parl_s05_0525
+(dSayText text)

@@ -1,0 +1,13 @@
+(lex.add.entry '("alors_ADV" "ADV" (((a) 0) ((l oh rh) 0))))
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("avons_VER" "VER" (((z "a") 0) (("v" "ohn") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("visions_NOM" "NOM" ((("v" "i") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("absolument_ADV" "ADV" ((("a" "p") 0) (("s" "o") 0) (("l" "y") 0) (("m" "ahn") 0))))
+(lex.add.entry '("différentes_ADJ" "ADJ" ((("d" "i") 0) (("f" "e") 0) (("rh" "ahn" "t") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("société_NOM" "NOM" ((("s" "oh") 0) (("s" "j" "e") 0) (("t" "e") 0))))
+
+(dSayText "Alors oui, nous avons deux visions, absolument différentes de la société.") ; neut_parl_s06_0251

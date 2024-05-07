@@ -1,0 +1,16 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("nombre_NOM" "NOM" ((("n" "ohn" "b" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("cas_NOM" NOM ((("k" "a") 0))))
+(lex.add.entry '("hebdomadaires_ADJ" ADJ ((("eh" "b") 0) (("d" "oh") 0) (("m" "a") 0) (("d" "eh" "rh") 0))))
+(lex.add.entry '("supplémentaires_ADJ" ADJ ((("s" "y") 0) (("p" "l" "e") 0) (("m" "ahn") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("certaines_ADJ:ind" ADJ:ind ((("s" "eh" "rh") 0) (("t" "eh" "n") 0))))
+(lex.add.entry '("régions_NOM" NOM ((("rh" "e") 0) (("zh" "j" "ohn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0)))); no LIA
+(lex.add.entry '("en_PRE" "PRE" (((t ahn) 0)))); LIA
+(lex.add.entry '("diminution_NOM" "NOM" ((("d" "i") 0) (("m" "i") 0) (("n" "y") 0) (("s" "j" "ohn") 0))))
+
+(set! text "Le nombre de cas hebdomadaires supplémentaires dans certaines régions est en diminution.") ; 
+(dSayText text); neut_parl_s01_0288
+

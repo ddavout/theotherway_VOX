@@ -1,0 +1,9 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("jeunes_NOM" NOM ((("zh" "oe" "n") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("mobiles_ADJ" ADJ ((("m" "oh") 0) (("b" "i")0) (("l" ae) 0))))
+
+
+(dSayText "Ces jeunes ne sont pas mobiles !") ; neut_parl_s03_0191

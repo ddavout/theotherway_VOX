@@ -1,0 +1,20 @@
+(lex.add.entry '("quand_CON" CON (((k ahn) 0)))); confusion
+(lex.add.entry '("quand_PRO:int" PRO:int ((("k" "ahn") 0))))
+
+(lex.add.entry '("quand" nil (((k ahn) 0)))); confusion
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh")0) (("m" ae) 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("coup_NOM" "NOM" ((("k" "u" d) 0))))
+(lex.add.entry '("de_PRE" "PRE" nil))
+(lex.add.entry '("pouce_NOM" "NOM" ((("p" "u" "s") 0))))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("faudrait_VER" VER ((("f" "o") 0) (("d" "rh" "eh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("centralisation_NOM" NOM ((("s" "ahn") 0) (("t" "rh" "a") 0) (("l" "i") 0) (("z" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("totale_ADJ" "ADJ" ((("t" "oh") 0) (("t" "a")0) (("l" ae) 0))))
+
+(dSayText "Quand bien même, c'est un coup de pouce qu'il faudrait, et non une centralisation totale.") ; neut_parl_s06_0290

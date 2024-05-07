@@ -1,0 +1,19 @@
+(lex.add.entry '("l_humain_NOM" "NOM" (((l "y") 0) (("m" "ehn") 0))))
+(lex.add.entry '("l_humain_ADJ" "ADJ" (((l "y") 0) (("m" "ehn") 0)))); confusion
+(lex.add.entry '("l_urbain_NOM" "NOM" (((l "y" "rh") 0) (("b" "ehn") 0))))
+(lex.add.entry '("l_urbain_ADJ" "ADJ" (((l "y" "rh") 0) (("b" "ehn") 0))))
+
+
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("fond_NOM" "NOM" ((("f" "ohn") 0))))
+(lex.add.entry '("maintenant_ADV" "ADV" ((("m" "ehn" t) 0) (("n" "ahn") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("essaie_VER" "VER" (((n "e") 0) (("s" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("mêler_VER" VER ((("m" "e") 0) (("l" "e") 0))))
+(lex.add.entry '("l_humain" nil (((l "y") 0) (("m" "ehn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("l_urbain" nil ((("y" "rh") 0) (("b" "ehn") 0))))
+
+(set! text "Au fond, maintenant, on essaie de mêler l'humain et l'urbain.") ; neut_parl_s02_0434
+(dSayText text)

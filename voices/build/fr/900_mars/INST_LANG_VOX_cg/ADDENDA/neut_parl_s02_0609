@@ -1,0 +1,7 @@
+(set! list_exclus*-> (append (list "profondément") list_exclus*->_default));
+(lex.add.entry '("concerne_VER" VER ((("k" "ohn") 0) (("s" "eh" "rh")0)  (("n" ae) 0))))
+
+
+;(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
+(dSayText "C'est là une réalité, profondément humaine, elle concerne tous les habitants de ce pays.") ; neut_parl_s02_0609

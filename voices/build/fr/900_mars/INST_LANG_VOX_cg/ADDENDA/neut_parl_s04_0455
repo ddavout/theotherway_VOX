@@ -1,0 +1,11 @@
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("dizaines_NOM" NOM (((d i) 0) ((z eh n) 0))))
+(lex.add.entry '("d_autres_ADJ:ind" ADJ:ind (((d  "o")0) (("t" "rh" ae) 0)))); si erreur pos
+(lex.add.entry '("d_autres_PRO:ind" PRO:ind (((d "o")0 )(("t" "rh" "ae") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("partagent_VER" VER ((("p" "a" "rh") 0) (("t" "a" "zh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("choix_NOM" "NOM" ((("sh" "w" "a") 0))))
+
+(dSayText "Des dizaines d'autres, ne partagent pas ce choix.") ; neut_parl_s04_0455

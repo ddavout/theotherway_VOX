@@ -1,0 +1,13 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("veux_VER" "VER" ((("v" "eu") 0))))
+(lex.add.entry '("salué_VER" VER ((("s" "a") 0) (("l" "y") 0) (("e") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("intervention_NOM" "NOM" ((("ehn") 0) (("t" "eh" "rh") 0) (("v" "ahn") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("tourret_NAM" "NAM" ((("t" "u") 0) (("rh" "eh") 0))))
+(lex.add.entry '("tard_ADV" "ADV" ((("t" "a" "rh") 0))))
+(lex.add.entry '("hier_ADV" "ADV" (((j "eh" rh) 0))))
+(lex.add.entry '("soir_NOM" "NOM" ((("s" "w" "a" "rh") 0))))
+
+(dSayText "Je veux saluer l'intervention de Monsieur Tourret, tard hier soir.") ; neut_parl_s04_0016

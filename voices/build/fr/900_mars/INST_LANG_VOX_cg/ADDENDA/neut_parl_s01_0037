@@ -1,0 +1,11 @@
+(lex.add.entry '("où_PRO:int" PRO:int ((("u") 0))))
+(lex.add.entry '("où_PRO:rel" PRO:rel ((("u") 0))))
+
+(lex.add.entry '("où" nil ((("u") 0))))
+(lex.add.entry '("avez-vous_VER" VER ((("a") 0) (("v" "e") 0)((v u) 0))))
+(lex.add.entry '("rêvé_VER" "VER" (((rh e) 0) ((v e) 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" (((s l a) 0))))
+
+
+(set! text "où avez-vous rêvé cela ?") ; neut_parl_s01_0037
+(dSayText text)

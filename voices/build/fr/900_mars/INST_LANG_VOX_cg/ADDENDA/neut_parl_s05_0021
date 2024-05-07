@@ -1,0 +1,13 @@
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn" "s") 0))))
+(lex.add.entry '("généreuse_ADJ" "ADJ" ((("zh" "e") 0) (("n" "e") 0) (("rh" "eu")0) (("z" ae) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("coeur_NOM" "NOM" ((("k" "oe" "rh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("progrès_NOM" NOM ((("p" "rh" "oh") 0) (("g" "rh" "eh") 0))))
+
+(dSayText "Une France généreuse, une France de cœur, une France de progrès.") ; neut_parl_s05_0021

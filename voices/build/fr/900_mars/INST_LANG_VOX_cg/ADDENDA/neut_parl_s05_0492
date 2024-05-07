@@ -1,0 +1,18 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_est_VER" "VER" (((n e) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("forcément_ADV" "ADV" ((("f" "oh" "rh") 0) (("s" "e") 0) (("m" "ahn") 0))))
+(lex.add.entry '("mauvais_ADJ" ADJ ((("m" "oh") 0) (("v" "eh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("être_VER" "VER" ((("eh")0) (("t" "rh" ae) 0))))
+;(lex.add.entry '("être_VER" "VER" ((("eh")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("champions_NOM" NOM ((("sh" "ahn") 0) (("p" "j" "ohn") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("monde_NOM" "NOM" (((m ohn)0) ((d ae)0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("domaine_NOM" "NOM" ((("d" "oh") 0) (("m" "eh")0) (("n" ae) 0))))
+
+(dSayText "Il n'est pas forcément mauvais, d'être les champions du monde, dans un domaine.") ; neut_parl_s05_0492

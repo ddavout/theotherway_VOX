@@ -1,0 +1,12 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("crains_VER" VER ((("k" "rh" "ehn") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("fasse_VER" "VER" ((("f" "a" "s") 0))))
+(lex.add.entry '("fuir_VER" "VER" ((("f" "hw" i "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("entreprises_NOM" NOM ((("ahn") 0) (("t" "rh" "ae") 0) (("p" "rh" "i" "z") 0))))
+(lex.add.entry '("étrangères_ADJ" ADJ ((("e") 0) (("t" "rh" "ahn") 0) (("zh" "eh" "rh") 0))))
+
+(dSayText "Je crains que l'on fasse fuir les entreprises étrangères.") ; neut_parl_s06_0095

@@ -1,0 +1,13 @@
+(lex.add.entry '("en_effet_ADV" "ADV" ((("ahn") 0) ((n "e") 0) (("f" "eh") 0))))
+(lex.add.entry '("ceux-ci_PRO:dem" "PRO:dem" ((("s" "eu") 0) (("s" "i") 0))))
+(lex.add.entry '("peuvent_VER" VER ((("p" "oe" "v") 0))))
+(lex.add.entry '("comprendre_VER" "VER" ((("k" "ohn") 0) (("p" "rh" "ahn")0) (("d" "rh" "ae") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("immeubles_NOM" NOM (((z "i") 0) (("m" "oe")0) (("b" "l""ae") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("z" "o") 0) (("s" "i") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("entreprises_NOM" NOM (((z "ahn") 0) (("t" "rh" "ae") 0) (("p" "rh" "i")0) (("z" "ae") 0))))
+
+(set! text "En effet, ceux-ci peuvent comprendre des immeubles mais aussi des entreprises.") ; neut_parl_s04_0706
+(dSayText text)

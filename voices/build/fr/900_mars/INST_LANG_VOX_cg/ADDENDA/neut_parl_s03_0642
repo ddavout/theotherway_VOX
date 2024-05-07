@@ -1,0 +1,14 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("donne_VER" "VER" ((("d" "oh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((n "y" "n") 0))))
+(lex.add.entry '("cohérence_NOM" "NOM" ((("k" "oh") 0) (("e") 0) (("rh" "ahn" "s") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("choix_NOM" "NOM" ((("sh" "w" "a") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("faveur_NOM" "NOM" ((("f" "a") 0) (("v" "oe" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("emploi_NOM" "NOM" ((("ahn") 0) (("p" "l" "w" "a") 0))))
+
+(dSayText "Il donne une cohérence à nos choix, en faveur de l'emploi.") ; neut_parl_s03_0642

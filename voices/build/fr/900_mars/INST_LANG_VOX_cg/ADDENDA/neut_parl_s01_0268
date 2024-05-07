@@ -1,0 +1,15 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("heurter_VER" VER ((("oe" "rh") 0) (("t" "e") 0)))); no LIA
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("front_NOM" "NOM" ((("f" "rh" "ohn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("réalité_NOM" "NOM" ((("rh" "e") 0) (("a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("juridique_ADJ" "ADJ" ((("zh" "y") 0) (("rh" "i") 0) (("d" "i") 0) (("k" ae) 0))))
+
+(set! text "on ne peut pas non plus heurter de front la réalité juridique.") ; 
+(dSayText text); neut_parl_s01_0268

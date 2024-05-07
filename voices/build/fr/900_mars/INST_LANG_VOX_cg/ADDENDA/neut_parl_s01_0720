@@ -1,0 +1,13 @@
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("n_est_VER" "VER" (((n eh) 0))))
+(lex.add.entry '("nullement_ADV" "ADV" ((("n" "y" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0)))); no LIA
+(lex.add.entry '("laïcité_NOM" "NOM" ((("l" "a") 0) (("i") 0) (("s" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("conflit_NOM" "NOM" ((("k" "ohn") 0) (("f" "l" "i") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("combat_NOM" "NOM" ((("k" "ohn") 0) (("b" "a") 0))))
+
+(set! text "Elle n'est nullement une laïcité de conflit ou de combat.") ; 
+(dSayText text); neut_parl_s01_0720

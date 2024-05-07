@@ -1,0 +1,7 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("guadeloupe_NAM" "NAM" (((g w a d) 0) ((l u)0) (("p" ae) 0))))
+(lex.add.entry '("attend_VER" "VER" ((("a") 0) (("t" "ahn") 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0)))) ; done
+(lex.add.entry '("réponse_NOM" "NOM" ((("rh" "e") 0) (("p" "ohn")0) (("s" ae) 0))))
+
+(dSayText "La Guadeloupe attend votre réponse.") ; neut_parl_s02_0486

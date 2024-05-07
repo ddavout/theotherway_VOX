@@ -1,0 +1,12 @@
+(lex.add.entry '("Prenons_VER" VER ((("p" "rh" "ae") 0) (("n" "ohn") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("exemple_NOM" "NOM" ((("e" "g") 0) (("z" "ahn")0) (("p" "l" ae) 0))))
+(lex.add.entry '("exemple_NOM" "NOM" ((("e" "g") 0) (("z" "ahn")0) (("p" "l" ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("région_NOM" "NOM" ((("rh" "e") 0) (("zh" "j" "ohn") 0))))
+(lex.add.entry '("bourgogne_franche_comté_NAM" "NAM" (((b u rh) 0) ((g oh jg) 0) ((f rh ahn sh) 0) ((k ohn) 0) ((t e) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("hiver_NOM" "NOM" ((("i") 0) (("v" "eh" "rh") 0))))
+
+(dSayText "Prenons l'exemple de la région, Bourgogne-Franche-Comté en hiver.") ; neut_parl_s05_0222

@@ -1,0 +1,17 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("feuille_NOM" "NOM" ((("f" "oe" "j") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("route_NOM" "NOM" ((("rh" "u" "t") 0))))
+(lex.add.entry '("votre_ADJ:pos" ADJ:pos ((("v" "oh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("feuille_NOM" "NOM" ((("f" "oe" "j") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("routehh_NOM" NOM ((("rh" "u") 0) (("t" "ae") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("respect_NOM" "NOM" ((("rh" "eh" "s") 0) (("p" "eh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("engagements_NOM" NOM ((("ahn") 0) (("g" "a" "zh") 0) (("m" "ahn") 0))))
+
+
+(dSayText "La feuille de route, votre feuille de routehh, c'est le respect des engagements.") ; neut_parl_s04_0529

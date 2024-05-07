@@ -1,0 +1,15 @@
+(lex.add.entry '("Or_CON" CON ((("oh" "rh") 0))))(lex.add.entry '("Or_NOM" NOM ((("oh" "rh") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("aurons_VER" VER (((z "o") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0)))); no LIA
+(lex.add.entry '("besoin_NOM" "NOM" ((("b" "ae") 0) (("z" "w" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("dépenses_NOM" NOM ((("d" "e") 0) (("p" "ahn" "s") 0))))
+(lex.add.entry '("publiques_ADJ" ADJ ((("p" "y") 0) (("b" "l" "i" "k") 0)))); no LIA
+(lex.add.entry '("utiles_ADJ" ADJ ((("y") 0) (("t" "i")0)(("l" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("personnel_NOM" NOM ((("p" "eh" "rh") 0) (("s" "oh") 0) (("n" "eh")0) (("l" ae) 0))))
+
+(set! text "Or, nous aurons ici besoin de dépenses publiques utiles, et de personnel.") ; neut_parl_s06_0391
+(dSayText text)

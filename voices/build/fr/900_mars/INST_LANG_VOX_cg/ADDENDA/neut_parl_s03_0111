@@ -1,0 +1,8 @@
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("monologue_NOM" "NOM" ((("m" "oh") 0) (("n" "o") 0) (("l" "oh") 0) (("g" ae) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+
+(set! never_exception_list (append (list "pas") never_exception_list_default)); todo pas + oen
+(dSayText "Un monologue, pas un débat !") ; neut_parl_s03_0111

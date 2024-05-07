@@ -1,0 +1,13 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("pense_VER" "VER" ((("p" "ahn" "s") 0))))
+(lex.add.entry '("qu_CON" "CON" nil))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("utile_ADJ" "ADJ" ((("y") 0) (("t" "i" "l") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("renforcé_VER" VER ((("rh" "ahn") 0) (("f" "oh" "rh") 0) (("s" "e") 0))))
+(lex.add.entry '("sa_ADJ:pos" "ADJ:pos" ((("s" "a") 0))))
+(lex.add.entry '("fiabilité_NOM" "NOM" ((("f" "j" "a") 0) (("b" "i") 0) (("l" "i") 0) (("t" "e") 0))))
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "Je pense qu'il est utile de renforcer sa fiabilité.") ; neut_parl_s06_0064

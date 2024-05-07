@@ -1,0 +1,20 @@
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("deux_NOM" "NOM" (((d eu) 0)))); confusion
+(lex.add.entry '("jeunes_NOM" NOM ((("zh" "oe" "n") 0))))
+
+
+(lex.add.entry '("deux" nil (((d eu) 0)))); confusion
+(lex.add.entry '("jeunes_ADJ" ADJ ((("zh" "oe" "n") 0))))
+(lex.add.entry '("Strasbourgeois_ADJ" ADJ ((("s" "t" "rh" "a" "s") 0) (("b" "u" "rh") 0) (("zh" "w" "a") 0)))); no LIA
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
+(lex.add.entry '("trouvé_VER" "VER" ((("t" "rh" "u") 0) (("v" "e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("mort_NOM" "NOM" ((("m" "oh" "rh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("syrie_NAM" "NAM" ((("s" "i") 0) (("rh" "i") 0))))
+
+
+
+(set! text "deux jeunes Strasbourgeois ont déjà trouvé la mort en Syrie.") ; neut_parl_s02_0041
+(dSayText text)

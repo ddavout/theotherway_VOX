@@ -1,0 +1,13 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("situation_NOM" "NOM" ((("s" "i") 0) (("t" "hw" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("entendu_VER" "VER" ((("ahn") 0) (("t" "ahn") 0) (("d" "y") 0))))
+(lex.add.entry '("touche_VER" "VER" ((("t" "u") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((sh "y" "n") 0))))
+(lex.add.entry '("population_NOM" "NOM" ((("p" "o") 0) (("p" "y") 0) (("l" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("fragile_ADJ" "ADJ" ((("f" "rh" "a") 0) (("zh" "i")0) (("l" "ae") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("vulnérable_ADJ" "ADJ" ((("v" "y" "l") 0) (("n" "e") 0) (("rh" "a")0) (("b" "l" "ae") 0))))
+
+(set! never_exception_list (append (list "bien" ) never_exception_list_default))
+(dSayText "Cette situation bien entendu, touche une population fragile et vulnérable.") ; neut_parl_s05_0339

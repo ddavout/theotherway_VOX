@@ -1,0 +1,25 @@
+(set! fileid "neut_book_s01_0012")
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("colons_NOM" NOM ((("k" "oh") 0) (("l" "ohn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("quittèrent_VER" VER ((("k" "i") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((z "oen") 0))))
+(lex.add.entry '("instant_NOM" "NOM" (((n "ehn" "s") 0) (("t" "ahn") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("nautilus_NAM" "NAM" (((n o) 0) ((t i) 0) ((l y s) 0))))
+
+;(set! never_exception_list (append (list "pas" ) never_exception_list_default))
+(set! text  "les colons, ne quittèrent, pas un instant le nautilus.") ; neut_book_s01_0012
+(dSayText text)
+(set! flat_expected "<{(0 l  e )}{(0 k  oh )(0 l  ohn )}> _B <{(0 n  ae )}{(0 k  i )(0 t  eh  rh )}> _B <{(0 p  a )}{(0 z  oen )}{(0 n  ehn  s )(0 t  ahn )}{(0 l  ae )}{(0 n  o )(0 t  i )(0 l  y  s )}> _BB ")
+
+;id _10 ; name les ; pos_index 7 ; pos_index_score 0 ; pos ART:def ; pbreak NB ; 
+;id _11 ; name colons ; pos_index 13 ; pos_index_score 0 ; pos NOM ; pbreak B ; 
+;id _12 ; name ne ; pos_index 6 ; pos_index_score 0 ; pos ADV ; pbreak NB ; 
+;id _13 ; name quittèrent ; pos_index 22 ; pos_index_score 0 ; pos VER ; pbreak B ; 
+;id _14 ; name pas ; pos_index 6 ; pos_index_score 0 ; pos ADV ; pbreak NB ; 
+;id _15 ; name un ; pos_index 8 ; pos_index_score 0 ; pos ART:ind ; pbreak NB ; 
+;id _16 ; name instant ; pos_index 13 ; pos_index_score 0 ; pos NOM ; pbreak NB ; 
+;id _17 ; name le ; pos_index 7 ; pos_index_score 0 ; pos ART:def ; pbreak NB ; 
+;id _18 ; name nautilus ; pos_index 12 ; pos_index_score 0 ; pos NAM ; pbreak BB ;

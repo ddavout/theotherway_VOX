@@ -1,0 +1,10 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("matière_NOM" "NOM" ((("m" "a") 0) (("t" "j" "eh" "rh") 0))))
+(lex.add.entry '("d_export_NOM" "NOM" (((d "e" "k") 0) ((s "p" "oh" "rh") 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("arrive_VER" "VER" ((("a") 0) (("rh" "i" "v") 0))))
+(lex.add.entry '("fréquemment_ADV" "ADV" ((("f" "rh" "e") 0) (("k" "a") 0) (("m" "ahn") 0))))
+
+
+(set! text "en matière d'export, cela arrive fréquemment.") ; 
+(dSayText text); neut_parl_s01_0356

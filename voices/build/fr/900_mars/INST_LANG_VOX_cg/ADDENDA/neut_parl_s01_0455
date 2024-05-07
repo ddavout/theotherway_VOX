@@ -1,0 +1,16 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" (((t "o") 0) (("s" "i") 0)))); LIA
+(lex.add.entry '("répondre_VER" "VER" ((("rh" "e") 0) (("p" "ohn" "d" "rh") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("besoins_NOM" NOM ((("b" "ae") 0) (("z" "w" "ehn") 0))))
+(lex.add.entry '("exprimés_VER" VER ((("eh" "k" "s") 0) (("p" "rh" "i") 0) (("m" "e") 0)))); no lia
+(lex.add.entry '("s_agissant_VER" VER ((("a") 0) (("zh" "i") 0) (("s" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("ruralité_NOM" "NOM" ((("rh" "y") 0) (("rh" "a") 0) (("l" "i") 0) (("t" "e") 0))))
+
+
+(set! text "Cela peut aussi répondre aux besoins exprimés s'agissant de la ruralité.") ; 
+(dSayText text); neut_parl_s01_0455
+

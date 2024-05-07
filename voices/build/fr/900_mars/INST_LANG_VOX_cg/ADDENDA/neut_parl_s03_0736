@@ -1,0 +1,11 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("contournement_NOM" "NOM" ((("k" "ohn") 0) (("t" "u" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("juge_NOM" "NOM" ((("zh" "y")0) (("zh" ae) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("extrême_ADJ" "ADJ" ((("eh" "k" s) 0) (("t" "rh" "eh" "m") 0))))
+(lex.add.entry '("gravité_NOM" NOM ((("g" "rh" "a") 0) (("v" "i") 0) (("t" "e") 0))))
+
+(dSayText "Ce contournement du juge, est d'une extrême gravité.") ; neut_parl_s03_0736

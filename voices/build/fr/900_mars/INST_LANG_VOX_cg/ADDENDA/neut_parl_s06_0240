@@ -1,0 +1,9 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("chemin_NOM" "NOM" ((("sh" "ae") 0) (("m" "ehn") 0))))
+(lex.add.entry '("nécessaire_ADJ" "ADJ" ((("n" "e") 0) (("s" "e") 0) (("s" "eh" "rh") 0))))
+
+
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "C'est un chemin nécessaire.") ; neut_parl_s06_0240

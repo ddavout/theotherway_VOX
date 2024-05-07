@@ -1,0 +1,11 @@
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o" "z") 0))))
+(lex.add.entry '("permettent_VER" VER ((("p" "eh" "rh") 0) (("m" "eh" "t") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0)))); LIA
+(lex.add.entry '("l_apprentissage_NOM" "NOM" (((l "a") 0) (("p" "rh" "ahn") 0) (("t" "i") 0) (("s" "a" "zh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("bien_NOM" "NOM" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("fonctionner_VER" VER ((("f" "ohn" "k") 0) (("s" "j" "oh") 0) (("n" "e") 0))))
+
+(set! text "Deux choses permettent à l'apprentissage de bien fonctionner.") ; neut_parl_s02_0727
+(dSayText text)

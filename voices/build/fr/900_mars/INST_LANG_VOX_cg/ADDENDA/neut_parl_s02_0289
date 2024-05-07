@@ -1,0 +1,14 @@
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a") 0))))
+(lex.add.entry '("ailleurs_ADV" "ADV" (((rh "a") 0) (("j" "oe" "rh") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("relayons_VER" VER ((("rh" "ae") 0) (("l" "e") 0) (("j" "ohn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("inquiétudes_NOM" NOM (((z "ehn") 0) (("k" "j" "e") 0) (("t" "y" "d") 0)))); LIA
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("uns_PRO:ind" "PRO:ind" (((z "oen") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("autres_ADJ" ADJ (((z "o")0) (("t" "rh" ae) 0))))
+
+(set! text "Par ailleurs, nous relayons les inquiétudes des uns et des autres.") ; neut_parl_s02_0289
+(dSayText text)

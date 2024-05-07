@@ -1,0 +1,13 @@
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("seuil_NOM" "NOM" ((("s" "oe" "j") 0))))
+(lex.add.entry '("fixé_ADJ" ADJ ((("f" "i" "k") 0) (("s" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("quinze_ADJ:num" "ADJ:num" ((("k" "ehn" "z") 0))))
+(lex.add.entry '("mille_ADJ:num" ADJ:num ((("m" "i" "l") 0))))
+(lex.add.entry '("euros_NOM" NOM ((("oe") 0) (("rh" "o") 0))))
+(lex.add.entry '("serè_VER" "VER" ((("s" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("vraiment_ADV" "ADV" ((("v" "rh" "eh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("bas_ADJ" ADJ ((("b" "a") 0))))
+
+(dSayText "Un seuil fixé à quinze mille euros, serait vraiment très bas.") ; neut_parl_s05_0173

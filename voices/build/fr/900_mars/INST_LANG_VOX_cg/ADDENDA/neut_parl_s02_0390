@@ -1,0 +1,9 @@
+(set! fileid "neut_parl_s02_0390")
+(lex.add.entry '("l_enfant_NOM" "NOM" (((l "ahn") 0) (("f" "ahn") 0))))
+(lex.add.entry '("aura_VER" "VER" ((("oh") 0) (("rh" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("nom_NOM" "NOM" ((("n" "ohn") 0))))
+
+
+(set! text "l'enfant aura un nom.") ; neut_parl_s02_0390
+(dSayText text)

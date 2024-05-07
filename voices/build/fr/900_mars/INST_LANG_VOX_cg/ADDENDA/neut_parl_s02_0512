@@ -1,0 +1,13 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("décidé_VER" "VER" ((("d" "e") 0) (("s" "i") 0) (("d" "e") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("pourrions_VER" VER ((("p" "u") 0) (("rh" "j" "ohn") 0))))
+(lex.add.entry '("siégé_VER" VER ((("s" "i") 0) (("e") 0) (("zh" "e") 0))))
+(lex.add.entry '("jusqu_PRE" "PRE" nil))
+(lex.add.entry '("jusqu_à_PRE" "PRE" (((zh y s) 0) ((k a) 0))))
+(lex.add.entry '("samedi_NOM" "NOM" ((("s" "a" "m") 0) (("d" "i") 0))))
+
+(dSayText "Il a été décidé que nous pourrions siéger jusqu'à samedi.") ; neut_parl_s02_0512

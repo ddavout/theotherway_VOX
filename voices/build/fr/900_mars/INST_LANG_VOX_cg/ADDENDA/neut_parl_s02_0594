@@ -1,0 +1,8 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("trouve_VER" "VER" ((("t" "rh" "u")0) (("v" ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("tels_ADJ:ind" "ADJ:ind" ((("t" "eh" "l") 0))))
+(lex.add.entry '("propos_NOM" NOM ((("p" "rh" "oh") 0) (("p" "o") 0))))
+(lex.add.entry '("inacceptables_ADJ" ADJ ((("i") 0) (("n" "a" "k") 0) (("s" "eh" p) 0) (("t" "a")0) (("b" "l" ae) 0))))
+
+(dSayText "Je trouve de, tels propos inacceptables.") ; neut_parl_s02_0594

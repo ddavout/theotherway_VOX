@@ -1,0 +1,14 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("serait_VER" "VER" ((("s" "ae") 0) (("rh" "e") 0)))); no LIA
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("véritable_ADJ" ADJ ((("v" "e") 0) (("rh" "i") 0) (("t" "a") 0) (("b" "l" "ae") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("fut-il_VER" "VER" ((("f" "y") 0)(("t" "i" l) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("différé_ADJ" "ADJ" ((("d" "i") 0) (("f" "e") 0) (("rh" "e") 0))))
+
+(set! text "ce serait un véritable droit, fut-il un peu différé.") ; 
+(dSayText text); neut_parl_s01_0170
+
+

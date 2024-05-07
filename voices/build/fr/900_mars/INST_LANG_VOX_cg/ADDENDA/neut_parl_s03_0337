@@ -1,0 +1,7 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("jouons_VER" VER ((("zh" "u") 0) (("ohn") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("avenir_NOM" "NOM" ((("a" "v") 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("ensemble_ADV" "ADV" ((("ahn") 0) (("s" "ahn")0) (("b" "l" ae) 0))))
+
+(dSayText "Nous jouons l'avenir, ensemble.") ; neut_parl_s03_0337

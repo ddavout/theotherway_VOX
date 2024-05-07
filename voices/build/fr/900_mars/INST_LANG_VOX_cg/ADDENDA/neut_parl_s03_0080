@@ -1,0 +1,11 @@
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("suite_NOM" "NOM" ((("s" "hw" i) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("publication_NOM" "NOM" ((("p" "y") 0) (("b" "l" "i") 0) (("k" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("rapport_NOM" "NOM" ((("rh" "a") 0) (("p" "oh" "rh") 0))))
+(lex.add.entry '("Gallois_ADJ" ADJ ((("g" "a") 0) (("l" "w" "a") 0))))
+
+
+(dSayText "Gouvernement, suite à la publication du rapport Gallois.") ; neut_parl_s03_0080

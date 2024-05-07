@@ -1,0 +1,13 @@
+;/!\ de moche
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("concept_NOM" "NOM" ((("k" "ohn") 0) (("s" "eh" "p" "t") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("co_éducation_NOM" "NOM" ((("k" "o") 0) (("e") 0) (("d" "y") 0) (("k" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("semble_VER" "VER" ((("s" "ahn")0) (("b" "l" ae) 0))))
+(lex.add.entry '("flou_ADJ" "ADJ" ((("f" "l" "u") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("ambigu_ADJ" "ADJ" ((("ahn") 0) (("b" "i") 0) (("g" "y") 0))))
+
+(set! text "le concept de co-éducation, me semble flou et ambigu.") ; 
+(dSayText text); neut_parl_s01_0206

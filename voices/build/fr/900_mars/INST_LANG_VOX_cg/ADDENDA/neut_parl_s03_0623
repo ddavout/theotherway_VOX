@@ -1,0 +1,9 @@
+(lex.add.entry '("alors_ADV" "ADV" (((a) 0) ((l oh rh) 0))))
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("constat_NOM" "NOM" ((("k" "ohn" "s") 0) (("t" "a") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("sévère_ADJ" "ADJ" ((("s" "e") 0) (("v" "eh" "rh") 0))))
+
+
+(dSayText "Alors oui, le constat est sévère.") ; neut_parl_s03_0623

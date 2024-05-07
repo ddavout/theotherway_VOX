@@ -1,0 +1,11 @@
+; bug de y-a-t'il -> changement de texte
+
+(lex.add.entry '("combien_ADV" "ADV" ((("k" "ohn") 0) (("b" "j" "ehn") 0))))
+(lex.add.entry '("a_t-il_VER" "VER" (((j a)0) (("t" "i" l) 0))))
+(lex.add.entry '("eu_VER" "VER" (((y) 0))))
+(lex.add.entry '("de_ART:ind" "ART:ind" (((d ae) 0))))
+(lex.add.entry '("collectifs_ADJ" ADJ ((("k" "oh") 0) (("l" "eh" "k") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("budgétaires_ADJ" ADJ ((("b" "y" d) 0) (("zh" "e") 0) (("t" "eh" "rh") 0))))
+
+(set! text "combien a-t'il eu de collectifs budgétaires ?") ; neut_parl_s03_0259
+(dSayText text)

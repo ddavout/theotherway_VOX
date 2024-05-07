@@ -1,0 +1,15 @@
+(set! fileid "neut_parl_s01_0120")
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("haut_ADJ" "ADJ" ((("o") 0))))
+(lex.add.entry '("conseil_NOM" "NOM" ((("k" "ohn") 0) (("s" "eh" "j") 0))))
+(lex.add.entry '("s_exprimera_VER" "VER" (((s "e" "k" "s") 0) (("p" "rh" "i") 0) (("m" "rh" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("partir_VER" "VER" ((("p" "a" "rh") 0) (("t" "i" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("loi_NOM" "NOM" ((("l" "w" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("programmation_NOM" "NOM" ((("p" "rh" "oh") 0) (("g" "rh" "a") 0) (("m" "a") 0) (("s" "j" "ohn") 0))))
+
+(set! text "le haut conseil s'exprimera à partir de la loi de programmation.") ; 
+(dSayText text)

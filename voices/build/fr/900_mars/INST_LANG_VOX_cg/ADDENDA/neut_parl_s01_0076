@@ -1,0 +1,10 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("parole_NOM" "NOM" ((("p" "a") 0) (("rh" "oh") 0))))
+(lex.add.entry '("est_VER" "VER" (((l "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0)))); LIA
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("françoise_NAM" "NAM" (((f rh ahn) 0) ((s w a z) 0))))
+(lex.add.entry '("dubois_NAM" "NAM" (((d y) 0) ((b w a) 0))))
+
+(set! text "La parole est à Madame Françoise Dubois.") ; neut_parl_s01_0076
+(dSayText text)

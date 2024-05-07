@@ -1,0 +1,11 @@
+(lex.add.entry '("autre_ADJ" "ADJ" ((("o") 0))))
+(lex.add.entry '("exemple_NOM" "NOM" ((("t" "rh" "eh" "g") 0) (("z" "ahn")0) (("p" "l" "ae") 0))))
+(lex.add.entry '("relations_NOM" NOM ((("rh" "ae") 0) (("l" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("k" "y") 0))))
+(lex.add.entry '("entreprise_NOM" NOM ((("n" "ahn") 0) (("t" "rh" "ae") 0) (("p" "rh" "i" "z") 0))))
+(lex.add.entry '("liée_ADJ" ADJ ((("l" i) 0) (("j" "e") 0))))
+
+
+(set! text "Autre exemple : relations avec une entreprise liée.") ; neut_parl_s02_0078
+(dSayText text)

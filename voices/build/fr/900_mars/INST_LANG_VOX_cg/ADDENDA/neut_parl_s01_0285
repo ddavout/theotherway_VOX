@@ -1,0 +1,13 @@
+(set! fileid "neut_parl_s01_0285")
+
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("maires_NOM" NOM ((("m" "eh" "rh") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("inquiets_ADJ" ADJ (((t "ehn") 0) (("k" "j" "eh") 0)))); LIA
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("colère_NOM" "NOM" ((("k" "oh") 0) (("l" "eh" "rh") 0))))
+
+(set! text "les maires sont inquiets et en colère.") ; neut_parl_s01_0285
+
+(dSayText text)

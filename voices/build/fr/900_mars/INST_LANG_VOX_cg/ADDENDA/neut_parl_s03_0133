@@ -1,0 +1,14 @@
+(lex.add.entry '("mur_NOM" "NOM" ((("m" "y" "rh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("incompréhension_VER" VER ((("ehn") 0) (("k" "ohn") 0) (("p" "rh" "e") 0) (("ahn") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+(lex.add.entry '("quant_à" nil (((k ahn) 0) ((t a) 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0))))
+(lex.add.entry '("politique_NOM" NOM ((("p" "oh") 0) (("l" "i") 0) (("t" "i" "k") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0))))
+(lex.add.entry '("budget_NOM" "NOM" ((("b" "y" d) 0) (("zh" "eh") 0))))
+
+; POS incompréhension VER !
+(dSayText "Mur d'incompréhension, enfin, quant à votre politique et à votre budget.") ; neut_parl_s03_0133

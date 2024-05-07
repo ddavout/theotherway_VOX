@@ -1,0 +1,10 @@
+(lex.add.entry '("il_y_a_VER" "VER" (((i)0)((l "j" "a") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("droits_NOM" NOM ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("n_y_en_a_VER" VER (((n j ahn) 0)((n a)0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+(set! text "Il y a des droits ou il n'y en a pas.") ; neut_parl_s05_0270
+(dSayText text)

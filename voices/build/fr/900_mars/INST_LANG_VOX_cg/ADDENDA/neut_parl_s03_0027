@@ -1,0 +1,7 @@
+(lex.add.entry '("qu_est_ce_VER" "VER" (((k eh s) 0))))
+(lex.add.entry '("qu_un_ART:ind" "ART:ind" (((k oen) 0))))
+(lex.add.entry '("besoin_NOM" "NOM" ((("b" "ae") 0) (("z" "w" "ehn") 0))))
+(lex.add.entry '("essentiel_ADJ" "ADJ" ((("eh") 0) (("s" "ahn") 0) (("s" "j" "eh" "l") 0))))
+
+(set! text "Qu'est-ce qu'un besoin essentiel ?") ; neut_parl_s03_0027
+(dSayText text)

@@ -1,0 +1,13 @@
+(lex.add.entry '("hier_ADV" "ADV" (((i) 0) ((j "eh" rh) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("avez_VER" VER (((z "a") 0) (("v" "e") 0))))
+(lex.add.entry '("voté_VER" "VER" ((("v" "oh") 0) (("t" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("crédit_NOM" "NOM" ((("k" "rh" "e") 0) (("d" "i") 0))))
+(lex.add.entry '("d_impôt_NOM" "NOM" (((d "ehn") 0) (("p" "o") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("manière_NOM" "NOM" ((("m" "a") 0) (("n" "j" "eh" "rh") 0))))
+(lex.add.entry '("aveugle_ADJ" "ADJ" ((("a") 0) (("v" "oe")0) (("g" "l" ae) 0))))
+
+(set! text "Hier, vous avez voté le crédit d'impôt de manière aveugle.") ; neut_parl_s04_0359
+(dSayText text)

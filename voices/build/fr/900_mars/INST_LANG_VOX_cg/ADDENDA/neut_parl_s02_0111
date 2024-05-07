@@ -1,0 +1,8 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("avions_AUX" AUX (((z "a") 0) (("v" "j" "ohn") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("entamé_VER" "VER" (((n "ahn") 0) (("t" "a") 0) (("m" "e") 0)))); LIA
+(lex.add.entry '("l_après_midi_NOM" "NOM" (((l "a") 0) (("p" rh "eh") 0) ((m i) 0) ((d i) 0))))
+
+(set! text "Nous avions bien entamé l'après-midi.") ; neut_parl_s02_0111
+(dSayText text)

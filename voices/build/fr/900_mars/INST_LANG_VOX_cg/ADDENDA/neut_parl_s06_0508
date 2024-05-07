@@ -1,0 +1,13 @@
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("certains_PRO:ind" PRO:ind ((("s" "eh" "rh") 0) (("t" "ehn") 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("on_VER" "VER" ((("ohn") 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("mange_VER" "VER" ((("m" "ahn" "zh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" nil))
+(lex.add.entry '("pain_NOM" "NOM" ((("d" "p" "ehn") 0))))
+
+(dSayText "Comme certains l'ont dit, cela ne mange pas de pain.") ; neut_parl_s06_0508

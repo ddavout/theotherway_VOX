@@ -1,0 +1,11 @@
+(lex.add.entry '("Or_CON" CON ((("oh")0) (("rh" ae) 0))))
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("n_a_AUX" AUX ((("n" "a") 0))))
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m e) 0)))); no LIA
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("faible_ADJ" "ADJ" ((("f" "eh")0) ((b l ae) 0))))
+
+
+(set! text "Or, elle n'a jamais été aussi faible.") ; neut_parl_s02_0213
+(dSayText text)

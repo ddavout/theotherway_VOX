@@ -1,0 +1,29 @@
+(lex.add.entry '("apriori_ADV" ADV ((("a") 0) (("p" "rh" i)0) (("j" "oh") 0) (("rh" "i") 0))))
+(lex.add.entry '("apriori_NOM" NOM ((("a") 0) (("p" "rh" i)0) (("j" "oh") 0) (("rh" "i") 0)))); confusion
+(lex.add.entry '("droit_ADJ" "ADJ" ((("d" "rh" "w" "a") 0)))); confusion
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))));
+
+
+(lex.add.entry '("mais_CON" "CON" (((m e) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((z i l) 0)))); LIA
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("difficile_ADJ" "ADJ" ((("d" "i") 0) (("f" "i") 0) (("s" "i" "l") 0))))
+(lex.add.entry '("apriori" nil ((("a") 0) (("p" "rh" i)0) (("j" "oh") 0) (("rh" "i") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("définir_VER" "VER" ((("d" "e") 0) (("f" "i") 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("aurait_VER" VER ((("oh") 0) (("rh" "eh") 0))))
+(lex.add.entry '("droit" nil ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("recours_NOM" NOM ((("rh" "ae") 0) (("k" "u" "rh") 0))))
+
+(set! text "mais il est difficile apriori de définir, qui aurait droit ou non, de faire des recours.") ; 
+(dSayText text); neut_parl_s01_0257
+
+
+
+

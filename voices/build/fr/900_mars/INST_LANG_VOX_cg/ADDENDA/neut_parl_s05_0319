@@ -1,0 +1,8 @@
+(lex.add.entry '("Mauvais_ADJ" ADJ ((("m" "oh") 0) (("v" "eh") 0))))
+(lex.add.entry '("procès_NOM" NOM ((("p" "rh" "oh") 0) (("s" "eh") 0))))
+(lex.add.entry '("allez-vous_VER" VER ((("a") 0) (("l" "e") 0)((v u) 0)))); no LIA
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("répondre_VER" "VER" ((("rh" "e") 0) (("p" "ohn")0) (("d" "rh" ae) 0))))
+
+(set! text "Mauvais procès allez-vous me répondre.") ; neut_parl_s05_0319
+(dSayText text)

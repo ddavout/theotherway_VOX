@@ -1,0 +1,13 @@
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("échange_NOM" "NOM" ((("e") 0) (("sh" "ahn" "zh") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh" "g") 0))))
+(lex.add.entry '("parlementaires_ADJ" ADJ ((("p" "a" "rh") 0) (("l" "ae") 0) (("m" "ahn") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("pourrè_VER" VER ((("p" "u") 0) (("rh" "eh") 0))))
+(lex.add.entry '("alors_ADV" "ADV" (((a) 0) ((l oh rh) 0))))
+(lex.add.entry '("avoir_VER" "VER" ((("a") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("lieu_NOM" "NOM" ((("l" "j" "eu") 0))))
+
+(set! never_exception_list (append (list "pourrait" ) never_exception_list_default))
+(dSayText "Un échange avec nos collègues parlementaires, pourrait alors avoir lieu.") ; neut_parl_s03_0415

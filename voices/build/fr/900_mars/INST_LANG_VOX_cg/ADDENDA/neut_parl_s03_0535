@@ -1,0 +1,11 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("celui_ci" nil ((("s" "ae") 0) (("l" "hw" "i") 0) (("s" "i") 0))))
+(lex.add.entry '("précise_VER" "VER" ((("p" "rh" "e") 0) (("s" "i" "z") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("quand_CON" "CON" ((("k" "ahn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("technique_NOM" "NOM" ((("t" "eh" "k") 0) (("n" "i" "k") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("permet_VER" "VER" ((("p" "eh" "rh") 0) (("m" "eh") 0))))
+
+(dSayText "Mais celui-ci précise bien : quand la technique le permet.") ; neut_parl_s03_0535

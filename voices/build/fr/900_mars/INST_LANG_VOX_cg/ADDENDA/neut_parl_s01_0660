@@ -1,0 +1,17 @@
+(lex.add.entry '("chacun_PRO:ind" "PRO:ind" ((("sh" "a") 0) (("k" "oen") 0))))
+(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("savoir_VER" "VER" ((("s" "a") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("l_on_PRO:per" "PRO:per" (((l "ohn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("séparer_VER" VER ((("s" "e") 0) (("p" "a") 0) (("rh" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("militaire_NOM" "NOM" ((("m" "i") 0) (("l" "i") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("politique_NOM" NOM ((("p" "oh") 0) (("l" "i") 0) (("t" "i" "k") 0))))
+
+(set! text "chacun ici doit savoir, que l'on ne peut pas séparer le militaire du politique.") ; neut_parl_s01_0660
+(dSayText text)

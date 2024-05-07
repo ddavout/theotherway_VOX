@@ -1,0 +1,10 @@
+(lex.add.entry '("chacun_PRO:ind" "PRO:ind" ((("sh" "a") 0) (("k" "oen") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("avoir_VER" "VER" ((("a") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("accès_NOM" "NOM" ((("a" "k") 0) (("s" "e") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("soins_NOM" NOM ((("s" "w" "ehn") 0))))
+
+
+(set! never_exception_list (append (list "doit" ) never_exception_list_default))
+(dSayText "Chacun, doit avoir accès aux soins.") ; neut_parl_s03_0205

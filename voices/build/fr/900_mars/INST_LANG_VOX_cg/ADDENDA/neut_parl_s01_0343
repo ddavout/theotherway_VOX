@@ -1,0 +1,12 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("combat_NOM" "NOM" ((("k" "ohn") 0) (("b" "a") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" (((t "o") 0) (("s" "i") 0)))); LIA
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("combat_NOM" "NOM" ((("k" "ohn") 0) (("b" "a") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("valeurs_NOM" NOM ((("v" "a") 0) (("l" "oe" "rh") 0))))
+
+(set! text "Ce combat est aussi un combat pour nos valeurs.") ; 
+(dSayText text); neut_parl_s01_0343

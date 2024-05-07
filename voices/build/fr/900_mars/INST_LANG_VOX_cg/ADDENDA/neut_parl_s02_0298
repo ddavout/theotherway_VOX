@@ -1,0 +1,9 @@
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("apparu_NAM" "NAM" ((("a") 0) (("p" "a") 0) (("rh" "y") 0)))); POS flemme
+(lex.add.entry '("s_il_PRO:per" "PRO:per" (((s i l) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("plait_VER" VER ((("p" "l" "eh") 0))))
+
+(set! text "Monsieur Apparu s'il vous plait.") ; neut_parl_s02_0298
+(dSayText text)
+

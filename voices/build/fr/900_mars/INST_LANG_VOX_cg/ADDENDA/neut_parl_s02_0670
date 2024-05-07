@@ -1,0 +1,7 @@
+(lex.add.entry '("texte_NOM" NOM ((("t" "eh" "k")0) ((s "t" ae) 0))))
+(set! list_exclus*-> (append (list "aspects") list_exclus*->_default))
+
+
+;(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
+(dSayText "Ce texte comporte trois aspects importants.") ; neut_parl_s02_0670

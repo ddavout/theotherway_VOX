@@ -1,0 +1,9 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("négociation_NOM" "NOM" ((("n" "e") 0) (("g" "oh") 0) (("s" "j" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("vient_VER" VER ((("v" "j" ehn) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("s_achever_VER" VER (((s "a") 0) (("sh" "v" "e") 0))))
+
+
+(set! text "La négociation, vient de s'achever.") ; neut_parl_s05_0424
+(dSayText text)

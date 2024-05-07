@@ -1,0 +1,11 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("délai_NOM" "NOM" ((("d" "e") 0) (("l" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("quinze_ADJ:num" "ADJ:num" ((("k" "ehn" "z") 0))))
+(lex.add.entry '("jours_NOM" NOM ((("zh" "u" "rh") 0))))
+(lex.add.entry '("l_est_VER" "VER" (((l "e") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" ) 0))))
+(lex.add.entry '("également_ADV" "ADV" (((k "e") 0) (("g" "a" l) 0) (("m" "ahn") 0)))); LIA
+
+(set! text "le délai de quinze jours l'est donc également."); neut_parl_s01_0090
+(dSayText text)

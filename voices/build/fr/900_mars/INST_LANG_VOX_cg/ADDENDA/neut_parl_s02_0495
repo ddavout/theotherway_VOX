@@ -1,0 +1,14 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("volet_NOM" "NOM" ((("v" "oh") 0) (("l" "eh") 0))))
+(lex.add.entry '("s_PRO:per" "PRO:per" nil))
+(lex.add.entry '("est_VER" "VER" (((eh) 0))))
+(lex.add.entry '("incontestablement_ADV" "ADV" ((("ehn") 0) (("k" "ohn") 0) (("t" "e" "s") 0) (("t" "a") 0) (("b" "l" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("enrichi_ADJ" ADJ ((("ahn") 0) (("rh" "i") 0) (("sh" "i") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("cours_NOM" NOM ((("k" "u" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("débats_NOM" NOM ((("d" "e") 0) (("b" "a") 0))))
+
+(set! list_exclus*-> (append (list "incontestablement") list_exclus*->_default))
+(set! never_exception_list (append (list "s_est" ) never_exception_list_default))
+(dSayText "Ce volet s'est incontestablement enrichi au cours des débats.") ; neut_parl_s02_0495

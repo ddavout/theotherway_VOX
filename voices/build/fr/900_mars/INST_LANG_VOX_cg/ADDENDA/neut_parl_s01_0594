@@ -1,0 +1,10 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("force_NOM" "NOM" ((("f" "oh" "rh" "s") 0))))
+(lex.add.entry '("demeure_VER" "VER" ((("d" "ae") 0) (("m" "oe" "rh") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("temps_NOM" "NOM" (((t ahn) 0))))
+
+
+(set! text "Cette force demeure dans le temps.") ; 
+(dSayText text); neut_parl_s01_0594

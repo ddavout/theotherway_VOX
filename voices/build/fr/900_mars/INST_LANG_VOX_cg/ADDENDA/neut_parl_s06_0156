@@ -1,0 +1,9 @@
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_imposons_VER" VER (((n "ehn") 0) (("p" "o") 0) (("z" "ohn") 0)))); done
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("modèle_NOM" "NOM" ((("m" "oh") 0) (("d" "eh" "l") 0))))
+(lex.add.entry '("unique_ADJ" "ADJ" ((("y") 0) (("n" "i" "k") 0))))
+(set! list_exclus*-> (append (list "pas") list_exclus*->_default))
+
+(dSayText "N'imposons pas un modèle unique.") ; neut_parl_s06_0156

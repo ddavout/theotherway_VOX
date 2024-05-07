@@ -1,0 +1,19 @@
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("premier_NOM" NOM ((("p" "rh" "ae") 0) (("m" "j" "e") 0))))
+(lex.add.entry '("octobre_NOM" "NOM" (((rh "oh" "k") 0) (("t" "oh" "b" "rh") 0)))); LIA
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("mille_ADJ:num" ADJ:num ((("m" "i" "l") 0))))
+(lex.add.entry '("douze_ADJ:num" "ADJ:num" (((d u) 0) ((z ae) 0))))
+(lex.add.entry '("soixante_ADJ:num" ADJ:num (((s w a) 0) ((s ahn t) 0))))
+(lex.add.entry '("quinze_NOM" "NOM" ((("k" "ehn" "z") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("cent_NOM" "NOM" (((s ahn) 0))))
+(lex.add.entry '("l_étaient_VER" VER (((l "e") 0) (("t" "eh") 0))))
+
+
+
+(set! text "au premier octobre deux mille douze, soixante quinze pour cent l'étaient.") ; neut_parl_s01_0053
+(dSayText text)
+
+
+

@@ -1,0 +1,14 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("groupe_NOM" "NOM" ((("g" "rh" "u" "p") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("met_VER" "VER" ((("m" "eh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("place_NOM" "NOM" ((("p" "l" "a" "s") 0))))
+
+(set! never_exception_list (append (list "met" ) never_exception_list_default)) ; todo en 
+(dSayText "C'est un travail de groupe qui se met en place.") ; neut_parl_s03_0387

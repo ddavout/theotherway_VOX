@@ -1,0 +1,7 @@
+(lex.add.entry '("plus_ou_moins_ADV" "ADV" ((("p" "l" "y") 0) ((z u) 0) ((m w ehn) 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("monde_NOM" "NOM" ((("m" "ohn")0) (("d" "ae") 0))))
+
+(dSayText "Plus ou moins, comme tout le monde !") ; neut_parl_s06_0655

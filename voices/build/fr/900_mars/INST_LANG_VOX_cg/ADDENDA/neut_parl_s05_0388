@@ -1,0 +1,9 @@
+(lex.add.entry '("j_imagine_VER" VER ((("zh" "i") 0) (("m" "a") 0) (("zh" "i" "n") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("chacun_PRO:ind" "PRO:ind" ((("sh" "a") 0) (("k" "oen") 0))))
+(lex.add.entry '("y_PRO:per" "PRO:per" nil)); no LIA
+(lex.add.entry '("est_VER" "VER" (((j "eh") 0))))
+(lex.add.entry '("favorable_ADJ" "ADJ" ((("f" "a") 0) (("v" "oh") 0) (("rh" "a")0) (("b" "l" ae) 0))))
+
+(set! never_exception_list (append (list "y" ) never_exception_list_default))
+(dSayText "J'imagine que chacun y est favorable.") ; neut_parl_s05_0388

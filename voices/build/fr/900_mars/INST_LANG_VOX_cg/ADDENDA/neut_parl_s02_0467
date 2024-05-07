@@ -1,0 +1,11 @@
+(lex.add.entry '("si_CON" "CON" nil))
+(lex.add.entry '("onhh_PRO:per" "PRO:per" (((s j "ohn") 0))))
+(lex.add.entry '("veut_VER" "VER" ((("v" "eu") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("solution_NOM" NOM ((("s" "oh") 0) (("l" "y") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("la_PRO:per" PRO:per ((("l" "a") 0))))
+(lex.add.entry '("trouvé_VER" VER ((("t" "rh" "u") 0) (("v" "e") 0))))
+
+(dSayText "Si on veut la solution, on peut la trouver.") ; neut_parl_s02_0467

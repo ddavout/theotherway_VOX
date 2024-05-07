@@ -1,0 +1,9 @@
+(set! list_exclus*-> (append (list "personnes") list_exclus*->_default))
+;(lex.add.entry '("handicap_NOM" NOM ((("hs" "ahn") 0) (("d" "i") 0) (("k" "a" p) 0)))); 
+(lex.add.entry '("handicap_NOM" NOM ((("ahn") 0) (("d" "i") 0) (("k" "a" p) 0))))
+
+
+
+(set! never_exception_list (append (list "est" "C_est" ) never_exception_list_default))
+;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
+(dSayText "Et notre engagement auprès des personnes en situation de handicap est immense.") ; neut_parl_s02_0411

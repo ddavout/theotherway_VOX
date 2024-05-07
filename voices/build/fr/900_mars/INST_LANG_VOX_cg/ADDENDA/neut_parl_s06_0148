@@ -1,0 +1,16 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("habitants_NOM" NOM ((("a") 0) (("b" "i") 0) (("t" "ahn") 0)))); LIA
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("région_NOM" "NOM" ((("rh" "e") 0) (("zh" "j" "ohn") 0))))
+(lex.add.entry '("Centre_NOM" NOM ((("s" "ahn") 0) (("t" "rh" "ae") 0)))); POS
+(lex.add.entry '("Centre_VER" VER ((("s" "ahn") 0) (("t" "rh" "ae") 0)))); confusion POS
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("voulons_VER" VER ((("v" "u") 0) (("l" "ohn") 0))))
+(lex.add.entry '("suivre_VER" VER ((("s" "hw" "i") 0) (("v" "rh" ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("fleuve_NOM" "NOM" ((("f" "l" "oe" "v") 0))))
+(lex.add.entry '("royal_NAM" "NAM" ((("rh" "w" "a") 0) (("j" "a" "l") 0))))
+
+(set! text "Nous, habitants de la région Centre, nous voulons suivre le fleuve royal.") ; neut_parl_s06_0148
+(dSayText text)

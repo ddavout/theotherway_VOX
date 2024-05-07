@@ -1,0 +1,10 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("arbitrages_NOM" NOM (((z "a" "rh") 0) (("b" "i") 0) (("t" "rh" "a")0) (("zh" ae) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("complètement_ADV" "ADV" ((("k" "ohn") 0) (("p" "l" "eh" "t") 0) (("m" "ahn") 0))))
+(lex.add.entry '("rendus_VER" VER ((("rh" "ahn") 0) (("d" "y") 0))))
+
+(dSayText "Les arbitrages, ne sont donc pas complètement rendus.") ; neut_parl_s03_0397

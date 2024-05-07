@@ -1,0 +1,12 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("texte_NOM" NOM ((("t" "eh" "k" s) 0) (("t" ae) 0))))
+(lex.add.entry '("s_applique_VER" VER (((s "a") 0) (("p" "l" "i") 0))))
+
+(lex.add.entry '("aux_ART:def" "ART:def" (((k "o") 0))))
+(lex.add.entry '("immeubles_NOM" NOM (((z "i") 0) (("m" "oe" "b" "l") 0))))
+(lex.add.entry '("collectifs_ADJ" ADJ ((("k" "oh") 0) (("l" "e" "k") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("usage_NOM" "NOM" ((("y") 0) (("z" "a" "zh") 0))))
+(lex.add.entry '("résidentiel_ADJ" "ADJ" ((("rh" "e") 0) (("z" "i") 0) (("d" "ahn") 0) (("s" "j" "eh" "l") 0))))
+
+(dSayText "Le texte s'applique aux immeubles collectifs à usage résidentiel.") ; neut_parl_s03_0154

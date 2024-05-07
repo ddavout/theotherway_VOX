@@ -1,0 +1,11 @@
+(lex.add.entry '("c_était_VER" VER (((s e) 0) ((t eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("grand_NOM" NOM ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("professionnel_ADJ" ADJ ((("p" "rh" "oh") 0) (("f" "e") 0) (("s" "j" "oh") 0) (("n" "eh" "l") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("grand_ADJ" "ADJ" ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("soldat_NOM" "NOM" ((("s" "oh" "l") 0) (("d" "a") 0))))
+
+
+(set! text "c'était un grand professionnel, un grand soldat.") ; neut_parl_s02_0711
+(dSayText text)

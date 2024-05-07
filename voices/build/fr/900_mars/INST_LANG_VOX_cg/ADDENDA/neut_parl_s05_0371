@@ -1,0 +1,9 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("a_AUX" "AUX" (((l "a") 0))))
+(lex.add.entry '("lancé_VER" "VER" ((("l" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("immédiatement_ADV" "ADV" ((("i") 0) (("m" "e") 0) (("d" "j" "a" t) 0) (("m" "ahn") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("chantier_NOM" "NOM" ((("sh" "ahn") 0) (("t" "j" "e") 0))))
+
+
+(dSayText "Il a lancé, immédiatement ce chantier.") ; neut_parl_s05_0371

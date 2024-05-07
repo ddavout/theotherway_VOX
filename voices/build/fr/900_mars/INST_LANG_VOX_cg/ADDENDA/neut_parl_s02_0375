@@ -1,0 +1,14 @@
+(lex.add.entry '("j_ai_AUX" "AUX" (((zh eh) 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("même_ADJ" "ADJ" ((("m" "eh" "m") 0))))
+(lex.add.entry '("chose_NOM" "NOM" (((sh o z) 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("un_autre_ADJ" "ADJ" ((("oen")0)((n "o")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("sujet_NOM" "NOM" ((("s" "y") 0) (("zh" "eh") 0))))
+(lex.add.entry '("il_y_a_VER" "VER" (((i)0)((l "j" "a") 0))))
+(lex.add.entry '("quelques_ADJ:ind" ADJ:ind ((("k" "eh" "l") 0) (("k" "ae") 0))))
+(lex.add.entry '("instants_NOM" NOM (((z "ehn" "s") 0) (("t" "ahn") 0)))); LIA
+
+(set! text "J'ai dit la même chose sur un autre sujet il y a quelques instants.") ; neut_parl_s02_0375
+(dSayText text)

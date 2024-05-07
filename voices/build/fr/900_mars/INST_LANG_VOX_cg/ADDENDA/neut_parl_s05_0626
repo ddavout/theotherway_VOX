@@ -1,0 +1,16 @@
+(lex.add.entry '("Certains_ADJ:ind" ADJ:ind ((("s" "eh" "rh") 0) (("t" "ehn") 0))))
+(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
+(lex.add.entry '("européens_ADJ" ADJ ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("décidé_VER" "VER" ((("d" "e") 0) (("s" "i") 0) (("d" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m eh) 0))))
+(lex.add.entry '("entré_VER" VER ((("ahn") 0) (("t" "rh" "e") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("nucléaire_NOM" "NOM" ((("n" "y") 0) (("k" "l" "e") 0) (("eh" "rh") 0))))
+
+(set! list_exclus*-> (append (list "européens" "jamais") list_exclus*->_default))
+(set! never_exception_list (append (list "pays" "C_est" ) never_exception_list_default))
+(dSayText "Certains pays européens ont décidé de ne jamais entrer dans le nucléaire.") ; neut_parl_s05_0626

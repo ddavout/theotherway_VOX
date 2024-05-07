@@ -1,0 +1,16 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("signe_NOM" "NOM" ((("s" "i")0)(("jg" ae) 0))))
+(lex.add.entry '("positif_ADJ" "ADJ" ((("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("signe_NOM" "NOM" ((("s" "i")0) (("jg" ae) 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("espoir_VER" "VER" ((("e" "s") 0) (("p" "w" "a" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+;(lex.add.entry '("signe_NOM" "NOM" ((("s" "i" "jg") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("soutien_NOM" "NOM" ((("s" "u") 0) (("t" "j" "ehn") 0))))
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "Il est un signe positif, un signe d'espoir, un signe de soutien.") ; neut_parl_s06_0320

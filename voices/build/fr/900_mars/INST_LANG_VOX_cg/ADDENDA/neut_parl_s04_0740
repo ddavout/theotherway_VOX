@@ -1,0 +1,7 @@
+(lex.add.entry '("Quels_ADJ:int" ADJ:int ((("k" "eh" "l") 0))))
+(lex.add.entry '("équipements_NOM" NOM (((z "e") 0) (("k" "i" "p") 0) (("m" "ahn") 0)))); LIA
+(lex.add.entry '("spécifiques_ADJ" ADJ ((("s" "p" "e") 0) (("s" "i") 0) (("f" "i" "k") 0))))
+(lex.add.entry '("visez-vous_VER" VER ((("v" "i") 0) (("z" "e") 0)((v u) 0))))
+
+(set! text "Quels équipements spécifiques visez-vous ?") ; neut_parl_s04_0740
+(dSayText text)

@@ -1,0 +1,10 @@
+(lex.add.entry '("de_fait_ADV" ADV ((("d" "ae") 0) (("f" "eh" t) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("chômage_NOM" "NOM" ((("sh" "o") 0) (("m" "a" "zh") 0))))
+(lex.add.entry '("n_a_AUX" AUX ((("n" "a") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("reculé_VER" "VER" ((("rh" "ae") 0) (("k" "y") 0) (("l" "e") 0))))
+
+
+(set! text "De fait, le chômage n'a pas reculé.") ; 
+(dSayText text); neut_parl_s01_0554

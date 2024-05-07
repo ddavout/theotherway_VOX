@@ -1,0 +1,16 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("gens_NOM" "NOM" (((zh ahn) 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("travaillent_VER" VER ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("lundi_NOM" "NOM" ((("l" "oen") 0) (("d" "i") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("samedi_NOM" "NOM" ((("s" "a" "m") 0) (("d" "i") 0))))
+(lex.add.entry '("sans_PRE" PRE ((("s" "ahn") 0))))
+(lex.add.entry '("rentré_VER" VER ((("rh" "ahn") 0) (("t" "rh" "e") 0))))
+(lex.add.entry '("chez_PRE" "PRE" ((("sh" "e") 0))))
+(lex.add.entry '("eux_PRO:per" "PRO:per" ((("eu") 0))))
+
+(dSayText "Ce sont des gens qui travaillent du lundi au samedi, sans rentrer chez eux.") ; neut_parl_s02_0625

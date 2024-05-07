@@ -1,0 +1,7 @@
+(lex.add.entry '("certains_PRO:ind" PRO:ind ((("s" "eh" "rh") 0) (("t" "ehn") 0))))
+(lex.add.entry '("fonctionnent_VER" VER ((("f" "ohn" "k") 0) (("s" "j" "oh" n) 0))))
+(lex.add.entry '("plus_ou_moins_ADV" "ADV" ((("p" "l" "y") 0) ((z u) 0) ((m w ehn) 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+
+(set! text "Certains fonctionnent plus ou moins bien.") ; 
+(dSayText text); neut_parl_s01_0129

@@ -1,0 +1,10 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_était_VER" "VER" (((s e) 0) ((t eh) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("moment_NOM" "NOM" ((("m" "oh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("où_PRO:rel" "PRO:rel" (((u) 0))))
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m eh) 0))))
+
+;(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+    ;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
+(dSayText "C'était le moment où jamais.") ; neut_parl_s06_0010

@@ -1,0 +1,14 @@
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("tout_NOM" NOM ((("t" "u") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("moins_NOM" NOM ((("m" "w" "ehn") 0))))
+(lex.add.entry '("j_aimerais_VER" VER ((("zh" "eh") 0) (("m" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("lancé_VER" VER ((("l" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("ouvrir_VER" "VER" ((("u") 0) (("v" "rh" "i" "rh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("perspective_NOM" "NOM" ((("p" "eh" "rh") 0) (("s" "p" "eh" "k") 0) (("t" "i")0) (("v" ae) 0))))
+
+(dSayText "à tout le moins, j'aimerais lancer le débat, et ouvrir une perspective.") ; neut_parl_s04_0374

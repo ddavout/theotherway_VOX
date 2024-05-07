@@ -1,0 +1,8 @@
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("aspirations_NOM" NOM (((z "a" "s") 0) (("p" "i") 0) (("rh" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("nouvelles_ADJ" ADJ ((("n" "u") 0) (("v" "eh" "l") 0))))
+(lex.add.entry '("s_affirment_VER" VER (((s "a") 0) (("f" "i" "rh")0) (("m" ae) 0))))
+
+
+(set! text "Des aspirations nouvelles s'affirment.") ; neut_parl_s02_0458
+(dSayText text)

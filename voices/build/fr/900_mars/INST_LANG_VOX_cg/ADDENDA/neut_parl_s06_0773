@@ -1,0 +1,9 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("alsace_NAM" "NAM" (((n a l) 0) ((z a s) 0))))
+(lex.add.entry '("région_NOM" "NOM" ((("rh" "e") 0) (("zh" "j" "ohn") 0))))
+(lex.add.entry '("frontalière_ADJ" "ADJ" ((("f" "rh" "ohn") 0) (("t" "a") 0) (("l" "j" "eh" "rh") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("avons_VER" "VER" (((z "a") 0) (("v" "ohn") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("Rhin_NAM" NAM ((("rh" "ehn") 0))))
+(dSayText "En Alsace, région frontalière, nous avons le Rhin.") ; neut_parl_s06_0773

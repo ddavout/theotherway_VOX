@@ -1,0 +1,15 @@
+(lex.add.entry '("seul_ADJ" "ADJ" ((("s" "oe" "l") 0))))
+(lex.add.entry '("seul_ADV" "ADV" ((("s" "oe" "l") 0))))
+(lex.add.entry '("seul_NOM" "NOM" ((("s" "oe" "l") 0)))); confusion possible
+
+(lex.add.entry '("seul" nil ((("s" "oe" "l") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("mariage_NOM" "NOM" ((("m" "a") 0) (("rh" "j" "a") 0))))
+(lex.add.entry '("est_AUX" "AUX" (((zh "eh") 0))))
+(lex.add.entry '("réservé_VER" "VER" ((("rh" "e") 0) (("z" "eh" "rh") 0) (("v" "e") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("couples_NOM" NOM ((("k" "u")0) (("p" "l" ae) 0))))
+(lex.add.entry '("hétérosexuels_ADJ" ADJ ((("e") 0) (("t" "e") 0) (("rh" "o") 0) (("s" "eh" "k") 0) (("s" "hw" "eh")0) (("l" ae) 0)))); no LIA
+
+(set! text "Seul le mariage est réservé aux couples hétérosexuels.") ; neut_parl_s02_0662
+(dSayText text)

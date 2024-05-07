@@ -1,0 +1,17 @@
+(lex.add.entry '("j_en_PRO:per" "PRO:per" (((zh ahn) 0))))
+(lex.add.entry '("doute_VER" "VER" ((("d" "u" "t") 0))))
+(lex.add.entry '("vu_VER" "VER" ((("v" "y") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("mêmes_ADJ" ADJ ((("m" "eh" "m") 0))))
+(lex.add.entry '("types_NOM" NOM ((("t" "i" "p") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("locaux_NOM" "NOM" ((("l" "o") 0) (("k" "o") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("besoins_NOM" NOM ((("b" "ae") 0) (("z" "w" "ehn") 0))))
+
+(set! text "J'en doute, vu que ce sont les mêmes types de locaux et de besoins.") ; neut_parl_s03_0015
+(dSayText text)

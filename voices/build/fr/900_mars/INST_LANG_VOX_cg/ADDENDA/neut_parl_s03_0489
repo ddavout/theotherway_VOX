@@ -1,0 +1,8 @@
+(lex.add.entry '("comment_ADV" "ADV" ((("k" "oh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("connaitre_VER" "VER" ((("k" "oh") 0) (("n" "eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t rh "oen") 0))))
+(lex.add.entry '("poète_NOM" "NOM" ((("p" "oh") 0) (("eh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((t ahn) 0))))
+(lex.add.entry '("vrai_NOM" NOM ((("v" "rh" "eh") 0))))
+
+(dSayText "Comment connaître un poète en vrai ?") ; neut_parl_s03_0489

@@ -1,0 +1,10 @@
+; bref moche
+(lex.add.entry '("bref_ADV" "ADV" ((("b" "rh" "eh") 0) (("f" "ae") 0))))
+(lex.add.entry '("ça_PRO:dem" "PRO:dem" ((("s" "a") 0))))
+(lex.add.entry '("va_VER" "VER" ((("v" "a") 0))))
+(lex.add.entry '("ça_PRO:dem" "PRO:dem" ((("s" "a") 0))))
+(lex.add.entry '("vient_VER" VER ((("v" "j" "ehn") 0))))
+
+
+(set! text "bref, ça va, ça vient !") ; 
+(dSayText text); neut_parl_s01_0323

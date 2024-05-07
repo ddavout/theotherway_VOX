@@ -1,0 +1,11 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("rappelle_VER" "VER" ((("rh" "a") 0) (("p" "eh" "l") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("polynésie_NAM" "NAM" ((("p" "oh") 0) (("l" "i") 0) (("n" "e") 0) (("z" "i") 0))))
+(lex.add.entry '("y_a_VER" "VER" ((("j" "a") 0))))
+(lex.add.entry '("largement_ADV" "ADV" ((("l" "a" "rh") 0) (("zh" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("contribué_VER" "VER" ((("k" "ohn") 0) (("t" "rh" "i") 0) (("b" y)0) (("hw" "e") 0))))
+
+(dSayText "Je vous rappelle que la Polynésie, y a largement contribué.") ; neut_parl_s04_0508

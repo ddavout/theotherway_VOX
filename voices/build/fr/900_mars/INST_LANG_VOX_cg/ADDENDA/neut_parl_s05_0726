@@ -1,0 +1,8 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("partage_VER" "VER" ((("p" "a" "rh") 0) (("t" "a" "zh") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" nil))
+(lex.add.entry '("vue_NOM" "NOM" (((d "v" "y") 0))))
+
+(dSayText "Je partage ce point de vue.") ; neut_parl_s05_0726

@@ -1,0 +1,11 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("français_ADJ" ADJ ((("f" "rh" "ahn") 0) (("s" "eh") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((s k i) 0))))
+(lex.add.entry '("est__VER" VER (((l "eh" ) 0))))
+
+
+(set! text "Le droit français est ce qu'il est_.") ; neut_parl_s03_0126
+(dSayText text)

@@ -1,0 +1,9 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("somme_NOM" "NOM" ((("s" "oh" "m") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("constitue_VER" "VER" ((("k" "ohn" "s") 0) (("t" "i") 0) (("t" "y") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y") 0))))
+(lex.add.entry '("étape_NOM" "NOM" (((n "e") 0) (("t" "a" "p") 0))))
+(lex.add.entry '("nécessaire_ADJ" "ADJ" ((("n" "e") 0) (("s" "e") 0) (("s" "eh" "rh") 0))))
+
+(dSayText "En somme, il constitue une étape nécessaire.") ; neut_parl_s05_0580

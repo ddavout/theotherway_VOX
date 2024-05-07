@@ -1,0 +1,14 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("obligations_NOM" NOM (((z "oh") 0) (("b" "l" "i") 0) (("g" "a") 0) (("s" "j" "ohn") 0)))); LIA
+(lex.add.entry '("s_appliquent_VER" VER (((s "a") 0) (("p" "l" "i" "k") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" (((t "o") 0) (("s" "i") 0)))); LIA
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("médias_NOM" NOM ((("m" "e") 0) (("d" "j" "a") 0))))
+(lex.add.entry '("vidéo_ADJ" "ADJ" ((("v" "i") 0) (("d" "e") 0) (("o") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("réseaux_NOM" "NOM" ((("rh" "e") 0) (("z" "o") 0))))
+(lex.add.entry '("numériques_ADJ" ADJ ((("n" "y") 0) (("m" "e") 0) (("rh" "i")0) (("k" "ae") 0))))
+
+(set! text "Ces obligations s'appliquent aussi aux médias vidéo, et aux réseaux numériques.") ; neut_parl_s02_0002
+(dSayText text)

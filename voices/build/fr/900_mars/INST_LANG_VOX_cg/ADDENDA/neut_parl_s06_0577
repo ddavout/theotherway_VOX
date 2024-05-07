@@ -1,0 +1,18 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("congé_NOM" "NOM" ((("k" "ohn") 0) (("zh" "e") 0))))
+(lex.add.entry '("sabbatique_ADJ" "ADJ" ((("s" "a") 0) (("b" "a") 0) (("t" "i" "k") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("onze_ADJ:num" "ADJ:num" ((("ohn" "z") 0))))
+(lex.add.entry '("mois_NOM" NOM ((("m" "w" "a") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("revenir_VER" "VER" ((("rh" "ae" v) 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("avant_ADV" ADV ((("a") 0) (("v" "ahn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("fin_NOM" "NOM" ((("f" "ehn") 0))))
+
+(dSayText "Le congé sabbatique, c'est onze mois, et on ne peut pas revenir avant la fin.") ; neut_parl_s06_0577

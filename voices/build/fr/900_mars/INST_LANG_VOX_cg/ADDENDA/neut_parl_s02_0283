@@ -1,0 +1,18 @@
+(lex.add.entry '("Voici_VER" VER ((("v" "w" "a") 0) (("s" "i") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("grandes_ADJ" ADJ ((("g" "rh" "ahn" "d") 0))))
+(lex.add.entry '("pistes_NOM" NOM ((("p" "i" "s")0) (("t" "ae") 0))))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("suivre_VER" "VER" ((("s" "hw" i) 0) (("v" "rh" "ae") 0))))
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn")0) (("s" "ae") 0))))
+(lex.add.entry '("veut_VER" "VER" ((("v" "eu") 0))))
+(lex.add.entry '("sortir_VER" VER ((("s" "oh" "rh") 0) (("t" "i" "rh") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("déclin_NOM" "NOM" ((("d" "e") 0) (("k" "l" "ehn") 0))))
+
+(set! text "Voici les trois grandes pistes qu'il faut suivre si la France veut sortir du déclin.") ; neut_parl_s02_0283
+(dSayText text)

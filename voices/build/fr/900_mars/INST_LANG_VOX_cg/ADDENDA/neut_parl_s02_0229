@@ -1,0 +1,12 @@
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("heurts_NOM" NOM ((("oe" "rh") 0)))); no LIA
+(lex.add.entry '("quotidiens_ADJ" ADJ ((("k" "oh") 0) (("t" "i") 0) (("d" "j" "ehn") 0))))
+(lex.add.entry '("opposent_VER" VER ((("oh") 0) (("p" "o" "z") 0)))); no LIA
+(lex.add.entry '("forces_NOM" NOM ((("f" "oh" "rh" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("police_NOM" "NOM" ((("p" "oh") 0) (("l" "i" "s") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("manifestants_NOM" NOM ((("m" "a") 0) (("n" "i") 0) (("f" "eh" "s") 0) (("t" "ahn") 0))))
+
+(set! text "Des heurts quotidiens opposent forces de police et manifestants.") ; neut_parl_s02_0229
+(dSayText text)

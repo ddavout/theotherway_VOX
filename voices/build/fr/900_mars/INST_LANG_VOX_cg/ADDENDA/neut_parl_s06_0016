@@ -1,0 +1,10 @@
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("budget_NOM" "NOM" ((("b" "y" "d") 0) (("zh" "eh") 0))))
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("t" "a") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+
+; bug "tout"
+(dSayText "Sur le budget, tout a été dit.") ; neut_parl_s06_0016

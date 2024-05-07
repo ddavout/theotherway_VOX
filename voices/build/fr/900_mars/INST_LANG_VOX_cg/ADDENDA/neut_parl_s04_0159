@@ -1,0 +1,16 @@
+(lex.add.entry '("Toutes_ADJ" ADJ ((("t" "u")0) (("t" ae) 0))))
+(lex.add.entry '("deux_NOM" NOM ((("d" "eu") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("relevé_VER" "VER" ((("rh" "ae" "l") 0) (("v" "e") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("défi_NOM" "NOM" ((("d" "e") 0) (("f" "i") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("élégance_NOM" "NOM" ((("e") 0) (("l" "e") 0) (("g" "ahn" "s") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a")0) (("j" "ae") 0))))
+
+(set! list_exclus*-> (append (list "deux" ) list_exclus*->_default)); deux + VER SAFE
+(dSayText "Toutes deux ont relevé ce défi avec beaucoup d'élégance et de travail.") ; neut_parl_s04_0159

@@ -1,0 +1,7 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("demandent-ils_VER" VER ((("d" "ae") 0) (("m" "ahn") 0) (("d" ae) 0)(("t" i l) 0))))
+
+(set! text "Et que nous demandent-ils ?") ; neut_parl_s06_0169
+(dSayText text)

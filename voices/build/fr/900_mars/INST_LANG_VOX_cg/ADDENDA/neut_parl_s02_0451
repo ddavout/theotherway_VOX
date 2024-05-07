@@ -1,0 +1,16 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("argent_NOM" "NOM" ((("a" "rh") 0) (("zh" "ahn") 0))))
+(lex.add.entry '("ainsi_ADV" "ADV" ((("ehn") 0) (("s" "i") 0))))
+(lex.add.entry '("récupéré_VER" "VER" ((("rh" "e") 0) (("k" "y") 0) (("p" "e") 0) (("rh" "e") 0))))
+(lex.add.entry '("permettrè_VER" VER ((("p" "eh" "rh") 0) (("m" "eh") 0) (("t" "rh" "eh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("baisse_NOM" "NOM" ((("b" "eh" "s") 0))))
+(lex.add.entry '("massive_ADJ" "ADJ" ((("m" "a") 0) (("s" "i" "v") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("charges_NOM" NOM ((("sh" "a" "rh" "zh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("branche_NOM" "NOM" ((("b" "rh" "ahn" "sh") 0))))
+(lex.add.entry '("famille_NOM" "NOM" ((("f" "a") 0) (("m" "i")0) (("j" "ae") 0))))
+
+(dSayText "l'argent ainsi récupéré permettrait une baisse massive des charges de la branche famille.") ; neut_parl_s02_0451

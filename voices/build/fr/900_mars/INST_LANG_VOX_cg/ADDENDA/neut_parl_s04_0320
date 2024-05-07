@@ -1,0 +1,9 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("pourron_VER" VER ((("p" "u") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("discuté_VER" VER ((("d" "i" "s") 0) (("k" "y") 0) (("t" "e") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("longuement_ADV" "ADV" ((("l" "ohn" g) 0) (("m" "ahn") 0))))
+
+(set! never_exception_list (append (list "pourrons" ) never_exception_list_default))
+(dSayText "Nous pourrons en discuter plus longuement.") ; neut_parl_s04_0320

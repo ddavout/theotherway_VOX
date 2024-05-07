@@ -1,0 +1,18 @@
+; TODO PRE avant ponctuation -> ADV ?
+(lex.add.entry '("d_abord_PRE" "PRE" (((d "a") 0) (("b" "oh" "rh") 0)))); confusion
+
+
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_inscrivent_VER" VER (((s "ehn" "s") 0) (("k" "rh" "i" "v") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((z "y" "n") 0))))
+(lex.add.entry '("politique_NOM" "NOM" ((("p" "o") 0) (("l" "i") 0) (("t" "i" "k") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("globale_ADJ" "ADJ" ((("g" "l" "oh") 0) (("b" "a") 0) (("l" "ae") 0))))
+(lex.add.entry '("celle_NOM" NOM ((("s" "eh" "l") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("logement_NOM" "NOM" ((("l" "oh" "zh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("d_abord_ADV" "ADV" (((d "a") 0) (("b" "oh" "rh") 0))))
+
+(set! text "ils s'inscrivent dans une politique plus globale, celle du logement d'abord.") ; neut_parl_s01_0681
+(dSayText text)

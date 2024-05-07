@@ -1,0 +1,10 @@
+(lex.add.entry '("Plusieurs_ADJ:ind" ADJ:ind ((("p" "l" "y") 0) (("z" "j" "oe" "rh") 0))))
+(lex.add.entry '("députés_NOM" NOM ((("d" "e") 0) (("p" "y") 0) (("t" "e") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("sud_ouest" nil ((("s" "y") 0) (("d" "w" "eh" "s")0) (("t" ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("présents_ADJ" ADJ ((("p" "rh" "e") 0) (("z" "ahn") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" nil))
+(lex.add.entry '("matin_NOM" "NOM" (((s "m" "a") 0) (("t" "ehn") 0))))
+
+(dSayText "Plusieurs députés du Sud-Ouest, sont présents ce matin.") ; neut_parl_s04_0482

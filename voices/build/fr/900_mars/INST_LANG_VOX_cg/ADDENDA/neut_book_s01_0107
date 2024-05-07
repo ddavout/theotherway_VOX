@@ -1,0 +1,14 @@
+(set! fileid "neut_book_s01_0107")
+(lex.add.entry '("arrivés_VER" VER ((("a") 0) (("rh" "i") 0) (("v" "e") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("tournant_NOM" NOM ((("t" "u" "rh") 0) (("n" "ahn") 0))))
+(lex.add.entry '("ils_PRO:per" PRO:per (((i l) 0))))
+(lex.add.entry '("virent_VER" VER ((("v" "i" "rh") 0))))
+(lex.add.entry '("que_CON" CON (((k ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("situation_NOM" NOM ((("s" "i") 0) (("t" "hw" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("avait_AUX" AUX ((("a") 0) (("v" "e") 0))))
+(lex.add.entry '("changé_VER" VER ((("sh" "ahn") 0) (("zh" "e") 0))))
+
+(set! text "arrivés au tournant, ils virent que la situation avait changé.") ; neut_book_s01_0107
+(dSayText text)

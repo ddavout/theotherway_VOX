@@ -1,0 +1,16 @@
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("soutien_NOM" "NOM" ((("s" "u") 0) (("t" "j" "ehn") 0))))
+(lex.add.entry '("sans_PRE" PRE ((("s" "ahn") 0))))
+(lex.add.entry '("faille_NOM" NOM ((("f" "a" "j") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("action_NOM" "NOM" ((("a" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("bataille_NOM" "NOM" ((("b" "a") 0) (("t" "a")0) (("j" ae) 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("décisifs_ADJ" ADJ ((("d" "e") 0) (("s" "i") 0) (("z" "i" "f") 0))))
+
+(set! never_exception_list (append (list "ont" ) never_exception_list_default))
+(dSayText "Son soutien sans faille et son action dans cette bataille ont été décisifs.") ; neut_parl_s04_0600

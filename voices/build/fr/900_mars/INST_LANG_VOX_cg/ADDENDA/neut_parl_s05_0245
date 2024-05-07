@@ -1,0 +1,10 @@
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("faiblesses_NOM" NOM ((("f" "eh") 0) (("b" "l" "eh" "s") 0))))
+(lex.add.entry '("persistent_VER" VER ((("p" "eh" "rh") 0) (("z" "i" "s")0) (("t" ae) 0))));  Q !
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("vrai_ADJ" "ADJ" ((("v" "rh" "eh") 0))))
+
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "Des faiblesses persistent, c'est aussi vrai.") ; neut_parl_s05_0245

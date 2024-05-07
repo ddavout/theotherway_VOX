@@ -1,0 +1,9 @@
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("amendement_NOM" "NOM" (((t "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("voté_VER" "VER" ((("v" "oh") 0) (("t" "e") 0))))
+(lex.add.entry '("unanimement_ADV" "ADV" ((("y") 0) (("n" "a") 0) (("n" "i" "m") 0) (("m" "ahn") 0))))
+
+
+(dSayText "Cet amendement a été voté, unanimement.") ; neut_parl_s03_0230

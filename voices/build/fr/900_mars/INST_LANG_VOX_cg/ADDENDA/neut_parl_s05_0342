@@ -1,0 +1,13 @@
+; (lex.add.entry '("de_quoi ; confusion PR0:int
+
+(lex.add.entry '("de_quoi_PRO:ind" PRO:ind (((d ae)0)(("k" "w" "a") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("parle-t-on_VER" "VER" ((("p" "a" "rh")0) (("l" ae) 0)(("t" "ohn") 0))))
+(lex.add.entry '("principalement_ADV" "ADV" ((("p" "rh" "ehn") 0) (("s" "i") 0) (("p" "a" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("aujourd_hui_ADV" "ADV" (((o) 0) ((zh u rh) 0) ((d hw i) 0))))
+(lex.add.entry '("de_quoi_PRO:ind" PRO:ind (((d ae)0)(("k" "w" "a") 0))))
+(lex.add.entry '("ont-ils_VER" "VER" ((("ohn") 0)(("t" i l) 0))))
+(lex.add.entry '("besoin_NOM" "NOM" ((("b" "ae") 0) (("z" "w" "ehn") 0))))
+
+(set! text "De quoi nous parle-t-on principalement aujourd'hui ? De quoi ont-ils besoin ?") ; neut_parl_s05_0342
+(dSayText text)

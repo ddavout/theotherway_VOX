@@ -1,0 +1,12 @@
+; TODO venons-en token
+(lex.add.entry '("venon_VER" VER ((("v" "ae") 0) (("n" "ohn") 0))))
+
+(lex.add.entry '("venons_VER" VER ((("v" "ae") 0) (("n" "ohn") 0))))
+(lex.add.entry '("z_en_PRE" "PRE" (((z ahn) 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("opérations_NOM" NOM (((z "oh") 0) (("p" "e") 0) (("rh" "a") 0) (("s" "j" "ohn") 0)))); LIA
+(lex.add.entry '("extérieures_ADJ" ADJ (((z "eh" "k" "s") 0) (("t" "eh") 0) (("rh" "j" "oe" "rh") 0)))); LIA
+
+
+(set! text "Venons-en, aux opérations extérieures.") ; neut_parl_s02_0410
+(dSayText text)

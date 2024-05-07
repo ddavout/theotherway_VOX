@@ -1,0 +1,15 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("cas_NOM" NOM ((("k" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("laguiole_NAM" "NAM" (((l a) 0) ((g j o)0) ((l ae) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("exemple_NOM" "NOM" ((("eh" "g") 0) (("z" "ahn")0) (("p" "l" ae) 0))))
+(lex.add.entry '("parmi_PRE" "PRE" ((("p" "a" "rh") 0) (("m" "i") 0))))
+(lex.add.entry '("d_autres_PRO:ind" "PRO:ind" (((d "o")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("d_autres_ADJ:ind" "ADJ:ind" (((d "o")0) (("t" "rh" ae) 0))))
+
+; pos d_autres 
+
+(set! text "Le cas de Laguiole est un exemple parmi d'autres.") ; neut_parl_s02_0444
+(dSayText text)

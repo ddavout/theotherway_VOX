@@ -1,0 +1,16 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("médecin_NOM" "NOM" ((("m" "e" d) 0) (("s" "ehn") 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n eh) 0)(("p" "a") 0))))
+(lex.add.entry '("isolé_ADJ" "ADJ" (((z "i") 0) (("z" "oh") 0) (("l" "e") 0)))); LIA
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("tout_puissant_ADJ" ADJ ((("t" "u") 0) (("p" "hw" "i") 0) (("s" "ahn") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("lis_VER" VER ((("l" "i") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("texte_NOM" "NOM" ((("t" "eh" "k" "s")0) (("t" ae) 0))))
+
+(set! text "Ce médecin n'est pas isolé, ou tout-puissant, comme je le lis dans le texte.") ; neut_parl_s04_0094
+(dSayText text)

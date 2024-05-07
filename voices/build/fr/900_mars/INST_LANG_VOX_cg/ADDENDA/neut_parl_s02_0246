@@ -1,0 +1,16 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("texte_NOM" NOM ((("t" "eh" "k") 0) ((s "t" ae) 0))))
+(lex.add.entry '("permet_VER" "VER" ((("p" "eh" "rh") 0) (("m" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("tourner_VER" VER ((("t" "u" "rh") 0) (("n" "e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("page_NOM" "NOM" ((("p" "a")0) (("zh" ae) 0))))
+(lex.add.entry '("d_une_ART:ind" "ART:ind" (((d "y" "n") 0))))
+(lex.add.entry '("trop_ADV" "ADV" ((("t" "rh" "o") 0))))
+(lex.add.entry '("longue_ADJ" "ADJ" ((("l" "ohn" "g") 0))))
+(lex.add.entry '("quête_NOM" "NOM" ((("k" "eh" "t") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("solution_NOM" NOM ((("s" "oh") 0) (("l" "y") 0) (("s" "j" "ohn") 0))))
+
+(set! text "Ce texte permet, de tourner la page, d'une trop longue quête de solution.") ; neut_parl_s02_0246
+(dSayText text)

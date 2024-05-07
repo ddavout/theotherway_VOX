@@ -1,0 +1,14 @@
+(lex.add.entry '("Certains_ADJ:ind" ADJ:ind ((("s" "eh" "rh") 0) (("t" "ehn") 0))))
+(lex.add.entry '("écarts_NOM" NOM (((z "e") 0) (("k" "a" "rh") 0)))); LIA
+(lex.add.entry '("relevés_VER" VER ((("rh" "ae" l) 0) (("v" "e") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("yaourts_NOM" NOM ((("j" "a") 0) (("u" "rh") 0) ((t ae)0 )))); no LIA
+(lex.add.entry '("peuvent_VER" VER ((("p" "eu" "v") 0))))
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh") 0))))
+(lex.add.entry '("atteindre_VER" "VER" (((m "a") 0) (("t" "ehn")0) (("d" "rh" ae) 0))))
+(lex.add.entry '("vingt_cinq_ADJ:num" ADJ:num ((("v" "ehn" "t") 0) (("s" "ehn" k) 0))))
+(lex.add.entry '("jours_NOM" NOM ((("zh" "u" "rh") 0))))
+
+(set! text "Certains écarts relevés pour des yaourts peuvent même atteindre vingt-cinq jours.") ; neut_parl_s02_0085
+(dSayText text)

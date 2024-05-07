@@ -1,0 +1,16 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("chose_NOM" "NOM" (((sh o z) 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m eh) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("démocratie_NOM" "NOM" ((("d" "e") 0) (("m" "oh") 0) (("k" "rh" "a") 0) (("s" "i") 0))))
+
+(set! list_exclus*-> (append (list "jamais") list_exclus*->_default))
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "C'est une chose que l'on ne dit jamais en démocratie !") ; neut_parl_s02_0614

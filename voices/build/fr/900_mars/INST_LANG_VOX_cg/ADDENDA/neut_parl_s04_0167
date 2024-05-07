@@ -1,0 +1,13 @@
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("ans_NOM" NOM ((("ahn") 0))))
+(lex.add.entry '("après_PRE" "PRE" ((("a") 0) ((p rh eh) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o" "z") 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_ont_VER" "VER" (((n "ohn") 0))))
+(lex.add.entry '("Malheureusement_ADV" "ADV" ((("m" "a") 0) (("l" "eu") 0) (("rh" "eu" "z") 0) (("m" "ahn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("évolué_VER" "VER" ((("e") 0) (("v" "oh") 0) (("l" "y") 0) (("e") 0))))
+
+(dSayText "Deux ans après, les choses n'ont malheureusement pas beaucoup évolué.") ; neut_parl_s04_0167

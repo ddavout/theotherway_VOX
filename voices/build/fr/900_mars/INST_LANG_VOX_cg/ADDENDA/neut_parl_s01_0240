@@ -1,0 +1,11 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+(lex.add.entry '("aura_VER" "VER" ((("oh") 0) (("rh" "a") 0)))); no LIA
+(lex.add.entry '("lieu_NOM" "NOM" ((("l" "j" "eu") 0))))
+(lex.add.entry '("entamons-le_VER" VER ((("ahn") 0) (("t" "a") 0) (("m" "ohn") 0) (("l" "ae") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("petit_NOM" NOM ((("p" "t" "i") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+
+(set! text "ce débat aura lieu : entamons-le un petit peu.") ; 
+(dSayText text); neut_parl_s01_0240

@@ -1,0 +1,8 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("l_arrogance_NOM" NOM (((l "a") 0) (("rh" "oh") 0) (("g" "ahn" "s") 0))))
+(lex.add.entry '("patronale_ADJ" "ADJ" ((("p" "a") 0) (("t" "rh" "oh") 0) ((n a l) 0))))
+(lex.add.entry '("atteint_VER" "VER" ((("a") 0) (("t" "ehn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("sommets_NOM" NOM ((("s" "oh") 0) (("m" "eh") 0))))
+
+(dSayText "l'arrogance patronale atteint des sommets.") ; neut_parl_s03_0543

@@ -1,0 +1,11 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((z "oen") 0)))); LIA
+(lex.add.entry '("sujet_NOM" "NOM" ((("s" "y") 0) (("zh" "eh") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("tombe_VER" VER ((("t" "ohn" "b") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("ciel_NOM" "NOM" ((("s" "j" "eh" "l") 0))))
+
+(set! text "ce n'est pas un sujet qui tombe du ciel.") ; neut_parl_s02_0469
+(dSayText text)

@@ -1,0 +1,9 @@
+(lex.add.entry '("qu_allons-nous_VER" VER ((("k" "a") 0) (("l" "ohn") 0)(("n" "u") 0))))
+(lex.add.entry '("gagner_VER" VER ((("g" "a") 0) (("jg" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("agir_VER" "VER" ((("a") 0) (("zh" "i" "rh") 0))))
+(lex.add.entry '("ainsi_ADV" "ADV" ((("ehn") 0) (("s" "i") 0))))
+
+
+(set! text "Qu'allons-nous gagner à agir ainsi ?") ; neut_parl_s03_0265
+(dSayText text)

@@ -1,0 +1,14 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("respecte_VER" "VER" ((("rh" "eh" "s") 0) (("p" "eh" "k" "t") 0))))
+(lex.add.entry '("d_ailleurs_ADV" "ADV" (((d "a") 0) (("j" "oe" "rh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("normes_NOM" NOM ((("n" "oh" "rh")0) (("m" ae) 0))))
+(lex.add.entry '("européennes_ADJ" ADJ (((z "oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("eh" "n") 0))));  LIA
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0)))); no LIA
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("matière_NOM" "NOM" ((("m" "a") 0) (("t" "j" "eh" "rh") 0))))
+
+(set! text "Il ne respecte d'ailleurs pas les normes européennes en la matière.") ; neut_parl_s02_0220
+(dSayText text)

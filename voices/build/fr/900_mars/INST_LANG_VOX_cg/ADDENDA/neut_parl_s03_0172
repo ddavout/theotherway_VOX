@@ -1,0 +1,13 @@
+(lex.add.entry '("Seules_ADJ" ADJ ((("s" "oe" "l") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("règles_NOM" NOM ((("rh" "eh") 0) (("g" "l" ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("postulation_NOM" "NOM" ((("p" "oh" "s") 0) (("t" "y") 0) (("l" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("posent_VER" VER ((("p" "o" "z") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("contrainte_NOM" "NOM" ((("k" "ohn") 0) (("t" "rh" "ehn" "t") 0))))
+(lex.add.entry '("géographique_ADJ" "ADJ" ((("zh" "e") 0) (("oh") 0) (("g" "rh" "a") 0) (("f" "i")0) (("k" "ae") 0))))
+
+
+(set! never_exception_list (append (list "posent" ) never_exception_list_default))
+(dSayText "Seules les règles de postulation posent une contrainte géographique.") ; neut_parl_s03_0172

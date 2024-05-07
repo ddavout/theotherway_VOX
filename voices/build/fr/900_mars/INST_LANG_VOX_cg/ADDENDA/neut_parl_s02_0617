@@ -1,0 +1,9 @@
+(lex.add.entry '("hammadi_NAM" "NAM" (((a) 0) ((m a) 0) ((d i) 0))))
+(lex.add.entry '("laissé_VER" VER
+ ((("l" "e") 0) (("s" "e") 0))))
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+(lex.add.entry '("finir_VER" "VER" ((("f" "i") 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("ma_ADJ:pos" "ADJ:pos" ((("m" "a") 0))))
+(lex.add.entry '("phrase_NOM" "NOM" ((("f" "rh" "a")0) (("z" ae) 0))))
+
+(dSayText "Hammadi, laissez-moi finir ma phrase !") ; neut_parl_s02_0617

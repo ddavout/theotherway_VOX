@@ -1,0 +1,7 @@
+(lex.add.entry '("voilà_VER" "VER" ((("v" "w" "a") 0) (("l" "a") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("vérité_NOM" "NOM" ((("v" "e") 0) (("rh" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("hetzel_NAM" "NAM" (((eh t) 0) ((z eh l) 0))))
+
+(dSayText "Voilà la vérité, monsieur Hetzel !") ; neut_parl_s06_0070

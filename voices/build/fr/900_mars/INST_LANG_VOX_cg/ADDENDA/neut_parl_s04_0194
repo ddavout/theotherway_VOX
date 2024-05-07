@@ -1,0 +1,11 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("enseignement_NOM" "NOM" ((("ahn") 0) (("s" "eh") 0) (("jg" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("bilingue_ADJ" "ADJ" ((("b" "i") 0) (("l" "ehn" "g") 0))))
+(lex.add.entry '("français_langue" nil ((("f" "rh" "ahn") 0) (("s" "eh") 0) (("l" "ahn" "g") 0))))
+(lex.add.entry '("régionale_ADJ" "ADJ" ((("rh" "e") 0) (("zh" "j" "oh") 0) (("n" "a")0) (("l" ae) 0))))
+(lex.add.entry '("commence_VER" "VER" ((("k" "oh") 0) (("m" "ahn" "s") 0))))
+(lex.add.entry '("dès_PRE" PRE ((("d" "eh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("maternelle_NOM" "NOM" ((("m" "a") 0) (("t" "eh" "rh") 0) (("n" "eh")0) (("l" ae) 0))))
+
+(dSayText "l'enseignement bilingue français-langue régionale, commence dès la maternelle.") ; neut_parl_s04_0194

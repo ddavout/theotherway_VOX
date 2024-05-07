@@ -1,0 +1,10 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("changement_NOM" "NOM" ((("sh" "ahn" "zh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("d_approche_NOM" "NOM" (((d "a") 0) (("p" "rh" "oh" "sh") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("être_AUX" "AUX" (((t "eh")0) (("t" "rh" ae) 0)))); LIA
+(lex.add.entry '("être_VER" "VER" (((t "eh")0) (("t" "rh" ae) 0)))); LIA; confusion
+(lex.add.entry '("tenté_VER" "VER" ((("t" "ahn") 0) (("t" "e") 0))))
+
+(set! text "Ce changement d'approche doit être tenté.") ; neut_parl_s02_0205
+(dSayText text)

@@ -1,0 +1,13 @@
+(set! fileid "neut_parl_s01_0195")
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("y_ADV" "ADV" (((z i) 0)))) ; LIA
+(lex.add.entry '("y_PRO:per" "PRO:per" (((z i) 0)))) ; LIA; confusion
+(lex.add.entry '("viendrons_VER" VER ((("v" "j" "ehn") 0) (("d" "rh" "ohn") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0)))); no LIA
+(lex.add.entry '("temps_NOM" "NOM" (((t ahn) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0)))); no LIA
+(lex.add.entry '("heure_NOM" "NOM" (((n "oe" "rh") 0))))
+
+(set! text "nous y viendrons en temps et en heure.") ; neut_parl_s01_0195
+(dSayText text)

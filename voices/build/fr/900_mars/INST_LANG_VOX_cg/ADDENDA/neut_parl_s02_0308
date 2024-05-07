@@ -1,0 +1,9 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("derniers_NOM" NOM ((("d" "eh" "rh") 0) (("n" "j" "e") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0)))); no LIA
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("évolué_VER" "VER" (((p "e") 0) (("v" "oh") 0) (("l" "y") 0) (("e") 0))));; LIA
+
+
+(set! text "Ces derniers ont beaucoup évolué.") ; neut_parl_s02_0308
+(dSayText text)

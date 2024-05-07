@@ -1,0 +1,10 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("crois_VER" VER ((("k" "rh" "w" "a") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("gens_NOM" "NOM" (((zh ahn) 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("compris_VER" VER ((("k" "ohn") 0) (("p" "rh" "i") 0))))
+
+(set! list_exclus*-> (append (list "gens") list_exclus*->_default)) ; _ont
+(dSayText "Je crois que les gens ont compris.") ; neut_parl_s04_0704

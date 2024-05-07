@@ -1,0 +1,18 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("traitements_NOM" NOM ((("t" "rh" "eh" "t") 0) (("m" "ahn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("n_y_a_VER" "VER"  ((("n" j a) 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("raison_NOM" "NOM" ((("rh" "e") 0) (("z" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("les_PRO:per" "PRO:per" ((("l" "e") 0))))
+(lex.add.entry '("interrompre_VER" "VER" ((("ehn") 0) (("t" "eh") 0) (("rh" "ohn")0) (("p" "rh" ae) 0))))
+
+(dSayText "Ce ne sont pas des traitements et il n'y a donc pas de raison de les interrompre.") ; neut_parl_s03_0404

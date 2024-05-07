@@ -1,0 +1,7 @@
+(lex.add.entry '("quel_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0))))
+(lex.add.entry '("choix_NOM" "NOM" ((("sh" "w" "a") 0))))
+(lex.add.entry '("a-t-on_VER" VER ((("a") 0)(("t" "ohn") 0))))
+(lex.add.entry '("fait_VER" "VER" ((("f" "eh") 0))))
+
+(set! text "Quel choix a-t-on fait ?") ; neut_parl_s02_0532
+(dSayText text)

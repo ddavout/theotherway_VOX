@@ -1,0 +1,15 @@
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("savé_VER" VER ((("s" "a") 0) (("v" "e") 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("personnes_NOM" NOM ((("p" "eh" "rh") 0) (("s" "oh" "n") 0))))
+(lex.add.entry '("travaillent_VER" VER ((("t" "rh" "a") 0) (("v" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((j a) 0))))
+(lex.add.entry '("temps_NOM" "NOM" (((t ahn) 0))))
+(lex.add.entry '("partiel_ADJ" "ADJ" ((("p" "a" "rh") 0) (("s" "j" "eh" "l") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("secteur_NOM" "NOM" ((("s" "eh" "k") 0) (("t" "oe" "rh") 0))))
+
+(dSayText "Vous le savez, beaucoup de personnes travaillent à temps partiel dans ce secteur.") ; neut_parl_s03_0742

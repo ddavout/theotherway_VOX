@@ -1,0 +1,13 @@
+(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
+(lex.add.entry '("avis_NOM" NOM (((n "a") 0) (("v" "i") 0)))); LIA
+(lex.add.entry '("défavorable_ADJ" "ADJ" ((("d" "e") 0) (("f" "a") 0) (("v" "oh") 0) (("rh" "a") 0) (("b" "l" ae) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("heurtera_VER" "VER" ((("oe" "rh") 0) (("t" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("trop_ADV" "ADV" ((("t" "rh" "o") 0))))
+
+
+(set! text "mon avis défavorable, ne le heurtera donc pas trop.") ; 
+(dSayText text); neut_parl_s01_0514

@@ -1,0 +1,13 @@
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("lieu_NOM" "NOM" ((("l" "j" "eu") 0))))
+(lex.add.entry '("où_PRO:rel" "PRO:rel" ((("u") 0))))
+(lex.add.entry '("essayé_VER" VER ((("e") 0) (("s" "eh") 0) (("j" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("trouvé_VER" VER ((("t" "rh" "u") 0) (("v" "e") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("langage_NOM" "NOM" ((("l" "ahn") 0) (("g" "a" "zh") 0))))
+(lex.add.entry '("commun_ADJ" "ADJ" ((("k" "oh") 0) (("m" "oen") 0))))
+
+(dSayText "Elle est le lieu où essayer de trouver un langage commun.") ; neut_parl_s05_0160

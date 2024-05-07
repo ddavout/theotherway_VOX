@@ -1,0 +1,17 @@
+(set! fileid "neut_book_s01_0149")
+(lex.add.entry '("éclairant_VER" "VER" ((("e") 0) (("k" "l" "eh") 0) (("rh" "ahn") 0)))); confusion ADJ VER
+
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("lampe_NOM" "NOM" ((("l" "ahn" "p") 0))))
+(lex.add.entry '("électrique_ADJ" "ADJ" ((("e") 0) (("l" "eh" "k") 0) (("t" "rh" "i")0)(("k" ae) 0))))
+(lex.add.entry '("était_AUX" "AUX" ((("e") 0) (("t" "eh") 0))))
+(lex.add.entry '("combinée_VER" "VER" ((("k" "ohn") 0) (("b" "i") 0) (("n" "e") 0))))
+(lex.add.entry '("de_manière_à_PRE" "PRE" (((d ae) 0)(("m" "a") 0) (("n" "j" "eh")0) (("rh" a) 0))))
+(lex.add.entry '("donner_VER" "VER" ((("d" "oh") 0) (("n" "e") 0))))
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("pouvoir_NOM" "NOM" ((("p" "u") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("éclairant" nil ((("e") 0) (("k" "l" "eh") 0) (("rh" "ahn") 0)))); confusion ADJ VER
+
+(set! text "La lampe électrique, était combinée de manière à donner tout son pouvoir éclairant.") ; neut_book_s01_0149
+(dSayText text)

@@ -1,0 +1,9 @@
+(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
+(lex.add.entry '("ton_NOM" "NOM" ((("t" "ohn") 0))))
+(lex.add.entry '("va_VER" "VER" ((("v" "a") 0))))
+(lex.add.entry '("changer_VER" VER ((("sh" "ahn") 0) (("zh" "e") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+
+(set! text "mon ton va changer un peu.") ; 
+(dSayText text); neut_parl_s01_0114

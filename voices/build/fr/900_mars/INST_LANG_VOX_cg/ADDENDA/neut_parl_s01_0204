@@ -1,0 +1,17 @@
+(set! fileid "neut_parl_s01_0169")
+(lex.add.entry '("face_NOM" "NOM" ((("f" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((s a) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("flux_NOM" "NOM" ((("f" "l" "y") 0))))
+(lex.add.entry '("croissants_ADJ" ADJ ((("k" "rh" "w" "a") 0) (("s" "ahn") 0))))
+(lex.add.entry '("d_étudiants_NOM" NOM (((d "e") 0) (("t" "y") 0) (("d" "j" "ahn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("chercheurs_NOM" NOM ((("sh" "eh" "rh") 0) (("sh" "oe" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
+(lex.add.entry '("d_accueil_NOM" NOM (((d "a") 0) (("k" "oe" "j") 0))))
+(lex.add.entry '("s_organisent_VER" VER (((s "oh" "rh") 0) (("g" "a") 0) (("n" "i") 0) (("z" "ae") 0))))
+
+(set! text "face à ces flux croissants d'étudiants et de chercheurs, les pays d'accueil s'organisent.") ; neut_parl_s01_0204
+(dSayText text)

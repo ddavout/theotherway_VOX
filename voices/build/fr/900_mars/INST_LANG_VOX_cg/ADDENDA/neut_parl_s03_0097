@@ -1,0 +1,10 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("fallè_VER" VER ((("f" "a") 0) (("l" "eh") 0))))
+(lex.add.entry '("la_PRO:per" PRO:per ((("l" "a") 0))))
+(lex.add.entry '("rétablir_VER" "VER" ((("rh" "e") 0) (("t" "a") 0) (("b" "l" "i" "rh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("renoué_VER" VER ((("rh" "ae") 0) (("n" "u") 0) ((w "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("dialogue_NOM" "NOM" ((("d" "j" "a") 0) (("l" "oh")0) (("g" ae) 0))))
+
+(dSayText "Il fallait la rétablir, et renouer le dialogue.") ; neut_parl_s03_0097

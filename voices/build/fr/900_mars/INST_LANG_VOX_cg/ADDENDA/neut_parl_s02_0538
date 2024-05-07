@@ -1,0 +1,9 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("souhaite_VER" "VER" ((("s" "w" "eh" "t") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("confirmié_VER" VER ((("k" "ohn") 0) (("f" "i" "rh") 0) (("m" "j" "e") 0))))
+
+(dSayText "Je souhaite que vous me le confirmiez.") ; neut_parl_s02_0538

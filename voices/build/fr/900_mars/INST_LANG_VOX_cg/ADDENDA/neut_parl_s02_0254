@@ -1,0 +1,15 @@
+(lex.add.entry '("pourquoi_PRO:int" PRO:int ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("pourquoi_PRO:ind" PRO:ind ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("pourquoi" nil ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("voterons_VER" VER ((("v" "oh") 0) (("t" "rh" "ohn") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh") 0))))
+(lex.add.entry '("enthousiasme_NOM" "NOM" (((k "ahn") 0) (("t" "u") 0) (("z" "j" "a" "s")0) (("m" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("confiance_NOM" "NOM" ((("k" "ohn") 0) (("f" "j" "ahn")0)(("s" ae) 0))))
+
+(set! text "C'est pourquoi nous le voterons avec enthousiasme, et confiance.") ; neut_parl_s02_0254
+(dSayText text)

@@ -1,0 +1,8 @@
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+(lex.add.entry '("l_union_NOM" "NOM" (((l "y") 0) (("n" "j" "ohn") 0))))
+(lex.add.entry '("bancaire_ADJ" "ADJ" ((("b" "ahn") 0) (("k" "eh" "rh") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("inachevée_ADJ" "ADJ" (((t "i") 0) (("n" "a" "sh") 0) (("v" "e") 0))))
+
+(set! text "Enfin, l'union bancaire est inachevée.") ; neut_parl_s02_0244
+(dSayText text)

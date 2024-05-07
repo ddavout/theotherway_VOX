@@ -1,0 +1,10 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("Belges_NOM" NOM ((("b" "eh" "l")0) (("zh" "ae") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("trouvé_VER" "VER" ((("t" "rh" "u") 0) (("v" "e") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("solution_NOM" "NOM" ((("s" "oh") 0) (("l" "y") 0) (("s" "j" "ohn") 0))))
+
+
+(set! list_exclus*-> (append (list "belges") list_exclus*->_default))
+(dSayText "Les Belges ont trouvé une solution.") ; neut_parl_s06_0626

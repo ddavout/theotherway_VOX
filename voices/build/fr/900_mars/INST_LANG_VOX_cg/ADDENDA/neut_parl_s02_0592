@@ -1,0 +1,17 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("suis_VER" "VER" (((s hw i) 0))))
+(lex.add.entry '("heureux_ADJ" ADJ ((("oe") 0) (("rh" "eu") 0)))); no LIA
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("soit_VER" "VER" ((("s" "w" "a") 0))))
+(lex.add.entry '("grâce_NOM" "NOM" ((("g" "rh" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((s a) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("parlementaires_NOM" NOM ((("p" "a" "rh") 0) (("l" "ae") 0) (("m" "ahn") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("abordions_VER" VER (((z "a") 0) (("b" "oh" "rh") 0) (("d" "j" "ohn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
+
+(dSayText "Je suis heureux que ce soit grâce à des parlementaires, que nous abordions la question.") ; neut_parl_s02_0592

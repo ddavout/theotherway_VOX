@@ -1,0 +1,16 @@
+; Je moche
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("suis_VER" "VER" (((s hw i) 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("heureux_ADJ" ADJ (((z "oe") 0) (("rh" "eu") 0)))); LIA
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("l_assemblée_NOM" "NOM" (((l "a") 0) (("s" "ahn") 0) (("b" "l" "e") 0))))
+(lex.add.entry '("nationale_ADJ" "ADJ" ((("n" "a") 0) (("s" "j" "oh") 0) (("n" "a" "l") 0))))
+(lex.add.entry '("s_apprête_VER" VER (((s "a") 0) (("p" "rh" "eh" "t") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("voter_VER" VER ((("v" "oh") 0) (("t" "e") 0))))
+(lex.add.entry '("unanimement_ADV" "ADV" ((("y") 0) (("n" "a") 0) (("n" "i") 0) (("m" "ahn") 0)))); no LIA
+
+(set! text "je suis très heureux que l'assemblée nationale s'apprête à le voter unanimement.") ; 
+(dSayText text); neut_parl_s01_0291

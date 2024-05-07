@@ -1,0 +1,16 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("année_NOM" "NOM" (((t "a") 0) (("n" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("petites_ADJ" ADJ ((("p" "ae") 0) (("t" "i" "t") 0))))
+(lex.add.entry '("grands_mères_NOM" NOM ((("g" "rh" "ahn") 0) (("m" "eh" "rh") 0))))
+(lex.add.entry '("ont_VER" "VER" ((("ohn") 0)))); no LIA
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("première_ADJ" "ADJ" ((("p" "rh" "ae") 0) (("m" "j" "eh" "rh") 0))))
+(lex.add.entry '("fois_NOM" NOM ((("f" "w" "a") 0))))
+(lex.add.entry '("payé_VER" "VER" ((("p" "e") 0) (("j" "e") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("impôts_NOM" NOM (((z "ehn") 0) (("p" "o") 0)))); LIA
+
+(set! text "Cette année, de petites grands-mères ont, pour la première fois, payé des impôts.") ; neut_parl_s02_0032
+(dSayText text)

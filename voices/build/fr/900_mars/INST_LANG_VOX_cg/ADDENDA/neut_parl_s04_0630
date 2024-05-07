@@ -1,0 +1,15 @@
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_aube_NOM" "NOM" (((l "o" "b") 0))))
+(lex.add.entry '("d_une_ART:ind" "ART:ind" (((d "y" "n") 0))))
+(lex.add.entry '("nouvelle_NAM" NAM ((("n" "u") 0) (("v" "eh" "l") 0))))
+(lex.add.entry '("prorogation_NOM" "NOM" ((("p" "rh" "oh") 0) (("rh" "oh") 0) (("g" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("observations_NOM" NOM (((z "oh" p) 0) (("s" "eh" "rh") 0) (("v" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("restent_VER" VER ((("rh" "eh" "s") 0) (("t" ae) 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("vraies_ADJ" ADJ ((("v" "rh" "eh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m eh) 0))))
+
+(set! text "à l'aube d'une nouvelle prorogation, ces observations restent plus vraies que jamais.") ; neut_parl_s04_0630
+(dSayText text)

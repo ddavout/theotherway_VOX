@@ -1,0 +1,13 @@
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0))))
+(lex.add.entry '("projet_NOM" "NOM" ((("p" "rh" "oh") 0) (("zh" "eh") 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((ahn) 0) ((n e) 0) ((f eh) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0)))) ; Q
+(lex.add.entry '("n_y_a_VER" "VER"  ((("n" j a) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("cap_NOM" "NOM" ((("k" "a")0) (("p" "ae") 0))))
+
+
+(set! text "Dans votre projet en effet, il n'y a pas de cap.") ; neut_parl_s03_0219
+(dSayText text)

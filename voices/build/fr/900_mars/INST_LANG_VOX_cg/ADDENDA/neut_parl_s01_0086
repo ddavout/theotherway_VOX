@@ -1,0 +1,15 @@
+(set! fileid "neut_parl_s01_0086")
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh") 0))))
+(lex.add.entry '("a_AUX" "AUX" (((l "a") 0))))
+(lex.add.entry '("porté_VER" "VER" ((("p" "oh" "rh") 0) (("t" "e") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("bataille_NOM" "NOM" ((("b" "a") 0) (("t" "a" "j") 0))))
+(lex.add.entry '("jusque_devant_PRE" PRE (((zh y s) 0) ((k ae) 0) ((d ae) 0) ((v ahn) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("conseil_NAM" "NAM" ((("k" "ohn") 0) (("s" "eh" "j") 0))))
+(lex.add.entry '("conseil_NOM" "NOM" ((("k" "ohn") 0) (("s" "eh" "j") 0)))) ; confusion possible NAM NOM surtout sans majuscule ..
+
+(lex.add.entry '("constitutionnel_ADJ" "ADJ" ((("k" "ohn" "s") 0) (("t" "i") 0) (("t" "y") 0) (("s" "j" "oh") 0) (("n" "eh" "l") 0))))
+
+(set! text  "elle a porté cette bataille jusque devant le conseil constitutionnel.") ; neut_parl_s01_0086
+(dSayText text)

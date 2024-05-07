@@ -1,0 +1,9 @@
+(lex.add.entry '("ont-elles_VER" "VER" ((("ohn") 0)((t eh l) 0))))
+(lex.add.entry '("vraiment_ADV" ADV ((("v" "rh" "eh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("atteint_VER" "VER" ((("a") 0) (("t" "ehn") 0))))
+(lex.add.entry '("leur_ADJ:pos" "ADJ:pos" ((("l" "oe" "rh") 0))))
+(lex.add.entry '("but_NOM" NOM ((("b" "y" t) 0))))
+
+
+(set! text "Ont-elles vraiment atteint leur but ?") ; 
+(dSayText text); neut_parl_s01_0713

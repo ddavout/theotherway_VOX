@@ -1,0 +1,18 @@
+(lex.add.entry '("depuis_PRE" "PRE" (((d ae) 0) ((p hw i) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("fin_NOM" "NOM" ((("f" "ehn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("années_NOM" NOM (((z "a") 0) (("n" "e") 0)))); LIA
+(lex.add.entry '("soixante_ADJ:num" ADJ:num (((s w a) 0) ((s ahn t) 0))))
+(lex.add.entry '("dix_NOM" "NOM" (((d i s) 0))))
+(lex.add.entry '("chaque_ADJ:ind" "ADJ:ind" ((("sh" "a") 0))))
+(lex.add.entry '("étape_NOM" "NOM" (((k "e") 0) (("t" "a" "p") 0))))
+(lex.add.entry '("vers_PRE" PRE ((("v" "eh" "rh") 0))))
+(lex.add.entry '("l_égalité_NOM" "NOM" (((l "e") 0) (("g" "a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("combat_NOM" "NOM" ((("k" "ohn") 0) (("b" "a") 0))))
+
+(set! text "Depuis la fin des années soixante dix, chaque étape vers l'égalité a été un combat.") ; 
+(dSayText text); neut_parl_s01_0657

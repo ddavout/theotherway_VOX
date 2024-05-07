@@ -1,0 +1,17 @@
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("évidemment_ADV" "ADV" (((n "e") 0) (("v" "i") 0) (("d" "a") 0) (("m" "ahn") 0)))); LIA
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("matière_NOM" "NOM" ((("m" "a") 0) (("t" "j" "eh" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("politique_NOM" NOM ((("p" "oh") 0) (("l" "i") 0) (("t" "i" "k") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_emploi_NOM" "NOM" (((l "ahn") 0) (("p" "l" "w" "a") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("faisons_VER" VER ((("f" "ae") 0) (("z" "ohn") 0))))
+(lex.add.entry '("feu_NOM" "NOM" ((("f" "eu") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("tout_ADJ:ind" ADJ:ind ((("t" "u") 0))))
+(lex.add.entry '("bois_NOM" NOM ((("b" "w" "a") 0))))
+
+(set! text "Bien évidemment, en matière de politique de l'emploi, nous faisons feu de tout bois.") ; neut_parl_s02_0591
+(dSayText text)

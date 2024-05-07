@@ -1,0 +1,8 @@
+(lex.add.entry '("j_en_PRO:per" "PRO:per" (((zh ahn) 0))))
+(lex.add.entry '("viens_VER" VER ((("v" "j" "ehn") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" (((t "o") 0)))); !!
+(lex.add.entry '("contentieux_NOM" "NOM" ((("k" "ohn") 0) (("t" "ahn") 0) (("s" "j" "eu") 0))))
+(lex.add.entry '("européens_ADJ" ADJ ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0)))); no LIA
+
+(set! text "J'en viens aux contentieux européens.") ; neut_parl_s02_0146
+(dSayText text)

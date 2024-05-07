@@ -1,0 +1,17 @@
+(lex.add.entry '("hier_ADV" "ADV" (((i)0)((j "eh" rh) 0))))
+(lex.add.entry '("s_PRO:per" "PRO:per" nil))
+(lex.add.entry '("est_VER" "VER" (((eh) 0))))
+(lex.add.entry '("tenu_VER" "VER" ((("t" "ae") 0) (("n" "y") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("Bruxelles_NAM" "NAM" (((b rh y) 0) ((s eh l) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("Conseil_NAM" "NAM" ((("k" "ohn") 0) (("s" "eh" "j") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("ministres_NOM" NOM ((("m" "i") 0) (("n" "i" "s") 0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("européens_ADJ" ADJ ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("agriculture_NOM" "NOM" ((("a") 0) (("g" "rh" "i") 0) (("k" "y" "l") 0) (("t" "y" "rh") 0))))
+
+(set! list_exclus*-> (append (list "ministres") list_exclus*->_default))
+(dSayText "Hier s'est tenu à Bruxelles le conseil des ministres européens de l'agriculture.") ; neut_parl_s04_0211

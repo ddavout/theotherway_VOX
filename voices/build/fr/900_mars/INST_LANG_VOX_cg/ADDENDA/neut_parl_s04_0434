@@ -1,0 +1,10 @@
+(lex.add.entry '("veut-on_VER" "VER" ((("v" "eu") 0)(("t" "ohn") 0))))
+(lex.add.entry '("tuer_VER" VER ((("t" "y") 0) (("e") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("moteur_NOM" "NOM" ((("m" "oh") 0) (("t" "oe" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("croissance_NOM" "NOM" ((("k" "rh" "w" "a") 0) (("s" "ahn")0) (("s" "ae") 0))))
+
+(set! text "Veut-on tuer ce moteur de la croissance ?") ; neut_parl_s04_0434
+(dSayText text)

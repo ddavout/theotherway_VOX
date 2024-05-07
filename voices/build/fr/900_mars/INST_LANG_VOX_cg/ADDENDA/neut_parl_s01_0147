@@ -1,0 +1,15 @@
+; S moche
+(lex.add.entry '("s_agissant_VER" VER (((s a) 0) (("zh" "i") 0) (("s" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("cohérence_NOM" "NOM" ((("k" "oh") 0) (("e") 0) (("rh" "ahn") 0) (("s" "ae") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("serai_VER" VER ((("s" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("bref_ADV" "ADV" ((("b" "rh" "eh" "f") 0))))
+(lex.add.entry '("tant_ADV" "ADV" ((("t" "ahn") 0))))
+(lex.add.entry '("elle_PRO:per" "PRO:per" (((t "eh") 0)))); LIA
+(lex.add.entry '("est_VER" "VER" (((l "e") 0))))
+(lex.add.entry '("évidente_ADJ" "ADJ" (((t "e") 0) (("v" "i") 0) (("d" "ahn") 0) (("t" "ae") 0)))); LIA
+
+(set! text "s'agissant de la cohérence, je serai bref tant elle est évidente.") ; 
+(dSayText text); neut_parl_s01_0147

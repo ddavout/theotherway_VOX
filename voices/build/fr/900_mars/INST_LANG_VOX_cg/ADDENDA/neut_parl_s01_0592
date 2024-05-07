@@ -1,0 +1,17 @@
+(lex.add.entry '("tous_PRO:ind" "PRO:ind" (((t u) 0)))); confusion
+(lex.add.entry '("tous_ADJ:ind" "ADJ:ind" (((t u) 0)))); confusion
+(lex.add.entry '("d_état_NOM" "NOM" (((d "e") 0) (("t" "a") 0))))
+
+
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("voyez_VER" VER ((("v" "w" "a") 0) (("j" "e") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("touche_VER" "VER" ((("t" "u" "sh") 0))))
+(lex.add.entry '("tous_ADJ" "ADJ" (((t u) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("corps_NOM" NOM ((("k" "oh" "rh") 0))))
+(lex.add.entry '("d_état_ADJ" "ADJ" (((d "e") 0) (("t" "a") 0))))
+
+(set! text "Vous voyez que cela touche tous les corps d'état.") ; 
+(dSayText text); neut_parl_s01_0592

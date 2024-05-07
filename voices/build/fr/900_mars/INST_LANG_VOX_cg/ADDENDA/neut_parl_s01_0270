@@ -1,0 +1,14 @@
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("amendement_NOM" "NOM" (((t "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("vise_VER" "VER" ((("v" "i") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((z a) 0))))
+(lex.add.entry '("rétablir_VER" "VER" ((("rh" "e") 0) (("t" "a") 0) (("b" "l" "i" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("langue_NOM" "NOM" ((("l" "ahn" "g") 0))))
+(lex.add.entry '("française_ADJ" "ADJ" ((("f" "rh" "ahn") 0) (("s" "eh") 0) (("z" ae) 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("sa_ADJ:pos" "ADJ:pos" ((("s" "a") 0))))
+(lex.add.entry '("plénitude_NOM" "NOM" ((("p" "l" "e") 0) (("n" "i") 0) (("t" "y") 0) (("d" ae) 0))))
+
+(set! text "cet amendement vise à rétablir la langue française dans sa plénitude.") ; 
+(dSayText text); neut_parl_s01_0270

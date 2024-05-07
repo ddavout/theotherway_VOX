@@ -1,0 +1,10 @@
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("où_PRO:rel" "PRO:rel" (((u) 0))))
+(lex.add.entry '("vienne_VER" VER ((("v" "j" "eh" "n") 0))))
+(lex.add.entry '("la_plupart_PRO:ind" "PRO:ind" ((("l" "a") 0) (("p" "l" "y") 0) (("p" "a" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("camions_NOM" NOM ((("k" "a") 0) (("m" "j" "ohn") 0))))
+
+
+(dSayText "d'où viennent la plupart de ces camions ?") ; neut_parl_s03_0334

@@ -1,0 +1,10 @@
+(lex.add.entry '("Denaja_NOM" NOM ((("d" "ae") 0) (("n" "a") 0) (("zh" "a") 0))))
+(lex.add.entry '("ayant_AUX" "AUX" ((("eh") 0) ((j "ahn") 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("essentiel_NOM" NOM ((("e") 0) (("s" "ahn") 0) (("s" "j" "eh")0) (("l" ae) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("serai_VER" VER ((("s" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("brève_ADJ" "ADJ" ((("b" "rh" "eh")0) (("v" ae) 0))))
+
+(dSayText "Denaja ayant dit l'essentiel, je serai brève.") ; neut_parl_s05_0425

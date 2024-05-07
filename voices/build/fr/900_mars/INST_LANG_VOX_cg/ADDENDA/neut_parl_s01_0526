@@ -1,0 +1,20 @@
+; final mauvais
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("loi_NOM" "NOM" ((("l" "w" "a") 0))))
+(lex.add.entry '("relative_ADJ" "ADJ" ((("rh" "ae") 0) (("l" "a") 0) (("t" "i" "v") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("fraude_NOM" "NOM" ((("f" "rh" "o") 0) (("d" "ae") 0))))
+(lex.add.entry '("votée_VER" "VER" ((("v" "oh") 0) (("t" "e") 0))))
+(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("y_a_VER" "VER" ((("j" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("an_NOM" "NOM" (((n "ahn") 0)))); LIA
+(lex.add.entry '("représente_VER" "VER" ((("rh" "ae") 0) (("p" "rh" "e") 0) (("z" "ahn" "t") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("avancée_NOM" "NOM" ((("a") 0) (("v" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("importante_ADJ" "ADJ" ((("ehn") 0) (("p" "oh" "rh") 0) (("t" "ahn" "t") 0))))
+
+(set! text "La loi relative à la fraude, votée ici il y a un an, représente une avancée importante.") ; 
+(dSayText text); neut_parl_s01_0526

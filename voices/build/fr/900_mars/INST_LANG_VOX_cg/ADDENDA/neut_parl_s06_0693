@@ -1,0 +1,15 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("conseils_NOM" NOM ((("k" "ohn") 0) (("s" "eh" "j") 0))))
+(lex.add.entry '("généraux_ADJ" "ADJ" ((("zh" "e") 0) (("n" "e") 0) (("rh" "o") 0))))
+(lex.add.entry '("ont_VER" "VER" ((("ohn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("compétence_NOM" "NOM" ((("k" "ohn") 0) (("p" "e") 0) (("t" "ahn" "s") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("matière_NOM" "NOM" ((("m" "a") 0) (("t" "j" "eh" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("protection_NOM" "NOM" ((("p" "rh" "oh") 0) (("t" "eh" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("enfance_NOM" "NOM" ((("ahn") 0) (("f" "ahn") 0) (("s" ae) 0))))
+
+(dSayText "Les conseils généraux ont la compétence en matière de protection de l'enfance.") ; neut_parl_s06_0693

@@ -1,0 +1,13 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("niveau_NOM" "NOM" ((("n" "i") 0) (("v" "o") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
+(lex.add.entry '("pertinent_ADJ" "ADJ" ((("p" "eh" "rh") 0) (("t" "i") 0) (("n" "ahn") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("raisons_NOM" NOM ((("rh" "eh") 0) (("z" "ohn") 0))))
+
+(set! text "Le niveau européen est le plus pertinent pour deux raisons.") ; neut_parl_s06_0617
+(dSayText text)

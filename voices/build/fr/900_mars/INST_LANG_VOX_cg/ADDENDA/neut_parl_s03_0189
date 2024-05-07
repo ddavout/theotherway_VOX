@@ -1,0 +1,14 @@
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("même_ADJ" "ADJ" ((("m" "eh" "m") 0))))
+(lex.add.entry '("temps_NOM" "NOM" (((t ahn) 0))))
+(lex.add.entry '("l_on_PRO:per" "PRO:per" (((l "ohn") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("cite_VER" "VER" ((("s" "i" "t") 0))))
+(lex.add.entry '("l_exemple_NOM" NOM (((l "eh" "g") 0) (("z" "ahn")0) (("p" "l" ae) 0)))); done
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("grandes_ADJ" ADJ ((("g" "rh" "ahn" "d") 0))))
+(lex.add.entry '("écoles_NOM" NOM (((z "e") 0) (("k" "oh")0) (("l" "ae") 0)))); LIA
+
+(set! text "Dans le même temps, l'on nous cite l'exemple des grandes écoles.") ; neut_parl_s03_0189
+(dSayText text)

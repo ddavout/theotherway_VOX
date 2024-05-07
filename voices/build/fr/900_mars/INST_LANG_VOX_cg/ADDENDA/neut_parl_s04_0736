@@ -1,0 +1,9 @@
+; (lex.add.entry '("de_quoi ; confusion PR0:int
+
+(lex.add.entry '("de_quoi_PRO:ind" PRO:ind (((d ae)0)(("k" "w" "a") 0))))
+(lex.add.entry '("avez-vous_VER" VER ((("a") 0) (("v" "e") 0)((v u) 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("peur_NOM" "NOM" ((("p" "oe" "rh") 0))))
+
+(set! text "De quoi avez-vous donc peur ?") ; neut_parl_s04_0736
+(dSayText text)

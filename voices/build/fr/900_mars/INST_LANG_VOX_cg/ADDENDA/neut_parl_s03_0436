@@ -1,0 +1,9 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("enjeu_NOM" "NOM" ((("ahn") 0) (("zh" "eu") 0))))
+(lex.add.entry '("de_PRE" "PRE" nil))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" nil))
+(lex.add.entry '("vote_NOM" "NOM" (((d s "v" "oh" "t") 0))))
+
+(dSayText "C'est l'enjeu de ce vote.") ; neut_parl_s03_0436

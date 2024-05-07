@@ -1,0 +1,13 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("veux_VER" "VER" ((("v" "eu") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("entendre_VER" "VER" (((n "ahn") 0) (("t" "ahn")0) (("d" "rh" "ae") 0)))) ; LIA
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("complètement_ADV" "ADV" ((("k" "ohn") 0) (("p" "l" "eh" "t") 0) (("m" "ahn") 0))))
+(lex.add.entry '("hors_PRE" "PRE" ((("oh" "rh") 0)))); no LIA
+(lex.add.entry '("sujet_NOM" "NOM" ((("s" "y") 0) (("zh" "eh") 0))))
+
+
+(set! text "Je veux bien entendre que c'est complètement hors sujet.") ; neut_parl_s02_0525
+(dSayText text)

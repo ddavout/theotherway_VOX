@@ -1,0 +1,13 @@
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("vigier_NAM" "NAM" (((v i) 0) ((zh j e) 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("qu_CON" "CON" nil))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("connaissè_VER" "VER" ((("k" "oh") 0) (("n" "e") 0) (("s" "eh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("guyane_NAM" "NAM" (((g hw) 0) ((j a)0) ((n ae) 0))))
+
+;(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+    ;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
+(dSayText "Monsieur Vigier a dit, qu'il connaissait la Guyane.") ; neut_parl_s06_0031

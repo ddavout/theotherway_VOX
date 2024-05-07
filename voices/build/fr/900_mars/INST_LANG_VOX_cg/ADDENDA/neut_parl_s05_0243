@@ -1,0 +1,12 @@
+(lex.add.entry '("lui_PRO:per" "PRO:per" ((("l" "hw" i) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("ses_ADJ:pos" "ADJ:pos" (((s e) 0))))
+(lex.add.entry '("amis_NOM" NOM (((z "a") 0) (("m" "i") 0))))
+(lex.add.entry '("semblent_VER" VER ((("s" "ahn")0) (("b" "l" ae) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("regretter_VER" VER ((("rh" "ae") 0) (("g" "rh" "eh") 0) (("t" "e") 0))))
+
+
+; triple b l l 
+(set! text "Lui et ses amis, semblent le regretter.") ; neut_parl_s05_0243
+(dSayText text)

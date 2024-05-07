@@ -1,0 +1,13 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("inscrire_VER" "VER" ((("ehn" "s") 0) (("k" "rh" "i" "rh") 0)))); no LIA
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("loi_NOM" "NOM" ((("l" "w" "a") 0))))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("vélo_NOM" "NOM" ((("v" "e") 0) (("l" "o") 0))))
+
+(set! text "mais inscrire dans la loi qu'il faut faire du vélo.") ; neut_parl_s03_0166
+(dSayText text)

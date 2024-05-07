@@ -1,0 +1,9 @@
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("chantiers_NOM" NOM ((("sh" "ahn") 0) (("t" "j" "e") 0))))
+(lex.add.entry '("mobilisent_VER" VER ((("m" "oh") 0) (("b" "i") 0) (("l" "i" "z") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+
+
+(set! text "trois chantiers mobilisent le gouvernement.") ; 
+(dSayText text); neut_parl_s01_0287

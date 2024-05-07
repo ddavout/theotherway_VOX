@@ -1,0 +1,9 @@
+(lex.add.entry '("Faisons_VER" VER ((("f" "ae") 0) (("z" "ohn") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((k "oen") 0))))
+(lex.add.entry '("petit_ADJ" "ADJ" ((("p" "ae") 0) (("t" "i") 0))))
+(lex.add.entry '("calcul_NOM" "NOM" ((("k" "a" "l") 0) (("k" "y")0) (("l" ae) 0))))
+
+
+(set! text "Faisons donc un petit calcul.") ; neut_parl_s02_0242
+(dSayText text)

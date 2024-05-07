@@ -1,0 +1,16 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("caractère_NOM" "NOM" ((("k" "a") 0) (("rh" "a" "k") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("obligatoire_ADJ" "ADJ" ((("oh") 0) (("b" "l" "i") 0) (("g" "a") 0) (("t" "w" "a" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("école_NOM" "NOM" ((("e") 0) (("k" "oh" "l") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("principe_NOM" "NOM" ((("p" "rh" "ehn") 0) (("s" "i" "p") 0))))
+(lex.add.entry '("cher_ADJ" "ADJ" ((("sh" "eh" "rh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("république_NOM" "NOM" ((("rh" "e") 0) (("p" "y") 0) (("b" "l" "i")0) (("k" ae) 0))))
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "Le caractère obligatoire de l'école est un principe, cher à la République.") ; neut_parl_s03_0637

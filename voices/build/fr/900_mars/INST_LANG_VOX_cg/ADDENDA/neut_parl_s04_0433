@@ -1,0 +1,16 @@
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("partir_VER" "VER" ((("p" "a" "rh") 0) (("t" "i" "rh") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("moment_NOM" "NOM" ((("m" "oh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("où_PRO:rel" "PRO:rel" ((("u") 0))))
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("compromise_VER" "VER" ((("k" "ohn") 0) (("p" "rh" "oh") 0) (("m" "i")0) (("z" ae) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("trouver_VER" VER ((("t" "rh" "u") 0) (("v" "e") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("solution_NOM" "NOM" ((("s" "oh") 0) (("l" "y") 0) (("s" "j" "ohn") 0))))
+
+(set! text "à partir du moment où elle est compromise, il faut trouver une solution.") ; neut_parl_s04_0433
+(dSayText text)

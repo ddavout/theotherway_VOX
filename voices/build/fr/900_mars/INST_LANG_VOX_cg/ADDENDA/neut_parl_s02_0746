@@ -1,0 +1,12 @@
+(lex.add.entry '("hier_ADV" "ADV" (((j "eh" rh) 0))))
+(lex.add.entry '("avè_VER" "VER" ((("a") 0) (("v" "eh") 0))))
+(lex.add.entry '("lieu_NOM" "NOM" ((("l" "j" "eu") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("journée_NOM" "NOM" ((("zh" "u" "rh") 0) (("n" "e") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("action_VER" VER ((("a" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("retraités_NOM" NOM ((("rh" "ae") 0) (("t" "rh" "eh") 0) (("t" "e") 0))))
+
+; POS action
+(dSayText "Hier avait lieu une journée d'action des retraités.") ; neut_parl_s02_0746

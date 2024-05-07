@@ -1,0 +1,15 @@
+(lex.add.entry '("loin_d_CON" "CON" ((("l" "w" "ehn") 0))))
+(lex.add.entry '("d_être_VER" "VER" (((d "eh") 0))))
+(lex.add.entry '("anodin_ADJ" "ADJ" (((t rh "a") 0) (("n" "oh") 0) (("d" "ehn") 0))))
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("article_NOM" NOM (((t "a" "rh") 0) (("t" "i") 0) (("k" "l" ae) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((t "o") 0)))); LIA
+(lex.add.entry '("coeur_NOM" "NOM" ((("k" "oe" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh")0) (("t" "rh" "ae") 0)))); do,e
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+
+
+(set! text "loin d'être anodin, cet article est au cœur de notre débat.") ; neut_parl_s04_0122
+(dSayText text)

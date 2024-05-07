@@ -1,0 +1,8 @@
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("questions_NOM" NOM ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("posent_VER" VER ((("p" "o" "z") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+
+(dSayText "Beaucoup de questions se posent donc.") ; neut_parl_s03_0329

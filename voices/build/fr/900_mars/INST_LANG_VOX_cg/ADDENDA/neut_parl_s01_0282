@@ -1,0 +1,11 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("précise_VER" "VER" ((("p" "rh" "e") 0) (("s" "i" "z") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("notion_NOM" "NOM" ((("n" "oh") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("d_opérateurs_NOM" NOM (((d "oh") 0) (("p" "e") 0) (("rh" "a") 0) (("t" "oe" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("fret_express_NOM" "NOM" ((("f" "rh" "eh") 0)((t eh k s) 0) ((p rh eh s) 0))))
+
+(set! text "il précise la notion d'opérateurs de fret express.") ; 
+(dSayText text); neut_parl_s01_0282
+

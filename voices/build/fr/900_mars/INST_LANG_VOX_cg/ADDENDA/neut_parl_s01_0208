@@ -1,0 +1,12 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((z ahn) 0)))); LIA
+(lex.add.entry '("cherchons_VER" VER ((("sh" "eh" "rh") 0) (("sh" "ohn") 0))))
+(lex.add.entry '("parce_que_CON" CON (((p a rh s) 0) ((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("sommes_VER" VER ((("s" "oh" "m") 0))))
+(lex.add.entry '("responsables_ADJ" ADJ ((("rh" "eh" "s") 0) (("p" "ohn") 0) (("s" "a") 0) (("b" "l" "ae") 0))))
+
+
+(set! text "nous, nous en cherchons, parce que nous sommes responsables.") ; 
+(dSayText text); neut_parl_s01_0208

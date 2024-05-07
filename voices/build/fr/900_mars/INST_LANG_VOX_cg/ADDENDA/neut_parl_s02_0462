@@ -1,0 +1,7 @@
+(lex.add.entry '("Trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("directives_NOM" NOM ((("d" "i") 0) (("rh" "eh" "k") 0) (("t" "i")0) (("v" ae) 0))))
+(lex.add.entry '("restent_VER" VER ((("rh" "eh" "s") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0))))
+(lex.add.entry '("transposé_VER" VER ((("t" "rh" "ahn" "s") 0) (("p" "o") 0) (("z" "e") 0))))
+
+(dSayText "Trois directives, restent à transposer.") ; neut_parl_s02_0462

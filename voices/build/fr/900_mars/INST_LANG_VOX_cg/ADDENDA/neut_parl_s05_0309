@@ -1,0 +1,14 @@
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("compatriotes_NOM" NOM ((("k" "ohn") 0) (("p" "a") 0) (("t" "rh" "i") 0) (("j" "oh") 0))))
+(lex.add.entry '("ont_AUX" "AUX" (((t "ohn") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("enlevés_VER" VER ((("ahn") 0) (("l" "ae") 0) (("v" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("pire_NOM" NOM ((("p" "i") 0))))
+(lex.add.entry '("est_VER" "VER" (((rh "eh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("attendre_VER" "VER" ((("a") 0) (("t" "ahn")0)(("d" "rh" ae) 0))))
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(set! list_exclus*-> (append (list "compatriotes" ) list_exclus*->_default))
+(dSayText "Des compatriotes ont été enlevés, le pire est à attendre.") ; neut_parl_s05_0309

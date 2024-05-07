@@ -1,0 +1,9 @@
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh) 0))))
+(lex.add.entry '("amendement_NOM" "NOM" (((t rh "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("soulève_VER" "VER" ((("s" "u") 0) (("l" "eh" "v") 0))))
+(lex.add.entry '("toutefois_ADV" ADV ((("t" "u" t ) 0) (("f" "w" "a") 0))))
+(lex.add.entry '("quelques_ADJ:ind" ADJ:ind ((("k" "eh" "l") 0) (("k" "ae") 0))))
+(lex.add.entry '("questions_NOM" NOM ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("techniques_ADJ" ADJ ((("t" "eh" "k") 0) (("n" "i")0) (("k" ae) 0))))
+
+(dSayText "Votre amendement soulève toutefois, quelques questions techniques.") ; neut_parl_s04_0521

@@ -1,0 +1,16 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("mode_NOM" "NOM" (((m oh d) 0))))
+
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("fonctionnement_NOM" NOM ((("f" "ohn" "k") 0) (("s" "j" "oh" "n") 0) (("m" "ahn") 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_existe_VER" VER ((("n" "eh" "g") 0) (("z" "i" "s") 0) (("t" ae) 0))))
+(lex.add.entry '("nulle_ADJ:ind" "ADJ:ind" ((("n" "y" "l") 0))))
+(lex.add.entry '("part_NOM" "NOM" ((("p" "a" "rh") 0))))
+(lex.add.entry '("fonctionnement_NOM" NOM ((("f" "ohn" "k") 0) (("s" "j" "oh" "n") 0) (("m" "ahn") 0))))
+
+
+(set! never_exception_list (append (list "mode" ) never_exception_list_default)) ; todo d d  contre intuitif !
+(dSayText "Ce mode de fonctionnement n'existe nulle part.") ; neut_parl_s03_0701
+
+

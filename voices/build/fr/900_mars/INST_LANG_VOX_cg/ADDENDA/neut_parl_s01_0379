@@ -1,0 +1,14 @@
+; c'est un moche
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("premier_ADJ" "ADJ" ((("p" "rh" "ae") 0) (("m" "j" "e") 0))))
+(lex.add.entry '("vice_NOM" "NOM" ((("v" "i" "s") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("entache_VER" "VER" ((("ahn") 0) (("t" "a" "sh") 0))))
+(lex.add.entry '("l_ensemble_NOM" "NOM" (((l "ahn") 0) (("s" "ahn")0) (("b" "l" ae) 0)))); dones
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("processus_NOM" "NOM" ((("p" "rh" "oh")0) (("s" e) 0) (("s" "y" s) 0))))
+
+
+(set! text "c'est un premier vice qui entache l'ensemble du processus.") ; 
+(dSayText text); neut_parl_s01_0379

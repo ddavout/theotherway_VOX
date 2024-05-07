@@ -1,0 +1,9 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("trouve_VER" VER ((("t" "rh" "u" v) 0))))
+(lex.add.entry '("votre_ADJ:pos" ADJ:pos ((("v" "oh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("réponse_NOM" "NOM" ((("rh" "e") 0) (("p" "ohn") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((s "oen") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("légère_ADJ" "ADJ" ((("l" "e") 0) (("zh" "eh" "rh") 0))))
+
+(dSayText "Je trouve votre réponse un peu légère.") ; neut_parl_s03_0539

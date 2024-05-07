@@ -1,0 +1,12 @@
+; carte moche final
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("mois_NOM" NOM ((("m" "w" "a") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("y_a_VER" "VER" ((("j" "a") 0))))
+(lex.add.entry '("eu_VER" "VER" (((y) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("carte_NOM" "NOM" ((("k" "a" "rh" "t") 0))))
+
+(set! text "En trois mois, il y a eu une carte.") ; 
+(dSayText text); neut_parl_s01_0371

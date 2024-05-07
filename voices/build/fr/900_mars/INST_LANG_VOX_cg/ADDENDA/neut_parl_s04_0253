@@ -1,0 +1,13 @@
+(lex.add.entry '("or_NOM" "NOM" ((("oh" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("proposition_NOM" "NOM" ((("p" "rh" "oh") 0) (("p" "o") 0) (("z" "i") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("loi_NOM" "NOM" ((("l" "w" "a") 0))))
+(lex.add.entry '("porte_VER" "VER" ((("p" "oh" "rh")0) (("t" ae) 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("actes_NOM" NOM (((z "a" "k")0) (("t" ae) 0))))
+(lex.add.entry '("usuels_ADJ" ADJ ((("y") 0) (("z" "hw" "eh" "l") 0)))); no lia
+
+
+(dSayText "Or la proposition de loi porte, sur les actes usuels.") ; neut_parl_s04_0253

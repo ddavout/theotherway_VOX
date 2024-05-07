@@ -1,0 +1,9 @@
+(lex.add.entry '("Faisons_VER" VER ((("f" "ae") 0) (("z" "ohn") 0))))
+(lex.add.entry '("confiance_NOM" "NOM" ((("k" "ohn") 0) (("f" "j" "ahn") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" (((s "o") 0))))
+(lex.add.entry '("acteurs_NOM" NOM (((z "a" "k") 0) (("t" "oe" "rh") 0))))
+(lex.add.entry '("locaux_ADJ" ADJ ((("l" "oh") 0) (("k" "o") 0))))
+
+
+
+(dSayText "Faisons confiance aux acteurs locaux.") ; neut_parl_s03_0660

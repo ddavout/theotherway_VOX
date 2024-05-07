@@ -1,0 +1,36 @@
+(set! fileid "neut_book_s01_0015")
+(lex.add.entry '("place_NOM" "NOM" ((("p" "l" "a" "s") 0)))); confusion POS VER/NOM
+(lex.add.entry '("place_VER" "VER" ((("p" "l" "a" "s") 0))))
+(lex.add.entry '("enclos_NOM" NOM ((("ahn") 0) (("k" "l" "o") 0))))
+(lex.add.entry '("enclos_VER" VER ((("ahn") 0) (("k" "l" "o") 0))))
+
+
+(lex.add.entry '("vers_PRE" PRE ((("v" "eh" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("milieu_NOM" "NOM" ((("m" "i") 0) (("l" "j" "eu") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("rue_NOM" "NOM" ((("rh" "y") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("commerçante_ADJ" "ADJ" ((("k" "oh") 0) (("m" "eh" "rh") 0) (("s" "ahn")0) (("t" ae) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("trouvai_VER" VER ((("t" "rh" "u") 0) (("v" "e") 0)))); CHECK
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("cimetière_NOM" "NOM" ((("s" "i" "m") 0) (("t" "j" "eh" "rh") 0))))
+(lex.add.entry '("public_ADJ" "ADJ" ((("p" "y") 0) (("b" "l" "i")0) (("k" ae) 0))))
+(lex.add.entry '("enclos" nil ((("ahn") 0) (("k" "l" "o") 0))))
+(lex.add.entry '("d_un_ART:ind" ART:ind (((d "oen") 0))))
+(lex.add.entry '("mur_NOM" "NOM" ((("m" "y" "rh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("terre_NOM" "NOM" ((("t" "eh" "rh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("lequel_PRO:rel" "PRO:rel" ((("l" "ae") 0) (("k" "eh")0) (("l" ae) 0))))
+(lex.add.entry '("la_PRO:per" PRO:per ((("l" "a") 0))))
+(lex.add.entry '("place" nil ((("p" "l" "a" "s") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("manquait_VER" VER ((("m" "ahn") 0) (("k" "e") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+(set! text "vers le milieu de la rue non commerçante, je trouvai le cimetière public, enclos d'un mur en terre, et dans lequel, la place ne manquait pas.") ; neut_book_s01_0015
+(dSayText text)

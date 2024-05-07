@@ -1,0 +1,16 @@
+(lex.add.entry '("eh_bien" ONO (((e) 0) ((b j ehn) 0))))
+(lex.add.entry '("j_offre_VER" VER ((("zh" "oh")0) (("f" "rh" ae) 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("perspective_NOM" "NOM" ((("p" "eh" "rh" s ) 0) (("p" "e" "k") 0) (("t" "i" "v") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("laquelle_PRO:rel" "PRO:rel" ((("l" "a") 0) (("k" "eh") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((l i l) 0))))
+(lex.add.entry '("serait_VER" "VER" ((("s" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("sans_PRE" PRE ((("s" "ahn") 0))))
+(lex.add.entry '("doute_NOM" "NOM" ((("d" "u" "t") 0))))
+(lex.add.entry '("bon_ADJ" "ADJ" ((("b" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("travailler_VER" VER ((("t" "rh" "a") 0) (("v" "a") 0) (("j" "e") 0))))
+
+(dSayText "Eh bien, j'offre là une perspective sur laquelle il serait sans doute bon de travailler.") ; neut_parl_s04_0491

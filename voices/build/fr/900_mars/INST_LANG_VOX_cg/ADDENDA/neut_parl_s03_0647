@@ -1,0 +1,14 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("y_a_VER" "VER" ((("j" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("certain_ADJ" ADJ ((("s" "eh" "rh") 0) (("t" "ehn") 0))))
+(lex.add.entry '("nombre_NOM" NOM ((("n" "ohn") 0) (("b" "rh" ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
+(lex.add.entry '("où_PRO:rel" "PRO:rel" ((("u") 0))))
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh") 0))))
+(lex.add.entry '("est_VER" "VER" (((l "eh") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("pire_ADJ" "ADJ" ((("p" "i" "rh") 0))))
+
+(dSayText "Il y a un certain nombre de pays où elle est bien pire.") ; neut_parl_s03_0647

@@ -1,0 +1,19 @@
+(lex.add.entry '("si_ADV" "ADV" ((("s" "i") 0))))
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("débatton_VER" VER ((("d" "e") 0) (("b" "a") 0) (("t" "ohn") 0))))
+(lex.add.entry '("débattons_VER" VER ((("d" "e") 0) (("b" "a") 0) (("t" "ohn") 0))))
+(lex.add.entry '("z_en_PRE" "PRE" (((z ahn) 0))))
+(lex.add.entry '("entre_PRE" PRE ((("ahn") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("sûr_ADJ" "ADJ" ((("s" "y" "rh") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("aussi_ADV" "ADV" (((z "o") 0) (("s" "i") 0)))); LIA
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("société_NOM" "NOM" ((("s" "oh") 0) (("s" "j" "e") 0) (("t" "e") 0))))
+
+
+(set! text "Si oui, débattons-en entre nous bien sûr, mais aussi avec la société.") ; neut_parl_s02_0581
+(dSayText text)
+

@@ -1,0 +1,12 @@
+;(lex.add.entry '("si_ADV" "ADV" ((("s" "i") 0)))); confusion
+
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o" "z") 0))))
+(lex.add.entry '("furent_VER" VER ((("f" "y" "rh") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((t "o") 0)))); LIA
+(lex.add.entry '("rendez_vous__NOM" "NOM" (((rh ahn) 0) ((d e) 0) ((v u) 0))))
+
+(set! text "Si peu de choses furent au rendez-vous_ !") ; 
+(dSayText text); neut_parl_s01_0715

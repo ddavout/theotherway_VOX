@@ -1,0 +1,14 @@
+(lex.add.entry '("or_NOM" "NOM" ((("oh" "rh") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("système_NOM" "NOM" ((("s" "i" "s") 0) (("t" "eh" "m") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("apple_NAM" "NAM" (((a) 0) ((p oe l) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("amazon_NAM" "NAM" (((a) 0) ((m a) 0) ((z o)0) ((n ae) 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("sera_VER" "VER" ((("s" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("impossible_ADJ" "ADJ" ((("ehn") 0) (("p" "oh") 0) (("s" "i")0) (("b" "l" ae) 0))))
+
+(dSayText "Or, avec le système d'Apple et d'Amazon, ce sera impossible.") ; neut_parl_s04_0344

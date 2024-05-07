@@ -1,0 +1,17 @@
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("nom_NOM" "NOM" ((("n" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("démocratie_NOM" "NOM" ((("d" "e") 0) (("m" "oh") 0) (("k" "rh" "a") 0) (("s" "i") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("nom_NOM" "NOM" ((("n" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("citoyenneté_NOM" "NOM" ((("s" "i") 0) (("t" "w" "a") 0) (("j" "eh" "n") 0) (("t" "e") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("nom_NOM" "NOM" ((("n" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("république_NOM" "NOM" ((("rh" "e") 0) (("p" "y") 0) (("b" "l" "i")0) (("k" ae) 0))))
+
+(dSayText "Au nom de la démocratie, au nom de la citoyenneté, au nom de la République.") ; neut_parl_s04_0368

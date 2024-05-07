@@ -1,0 +1,17 @@
+(lex.add.entry '("or_CON" CON ((("oh" "rh") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("allons_VER" VER (((z "a") 0) (("l" "ohn") 0))))
+(lex.add.entry '("parler_VER" VER ((("p" "a" "rh") 0) (("l" "e") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0)))); no LIA
+(lex.add.entry '("même_ADJ" "ADJ" ((("m" "eh" "m") 0))))
+(lex.add.entry '("temps_NOM" "NOM" (((t ahn) 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("pouvoir_NOM" "NOM" ((("p" "u") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("réglementaire_ADJ" ADJ ((("rh" "eh") 0) (("g" "l" "ae") 0) (("m" "ahn") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_échelon_NOM" "NOM" (((l "e" sh) 0) (("l" "ohn") 0))))
+(lex.add.entry '("régional_ADJ" "ADJ" ((("rh" "e") 0) (("zh" "j" "oh") 0) (("n" "a")0) (("l" ae) 0))))
+
+
+(set! text "or nous allons parler en même temps, du pouvoir réglementaire à l'échelon régional.") ; 
+(dSayText text); neut_parl_s01_0220

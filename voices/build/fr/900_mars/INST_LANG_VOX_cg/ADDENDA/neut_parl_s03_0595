@@ -1,0 +1,11 @@
+(lex.add.entry '("Seules_NOM" NOM ((("s" "oe" "l") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("autres_ADJ" ADJ ((("o") 0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("villes_NOM" NOM ((("v" "i") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((l ahn) 0))))
+(lex.add.entry '("europe_NAM" "NAM" (((oe) 0) ((rh oh "p") 0))))
+(lex.add.entry '("font_VER" VER ((("f" "ohn") 0))))
+(lex.add.entry '("pire_ADJ" "ADJ" ((("p" "i" "rh") 0))))
+
+(set! list_exclus*-> (append (list "villes") list_exclus*->_default))
+(dSayText "Seules deux autres villes en Europe font pire.") ; neut_parl_s03_0595

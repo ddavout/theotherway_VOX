@@ -1,0 +1,18 @@
+(lex.add.entry '("C_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
+(lex.add.entry '("habitude_NOM" "NOM" ((("a") 0) (("b" "i") 0) (("t" "y" "d") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("toutefois_ADV" ADV ((("t" "u" t) 0)  (("f" "w" "a") 0))))
+(lex.add.entry '("s_étiole_VER" VER (((s "e") 0) (("t" "j" "oh") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((l "o") 0))))
+(lex.add.entry '("fil_NOM" "NOM" ((("f" "i" "l") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("temps_NOM" "NOM" (((t ahn) 0))))
+
+
+(set! text "C'est une habitude de votre gouvernement, qui toutefois s'étiole au fil du temps.") ; 
+(dSayText text); neut_parl_s01_0434
+

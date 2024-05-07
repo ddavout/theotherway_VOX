@@ -1,0 +1,10 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("crime_NOM" "NOM" ((("k" "rh" "i" "m") 0))))
+(lex.add.entry '("était_AUX" "AUX" ((("e") 0) (("t" "eh") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("préparé_VER" "VER" ((("p" "rh" "e") 0) (("p" "a") 0) (("rh" "e") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("organisé_ADJ" "ADJ" (((z "oh" "rh") 0) (("g" "a") 0) (("n" "i") 0) (("z" "e") 0)))); LIA
+
+(set! text "Ce crime était très préparé, très organisé.") ; 
+(dSayText text); neut_parl_s01_0421

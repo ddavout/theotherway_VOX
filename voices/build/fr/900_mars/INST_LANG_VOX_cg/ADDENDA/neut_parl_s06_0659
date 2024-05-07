@@ -1,0 +1,11 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("majorité_NOM" "NOM" ((("m" "a") 0) (("zh" "oh") 0) (("rh" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("gauche_NOM" "NOM" ((("g" "o")0) (("sh" "ae") 0))))
+(lex.add.entry '("veut_VER" "VER" ((("v" "eu") 0))))
+(lex.add.entry '("aller_VER" VER (((t "a") 0) (("l" "e") 0)))); LIA
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
+(lex.add.entry '("loin_ADV" "ADV" ((("l" "w" "ehn") 0))))
+
+(set! text "Cette majorité de gauche veut aller plus loin.") ; neut_parl_s06_0659
+(dSayText text)

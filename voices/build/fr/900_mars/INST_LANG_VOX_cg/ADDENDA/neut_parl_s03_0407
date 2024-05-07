@@ -1,0 +1,9 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("y_a_VER" "VER" (((l "j" "a") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("urgence_NOM" "NOM" ((("y" "rh") 0) (("zh" "ahn")0)((s ae) 0))))
+
+(set! list_exclus*-> (append (list "bien") list_exclus*->_default))
+
+(dSayText "Il y a donc bien urgence.") ; neut_parl_s03_0407

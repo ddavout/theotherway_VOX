@@ -1,0 +1,22 @@
+; TODO ? dans + PRO:per + VER -> ART:def + VER
+(set! fileid "neut_parl_s01_0332")
+
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("extraits_NOM" NOM (((z "eh" "k" "s") 0) (("t" "rh" "eh") 0)))); LIA
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("été_VER" "VER" (((t "e") 0) (("t" "e") 0)))); LIA
+(lex.add.entry '("publiés_VER" VER ((("p" "y") 0) (("b" "l" "i") 0) (("j" "e") 0))))
+(lex.add.entry '("hier_ADV" "ADV" (((j "eh" rh) 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("presse_NOM" "NOM" ((("p" "rh" "eh") 0) (("s" "ae") 0))))
+(lex.add.entry '("la_PRO:per" "PRO:per" ((("l" "a") 0))))
+(lex.add.entry '("presse_VER" "VER" ((("p" "rh" "eh")0) (("s" "ae") 0))))
+
+(lex.add.entry '("d_autres_PRO:ind" "PRO:ind" (((d "o") 0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("matin_NOM" "NOM" ((("m" "a") 0) (("t" "ehn") 0))))
+
+
+(set! text "des extraits ont été publiés hier dans la presse, d'autres ce matin.") ; neut_parl_s01_0332
+(dSayText text)

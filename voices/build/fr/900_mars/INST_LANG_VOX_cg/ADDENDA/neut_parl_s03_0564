@@ -1,0 +1,13 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("devon_VER" "VER" ((("d" "ae") 0) (("v" "ohn") 0))))
+(lex.add.entry '("poursuivre_VER" VER ((("p" "u" "rh") 0) (("s" "hw" "i") 0) (("v" "rh" ae) 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("logique_NOM" NOM ((("l" "oh") 0) (("zh" "i" "k") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("réduction_NOM" "NOM" ((("rh" "e") 0) (("d" "y" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("niches_NOM" NOM ((("n" "i" "sh") 0))))
+(lex.add.entry '("fiscales_ADJ" ADJ ((("f" "i" "s") 0) (("k" "a")0) (("l" "ae") 0))))
+
+(dSayText "Nous devons poursuivre dans la logique de réduction des niches fiscales.") ; neut_parl_s03_0564

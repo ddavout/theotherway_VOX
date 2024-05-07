@@ -1,0 +1,16 @@
+(lex.add.entry '("ainsi_ADV" "ADV" ((("ehn") 0) (("s" "i") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("réunion_NAM" NAM ((("rh" "e") 0) (("y") 0) (("jg" "ohn") 0)))) ; POS
+(lex.add.entry '("réunion_NOM" "NOM" ((("rh" "e") 0) (("y") 0) (("jg" "ohn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("compétence_NOM" "NOM" ((("k" "ohn") 0) (("p" "e") 0) (("t" "ahn") 0))))
+(lex.add.entry '("agricole_ADJ" "ADJ" (((s "a") 0) (("g" "rh" "i") 0) (("k" "oh" "l") 0))))
+(lex.add.entry '("relève_VER" "VER" ((("rh" "ae") 0) (("l" "eh" "v") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("conseil_NOM" "NOM" ((("k" "ohn") 0) (("s" "eh" "j") 0))))
+(lex.add.entry '("général_ADJ" "ADJ" ((("zh" "e") 0) (("n" "e") 0) (("rh" "a" "l") 0))))
+
+(set! text "ainsi, à la réunion, la compétence agricole relève du conseil général.") ; 
+(dSayText text); neut_parl_s01_0227
+

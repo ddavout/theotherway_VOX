@@ -1,0 +1,15 @@
+(lex.add.entry '("Or_CON" CON ((("oh" "rh") 0))))(lex.add.entry '("Or_NOM" NOM ((("oh" "rh") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("ne_ADV" "ADV" nil))
+(lex.add.entry '("savons_VER" "VER" (((n "s" "a") 0) (("v" "ohn") 0))))
+(lex.add.entry '("toujours_ADV" ADV ((("t" "u") 0) (("zh" "u" "rh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("comment_CON" "CON" ((("k" "oh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("dispositifs_NOM" NOM ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("vont_VER" VER ((("v" "ohn") 0))))
+(lex.add.entry '("être_AUX" "AUX" (((t "eh" "t" "rh") 0)))); LIA
+(lex.add.entry '("financés_VER" VER ((("f" "i") 0) (("n" "ahn") 0) (("s" "e") 0))))
+
+(set! text "Or, nous ne savons toujours pas comment ces dispositifs vont être financés.") ; neut_parl_s03_0443
+(dSayText text)

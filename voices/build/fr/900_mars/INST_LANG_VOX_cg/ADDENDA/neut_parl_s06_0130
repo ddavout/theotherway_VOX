@@ -1,0 +1,15 @@
+(lex.add.entry '("partout_ADV" "ADV" ((("p" "a" "rh") 0) (("t" "u") 0))))
+(lex.add.entry '("où_PRO:rel" "PRO:rel" ((("u") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("magasins_NOM" NOM ((("m" "a") 0) (("g" "a") 0) (("z" "ehn") 0))))
+(lex.add.entry '("seront_AUX" "AUX" ((("s" "ae") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("ouverts_VER" VER ((("u") 0) (("v" "eh" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("dimanche_NOM" "NOM" ((("d" "i") 0) (("m" "ahn")0) (("sh" ae) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("y_PRO:per" "PRO:per" nil))
+(lex.add.entry '("aura_VER" "VER" (((l j "oh") 0) (("rh" "a") 0))))
+(lex.add.entry '("compensation_NOM" "NOM" ((("k" "ohn") 0) (("p" "ahn") 0) (("s" "a") 0) (("s" "j" "ohn") 0))))
+
+(set! never_exception_list (append (list "seront" ) never_exception_list_default))
+(dSayText "Partout où les magasins seront ouverts le dimanche, il y aura compensation.") ; neut_parl_s06_0130

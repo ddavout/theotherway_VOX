@@ -1,0 +1,15 @@
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0)))); no LIA
+(lex.add.entry '("renoué_VER" "VER" ((("rh" "ae") 0) (("n" "u") 0) (("e") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" (((k "l" "ae") 0))))
+(lex.add.entry '("progrès_NOM" NOM ((("p" "rh" "oh") 0) (("g" "rh" "eh") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("lehh_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("dialogue_NOM" "NOM" ((("d" "j" "a") 0) (("l" "oh" "g") 0))))
+(lex.add.entry '("social_ADJ" "ADJ" ((("s" "oh") 0) (("s" "j" "a" "l") 0))))
+
+(set! text "oui, notre pays a renoué avec le progrès par le dialogue social."); 
+(dSayText text); neut_parl_s01_0289

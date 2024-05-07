@@ -1,0 +1,8 @@
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("doivent_VER" VER ((("d" "w" "a" "v") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("être_VER" VER ((("eh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("sociaux_ADJ" ADJ ((("s" "oh") 0) (("s" "j" "o") 0))))
+
+(set! never_exception_list (append (list "doivent" "C_est" ) never_exception_list_default))
+(dSayText "Ils doivent aussi être sociaux.") ; neut_parl_s02_0575

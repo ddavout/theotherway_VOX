@@ -1,0 +1,11 @@
+(lex.add.entry '("faites-moi_VER" VER ((("f" "eh" "t") 0)(("m" "w" "a") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("moins_ADV" ADV ((("m" "w" "ehn") 0))))
+(lex.add.entry '("grâce_NOM" "NOM" ((("g" "rh" "a" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "l" "a") 0))))
+
+
+
+(set! text "Faites-moi au moins grâce de cela.") ; 
+(dSayText text); neut_parl_s01_0363

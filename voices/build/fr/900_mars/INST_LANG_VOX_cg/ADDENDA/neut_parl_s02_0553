@@ -1,0 +1,7 @@
+(lex.add.entry '("Sans_PRE" PRE ((("s" "ahn") 0))))
+(lex.add.entry '("dialogue_NOM" "NOM" ((("d" "j" "a") 0) (("l" "oh")0) (("g" ae) 0))))
+(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("salut_ONO" ONO ((("s" "a") 0) (("l" "y") 0))))
+
+(dSayText "Sans dialogue, point de salut !") ; neut_parl_s02_0553

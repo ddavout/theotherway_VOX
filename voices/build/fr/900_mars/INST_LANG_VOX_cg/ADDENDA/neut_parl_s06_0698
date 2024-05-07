@@ -1,0 +1,7 @@
+(lex.add.entry '("souvent_ADV" "ADV" ((("s" "u") 0) (("v" "ahn") 0))))
+(lex.add.entry '("rien_PRO:ind" "PRO:ind" ((("rh" "j" "ehn") 0))))
+(lex.add.entry '("parfois_ADV" ADV ((("p" "a" "rh") 0) (("f" "w" "a") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("grand-chose_PRO:ind" PRO:ind ((("g" "rh" "ahn") 0) (("sh" "o")0) (("z" ae) 0))))
+
+(dSayText "Souvent rien, parfois, pas grand-chose.") ; neut_parl_s06_0698

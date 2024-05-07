@@ -1,0 +1,18 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_empêche_VER" "VER" (((n "ahn") 0) (("p" "eh" "sh") 0))))
+(lex.add.entry '("qu_CON" "CON" nil))
+(lex.add.entry '("qu_ils_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("existent_VER" VER ((("eh" "g") 0) (("z" "i" "s") 0) (("t" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("qu_CON" "CON" nil))
+(lex.add.entry '("qu_ils_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("largement_ADV" "ADV" ((("l" "a" "rh") 0) (("zh" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("diffusés_VER" VER ((("d" "i") 0) (("f" "y") 0) (("z" "e") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("territoire_NOM" "NOM" ((("t" "eh") 0) (("rh" "i") 0) (("t" "w" "a" "rh") 0))))
+
+(dSayText "Il n'empêche qu'ils existent, et qu'ils sont très largement diffusés sur notre territoire.") ; neut_parl_s04_0302

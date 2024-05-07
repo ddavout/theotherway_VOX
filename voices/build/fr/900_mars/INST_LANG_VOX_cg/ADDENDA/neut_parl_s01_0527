@@ -1,0 +1,8 @@
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("quelle_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0))))
+(lex.add.entry '("langue_NOM" "NOM" ((("l" "ahn" "g") 0))))
+(lex.add.entry '("ferait-il_VER" VER ((("f" "ae") 0) (("rh" "eh") 0)(("t" "i" l) 0))))
+(lex.add.entry '("campagne_NOM" "NOM" ((("k" "ahn") 0) (("p" "a") 0) (("jg" ae) 0))))
+
+(set! text "dans quelle langue ferait-il campagne ?") ; 
+(dSayText text); neut_parl_s01_0527

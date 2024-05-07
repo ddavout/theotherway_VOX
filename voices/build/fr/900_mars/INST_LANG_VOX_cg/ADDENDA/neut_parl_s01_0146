@@ -1,0 +1,11 @@
+(lex.add.entry '("que_PRO:int" PRO:int (((k ae) 0)))); confusion
+(lex.add.entry '("que_PRO:rel" PRO:rel (((k ae) 0)))); confusion
+
+(lex.add.entry '("que" nil (((k ae) 0)))); confusion
+(lex.add.entry '("peut-il_VER" "VER" ((("p" "eu") 0)(("t" "i" l) 0))))
+(lex.add.entry '("ensuite_ADV" "ADV" ((("ahn") 0) (("s" "hw" i) 0)))); Q
+(lex.add.entry '("advenir_VER" "VER" (((t a d) 0) ((v ae) 0) ((n i rh) 0))))
+
+
+(set! text "que peut-il ensuite advenir ?") ; 
+(dSayText text); neut_parl_s01_0146

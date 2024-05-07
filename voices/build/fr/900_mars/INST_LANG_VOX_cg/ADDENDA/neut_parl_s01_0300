@@ -1,0 +1,16 @@
+(set! fileid "neut_parl_s01_0300")
+
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("situation_NOM" "NOM" ((("s" "i") 0) (("t" "hw" "a") 0)  (("s" "j" "ohn") 0)))); Q
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("failles_NOM" NOM ((("f" "a")0) (("j" "ae") 0)))); Q?
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("certaines_ADJ" ADJ ((("s" "eh" "rh") 0) (("t" "eh")0) (("n" "ae") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("espoirs_NOM" NOM (((z "eh" "s") 0) (("p" "w" "a" "rh") 0)))); LIA
+(lex.add.entry '("abimés_VER" VER ((("a") 0) (("b" "i") 0) (("m" "e") 0))))
+
+(set! text "dans cette situation, les failles sont certaines et les espoirs, abîmés.") ; neut_parl_s01_0300
+(dSayText text)

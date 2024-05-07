@@ -1,0 +1,13 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("députés_NOM" NOM ((("d" "e") 0) (("p" "y") 0) (("t" "e") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("front_NOM" "NOM" ((("f" "rh" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("gauche_NOM" "NOM" ((("g" "o" "sh") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("pensent_VER" VER ((("p" "ahn" "s") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+(set! text "Les députés du Front de gauche ne le pensent pas.") ; neut_parl_s02_0143
+(dSayText text)

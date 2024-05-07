@@ -1,0 +1,10 @@
+(lex.add.entry '("seront-elles_VER" VER ((("s" "ae") 0) (("rh" "ohn") 0)(("t" "eh" "l") 0))))
+(lex.add.entry '("prises_VER" VER ((("p" "rh" "i")0) (("z" ae) 0))))
+(lex.add.entry '("d_ici_à_PRE" "PRE" (((d "i") 0) (("s" "i") 0)((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("fin_NOM" "NOM" ((("f" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_année_NOM" "NOM" (((l "a") 0) (("n" "e") 0))))
+
+(set! text "Seront-elles prises d'ici à la fin de l'année ?") ; neut_parl_s03_0674
+(dSayText text)

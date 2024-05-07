@@ -1,0 +1,16 @@
+(lex.add.entry '("celui_NOM" "NOM" ((("s" "ae") 0) (("l" "hw" i) 0))))
+
+(lex.add.entry '("celui_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "hw" i) 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
+(lex.add.entry '("nuancé_ADJ" "ADJ" ((("n" "y") 0) (("hw" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("eu_VER" "VER" (((y) 0))))
+(lex.add.entry '("égard_NOM" "NOM" ((("e") 0) (("g" "a" "rh") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("risque_NOM" NOM ((("rh" "i" "s") 0) (("k" ae) 0))))
+(lex.add.entry '("juridique_ADJ" "ADJ" ((("zh" "y") 0) (("rh" "i") 0) (("d" "i") 0) (("k" ae) 0))))
+
+(set! text "celui du gouvernement est plus nuancé, eu égard au risque juridique.") ; neut_parl_s02_0650
+(dSayText text)

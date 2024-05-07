@@ -1,0 +1,17 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("guyane_NAM" "NAM" (((g "hw" i) 0) ((j a)0) ((n ae) 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("ainsi_ADV" "ADV" ((("ehn") 0) (("s" "i") 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("face_NOM" "NOM" ((("f" "a" "s") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nombreux_ADJ" "ADJ" ((("n" "ohn") 0) (("b" "rh" "eu") 0))))
+(lex.add.entry '("défis_NOM" NOM ((("d" "e") 0) (("f" "i") 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("lui_PRO:per" "PRO:per" ((("l" "hw" i) 0))))
+(lex.add.entry '("impose_VER" "VER" (((j "ehn") 0) (("p" "o" "z") 0))))
+(lex.add.entry '("sa_ADJ:pos" "ADJ:pos" ((("s" "a") 0))))
+(lex.add.entry '("démographie_NOM" NOM ((("d" "e") 0) (("m" "oh") 0) (("g" "rh" "a") 0) (("f" "i") 0))))
+
+(dSayText "La Guyane, doit ainsi faire face à de nombreux défis que lui impose sa démographie.") ; neut_parl_s06_0274

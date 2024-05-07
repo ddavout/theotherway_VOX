@@ -1,0 +1,14 @@
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("réunion_NOM" "NOM" ((("rh" "e") 0) (("y") 0) (("n" "j" "ohn") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("taux_NOM" "NOM" ((("t" "o") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("vingt_ADJ:num" "ADJ:num" ((("v" "ehn") 0))))
+(lex.add.entry '("trois_NOM" NOM ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("cent_NOM" "NOM" (((s ahn) 0))))
+
+(set! list_exclus*-> (append (list "taux" ) list_exclus*->_default)) ; SAFE
+(dSayText "à La Réunion, ce taux est de vingt trois pour cent.") ; neut_parl_s03_0389

@@ -1,0 +1,9 @@
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0))))
+(lex.add.entry '("projet_NOM" "NOM" ((("p" "rh" "oh") 0) (("zh" "eh") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("muet_NAM" "NAM" ((("m" "y") 0) (("eh") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
+
+(dSayText "Votre projet est muet sur la question.") ; neut_parl_s06_0442

@@ -1,0 +1,12 @@
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("cap_NOM" "NOM" ((("k" "a" "p") 0))))
+(lex.add.entry '("idéologique_ADJ" "ADJ" ((("i") 0) ((d e) 0) ((o) 0) ((l o) 0) ((zh i)0) ((k "ae") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("dorénavant_ADV" ADV ((("d" "oh") 0) (("rh" "e") 0) (("n" "a") 0) (("v" "ahn") 0))))
+(lex.add.entry '("franchi_VER" "VER" ((("f" "rh" "ahn") 0) (("sh" "i") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("niveau_NOM" "NOM" ((("n" "i") 0) (("v" "o") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+
+(dSayText "Un cap idéologique est donc dorénavant franchi au niveau européen.") ; neut_parl_s02_0646

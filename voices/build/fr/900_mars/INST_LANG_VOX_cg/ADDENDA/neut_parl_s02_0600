@@ -1,0 +1,8 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("conclure_VER" "VER" ((("k" "ohn") 0) (("k" "l" "y" "rh") 0))))
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("girardin_NAM" "NAM" ((("zh" "i") 0) (("rh" "a" "rh") 0) (("d" "ehn") 0))))
+
+(set! text "Il faut conclure, madame Girardin.") ; neut_parl_s02_0600
+(dSayText text)

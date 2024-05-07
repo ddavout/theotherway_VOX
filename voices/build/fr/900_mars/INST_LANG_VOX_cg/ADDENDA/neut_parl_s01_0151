@@ -1,0 +1,16 @@
+; J'ai ; marquée moche
+(lex.add.entry '("j_ai_AUX" AUX (((zh "e") 0))))
+(lex.add.entry '("j_ai_VER" VER (((zh "e") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("titre_NOM" "NOM" ((("t" "i" "t" "rh") 0))))
+(lex.add.entry '("personnel_ADJ" ADJ ((("p" "eh" "rh") 0) (("s" "oh") 0) (("n" "eh" "l") 0))))
+(lex.add.entry '("profondément_ADV" "ADV" ((("p" "rh" "oh") 0) (("f" "ohn") 0) (("d" "e") 0) (("m" "ahn") 0))))
+(lex.add.entry '("marquée_VER" "VER" ((("m" "a" "rh") 0) (("k" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("faits_NOM" NOM ((("f" "eh") 0))))
+
+; hiatus é é 
+(set! text "j'ai été, à titre personnel, profondément marquée par deux faits.") ; 
+(dSayText text); neut_parl_s01_0151

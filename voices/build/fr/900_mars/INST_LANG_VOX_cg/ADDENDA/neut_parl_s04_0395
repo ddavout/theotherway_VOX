@@ -1,0 +1,11 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("doute_VER" "VER" ((("d" "u" "t") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("y_ADV" "ADV" (((i) 0))))
+(lex.add.entry '("veillera_VER" "VER" ((("v" "eh" j) 0) (("rh" "a") 0))))
+
+(dSayText "Je ne doute pas que le Gouvernement y veillera.") ; neut_parl_s04_0395

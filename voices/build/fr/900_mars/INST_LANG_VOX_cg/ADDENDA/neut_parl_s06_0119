@@ -1,0 +1,10 @@
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("surplus_NOM" NOM ((("s" "y" "rh") 0) (("p" "l" "y") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("effets_NOM" NOM (((z "e") 0) (("f" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_amendement_NOM" "NOM" (((l "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("nuls_ADJ" ADJ ((("n" "y")0) (("l" "ae") 0))))
+
+(dSayText "Au surplus, les effets de l'amendement sont nuls.") ; neut_parl_s06_0119

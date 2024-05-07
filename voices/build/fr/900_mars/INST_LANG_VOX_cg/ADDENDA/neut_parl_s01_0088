@@ -1,0 +1,14 @@
+;/!\ je moche
+(lex.add.entry '("chers_ADJ" ADJ ((("sh" "eh" "rh") 0))))
+(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh")0) (("g" "ae") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("suggère_VER" "VER" ((("s" "y" g) 0) (("zh" "eh" "rh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("chacun_PRO:ind" "PRO:ind" ((("sh" "a") 0) (("k" "oen") 0))))
+(lex.add.entry '("retrouve_VER" "VER" ((("rh" "ae") 0) (("t" "rh" "u" "v") 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("calme_NOM" "NOM" (((k a l) 0) ((m ae) 0))))
+
+
+(set! text "chers collègues, je suggère que chacun retrouve son calme.") ; neut_parl_s01_0088
+(dSayText text)

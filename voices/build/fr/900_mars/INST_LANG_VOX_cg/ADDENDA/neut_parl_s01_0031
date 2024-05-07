@@ -1,0 +1,18 @@
+(set! fileid "parl_s01_0031")
+
+(lex.add.entry '("chers_ADJ" ADJ ((("sh" "eh" "rh") 0))))
+(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh") 0) (("g" ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("lyon_turin_NAM" "NAM" (((l j ohn) 0) ((t y) 0) ((rh ehn) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("chance_NOM" "NOM" ((("sh" "ahn" "s") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("protection_NOM" "NOM" ((("p" "rh" "oh") 0) (("t" "eh" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("alpes_NAM" "NAM" (((z a l) 0) ((p ae) 0)))) ; LIA
+
+
+(set! text "chers collègues, le lyon-turin est une chance pour la protection des alpes.") ; neut_parl_s01_0031
+(dSayText text)

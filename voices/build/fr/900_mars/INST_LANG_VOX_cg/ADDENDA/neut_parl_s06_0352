@@ -1,0 +1,8 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("deuxième_ADJ" "ADJ" ((("d" "eu") 0) (("z" "j" "eh" "m") 0))))
+(lex.add.entry '("raison_NOM" "NOM" ((("rh" "e") 0) (("z" "ohn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("sociale_ADJ" "ADJ" ((("s" "oh") 0) (("s" "j" "a")0) (("l" ae) 0))))
+
+(dSayText "La deuxième raison, est sociale.") ; neut_parl_s06_0352
+

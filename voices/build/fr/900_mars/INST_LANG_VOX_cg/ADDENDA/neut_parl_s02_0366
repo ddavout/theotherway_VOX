@@ -1,0 +1,15 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("souhaite_VER" "VER" ((("s" "w" "eh") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" (((t "o") 0) (("s" "i") 0))))
+(lex.add.entry '("dire_VER" "VER" ((("d" "i" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("mot_NOM" "NOM" ((("m" "o") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("place_NOM" "NOM" ((("p" "l" "a" "s") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("sport_NOM" "NOM" ((("s" "p" "oh" "rh") 0))))
+(lex.add.entry '("féminin_ADJ" "ADJ" ((("f" "e") 0) (("m" "i") 0) (("n" "ehn") 0))))
+
+(set! text "je souhaite aussi dire un mot sur la place du sport féminin.") ; neut_parl_s02_0366
+(dSayText text)

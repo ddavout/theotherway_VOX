@@ -1,0 +1,8 @@
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("quoi_PRO:rel" PRO:rel ((("k" "w" "a") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("fonde_VER" VER ((("f" "ohn" "d") 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0))))
+(lex.add.entry '("décision_NOM" "NOM" ((("d" "e") 0) (("s" "i") 0) (("z" "j" "ohn") 0))))
+
+(dSayText "Sur quoi se fonde votre décision ?") ; neut_parl_s04_0465

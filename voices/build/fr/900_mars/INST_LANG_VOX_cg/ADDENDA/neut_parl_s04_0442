@@ -1,0 +1,14 @@
+(lex.add.entry '("j_ai_AUX" "AUX" (((zh eh) 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("élu_VER" VER ((("e") 0) (("l" "y") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("Conseil_NAM" "NAM" ((("k" "ohn") 0) (("s" "eh" "j") 0))))
+(lex.add.entry '("général_ADJ" "ADJ" ((("zh" "e") 0) (("n" "e") 0) (("rh" "a")0) (("l" ae) 0))))
+(lex.add.entry '("alors_que_CON" CON (((a) 0) ((l oh rh) 0) ((k ae) 0))))
+(lex.add.entry '("j_avais_VER" VER ((("zh" "a") 0) (("v" "eh") 0))))
+(lex.add.entry '("vingt_sept_ADJ:num" "ADJ:num" ((("v" "ehn" "t") 0) (("s" "eh") 0))))
+(lex.add.entry '("ans_NOM" NOM (((t "ahn") 0))))
+
+
+(set! list_exclus*-> (append (list "j_ai" ) list_exclus*->_default)); BUG e e
+(dSayText "J'ai été élu au Conseil général, alors que j'avais vingt-sept ans.") ; neut_parl_s04_0442

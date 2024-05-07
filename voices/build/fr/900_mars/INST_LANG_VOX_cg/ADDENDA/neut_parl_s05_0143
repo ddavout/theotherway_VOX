@@ -1,0 +1,17 @@
+(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0)))); confusion
+(lex.add.entry '("pourquoi_PRO:rel" PRO:rel ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("pourquoi_PRO:ind" PRO:ind ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+
+
+(lex.add.entry '("alors_ADV" "ADV" (((a) 0) ((l oh rh) 0))))
+(lex.add.entry '("pourquoi" nil ((("p" "u" "rh") 0) (("k" "w" "a") 0)))); confusion
+(lex.add.entry '("en" nil (((ahn) 0)))); confusion
+(lex.add.entry '("sommes-nous_VER" VER ((("s" "oh" "m") 0)(("n" "u") 0))))
+(lex.add.entry '("arrivés_VER" VER ((("a") 0) (("rh" "i") 0) (("v" "e") 0)))); no LIA
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("alors_ADV" "ADV" (((a) 0) ((l oh rh) 0))))
+(lex.add.entry '("pourquoi" nil ((("p" "u" "rh") 0) (("k" "w" "a") 0)))); confusion
+(lex.add.entry '("hésitez-vous_VER" VER ((("e") 0) (("z" "i") 0) (("t" "e") 0)((v u) 0)))); ,p LIA
+
+(set! text "Alors, pourquoi en sommes-nous arrivés là ? Alors, pourquoi hésitez-vous ?") ; neut_parl_s05_0143
+(dSayText text)

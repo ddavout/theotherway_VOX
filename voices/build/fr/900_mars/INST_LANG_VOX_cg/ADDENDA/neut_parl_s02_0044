@@ -1,0 +1,11 @@
+(lex.add.entry '("l_accueil_NOM" "NOM" (((l "a") 0) (("k" "oe" "j") 0))))
+(lex.add.entry '("chaleureux_ADJ" "ADJ" ((("sh" "a") 0) (("l" "oe") 0) (("rh" "eu") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("orientations_NOM" NOM (((z "oh") 0) (("rh" "j" "ahn") 0) (("t" "a") 0) (("s" "j" "ohn") 0)))); LIA
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0)))); no LIA
+(lex.add.entry '("reçu_VER" "VER" ((("rh" "ae") 0) (("s" "y") 0))))
+
+
+(set! text "l'accueil chaleureux que ces orientations ont reçu.") ; neut_parl_s02_0044
+(dSayText text)

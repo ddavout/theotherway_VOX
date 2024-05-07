@@ -1,0 +1,10 @@
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("base_NOM" "NOM" ((("b" "a")0) (("z" ae) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("prendrai_VER" VER ((("p" "rh" "ahn") 0) (("d" "rh" "e") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("arrêté_NOM" NOM ((("a") 0) (("rh" "e") 0) (("t" "e") 0))))
+
+(set! list_exclus*-> (append (list "prendrai") list_exclus*->_default))
+(dSayText "Sur cette base, je prendrai un arrêté.") ; neut_parl_s04_0036

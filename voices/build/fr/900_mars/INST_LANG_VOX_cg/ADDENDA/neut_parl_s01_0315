@@ -1,0 +1,19 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh" "m") 0))))
+(lex.add.entry '("vos_ADJ:pos" "ADJ:pos" ((("v" "o") 0))))
+(lex.add.entry '("amis_NOM" NOM (((z "a") 0) (("m" "i") 0))))
+(lex.add.entry '("verts_ADJ" ADJ ((("v" "eh" "rh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("gauche_NOM" "NOM" ((("g" "o" "sh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("gauchee_NOM" "NOM" ((("g" "o") 0) (("sh" "ae") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("croient_VER" VER ((("k" "rh" "w" "a") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+(set! text "mais même vos amis verts et de la gauche de la gauchee ne vous croient pas") ; 
+(dSayText text); neut_parl_s01_0315

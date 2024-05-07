@@ -1,0 +1,14 @@
+; au cas où
+(lex.add.entry '("m_ont_VER" VER (((m "ohn") 0))))
+
+(lex.add.entry '("vos_ADJ:pos" "ADJ:pos" ((("v" "o") 0))))
+(lex.add.entry '("arguments_NOM" NOM (((z "a" "rh") 0) (("g" "y") 0) (("m" "ahn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("m_ont_AUX" AUX (((m "ohn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("convaincu_VER" "VER" ((("k" "ohn") 0) (("v" "ehn") 0) (("k" "y") 0))))
+(lex.add.entry '("hier_ADV" "ADV" (((j "eh" rh) 0))))
+(lex.add.entry '("soir_NOM" "NOM" ((("s" "w" "a" "rh") 0))))
+
+(set! text "Vos arguments ne m'ont pas convaincu hier soir.") ; neut_parl_s04_0540
+(dSayText text)

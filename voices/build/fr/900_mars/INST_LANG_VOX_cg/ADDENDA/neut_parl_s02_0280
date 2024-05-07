@@ -1,0 +1,12 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("création_NOM" "NOM" ((("k" "rh" "e") 0) (("a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("d_un_ART:ind" ART:ind (((d "oen") 0))))
+(lex.add.entry '("fichier_NOM" "NOM" ((("f" "i") 0) (("sh" "j" "e") 0))))
+(lex.add.entry '("positif_ADJ" "ADJ" ((("p" "o") 0) (("z" "i") 0) (("t" "i")0) (("f" ae) 0))))
+(lex.add.entry '("risquerait_VER" VER ((("rh" "i" "s") 0) (("k" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("d_aggraver_VER" "VER" (((d "a") 0) (("g" "rh" "a") 0) (("v" "e") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("tendance_NOM" "NOM" ((("t" "ahn") 0) (("d" "ahn")0) (("s" ae) 0))))
+
+(set! text "La création d'un fichier positif, risquerait d'aggraver cette tendance.") ; neut_parl_s02_0280
+(dSayText text)

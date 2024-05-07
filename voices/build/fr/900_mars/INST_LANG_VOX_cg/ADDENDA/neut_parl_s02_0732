@@ -1,0 +1,16 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("crise_NOM" "NOM" ((("k" "rh" "i") 0) (("z" ae) 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("touche_VER" "VER" ((("t" "u" "sh") 0))))
+(lex.add.entry '("notre_ADJ:pos" ADJ:pos ((("n" "oh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("société_NOM" "NOM" ((("s" "oh") 0) (("s" "j" "e") 0) (("t" "e") 0))))
+(lex.add.entry '("depuis_PRE" "PRE" (((d ae) 0) ((p hw i) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("décennies_NOM" NOM ((("d" "e") 0) (("s" "e") 0) (("n" "i") 0))))
+(lex.add.entry '("s_PRO:per" "PRO:per" nil))
+(lex.add.entry '("est_VER" "VER" (((eh) 0))))
+(lex.add.entry '("répercutée_VER" "VER" ((("rh" "e") 0) (("p" "eh" "rh") 0) (("k" "y") 0) (("t" "e") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("eux_PRO:per" "PRO:per" (((rh "eu") 0))))
+
+(dSayText "La crise qui touche notre société depuis des décennies, s'est répercutée sur eux.") ; neut_parl_s02_0732

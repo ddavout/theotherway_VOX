@@ -1,0 +1,18 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("production_NOM" "NOM" ((("p" "rh" "oh") 0) (("d" "y" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("européenne_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("eh") 0))))
+(lex.add.entry '("a_AUX" "AUX" (((n "a") 0))))
+(lex.add.entry '("chuté_VER" "VER" ((("sh" "y") 0) (("t" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("vingt_ADJ:num" "ADJ:num" ((("v" "ehn" t) 0))))
+(lex.add.entry '("cinq_NOM" "NOM" (((s ehn k) 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("cent_NOM" "NOM" (((s ahn) 0))))
+(lex.add.entry '("depuis_PRE" "PRE" (((d ae) 0) ((p hw i) 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("mille_ADJ:num" ADJ:num ((("m" "i") 0))))
+(lex.add.entry '("huit_ADJ:num" "ADJ:num" (((l "hw" i t) 0))))
+
+
+(set! text "La production européenne a chuté de vingt cinq pour cent, depuis deux mille huit.") ; neut_parl_s02_0014
+(dSayText text)

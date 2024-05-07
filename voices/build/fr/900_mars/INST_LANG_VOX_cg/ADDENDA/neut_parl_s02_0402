@@ -1,0 +1,12 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("rapporteur_NOM" NOM ((("rh" "a") 0) (("p" "oh" "rh") 0) (("t" "oe" "rh") 0))))
+(lex.add.entry '("l_a_VER" "VER" (((l "a") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("expliqué_VER" "VER" (((n "eh" "k" "s") 0) (("p" "l" "i") 0) (("k" "e") 0)))); LIA
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0))))
+(lex.add.entry '("l_heure_NOM" "NOM" (((l "oe" "rh") 0))))
+
+(set! text "Le rapporteur l'a très bien expliqué tout à l'heure.") ; neut_parl_s02_0402
+(dSayText text)

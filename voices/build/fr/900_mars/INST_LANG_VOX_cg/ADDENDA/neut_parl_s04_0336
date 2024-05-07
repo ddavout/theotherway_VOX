@@ -1,0 +1,9 @@
+(lex.add.entry '("gérard_NAM" "NAM" (((zh e) 0) ((rh a rh) 0))))
+(lex.add.entry '("cherpion_NAM" "NAM" ((("sh" "eh" "rh") 0) (("p" "j" "ohn") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("expliqué_VER" "VER" ((("e" "k" "s") 0) (("p" "l" "i") 0) (("k" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("problème_NOM" "NOM" ((("p" "rh" "oh") 0) (("b" "l" "eh")0) (("m" "ae") 0))))
+
+(dSayText "Gérard Cherpion a bien expliqué le problème.") ; neut_parl_s04_0336

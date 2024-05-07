@@ -1,0 +1,12 @@
+(lex.add.entry '("ma_ADJ:pos" "ADJ:pos" ((("m" "a") 0))))
+(lex.add.entry '("troisième_ADJ" "ADJ" ((("t" "rh" "w" "a") 0) (("z" "j" "eh" "m") 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("concerne_VER" "VER" ((("k" "ohn") 0) (("s" "eh" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((n "oen") 0))))
+(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
+(lex.add.entry '("évoqué_VER" "VER" ((("e") 0) (("v" "oh") 0) (("k" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("Guigou_NAM" "NAM" ((("g" "i") 0) (("g" "u") 0))))
+
+(dSayText "Ma troisième question, concerne un point évoqué par Madame Guigou.") ; neut_parl_s03_0726

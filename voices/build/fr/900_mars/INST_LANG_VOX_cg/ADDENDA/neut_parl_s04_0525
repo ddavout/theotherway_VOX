@@ -1,0 +1,14 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("m_PRO:per" "PRO:per" nil))
+(lex.add.entry '("m_interroge_VER" "VER" (((m "ehn") 0) (("t" "eh") 0) (("rh" "oh" "zh") 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("censi_NAM" "NAM" ((("s" "eh" "n") 0) (("z" "i") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("nature_NOM" "NOM" ((("n" "a") 0) (("t" "y" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0))))
+(lex.add.entry '("propos_NOM" NOM ((("p" "rh" "oh") 0) (("p" "o") 0))))
+(lex.add.entry '("votre" ADJ:pos ((("v" "oh")0) (("t" "rh" ae) 0))))
+
+(dSayText "Je m'interroge monsieur Censi sur la nature de votre propos.") ; neut_parl_s04_0525

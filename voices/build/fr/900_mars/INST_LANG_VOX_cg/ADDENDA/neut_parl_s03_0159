@@ -1,0 +1,11 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("méthode_NOM" "NOM" ((("m" "e") 0) (("t" "oh")0) (("d" ae) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("correspond_VER" "VER" ((("k" "oh") 0) (("rh" "eh" "s") 0) (("p" "ohn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("enjeu_NOM" "NOM" ((("ahn") 0) (("zh" "eu") 0))))
+
+
+(dSayText "Cette méthode, ne correspond pas à l'enjeu.") ; neut_parl_s03_0159

@@ -1,0 +1,7 @@
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
+(lex.add.entry '("peuvent_VER" VER ((("p" "oe" v) 0))))
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
+
+(set! text "ils n'en peuvent plus !") ; neut_parl_s02_0437
+(dSayText text)

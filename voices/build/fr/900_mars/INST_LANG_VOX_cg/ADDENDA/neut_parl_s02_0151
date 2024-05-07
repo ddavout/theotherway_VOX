@@ -1,0 +1,13 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("projet_NOM" "NOM" ((("p" "rh" "oh") 0) (("zh" "eh") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("rétrécir_VER" "VER" ((("rh" "e") 0) (("t" "rh" "e") 0) (("s" "i" "rh") 0))))
+(lex.add.entry '("d_exclure_VER" VER (((d "eh" "k" s) 0) (("k" "l" "y" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
+
+(set! text "le projet européen, n'est pas de se rétrécir, d'exclure des pays.") ; neut_parl_s02_0151
+(dSayText text)

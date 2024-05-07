@@ -1,0 +1,15 @@
+(set! fileid "neut_book_s01_0011")
+(lex.add.entry '("rien_PRO:ind" "PRO:ind" ((("rh" "j" "ehn") 0))))
+(lex.add.entry '("rien_NOM" "NOM" ((("rh" "j" "ehn") 0)))); confusion
+
+(lex.add.entry '("rien" nil ((("rh" "j" "ehn") 0))));
+(lex.add.entry '("n_est_VER" "VER" (((n e) 0))))
+(lex.add.entry '("facile_ADJ" "ADJ" ((("f" "a") 0) (("s" "i")0) (("l" ae) 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("capitaine_NOM" "NOM" ((("k" "a") 0) (("p" "i") 0) (("t" "eh" "n") 0))))
+(lex.add.entry '("nemo_NAM" "NAM" (((n e) 0) ((m o) 0))))
+
+
+(set! text "rien n'est facile, dit le capitaine nemo.") ; neut_book_s01_0011
+(dSayText text)

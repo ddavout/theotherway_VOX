@@ -1,0 +1,11 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("trouve_VER" "VER" ((("t" "rh" "u" "v") 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("éléments_NOM" NOM (((z "e") 0) (("l" "e") 0) (("m" "ahn") 0)))); LIA
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("réflexion_NOM" "NOM" ((("rh" "e") 0) (("f" "l" "eh" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("beaux_ADJ" "ADJ" ((("b" "o") 0))))
+
+(set! text "Je trouve ces éléments de réflexion, très beaux.") ; neut_parl_s04_0553
+(dSayText text)

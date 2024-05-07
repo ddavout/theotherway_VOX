@@ -1,0 +1,13 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("touchons_VER" VER ((("t" "u") 0) (("sh" "ohn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("structure_NOM" "NOM" ((("s" "t" "rh" "y" k) 0) (("t" "y" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("tarifs_NOM" NOM ((("t" "a") 0) (("rh" "i" "f") 0))))
+
+;(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(set! list_exclus*-> (append (list "pas" ) list_exclus*->_default))
+(dSayText "Nous ne touchons pas à la structure des tarifs.") ; neut_parl_s05_0535

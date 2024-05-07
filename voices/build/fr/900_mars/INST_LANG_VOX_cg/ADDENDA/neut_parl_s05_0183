@@ -1,0 +1,16 @@
+(lex.add.entry '("vos_ADJ:pos" "ADJ:pos" ((("v" "o") 0))))
+(lex.add.entry '("travaux_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "o") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("sein_NOM" "NOM" ((("s" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("commission_NOM" "NOM" ((("k" "oh") 0) (("m" "i") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("spéciale_ADJ" "ADJ" ((("s" "p" "e") 0) (("s" "j" "a")0) (("l" ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("ont_NOM" NOM ((("ohn") 0))))
+(lex.add.entry '("utilement_ADV" "ADV" ((("y") 0) (("t" "i" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("enrichi_VER" "VER" ((("ahn") 0) (("rh" "i") 0) (("sh" "i") 0))))
+
+(set! list_exclus*-> (append (list "utilement") list_exclus*->_default)) ; todo
+
+(dSayText "Vos travaux, au sein de la commission spéciale, l'ont utilement enrichi.") ; neut_parl_s05_0183

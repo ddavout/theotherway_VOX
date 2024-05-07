@@ -1,0 +1,23 @@
+(lex.add.entry '("tel_PRO:ind" "PRO:ind" ((("t" "e") 0))))
+(lex.add.entry '("tel_ADJ:ind" "ADJ:ind" ((("t" "e") 0)))); confusion
+(lex.add.entry '("est_VER" "VER" (((l "e") 0))))
+(lex.add.entry '("est_NOM" "NOM" (((l "e") 0)))); confusion TODO token
+
+
+
+(lex.add.entry '("tel" nil ((("t" "e") 0))))
+(lex.add.entry '("est_VER" "VER" (((l "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("sens_NOM" "NOM" ((("s" "ahn" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nombreuses_ADJ" ADJ ((("n" "ohn") 0) (("b" "rh" "eu") 0))))
+(lex.add.entry '("interventions_NOM" NOM (((z "ehn") 0) (("t" "eh" "rh") 0) (("v" "ahn") 0) (("s" "j" "ohn") 0))));  LIA
+(lex.add.entry '("depuis_PRE" "PRE" (((d ae) 0) ((p hw i) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("début_NOM" "NOM" ((("d" "e") 0) (("b" "y") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+
+
+(set! text "Tel est le sens de nombreuses interventions, depuis le début du débat.") ; neut_parl_s02_0297
+(dSayText text)

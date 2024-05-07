@@ -1,0 +1,17 @@
+(lex.add.entry '("moins_ADV" ADV ((("m" "w" "ehn") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0)))); no LIA
+(lex.add.entry '("consomme_VER" VER ((("k" "ohn") 0) (("s" "oh" "m") 0))))
+(lex.add.entry '("d_énergie_VER" VER (((d  "e") 0) (("n" "eh" "rh") 0) (("zh" "i") 0))))
+(lex.add.entry '("moins_ADV" ADV ((("m" "w" "ehn") 0))))
+(lex.add.entry '("onhh_PRO:per" "PRO:per" (((z "ohn") 0)))); LIA
+(lex.add.entry '("a_VER" "VER" (((n a) 0)))); LIA
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("charges_NOM" NOM ((("sh" "a" "rh")0) (("zh" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("mieux_ADV" "ADV" ((("m" "j" "eu") 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("locataires_NOM" NOM ((("l" "oh") 0) (("k" "a") 0) (("t" "eh" "rh") 0))))
+
+(dSayText "Moins on consomme d'énergie, moins on a de charges, et mieux c'est pour les locataires.") ; neut_parl_s04_0451

@@ -1,0 +1,14 @@
+(lex.add.entry '("Enseigné_VER" VER ((("ahn") 0) (("s" "eh") 0) (("jg" "e") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("vocation_NOM" "NOM" ((("v" "oh") 0) (("k" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("surtout_ADV" "ADV" ((("s" "y" "rh") 0) (("t" "u") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("métier_NOM" "NOM" ((("m" "e") 0) (("t" "j" "e") 0))))
+
+(set! list_exclus*-> (append (list "surtout") list_exclus*->_default)); _un todo?
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "Enseigner est une vocation, mais c'est surtout un métier.") ; neut_parl_s05_0253

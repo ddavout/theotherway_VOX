@@ -1,0 +1,12 @@
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("fè_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("est_VER" "VER" ((("e") 0))))
+(lex.add.entry '("tout_à_fait_ADV" "ADV" ((("t" "u") 0) (("t" "a") 0) (("f" "eh") 0))))
+(lex.add.entry '("fâcheux_ADJ" "ADJ" ((("f" "a") 0) (("sh" "eu") 0))))
+
+(dSayText "Elle ne le fait pas, ce qui est tout à fait fâcheux.") ; neut_parl_s06_0374

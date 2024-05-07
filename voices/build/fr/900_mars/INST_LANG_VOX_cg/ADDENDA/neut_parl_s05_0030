@@ -1,0 +1,16 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("parole_NOM" "NOM" ((("p" "a") 0) (("rh" "oh" "l") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0)))); LIA
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("hugues_NAM" NAM ((("y" "g") 0)))) ; confusion PRE ?
+(lex.add.entry '("fourage_NAM" "NAM" ((("f" "u") 0) (("rh" "a")0) (("zh" ae) 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("soutenir_VER" "VER" ((("s" "u") 0) (("t" "ae") 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("l_amendement_NOM" "NOM" (((l "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("numéro_NOM" "NOM" ((("n" "y") 0) (("m" "e") 0) (("rh" "o") 0))))
+(lex.add.entry '("cinquante_et_un_ADJ:num" "ADJ:num" (((s ehn) 0) ((k ahn t) 0)(("e") 0)(("oen") 0))))
+
+(set! text "La parole est à Monsieur Hugues Fourage, pour soutenir l'amendement numéro, cinquante et un.") ; neut_parl_s05_0030
+(dSayText text)
+t

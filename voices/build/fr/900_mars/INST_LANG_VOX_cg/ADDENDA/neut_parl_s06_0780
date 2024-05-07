@@ -1,0 +1,11 @@
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("encouragement_NOM" "NOM" ((("ahn") 0) (("k" "u") 0) (("rh" "a" "zh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("avenir_NOM" "NOM" ((("a" "v") 0) (("n" "i" "rh") 0))))
+
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "Enfin, c'est un encouragement pour l'avenir.") ; neut_parl_s06_0780

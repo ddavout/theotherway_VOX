@@ -1,0 +1,11 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("parole_NOM" "NOM" ((("p" "a") 0) (("rh" "oh" "l") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0)))); LIA
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("frédéric_NAM" "NAM" (((f rh e) 0) ((d e) 0) ((rh i k) 0))))
+(lex.add.entry '("reiss_NAM" NAM (((rh eh j s) 0))))
+
+(set! text "La parole est à monsieur Frédéric Reiss.") ; 
+(dSayText text); neut_parl_s01_0489
+

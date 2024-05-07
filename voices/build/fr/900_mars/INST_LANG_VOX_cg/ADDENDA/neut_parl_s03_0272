@@ -1,0 +1,9 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_était_VER" "VER" (((s e) 0) ((t eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("délicat_ADJ" "ADJ" ((("d" "e") 0) (("l" "i") 0) (("k" "a") 0))))
+
+(set! never_exception_list (append (list  "C_était" ) never_exception_list_default))
+(dSayText "C'était un travail très délicat.") ; neut_parl_s03_0272

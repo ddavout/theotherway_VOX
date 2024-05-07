@@ -1,0 +1,7 @@
+(lex.add.entry '("seront-elles_VER" VER ((("s" "ae") 0) (("rh" "ohn") 0)(("t" "eh" "l") 0))))
+(lex.add.entry '("positives_ADJ" ADJ ((("p" "o") 0) (("z" "i") 0) (("t" "i")0) (("v" ae) 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+(set! text "Seront-elles positives ou pas ?") ; neut_parl_s02_0567
+(dSayText text)

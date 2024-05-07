@@ -1,0 +1,14 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("amendement_NOM" "NOM" ((("a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("numéro_NOM" "NOM" ((("n" "y") 0) (("m" "e") 0) (("rh" "o") 0))))
+(lex.add.entry '("mille_ADJ:num" ADJ:num ((("m" "i" "l") 0))))
+(lex.add.entry '("quatre_vingt_ADJ:num" "ADJ:num" ((("k" "a") 0) (("t" "rh" "ae") 0) (("v" "ehn") 0))))
+(lex.add.entry '("huit_NOM" "NOM" ((("hw" i t) 0))))
+(lex.add.entry '("huit_ADJ:num" "ADJ:num" ((("hw" i t) 0))))
+
+(lex.add.entry '("rectifié_VER" "VER" ((("rh" "eh" "k") 0) (("t" "i") 0) (("f" "j" "e") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("retiré_VER" "VER" ((("rh" "ae") 0) (("t" "i") 0) (("rh" "e") 0))))
+
+(set! list_exclus*-> (append (list "quatre_vingt") list_exclus*->_default)) ; todo _8
+(dSayText "l'amendement numéro mille quatre-vingt huit, rectifié, est retiré.") ; neut_parl_s02_0519

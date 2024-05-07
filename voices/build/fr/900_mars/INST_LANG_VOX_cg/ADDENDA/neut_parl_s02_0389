@@ -1,0 +1,9 @@
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("vide_NOM" "NOM" ((("v" "i") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" (((d "oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("vient_VER" VER ((("v" "j" ehn) 0))))
+(lex.add.entry '("hélas_ONO" "ONO" (((e) 0) ((l a)0) ((s ae) 0))))
+
+
+(set! text "Un vide européen vient, hélas !") ; neut_parl_s02_0389
+(dSayText text)

@@ -1,0 +1,10 @@
+(lex.add.entry '("voilà_VER" "VER" ((("v" "w" "a") 0) (("l" "a") 0))))
+(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("plafonner_VER" VER ((("p" "l" "a") 0) (("f" "oh") 0) (("n" "e") 0))))
+
+; POS c'est pourquoi 
+(set! text "voilà pourquoi il faut plafonner !") ; 
+(dSayText text); neut_parl_s01_0294
+

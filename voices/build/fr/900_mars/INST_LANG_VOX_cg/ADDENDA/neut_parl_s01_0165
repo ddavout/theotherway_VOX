@@ -1,0 +1,9 @@
+; Je moche
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("mets_VER" "VER" (((m eh) 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0)))); no LIA
+(lex.add.entry '("voix_NOM" "NOM" ((("v" "w" "a") 0))))
+
+(set! text "je le mets aux voix.") ; 
+(dSayText text); neut_parl_s01_0165

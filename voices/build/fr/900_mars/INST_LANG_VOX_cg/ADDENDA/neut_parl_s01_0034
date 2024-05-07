@@ -1,0 +1,9 @@
+(lex.add.entry '("j_en_PRO:per" "PRO:per" (((zh ahn) 0))))
+(lex.add.entry '("viens_VER" VER ((("v" "j" "ehn") 0))))
+(lex.add.entry '("maintenant_ADV" "ADV" ((("m" "ehn" t) 0) (("n" "ahn") 0)))); confusion 
+(lex.add.entry '("maintenant" nil ((("m" "ehn" t) 0) (("n" "ahn") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("fond_NOM" "NOM" ((("f" "ohn") 0))))
+
+(set! text "j'en viens maintenant au fond.") ; neut_parl_s01_0034
+(dSayText text)

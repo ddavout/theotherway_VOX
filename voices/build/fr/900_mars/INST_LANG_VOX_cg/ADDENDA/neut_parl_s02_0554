@@ -1,0 +1,8 @@
+(lex.add.entry '("va-t-il_VER" "VER" ((("v" "a") 0)(("t" "i") 0))))
+(lex.add.entry '("être_VER" VER (((l "eh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("cohérent_ADJ" "ADJ" ((("k" "oh") 0) (("e") 0) (("rh" "ahn") 0))))
+
+
+
+(set! text "Va-t-il être cohérent ?") ; neut_parl_s02_0554
+(dSayText text)

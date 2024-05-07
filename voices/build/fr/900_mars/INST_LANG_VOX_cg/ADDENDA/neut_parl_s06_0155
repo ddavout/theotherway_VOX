@@ -1,0 +1,8 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("rendrai_VER" VER ((("rh" "ahn") 0) (("d" "rh" "e") 0))))
+(lex.add.entry '("bientôt_ADV" "ADV" ((("b" "j" "ehn") 0) (("t" "o") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("danemark_NAM" "NAM" (((d a n) 0) ((m a rh k) 0))))
+
+(dSayText "Je me rendrai bientôt au Danemark.") ; neut_parl_s06_0155

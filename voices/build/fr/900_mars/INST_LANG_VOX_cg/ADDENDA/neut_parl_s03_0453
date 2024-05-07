@@ -1,0 +1,8 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o" "z") 0))))
+(lex.add.entry '("vont_VER" VER ((("v" "ohn") 0))))
+(lex.add.entry '("vite_ADV" "ADV" ((("v" "i" "t") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((t ahn) 0))))
+(lex.add.entry '("vérité_NOM" "NOM" ((("v" "e") 0) (("rh" "i") 0) (("t" "e") 0))))
+
+(dSayText "Les choses vont vite en vérité.") ; neut_parl_s03_0453

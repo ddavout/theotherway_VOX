@@ -1,0 +1,13 @@
+(lex.add.entry '("pourquoi_PRO:int" PRO:int ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("pourquoi_PRO:ind" PRO:ind ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+
+(lex.add.entry '("pourquoi" nil ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("telle_ADJ:ind" "ADJ:ind" ((("t" "eh" "l") 0))))
+(lex.add.entry '("cécité_NOM" NOM ((("s" "e") 0) (("s" "i") 0) (("t" "e") 0))))
+
+
+
+
+(set! text "Pourquoi une telle cécité ?") ; neut_parl_s03_0568
+(dSayText text)

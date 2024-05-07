@@ -1,0 +1,15 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("n_a_VER" VER ((("n" a) 0))))
+(lex.add.entry '("aucun_ADJ:ind" "ADJ:ind" ((("o") 0) (("k" "oen") 0))))
+(lex.add.entry '("intérêt_NOM" "NOM" (((n "ehn") 0) (("t" "e") 0) (("rh" "eh") 0)))); LIA
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("repreneur_NOM" "NOM" ((("rh" "ae") 0) (("p" "rh" "ae") 0) (("n" "oe" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("salarié_NOM" "NOM" ((("s" "a") 0) (("l" "a") 0) (("rh" "j" "e") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("une_autre_ADJ" "ADJ" ((("y") 0)((n "o")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("structure_NOM" "NOM" ((("s" "t" "rh" "y" k) 0) (("t" "y" "rh") 0))))
+
+(set! text "Cela n'a, aucun intérêt pour le repreneur le salarié, ou une autre structure.") ; 
+(dSayText text); neut_parl_s01_0469

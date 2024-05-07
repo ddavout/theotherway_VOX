@@ -1,0 +1,9 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("manoeuvre_NOM" "NOM" ((("m" "a") 0) (("n" "oe") 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((v rh ahn) 0) ((n e) 0) ((f eh) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0)))); no LIA
+(lex.add.entry '("limpide_ADJ" "ADJ" ((("l" "ehn") 0) (("p" "i")0 ) (("d" "ae") 0))))
+
+(set! list_exclus*-> (append (list "en_effet" ) list_exclus*->_default))
+(set! text "La manœuvre en effet, est limpide.") ; neut_parl_s05_0441
+(dSayText text)

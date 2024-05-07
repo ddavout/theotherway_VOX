@@ -1,0 +1,15 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("revanche_NOM" "NOM" ((("rh" "ae") 0) (("v" "ahn" "sh") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("posé_VER" VER ((("p" "o") 0) (("z" "e") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("questions_NOM" NOM ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("garde_NOM" "NOM" ((("g" "a" "rh") 0))))
+(lex.add.entry '("alternée_ADJ" "ADJ" (((d "a" "l") 0) (("t" "eh" "rh") 0) (("n" "e") 0))))
+
+(set! never_exception_list (append (list "peut" ) never_exception_list_default))
+(dSayText "On peut en revanche se poser des questions sur la garde alternée.") ; neut_parl_s03_0110

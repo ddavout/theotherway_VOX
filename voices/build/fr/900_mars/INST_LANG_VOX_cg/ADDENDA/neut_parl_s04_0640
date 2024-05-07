@@ -1,0 +1,9 @@
+(lex.add.entry '("j_aimerais_VER" VER ((("zh" "eh" "m") 0) (("rh" "eh") 0))))
+(lex.add.entry '("vraiment_ADV" "ADV" ((("v" "rh" "eh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0)))); no LIA
+(lex.add.entry '("réponse_NOM" "NOM" ((("rh" "e") 0) (("p" "ohn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((s a) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
+
+(dSayText "J'aimerais vraiment une réponse à cette question.") ; neut_parl_s04_0640

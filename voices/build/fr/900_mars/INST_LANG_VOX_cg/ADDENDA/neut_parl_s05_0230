@@ -1,0 +1,14 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_PRO:per" "PRO:per" nil))
+(lex.add.entry '("agissè_nil" nil ((("a") 0) (("zh" "i") 0) (("s" "eh") 0))))
+
+(lex.add.entry '("alors_ADV" "ADV" (((a) 0) ((l oh rh) 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("Conseil_NAM" "NAM" ((("k" "ohn") 0) (("s" "eh" "j") 0))))
+(lex.add.entry '("supérieur_ADJ" "ADJ" ((("s" "y") 0) (("p" "e") 0) (("rh" "j" "oe" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("audiovisuel_NOM" "NOM" ((("o") 0) (("d" "j" "o") 0) (("v" "i") 0) (("z" "hw" "eh")0) (("l" ae) 0))))
+(lex.add.entry '("audiovisuel_NOM" "NOM" ((("o") 0) (("d" "j" "o") 0) (("v" "i") 0) (("z" "hw" "eh")0) (("l" ae) 0))))
+
+(dSayText "Il s'agissait alors du Conseil supérieur de l'audiovisuel.") ; neut_parl_s05_0230

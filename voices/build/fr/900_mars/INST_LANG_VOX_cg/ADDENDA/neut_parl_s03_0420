@@ -1,0 +1,7 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("seconde_NOM" "NOM" ((("s" "ae") 0) (("g" "ohn")0) (("d" ae) 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("Ulysse_NAM" "NAM" (((y) 0) ((l i)0) ((s ae) 0))))
+
+(dSayText "La seconde, c'est Ulysse.") ; neut_parl_s03_0420

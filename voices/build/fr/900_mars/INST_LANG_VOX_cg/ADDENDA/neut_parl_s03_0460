@@ -1,0 +1,10 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("partage_VER" "VER" ((("p" "a" "rh") 0) (("t" "a" "zh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "l" "a") 0))))
+
+(dSayText "Le travail ne se partage pas comme cela.") ; neut_parl_s03_0460

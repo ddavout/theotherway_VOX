@@ -1,0 +1,15 @@
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("notamment_ADV" "ADV" ((("n" "oh") 0) (("t" "a") 0) (("m" "ahn") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("cas_NOM" NOM ((("k" "a") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("guyane_NAM" "NAM" (((g "hw" i) 0) ((j a)0) ((n ae) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("martinique_NAM" "NAM" (((m a rh) 0) ((t i) 0) ((n i k) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("Mayotte_NAM" "NAM" ((("m" "a") 0) ((j "oh" "t") 0))))
+
+(set! list_exclus*-> (append (list "cas") list_exclus*->_default))
+(set! text "C'est notamment le cas en Guyane, en Martinique et à Mayotte.") ; neut_parl_s02_0333
+(dSayText text)

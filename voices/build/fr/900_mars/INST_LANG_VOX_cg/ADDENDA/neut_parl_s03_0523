@@ -1,0 +1,20 @@
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+;(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
+(lex.add.entry '("ligne_NOM" "NOM" ((("l" "i")0) (("jg" ae) 0))))
+(lex.add.entry '("utile_ADJ" "ADJ" ((("y") 0) (("t" "i")0) (("l" ae) 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("désengorgé_VER" VER ((("d" "e") 0) (("z" "ahn") 0) (("g" "oh" "rh") 0) (("zh" "e") 0))))
+(lex.add.entry '("toute_ADJ" "ADJ" ((("t" "u") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0))))
+(lex.add.entry '("région_NOM" "NOM" ((("rh" "e") 0) (("zh" "j" "ohn") 0)))); LIA
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("a__AUX" "AUX" (((z "a") 0))))
+(lex.add.entry '("reliés_VER" VER ((("rh" "ae") 0) (("l" "j" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0)))); no LIA
+(lex.add.entry '("l_Europe_NAM" "NAM" (((l oe) 0) ((rh oh)0) (("p" ae) 0))))
+
+(set! text "C'est une ligne utile, qui a désengorgé toute une région, et qui nous a_ reliés à l'Europe.") ; neut_parl_s03_0523
+(dSayText text)

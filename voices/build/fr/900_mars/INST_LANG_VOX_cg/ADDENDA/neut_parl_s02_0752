@@ -1,0 +1,9 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("s_attaque_VER" VER (((s "a") 0) (("t" "a" "k") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0)))); LIA
+(lex.add.entry '("cloches_NOM" NOM ((("k" "l" "oh" "sh") 0))))
+
+(set! text "On ne s'attaque, pas aux cloches !") ; neut_parl_s02_0752
+(dSayText text)

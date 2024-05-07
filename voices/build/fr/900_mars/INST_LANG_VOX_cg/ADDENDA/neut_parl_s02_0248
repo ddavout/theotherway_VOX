@@ -1,0 +1,6 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("tout_de_même_ADV" "ADV" ((("t" "u") 0)((d ae) 0)(("m" "eh")0) (("m" ae) 0))))
+(lex.add.entry '("extravagant_ADJ" "ADJ" ((("eh" "k" "s") 0) (("t" "rh" "a") 0) (("v" "a") 0) (("g" "ahn") 0))))
+
+(set! text "C'est tout de même extravagant.") ; neut_parl_s02_0248
+(dSayText text)

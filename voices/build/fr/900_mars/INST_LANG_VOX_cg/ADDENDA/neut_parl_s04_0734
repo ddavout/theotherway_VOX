@@ -1,0 +1,13 @@
+(lex.add.entry '("Néanmoins_ADV" ADV ((("n" "e") 0) (("ahn") 0) (("m" "w" "ehn") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("heurte_VER" "VER" ((("oe" "rh") 0))))
+(lex.add.entry '("actuellement_ADV" "ADV" (((t "a" "k") 0) (("t" "hw" "eh" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("certaines_ADJ:ind" ADJ:ind ((("s" "eh" "rh") 0) (("t" "eh" "n") 0))))
+(lex.add.entry '("difficultés_NOM" NOM ((("d" "i") 0) (("f" "i") 0) (("k" "y" "l") 0) (("t" "e") 0))))
+
+(set! list_exclus*-> (append (list "actuellement") list_exclus*->_default)); SAFE
+
+(dSayText "Néanmoins, le débat se heurte actuellement à certaines difficultés.") ; neut_parl_s04_0734

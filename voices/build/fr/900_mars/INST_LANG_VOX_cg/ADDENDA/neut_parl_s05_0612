@@ -1,0 +1,10 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("terme_NOM" "NOM" ((("t" "eh" "rh" "m") 0))))
+(lex.add.entry '("initiative_NOM" "NOM" ((("i") 0) (("n" "i") 0) (("s" "j" "a") 0) (("t" "i")0) (("v" ae) 0))))
+(lex.add.entry '("englobe_VER" VER ((("ahn") 0) (("g" "l" "oh" "b") 0))))
+(lex.add.entry '("celui_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "hw" i) 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("entreprendre_NOM" NOM ((("ahn") 0) (("t" "rh" "ae") 0) (("p" "rh" "ahn")0) (("d" "rh" ae) 0))))
+(lex.add.entry '("entreprendre_NOM" "NOM" ((("ahn") 0) (("t" "rh" "ae") 0) (("p" "rh" "ahn")0) (("d" "rh" ae) 0))))
+
+(dSayText "Le terme initiative englobe celui d'entreprendre.") ; neut_parl_s05_0612

@@ -1,0 +1,10 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("en_fait_ADV" ADV (((t "ahn") 0) (("f" "eh" t) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("message_NOM" "NOM" ((("m" "e") 0) (("s" "a" "zh") 0))))
+(lex.add.entry '("d_amour_ADJ" "ADJ" ((("a") 0) (("m" "u" "rh") 0))))
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("simplement_ADV" "ADV" ((("s" "ehn") 0) (("p" "l" "ae") 0) (("m" "ahn") 0))))
+
+(set! text "C'est en fait un message d'amour, tout simplement.") ; neut_parl_s04_0495
+(dSayText text)

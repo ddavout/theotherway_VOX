@@ -1,0 +1,8 @@
+(lex.add.entry '("selon_PRE" "PRE" ((("s" "ae") 0) (("l" "ohn") 0))))
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("veut_VER" "VER" ((("v" "eu") 0))))
+(lex.add.entry '("dire_VER" "VER" ((("d" "i" "rh") 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+
+(dSayText "Selon moi, cela veut dire beaucoup.") ; neut_parl_s04_0151

@@ -1,0 +1,12 @@
+(lex.add.entry '("qui_PRO:int" PRO:int ((("k" "i") 0))))
+(lex.add.entry '("qui_PRO:rel" PRO:rel ((("k" "i") 0)))); confusion
+
+(lex.add.entry '("qui" ((("k" "i") 0))))
+(lex.add.entry '("sera_VER" "VER" ((("s" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("rendez_vous__NOM" "NOM" (((rh ahn) 0) ((d e) 0) ((v u) 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("vote_NOM" "NOM" ((("v" "oh")0) (("t" "ae") 0))))
+
+(set! text "Qui sera au rendez-vous_ du vote ?") ; neut_parl_s03_0710
+(dSayText text)

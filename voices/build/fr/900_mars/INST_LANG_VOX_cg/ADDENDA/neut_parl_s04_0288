@@ -1,0 +1,13 @@
+(lex.add.entry '("balzac_NAM" "NAM" ((("b" "a" "l") 0) (("z" "a" "k") 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("affirmè_VER" VER ((("a") 0) (("f" "i" "rh") 0) (("m" "eh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("famille_NOM" "NOM" ((("f" "a") 0) (("m" "i" "j") 0))))
+(lex.add.entry '("sera_VER" "VER" ((("s" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("toujours_ADV" ADV ((("t" "u") 0) (("zh" "u" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("base_NOM" "NOM" ((("b" "a" "z") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("sociétés_NOM" NOM ((("s" "oh") 0) (("s" "j" "e") 0) (("t" "e") 0))))
+
+(dSayText "Balzac l'affirmait : La famille sera toujours la base des sociétés.") ; neut_parl_s04_0288

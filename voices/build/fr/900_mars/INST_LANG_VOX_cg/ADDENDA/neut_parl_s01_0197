@@ -1,0 +1,11 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("chemin_NOM" "NOM" ((("sh" "ae") 0) (("m" "ehn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("mes_ADJ:pos" "ADJ:pos" ((("m" "e") 0))))
+(lex.add.entry '("yeux_NOM" "NOM" (((z "j" "eu") 0)))); LIA
+(lex.add.entry '("mène_VER" "VER" ((("m" "eh") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((n "o") 0))))
+(lex.add.entry '("totalitarisme_NOM" "NOM" ((("t" "oh") 0) (("t" "a") 0) (("l" "i") 0) (("t" "a") 0) (("rh" "i" "s") 0) (("m" "ae") 0))))
+
+(set! text "ce chemin à mes yeux, mène au totalitarisme.") ; 
+(dSayText text); neut_parl_s01_0197

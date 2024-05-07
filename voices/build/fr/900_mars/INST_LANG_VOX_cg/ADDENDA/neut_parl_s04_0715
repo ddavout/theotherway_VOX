@@ -1,0 +1,10 @@
+(lex.add.entry '("tel_PRO:ind" "PRO:ind" ((("t" "eh") 0))))
+(lex.add.entry '("est_VER" "VER" (((l "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("sens_NOM" "NOM" ((("s" "ahn" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("projet_NOM" "NOM" ((("p" "rh" "oh") 0) (("zh" "eh") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+
+(dSayText "Tel est le sens de notre projet européen.") ; neut_parl_s04_0715

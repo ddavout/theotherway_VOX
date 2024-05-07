@@ -1,0 +1,16 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("fonds_NOM" NOM ((("f" "ohn") 0))))
+(lex.add.entry '("européens_ADJ" ADJ ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("également_ADV" "ADV" ((("e") 0) (("g" "a" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("hausse_NOM" "NOM" ((("o" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("vingt_ADJ:num" "ADJ:num" ((("v" "ehn" t) 0))))
+(lex.add.entry '("cinq_NOM" "NOM" (((s ehn) 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("cent_NOM" "NOM" (((s ahn) 0))))
+
+(set! list_exclus*-> (append (list "également" "en") list_exclus*->_default))
+(set! never_exception_list (append (list "fonds" "sont" ) never_exception_list_default))
+(dSayText "Les fonds européens sont également en hausse de vingt cinq pour cent.") ; neut_parl_s04_0286

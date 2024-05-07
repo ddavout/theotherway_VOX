@@ -1,0 +1,8 @@
+(lex.add.entry '("Allé_VER" VER ((("a") 0) (("l" "e") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("guignol_NOM" NOM ((("g" "i") 0) (("jg" "oh" "l") 0))))
+(lex.add.entry '("là-bas_VER" VER ((("l" "a") 0) (("b" "a") 0))))
+
+(dSayText "Allez donc faire le guignol là-bas !") ; neut_parl_s04_0443

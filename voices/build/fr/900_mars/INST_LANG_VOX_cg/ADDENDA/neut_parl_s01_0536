@@ -1,0 +1,13 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("faisons_VER" VER ((("f" "ae") 0) (("z" "ohn") 0))))
+(lex.add.entry '("partie_VER" "VER" ((("p" "a" "rh") 0) (("t" "i") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ceux_PRO:dem" "PRO:dem" ((("s" "eu") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("pensent_VER" VER ((("p" "ahn" "s") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+
+
+(set! text "nous faisons partie de ceux qui pensent que oui.") ; 
+(dSayText text); neut_parl_s01_0536

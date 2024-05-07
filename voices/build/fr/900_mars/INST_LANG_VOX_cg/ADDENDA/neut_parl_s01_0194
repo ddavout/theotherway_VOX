@@ -1,0 +1,12 @@
+; je moche
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("dis_VER" "VER" (((d i) 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("pense_VER" "VER" ((("p" "ahn")0) (("s" "ae") 0))))
+
+(set! text "je vous le dis comme je le pense.") ; 
+(dSayText text); neut_parl_s01_0194

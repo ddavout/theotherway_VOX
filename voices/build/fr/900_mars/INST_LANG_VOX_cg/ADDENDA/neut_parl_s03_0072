@@ -1,0 +1,7 @@
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("vote_NOM" "NOM" ((("v" "oh" "t") 0))))
+(lex.add.entry '("tranchera_VER" "VER" ((("t" "rh" "ahn") 0) (("sh" "rh" "a") 0))))
+
+(dSayText "Là encore le vote tranchera.") ; neut_parl_s03_0072

@@ -1,0 +1,8 @@
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("nouvelle_NAM" NAM ((("n" "u") 0) (("v" "eh" "l") 0))))
+(lex.add.entry '("fois_NOM" NOM ((("f" "w" "a") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("m_PRO:per" "PRO:per" nil))
+(lex.add.entry '("m_interroge_VER" "VER" (((m "ehn") 0) (("t" "eh") 0) (("rh" "oh")0) (("zh" "ae") 0))))
+
+(dSayText "Une nouvelle fois, je m'interroge.") ; neut_parl_s06_0510

@@ -1,0 +1,13 @@
+(set! fileid "")
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("suivais_VER" VER ((("s" "hw" "i") 0) (("v" "eh") 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("expériences_NOM" NOM (((z "eh" "k" "s") 0) (("p" "e") 0) (("rh" "j" "ahn")0) (("s" ae) 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("vif_ADJ" "ADJ" ((("v" "i" "f") 0))))
+(lex.add.entry '("intérêt_NOM" "NOM" ((("ehn") 0) (("t" "eh") 0) (("rh" "eh") 0))))
+
+(set! text "je suivais ces expériences, avec le plus vif intérêt.") ; neut_book_s01_0062
+(dSayText text)

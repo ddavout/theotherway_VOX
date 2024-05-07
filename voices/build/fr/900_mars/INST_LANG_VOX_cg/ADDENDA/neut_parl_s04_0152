@@ -1,0 +1,12 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s) 0) ((t rh ae) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("affaires_NOM" NOM (((z "a") 0) (("f" "eh" "rh") 0))))
+(lex.add.entry '("étrangères_ADJ" ADJ (((z "e") 0) (("t" "rh" "ahn") 0) (("zh" "eh" "rh") 0))))
+(lex.add.entry '("laurent_NAM" "NAM" (((l oh) 0) ((rh ahn) 0))))
+(lex.add.entry '("fabius_NAM" "NAM" (((f a) 0) ((b j y s) 0))))
+(lex.add.entry '("y_ADV" "ADV" (((i) 0))))
+(lex.add.entry '("était_VER" "VER" (((j "e") 0) (("t" "eh") 0))))
+
+(set! never_exception_list (append (list "affaires") never_exception_list_default))
+(dSayText "Le ministre des affaires étrangères, Laurent Fabius, y était.") ; neut_parl_s04_0152

@@ -1,0 +1,17 @@
+(lex.add.entry '("neuf_ADJ:num" "ADJ:num" ((("n" "oe" f) 0))))
+(lex.add.entry '("millions_NOM" NOM ((("m" "i") 0) (("l" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("salariés_NOM" NOM ((("s" "a") 0) (("l" "a") 0) (("rh" "j" "e") 0))))
+(lex.add.entry '("on_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("touchés_VER" VER ((("t" "u") 0) (("sh" "e") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("avon_AUX" AUX ((("a") 0) (("v" "ohn") 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" nil))
+(lex.add.entry '("matin_NOM" "NOM" (((s "m" "a") 0) (("t" "ehn") 0))))
+
+(set! never_exception_list (append (list "ont" "C_est" ) never_exception_list_default))
+(set! list_exclus*-> (append (list "salariés" ) list_exclus*->_default))
+(dSayText "Neuf millions de salariés ont été touchés, nous l'avons dit ce matin.") ; neut_parl_s03_0463

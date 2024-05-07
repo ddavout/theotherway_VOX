@@ -1,0 +1,14 @@
+(lex.add.entry '("soit_CON" "CON" ((("s" "w" "a") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("répondez_VER" VER ((("rh" "e") 0) (("p" "ohn") 0) (("d" "e") 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s)0) ((t rh ae) 0))))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i) 0))))
+(lex.add.entry '("n_y_a_VER" "VER"  ((("n" j a) 0))))
+(lex.add.entry '("aucune_ADJ:ind" "ADJ:ind" ((("o") 0) (("k" "y" "n") 0))))
+(lex.add.entry '("hiérarchie_NOM" "NOM" ((("j" "e") 0) (("rh" "a" "rh") 0) (("sh" "i") 0))))
+
+;todo Soit, ONO
+(set! text "Soit vous répondez, monsieur le ministre, qu'il n'y a aucune hiérarchie.") ; neut_parl_s03_0615
+(dSayText text)

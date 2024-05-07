@@ -1,0 +1,13 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("calcul_NOM" "NOM" ((("k" "a" "l") 0) (("k" "y" "l") 0))))
+(lex.add.entry '("politique_ADJ" "ADJ" ((("p" "oh") 0) (("l" "i") 0) (("t" "i" "k") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("juridique_ADJ" "ADJ" ((("zh" "y") 0) (("rh" "i") 0) (("d" "i" "k") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("mauvais_ADJ" ADJ ((("m" "oh") 0) (("v" "eh") 0))))
+
+
+(set! text "Le calcul politique comme le dispositif juridique est mauvais.") ; 
+(dSayText text); neut_parl_s01_0443

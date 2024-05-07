@@ -1,0 +1,16 @@
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("évidemment_ADV" "ADV" ((("n" "e") 0) (("v" "i") 0) (("d" "a") 0) (("m" "ahn") 0)))); no LIA
+(lex.add.entry '("l_évolution_NOM" NOM (((l "e") 0) (("v" "oh") 0) (("l" "y") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("amènera_VER" "VER" (((z "a") 0) (("m" "eh" n) 0) (("rh" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("adapter_VER" VER ((("a") 0) (("d" "a" "p") 0) (("t" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("textes_NOM" NOM ((("t" "eh" "k" "s")0) (("t" "ae") 0))))
+
+
+(set! text  "Bien évidemment, l'évolution du droit européen, nous amènera à adapter les textes.") ; neut_parl_s06_0699
+(dSayText text)

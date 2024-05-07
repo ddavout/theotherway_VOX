@@ -1,0 +1,11 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("diversité_NOM" "NOM" ((("d" "i") 0) (("v" "eh" "rh") 0) (("s" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((t ahn) 0) ((n e) 0) ((f eh) 0)))); LIA
+(lex.add.entry '("être_VER" "VER" ((("eh" "t" "rh") 0)))); no LIA
+(lex.add.entry '("prise_NOM" "NOM" ((("p" "rh" "i") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((z ahn) 0))))
+(lex.add.entry '("compte_NOM" "NOM" ((("k" "ohn") 0) (("t" "ae") 0))))
+
+(set! text "Cette diversité doit en effet être prise en compte.") ; neut_parl_s06_0126
+(dSayText text)

@@ -1,0 +1,12 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0))))
+(lex.add.entry '("objectif_NOM" "NOM" (((n "oh" b) 0) (("zh" "eh" "k") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("fondamental_ADJ" "ADJ" ((("f" "ohn") 0) (("d" "a") 0) (("m" "ahn") 0) (("t" "a" "l") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("manque_VER" "VER" ((("m" "ahn" "k") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("article_NOM" NOM (((t "a" "rh") 0) (("t" "i") 0) (("k" "l" ae) 0))))
+(lex.add.entry '("premier_ADJ" "ADJ" ((("p" "rh" "ae") 0) (("m" "j" "e") 0))))
+
+(dSayText "C'est un objectif fondamental, qui manque dans cet article premier.") ; neut_parl_s03_0046

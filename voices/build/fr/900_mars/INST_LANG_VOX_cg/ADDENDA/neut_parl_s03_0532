@@ -1,0 +1,15 @@
+(lex.add.entry '("Multipliés_VER" VER ((("m" "y" "l") 0) (("t" "i") 0) (("p" "l" "i") 0) (("j" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("dizaines_NOM" NOM ((("d" "i") 0) (("z" "e" "n") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("milliers_NOM" NOM ((("m" "i") 0) (("l" "j" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("logements_NOM" NOM ((("l" "oh" "zh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("mesure_VER" "VER" ((("m" "ae") 0) (("z" "y" "rh") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("importance_NOM" "NOM" ((("ehn") 0) (("p" "oh" "rh") 0) (("t" "ahn" "s") 0))))
+
+(dSayText "Multipliés par des dizaines de milliers de logements, on en mesure l'importance.") ; neut_parl_s03_0532

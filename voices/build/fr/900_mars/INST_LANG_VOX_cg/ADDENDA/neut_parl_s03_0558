@@ -1,0 +1,14 @@
+(lex.add.entry '("françois_NAM" "NAM" (((f rh ahn) 0) ((s w a) 0))))
+(lex.add.entry '("hollande_NAM" "NAM" (((oh) 0) ((l ahn d) 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("voulu_VER" "VER" ((("v" "u") 0) (("l" "y") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("mai_NOM" NOM ((("m" "eh") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("fè_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("septembre_NOM" "NOM" ((("s" "eh" "p") 0) (("t" "ahn")0) (("b" "rh" ae) 0))))
+
+(dSayText "François Hollande l'a voulu en mai, il le fait en septembre.") ; neut_parl_s03_0558

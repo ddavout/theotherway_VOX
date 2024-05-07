@@ -1,0 +1,17 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_est_VER" "VER" (((n e) 0))))
+(lex.add.entry '("absolument_ADV" "ADV" ((("a" "p") 0) (("s" "o") 0) (("l" "y") 0) (("m" "ahn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("obligé_VER" "VER" ((("oh") 0) (("b" "l" "i") 0) (("zh" "e") 0))))
+(lex.add.entry '("aujourd_hui_ADV" "ADV" (((o) 0) ((zh oh rh) 0) ((d hw i) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("passé_VER" VER ((("p" "a") 0) (("s" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("wifi_NOM" NOM (((w i) 0) ((f i) 0))))
+
+(set! list_exclus*-> (append (list "pas" "n_est") list_exclus*->_default))
+(set! never_exception_list (append (list "Mais" ) never_exception_list_default))
+(dSayText "Mais on n'est absolument pas obligé, aujourd'hui, de passer par le wifi.") ; neut_parl_s06_0722

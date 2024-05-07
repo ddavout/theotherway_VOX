@@ -1,0 +1,14 @@
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("tel_ADJ:ind" ADJ:ind ((("t" "eh" "l") 0))))
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i") 0) (("f" "ae") 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((t ahn) 0) ((n e) 0) ((f eh) 0)))); LIA
+(lex.add.entry '("être_VER" "VER" ((("eh")0 ) (("t" "rh" "ae") 0))))
+(lex.add.entry '("mis_VER" "VER" (((m i) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((z ahn) 0)))); LIA
+(lex.add.entry '("place_NOM" "NOM" ((("p" "l" "a" "s") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("décret_NOM" "NOM" ((("d" "e") 0) (("k" "rh" "eh") 0))))
+
+(set! text "Un tel dispositif peut en effet être mis en place par décret.") ; neut_parl_s05_0695
+(dSayText text)

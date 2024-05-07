@@ -1,0 +1,14 @@
+(lex.add.entry '("Quoi_ADJ" ADJ ((("k" "w" "a") 0))))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("soit_VER" "VER" ((("s" "w" "a") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("histoire_NOM" "NOM" (((t "i" "s") 0) (("t" "w" "a" "rh") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("souvent_ADV" "ADV" ((("s" "u") 0) (("v" "ahn") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0)))); no LIA
+(lex.add.entry '("assez_ADV" "ADV" ((("a") 0) (("s" "e") 0))))
+(lex.add.entry '("sombre_ADJ" "ADJ" ((("s" "ohn")0) (("b" "rh" ae) 0))))
+
+(set! text "Quoi qu'il en soit, cette histoire a souvent été assez sombre.") ; neut_parl_s03_0059
+(dSayText text)

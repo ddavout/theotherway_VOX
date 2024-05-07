@@ -1,0 +1,13 @@
+(lex.add.entry '("Vouloir_VER" VER ((("v" "u") 0) (("l" "w" "a" "rh") 0))))
+(lex.add.entry '("mettre_VER" VER ((("m" "eh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("images_NOM" NOM (((z "i") 0) (("m" "a" "zh") 0))))
+(lex.add.entry '("choc_ADJ" ADJ ((("sh" "oh" "k") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("bouteilles_NOM" NOM ((("b" "u") 0) (("t" "eh")0) (("j" ae) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0)))); no lia
+(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y") 0))))
+(lex.add.entry '("aberration_NOM" NOM (((n "a") 0) (("b" "eh") 0) (("rh" "a") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "Vouloir mettre des images choc sur des bouteilles, est une aberration.") ; neut_parl_s02_0688

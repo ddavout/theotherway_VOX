@@ -1,0 +1,13 @@
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("député_NOM" "NOM" ((("d" "e") 0) (("p" "y") 0) (("t" "e") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("connais_VER" VER ((("k" "oh") 0) (("n" "eh") 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh) 0))))
+(lex.add.entry '("attachement_NOM" "NOM" (((t rh "a") 0) (("t" "a" "sh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("dossier_NOM" "NOM" ((("d" "o") 0) (("s" "j" "e") 0))))
+
+(set! text "Monsieur le député, je connais votre attachement à ce dossier.") ; neut_parl_s02_0234
+(dSayText text)

@@ -1,0 +1,12 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("parle_VER" "VER" ((("p" "a" "rh" "l") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("effectifs_NOM" NOM (((z "e") 0) (("f" "eh" "k") 0) (("t" "i" "f") 0)))); LIA
+(lex.add.entry '("réels_ADJ" ADJ ((("rh" "e") 0) (("eh")0) (("l" ae) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("effectifs_NOM" NOM (((z "e") 0) (("f" "eh" "k") 0) (("t" "i" "f") 0)))); LIA
+(lex.add.entry '("théoriques_ADJ" ADJ ((("t" "e") 0) (("oh") 0) (("rh" "i" "k") 0))))
+
+(set! text "Je parle des effectifs réels, pas des effectifs théoriques.") ; neut_parl_s02_0233
+(dSayText text)

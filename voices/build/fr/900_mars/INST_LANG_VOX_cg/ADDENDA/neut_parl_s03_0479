@@ -1,0 +1,8 @@
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("attendent_VER" VER ((("a") 0) (("t" "ahn" "d") 0))))
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("efficacité_NOM" "NOM" ((("e") 0) (("f" "i") 0) (("k" "a") 0) (("s" "i") 0) (("t" "e") 0))))
+
+(dSayText "Ils attendent enfin de l'efficacité.") ; neut_parl_s03_0479

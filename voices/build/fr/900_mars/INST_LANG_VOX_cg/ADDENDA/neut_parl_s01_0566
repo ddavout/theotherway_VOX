@@ -1,0 +1,13 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("regrette_VER" "VER" ((("rh" "ae") 0) (("g" "rh" "eh" "t") 0))))
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s)0) ((t rh "ae") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((z "oen") 0)))); LIA
+(lex.add.entry '("diagnostic_NOM" "NOM" ((("d" "j" "a" "g") 0) (("n" "oh" "s") 0) (("t" "i" "k") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("nécessaire_ADJ" "ADJ" ((("n" "e") 0) (("s" "e") 0) (("s" "eh" "rh") 0))))
+
+(set! text "Je regrette madame la ministre, mais un diagnostic est nécessaire.") ; 
+(dSayText text); neut_parl_s01_0566

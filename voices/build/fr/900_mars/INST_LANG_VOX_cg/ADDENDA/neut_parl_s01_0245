@@ -1,0 +1,13 @@
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("raison_NOM" "NOM" ((("rh" "eh") 0) (("z" "ohn") 0))))
+(lex.add.entry '("simple_ADJ" ADJ ((("s" "ehn") 0) (("p" "l" ae) 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("heurte_VER" VER ((("oe" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0))))
+(lex.add.entry '("principe_NOM" "NOM" ((("p" "rh" "ehn") 0) (("s" "i" "p") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("réalité_NOM" "NOM" ((("rh" "e") 0) (("a") 0) (("l" "i") 0) (("t" "e") 0))))
+
+(set! text "pour une raison simple : cela heurte un principe de réalité.") ; 
+(dSayText text); neut_parl_s01_0245

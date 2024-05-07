@@ -1,0 +1,9 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("défends_VER" VER ((("d" "e") 0) (("f" "ahn") 0))))
+
+
+(dSayText "C'est pourquoi je le défends.") ; neut_parl_s06_0325

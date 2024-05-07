@@ -1,0 +1,7 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("partage_VER" "VER" ((("p" "a" "rh") 0) (("t" "a" "zh") 0))))
+(lex.add.entry '("naturellement_ADV" "ADV" ((("n" "a") 0) (("t" "y") 0) (("rh" "eh" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("objectif_NOM" "NOM" (((t "oh" b) 0) (("zh" "eh" "k") 0) (("t" "i" "f") 0))))
+
+(dSayText "Je partage naturellement cet objectif.") ; neut_parl_s04_0688

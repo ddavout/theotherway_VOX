@@ -1,0 +1,11 @@
+(lex.add.entry '("quelle_ADJ:int" ADJ:int ((("k" "eh" "l") 0))))
+(lex.add.entry '("gabegie_NOM" "NOM" ((("g" "a" b) 0) (("zh" "i") 0))))
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("garde" nil ((("g" "a" "rh")0) (("d" "ae") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("sceaux_NOM" "NOM" ((("s" "o") 0))))
+
+(set! text "quelle gabegie, madame la garde des sceaux !") ; neut_parl_s01_0063
+(dSayText text)
+

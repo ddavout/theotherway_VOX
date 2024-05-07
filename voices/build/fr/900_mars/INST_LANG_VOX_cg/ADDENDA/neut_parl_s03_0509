@@ -1,0 +1,12 @@
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("domaine_NOM" "NOM" ((("d" "oh") 0) (("m" "eh") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" (((n "o") 0) (("s" "i") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("collectif_NOM" NOM ((("k" "oh") 0) (("l" "eh" "k") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("budgétaire_ADJ" "ADJ" ((("b" "y" d) 0) (("zh" "e") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("change_VER" "VER" ((("sh" "ahn" "zh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o")0) (("z" ae) 0))))
+
+(dSayText "Dans ce domaine aussi, ce collectif budgétaire change les choses.") ; neut_parl_s03_0509

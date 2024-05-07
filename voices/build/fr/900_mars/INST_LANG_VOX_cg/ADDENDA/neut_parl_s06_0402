@@ -1,0 +1,12 @@
+(lex.add.entry '("j_ai_AUX" "AUX" (((zh e) 0))))
+(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
+(lex.add.entry '("répondu_VER" "VER" ((("rh" "e") 0) (("p" "ohn") 0) (("d" "y") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("ceux_PRO:dem" "PRO:dem" ((("s" "eu") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("objectent_VER" VER ((("oh" b ) 0) (("zh" "eh" "k")0) (("t" ae) 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("insuffisant_ADJ" ADJ (((t "ehn") 0) (("s" "y") 0) (("f" "i") 0) (("z" "ahn") 0)))); LIA
+
+(dSayText "J'ai déjà répondu à ceux qui objectent, que c'est insuffisant.") ; neut_parl_s06_0402

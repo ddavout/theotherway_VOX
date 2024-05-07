@@ -1,0 +1,15 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("commission_NOM" "NOM" ((("k" "oh") 0) (("m" "i") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("progressé_VER" "VER" ((("p" "rh" "oh") 0) (("g" "rh" "e") 0) (("s" "e") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("sens_NOM" "NOM" ((("s" "ahn" "s") 0))))
+(lex.add.entry '("où_PRO:rel" "PRO:rel" ((("u") 0))))
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("souhaitè_VER" VER ((("s" "w" "e") 0) (("t" "eh") 0))))
+(lex.add.entry '("allé_VER" VER ((("a") 0) (("l" "e") 0))))
+
+(set! list_exclus*-> (append (list "n" "effets" "notamment") list_exclus*->_default))
+(set! never_exception_list (append (list "souhaitait" ) never_exception_list_default))
+(dSayText "La commission a progressé dans le sens où elle souhaitait aller.") ; neut_parl_s02_0606

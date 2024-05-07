@@ -1,0 +1,13 @@
+(lex.add.entry '("voilà_VER" "VER" ((("v" "w" "a") 0) (("l" "a") 0))))
+(lex.add.entry '("quatre_ADJ:num" "ADJ:num" ((("k" "a" "t" "rh") 0))))
+(lex.add.entry '("députés_NOM" NOM ((("d" "e") 0) (("p" "y") 0) (("t" "e") 0)))); no LIA
+(lex.add.entry '("européens_ADJ" ADJ ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("talentueux_ADJ" "ADJ" ((("t" "a") 0) (("l" "ahn") 0) (("t" "y") 0) (("hw" "eu") 0))))
+
+
+
+(set! text "voilà quatre députés européens talentueux.") ; neut_parl_s01_0064
+(dSayText text)
+
+
+

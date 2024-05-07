@@ -1,0 +1,15 @@
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("souhaite_VER" "VER" ((("s" "w" "eh" "t") 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("succès_NOM" NOM ((("s" "y" "k") 0) (("s" "eh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("m_appuie_VER" VER (((m "a") 0) (("p" "hw" i) 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("meilleurs_ADJ" ADJ ((("m" "e") 0) (("j" "oe" "rh") 0))))
+(lex.add.entry '("talents_NOM" NOM ((("t" "a") 0) (("l" "ahn") 0))))
+
+(set! text "Moi, je souhaite son succès, et je m'appuie sur les meilleurs talents.") ; 
+(dSayText text); neut_parl_s01_0614

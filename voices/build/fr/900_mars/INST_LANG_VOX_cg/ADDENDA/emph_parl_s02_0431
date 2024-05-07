@@ -1,0 +1,7 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("millions_NOM" NOM ((("m" "i" l) 0) (( "j" "ohn") 0))))
+
+(dSayText "Et pourquoi pas trois millions ?") ; emph_parl_s02_0431

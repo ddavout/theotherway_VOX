@@ -1,0 +1,12 @@
+(lex.add.entry '("chacun_PRO:ind" "PRO:ind" ((("sh" "a") 0) (("k" "oen") 0))))
+(lex.add.entry '("y_PRO:per" "PRO:per" nil ))
+(lex.add.entry '("est_AUX" "AUX" (((j "eh") 0))))
+(lex.add.entry '("appelé_VER" "VER" (((t "a") 0) (("p" "l" "e") 0)))); LIA
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("l_équité_NOM" "NOM" (((l "e") 0) (("k" "i") 0) (("t" "e") 0))))
+
+(set! text "chacun y est appelé, mais dans l'équité.") ; 
+(dSayText text); neut_parl_s01_0183
+
+

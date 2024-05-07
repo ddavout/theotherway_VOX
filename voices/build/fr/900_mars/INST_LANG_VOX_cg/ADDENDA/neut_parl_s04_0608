@@ -1,0 +1,12 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("référendum_NOM" "NOM" ((("rh" "e") 0) (("f" "e") 0) (("rh" "ahn") 0) (("d" "oh" "m") 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((t ahn) 0) ((n e) 0) ((f eh) 0)))); LIA
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("sortie_NOM" "NOM" ((("s" "oh" "rh") 0) (("t" "i") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("haut_NOM" "NOM" ((("o") 0))))
+
+(set! text "Le référendum, c'est en effet la sortie par le haut.") ; neut_parl_s04_0608
+(dSayText text)

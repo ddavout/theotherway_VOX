@@ -1,0 +1,9 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("fait_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("grand_ADJ" "ADJ" ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("écart_NOM" "NOM" (((t "e") 0) (("k" "a" "rh") 0)))); LIA
+
+(set! text "Ce gouvernement fait le grand écart.") ; 
+(dSayText text); neut_parl_s01_0465

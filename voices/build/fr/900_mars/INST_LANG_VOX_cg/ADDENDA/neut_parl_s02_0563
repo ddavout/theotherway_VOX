@@ -1,0 +1,10 @@
+(lex.add.entry '("en_effet_ADV" "ADV" (((ahn) 0) ((n e) 0) ((f eh) 0))))
+(lex.add.entry '("vu_VER" "VER" ((("v" "y") 0))))
+(lex.add.entry '("l_ampleur_NOM" "NOM" (((l "ahn") 0) (("p" "l" "oe" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("déficits_NOM" NOM ((("d" "e") 0) (("f" "i") 0) (("s" "i" t) 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("insignifiant_ADJ" "ADJ" (((t "ehn") 0) (("s" "i") 0) (("jg" "i") 0) (("f" "j" "ahn") 0)))); LIA
+
+
+(dSayText "En effet, vu l'ampleur des déficits, c'est insignifiant.") ; neut_parl_s02_0563

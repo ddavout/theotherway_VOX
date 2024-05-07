@@ -1,0 +1,10 @@
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("principes_NOM" NOM ((("p" "rh" "ehn") 0) (("s" "i")0) (("p" ae) 0))))
+(lex.add.entry '("doivent_VER" VER ((("d" "w" "a" "v") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("guidé_VER" VER ((("g" "i") 0) (("d" "e") 0))))
+
+(dSayText "Dans ce débat, deux principes doivent nous guider.") ; neut_parl_s03_0516

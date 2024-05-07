@@ -1,0 +1,18 @@
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0))))
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("accord_NOM" "NOM" (((t "a") 0) (("k" "oh" "rh") 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n eh) 0)(("p" "a") 0))))
+(lex.add.entry '("signé_VER" "VER" ((("s" "i") 0) (("n" "j" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("provinces_NOM" NOM ((("p" "rh" "oh") 0) (("v" "ehn" "s") 0))))
+(lex.add.entry '("l_Europe_NAM" "NAM" (((l oe) 0) ((rh oh "p") 0))))
+(lex.add.entry '("serait_VER" "VER" ((("s" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("encore_ADV" "ADV" (((t "ahn") 0) (("k" "oh" "rh") 0)))); LIA
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("grand_ADJ" "ADJ" ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("perdant_NOM" "NOM" ((("p" "eh" "rh") 0) (("d" "ahn") 0))))
+
+
+(set! text "Si cet accord n'est pas signé par les provinces, l'Europe serait encore le grand perdant.") ; neut_parl_s03_0641
+(dSayText text)

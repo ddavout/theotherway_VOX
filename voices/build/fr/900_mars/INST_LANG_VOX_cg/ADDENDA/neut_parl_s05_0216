@@ -1,0 +1,18 @@
+(lex.add.entry '("droit_ADJ" "ADJ" ((("d" "rh" "w" "a") 0))))
+
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("fioul_NOM" "NOM" ((("f" "j" "u" "l") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("exemple_NOM" "NOM" ((("eh" "g") 0) (("z" "ahn")0) (("p" "l" ae) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("donnait_VER" VER ((("d" "oh") 0) (("n" "eh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("jusqu_à_PRE" "PRE" (((zh y s) 0) ((k a) 0))))
+(lex.add.entry '("présent_NOM" "NOM" ((("p" "rh" "e") 0) (("z" "ahn") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("tarifs_NOM" NOM ((("t" "a") 0) (("rh" "i" "f") 0))))
+(lex.add.entry '("sociaux_ADJ" ADJ ((("s" "oh") 0) (("s" "j" "o") 0))))
+
+(set! text "Le fioul par exemple, ne donnait pas jusqu'à présent droit aux tarifs sociaux.") ; neut_parl_s05_0216
+(dSayText text)

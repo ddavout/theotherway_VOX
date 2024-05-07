@@ -1,0 +1,16 @@
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("loi_NOM" "NOM" ((("l" "w" "a") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("disposerons_VER" VER ((("d" "i" "s") 0) (("p" "o") 0) (("z" "rh" "ohn") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("vrai_ADJ" "ADJ" ((("v" "rh" "eh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("arme_NOM" "NOM" ((("a" "rh")0) (("m" ae) 0))))
+(lex.add.entry '("législative_ADJ" "ADJ" ((("l" "e") 0) (("zh" "i") 0) (("s" "l" "a") 0) (("t" "i")0) (("v" "ae") 0))))
+
+
+; ACF rh m ssil m
+(dSayText "Avec cette loi nous disposerons c'est vrai, d'une arme législative.") ; neut_parl_s06_0670

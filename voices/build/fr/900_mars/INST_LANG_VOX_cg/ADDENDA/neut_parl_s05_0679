@@ -1,0 +1,10 @@
+(lex.add.entry '("neuf_ADJ:num" "ADJ:num" ((("n" "oe" f) 0))))
+(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
+(lex.add.entry '("seulement_ADV" "ADV" ((("s" "oe" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("tenté_VER" "VER" ((("t" "ahn") 0) (("t" "e") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("aventure_NOM" "NOM" (((t "a") 0) (("v" "ahn") 0) (("t" "y" "rh") 0))))
+
+(set! list_exclus*-> (append (list "seulement") list_exclus*->_default))
+(dSayText "Neuf pays seulement ont tenté cette aventure.") ; neut_parl_s05_0679

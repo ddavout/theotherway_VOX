@@ -1,0 +1,15 @@
+(lex.add.entry '("cependant_ADV" "ADV" ((("s" "ae") 0) (("p" "ahn") 0) (("d" "ahn") 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("locataires_NOM" NOM ((("l" "oh") 0) (("k" "a") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("financer_VER" VER ((("f" "i") 0) (("n" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("garantie_NOM" "NOM" ((("g" "a") 0) (("rh" "ahn") 0) (("t" "i") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" (((z "o") 0)))); LIA
+(lex.add.entry '("bailleurs_NOM" NOM ((("b" "a" j) 0) (("j" "oe" "rh") 0))))
+
+(set! text "Cependant ce n'est pas aux locataires de financer cette garantie, mais aux bailleurs.") ; neut_parl_s04_0370
+(dSayText text)

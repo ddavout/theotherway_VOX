@@ -1,0 +1,17 @@
+(lex.add.entry '("j_étais_VER" VER ((("zh" "e") 0) (("t" "eh") 0))))
+(lex.add.entry '("portée_VER" VER ((("p" "oh" "rh") 0) (("t" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("croire_VER" "VER" ((("k" "rh" "w" "a" "rh") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("raisons_NOM" NOM ((("rh" "eh") 0) (("z" "ohn") 0))))
+(lex.add.entry '("objectives_ADJ" ADJ ((("oh") 0) (("b" "zh" "eh" "k") 0) (("t" "i")0) (("v" ae) 0)))); no LIA
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("sont_AUX" AUX ((("s" "ohn") 0))))
+(lex.add.entry '("liées_VER" VER ((("l" "j" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("vos_ADJ:pos" "ADJ:pos" ((("v" "o") 0))))
+(lex.add.entry '("résultats_NOM" NOM ((("rh" "e") 0) (("z" "y" "l") 0) (("t" "a") 0))))
+
+(dSayText "J'étais portée à le croire pour des raisons objectives, qui sont liées à vos résultats.") ; neut_parl_s05_0345

@@ -1,0 +1,17 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("a_VER" "VER" (((a) 0))))
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("ans_NOM" NOM (((z "ahn") 0)))); LIA
+(lex.add.entry '("d_ancienneté_NOM" "NOM" (((d "ahn") 0) (("s" "j" "eh" "n") 0) (("t" "e") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((z "y") 0)))); LIA
+(lex.add.entry '("entreprise_NOM" NOM (((n "ahn") 0) (("t" "rh" "ae") 0) (("p" "rh" "i" "z") 0))))
+(lex.add.entry '("de_plus_ADV" "ADV" (((d ae) 0) (("p" "l" "y") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("dix_ADJ:num" "ADJ:num" (((d i) 0))))
+(lex.add.entry '("salariés_NOM" NOM ((("s" "a") 0) (("l" "a") 0) (("rh" "j" "e") 0))))
+
+(set! text "il a plus de deux ans d'ancienneté, dans une entreprise de plus de dix salariés.") ; neut_parl_s06_0376
+(dSayText text)

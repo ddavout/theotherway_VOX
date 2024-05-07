@@ -1,0 +1,14 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("représente_VER" "VER" ((("rh" "ae") 0) (("p" "rh" "e") 0) (("z" "ahn" "t") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("moyenne_VER" VER ((("m" "w" "a") 0) (("j" "eh")0) (("n" ae) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("augmentation_NOM" "NOM" ((("oh" "g") 0) (("m" "ahn") 0) (("t" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("onze_NOM" "NOM" ((("ohn" "z") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("cent_NOM" "NOM" (((s ahn) 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("an_NOM" "NOM" ((("ahn") 0))))
+
+(dSayText "Cela représente en moyenne, une augmentation, de onze pour cent par an.") ; neut_parl_s04_0467

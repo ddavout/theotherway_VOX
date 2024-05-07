@@ -1,0 +1,11 @@
+; bug tout autre TODO
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("réalité_NOM" "NOM" ((("rh" "e") 0) (("a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("autre_ADJ" "ADJ" (((t "o")0) (("t" "rh" ae) 0)))); LIA
+(lex.add.entry '("toutautre_ADJ" "ADJ" (((t u) 0)((t "o")0) (("t" "rh" ae) 0)))); LIA
+
+
+(set! text "La réalité est toutautre.") ; neut_parl_s02_0195
+(dSayText text)

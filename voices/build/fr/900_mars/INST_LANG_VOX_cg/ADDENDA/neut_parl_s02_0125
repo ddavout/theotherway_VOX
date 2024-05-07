@@ -1,0 +1,9 @@
+(lex.add.entry '("attention_ONO" ONO ((("z" "a") 0) (("t" "ahn") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("attention_NOM" NOM ((("z" "a") 0) (("t" "ahn") 0) (("s" "j" "ohn") 0)))); confusion
+(lex.add.entry '("Faites_NOM" NOM ((("f" "eh" "t") 0))))
+(lex.add.entry '("Faites_VER" VER ((("f" "eh" "t") 0)))); confusion
+
+(lex.add.entry '("Faites" nil ((("f" "eh" "t") 0))))
+(lex.add.entry '("attention" nil ((("z" "a") 0) (("t" "ahn") 0) (("s" "j" "ohn") 0)))); LIA
+(set! text "Faites attention !") ; neut_parl_s02_0125
+(dSayText text)

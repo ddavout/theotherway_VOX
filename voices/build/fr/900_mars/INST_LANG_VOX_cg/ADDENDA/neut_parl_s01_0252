@@ -1,0 +1,12 @@
+(lex.add.entry '("contrairement_ADV" "ADV" ((("k" "ohn") 0) (("t" "rh" "eh" "rh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0)))); no LIA
+(lex.add.entry '("l_afghanistan_NAM" "NAM" (((l a f) 0) ((g a) 0) ((n i s) 0) ((t ahn) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("syrie_NAM" "NAM" ((("s" "i") 0) (("rh" "i") 0))))
+(lex.add.entry '("n_est_pas_VER" VER ((("n" "e") 0)(("p" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((z "oen") 0)))); LIA
+(lex.add.entry '("acteur_NOM" "NOM" ((("a" "k") 0) (("t" "oe" "rh") 0))))
+(lex.add.entry '("lointain_ADJ" "ADJ" ((("l" "w" "ehn") 0) (("t" "ehn") 0))))
+
+(set! text "contrairement à l'Afghanistan, la Syrie n'est pas un acteur lointain.") ; 
+(dSayText text); neut_parl_s01_0252

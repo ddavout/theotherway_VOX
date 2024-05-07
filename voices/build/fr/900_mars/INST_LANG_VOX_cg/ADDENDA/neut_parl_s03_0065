@@ -1,0 +1,14 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("dernières_ADJ" ADJ ((("d" "eh" "rh") 0) (("n" "j" "eh" "rh") 0))))
+(lex.add.entry '("hausses_NOM" NOM ((("o" "s") 0)))); no LIA
+(lex.add.entry '("d_impôts_NOM" "NOM" (((d "ehn") 0) (("p" "o") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0)))); no LIA
+(lex.add.entry '("déclenché_VER" "VER" ((("d" "e") 0) (("k" "l" "ahn") 0) (("sh" "e") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("crise_NOM" "NOM" ((("k" "rh" "i" "z") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("défiance_NOM" "NOM" ((("d" "e") 0) (("f" "j" "ahn" "s") 0))))
+(lex.add.entry '("généralisée_ADJ" "ADJ" ((("zh" "e") 0) (("n" "e") 0) (("rh" "a") 0) (("l" "i") 0) (("z" "e") 0))))
+
+(set! text "Ces dernières hausses d'impôts ont déclenché une crise de défiance généralisée.") ; neut_parl_s03_0065
+(dSayText text)

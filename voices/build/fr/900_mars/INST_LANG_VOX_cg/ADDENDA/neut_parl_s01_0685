@@ -1,0 +1,18 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("sais_VER" "VER" (((s "e") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0)))); no LIA
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("s_agit_VER" "VER" (((s "a") 0) (("zh" "i") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("première_ADJ" "ADJ" ((("p" "rh" "ae") 0) (("m" "j" "eh" "rh") 0))))
+(lex.add.entry '("tranche_NOM" NOM ((("t" "rh" "ahn" "sh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("subvention_NOM" "NOM" ((("s" "y" "b") 0) (("v" "ahn") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("attendue_VER" VER (((t "a") 0) (("t" "ahn") 0) (("d" "y") 0) ((ae) 0)))) ; LIA ; ae !
+
+(set! text "je sais aussi qu'il s'agit de la première tranche, et que cette subvention est attendue.") ; neut_parl_s01_0685
+(dSayText text)

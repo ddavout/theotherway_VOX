@@ -1,0 +1,12 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("Français_NOM" NOM ((("f" "rh" "ahn") 0) (("s" "eh") 0))))
+(lex.add.entry '("s_PRO:per" "PRO:per" nil))
+(lex.add.entry '("appauvrisse_nil" nil ((("a") 0) (("p" "o") 0) (("v" "rh" "i" "s") 0))))
+
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y" s) 0))))
+(lex.add.entry '("chaque_ADJ:ind" "ADJ:ind" ((("sh" "a" "k") 0))))
+(lex.add.entry '("jour_NOM" "NOM" ((("zh" "u" "rh") 0))))
+
+(dSayText "Les Français, s'appauvrissent un peu plus chaque jour.") ; neut_parl_s05_0681

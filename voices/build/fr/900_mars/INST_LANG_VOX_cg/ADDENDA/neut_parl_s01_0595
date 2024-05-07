@@ -1,0 +1,21 @@
+(lex.add.entry '("élus_NOM" NOM (((z "e") 0) (("l" "y") 0)))); LIA; confusion
+(lex.add.entry '("élus_VER" VER (((z "e") 0) (("l" "y") 0)))); LIA
+
+
+
+(lex.add.entry '("selon_PRE" "PRE" ((("s" "ae") 0) (("l" "ohn") 0))))
+(lex.add.entry '("elles_PRO:per" PRO:per ((("eh" "l") 0)))); no LIA
+(lex.add.entry '("les_PRO:per" "PRO:per" ((("l" "e") 0))))
+(lex.add.entry '("élus" nil (((z "e") 0) (("l" "y") 0)))); LIA
+(lex.add.entry '("toujours_ADV" ADV ((("t" "u") 0) (("zh" "u" "rh") 0))))
+(lex.add.entry '("trop_ADV" "ADV" ((("t" "rh" "o") 0))))
+(lex.add.entry '("payés_VER" VER ((("p" "e") 0) (("j" "e") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("forcément_ADV" "ADV" ((("f" "oh" "rh") 0) (("s" "e") 0) (("m" "ahn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("fraudeurs_NOM" NOM ((("f" "rh" "o") 0) (("d" "oe" "rh") 0))))
+
+(set! text "Selon elles, les élus, toujours trop payés, sont forcément des fraudeurs.") ; neut_parl_s01_0595
+(dSayText text)
+
+

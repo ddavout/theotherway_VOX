@@ -1,0 +1,19 @@
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u") 0)))) ; important
+(lex.add.entry '("autant_PRO:ind" "PRO:ind" ((("rh" "o") 0) (("t" "ahn") 0)))); confusion
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
+(lex.add.entry '("fait_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((z "oen") 0)))); LIA
+(lex.add.entry '("texte_NOM" "NOM" ((("t" "eh" "k" "s") 0) (("t" "ae") 0))))
+(lex.add.entry '("relatif_ADJ" "ADJ" ((("rh" "ae") 0) (("l" "a") 0) (("t" "i") 0))))
+(lex.add.entry '("aux__ART:def" "ART:def" ((("f" "o") 0))))
+(lex.add.entry '("crimes_NOM" NOM ((("k" "rh" "i")0) (("m" "ae") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0)))); no LIA
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("longues_ADJ" ADJ ((("l" "ohn" "g") 0))))
+(lex.add.entry '("peines_NOM" NOM ((("p" "eh") 0) (("n" "ae") 0))))
+
+; Q todo pour autant + , ADV
+(set! text "Pour autant, cela n'en fait pas un texte relatif aux_ crimes et aux longues peines.") ; neut_parl_s06_0208
+(dSayText text)

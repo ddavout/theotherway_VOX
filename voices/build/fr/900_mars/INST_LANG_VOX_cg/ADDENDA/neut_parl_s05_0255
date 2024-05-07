@@ -1,0 +1,17 @@
+(lex.add.entry '("en_effet_ADV" "ADV" (((t ahn) 0) ((n e) 0) ((f eh) 0)))); LIA
+
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("en_effet" nil (((t ahn) 0) ((n e) 0) ((f eh) 0)))); LIA
+(lex.add.entry '("important_ADJ" "ADJ" ((("ehn") 0) (("p" "oh" "rh") 0) (("t" "ahn") 0)))); no LIA
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("pouvoir_VER" "VER" ((("p" "u") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("prendre_VER" "VER" ((("p" "rh" "ahn") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((d rh ahn) 0))))
+(lex.add.entry '("compte_VER" "VER" ((("k" "ohn" "t") 0))))
+(lex.add.entry '("chaque_ADJ:ind" "ADJ:ind" ((("sh" "a" "k") 0))))
+(lex.add.entry '("élève_NOM" "NOM" ((("e") 0) (("l" "eh")0) (("v" "ae") 0))))
+
+(set! never_exception_list (append (list "est" "C_est" ) never_exception_list_default))
+(set! text "Il est en effet important de pouvoir prendre en compte chaque élève.") ; neut_parl_s05_0255
+(dSayText text)

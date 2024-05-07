@@ -1,0 +1,11 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("programme_NOM" "NOM" ((("p" "rh" "oh") 0) (("g" "rh" "a")0) (("m" ae) 0))))
+(lex.add.entry '("zones_VER" VER (((z o n) 0))))
+(lex.add.entry '("blanches_ADJ" ADJ ((("b" "l" "ahn")0) (("sh" ae) 0))))
+(lex.add.entry '("répond_VER" "VER" ((("rh" "e") 0) (("p" "ohn") 0))))
+(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("exigence_NOM" "NOM" (((t "eh" "g") 0) (("z" "i") 0) (("zh" "ahn")0) (("s" ae) 0))))
+
+(dSayText "Le programme, zones blanches, répond déjà à cette exigence.") ; neut_parl_s05_0601

@@ -1,0 +1,15 @@
+(lex.add.entry '("j_en_PRO:per" "PRO:per" (((zh ahn) 0))))
+(lex.add.entry '("veux_VER" "VER" ((("v" "eu") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("preuve_NOM" NOM ((("p" "rh" "oe") 0) (("v" "ae") 0))))
+(lex.add.entry '("votre_ADJ:pos" ADJ:pos ((("v" "oh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("charge_NOM" "NOM" ((("sh" "a" "rh" "zh") 0))))
+(lex.add.entry '("contre_PRE" PRE ((("k" "ohn") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("pharmaciens_NOM" NOM ((("f" "a" "rh") 0) (("m" "a") 0) (("s" "j" "ehn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("notaires_NOM" NOM ((("n" "oh") 0) (("t" "eh" "rh") 0))))
+
+(set! text "J'en veux pour preuve, votre charge contre les pharmaciens et les notaires.") ; 
+(dSayText text); neut_parl_s01_0555

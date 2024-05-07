@@ -1,0 +1,8 @@
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("monde_NOM" "NOM" ((("m" "ohn")0) (("d" ae) 0))))
+(lex.add.entry '("s_CON" "CON" nil))
+(lex.add.entry '("en_nil" nil (((ahn) 0))))
+(lex.add.entry '("fiche_VER" VER ((("f" "i" "sh") 0))))
+
+(dSayText "Tout le monde s'en fiche !") ; neut_parl_s03_0394

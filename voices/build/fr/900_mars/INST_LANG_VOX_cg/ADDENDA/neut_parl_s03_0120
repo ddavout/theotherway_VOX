@@ -1,0 +1,15 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("seniors_NOM" NOM ((("s" "e") 0) (("n" "j" "oh" "rh") 0))))
+(lex.add.entry '("quant_à" nil (((k ahn) 0) ((t a) 0))))
+(lex.add.entry '("eux_PRO:per" "PRO:per" ((("eu") 0))))
+(lex.add.entry '("n_ont_VER" "VER" (((n "ohn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("davantage_ADV" "ADV" ((("d" "a") 0) (("v" "ahn") 0) (("t" "a") 0))))
+(lex.add.entry '("été_VER" "VER" (((zh "e") 0) (("t" "e") 0))))
+(lex.add.entry '("épargnés_VER" VER ((("e") 0) (("p" "a" "rh") 0) (("jg" "e") 0))))
+(lex.add.entry '("pendant_PRE" "PRE" ((("p" "ahn") 0) (("d" "ahn") 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("années_NOM" NOM (((z "a") 0) (("n" "e") 0))))
+
+(set! text "Les seniors quant à eux, n'ont pas davantage été épargnés pendant ces années.") ; neut_parl_s03_0120
+(dSayText text)

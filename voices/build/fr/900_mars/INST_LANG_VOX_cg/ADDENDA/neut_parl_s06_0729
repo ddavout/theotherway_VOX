@@ -1,0 +1,13 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("voit_VER" "VER" ((("v" "w" "a") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("battre_VER" "VER" ((("b" "a" "t" "rh") 0))))
+(lex.add.entry '("pied_NOM" "NOM" (((p j e) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("pied_NOM" "NOM" (((p j e) 0))))
+
+(set! never_exception_list (append (list "pied" ) never_exception_list_default))
+(dSayText "On le voit, il faut se battre pied à pied.") ; neut_parl_s06_0729

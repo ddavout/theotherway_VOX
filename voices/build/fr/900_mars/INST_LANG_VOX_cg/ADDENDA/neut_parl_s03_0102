@@ -1,0 +1,13 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("l_occurrence_NOM" "NOM" (((l "oh") 0) (("k" "y") 0) (("rh" "ahn")0) (("s" "ae") 0))))
+(lex.add.entry '("françois_NAM" "NAM" (((f rh ahn) 0) ((s w a) 0))))
+(lex.add.entry '("hollande_NAM" "NAM" (((oh) 0) ((l ahn)0) ((d ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((z "oen") 0)))); LIA
+(lex.add.entry '("bon_ADJ" "ADJ" ((("b" "ohn") 0))))
+(lex.add.entry '("chef_NOM" "NOM" ((("sh" "eh" "f") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("armées_NOM" NOM (((z "a" "rh") 0) (("m" "e") 0))))
+
+(set! text "En l'occurrence, François Hollande n'est pas un bon chef des armées.") ; neut_parl_s03_0102
+(dSayText text)

@@ -1,0 +1,18 @@
+(lex.add.entry '("certains_PRO:ind" PRO:ind ((("s" "eh" "rh") 0) (("t" "ehn") 0))))
+(lex.add.entry '("vont_VER" VER ((("v" "ohn") 0))))
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
+(lex.add.entry '("loin_ADV" "ADV" ((("l" "w" "ehn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("parlent_VER" VER ((("p" "a" "rh")0) (("l" ae) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("tort_NOM" NOM ((("t" "oh" "rh") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("raison_NOM" "NOM" ((("rh" "e") 0) (("z" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("zone_NOM" NOM (((z o n) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("non_droit" nil ((("n" "ohn" "d") 0) (("rh" "w" "a") 0))))
+
+(set! text "certains vont plus loin et parlent, à tort ou à raison, de zone de non-droit.") ; neut_parl_s05_0532
+(dSayText text)

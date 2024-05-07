@@ -1,0 +1,10 @@
+; on moche
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("partagé_VER" VER ((("p" "a" "rh") 0) (("t" "a") 0) (("zh" "e") 0))))
+(lex.add.entry '("ses_ADJ:pos" "ADJ:pos" (((s e) 0))))
+(lex.add.entry '("orientations_NOM" NOM ((("oh") 0) (("rh" "j" "ahn") 0) (("t" "a") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "On peut ou non partager ses orientations.") ; neut_parl_s05_0236

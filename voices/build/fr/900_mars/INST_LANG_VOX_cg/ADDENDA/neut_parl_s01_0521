@@ -1,0 +1,19 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("conjoncture_NOM" "NOM" ((("k" "ohn") 0) (("zh" "ohn" "k") 0) (("t" "y" "rh") 0))))
+(lex.add.entry '("a_VER" "VER" (((a) 0))))
+(lex.add.entry '("bon_ADJ" "ADJ" ((("b" "ohn") 0))))
+(lex.add.entry '("dos_NOM" NOM ((("d" "o") 0))))
+(lex.add.entry '("car_CON" "CON" ((("k" "a" "rh") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0)))); no LIA
+(lex.add.entry '("y_a_VER" "VER" ((("j" "a") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("l_impôt_NOM" "NOM" (((l "ehn") 0) (("p" "o") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("rentre_VER" VER ((("rh" "ahn") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("moins_ADV" ADV ((("m" "w" "ehn") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+
+
+(set! text "la conjoncture a bon dos, car il y a aussi l'impôt, qui rentre moins bien.") ; 
+(dSayText text); neut_parl_s01_0521
+

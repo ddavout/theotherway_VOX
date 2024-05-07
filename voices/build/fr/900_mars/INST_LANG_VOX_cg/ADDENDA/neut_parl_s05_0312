@@ -1,0 +1,8 @@
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("telle_ADJ:ind" "ADJ:ind" ((("t" "eh" "l") 0))))
+(lex.add.entry '("précision_NOM" "NOM" ((("p" "rh" "e") 0) (("s" "i") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("utile_ADJ" "ADJ" ((("y") 0) (("t" "i")0) (("l" ae) 0))))
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "Une telle précision est utile.") ; neut_parl_s05_0312

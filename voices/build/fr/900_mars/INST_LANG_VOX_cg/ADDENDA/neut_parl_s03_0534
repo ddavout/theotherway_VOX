@@ -1,0 +1,7 @@
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("quoi_PRO:rel" PRO:rel ((("k" "w" "a") 0))))
+(lex.add.entry '("servira_VER" "VER" ((("s" "eh" "rh") 0) (("v" "i") 0) (("rh" "a") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("budget_NOM" "NOM" ((("b" "y" d) 0) (("zh" "eh") 0))))
+
+(dSayText "à quoi servira ce budget ?") ; neut_parl_s03_0534

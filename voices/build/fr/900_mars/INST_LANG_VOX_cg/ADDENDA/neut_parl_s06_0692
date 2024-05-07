@@ -1,0 +1,8 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n eh) 0)(("p" "a") 0))))
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("bettencourt_NAM" "NAM" (((b e) 0) ((t ahn) 0) ((k u rh) 0))))
+
+
+(set! text "Ce n'est pas Madame Bettencourt !") ; neut_parl_s06_0692
+(dSayText text)

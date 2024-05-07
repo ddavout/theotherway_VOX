@@ -1,0 +1,17 @@
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("communication_NOM" "NOM" ((("k" "oh") 0) (("m" "y") 0) (("n" "i") 0) (("k" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("risques_NOM" NOM ((("rh" "i" "s") 0) (("k" ae) 0))))
+(lex.add.entry '("liés_VER" VER ((("l" "j" "e") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("tabac_NOM" NOM ((("t" "a") 0) (("b" "a") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("enjeu_NOM" "NOM" ((("ahn") 0) (("zh" "eu") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+
+(set! never_exception_list (append (list "est") never_exception_list_default))
+(dSayText "Enfin, la communication sur les risques liés au tabac est aussi un enjeu européen.") ; neut_parl_s03_0192

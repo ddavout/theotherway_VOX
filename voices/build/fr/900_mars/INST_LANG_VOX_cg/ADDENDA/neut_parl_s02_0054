@@ -1,0 +1,17 @@
+(lex.add.entry '("puissiez-vous_VER" VER ((("p" "hw" i) 0) (("s" "j" "e") 0)((v u) 0))))
+(lex.add.entry '("entendre_VER" "VER" ((("ahn") 0) (("t" "ahn")0) (("d" "rh" ae) 0)))); no LIA
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("tout_ADJ:ind" "ADJ:ind" (((t u) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" nil))
+(lex.add.entry '("monde_NOM" NOM ((("m" "ohn" "d") 0))))
+(lex.add.entry '("cherche_VER" "VER" ((("sh" "eh" "rh" "sh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("dire_VER" "VER" ((("d" "i" "rh") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("le__ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("terrain_NOM" "NOM" ((("t" "eh") 0) (("rh" "ehn") 0))))
+
+(set! text "Puissiez-vous entendre ce que tout le monde cherche à vous dire sur le_ terrain.") ; neut_parl_s02_0054
+(dSayText text)

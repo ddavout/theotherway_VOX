@@ -1,0 +1,16 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("semble_VER" "VER" ((("s" "ahn" "b" "l") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("sujet_NOM" "NOM" ((("s" "y") 0) (("zh" "eh") 0))))
+(lex.add.entry '("dont_PRO:rel" "PRO:rel" ((("d" "ohn") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("parlons_VER" VER ((("p" "a" "rh") 0) (("l" "ohn") 0))))
+(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("éminemment_ADV" ADV ((("e") 0) (("m" "i") 0) (("n" "a") 0) (("m" "ahn") 0))))
+(lex.add.entry '("technique_ADJ" "ADJ" ((("t" "eh" "k") 0) (("n" "i")0) (("k" ae) 0))))
+
+(set! never_exception_list (append (list "est") never_exception_list_default))
+(dSayText "Il me semble que le sujet dont nous parlons ici, est éminemment technique.") ; neut_parl_s06_0301

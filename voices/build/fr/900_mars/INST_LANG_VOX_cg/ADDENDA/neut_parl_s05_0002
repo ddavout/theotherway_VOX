@@ -1,0 +1,8 @@
+(lex.add.entry '("est_ce_VER" "VER" ((("eh") 0) (("s" "oen") 0))))
+(lex.add.entry '("unhh_ART:ind" ART:ind nil))
+(lex.add.entry '("colloque_NOM" "NOM" ((("k" "oh") 0) (("l" "oh" "k") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("rapport_NOM" "NOM" ((("rh" "a") 0) (("p" "oh" "rh") 0))))
+
+(dSayText "Est-ce un colloque, ou un rapport ?") ; neut_parl_s05_0002

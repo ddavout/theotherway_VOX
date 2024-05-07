@@ -1,0 +1,16 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("revanche_NOM" "NOM" ((("rh" "ae") 0) (("v" "ahn")0) (("sh" "ae") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("mesures_NOM" NOM ((("m" "ae") 0) (("z" "y" "rh") 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("semblent_VER" VER ((("s" "ahn")0) (("b" "l" ae) 0))))
+(lex.add.entry '("devoir_VER" "VER" ((("d" "ae") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("objet_NOM" "NOM" (((oh b) 0) ((zh eh) 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("un_ART:ind" ART:ind ((("oen") 0))))
+(lex.add.entry '("questionnement_NOM" NOM ((("k" "eh" "s") 0) (("t" "j" "oh" n) 0) (("m" "ahn") 0))))
+(lex.add.entry '("rigoureux_ADJ" "ADJ" ((("rh" "i") 0) (("g" "u") 0) (("rh" "eu") 0))))
+
+(dSayText "En revanche, deux mesures me semblent devoir faire l'objet d'un questionnement rigoureux.") ; neut_parl_s03_0373

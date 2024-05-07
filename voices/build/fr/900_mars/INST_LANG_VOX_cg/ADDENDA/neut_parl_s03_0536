@@ -1,0 +1,9 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("prévoit_VER" "VER" ((("p" "rh" "e") 0) (("v" "w" "a") 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((t ahn) 0) ((n e) 0) ((f eh) 0)))); LIA
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nombreux_ADJ" "ADJ" ((("n" "ohn") 0) (("b" "rh" "eu") 0))))
+(lex.add.entry '("garde_fous_NOM" NOM ((("g" "a" "rh") 0) ((d ae) 0) (("f" "u") 0))))
+
+(set! text "Il prévoit en effet de nombreux garde-fous.") ; neut_parl_s03_0536
+(dSayText text)

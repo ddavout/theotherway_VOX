@@ -1,0 +1,10 @@
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("prochaine_ADJ" "ADJ" ((("p" "rh" "oh") 0) (("sh" "eh" "n") 0))))
+(lex.add.entry '("réunion_NOM" "NOM" ((("rh" "e") 0) (("y") 0) (("n" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("prévue_VER" "VER" ((("p" "rh" "e") 0) (("v" "y") 0))))
+(lex.add.entry '("mi-juin_VER" "VER" ((("m" "i") 0) (("zh" "hw" "ehn") 0))))
+
+(dSayText "Une prochaine réunion de travail, est prévue, mi-juin.") ; neut_parl_s06_0581

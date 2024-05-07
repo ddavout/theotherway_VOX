@@ -1,0 +1,13 @@
+(lex.add.entry '("Deuxième_NOM" NOM ((("d" "eu") 0) (("z" "j" "eh" "m") 0))))
+(lex.add.entry '("grand_ADJ" "ADJ" ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("tournant_VER" VER ((("t" "u" "rh") 0) (("n" "ahn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("résolution_NOM" "NOM" ((("rh" "e") 0) (("z" "oh") 0) (("l" "y") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("bancaire_ADJ" "ADJ" ((("b" "ahn") 0) (("k" "eh" "rh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("stabilité_NOM" "NOM" ((("s" "t" "a") 0) (("b" "i") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("macroprudentielle_VER" VER ((("m" "a") 0) (("k" "rh" "oh") 0) (("p" "rh" "y") 0) (("d" "ahn") 0) (("s" "j" "eh")0) (("l" ae) 0))))
+
+
+(dSayText "Deuxième grand tournant, la résolution bancaire et la stabilité, macroprudentielle.") ; neut_parl_s03_0221

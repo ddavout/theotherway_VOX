@@ -1,0 +1,9 @@
+(lex.add.entry '("pardonné_VER" VER ((("p" "a" "rh") 0) (("d" "oh") 0) (("n" "e") 0))))
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m e) 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("change_VER" "VER" ((("sh" "ahn" "zh") 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+
+
+(dSayText "Pardonnez-moi, mais cela change beaucoup !") ; neut_parl_s03_0212

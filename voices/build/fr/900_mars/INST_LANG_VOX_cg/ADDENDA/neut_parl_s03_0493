@@ -1,0 +1,14 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("pense_VER" "VER" ((("p" "ahn" "s") 0))))
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" (((z "o") 0) (("s" "i") 0)))); Q !
+(lex.add.entry '("qu_PRO:rel" "PRO:rel" nil))
+(lex.add.entry '("qu_effectivement_ADV" ADV ((("k" e) 0) ((f eh k) 0) ((t i v) 0) ((m ahn) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("vaut_VER" "VER" (((v o) 0))))
+(lex.add.entry '("mieux_ADV" "ADV" ((("m" "j" "eu") 0))))
+(lex.add.entry '("précisé_VER" VER ((("p" "rh" "e") 0) (("s" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o")0) (("z" ae) 0))))
+
+(dSayText "Je pense moi aussi qu'effectivement, il vaut mieux préciser les choses.") ; neut_parl_s03_0493

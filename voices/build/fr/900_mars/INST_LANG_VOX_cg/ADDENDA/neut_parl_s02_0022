@@ -1,0 +1,11 @@
+(lex.add.entry '("ma_ADJ:pos" "ADJ:pos" ((("m" "a") 0))))
+(lex.add.entry '("tâche_NOM" "NOM" ((("t" "a")0) (("sh" "ae") 0))))
+(lex.add.entry '("chers_ADJ" ADJ ((("sh" "eh" "rh") 0))))
+(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh")0) (("g" "ae") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("ardue_ADJ" "ADJ" (((n "a" "rh") 0) (("d" "y") 0)))); LIA
+
+(set! text "Ma tâche, chers collègues, est donc bien ardue.") ; neut_parl_s02_0022
+(dSayText text)

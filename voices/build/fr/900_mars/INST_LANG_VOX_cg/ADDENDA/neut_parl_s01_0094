@@ -1,0 +1,12 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("dû_VER" "VER" ((("d" "y") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("mode_NOM" "NOM" (((m oh d) 0)))); dd
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("scrutin_NOM" "NOM" ((("s" "k" "rh" "y") 0) (("t" "ehn") 0))))
+(lex.add.entry '("parisien_ADJ" "ADJ" ((("p" "a") 0) (("rh" "i") 0) (("z" "j" "ehn") 0))))
+
+(set! text "cela est dû au mode de scrutin parisien.") ; neut_parl_s01_0094
+(dSayText text)
+

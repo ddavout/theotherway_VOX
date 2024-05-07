@@ -1,0 +1,9 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("a_AUX" "AUX" (((l "a") 0))))
+(lex.add.entry '("fè_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("remarquable_ADJ" "ADJ" ((("rh" "ae") 0) (("m" "a" "rh") 0) (("k" "a")0) (("b" "l" ae) 0))))
+
+(set! list_exclus*-> (append (list "fait") list_exclus*->_default))
+(dSayText "Il a fait un travail remarquable.") ; neut_parl_s04_0115

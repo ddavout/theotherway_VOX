@@ -1,0 +1,9 @@
+(lex.add.entry '("car_CON" "CON" ((("k" "a" "rh") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o")0) (("z" ae) 0))))
+(lex.add.entry '("m_ont_AUX" AUX ((("m" "ohn") 0))))
+(lex.add.entry '("profondément_ADV" "ADV" ((("p" "rh" "oh") 0) (("f" "ohn") 0) (("d" "e") 0) (("m" "ahn") 0))))
+(lex.add.entry '("choqué_VER" VER ((("sh" "oh") 0) (("k" "e") 0))))
+
+(set! text "Car deux choses, m'ont profondément choqué.") ; neut_parl_s02_0432
+(dSayText text)

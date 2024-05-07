@@ -1,0 +1,30 @@
+(set! fileid "neut_book_s01_0067")
+; 
+(lex.add.entry '("réchauffé_ADJ" ADJ ((("rh" "e") 0) (("sh" "o") 0) (("f" "e") 0))))
+(lex.add.entry '("réchauffé_VER" VER ((("rh" "e") 0) (("sh" "o") 0) (("f" "e") 0))))
+
+(lex.add.entry '("l_ingénieur_NOM" "NOM" (((l "ehn") 0) (("zh" "e") 0) (("n" "j" "oe" "rh") 0))))
+(lex.add.entry '("réchauffé" nil ((("rh" "e") 0) (("sh" "o") 0) (("f" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("rude_ADJ" "ADJ" ((("rh" "y" "d") 0))))
+(lex.add.entry '("massage_NOM" "NOM" ((("m" "a") 0) (("s" "a")0) (("zh" ae) 0))))
+(lex.add.entry '("remua_VER" "VER" ((("rh" "ae") 0) (("m" "hw" "a") 0))))
+(lex.add.entry '("légèrement_ADV" "ADV" ((("l" "e") 0) (("zh" "eh" "rh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("bras_NOM" NOM ((("b" "rh" "a") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("sa_ADJ:pos" "ADJ:pos" ((("s" "a") 0))))
+(lex.add.entry '("respiration_NOM" "NOM" ((("rh" "eh" "s") 0) (("p" "i") 0) (("rh" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("commença_VER" "VER" ((("k" "oh") 0) (("m" "ahn") 0) (("s" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("rétablir_VER" "VER" ((("rh" "e") 0) (("t" "a") 0) (("b" "l" "i" "rh") 0))))
+(lex.add.entry '("d_une_ART:ind" "ART:ind" (((d "y" "n") 0))))
+(lex.add.entry '("façon_NOM" "NOM" ((("f" "a") 0) (("s" "ohn") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("régulière_ADJ" "ADJ" ((("rh" "e") 0) (("g" "y") 0) (("l" "j" "eh" "rh") 0))))
+
+
+(set! text "l'ingénieur, réchauffé par ce rude massage, remua légèrement le bras, et sa respiration commença à se rétablir d'une façon plus régulière.") ; neut_book_s01_0067
+(dSayText text)

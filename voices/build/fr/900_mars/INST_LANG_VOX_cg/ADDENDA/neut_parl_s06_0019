@@ -1,0 +1,15 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("appartient_VER" VER (((z "a") 0) (("p" "a" "rh") 0) (("t" "j" ehn) 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s)0) ((t rh ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("démontrer_VER" VER ((("d" "e") 0) (("m" "ohn") 0) (("t" "rh" "e") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae" m) 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" nil))
+(lex.add.entry '("trompe_VER" "VER" ((("t" "rh" "ohn")0) (("p" ae) 0))))
+
+(set! text "Il vous appartient monsieur le ministre, de démontrer que je me trompe.") ; neut_parl_s06_0019
+(dSayText text)

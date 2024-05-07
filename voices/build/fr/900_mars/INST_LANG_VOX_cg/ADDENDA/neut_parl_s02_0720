@@ -1,0 +1,13 @@
+(lex.add.entry '("l_inverse_VER" "VER" (((l "ehn") 0) (("v" "eh" "rh")0) (("s" "ae") 0))))
+
+
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_inverse_NOM" "NOM" (((l "ehn") 0) (("v" "eh" "rh")0) (("s" "ae") 0))))
+(lex.add.entry '("certains_ADJ:ind" ADJ:ind ((("s" "eh" "rh") 0) (("t" "ehn") 0))))
+(lex.add.entry '("départements_NOM" NOM ((("d" "e") 0) (("p" "a" "rh") 0) (("t" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
+(lex.add.entry '("accueillent_VER" VER (((n "a") 0) (("k" "oe" "j") 0))))
+(lex.add.entry '("aucun_PRO:ind" "PRO:ind" ((("o") 0) (("k" "oen") 0))))
+
+(set! text "à l'inverse, certains départements n'en accueillent aucun.") ; neut_parl_s02_0720
+(dSayText text)

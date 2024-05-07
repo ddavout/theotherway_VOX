@@ -1,0 +1,8 @@
+(lex.add.entry '("leur_ADJ:pos" "ADJ:pos" ((("l" "oe" "rh") 0))))
+(lex.add.entry '("scolarité_NOM" "NOM" ((("s" "k" "oh") 0) (("l" "a") 0) (("rh" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("s_en_PRO:per" PRO:per (((s ahn) 0))))
+(lex.add.entry '("trouve_VER" "VER" ((("t" "rh" "u" "v") 0))))
+(lex.add.entry '("bouleversée_VER" "VER" ((("b" "u" "l") 0) (("v" "eh" "rh") 0) (("s" "e") 0))))
+
+(set! text "Leur scolarité s'en trouve bouleversée.") ; neut_parl_s04_0501
+(dSayText text)

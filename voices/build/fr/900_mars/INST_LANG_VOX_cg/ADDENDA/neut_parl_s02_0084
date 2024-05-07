@@ -1,0 +1,8 @@
+(lex.add.entry '("alors_ADV" "ADV" (((a) 0) ((l oh rh) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o" "z") 0))))
+(lex.add.entry '("l_une_PRO:ind" "PRO:ind" (((l "y")0) (("n" ae) 0)))) ; Q
+
+(set! text "Alors, de deux choses l'une.") ; neut_parl_s02_0084
+(dSayText text)

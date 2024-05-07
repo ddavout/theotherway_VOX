@@ -1,0 +1,13 @@
+(lex.add.entry '("j_espère_VER" VER ((("zh" "eh" "s") 0) (("p" "eh" "rh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("changement_NOM" "NOM" ((("sh" "ahn" "zh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("politique_ADJ" ADJ ((("p" "oh") 0) (("l" "i") 0) (("t" "i") 0) (("k" ae) 0))))
+(lex.add.entry '("n_empêchera_VER" "VER" (((n "ahn") 0) (("p" "eh" sh) 0) (("rh" "a") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("adoption_NOM" "NOM" (((n "a") 0) (("d" "oh" "p") 0) (("s" "j" "ohn") 0))))
+
+(set! text "J'espère que ce changement politique, n'empêchera pas son adoption.") ; 
+(dSayText text); neut_parl_s01_0487
+

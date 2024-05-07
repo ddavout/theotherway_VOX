@@ -1,0 +1,7 @@
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0))))
+(lex.add.entry '("c_est_VER" "VER" ((("s" "e") 0)))); LIA
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("dites-le_VER" VER ((("d" "i" "t") 0)(("l" "ae") 0))))
+
+(set! text "Si c'est oui, dites-le !") ; neut_parl_s02_0172
+(dSayText text)

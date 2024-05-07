@@ -1,0 +1,16 @@
+(lex.add.entry '("toutefois_ADV" "ADV" ((("t" "u" "t") 0) (("f" "w" "a") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("démarche_NOM" "NOM" ((("d" "e") 0) (("m" "a" "rh" "sh") 0))))
+(lex.add.entry '("reste_VER" "VER" ((("rh" "eh" "s") 0) (("t" ae) 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("connue_ADJ" "ADJ" ((("k" "oh") 0) (("n" "y") 0))))
+(lex.add.entry '("et_CON" "CON" (((hw "e") 0))))
+(lex.add.entry '("de_fait_ADV" "ADV" (((d ae) 0) ((f eh) 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("utilisée_VER" "VER" ((("y") 0) (("t" "i") 0) (("l" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("concitoyens_NOM" NOM ((("k" "ohn") 0) (("s" "i") 0) (("t" "w" "a") 0) (("j" "ehn") 0))))
+
+(set! text "Toutefois, cette démarche reste peu connue et de fait, peu utilisée par nos concitoyens."); 
+(dSayText text); neut_parl_s01_0334

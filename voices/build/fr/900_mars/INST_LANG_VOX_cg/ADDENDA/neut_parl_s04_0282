@@ -1,0 +1,11 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("prononcerè_VER" VER ((("p" "rh" "oh") 0) (("n" "ohn") 0) ((s "rh" "eh") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("délai_NOM" "NOM" ((("d" "e") 0) (("l" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("quinze_ADJ:num" "ADJ:num" ((("k" "ehn" "z") 0))))
+(lex.add.entry '("jours_NOM" NOM ((("zh" "u" "rh") 0))))
+
+(dSayText "Il se prononcerait dans un délai de quinze jours.") ; neut_parl_s04_0282

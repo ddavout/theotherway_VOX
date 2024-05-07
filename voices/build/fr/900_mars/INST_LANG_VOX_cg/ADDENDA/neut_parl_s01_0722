@@ -1,0 +1,15 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("remarque_NOM" "NOM" ((("rh" "ae") 0) (("m" "a" "rh") 0) (("k" ae) 0))))
+(lex.add.entry '("vaut_VER" "VER" (((v o) 0))))
+(lex.add.entry '("également_ADV" "ADV" (((t "e") 0) (("g" "a" l) 0) (("m" "ahn") 0)))); LIA
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("l_article_NOM" "NOM" (((l "a" "rh") 0) (("t" "i") 0) (("k" "l" "ae") 0))))
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("bis_NOM" "NOM" (((b i s) 0))))
+(lex.add.entry '("relatif_ADJ" "ADJ" ((("rh" "ae") 0) (("l" "a") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("fonctionnaires_NOM" NOM ((("f" "ohn" "k") 0) (("s" "j" "oh") 0) (("n" "eh" "rh") 0))))
+
+
+(set! text "cette remarque vaut également pour l'article trois bis relatif aux fonctionnaires.") ; 
+(dSayText text); neut_parl_s01_0722

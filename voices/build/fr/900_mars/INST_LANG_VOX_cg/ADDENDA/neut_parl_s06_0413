@@ -1,0 +1,13 @@
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("autant_ADV" "ADV" ((("o") 0) (("t" "ahn") 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_entre_VER" VER ((("n" "ahn") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("protocole_NOM" NOM ((("p" "rh" "oh") 0) (("t" "oh") 0) (("k" "oh" "l") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nagoya_NAM" "NAM" ((("n" "a") 0) (("g" "oh") 0) (("j" "a") 0))))
+
+(dSayText "Pour autant, cela n'entre pas dans le protocole de Nagoya.") ; neut_parl_s06_0413

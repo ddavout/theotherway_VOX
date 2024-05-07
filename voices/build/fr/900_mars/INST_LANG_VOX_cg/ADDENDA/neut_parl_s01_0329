@@ -1,0 +1,15 @@
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("Pires_NAM" NAM ((("p" "i")0) (("rh" e) 0))))
+(lex.add.entry '("Beaune_NAM" "NAM" ((("b" "o")0) (("n" ae) 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("avec_PRE" "PRE" (((t "a") 0) (("v" "eh" "k") 0)))); LIA
+(lex.add.entry '("grand_ADJ" "ADJ" ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("plaisir_NOM" "NOM" ((("p" "l" "e") 0) (("z" "i" "rh") 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("retire_VER" "VER" ((("rh" "ae") 0) (("t" "i" "rh") 0))))
+(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
+(lex.add.entry '("amendement_NOM" "NOM" (((n "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0)))); LIA
+
+(set! text "madame Pires Beaune, c'est avec grand plaisir que je retire mon amendement.") ; 
+(dSayText text); neut_parl_s01_0329

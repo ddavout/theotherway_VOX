@@ -1,0 +1,16 @@
+(set! fileid "neut_book_s01_0093")
+(lex.add.entry '("pencroff_NAM" "NAM" (((p ahn) 0) ((k rh oh f) 0))))
+(lex.add.entry '("demanda_VER" "VER" ((("d" "ae") 0) (("m" "ahn") 0) (("d" "a") 0))))
+(lex.add.entry '("harbert_NAM" NAM ((("a" "rh") 0) (("b" "eh" "rh") 0))))
+(lex.add.entry '("n_as-tu_VER" "VER" ((("n" "a") 0)(("t" "y") 0)))); QT 
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("jeté_VER" "VER" ((("zh" "ae") 0) (("t" "e") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("boite_NOM" "NOM" ((("b" "w" "a" "t") 0))))
+(lex.add.entry '("hors_PRE" "PRE" ((("oh" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("nacelle_NOM" "NOM" ((("n" "a") 0) (("s" "eh")0) (("l" ae) 0))))
+
+(set! text "pencroff demanda harbert, n'as-tu pas jeté cette boîte hors de la nacelle ?") ; neut_book_s01_0093
+(dSayText text)

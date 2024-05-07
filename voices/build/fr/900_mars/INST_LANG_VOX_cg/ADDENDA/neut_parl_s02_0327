@@ -1,0 +1,10 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("logement_NOM" "NOM" ((("l" "oh" "zh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("intermédiaire_ADJ" "ADJ" ((("ehn") 0) (("t" "eh" "rh") 0) (("m" "e") 0) (("d" "j" "eh") 0))))
+(lex.add.entry '("est_VER" "VER" (((rh "eh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
+(lex.add.entry '("bonne_ADJ" "ADJ" ((("b" "oh" "n") 0))))
+(lex.add.entry '("réponse_NOM" "NOM" ((("rh" "e") 0) (("p" "ohn")0) (("s" ae) 0))))
+
+(set! text "Le logement intermédiaire est une bonne réponse.") ; neut_parl_s02_0327
+(dSayText text)

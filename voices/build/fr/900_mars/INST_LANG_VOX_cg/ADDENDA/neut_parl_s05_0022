@@ -1,0 +1,12 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("session_NOM" "NOM" ((("s" "e") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("extraordinaire_ADJ" "ADJ" ((("eh" "k" "s") 0) (("t" "rh" "a") 0) (("oh" "rh") 0) (("d" "i") 0) (("n" "eh" "rh") 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_a_VER" VER ((("n" a) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("autre_ADJ:ind" "ADJ:ind" ((("o" "t") 0))))
+(lex.add.entry '("d_autre_ADJ:ind" "ADJ:ind" (((d  "o" "t") 0))))
+(lex.add.entry '("objet_NOM" "NOM" (((rh "oh" b) 0) (("zh" "eh") 0))))
+
+(dSayText "Cette session, extraordinaire, n'a pas d'autre objet.") ; neut_parl_s05_0022

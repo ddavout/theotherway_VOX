@@ -1,0 +1,15 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("circonstances_NOM" NOM ((("s" "i" "rh") 0) (("k" "ohn" "s") 0) (("t" "ahn" "s") 0))))
+(lex.add.entry '("peuvent_VER" VER ((("p" "eu" "v") 0))))
+(lex.add.entry '("justifier_VER" VER ((("zh" "y" "s") 0) (("t" "i") 0) (("f" "j" "e") 0))))
+(lex.add.entry '("qu_on_PRO:per" "PRO:per" (((k ohn) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("suive_VER" "VER" ((("s" "hw" i "v") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("règle_NOM" "NOM" ((("rh" "eh") 0) (("g" "l" ae) 0))))
+(lex.add.entry '("générale_ADJ" "ADJ" ((("zh" "e") 0) (("n" "e") 0) (("rh" "a" "l") 0))))
+
+; todo triple g l .  zh → g l ae . zh
+(set! text "Les circonstances peuvent justifier qu'on ne suive pas la règle générale.") ; neut_parl_s06_0344
+(dSayText text)

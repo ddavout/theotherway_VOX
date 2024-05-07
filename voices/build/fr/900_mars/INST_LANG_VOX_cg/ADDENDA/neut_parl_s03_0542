@@ -1,0 +1,16 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("touche_VER" "VER" ((("t" "u" "sh") 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("semble-t-il_VER" VER ((("s" "ahn") 0) (("b" "l" ae) 0)(("t" "i" l) 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("coeur_NOM" "NOM" ((("k" "oe" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("responsabilité_NOM" "NOM" ((("rh" "eh" "s") 0) (("p" "ohn") 0) (("s" "a") 0) (("b" "i") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("région_NOM" "NOM" ((("rh" "e") 0) (("zh" "j" "ohn") 0))))
+
+(set! text "On touche là me semble-t-il, au cœur de la responsabilité de la région.") ; neut_parl_s03_0542
+(dSayText text)

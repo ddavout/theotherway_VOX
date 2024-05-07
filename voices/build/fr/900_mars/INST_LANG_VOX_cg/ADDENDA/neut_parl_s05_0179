@@ -1,0 +1,8 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("connais_VER" VER ((("k" "oh") 0) (("n" "eh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("concept_NOM" "NOM" ((("k" "ohn") 0) (("s" "eh" "p")0) (("t" ae) 0))))
+
+(dSayText "Je ne connais pas ce concept.") ; neut_parl_s05_0179

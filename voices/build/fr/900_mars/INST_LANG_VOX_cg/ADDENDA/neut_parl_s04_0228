@@ -1,0 +1,6 @@
+(lex.add.entry '("j_insiste_VER" "VER" (((zh "ehn") 0) (("s" "i" "s")0) (("t" ae) 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("deux_NOM" NOM ((("d" "eu") 0))))
+
+(dSayText "J'insiste sur les deux.") ; neut_parl_s04_0228

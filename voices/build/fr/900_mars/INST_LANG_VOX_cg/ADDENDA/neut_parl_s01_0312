@@ -1,0 +1,15 @@
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("différence_NOM" "NOM" ((("d" "i") 0) (("f" "e") 0) (("rh" "ahn" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("demandee_NOM" "NOM" ((("d" "ae") 0) (("m" "ahn") 0) (("d" "ae") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("demande_NOM" "NOM" ((("d" "ae") 0) (("m" "ahn" "d") 0))))
+(lex.add.entry '("indéterminée_ADJ" "ADJ" ((("ehn") 0) (("d" "e") 0) (("t" "eh" "rh") 0) (("m" "i") 0) (("n" "e") 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("l_un_PRO:ind" "PRO:ind" (((l "oen") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("l_autre_PRO:ind" "PRO:ind" (((l "o") 0) (("t" "rh" "ae") 0))))
+
+(set! text "une différence de demandee, ou une demande indéterminée : c'est l'un ou l'autre") ; 
+(dSayText text); neut_parl_s01_0312

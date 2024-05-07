@@ -1,0 +1,15 @@
+(lex.add.entry '("parce_que_CON" CON (((p a rh) 0) ((s k ae) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("loi_NOM" "NOM" ((("l" "w" "a") 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("sache_VER" "VER" ((("s" "a")0) (("sh" ae) 0))))
+(lex.add.entry '("va_VER" "VER" ((("v" "a") 0))))
+(lex.add.entry '("être_VER" "VER" ((("eh" "t" "rh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("loi_NOM" "NOM" ((("l" "w" "a") 0))))
+(lex.add.entry '("d_ordre_ADJ" ADJ (((d "oh" "rh") 0) (("d" "rh" ae) 0))))
+(lex.add.entry '("public_ADJ" "ADJ" ((("p" "y") 0) (("b" "l" "i" "k") 0))))
+
+(set! text "Parce que cette loi que je sache, va être une loi, d'ordre public.") ; 
+(dSayText text); neut_parl_s01_0582

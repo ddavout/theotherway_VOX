@@ -1,0 +1,9 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((z i l) 0)))); LIA
+(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
+(lex.add.entry '("est_VER" "VER" (((n "e") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("signataire_NOM" "NOM" ((("s" "i") 0) (("jg" "a") 0) (("t" "eh" "rh") 0))))
+
+(set! text "Mais il n'en est pas signataire !") ; neut_parl_s03_0361
+(dSayText text)

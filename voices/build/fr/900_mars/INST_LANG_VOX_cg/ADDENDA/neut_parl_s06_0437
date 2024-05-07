@@ -1,0 +1,10 @@
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("fè_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((( n "oen") 0))))
+(lex.add.entry '("an_NOM" "NOM" ((("ahn") 0))))
+
+(dSayText "Beaucoup a déjà été fait en un an.") ; neut_parl_s06_0437

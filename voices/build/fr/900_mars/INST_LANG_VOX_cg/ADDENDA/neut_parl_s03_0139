@@ -1,0 +1,8 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("processus_NOM" NOM ((("p" "rh" "oh") 0) (("s" "eh") 0) (("s" "y" s) 0))))
+(lex.add.entry '("vertueux_ADJ" "ADJ" ((("v" "eh" "rh") 0) (("t" "y") 0) (("eu") 0))))
+
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "C'est un processus vertueux !") ; neut_parl_s03_0139

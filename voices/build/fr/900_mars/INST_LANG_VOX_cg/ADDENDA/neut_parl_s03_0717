@@ -1,0 +1,11 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("remercie_VER" "VER" ((("rh" "ae") 0) (("m" "eh" "rh") 0) (("s" "i") 0))))
+(lex.add.entry '("tous_ADJ:ind" "ADJ:ind" (((t u) 0))))
+(lex.add.entry '("ceux_PRO:dem" "PRO:dem" ((("s" "eu") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("y_PRO:per" "PRO:per" nil))
+(lex.add.entry '("ont_AUX" "AUX" (((j "ohn") 0))))
+(lex.add.entry '("contribué_VER" "VER" ((("k" "ohn") 0) (("t" "rh" "i") 0) (("b" y)0) (("hw" "e") 0))))
+
+(set! list_exclus*-> (append (list "y") list_exclus*->_default))
+(dSayText "Je remercie tous ceux qui y ont contribué.") ; neut_parl_s03_0717

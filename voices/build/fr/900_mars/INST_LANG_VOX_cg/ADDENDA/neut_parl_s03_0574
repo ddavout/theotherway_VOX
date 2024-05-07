@@ -1,0 +1,9 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("réalité_NOM" "NOM" ((("rh" "e") 0) (("a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("économique_ADJ" "ADJ" ((("e") 0) (("k" "oh") 0) (("n" "oh") 0) (("m" "i" "k") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("autre_ADJ" "ADJ" ((("o")0) (("t" "rh" "ae") 0))))
+
+(set! never_exception_list (append (list "tout") never_exception_list_default))
+(dSayText "La réalité économique est tout autre.") ; neut_parl_s03_0574

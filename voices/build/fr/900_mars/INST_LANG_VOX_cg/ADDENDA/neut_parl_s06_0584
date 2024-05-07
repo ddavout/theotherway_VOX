@@ -1,0 +1,13 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("troubles_NOM" NOM ((("t" "rh" "u") 0)(("b" "l" ae) 0))))
+(lex.add.entry '("aucun_ADJ:ind" "ADJ:ind" ((("o") 0) (("k" "oen") 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("souhaité_VER" VER ((("s" "w" "e") 0) (("t" "e") 0))))
+(lex.add.entry '("les_PRO:per" "PRO:per" ((("l" "e") 0))))
+(lex.add.entry '("voir_VER" "VER" ((("v" "w" "a" "rh") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("reproduire_VER" "VER" ((("rh" "ae") 0) (("p" "rh" "oh") 0) (("d" "hw" i "rh") 0))))
+
+(dSayText "Ces troubles, aucun gouvernement ne peut souhaiter les voir se reproduire.") ; neut_parl_s06_0584

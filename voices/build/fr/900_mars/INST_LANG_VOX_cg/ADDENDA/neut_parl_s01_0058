@@ -1,0 +1,10 @@
+(lex.add.entry '("franchement_ADV" "ADV" ((("f" "rh" "ahn" "sh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+(lex.add.entry '("serait_VER" "VER" ((("s" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("d_assez_ADV" ADV (((d "a") 0) (("s" "e") 0))))
+(lex.add.entry '("médiocre_ADJ" "ADJ" ((("m" "e") 0) (("d" "j" "oh" "k" "rh") 0))))
+(lex.add.entry '("qualité_NOM" "NOM" ((("k" "a") 0) (("l" "i") 0) (("t" "e") 0))))
+
+(set! text "franchement, le débat serait d'assez médiocre qualité.") ; neut_parl_s01_0058
+(dSayText text)

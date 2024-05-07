@@ -1,0 +1,12 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("consommateurs_NOM" NOM ((("k" "ohn") 0) (("s" "oh") 0) (("m" "a") 0) (("t" "oe" "rh") 0))))
+(lex.add.entry '("attendent_VER" VER ((("a") 0) (("t" "ahn" "d") 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("domaine_NOM" "NOM" ((("d" "oh") 0) (("m" "eh" "n") 0))))
+(set! list_exclus*-> (append (list "consommateurs") list_exclus*->_default))
+
+(dSayText "Les consommateurs attendent beaucoup de nous dans ce domaine.") ; neut_parl_s04_0245

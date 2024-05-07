@@ -1,0 +1,14 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("définitions_NOM" NOM ((("d" "e") 0) (("f" "i") 0) (("n" "i") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("européennes_ADJ" ADJ ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("eh")0) (("n" ae) 0))))
+(lex.add.entry '("peuvent_VER" VER ((("p" "eu" "v") 0))))
+(lex.add.entry '("parfois_ADV" ADV ((("p" "a" "rh") 0) (("f" "w" "a") 0))))
+(lex.add.entry '("avoir_VER" "VER" ((("a") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("bon_NOM" "NOM" ((("b" "ohn") 0))))
+
+(set! list_exclus*-> (append (list "parfois") list_exclus*->_default))
+
+
+(set! never_exception_list (append (list "définitions"  ) never_exception_list_default))
+(dSayText "Ces définitions européennes, peuvent parfois avoir du bon.") ; neut_parl_s04_0264

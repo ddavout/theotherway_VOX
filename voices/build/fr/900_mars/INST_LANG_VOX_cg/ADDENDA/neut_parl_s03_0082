@@ -1,0 +1,9 @@
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh" "rh") 0))))
+(lex.add.entry '("personnellement_ADV" "ADV" ((("p" "eh" "rh") 0) (("s" "oh") 0) (("n" "eh" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("m_PRO:per" "PRO:per" nil))
+(lex.add.entry '("m_interroge_VER" "VER" (((m "ehn") 0) (("t" "eh") 0) (("rh" "oh" "zh") 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+
+(dSayText "Là encore personnellement, je m'interroge beaucoup.") ; neut_parl_s03_0082

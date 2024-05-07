@@ -1,0 +1,9 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("y_ADV" "ADV" (((z i) 0)))) ; LIA
+(lex.add.entry '("veillerons_VER" VER ((("v" "eh") 0) (("j" "ae") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("entendu_ADJ" ADJ (((n "ahn") 0) (("t" "ahn") 0) (("d" "y") 0)))); LIA
+
+
+(set! text "Nous y veillerons, bien entendu.") ; 
+(dSayText text); neut_parl_s01_0716

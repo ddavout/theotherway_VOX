@@ -1,0 +1,11 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("première_NOM" "NOM" ((("p" "rh" "ae") 0) (("m" "j" "eh" "rh") 0))))
+(lex.add.entry '("concerne_VER" "VER" ((("k" "ohn") 0) (("s" "eh" "rh" "n") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("évolutions_NOM" NOM (((z "e") 0) (("v" "oh") 0) (("l" "y") 0) (("s" "j" "ohn") 0)))); LIA
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0)))); no LIA
+(lex.add.entry '("niveau_NOM" "NOM" ((("n" "i") 0) (("v" "o") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+
+(set! text "La première concerne les évolutions au niveau européen.") ; 
+(dSayText text); neut_parl_s01_0413

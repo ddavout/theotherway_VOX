@@ -1,0 +1,8 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("situation_NOM" "NOM" ((("s" "i") 0) (("t" "hw" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("préoccupante_ADJ" "ADJ" ((("p" "rh" "e") 0) (("oh") 0) (("k" "y") 0) (("p" "ahn" "t") 0))))
+
+(lex.add.entry '("préoccupante" ADJ ((("p" "rh" "eh") 0) (("oh") 0) (("k" "y") 0) (("p" "ahn")0) (("t" ae) 0))))
+(dSayText "Cette situation est très préoccupante.") ; neut_parl_s05_0144

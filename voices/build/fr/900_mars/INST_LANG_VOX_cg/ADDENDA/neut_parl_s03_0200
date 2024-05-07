@@ -1,0 +1,11 @@
+(lex.add.entry '("vingt_cinq_ADJ:num" "ADJ:num" (((v ehn t) 0) ((s ehn) 0))))
+(lex.add.entry '("ans_NOM" NOM (((k "ahn") 0)))); LIA
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("pénibilité_NOM" "NOM" ((("p" "e") 0) (("n" "i") 0) (("b" "i") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+
+
+(set! text "Vingt-cinq ans de pénibilité, c'est déjà beaucoup.") ; neut_parl_s03_0200
+(dSayText text)

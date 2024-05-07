@@ -1,0 +1,20 @@
+; Je moche
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("prends_VER" VER ((("p" "rh" "ahn") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("exemple_NOM" NOM ((("eh" "g") 0) (("z" "ahn") 0) (("p" "l" ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("secteur_NOM" "NOM" ((("s" "eh" "k") 0) (("t" "oe" "rh") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("Bière_NAM" "NAM" ((("b" "j" "eh" "rh") 0))))
+(lex.add.entry '("Bière_NOM" "NOM" ((("b" "j" "eh" "rh") 0)))); confusion
+
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("nord_NOM" "NOM" ((("n" "oh" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("fontainebleau_NAM" "NAM" (((f ohn) 0) ((t eh n) 0) ((b l o) 0))))
+
+(set! text "Je prends pour exemple le secteur du Pays de Bière, au nord de Fontainebleau.") ; 
+(dSayText text); neut_parl_s01_0433

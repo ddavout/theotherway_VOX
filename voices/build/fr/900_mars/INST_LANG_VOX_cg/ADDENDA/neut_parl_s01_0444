@@ -1,0 +1,13 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("empêche_VER" "VER" ((("ahn") 0) (("p" "eh" "sh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("gens_NOM" "NOM" (((zh ahn) 0))))
+(lex.add.entry '("d_être_AUX" "AUX" (((d "eh") 0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("stabilisés_VER" "VER" ((("s" "t" "a") 0) (("b" "i") 0) (("l" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("leur_ADJ:pos" "ADJ:pos" ((("l" "oe" "rh") 0))))
+(lex.add.entry '("emploi_NOM" "NOM" ((("ahn") 0) (("p" "l" "w" "a") 0))))
+
+(set! text "Cela empêche les gens d'être stabilisés dans leur emploi.") ; 
+(dSayText text); neut_parl_s01_0444
+

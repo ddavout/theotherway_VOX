@@ -1,0 +1,10 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("jeu_NOM" "NOM" ((("zh" "eu") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("vaut-il_VER" "VER" (((v o) 0)(("t" "i" l) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("chandelle_NOM" "NOM" ((("sh" "ahn") 0) (("d" "eh") 0) (("l" "ae") 0))))
+
+
+(dSayText "Le jeu, en vaut-il la chandelle ?") ; emph_parl_s01_0365
+

@@ -1,0 +1,13 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("suis_AUX" AUX ((("s" "hw" "i") 0))))
+(lex.add.entry '("convaincu_VER" "VER" ((("k" "ohn") 0) (("v" "ehn") 0) (("k" "y") 0))))
+(lex.add.entry '("qu_on_PRO:per" "PRO:per" (((k ohn) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("reprocherait_VER" VER ((("rh" "ae") 0) (("p" "rh" "oh" sh) 0)(("rh" "eh") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("terrain_NOM" "NOM" ((("t" "eh") 0) (("rh" "ehn") 0))))
+
+(set! text "Je suis convaincu, qu'on nous le reprocherait sur le terrain.") ; neut_parl_s05_0012
+(dSayText text)

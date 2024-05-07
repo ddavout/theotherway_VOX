@@ -1,0 +1,15 @@
+(lex.add.entry '("or_NOM" "NOM" ((("oh" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("logement_NOM" "NOM" ((("l" "oh" "zh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("bâtiment_NOM" "NOM" ((("b" "a") 0) (("t" "i") 0) (("m" "ahn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("construction_NOM" "NOM" ((("k" "ohn" "s") 0) (("t" "rh" "y" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("entrent_VER" VER ((("ahn") 0) (("t" "rh" ae) 0)))); no LIA
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((z "y" "n") 0))))
+(lex.add.entry '("crise_NOM" "NOM" ((("k" "rh" "i" "z") 0))))
+(lex.add.entry '("grave_ADJ" "ADJ" ((("g" "rh" "a")0) (("v" ae) 0))))
+
+(set! text "Or le logement, le bâtiment, la construction entrent dans une crise grave.") ; neut_parl_s02_0156
+(dSayText text)

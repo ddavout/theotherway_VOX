@@ -1,0 +1,8 @@
+(lex.add.entry '("tout_ADV" "ADV" (((t u l) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" nil))
+(lex.add.entry '("monde_NOM" "NOM" ((("m" "ohn" "d") 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("oublié_VER" "VER" ((("u") 0) (("b" "l" "j" "e") 0))))
+
+(dSayText "Tout le monde l'a oublié !") ; neut_parl_s03_0061

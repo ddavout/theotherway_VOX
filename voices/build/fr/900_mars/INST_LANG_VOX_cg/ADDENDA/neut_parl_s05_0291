@@ -1,0 +1,7 @@
+(lex.add.entry '("rien_PRO:ind" "PRO:ind" ((("rh" "j" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("tel_PRO:ind" "PRO:ind" ((("t" "eh" "l") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("europe_NAM" "NAM" (((oe) 0) ((rh oh "p") 0))))
+
+(dSayText "Rien de tel en Europe.") ; neut_parl_s05_0291

@@ -1,0 +1,11 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh" "rh") 0))))
+(lex.add.entry '("précisé_VER" VER ((("p" "rh" "e") 0) (("s" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("sous-tend_VER" "VER" ((("s" "u") 0) (("t" "ahn") 0))))
+
+(set! never_exception_list (append (list "doit" ) never_exception_list_default))
+(dSayText "Il doit encore préciser ce que cela sous-tend.") ; neut_parl_s05_0268

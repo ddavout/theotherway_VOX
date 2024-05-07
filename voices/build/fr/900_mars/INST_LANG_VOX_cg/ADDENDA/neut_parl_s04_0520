@@ -1,0 +1,11 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("menons_VER" VER ((("m" "ae") 0) (("n" "ohn") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("politique_NOM" "NOM" ((("p" "oh") 0) (("l" "i") 0) (("t" "i" "k") 0))))
+(lex.add.entry '("familiale_ADJ" "ADJ" ((("f" "a") 0) (("m" "i") 0) (("l" "j" "a" "l") 0))))
+(lex.add.entry '("dynamique_ADJ" "ADJ" ((("d" "i") 0) (("n" "a") 0) (("m" "i" "k") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("juste_ADJ" "ADJ" ((("zh" "y" "s" "t") 0))))
+
+(set! list_exclus*-> (append (list "menons") list_exclus*->_default))
+(dSayText "Nous menons une politique familiale dynamique et juste.") ; neut_parl_s04_0520

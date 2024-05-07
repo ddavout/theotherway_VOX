@@ -1,0 +1,11 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("méthodique_ADJ" ADJ ((("m" "e") 0) (("t" "oh") 0) (("d" "i" "k") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("mené_VER" "VER" ((("m" "ae") 0) (("n" "e") 0))))
+
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "C'est un travail méthodique, qui est mené.") ; neut_parl_s02_0673

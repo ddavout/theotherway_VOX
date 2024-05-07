@@ -1,0 +1,9 @@
+(lex.add.entry '("Un_PRO:ind" PRO:ind ((("oen") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("mémoire_NOM" "NOM" ((("m" "e") 0) (("m" "w" "a" "rh") 0))))
+(lex.add.entry '("tout_PRO:ind" "PRO:ind" ((("t" "u" d) 0))))
+(lex.add.entry '("dehh_PRE" "PRE" nil))
+(lex.add.entry '("même_ADJ" "ADJ" ((("m" "eh" "m") 0))))
+
+(dSayText "Un peu de mémoire tout de même !") ; neut_parl_s03_0416

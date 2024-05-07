@@ -1,0 +1,20 @@
+(lex.add.entry '("quand_PRO:int" PRO:int (((k ahn) 0)))); confusion
+(lex.add.entry '("quand_CON" CON (((k ahn) 0)))); confusion
+
+; dramatique
+(lex.add.entry '("quand" nil (((k ahn) 0)))); confusion
+(lex.add.entry '("un_ART:ind" ART:ind (((t "oen") 0))))
+(lex.add.entry '("décès_NOM" NOM ((("d" "e") 0) (("s" "eh") 0))))
+(lex.add.entry '("touche_VER" "VER" ((("t" "u" "sh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("famille__NOM" "NOM" ((("f" "a") 0) (("m" "i")0) (("j" ae) 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("dramatique_ADJ" "ADJ" ((("d" "rh" "a") 0) (("m" "a") 0) (("t" "i") 0)))) ; Q
+(lex.add.entry '("quelle_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("soit_VER" "VER" ((("s" "w" "a") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("famille_NOM" "NOM" ((("f" "a") 0) (("m" "i" j) 0))))
+
+(set! text "Quand un décès touche une famille, c'est dramatique, quelle que soit la famille.") ; neut_parl_s04_0668
+(dSayText text)

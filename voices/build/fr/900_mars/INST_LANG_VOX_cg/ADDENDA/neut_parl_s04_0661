@@ -1,0 +1,10 @@
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("écotaxe_ADJ" "ADJ" ((("e") 0) (("k" "oh") 0) (("t" "a" "k")0) (("s" ae) 0))))
+(lex.add.entry '("poids_NOM" NOM ((("p" "w" "a") 0))))
+(lex.add.entry '("lourds_ADJ" ADJ ((("l" "u" "rh") 0))))
+(lex.add.entry '("sera_AUX" "AUX" ((("s" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("mise_VER" VER ((("m" "i") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((z ahn) 0))))
+(lex.add.entry '("oeuvre_NOM" "NOM" ((("oe")0) (("v" "rh" ae) 0))))
+
+(dSayText "Une écotaxe poids lourds, sera mise en œuvre.") ; neut_parl_s04_0661

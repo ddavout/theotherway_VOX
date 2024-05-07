@@ -1,0 +1,9 @@
+(lex.add.entry '("j_ai_VER" "VER" (((zh eh) 0))))
+(lex.add.entry '("quant_à" nil (((k ahn) 0) ((t a) 0))))
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("avis_NOM" NOM (((n"a") 0) (("v" "i") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("sagesse_NOM" "NOM" ((("s" "a") 0) (("zh" "eh" "s") 0))))
+
+(dSayText "J'ai quant à moi un avis de sagesse.") ; neut_parl_s03_0149

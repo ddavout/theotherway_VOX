@@ -1,0 +1,19 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("pensons_VER" VER ((("p" "ahn") 0) (("s" "ohn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((z a) 0)))); LIA
+(lex.add.entry '("eux_PRO:per" "PRO:per" ((("eu") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("pensons_VER" VER ((("p" "ahn") 0) (("s" "ohn") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0)))) ; no LIA moche
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("familles_NOM" NOM ((("f" "a") 0) (("m" "i" "j") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("proches_NOM" NOM ((("p" "rh" "oh" "sh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("deuil_NOM" "NOM" ((("d" "oe" "j") 0))))
+
+
+(set! text "Nous pensons à eux, et nous pensons aussi aux familles et aux proches en deuil.") ; 
+(dSayText text); neut_parl_s01_0706

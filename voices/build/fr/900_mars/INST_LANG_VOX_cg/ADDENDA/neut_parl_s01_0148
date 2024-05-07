@@ -1,0 +1,15 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("date_NOM" "NOM" ((("d" "a" "t") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("premier_NOM" NOM ((("p" "rh" "ae") 0) (("m" "j" "e") 0))))
+(lex.add.entry '("janvier_NOM" "NOM" ((("zh" "ahn") 0) (("v" "j" "e") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("mille_ADJ:num" ADJ:num ((("m" "i" "l") 0))))
+(lex.add.entry '("quatorze_NOM" NOM ((("k" "a") 0) (("t" "oh" "rh") 0) (("z" ae) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("trop_ADV" "ADV" ((("t" "rh" "o") 0))))
+(lex.add.entry '("proche_ADJ" "ADJ" ((("p" "rh" "oh" "sh") 0))))
+
+
+(set! text "la date du premier janvier deux mille quatorze est trop proche.") ; 
+(dSayText text); neut_parl_s01_0148

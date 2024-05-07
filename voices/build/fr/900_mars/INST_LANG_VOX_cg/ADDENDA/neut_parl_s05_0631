@@ -1,0 +1,13 @@
+(lex.add.entry '("eux_PRO:per" "PRO:per" ((("eu") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("veulent_VER" VER ((("v" "oe" "l") 0))))
+(lex.add.entry '("exporté_VER" VER ((("eh" "k" "s") 0) (("p" "oh" "rh") 0) (("t" "e") 0))))
+(lex.add.entry '("leurs_ADJ:pos" ADJ:pos ((("l" "oe" "rh") 0))))
+(lex.add.entry '("produits_NOM" NOM ((("p" "rh" "oh") 0) (("d" "hw" "i") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("europe_NAM" "NAM" (((oe) 0) ((rh oh)0) (("p" ae) 0))))
+
+
+(set! list_exclus*-> (append (list "eux" "produits") list_exclus*->_default))
+(set! never_exception_list (append (list "veulent" ) never_exception_list_default))
+(dSayText "Eux aussi veulent exporter leurs produits en Europe.") ; neut_parl_s05_0631

@@ -1,0 +1,10 @@
+; Je Moche
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("m_en_PRO:per" PRO:per ((("m" ahn) 0))))
+(lex.add.entry '("réjouis_VER" VER ((("rh" "e") 0) (("zh" "w" "i") 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s)0) ((t rh ae) 0))))
+
+(set! text "je m'en réjouis, monsieur le ministre.")  ; 
+(dSayText text); neut_parl_s01_0164

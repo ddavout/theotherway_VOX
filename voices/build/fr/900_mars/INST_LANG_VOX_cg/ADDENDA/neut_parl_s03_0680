@@ -1,0 +1,10 @@
+(lex.add.entry '("eh_bien" ONO (((e) 0) ((b j ehn) 0))))
+(lex.add.entry '("mes_ADJ:pos" "ADJ:pos" ((("m" "e") 0))))
+(lex.add.entry '("chers_ADJ" ADJ ((("sh" "eh" "rh") 0))))
+(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh")0) (("g" ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("réponse_NOM" "NOM" ((("rh" "e") 0) (("p" "ohn") 0))))
+(lex.add.entry '("est_VER" "VER" (((s "e") 0))))
+(lex.add.entry '("oui_ADV" ADV ((("u")0) (("i") 0))));
+
+(dSayText "Eh bien mes chers collègues, la réponse est oui.") ; neut_parl_s03_0680

@@ -1,0 +1,15 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("construit_VER" "VER" ((("k" "ohn" "s") 0) (("t" "rh" "hw" i) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("régions_NOM" NOM ((("rh" "e") 0) (("zh" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("demain_NOM" NOM ((("d" "ae") 0) (("m" "ehn") 0))))
+(lex.add.entry '("uniquement_ADV" "ADV" ((("y") 0) (("n" "i" k) 0) (("m" "ahn") 0))))
+(lex.add.entry '("sur_ADJ" ADJ ((("s" "y" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("nostalgie_NOM" "NOM" ((("n" "oh" "s") 0) (("t" "a" "l") 0) (("zh" "i") 0))))
+
+(dSayText "On ne construit pas les régions de demain uniquement sur de la nostalgie.") ; neut_parl_s04_0424

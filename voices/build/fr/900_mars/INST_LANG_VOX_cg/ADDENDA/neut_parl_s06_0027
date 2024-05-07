@@ -1,0 +1,11 @@
+
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("n_avons_VER" VER ((("n" "a") 0) (("v" "ohn") 0))))
+(lex.add.entry '("toujours_ADV" "ADV" ((("t" "u") 0) (("zh" "u" "rh") 0))))
+(lex.add.entry '("pas_ADV" "ADV" ((("p" "a") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("don_NOM" "NOM" ((("d" "ohn") 0))))
+(lex.add.entry '("d_ubiquité_ADJ" "ADJ" (((d "y") 0) (("b" "i") 0) (("k" hw "i") 0) (("t" "e") 0))))
+
+(set! text "Nous n'avons, toujours, pas le don d'ubiquité.") ; neut_parl_s06_0027
+(dSayText text)

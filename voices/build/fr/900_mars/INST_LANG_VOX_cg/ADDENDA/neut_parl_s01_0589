@@ -1,0 +1,13 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("fait_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("tout_de_même_ADV" "ADV" (((t u)0)((d ae)0)(("m" "eh" "m") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("demi_ADJ" "ADJ" ((("d" "ae") 0) (("m" "i") 0)))) ; done i - j oe
+(lex.add.entry '("heure_NOM" "NOM" ((("oe" "rh") 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("écoutons_VER" VER (((z "e") 0) (("k" "u") 0) (("t" "ohn") 0)))); LIA
+
+(set! text "Cela fait tout de même, une demi-heure que nous vous écoutons.") ; 
+(dSayText text); neut_parl_s01_0589

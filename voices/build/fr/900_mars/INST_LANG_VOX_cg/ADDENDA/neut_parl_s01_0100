@@ -1,0 +1,20 @@
+;/!\ bruit après désormais
+(set! fileid "neut_book_s01_0100")
+
+(lex.add.entry '("désormais_ADV" ADV ((("d" "e") 0) (("z" "oh" "rh") 0) (("m" "eh") 0))))
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("devra_VER" "VER" ((("d" "ae") 0) (("v" "rh" "a") 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("avances_NOM" NOM (((z "a") 0) (("v" "ahn" "s") 0)))) ; LIA
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_état_NOM" "NOM" (((l "e") 0) (("t" "a") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("sécurité_NOM" "NOM" ((("s" "e") 0) (("k" "y") 0) (("rh" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("sociale_ADJ" "ADJ" ((("s" "oh") 0) (("s" "j" "a")0) (("l" ae) 0))))
+
+
+(set! text "désormais, elle devra faire des avances à l'état, et à la sécurité sociale.") ; neut_parl_s01_0100
+(dSayText text)

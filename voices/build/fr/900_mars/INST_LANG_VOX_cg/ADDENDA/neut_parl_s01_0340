@@ -1,0 +1,10 @@
+(lex.add.entry '("soyons_VER" VER ((("s" "w" "a") 0) (("j" "ohn") 0))))
+(lex.add.entry '("fiers_ADJ" ADJ ((("f" "j" "j" "eh" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("relever_VER" VER ((("rh" "ae" l) 0) (("v" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("grands_ADJ" ADJ ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("défis_NOM" NOM ((("d" "e") 0) (("f" "i") 0))))
+
+(set! text "soyons fiers de relever de grands défis !") ; 
+(dSayText text); neut_parl_s01_0340

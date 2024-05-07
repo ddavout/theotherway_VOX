@@ -1,0 +1,11 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("bonne_ADJ" "ADJ" ((("b" "oh" "n") 0))))
+(lex.add.entry '("chose_NOM" "NOM" (((sh o z) 0))))
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s)0) ((t rh ae) 0))))
+
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "C'est une bonne chose madame la ministre !") ; neut_parl_s05_0548

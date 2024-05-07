@@ -1,0 +1,10 @@
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("amendement_NOM" "NOM" (((t "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("vise_VER" "VER" ((("v" "i" "z") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("évidemment_ADV" "ADV" (((n "e") 0) (("v" "i") 0) (("d" "a") 0) (("m" "ahn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0)))); no LIA
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("supprimer_VER" VER ((("s" "y") 0) (("p" "rh" "i") 0) (("m" "e") 0))))
+
+(dSayText "Cet amendement vise bien évidemment à le supprimer.") ; neut_parl_s05_0279

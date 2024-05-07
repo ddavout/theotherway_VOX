@@ -1,0 +1,14 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("m_en_PRO:per" PRO:per ((("m" ahn) 0))))
+(lex.add.entry '("réjouis_VER" VER ((("rh" "e") 0) (("zh" "w" "i") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("sûr_ADJ" "ADJ" ((("s" "y" "rh") 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((t "o") 0)))); LIA
+(lex.add.entry '("coeur_NOM" "NOM" ((("k" "oe" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t") 0))))
+(lex.add.entry '("histoire_NOM" "NOM" ((("t" "rh" "i" "s") 0) (("t" "w" "a" "rh") 0))))
+
+(set! text "Je m'en réjouis, bien sûr : c'est au cœur de notre histoire.") ; neut_parl_s06_0176
+(dSayText text)

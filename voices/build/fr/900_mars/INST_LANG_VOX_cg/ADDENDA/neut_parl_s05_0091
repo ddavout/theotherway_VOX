@@ -1,0 +1,18 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("abord_ADV" "ADV" ((("a") 0) (("b" "oh" "rh") 0))))
+(lex.add.entry '("alain_NAM" "NAM" (((a) 0) ((l ehn) 0))))
+(lex.add.entry '("Savary_CON" CON ((("s" "a") 0) (("v" "a") 0) (("rh" "i") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("ensuite_ADV" "ADV" ((("ahn") 0) (("s" "hw" i "t") 0))))
+(lex.add.entry '("lionel_NAM" "NAM" ((("l" "j" "oh") 0) (("n" "eh" "l") 0))))
+(lex.add.entry '("jospin_NAM" "NAM" (((zh oh s) 0) ((p ehn) 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+(lex.add.entry '("Jack_NAM" NAM (((d zh a k) 0))))
+(lex.add.entry '("lang_NAM" "NAM" ((("l" "ahn")0) (("g" ae) 0))))
+
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "C'est d'abord Alain Savary, c'est ensuite Lionel Jospin, c'est enfin Jack Lang.") ; neut_parl_s05_0091

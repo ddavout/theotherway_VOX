@@ -1,0 +1,15 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("telle_ADJ:ind" "ADJ:ind" ((("t" "eh" "l") 0))))
+(lex.add.entry '("fuite_NOM" "NOM" ((("f" "hw" i) 0))))
+(lex.add.entry '("en_avant_ADV" "ADV" (((t ahn) 0) ((n a) 0) ((v ahn) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("résout_VER" "VER" ((("rh" "e") 0) (("z" "u") 0))))
+(lex.add.entry '("aucun_PRO:ind" PRO:ind ((("o") 0) (("k" "oen") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("problèmes_NOM" NOM ((("p" "rh" "oh") 0) (("b" "l" "eh" "m") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("fond_NOM" "NOM" ((("f" "ohn") 0))))
+
+(set! list_exclus*-> (append (list "mais") list_exclus*->_default))
+(dSayText "Mais une telle fuite en avant, ne résout, aucun des problèmes de fond.") ; neut_parl_s04_0311

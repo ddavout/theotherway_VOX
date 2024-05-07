@@ -1,0 +1,15 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("couples_NOM" NOM ((("k" "u")0) (("p" "l" ae) 0))))
+(lex.add.entry '("doivent_VER" VER ((("d" "w" "a" "v") 0))))
+(lex.add.entry '("pouvoir_VER" "VER" ((("p" "u") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("organisé_VER" VER ((("oh" "rh") 0) (("g" "a") 0) (("n" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("leur_ADJ:pos" "ADJ:pos" ((("l" "oe" "rh") 0))))
+(lex.add.entry '("vie_NOM" "NOM" ((("v" "i") 0))))
+(lex.add.entry '("commune_ADJ" "ADJ" ((("k" "oh") 0) (("m" "y")0) (("n" ae) 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+; bis (lex.add.entry '("couples_NOM" NOM ((("k" "u" "p" "l") 0))))
+(lex.add.entry '("hétérosexuels_ADJ" ADJ ((("e") 0) (("t" "e") 0) (("rh" "o") 0) (("s" "eh" "k") 0) (("s" "hw" "eh")0) (("l" ae) 0))))
+
+(set! list_exclus*-> (append (list "couples") list_exclus*->_default))
+(dSayText "Ces couples, doivent pouvoir organiser leur vie commune, comme les couples hétérosexuels.") ; neut_parl_s05_0724

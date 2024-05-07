@@ -1,0 +1,8 @@
+(lex.add.entry '("quelles_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0))))
+(lex.add.entry '("lignes_NOM" NOM ((("l" "i") 0))))
+(lex.add.entry '("allez-vous_VER" VER (((jg "a") 0) (("l" "e") 0)((v u) 0))))
+(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh") 0)))); no LIA
+(lex.add.entry '("ajouter_VER" VER (((rh "a") 0) (("zh" "u") 0) (("t" "e") 0))))
+
+(set! text "Quelles lignes allez-vous encore ajouter ?") ; neut_parl_s04_0111
+(dSayText text)

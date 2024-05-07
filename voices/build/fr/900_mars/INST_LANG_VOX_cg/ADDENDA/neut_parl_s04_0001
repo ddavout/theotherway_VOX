@@ -1,0 +1,9 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("soutien_NOM" "NOM" ((("s" "u") 0) (("t" "j" "ehn") 0))))
+(lex.add.entry '("unanime_ADJ" "ADJ" ((("y") 0) (("n" "a") 0) (("n" "i")0)(("m" ae) 0))))
+(lex.add.entry '("masque_VER" "VER" ((("m" "a" "s" "k") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("indifférence_NOM" "NOM" ((("ehn") 0) (("d" "i") 0) (("f" "e") 0) (("rh" "ahn" "s") 0))))
+(lex.add.entry '("générale_ADJ" "ADJ" ((("zh" "e") 0) (("n" "e") 0) (("rh" "a")0)(("l" ae) 0))))
+
+(dSayText "Le soutien unanime, masque une indifférence générale.") ; neut_parl_s04_0001

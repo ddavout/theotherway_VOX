@@ -1,0 +1,9 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("budget_NOM" "NOM" ((("b" "y" "d") 0) (("zh" "eh") 0))))
+(lex.add.entry '("est-il_VER" "VER" ((("eh") 0)(("t" "i" l) 0))))
+(lex.add.entry '("sincère_ADJ" "ADJ" ((("s" "ehn") 0) (("s" "eh" "rh") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+(set! text "Ce budget est-il sincère ou pas ?") ; neut_parl_s04_0180
+(dSayText text)

@@ -1,0 +1,12 @@
+(lex.add.entry '("Retraites_NOM" NOM ((("rh" "ae") 0) (("t" "rh" "eh" "t") 0))))
+(lex.add.entry '("groupe_VER" "VER" ((("g" "rh" "u" "p") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("union_NOM" "NOM" ((("y") 0) (("n" "j" "ohn") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("mouvement_NOM" "NOM" ((("m" "u" v) 0) (("m" "ahn") 0))))
+(lex.add.entry '("populaire_ADJ" "ADJ" ((("p" "o") 0) (("p" "y") 0) (("l" "eh" "rh") 0))))
+
+(set! list_exclus*-> (append (list "pour") list_exclus*->_default))
+(dSayText "Retraites groupe de l'Union pour un mouvement populaire.") ; neut_parl_s06_0144

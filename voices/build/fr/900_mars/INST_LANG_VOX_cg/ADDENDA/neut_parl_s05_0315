@@ -1,0 +1,11 @@
+(lex.add.entry '("Vérifiez_VER" VER ((("v" "e") 0) (("rh" "i") 0) (("f" "j" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("vous-mêmes_PRO:per" "PRO:per" (((v u) 0)(("m" "eh" "m") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
+(lex.add.entry '("a_AUX" "AUX" (((n "a") 0))))
+(lex.add.entry '("rien_PRO:ind" "PRO:ind" ((("rh" "j" "ehn") 0)))); LIA
+(lex.add.entry '("été_VER" "VER" (((n "e") 0) (("t" "e") 0))))
+
+(set! text "Vérifiez par vous-mêmes : il n'en a rien été.") ; neut_parl_s05_0315
+(dSayText text)

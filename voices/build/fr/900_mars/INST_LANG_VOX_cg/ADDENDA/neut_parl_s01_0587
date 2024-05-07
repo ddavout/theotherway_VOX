@@ -1,0 +1,11 @@
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("marie_françoise_NAM" "NAM" (((m a) 0) ((rh i) 0) ((f rh ahn) 0) ((s w a z) 0))))
+(lex.add.entry '("bechtel_NAM" "NAM" ((("b" "eh" "sh") 0) (("t" "eh" "l") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("Jean_Luc_NAM" "NAM" (((zh ahn) 0) ((l y k) 0))))
+(lex.add.entry '("laurent_NAM" "NAM" (((l oh) 0) ((rh ahn) 0))))
+
+
+(set! text "Madame Marie-Françoise Bechtel et Monsieur Jean-Luc Laurent .") ; 
+(dSayText text); neut_parl_s01_0587

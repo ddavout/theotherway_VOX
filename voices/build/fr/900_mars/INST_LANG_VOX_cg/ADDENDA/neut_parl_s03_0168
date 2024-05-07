@@ -1,0 +1,11 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("fonds_NOM" NOM ((("f" "ohn") 0))))
+(lex.add.entry '("européens_ADJ" ADJ ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("pourront_VER" VER ((("p" "u") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("également_ADV" "ADV" ((("e") 0) (("g" "a" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("être_VER" "VER" ((("eh")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("mobilisés_VER" VER ((("m" "oh") 0) (("b" "i") 0) (("l" "i") 0) (("z" "e") 0))))
+
+(set! list_exclus*-> (append (list "également") list_exclus*->_default)); todo ADV 3 syll
+(set! never_exception_list (append (list "fonds" "pourront" ) never_exception_list_default))
+(dSayText "Les fonds européens pourront également être mobilisés.") ; neut_parl_s03_0168

@@ -1,0 +1,13 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("décidé_VER" "VER" ((("d" "e") 0) (("s" "i") 0) (("d" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("marseille_NAM" "NAM" (((m a rh) 0) ((s eh j) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("priorité_NOM" "NOM" ((("p" "rh" i) 0) (("j" "oh") 0) (("rh" "i") 0) (("t" "e") 0))))
+
+(set! text "ce gouvernement a décidé de faire de marseille une priorité.") ; neut_parl_s01_0043
+(dSayText text)

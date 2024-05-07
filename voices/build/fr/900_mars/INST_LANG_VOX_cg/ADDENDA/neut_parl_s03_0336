@@ -1,0 +1,11 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+(lex.add.entry '("parlementaire_ADJ" "ADJ" ((("p" "a" "rh") 0) (("l" "ae") 0) (("m" "ahn") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("en_PRO:per" "PRO:per" (((ahn) 0))))
+(lex.add.entry '("a_VER" "VER" (((a) 0))))
+(lex.add.entry '("lui_PRO:per" "PRO:per" ((("l" "hw" i) 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("véritablement_ADV" "ADV" ((("v" "e") 0) (("rh" "i") 0) (("t" "a") 0) (("b" "l" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("souffert_VER" VER ((("s" "u") 0) (("f" "eh" "rh") 0))))
+
+(dSayText "Le débat parlementaire en a lui aussi, véritablement souffert.") ; neut_parl_s03_0336

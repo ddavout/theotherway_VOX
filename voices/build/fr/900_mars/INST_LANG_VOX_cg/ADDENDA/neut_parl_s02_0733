@@ -1,0 +1,17 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("vraiment_ADV" "ADV" ((("v" "rh" "eh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("avoir_VER" "VER" ((("a") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("vieilles_ADJ" ADJ ((("v" "j" "eh" "j") 0))))
+(lex.add.entry '("lunettes_NOM" NOM ((("l" "y") 0) (("n" "eh" "t") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("voir_VER" "VER" ((("v" "w" "a" "rh") 0))))
+
+(set! list_exclus*-> (append (list "vriament") list_exclus*->_default))
+(set! text "Il faut vraiment avoir de très vieilles lunettes pour ne pas le voir.") ; neut_parl_s02_0733
+(dSayText text)

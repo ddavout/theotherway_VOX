@@ -1,0 +1,8 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("jamais_NOM" NOM ((("zh" "a") 0) (("m" "e") 0))))
+(lex.add.entry '("vu_VER" "VER" ((("v" "y") 0))))
+
+
+(dSayText "C'est du jamais vu !") ; neut_parl_s03_0024

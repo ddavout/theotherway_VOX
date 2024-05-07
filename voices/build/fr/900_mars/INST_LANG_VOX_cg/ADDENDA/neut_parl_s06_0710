@@ -1,0 +1,11 @@
+(lex.add.entry '("après_PRE" "PRE" ((("a") 0) ((p rh eh) 0))))
+(lex.add.entry '("trente_ADJ:num" "ADJ:num" ((("t" "rh" "ahn" "t") 0))))
+(lex.add.entry '("ans_NOM" NOM ((("ahn") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("échecs_NOM" "NOM" ((("e") 0) (("sh" "eh" "k") 0))))
+(lex.add.entry '("droite_ADJ" ADJ ((("d" "rh" "w" "a" "t") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("gauche_ADJ" "ADJ" ((("g" "o" "sh") 0))))
+(lex.add.entry '("confondues_ADJ" ADJ ((("k" "ohn") 0) (("f" "ohn") 0) (("d" "y") 0))))
+
+(dSayText "Après trente ans d'échecs, droite et gauche confondues.") ; neut_parl_s06_0710

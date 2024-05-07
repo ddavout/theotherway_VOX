@@ -1,0 +1,9 @@
+(lex.add.entry '("permetté_VER" VER ((("p" "eh" "rh") 0) (("m" "e") 0) (("t" "e") 0))))
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("petit_ADJ" "ADJ" ((("p" "ae") 0) (("t" "i") 0))))
+(lex.add.entry '("retour_NOM" "NOM" ((("rh" "ae") 0) (("t" "u" "rh") 0))))
+(lex.add.entry '("en_arrière_ADV" "ADV" ((("ahn") 0) ((n "a") 0) (("rh" "j" "eh" "rh") 0))))
+
+
+(dSayText "Permettez-moi, un, petit retour en arrière.") ; neut_parl_s04_0070

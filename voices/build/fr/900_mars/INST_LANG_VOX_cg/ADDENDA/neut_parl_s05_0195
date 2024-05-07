@@ -1,0 +1,14 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("législateur_NOM" "NOM" ((("l" "e") 0) (("zh" "i" s) 0) (("l" "a") 0) (("t" "oe" "rh") 0))))
+(lex.add.entry '("met_VER" "VER" ((("m" "eh") 0))))
+(lex.add.entry '("ainsi_ADV" "ADV" ((("ehn") 0) (("s" "i") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("garde-fous_NOM" NOM ((("g" "a" "rh") 0) (("d" "ae")0) (("f" "u") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("rôle_NOM" "NOM" ((("rh" "o")0) (("l" ae) 0))))
+
+(set! never_exception_list (append (list "met" ) never_exception_list_default))
+(dSayText "Le législateur met ainsi des garde-fous, comme c'est son rôle.") ; neut_parl_s05_0195

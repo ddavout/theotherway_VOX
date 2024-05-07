@@ -1,0 +1,18 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("recours_NOM" NOM ((("rh" "ae") 0) (("k" "u" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("traduit_NOM" "NOM" ((("t" "rh" "a") 0) (("d" "hw" i) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("ouvert_VER" "VER" ((("u") 0) (("v" "eh" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("champ_NOM" "NOM" ((("sh" "ahn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("bien_NOM" "NOM" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("abus_NOM" NOM (((z "a") 0) (("b" "y") 0))))
+
+(set! text "Le droit au recours le traduit, et a ouvert le champ à bien des abus.") ; neut_parl_s02_0455
+(dSayText text)

@@ -1,0 +1,8 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("terminé_VER" "VER" ((("t" "eh" "rh") 0) (("m" "i") 0) (("n" "e") 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("gosselin_NAM" "NAM" (((g oh s) 0) ((l ehn) 0))))
+
+
+(set! text "C'est terminé, monsieur gosselin.") ; 
+(dSayText text); neut_parl_s01_0198

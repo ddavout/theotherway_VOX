@@ -1,0 +1,8 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("flou_ADJ" "ADJ" ((("f" "l" "u") 0))))
+
+(set! text "Cela est un peu flou.") ; neut_parl_s02_0198
+(dSayText text)

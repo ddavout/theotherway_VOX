@@ -1,0 +1,7 @@
+(lex.add.entry '("ça_PRO:dem" "PRO:dem" ((("s" "a") 0))))
+(lex.add.entry '("change_VER" "VER" ((("sh" "ahn" "zh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn")0) (("s" ae) 0))))
+
+(dSayText "Ça change de la France !") ; neut_parl_s06_0408

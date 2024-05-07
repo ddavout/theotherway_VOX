@@ -1,0 +1,8 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("trouve_VER" "VER" ((("t" "rh" "u" "v") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("dommage_NOM" "NOM" ((("d" "oh") 0) (("m" "a")0) (("zh" ae) 0))))
+
+(dSayText "Je trouve que c'est dommage.") ; neut_parl_s06_0598

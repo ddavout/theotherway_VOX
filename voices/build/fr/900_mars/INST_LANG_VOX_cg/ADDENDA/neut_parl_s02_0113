@@ -1,0 +1,14 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("serait_VER" "VER" ((("s" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("dommage_NOM" "NOM" ((("d" "oh") 0) (("m" "a" "zh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("renoncer_VER" VER ((("rh" "ae") 0) (("n" "ohn") 0) (("s" "e") 0))))
+(lex.add.entry '("parce_qu_CON" CON (((p a rh s) 0))))
+(lex.add.entry '("qu_on_PRO:per" "PRO:per" (((k ohn) 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("dépassé_VER" "VER" ((("d" "e") 0) (("p" "a") 0) (("s" "e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("deadline_NOM" "NOM" ((("d" eh d) 0) (("l" "a" "j" "n") 0))))
+
+(set! text "Il serait dommage de renoncer parce qu'on a dépassé la deadline.") ; neut_parl_s02_0113
+(dSayText text)

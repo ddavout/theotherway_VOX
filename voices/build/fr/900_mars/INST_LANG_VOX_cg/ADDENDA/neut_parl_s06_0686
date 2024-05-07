@@ -1,0 +1,13 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("être_VER" "VER" ((("eh")0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("sérieux_ADJ" "ADJ" ((("s" "eh") 0) (("rh" "j" "eu") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("exclusivement_ADV" ADV ((("eh" "k" "s") 0) (("k" "l" "y") 0) (("z" "i" "v") 0) (("m" "ahn") 0))))
+(lex.add.entry '("parlementaire_ADJ" "ADJ" ((("p" "a" "rh") 0) (("l" "ae") 0) (("m" "ahn") 0) (("t" "eh" "rh") 0))))
+
+(set! never_exception_list (append (list "c_est" "faut" ) never_exception_list_default))
+(dSayText "Il faut être sérieux : c'est un droit exclusivement parlementaire.") ; neut_parl_s06_0686

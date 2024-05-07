@@ -1,0 +1,15 @@
+(lex.add.entry '("toute_ADJ" "ADJ" ((("t" "u" "t") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("savoir_VER" "VER" ((("s" "a") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("pourquoi_PRO:int" PRO:int ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("permet_VER" "VER" ((("p" "eh" "rh") 0) (("m" "eh") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("mobilité_NOM" "NOM" ((("m" "oh") 0) (("b" "i") 0) (("l" "i") 0) (("t" "e") 0))))
+
+
+(set! text "Toute la question est de savoir pourquoi on permet cette mobilité.") ; neut_parl_s02_0137
+(dSayText text)

@@ -1,0 +1,12 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("enfants_NOM" NOM ((("ahn") 0) (("f" "ahn") 0))))
+(lex.add.entry '("ont_VER" "VER" ((("ohn") 0))))
+(lex.add.entry '("droit_ADJ" "ADJ" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("autorité_NOM" "NOM" (((oh) 0) ((t o) 0) (("rh" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("parentale_ADJ" "ADJ" ((("p" "a") 0) (("rh" "ahn") 0) (("t" "a")0) (("l" ae) 0))))
+
+(set! list_exclus*-> (append (list "enfants") list_exclus*->_default))
+
+(dSayText "Les enfants ont droit à l'autorité parentale.") ; neut_parl_s02_0590

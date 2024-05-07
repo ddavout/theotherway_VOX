@@ -1,0 +1,12 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("tabagisme_NOM" "NOM" ((("t" "a") 0) (("b" "a") 0) (("zh" "i" "s")0) (("m" ae) 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("sait_VER" VER ((("s" "eh") 0))))
+(lex.add.entry '("fait_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("dégâts_NOM" NOM ((("d" "e") 0) (("g" "a") 0))))
+(lex.add.entry '("monstrueux_ADJ" "ADJ" ((("m" "ohn" "s") 0) (("t" "rh" "hw" "eu") 0))))
+
+(set! text "Le tabagisme, on le sait, fait des dégâts monstrueux.") ; neut_parl_s02_0237
+(dSayText text)

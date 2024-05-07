@@ -1,0 +1,10 @@
+(lex.add.entry '("celui_ci" nil ((("s" "ae") 0) (("l" "hw" "i") 0) (("s" "i") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("techniquement_ADV" "ADV" ((("t" "eh" "k") 0) (("n" "i" k) 0) (("m" "ahn") 0))))
+(lex.add.entry '("difficile_ADJ" "ADJ" ((("d" "i") 0) (("f" "i") 0) (("s" "i")0) (("l" ae) 0))))
+
+
+
+
+
+(dSayText "Celui-ci est techniquement difficile.") ; neut_parl_s03_0455

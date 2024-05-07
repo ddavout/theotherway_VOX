@@ -1,0 +1,12 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("suis_VER" "VER" (((s hw i) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((z ahn) 0)))); LIA
+(lex.add.entry '("revanche_NOM" "NOM" ((("rh" "ae") 0) (("v" "ahn" "sh") 0))))
+(lex.add.entry '("favorable_ADJ" "ADJ" ((("f" "a") 0) (("v" "oh") 0) (("rh" "a")0) (("b" "l" ae) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_amendement_NOM" "NOM" (((l "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+
+(set! text "Je suis en revanche favorable, à l'amendement du Gouvernement.") ; neut_parl_s02_0038
+(dSayText text)

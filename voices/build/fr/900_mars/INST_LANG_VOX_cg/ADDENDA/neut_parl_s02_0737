@@ -1,0 +1,13 @@
+(lex.add.entry '("seul_ADJ" "ADJ" ((("s" "oe" "l") 0)))); confusion possible ?
+(lex.add.entry '("seul_NOM" "NOM" ((("s" "oe" "l") 0))))
+
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("maintenir_VER" VER ((("m" "ehn") 0) ((t ae) 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("seul_NOM" NOM ((("s" "oe" "l") 0))))
+(lex.add.entry '("suffirait_VER" VER ((("s" "y") 0) (("f" "i") 0) (("rh" "eh") 0))))
+
+
+
+(set! text "En maintenir un seul suffirait !") ; neut_parl_s02_0737
+(dSayText text)

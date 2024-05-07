@@ -1,0 +1,8 @@
+(lex.add.entry '("simplement_ADV" "ADV" ((("s" "ehn") 0) (("p" "l" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("monde_NOM" "NOM" ((("m" "ohn")0)(("d" ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("immobile_ADJ" "ADJ" (((z "i") 0) (("m" "oh") 0) (("b" "i" "l") 0)))); LIA
+
+(set! text "Simplement, le monde n'est pas immobile.") ; neut_parl_s04_0711
+(dSayText text)

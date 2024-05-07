@@ -1,0 +1,10 @@
+(set! fileid "neut_parl_s01_0080")
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_agit_VER" "VER" (((s "a") 0) (("zh" "i") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("procédure_NOM" "NOM" ((("p" "rh" "oh") 0) (("s" "e") 0) (("d" "y") 0)))) ; LIA
+(lex.add.entry '("amiable_ADJ" "ADJ" ((("rh" "a") 0) (("m" "j" "a")0) (("b" "l" "ae") 0))))
+
+(set! text "il s'agit de la procédure amiable.")
+(dSayText text)

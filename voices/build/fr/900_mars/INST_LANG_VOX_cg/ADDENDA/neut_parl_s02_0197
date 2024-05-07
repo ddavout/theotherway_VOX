@@ -1,0 +1,14 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("dix_neuf_ADJ" "ADJ" ((("d" "i" "s") 0) (("n" "oe" f) 0))))
+(lex.add.entry '("juillet_NOM" "NOM" ((("zh" "hw" i) 0) (("j" "eh") 0))))
+(lex.add.entry '("juillet_NAM" "NAM" ((("zh" "hw" i) 0) (("j" "eh") 0)))); confusion ?
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("rétablissement_NOM" "NOM" ((("rh" "e") 0) (("t" "a") 0) (("b" "l" "i" s) 0) (("m" "ahn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("droits_NOM" NOM ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("succession_NOM" "NOM" ((("s" "y" "k") 0) (("s" "e") 0) (("s" "j" "ohn") 0))))
+
+(set! text "Le dix-neuf juillet, c'est le rétablissement des droits de succession.") ; neut_parl_s02_0197
+(dSayText text)

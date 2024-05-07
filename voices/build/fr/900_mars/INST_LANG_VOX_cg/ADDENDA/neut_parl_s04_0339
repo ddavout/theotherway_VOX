@@ -1,0 +1,8 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o" "z") 0))))
+(lex.add.entry '("bougent_VER" VER ((("b" "u")0) (("zh" ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o" "z") 0))))
+(lex.add.entry '("changent_VER" VER ((("sh" "ahn")0) (("zh" ae) 0))))
+
+(dSayText "Les choses bougent, les choses changent.") ; neut_parl_s04_0339

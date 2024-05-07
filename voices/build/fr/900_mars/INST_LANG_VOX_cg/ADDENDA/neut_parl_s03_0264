@@ -1,0 +1,17 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("oublier_VER" VER ((("u") 0) (("b" "l" "j" "e") 0)))); no LIA
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("n_y_a_VER" "VER"  ((("n" j a) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("difficultés_NOM" NOM ((("d" "i") 0) (("f" "i") 0) (("k" "y" "l") 0) (("t" "e") 0))))
+(lex.add.entry '("sociales_ADJ" ADJ ((("s" "oh") 0) (("s" "j" "a" "l") 0))))
+
+(set! text "Il ne faut pas non plus oublier qu'il n'y a pas que des difficultés sociales.") ; neut_parl_s03_0264
+(dSayText text)

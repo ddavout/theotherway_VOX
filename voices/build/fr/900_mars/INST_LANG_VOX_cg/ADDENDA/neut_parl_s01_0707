@@ -1,0 +1,11 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("sais_VER" "VER" ((("s" "e") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("l_europe_NAM" "NAM" (((l oe) 0) ((rh oh)0) (("p" ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("regarde_VER" "VER" ((("rh" "ae") 0) (("g" "a" "rh")0) (("d" ae) 0))))
+
+
+(set! text "je sais que l'europe nous regarde.") ; neut_parl_s01_0707
+(dSayText text)

@@ -1,0 +1,12 @@
+(lex.add.entry '("alors_ADV" "ADV" (((a) 0) ((l oh rh) 0))))
+(lex.add.entry '("dites_VER" VER ((("d" "i")0) (("t" "l" "ae") 0))))
+
+(lex.add.entry '("le_ART:def" "ART:def" nil)) ; erreur POS
+(lex.add.entry '("le_PRO:per" PRO:per  nil));
+
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("Français_NOM" NOM ((("f" "rh" "ahn") 0) (("s" "eh") 0))))
+
+
+(dSayText "Alors dites-le aussi aux Français !") ; neut_parl_s06_0042

@@ -1,0 +1,8 @@
+(lex.add.entry '("Arrêtons_VER" VER ((("a") 0) (("rh" "eh") 0) (("t" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("joué_VER" VER ((("zh" "u") 0) (("e") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("mots_NOM" NOM ((("m" "o") 0))))
+
+(dSayText "Arrêtons de jouer sur les mots !") ; neut_parl_s03_0590

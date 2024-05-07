@@ -1,0 +1,8 @@
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("cache_VER" "VER" ((("k" "a" "sh") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("refus_NOM" NOM ((("rh" "ae") 0) (("f" "y") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("circonstance_NOM" "NOM" ((("s" "i" "rh") 0) (("k" "ohn" "s") 0) (("t" "ahn")0) (("s" ae) 0))))
+
+(dSayText "Que cache ce refus de circonstance ?") ; neut_parl_s02_0649

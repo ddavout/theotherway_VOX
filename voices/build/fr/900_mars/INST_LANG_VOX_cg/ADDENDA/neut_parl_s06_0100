@@ -1,0 +1,11 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn" "s") 0))))
+(lex.add.entry '("chaque_ADJ:ind" "ADJ:ind" ((("sh" "a" "k") 0))))
+(lex.add.entry '("jour_NOM" "NOM" ((("zh" "u" "rh") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("enfants_NOM" NOM ((("ahn") 0) (("f" "ahn") 0))))
+(lex.add.entry '("meurent_VER" VER ((("m" "oe" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("maltraitance_NOM" NOM ((("m" "a" "l") 0) (("t" "rh" "e") 0) (("t" "ahn")0) (("s" ae) 0))))
+
+(dSayText "En France chaque jour, deux enfants meurent de maltraitance.") ; neut_parl_s06_0100

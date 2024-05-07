@@ -1,0 +1,20 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("important_ADJ" "ADJ" ((("ehn") 0) (("p" "oh" "rh") 0) (("t" "ahn") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("aboutir_VER" "VER" ((("a") 0) (("b" "u") 0) (("t" "i" "rh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("accord_NOM" "NOM" ((("a") 0) (("k" "oh" "rh") 0))))
+(lex.add.entry '("entre_PRE" PRE ((("ahn") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("guyane_NAM" "NAM" (((g "hw" i) 0) ((j a n) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("martinique_NAM" "NAM" (((m a rh) 0) ((t i) 0) ((n i k) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("guadeloupe_NAM" "NAM" (((g w a d) 0) ((l u)0) (("p" ae) 0))))
+
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "Il est important d'aboutir à un accord entre la Guyane, la Martinique et la Guadeloupe.") ; neut_parl_s04_0146

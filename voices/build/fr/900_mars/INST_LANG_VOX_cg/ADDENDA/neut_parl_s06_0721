@@ -1,0 +1,14 @@
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("être_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("efficace_ADJ" "ADJ" (((t rh "e") 0) (("f" "i") 0) (("k" "a" "s") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("politique_NOM" "NOM" ((("p" "o") 0) (("l" "i") 0) (("t" "i" "k") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("êtrehh_AUX" "AUX" ((("eh")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("concertée_VER" VER ((("k" "ohn") 0) (("s" "eh" "rh") 0) (("t" "e") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("niveau_NOM" "NOM" ((("n" "i") 0) (("v" "o") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+
+(set! never_exception_list (append (list "doit" ) never_exception_list_default))
+(dSayText "Pour être efficace, cette politique doit être concertée au niveau européen.") ; neut_parl_s06_0721

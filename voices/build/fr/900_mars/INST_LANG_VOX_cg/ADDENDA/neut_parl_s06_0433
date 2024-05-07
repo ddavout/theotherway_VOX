@@ -1,0 +1,12 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("terrains_NOM" NOM ((("t" "eh") 0) (("rh" "ehn") 0)))); no LIA
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("bâtir_VER" "VER" ((("b" "a") 0) (("t" "i" rh) 0))))
+(lex.add.entry '("quant_à_PRE" PRE (((k ahn) 0) ((t a) 0))))
+(lex.add.entry '("eux_PRO:per" "PRO:per" ((("eu") 0))))
+(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
+(lex.add.entry '("bénéficieront_VER" VER ((("b" "e") 0) (("n" "e") 0) (("f" "i") 0) (("s" "i") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+(set! text "Les terrains à bâtir, quant à eux, n'en bénéficieront pas.") ; neut_parl_s06_0433
+(dSayText text)

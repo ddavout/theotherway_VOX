@@ -1,0 +1,15 @@
+(lex.add.entry '("dieudonné_NAM" "NAM" (((d j eu) 0) ((d oh) 0) ((n e) 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("condamné_VER" "VER" ((("k" "ohn") 0) (("d" "a") 0) (("n" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("dix_ADJ:num" "ADJ:num" (((d i) 0))))
+(lex.add.entry '("reprises_NOM" NOM ((("rh" "ae") 0) (("p" "rh" "i" "z") 0))))
+(lex.add.entry '("depuis_PRE" "PRE" (((d ae) 0) ((p hw i) 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("an_VER" VER ((("ahn") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("mille_NOM" "NOM" ((("m" "i")0) (("l" ae) 0))))
+
+; POS l'an
+(dSayText "Dieudonné a été condamné à dix reprises, depuis l'an deux mille.") ; neut_parl_s06_0755

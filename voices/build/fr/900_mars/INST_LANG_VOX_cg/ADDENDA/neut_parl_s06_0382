@@ -1,0 +1,9 @@
+(lex.add.entry '("a_VER" "VER" (((a) 0))))
+(lex.add.entry '("tous_PRO:ind" "PRO:ind" (((t u)0) ((s ae) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("souhaite_VER" "VER" ((("s" "w" "eh" "t") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("bon_ADJ" "ADJ" ((("b" "ohn") 0))))
+(lex.add.entry '("repos_NOM" NOM ((("rh" "ae") 0) (("p" "o") 0))))
+
+(dSayText "A tous, je souhaite un bon repos !") ; neut_parl_s06_0382

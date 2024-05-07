@@ -1,0 +1,13 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("chancellerie_NOM" "NOM" ((("sh" "ahn") 0) (("s" "eh" "l") 0) (("rh" "i") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("dire_VER" "VER" ((("d" "i" "rh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("parquet_NOM" "NOM" ((("p" "a" "rh") 0) (("k" "eh") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("représente_VER" "VER" ((("rh" "ae") 0) (("p" "rh" "e") 0) (("z" "ahn") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0))))
+(lex.add.entry '("progrès_NOM" NOM ((("p" "rh" "oh") 0) (("g" "rh" "eh") 0))))
+
+(dSayText "La chancellerie, doit dire que le parquet européen représente un progrès.") ; neut_parl_s02_0717

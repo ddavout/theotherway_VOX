@@ -1,0 +1,9 @@
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("investi_VER" VER ((("ehn") 0) (("v" "eh" "s") 0) (("t" "i") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("investissent_VER" VER ((("ehn") 0) (("v" "eh" "s") 0) (("t" "i" "s") 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(dSayText "Ils ont beaucoup investi et ils investissent beaucoup.") ; neut_parl_s06_0769

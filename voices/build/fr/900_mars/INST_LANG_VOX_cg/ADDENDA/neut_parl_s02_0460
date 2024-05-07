@@ -1,0 +1,7 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("devon_VER" "VER" ((("d" "ae") 0) (("v" "ohn") 0))))
+(lex.add.entry '("dépassé_VER" VER ((("d" "e") 0) (("p" "a") 0) (("s" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("égoïsmes_NOM" NOM ((("e") 0) (("g" "oh" j) 0) (("i" "s")0) (("m" ae) 0)))) ; Q
+
+(dSayText "Nous devons dépasser les égoïsmes.") ; neut_parl_s02_0460

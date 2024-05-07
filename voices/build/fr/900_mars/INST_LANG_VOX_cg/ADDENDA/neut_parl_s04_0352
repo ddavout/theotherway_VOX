@@ -1,0 +1,14 @@
+(lex.add.entry '("Disons_VER" VER ((("d" "i") 0) (("z" "ohn") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0))))
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m eh) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("devenè_VER" VER ((("d" "ae" v) 0) (("n" "e") 0))))
+(lex.add.entry '("coûteux_ADJ" "ADJ" ((("k" "u") 0) (("t" "eu") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("gage_NOM" "NOM" ((("g" "a" "zh") 0))))
+(lex.add.entry '("serait_AUX" "AUX" ((("s" "ae") 0) (("rh" "eh") 0)))) ; sh Q !
+(lex.add.entry '("levé_VER" "VER" ((("l" "ae") 0) (("v" "e") 0))))
+
+(set! list_exclus*-> (append (list "jamais") list_exclus*->_default))
+(dSayText "Disons que si jamais il devenait coûteux, le gage serait levé.") ; neut_parl_s04_0352

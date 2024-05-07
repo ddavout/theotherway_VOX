@@ -1,0 +1,12 @@
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("s_adapter_VER" VER (((s "a") 0) (("d" "a" p) 0) (("t" "e") 0))))
+
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("monde_NOM" "NOM" ((("m" "ohn" "d") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("bouge_VER" "VER" ((("b" "u") 0) (("zh" "ae") 0))))
+
+(set! text "elle doit s'adapter à un monde qui bouge.") ; 
+(dSayText text); neut_parl_s01_0387

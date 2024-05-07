@@ -1,0 +1,15 @@
+(lex.add.entry '("l_hôpital_NOM" "NOM" (((l "oh") 0) (("p" "i") 0) (("t" "a" "l") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("maubeuge_NAM" "NAM" ((("m" "o") 0) (("b" "eu" "zh") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("symbole_NOM" "NOM" ((("s" "ehn") 0) (("b" "oh" "l") 0))))
+(lex.add.entry '("malheureusement_ADV" "ADV" ((("m" "a") 0) (("l" "eu") 0) (("rh" "eu" "z") 0) (("m" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("déficit_NOM" "NOM" ((("d" "e") 0) (("f" "i") 0) (("s" "i" t) 0))))
+(lex.add.entry '("d_égalité_ADJ" "ADJ" (((d "e") 0) (("g" "a") 0) (("l" "i") 0) (("t" "e") 0))))
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(set! text "l'hôpital de Maubeuge est un symbole, malheureusement, de ce déficit d'égalité.") ; neut_parl_s02_0265
+(dSayText text)

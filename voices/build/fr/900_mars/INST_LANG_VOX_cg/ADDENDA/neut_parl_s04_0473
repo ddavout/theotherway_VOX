@@ -1,0 +1,11 @@
+(lex.add.entry '("Malheureusement_ADV" "ADV" ((("m" "a") 0) (("l" "eu") 0) (("rh" "eu" "z") 0) (("m" "ahn") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("projet_NOM" "NOM" ((("p" "rh" "oh") 0) (("zh" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("budget_NOM" "NOM" ((("b" "y" d) 0) (("zh" "eh") 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_y_PRO:per" PRO:per ((("n" i) 0))))
+(lex.add.entry '("change_VER" "VER" ((("sh" "ahn" "zh") 0))))
+(lex.add.entry '("rien_PRO:ind" "PRO:ind" ((("rh" "j" "ehn") 0))))
+
+(dSayText "Malheureusement, ce projet de budget n'y change rien.") ; neut_parl_s04_0473

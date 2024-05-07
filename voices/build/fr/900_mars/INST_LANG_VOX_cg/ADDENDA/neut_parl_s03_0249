@@ -1,0 +1,13 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("convient_vie" nil ((("k" "ohn") 0) (("v" "j" "ehn") 0))))
+(lex.add.entry '("peut-être_ADV" ADV ((("p" "eu") 0) (("t" "eh") 0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+
+; erreur homo POS
+(set! never_exception_list (append (list "pas" ) never_exception_list_default))
+(dSayText "Ce dispositif vous convient peut-être, mais pas à moi.") ; neut_parl_s03_0249

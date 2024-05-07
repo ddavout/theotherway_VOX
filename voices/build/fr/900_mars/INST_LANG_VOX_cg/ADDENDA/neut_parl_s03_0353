@@ -1,0 +1,15 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("députés_NOM" NOM ((("d" "e") 0) (("p" "y") 0) (("t" "e") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("front_NOM" "NOM" ((("f" "rh" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("gauche_NOM" "NOM" ((("g" "o")0) (("sh" ae) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("pourront_VER" VER ((("p" "u") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("voté_VER" VER ((("v" "oh") 0) (("t" "e") 0))))
+
+(dSayText "C'est pourquoi les députés du Front de gauche, ne pourront le voter.") ; neut_parl_s03_0353

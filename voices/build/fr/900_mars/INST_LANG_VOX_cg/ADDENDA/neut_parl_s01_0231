@@ -1,0 +1,15 @@
+; final moche
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("personnes_NOM" NOM ((("p" "eh" "rh") 0) (("s" "oh")0) (("n" ae) 0))))
+(lex.add.entry '("handicapées_ADJ" ADJ ((("ahn") 0) (("d" "i") 0) (("k" "a") 0) (("p" "e") 0))))
+(lex.add.entry '("handicapées_VER" VER ((("ahn") 0) (("d" "i") 0) (("k" "a") 0) (("p" "e") 0)))); POS NOM VER VER -> NOM ADJ VER ?
+(lex.add.entry '("ont_VER" "VER" ((("ohn") 0)))); no LIA
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("retraite_NOM" "NOM" ((("rh" "ae") 0) (("t" "rh" "eh" "t") 0))))
+
+
+(set! text "Les personnes handicapées ont le droit à une retraite.") ; 
+(dSayText text); neut_parl_s01_0231

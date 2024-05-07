@@ -1,0 +1,15 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("tout_ADJ:ind" ADJ:ind ((("t" "u") 0))))
+(lex.add.entry '("cas_NOM" NOM ((("k" "a") 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
+(lex.add.entry '("petit_ADJ" "ADJ" ((("p" "ae") 0) (("t" "i") 0))))
+(lex.add.entry '("doigt_NOM" "NOM" ((("d" "w" "a") 0))))
+
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "C'est en tout cas ce que me dit mon petit doigt.") ; neut_parl_s06_0479

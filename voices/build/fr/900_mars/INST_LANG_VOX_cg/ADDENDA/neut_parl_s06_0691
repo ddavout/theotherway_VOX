@@ -1,0 +1,13 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn")0) (("s" ae) 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("dotera_VER" VER ((("d" "oh") 0) (("t" "rh" "a") 0))))
+(lex.add.entry '("ainsi_ADV" "ADV" ((("ehn") 0) (("s" "i") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("véritable_ADJ" "ADJ" ((("v" "e") 0) (("rh" "i") 0) (("t" "a")0) (("b" "l" ae) 0))))
+(lex.add.entry '("boite_NOM" "NOM" ((("b" "w" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0))))
+(lex.add.entry '("outils_NOM" NOM ((("u") 0) (("t" "i") 0))))
+
+(dSayText "La France se dotera ainsi d'une véritable boîte à outils.") ; neut_parl_s06_0691

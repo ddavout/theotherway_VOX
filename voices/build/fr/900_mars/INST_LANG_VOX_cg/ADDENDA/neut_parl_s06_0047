@@ -1,0 +1,10 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("pourtant_ADV" "ADV" ((("p" "u" "rh") 0) (("t" "ahn") 0))))
+(lex.add.entry '("être_VER" "VER" ((("eh" "t" "rh") 0)))); no LIA
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
+(lex.add.entry '("clair_ADJ" "ADJ" ((("k" "l" "eh" "rh") 0))))
+
+(set! text "On ne peut pourtant être plus clair !") ; neut_parl_s06_0047
+(dSayText text)

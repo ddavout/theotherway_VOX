@@ -1,0 +1,16 @@
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("réside_VER" "VER" ((("rh" "e") 0) (("z" "i" "d") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("sûr_ADJ" "ADJ" ((("s" "y" "rh") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("résorption_NOM" "NOM" ((("rh" "e") 0) (("z" "oh" "rh" "p") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("conflits_NOM" NOM ((("k" "ohn") 0) (("f" "l" "i") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("proche_NOM" "NOM" ((("p" "rh" "oh" "sh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("Moyen-Orient_NAM" "NAM" (((m w a) 0) ((j eh) 0) ((n oh) 0) ((rh j ahn) 0))))
+
+(dSayText "Elle réside bien sûr, dans la résorption des conflits au Proche et au Moyen-Orient.") ; neut_parl_s02_0496

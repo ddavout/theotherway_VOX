@@ -1,0 +1,12 @@
+(lex.add.entry '("l_hydroélectricité_NOM" "NOM" (((l i) 0) ((d rh o) 0) ((e) 0) ((l eh k) 0) ((t rh i) 0) ((s i) 0) (("t" "e") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("tout_d_abord_ADV" "ADV" (((t u)0)((d "a") 0) (("b" "oh" "rh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y") 0))))
+(lex.add.entry '("énergie_NOM" "NOM" (((n "e") 0) (("n" "eh" "rh") 0) (("zh" "i") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("part_NOM" NOM ((("p" "a" "rh") 0))))
+
+
+(set! text "l'hydroélectricité est, tout d'abord, une énergie à part.") ; 
+(dSayText text); neut_parl_s01_0142
+

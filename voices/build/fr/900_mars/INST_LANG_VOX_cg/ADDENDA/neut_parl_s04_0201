@@ -1,0 +1,15 @@
+(lex.add.entry '("Malheureusement_ADV" "ADV" ((("m" "a") 0) (("l" "eu") 0) (("rh" "eu" "z") 0) (("m" "ahn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("bonnes_ADJ" ADJ ((("b" "oh" "n") 0))))
+(lex.add.entry '("intentions_NOM" NOM (((z "ehn") 0) (("t" "ahn") 0) (("s" "j" "ohn") 0)))); LIA
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("suffisent_VER" VER ((("s" "y") 0) (("f" "i" "z") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0)))); no LIA
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("bonnes_ADJ" ADJ ((("b" "oh" "n") 0))))
+(lex.add.entry '("lois_NOM" NOM ((("l" "w" "a") 0))))
+
+(set! text "Malheureusement, les bonnes intentions ne suffisent pas à faire de bonnes lois.") ; neut_parl_s04_0201
+(dSayText text)

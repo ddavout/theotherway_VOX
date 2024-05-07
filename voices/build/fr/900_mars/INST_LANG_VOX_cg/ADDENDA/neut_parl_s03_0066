@@ -1,0 +1,7 @@
+(lex.add.entry '("étrange_ADJ" "ADJ" ((("e") 0) ((t "rh" "ahn")0) (("zh" ae) 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_est_ce_VER" "VER" ((("n" "eh" "s") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+
+(dSayText "étrange, n'est-ce pas ?") ; neut_parl_s03_0066

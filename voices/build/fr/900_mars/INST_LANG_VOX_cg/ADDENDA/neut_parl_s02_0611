@@ -1,0 +1,12 @@
+(lex.add.entry '("où_PRO:int" PRO:int ((("u") 0))))
+(lex.add.entry '("où_PRO:rel" PRO:rel ((("u") 0))))
+
+(lex.add.entry '("où" nil ((("u") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("jean_marc_NAM" "NAM" ((("zh" "ahn") 0) ((m a rh) 0))))
+(lex.add.entry '("ayrault_NAM" "NAM" (((k e) 0) ((rh o) 0))))
+
+
+
+(set! text "Où est Jean-Marc Ayrault ?") ; neut_parl_s02_0611
+(dSayText text)

@@ -1,0 +1,10 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("sujet_NOM" "NOM" ((("s" "y") 0) (("zh" "eh") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("absolument_ADV" "ADV" ((("a" "p") 0) (("s" "o") 0) (("l" "y") 0) (("m" "ahn") 0))))
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("sauf_PRE" PRE ((("s" "oh" "f") 0))))
+(lex.add.entry '("secondaire_NOM" NOM ((("s" "ae") 0) (("g" "ohn") 0) (("d" "eh" "rh") 0))))
+
+(dSayText "Ce sujet, est, tout, absolument tout, sauf secondaire.") ; neut_parl_s03_0565

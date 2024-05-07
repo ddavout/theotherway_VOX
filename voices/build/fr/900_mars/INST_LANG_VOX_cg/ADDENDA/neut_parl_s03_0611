@@ -1,0 +1,9 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_était_VER" "VER" (((s e) 0) ((t eh) 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((t ahn) 0) ((n e) 0) ((f eh) 0)))); LIA
+(lex.add.entry '("tout_à_fait_ADV" "ADV" ((("t" "u") 0) (("t" "a") 0) (("f" "eh") 0))))
+(lex.add.entry '("judicieux_ADJ" ADJ ((("zh" "y") 0) (("d" "i") 0) (("s" "j" "eu") 0))))
+
+
+(set! text "C'était en effet tout à fait judicieux.") ; neut_parl_s03_0611
+(dSayText text)

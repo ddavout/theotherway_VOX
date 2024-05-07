@@ -1,0 +1,12 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_est_VER" "VER" (((n e) 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("boite_NOM" "NOM" ((("b" "w" "a" "t") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("t" "o") 0))))
+(lex.add.entry '("lettres_NOM" NOM ((("l" "eh")0 )(("t" "rh" "ae") 0))))
+
+(set! never_exception_list (append (list "pas" ) never_exception_list_default))
+(dSayText "Ce n'est donc pas une boîte aux lettres.") ; neut_parl_s06_0663

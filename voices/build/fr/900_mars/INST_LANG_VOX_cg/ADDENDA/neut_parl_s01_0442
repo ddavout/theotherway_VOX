@@ -1,0 +1,14 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("voit_VER" "VER" ((("v" "w" "a") 0))))
+(lex.add.entry '("comment_CON" "CON" ((("k" "oh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh") 0))))
+(lex.add.entry '("essaie_VER" "VER" (((l "e") 0) (("s" "eh") 0))))
+(lex.add.entry '("d_empêcher_VER" VER (((d "ahn") 0) (("p" "e") 0) (("sh" "e") 0))))
+(lex.add.entry '("emirates_NAM" "NAM" (((e) 0) ((m i) 0) ((rh e t s) 0))))
+(lex.add.entry '("entre_autres_ADV" "ADV" ((("ahn") 0) (("t" "rh" o) 0) ((t rh ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("venir_VER" "VER" ((("v" "ae") 0) (("n" "i" "rh") 0))))
+
+(set! text "On voit comment elle essaie d'empêcher Emirates entre autres de venir.") ; 
+(dSayText text); neut_parl_s01_0442
+

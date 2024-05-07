@@ -1,0 +1,8 @@
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("quelle_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0))))
+(lex.add.entry '("langue_NOM" "NOM" ((("l" "ahn" "g") 0))))
+(lex.add.entry '("ferè_VER" VER ((("f" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("t_il_PRO:per" "PRO:per" ((("t" "i" l) 0))))
+(lex.add.entry '("campagne_NOM" "NOM" ((("k" "ahn") 0) (("p" "a") 0) (("n" "j" ae) 0))))
+
+(dSayText "Dans quelle langue ferait-il campagne ?") ; emph_parl_s01_0527

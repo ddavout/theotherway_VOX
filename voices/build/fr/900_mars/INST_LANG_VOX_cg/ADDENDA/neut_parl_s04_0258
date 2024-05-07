@@ -1,0 +1,16 @@
+(lex.add.entry '("or_NOM" "NOM" ((("oh" "rh") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("allemagne_NAM" "NAM" (((a l) 0) ((m a) 0))))
+(lex.add.entry '("a_AUX" "AUX" (((jg "a") 0))))
+(lex.add.entry '("vu_VER" "VER" ((("v" "y") 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("chômage_NOM" "NOM" ((("sh" "o") 0) (("m" "a" "zh") 0))))
+(lex.add.entry '("baissé_VER" VER ((("b" "e") 0) (("s" "e") 0))))
+(lex.add.entry '("alors_que_CON" CON (((a) 0) ((l oh rh) 0) ((k ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("nôtre_PRO:pos" "PRO:pos" ((("n" "o") 0))))
+(lex.add.entry '("ahh_VER" "VER" (((t rh "a") 0))))
+(lex.add.entry '("explosé_VER" "VER" ((("eh" "k") 0) ((s "p" "l" "o") 0) (("z" "e") 0))))
+
+;POS ahh VER
+(dSayText "Or, l'Allemagne a vu son chômage baisser, alors que le nôtre a explosé.") ; neut_parl_s04_0258

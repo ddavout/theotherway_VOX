@@ -1,0 +1,18 @@
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("parlent_VER" VER ((("p" "a" "rh")0) (("l" ae) 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("définitive_ADJ" "ADJ" ((("d" "e") 0) (("f" "i") 0) (("n" "i") 0) (("t" "i")0) (("v" ae) 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("on_VER" VER ((("ohn") 0))))
+
+(lex.add.entry '("lu_VER" "VER" ((("l" "y") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("connaissent_VER" VER ((("k" "oh") 0) (("n" "eh" "s") 0))))
+
+; POS définitive
+(set! list_exclus*-> (append (list "beaucoup") list_exclus*->_default))
+(dSayText "Beaucoup en parlent mais en définitive, peu l'ont lu, et le connaissent.") ; neut_parl_s04_0308

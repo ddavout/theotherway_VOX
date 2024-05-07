@@ -1,0 +1,7 @@
+(lex.add.entry '("outre_NOM" NOM ((("u" )0)(("t" "rh" ae) 0))))
+(lex.add.entry '("autre_ADJ" ADJ ((("o")0) (("t" "rh" ae) 0)))); ae
+(lex.add.entry '("matériel_NOM" "NOM" ((("m" "a") 0) (("t" "e") 0) (("rh" "j" "eh") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("l" "eh")0))))
+(set! never_exception_list (append (list "faut" "En") never_exception_list_default))
+;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
+(dSayText "En outre, dès lors que le matériel est renouvelé, il faut aussi un autre schéma.") ; neut_parl_s02_0741

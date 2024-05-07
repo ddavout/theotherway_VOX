@@ -1,0 +1,13 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("voit_VER" "VER" ((("v" "w" "a") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("démarches_NOM" NOM ((("d" "e") 0) (("m" "a" "rh" "sh") 0))))
+(lex.add.entry '("vertueuses_ADJ" ADJ ((("v" "eh" "rh") 0) (("t" "y") 0) (("eu")0) (("z" ae) 0))))
+(lex.add.entry '("gagnent_VER" VER ((("g" "a") 0) (("jg" ae) 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("terrain_NOM" "NOM" ((("t" "eh") 0) (("rh" "ehn") 0))))
+
+(dSayText "On voit donc bien que les démarches vertueuses gagnent du terrain.") ; neut_parl_s03_0715

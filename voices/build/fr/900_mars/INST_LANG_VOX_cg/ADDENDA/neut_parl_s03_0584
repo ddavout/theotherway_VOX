@@ -1,0 +1,17 @@
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("bilan_NOM" NOM ((("b" "i") 0) (("l" "ahn") 0))))
+(lex.add.entry '("carbone_NOM" NOM ((("k" "a" "rh") 0) (("b" "oh") 0) (("n" "ae") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("bois_NOM" NOM ((("b" "w" "a") 0))))
+(lex.add.entry '("a_VER" "VER" (((a) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("effet_NOM" "NOM" ((("e") 0) (("f" "eh") 0))))
+(lex.add.entry '("neutre_ADJ" ADJ ((("n" "eu") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("bénéfique_ADJ" ADJ ((("b" "e") 0) (("n" "e") 0) (("f" "i" "k") 0))))
+
+(set! list_exclus*-> (append (list "bois") list_exclus*->_default)) ; todo
+
+
+(dSayText "Sur le bilan carbone, le bois a un effet neutre, donc bénéfique.") ; neut_parl_s03_0584

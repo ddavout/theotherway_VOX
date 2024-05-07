@@ -1,0 +1,15 @@
+(lex.add.entry '("selon_PRE" "PRE" ((("s" "ae") 0) (("l" "ohn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("presse_NOM" "NOM" ((("p" "rh" "eh" "s") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("met_VER" "VER" ((("m" "eh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("jour_NOM" "NOM" ((("zh" "u" "rh") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o")0) (("z" ae) 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("simples_ADJ" ADJ ((("s" "ehn")0) (("p" "l" ae) 0))))
+
+
+(set! never_exception_list (append (list "met" ) never_exception_list_default))
+(dSayText "Selon la presse, il met à jour deux choses très simples.") ; neut_parl_s05_0085

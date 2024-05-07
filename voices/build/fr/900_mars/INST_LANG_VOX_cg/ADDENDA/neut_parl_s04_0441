@@ -1,0 +1,7 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("jour_NOM" "NOM" ((("zh" "u" "rh") 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("venu_VER" "VER" ((("v" "ae") 0) (("n" "y") 0))))
+
+(set! text "Ce jour n'est pas venu.") ; neut_parl_s04_0441
+(dSayText text)

@@ -1,0 +1,7 @@
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("Guigou_NAM" "NAM" ((("g" "i") 0) (("g" "u") 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+
+(set! text "Madame Guigou n'est pas là.") ; neut_parl_s03_0437
+(dSayText text)

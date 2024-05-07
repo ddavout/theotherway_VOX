@@ -1,0 +1,12 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("dettes_NOM" NOM ((("d" "eh" "t") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
+(lex.add.entry '("riches_ADJ" ADJ ((("rh" "i" "sh") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("commencé_VER" "VER" ((("k" "oh") 0) (("m" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("explosé_VER" VER ((("eh" "k" "s") 0) (("p" "l" "o") 0) (("z" "e") 0))))
+
+(dSayText "Et les dettes des pays riches ont commencé à exploser.") ; neut_parl_s06_0492

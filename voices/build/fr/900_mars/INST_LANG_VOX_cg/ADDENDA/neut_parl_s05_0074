@@ -1,0 +1,15 @@
+(lex.add.entry '("j_attends_VER" VER ((("zh" "a") 0) (("t" "ahn") 0))))
+(lex.add.entry '("impatiemment_ADV" "ADV" ((("ehn") 0) (("p" "a") 0) (("s" "j" "a") 0) (("m" "ahn") 0))))
+(lex.add.entry '("l_avis_NOM" "NOM" (((l "a") 0) (("v" "i") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("garde_NOM" NOM ((("g" "a" "rh") 0) (("d" ae) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("sceaux_NOM" "NOM" ((("s" "o") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s) 0) ((t rh ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_intérieur_NOM" "NOM" (((l "ehn") 0) (("t" "eh") 0) (("rh" "j" "oe" "rh") 0))))
+
+(set! text "j'attends, impatiemment l'avis du garde des sceaux, et du ministre de l'intérieur.") ; neut_parl_s05_0074
+(dSayText text)

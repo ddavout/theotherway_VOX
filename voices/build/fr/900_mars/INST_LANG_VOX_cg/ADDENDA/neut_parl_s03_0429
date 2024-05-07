@@ -1,0 +1,18 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("précisément_ADV" "ADV" ((("p" "rh" "e") 0) (("s" "i") 0) (("z" "e") 0) (("m" "ahn") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("titre_NOM" "NOM" ((("t" "i" "t" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("celle_ci" nil ((("s" "eh" "l") 0) (("s" "i") 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("trente_NOM" NOM ((("t" "rh" "ahn" "t") 0))))
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("millions_NOM" NOM ((("m" "i" j) 0) (("j" "ohn") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("euros_NOM" "NOM" ((("oe") 0) (("rh" "o") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("déchus_ADJ" ADJ ((("d" "e") 0) (("sh" "y") 0))))
+
+(dSayText "C'est précisément au titre de celle-ci que ces trente trois millions d'euros sont déchus.") ; neut_parl_s03_0429

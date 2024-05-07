@@ -1,0 +1,17 @@
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("a_VER" "VER" ((("a") 0))))
+(lex.add.entry '("déterminé_VER" "VER" ((("d" "e") 0) (("t" "eh" "rh") 0) (("m" "i") 0) (("n" "e") 0))))
+(lex.add.entry '("quinze_ADJ:num" "ADJ:num" ((("k" "ehn") 0))))
+(lex.add.entry '("actions_NOM" NOM (((z "a" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("visant_VER" "VER" ((("v" "i") 0) (("z" "ahn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0))))
+(lex.add.entry '("freiner_VER" VER ((("f" "rh" "e") 0) (("n" "e") 0))))
+(lex.add.entry '("l_érosion_NOM" "NOM" (((l "e") 0) (("rh" "o") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("bases_NOM" NOM ((("b" "a" "z") 0))))
+(lex.add.entry '("fiscales_ADJ" ADJ ((("f" "i" "s") 0) (("k" "a")0) (("l" ae) 0))))
+
+
+(set! text "Elle a déterminé, quinze actions visant à freiner l'érosion des bases fiscales.") ; 
+(dSayText text); neut_parl_s01_0591

@@ -1,0 +1,14 @@
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("réalité_NOM" "NOM" ((("rh" "e") 0) (("a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("joueurs_NOM" NOM ((("zh" "w" "oe" "rh") 0))))
+(lex.add.entry '("ont_VER" "VER" ((("ohn") 0))))
+(lex.add.entry '("rarement_ADV" "ADV" ((("rh" "a" "rh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("recours_NOM" NOM ((("rh" "ae") 0) (("k" "u" "rh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("possibilité_NOM" "NOM" ((("p" "oh") 0) (("s" "i") 0) (("b" "i") 0) (("l" "i") 0) (("t" "e") 0))))
+
+(set! list_exclus*-> (append (list "joueurs") list_exclus*->_default))
+(dSayText "Dans la réalité, les joueurs ont rarement recours à cette possibilité.") ; neut_parl_s03_0239

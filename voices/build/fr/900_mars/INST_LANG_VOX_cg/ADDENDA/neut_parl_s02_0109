@@ -1,0 +1,11 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" (((k "l" "ae") 0))))
+(lex.add.entry '("voter_VER" VER ((("v" "oh") 0) (("t" "e") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh") 0))))
+(lex.add.entry '("enthousiasme_NOM" "NOM" (((k "ahn") 0) (("t" "u") 0) (("z" "j" "a" "s")0) (("m" ae) 0))))
+
+
+(set! text "Il faut donc le voter avec enthousiasme !") ; neut_parl_s02_0109
+(dSayText text)

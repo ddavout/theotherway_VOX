@@ -1,0 +1,14 @@
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("pourquoi_PRO:rel" PRO:rel ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("j_ai_AUX" "AUX" (((zh e) 0))))
+(lex.add.entry '("apporté_VER" "VER" ((("a") 0) (("p" "oh" "rh") 0) (("t" "e") 0))))
+(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
+(lex.add.entry '("soutien_NOM" "NOM" ((("s" "u") 0) (("t" "j" "ehn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_appel_NOM" "NOM" (((l "a") 0) (("p" "eh" "l") 0))))
+(lex.add.entry '("lancé_VER" "VER" ((("l" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("chercheurs_NOM" NOM ((("sh" "eh" "rh") 0) (("sh" "oe" "rh") 0))))
+
+(dSayText "C'est pourquoi j'ai apporté mon soutien à l'appel lancé par les chercheurs.") ; neut_parl_s04_0420

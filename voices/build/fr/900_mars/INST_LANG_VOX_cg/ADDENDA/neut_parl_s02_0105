@@ -1,0 +1,16 @@
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("les_PRO:per" "PRO:per" ((("l" "e") 0))))
+(lex.add.entry '("traiter_VER" VER ((("t" "rh" "e") 0) (("t" "e") 0))))
+(lex.add.entry '("elles_PRO:per" PRO:per ((("eh" "l") 0))))
+(lex.add.entry '("peuvent_VER" VER ((("p" "eu" "v") 0))))
+(lex.add.entry '("demander_VER" VER ((("d" "ae") 0) (("m" "ahn") 0) (("d" "e") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("délégation_NOM" "NOM" ((("d" "e") 0) (("l" "e") 0) (("g" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("compétences_NOM" NOM ((("k" "ohn") 0) (("p" "e") 0) (("t" "ahn")0) (("s" ae) 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("une__ART:ind" "ART:ind" ((("y") 0))))
+(lex.add.entry '("adaptation_NOM" "NOM" (((n "a") 0) (("d" "a" "p") 0) (("t" "a") 0) (("s" "j" "ohn") 0))))
+
+(set! text "Pour les traiter, elles peuvent demander une délégation de compétences, ou une_ adaptation.") ; neut_parl_s02_0105
+(dSayText text)

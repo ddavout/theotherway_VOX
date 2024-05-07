@@ -1,0 +1,18 @@
+(set! fileid "neut_book_s01_0074")
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("était_VER" "VER" ((("e") 0) (("t" "eh") 0))))
+(lex.add.entry '("grand_ADJ" "ADJ" ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("promettait_VER" VER ((("p" "rh" "oh") 0) (("m" "e") 0) (("t" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("devenir_VER" "VER" ((("d" "ae") 0) (("v" "ae") 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("homme_NOM" "NOM" (((n "oh" "m") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("noble_NOM" "NOM" ((("n" "oh")0) (("b" "l" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("belle_ADJ" "ADJ" ((("b" "eh" "l") 0))))
+(lex.add.entry '("prestance_NOM" "NOM" ((("p" "rh" "eh" "s") 0) (("t" "ahn" "s") 0))))
+
+(set! text "il était grand, et promettait de devenir un homme de noble, et belle prestance.") ; neut_book_s01_0074
+(dSayText text)

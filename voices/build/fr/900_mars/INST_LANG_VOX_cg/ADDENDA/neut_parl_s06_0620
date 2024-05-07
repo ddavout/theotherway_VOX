@@ -1,0 +1,13 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("projet_NOM" "NOM" ((("p" "rh" "oh") 0) (("zh" "eh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("haute_ADJ" "ADJ" ((("o" "t") 0))))
+(lex.add.entry '("valeur_NOM" "NOM" ((("v" "a") 0) (("l" "oe" "rh") 0))))
+(lex.add.entry '("environnementale_ADJ" "ADJ" ((("ahn") 0) (("v" "i") 0) (("rh" "oh" "n") 0) (("m" "ahn") 0) (("t" "a")0) (("l" ae) 0))))
+
+
+(set! never_exception_list (append (list "C_est" ) never_exception_list_default))
+(dSayText "C'est enfin un projet à haute valeur environnementale.") ; neut_parl_s06_0620

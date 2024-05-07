@@ -1,0 +1,12 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("vrai_ADJ" "ADJ" ((("v" "rh" "eh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o" "z") 0))))
+(lex.add.entry '("vont_VER" VER ((("v" "ohn") 0))))
+(lex.add.entry '("bougé_VER" VER ((("b" "u") 0) (("zh" "e") 0))))
+
+
+
+(dSayText "Il est vrai que les choses vont bouger.") ; neut_parl_s06_0343

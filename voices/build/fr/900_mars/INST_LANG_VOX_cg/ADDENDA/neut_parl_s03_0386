@@ -1,0 +1,9 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("retombe_VER" "VER" ((("rh" "ae") 0) (("t" "ohn" "b") 0))))
+(lex.add.entry '("vite_ADV" "ADV" ((("v" "i" "t") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("vieux_ADJ" "ADJ" ((("v" "j" "eu") 0))))
+(lex.add.entry '("travers_NOM" NOM ((("t" "rh" "a") 0) (("v" "eh" "rh") 0))))
+
+(dSayText "On retombe vite dans les vieux travers.") ; neut_parl_s03_0386

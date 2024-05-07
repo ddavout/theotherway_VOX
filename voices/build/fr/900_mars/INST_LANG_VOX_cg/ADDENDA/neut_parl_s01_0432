@@ -1,0 +1,8 @@
+; bruit initial
+(netlex::reset_lexicon)
+(set! never_exception_list (append (list "xx") never_exception_list_default))
+(set! list_exclus*-> (append (list "xx") list_exclus*->_default))
+(lex.add.entry '("collègue_NOM" "NOM" ((("k" "oh") 0) (("l" "eh")0) (("g" "ae") 0))))
+(lex.add.entry '("calme_NOM" "NOM" ((("k" "a" "l")0) (("m" ae) 0))))
+(dSayText "Gardons notre calme, mes chers collègues.") ; neut_parl_s01_0432
+

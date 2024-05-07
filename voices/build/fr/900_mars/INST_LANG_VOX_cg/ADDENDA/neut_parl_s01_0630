@@ -1,0 +1,11 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("parole_NOM" "NOM" ((("p" "a") 0) (("rh" "oh" "l") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0)))); LIA
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("Nicolas_NAM" "NAM" (((n i) 0) ((k oh) 0) ((l a) 0))))
+(lex.add.entry '("Dupont_Aignan_NAM" NAM (((d y) 0) ((p ohn) 0) ((e) 0) ((n j ahn) 0))))
+
+(set! never_exception_list (append (list "est") never_exception_list_default))
+(set! text "La parole est à Monsieur Nicolas Dupont-Aignan.") ; 
+(dSayText text); neut_parl_s01_0630

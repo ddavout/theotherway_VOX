@@ -1,0 +1,12 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("augmentation_NOM" "NOM" ((("oh" "g") 0) (("m" "ahn") 0) (("t" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("traduit_VER" VER ((("t" "rh" "a") 0) (("d" "hw" "i") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((t ahn) 0)))); LIA
+(lex.add.entry '("réalité_NOM" "NOM" ((("rh" "e") 0) (("a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("progrès_NOM" NOM ((("p" "rh" "oh") 0) (("g" "rh" "eh") 0))))
+(lex.add.entry '("techniques_ADJ" ADJ ((("t" "eh" "k") 0) (("n" "i" "k") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("appareillages_NOM" NOM (((z "a") 0) (("p" "a") 0) (("rh" "eh") 0) (("j" "a")0) (("zh" ae) 0))))
+
+(dSayText "Cette augmentation traduit en réalité les progrès techniques des appareillages.") ; neut_parl_s02_0577

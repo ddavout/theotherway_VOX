@@ -1,0 +1,14 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("souhaite_VER" "VER" ((("s" "w" "eh" "t") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("conclue_VER" "VER" ((("k" "ohn") 0) (("k" "l" "y") 0))))
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("problème_NOM" "NOM" ((("p" "rh" "oh") 0) (("b" "l" "eh" "m") 0))))
+(lex.add.entry '("quelque_ADV" ADV ((("k" "eh" "l") 0) (("k" "ae") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("ubuesque_ADJ" "ADJ" ((("y") 0) (("b" "y") 0) (("eh" "s")0) (("k" ae) 0))))
+
+(dSayText "Je souhaite que l'on conclue enfin, ce problème quelque peu, ubuesque.") ; neut_parl_s04_0642

@@ -1,0 +1,10 @@
+(lex.add.entry '("veut-on_VER" "VER" ((("v" "eu") 0)(("t" "ohn") 0))))
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("arrêter_VER" VER ((("a") 0) (("rh" "e") 0) (("t" "e") 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("gens_NOM" "NOM" (((zh ahn) 0))))
+
+(set! text "Veut-on oui ou non arrêter ces gens ?") ; neut_parl_s06_0410
+(dSayText text)

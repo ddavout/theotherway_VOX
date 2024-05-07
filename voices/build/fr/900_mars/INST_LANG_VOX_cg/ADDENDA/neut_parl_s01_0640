@@ -1,0 +1,12 @@
+(lex.add.entry '("l_exigence_NOM" "NOM" (((l "eh" "g") 0) (("z" "i") 0) (("zh" "ahn" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("dialogue_NOM" "NOM" ((("d" "j" "a") 0) (("l" "oh")0) (("g" ae) 0))))
+(lex.add.entry '("vaut_VER" "VER" (((v o) 0))))
+(lex.add.entry '("aussi_ADV" "ADV" (((t "o") 0) (("s" "i") 0)))); LIA
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("élus_NOM" NOM (((z "e") 0) (("l" "y") 0)))); LIA
+(lex.add.entry '("locaux_ADJ" ADJ ((("l" "oh") 0) (("k" "o") 0))))
+
+(set! text "l'exigence de dialogue, vaut aussi pour les élus locaux.") ; 
+(dSayText text); neut_parl_s01_0640

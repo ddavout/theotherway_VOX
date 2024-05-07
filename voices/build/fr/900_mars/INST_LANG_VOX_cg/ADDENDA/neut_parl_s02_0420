@@ -1,0 +1,12 @@
+(lex.add.entry '("Or_CON" CON ((("oh" "rh") 0))))(lex.add.entry '("Or_NOM" NOM ((("oh" "rh") 0))))
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0)))); no LIA
+(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
+(lex.add.entry '("trouvent_VER" VER ((("t" "rh" "u" "v") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+
+
+
+
+(set! text "Or ils n'en trouvent pas.") ; neut_parl_s02_0420
+(dSayText text)

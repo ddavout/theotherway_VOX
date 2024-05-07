@@ -1,0 +1,12 @@
+(lex.add.entry '("conséquence_NOM" "NOM" ((("k" "ohn") 0) (("s" "e") 0) (("k" "ahn")0) (("s" ae) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("déficit_NOM" "NOM" ((("d" "e") 0) (("f" "i") 0) (("s" "i") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((t ahn) 0))))
+(lex.add.entry '("hausse_NOM" "NOM" ((("o" "s") 0)))); no LIA
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("usines_NOM" NOM (((z "y") 0) (("z" "i" "n") 0)))); LIA
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("ferment_VER" VER ((("f" "eh" "rh")0) (("m" ae) 0))))
+
+(dSayText "Conséquence : un déficit en hausse, et des usines qui ferment.") ; neut_parl_s03_0350

@@ -1,0 +1,9 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("pourrons_VER" VER ((("p" "u") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("y_ADV" "ADV" (((z i) 0)))); LIA
+(lex.add.entry '("revenir_VER" "VER" ((("rh" "ae" v) 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("ultérieurement_ADV" ADV ((("y" "l") 0) (("t" "eh") 0) (("rh" "j" "oe" rh) 0) (("m" "ahn") 0))))
+
+
+(set! text "Nous pourrons y revenir, ultérieurement.") ; 
+(dSayText text); neut_parl_s01_0635

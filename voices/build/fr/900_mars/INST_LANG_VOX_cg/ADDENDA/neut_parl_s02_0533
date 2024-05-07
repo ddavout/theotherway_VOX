@@ -1,0 +1,14 @@
+(lex.add.entry '("de_plus_ADV" "ADV" (((d ae) 0) (("p" "l" "y" s) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("coût_NOM" "NOM" ((("k" "u") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("investissement_NOM" "NOM" ((("ehn") 0) (("v" "eh" "s") 0) (("t" "i" s) 0) (("m" "ahn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("maintenance_NOM" "NOM" ((("m" "ehn" t) 0) (("n" "ahn" "s") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("élevé_VER" "VER" ((("e" "l") 0) (("v" "e") 0))))
+(lex.add.entry '("serè_VER" "VER" ((("s" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("insupportable_ADJ" "ADJ" ((("ehn") 0) (("s" "y") 0) (("p" "oh" "rh") 0) (("t" "a")0) (("b" "l" ae) 0))))
+
+(dSayText "De plus, le coût en investissement et en maintenance très élevé, serait insupportable.") ; neut_parl_s02_0533

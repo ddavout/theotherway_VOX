@@ -1,0 +1,10 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("sommes_VER" VER ((("s" "oh" "m") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("favorables_ADJ" ADJ ((("f" "a") 0) (("v" "oh") 0) (("rh" "a") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" (((b l "o") 0)))); no LIA
+(lex.add.entry '("fichiers_NOM" NOM ((("f" "i") 0) (("sh" "j" "e") 0))))
+
+(set! text "Nous ne sommes, pas favorables aux fichiers.") ; neut_parl_s03_0320
+(dSayText text)

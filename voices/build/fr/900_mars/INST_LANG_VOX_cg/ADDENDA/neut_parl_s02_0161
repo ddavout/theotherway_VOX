@@ -1,0 +1,17 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("situation_NOM" "NOM" ((("s" "i") 0) (("t" "hw" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("la_PRO:per" PRO:per ((("l" "a") 0))))
+(lex.add.entry '("même_ADJ" "ADJ" ((("m" "eh" "m") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("matin_NOM" "NOM" ((("m" "a") 0) (("t" "ehn") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" (((k "l" "ae") 0))))
+(lex.add.entry '("Conseil_NAM" "NAM" ((("k" "ohn") 0) (("s" "eh" "j") 0))))
+(lex.add.entry '("supérieur_ADJ" "ADJ" ((("s" "y") 0) (("p" "eh") 0) (("rh" "j" "oe" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("coopération_NOM" "NOM" ((("k" "oh") 0) (("oh") 0) (("p" "e") 0) (("rh" "a") 0) (("s" "j" "ohn") 0))))
+
+(set! text "La situation est la même ce matin, avec le Conseil supérieur de la coopération.") ; neut_parl_s02_0161
+(dSayText text)

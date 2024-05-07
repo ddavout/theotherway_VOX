@@ -1,0 +1,12 @@
+;Je moche final moche
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("cite_VER" "VER" ((("s" "i" "t") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("haute_ADJ" "ADJ" ((("o" "t") 0))))
+(lex.add.entry '("juridiction_NOM" "NOM" ((("zh" "y") 0) (("rh" "i") 0) (("d" "i" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("administrative_ADJ" "ADJ" ((("a" "d") 0) (("m" "i") 0) (("n" "i" "s") 0) (("t" "rh" "a") 0) (("t" "i")0)(( "v" "ae") 0)))) ; Q
+
+
+(set! text "je cite la plus haute juridiction administrative.") ; 
+(dSayText text); neut_parl_s01_0508

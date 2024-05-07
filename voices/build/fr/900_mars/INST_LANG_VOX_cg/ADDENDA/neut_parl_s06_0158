@@ -1,0 +1,11 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("pense_VER" "VER" ((("p" "ahn" "s") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("contraire_NOM" "NOM" ((("k" "ohn") 0) (("t" "rh" "eh" "rh") 0))))
+(lex.add.entry '("être_VER" "VER" ((("eh")0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("relativement_ADV" "ADV" ((("rh" "ae") 0) (("l" "a") 0) (("t" "i" "v") 0) (("m" "ahn") 0))))
+(lex.add.entry '("objectif_ADJ" "ADJ" ((("oh" b) 0) (("zh" "eh" "k") 0) (("t" "i" "f") 0))))
+
+(set! list_exclus*-> (append (list "relativement") list_exclus*->_default))
+
+(dSayText "Je pense au contraire être relativement objectif.") ; neut_parl_s06_0158

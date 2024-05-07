@@ -1,0 +1,19 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_agit_VER" "VER" (((s "a") 0) (("zh" "i") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("mettre_VER" VER ((("m" "eh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("conformité_NOM" "NOM" ((("k" "ohn") 0) (("f" "oh" "rh") 0) (("m" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("rôle_NOM" "NOM" ((("rh" "o" "l") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("législateur_NOM" "NOM" ((("l" "e") 0) (("zh" "i" s) 0) (("l" "a") 0) (("t" "oe" "rh") 0))))
+
+(set! text "Il s'agit donc de mettre le droit en conformité et c'est notre rôle de législateur.") ; 
+(dSayText text); neut_parl_s01_0456
+

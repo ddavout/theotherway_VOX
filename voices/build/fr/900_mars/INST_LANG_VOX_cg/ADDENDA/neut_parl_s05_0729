@@ -1,0 +1,15 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("gauche_NOM" "NOM" ((("g" "o" "sh") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("droite_NOM" "NOM" ((("d" "rh" "w" "a" "t") 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("vingt_cinq" "nil" (((v ehn t) 0) ((s ehn) 0))))
+(lex.add.entry '("dernières_ADJ" ADJ ((("d" "eh" "rh") 0) (("n" "j" "eh" "rh") 0))))
+(lex.add.entry '("années_NOM" NOM (((z "a") 0) (("n" "e") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("collectivement_ADV" ADV ((("k" "oh") 0) (("l" "eh" "k") 0) (("t" "i" "v") 0) (("m" "ahn") 0))))
+(lex.add.entry '("failli_VER" VER ((("f" "a") 0) (("j" "i") 0))))
+
+(set! text "La gauche comme la droite, ces vingt-cinq dernières années, ont collectivement failli.") ; neut_parl_s05_0729
+(dSayText text)

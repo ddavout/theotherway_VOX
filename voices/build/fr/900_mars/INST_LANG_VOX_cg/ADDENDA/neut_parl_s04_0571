@@ -1,0 +1,6 @@
+(lex.add.entry '("j_aurai_VER" VER ((("zh" "oh") 0) (("rh" "e") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("questions_NOM" NOM ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
+
+(dSayText "J'aurai donc, deux questions.") ; neut_parl_s04_0571

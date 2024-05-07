@@ -1,0 +1,17 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("centre_NOM" "NOM" ((("s" "ahn" t) 0))))
+(lex.add.entry '("hospitalier_ADJ" "ADJ" (((rh "oh" "s") 0) (("p" "i") 0) (("t" "a") 0) (("l" "j" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("hirson_NAM" "NAM" (((i rh) 0) ((s ohn) 0))))
+(lex.add.entry '("travaille_VER" "VER" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("région_NOM" "NOM" ((("rh" "e") 0) (("zh" "j" "ohn") 0))))
+(lex.add.entry '("Nord_ADJ" ADJ ((("n" "oh" "rh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("belgique_NAM" "NAM" ((("b" "eh" "l") 0) (("zh" "i")0) (("k" ae) 0))))
+
+
+(dSayText "Le centre hospitalier de Hirson, travaille avec la région Nord, et avec la Belgique.") ; neut_parl_s04_0588

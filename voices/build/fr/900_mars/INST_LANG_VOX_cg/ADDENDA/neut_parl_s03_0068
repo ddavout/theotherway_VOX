@@ -1,0 +1,6 @@
+(lex.add.entry '("j_ai_VER" "VER" (((zh eh) 0))))
+(lex.add.entry '("vingt_neuf_ADJ:num" "ADJ:num" ((("v" "ehn" "t") 0) (("n" "oe") 0))))
+(lex.add.entry '("ans_NOM" NOM ((("ahn") 0))))
+
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "J'ai vingt-neuf ans.") ; neut_parl_s03_0068

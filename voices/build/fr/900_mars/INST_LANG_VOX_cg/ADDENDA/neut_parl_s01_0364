@@ -1,0 +1,12 @@
+; déséquilibre moche 
+; TODO un_tel une_telle ART:ind
+(lex.add.entry '("pourquoi_PRO:int" PRO:int ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("pourquoi_PRO:ind" PRO:ind ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("pourquoi" nil ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("un_ART:ind" ART:ind ((("oen") 0))))
+(lex.add.entry '("tel_ADJ:ind" ADJ:ind ((("t" "eh" "l") 0))))
+(lex.add.entry '("déséquilibre_NOM" "NOM" ((("d" "e") 0) (("z" "e") 0) (("k" "i") 0) (("l" "i") 0) (("b" "rh" "ae") 0))))
+
+(set! text "pourquoi un tel déséquilibre ?") ; 
+(dSayText text); neut_parl_s01_0364
+

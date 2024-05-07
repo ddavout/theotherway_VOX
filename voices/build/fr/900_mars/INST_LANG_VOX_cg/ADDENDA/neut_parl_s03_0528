@@ -1,0 +1,9 @@
+(lex.add.entry '("j_émets_VER" VER ((("zh" "e") 0) (("m" "eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("avis_NOM" NOM (((n "a") 0) (("v" "i") 0))))
+(lex.add.entry '("défavorable_ADJ" "ADJ" ((("d" "e") 0) (("f" "a") 0) (("v" "oh") 0) (("rh" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((b l a) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("stade_NOM" "NOM" ((("s" "t" "a")0) (("d" ae) 0))))
+
+(dSayText "J'émets un avis, défavorable à ce stade.") ; neut_parl_s03_0528

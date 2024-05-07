@@ -1,0 +1,14 @@
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("bataille_NOM" "NOM" ((("b" "a") 0) (("t" "a" "j") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("l_emploi_NOM" "NOM" (((l "ahn") 0) (("p" "l" "w" "a") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("formation_NOM" "NOM" ((("f" "oh" "rh") 0) (("m" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("revêt_VER" "VER" ((("rh" "ae") 0) (("v" "eh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
+(lex.add.entry '("importance_NOM" "NOM" ((("ehn") 0) (("p" "oh" "rh") 0) (("t" "ahn" "s") 0))))
+(lex.add.entry '("cruciale_ADJ" "ADJ" ((("k" "rh" "y") 0) (("s" "j" "a" "l") 0))))
+
+(set! text "Dans cette bataille pour l'emploi, la formation revêt une importance cruciale.") ; neut_parl_s02_0358
+(dSayText text)

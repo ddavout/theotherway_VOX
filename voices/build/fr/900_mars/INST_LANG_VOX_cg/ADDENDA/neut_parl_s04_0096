@@ -1,0 +1,14 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("seniors_NOM" NOM ((("s" "e") 0) (("n" "j" "oh" "rh") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh" "rh") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("année_NOM" "NOM" (((t "a") 0) (("n" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("grands_NOM" NOM ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("absents_ADJ" ADJ ((("a" p) 0) (("s" "ahn") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+
+(set! never_exception_list (append (list "sont" "grands" ) never_exception_list_default))
+(dSayText "Les seniors sont encore, cette année, les grands absents du débat.") ; neut_parl_s04_0096

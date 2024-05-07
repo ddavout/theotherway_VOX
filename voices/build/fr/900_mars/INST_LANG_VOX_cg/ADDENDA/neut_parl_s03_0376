@@ -1,0 +1,20 @@
+(lex.add.entry '("force_NOM" "NOM" ((("f" "oh" "rh" "s") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("constater_VER" VER ((("k" "ohn" "s") 0) (("t" "a") 0) (("t" "e") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("êtes_VER" "VER" (((z "eh" t) 0)))); LIA
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("bout_NOM" "NOM" ((("b" "u") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("souffle_NOM" "NOM" ((("s" "u")0) (("f" "l" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("entêtez_VER" VER (((z "ahn") 0) (("t" "eh") 0) (("t" "e") 0))))
+
+
+(set! text "Force est de constater que vous êtes à bout de souffle, et que vous vous entêtez.") ; neut_parl_s03_0376
+(dSayText text)

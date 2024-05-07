@@ -1,0 +1,18 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("parole_NOM" "NOM" ((("p" "a") 0) (("rh" "oh" l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0)))) ; pour changer :(
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("philippe_NAM" "NAM" ((("f" "i") 0) (("l" "i" "p") 0))))
+(lex.add.entry '("gomes_NAM" "NAM" (((g oh) 0) ((m eh s) 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("soutenir_VER" "VER" ((("s" "u") 0) (("t" "ae") 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("amendement_NOM" "NOM" ((("a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("numéro_NOM" "NOM" ((("n" "y") 0) (("m" "e") 0) (("rh" "o") 0))))
+(lex.add.entry '("cinq_ADJ:num" "ADJ:num" ((("s" "ehn") 0))))
+(lex.add.entry '("cents_ADJ:num" ADJ:num ((("s" "ahn") 0))))
+(lex.add.entry '("quatre_ADJ:num" "ADJ:num" ((("k" "a")0) (("t" "rh" ae) 0))))
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "La parole est à Monsieur Philippe Gomes, pour soutenir l'amendement numéro cinq cent quatre") ; neut_parl_s04_0564

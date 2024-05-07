@@ -1,0 +1,9 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("mot_NOM" "NOM" ((("m" "o") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("mal_ADV" "ADV" ((("m" "a" "l") 0))))
+(lex.add.entry '("choisi_VER" "VER" ((("sh" "w" "a") 0) (("z" "i") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("prévue_VER" "VER" ((("p" "rh" "e") 0) (("v" "y") 0))))
+(lex.add.entry '("mi-juin_VER" VER ((("m" "i") 0) (("zh" "hw" "ehn") 0))))
+(dSayText "Le mot est mal choisi !") ; neut_parl_s06_0737

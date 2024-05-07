@@ -1,0 +1,11 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("raison_NOM" NOM ((("rh" "e") 0) (("z" "ohn") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("laquelle_PRO:rel" "PRO:rel" ((("l" "a") 0) (("k" "eh" "l") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("m_y_PRO:per" PRO:per ((("m" i) 0))))
+(lex.add.entry '("opposerai_VER" VER ((("oh") 0) (("p" "o") 0) (("z" "rh" "e") 0))))
+
+(set! text "C'est la raison pour laquelle je m'y opposerai.") ; neut_parl_s02_0158
+(dSayText text)

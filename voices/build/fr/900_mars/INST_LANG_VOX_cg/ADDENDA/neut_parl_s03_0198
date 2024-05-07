@@ -1,0 +1,19 @@
+(lex.add.entry '("tout_PRO:ind" "PRO:ind" ((("t" "u") 0))))
+(lex.add.entry '("abord_ADV" "ADV" ((("a") 0) (("b" "oh" "rh") 0))))
+(lex.add.entry '("la_PRO:per" PRO:per ((("l" "a") 0))))
+(lex.add.entry '("mesure_VER" "VER" ((("m" "ae") 0) (("z" "y" "rh") 0))))
+(lex.add.entry '("miracle_NOM" NOM ((("m" "i") 0) (("rh" "a") 0) (("k" "l" ae) 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_existe_VER" VER ((("n" "eh" "g") 0) (("z" "i" "s") 0) (("t" ae) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("sinon_CON" "CON" ((("s" "i") 0) (("n" "ohn") 0))))
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh") 0))))
+(lex.add.entry '("aurait_AUX" "AUX" (((l "oh") 0) (("rh" "eh") 0))))
+(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("trouvée_VER" "VER" ((("t" "rh" "u") 0) (("v" "e") 0))))
+
+;(set! list_exclus*-> (append (list "sinon") list_exclus*->_default)); todo !
+
+
+(dSayText "Tout d'abord, la mesure miracle n'existe pas, sinon elle aurait déjà été trouvée.") ; neut_parl_s03_0198

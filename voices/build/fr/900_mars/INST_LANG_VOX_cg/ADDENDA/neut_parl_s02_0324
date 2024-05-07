@@ -1,0 +1,11 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("change_VER" "VER" ((("sh" "ahn" "zh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y") 0)))); no LIA
+(lex.add.entry '("équipe_NOM" "NOM" (((n "e") 0) (("k" "i" "p") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("perd_VER" "VER" ((("p" "eh" "rh") 0))))
+
+(set! text "On ne change pas une équipe qui perd.") ; neut_parl_s02_0324
+(dSayText text)

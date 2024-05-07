@@ -1,0 +1,15 @@
+(lex.add.entry '("quant_au" nil (((k ahn) 0) ((t o) 0))))
+(lex.add.entry '("propos_NOM" NOM ((("p" "rh" "o") 0) (("p" "o") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0)))); done
+(lex.add.entry '("collègue_NOM" "NOM" ((("k" "oh") 0) (("l" "eh") 0))))
+(lex.add.entry '("écologiste_ADJ" "ADJ" (((g "e") 0) (("k" "o") 0) (("l" "oh") 0) (("zh" "i" "s")0) (("t" ae) 0))))
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("tombent_VER" VER ((("t" "ohn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((b a) 0))))
+(lex.add.entry '("côté_NOM" "NOM" ((("k" "o") 0) (("t" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("plaque_NOM" "NOM" ((("p" "l" "a")0) (("k" ae) 0))))
+
+(dSayText "Quant aux propos de notre collègue écologiste, ils tombent à côté de la plaque.") ; neut_parl_s06_0313

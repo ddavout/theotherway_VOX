@@ -1,0 +1,9 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("voudrais_VER" VER ((("v" "u") 0) (("d" "rh" "eh") 0))))
+(lex.add.entry '("rappelé_VER" VER ((("rh" "a") 0) (("p" "l" "e") 0))))
+(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0))))
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("principes_NOM" NOM ((("p" "rh" "ehn") 0) (("s" "i" "p") 0))))
+(lex.add.entry '("intangibles_ADJ" ADJ ((("ehn") 0) (("t" "ahn") 0) (("zh" "i")0) (("b" "l" ae) 0))))
+
+(dSayText "Je voudrais rappeler ici, trois principes, intangibles.") ; neut_parl_s05_0293

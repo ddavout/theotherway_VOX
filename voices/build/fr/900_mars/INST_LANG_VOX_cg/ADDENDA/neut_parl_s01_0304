@@ -1,0 +1,10 @@
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("verrez_VER" "VER" ((("v" "e") 0) (("rh" "e") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("sujet_NOM" "NOM" ((("s" "y") 0) (("zh" "eh") 0))))
+(lex.add.entry '("important_ADJ" "ADJ" ((("ehn") 0) (("p" "oh" "rh") 0) (("t" "ahn") 0)))); no LIA
+
+(set! text "Vous verrez que c'est un sujet important.") ; 
+(dSayText text); neut_parl_s01_0304

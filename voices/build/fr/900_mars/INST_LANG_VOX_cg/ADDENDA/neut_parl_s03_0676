@@ -1,0 +1,7 @@
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("précisions_NOM" NOM ((("p" "rh" "e") 0) (("s" "i") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("sujet_NOM" "NOM" ((("s" "y") 0) (("zh" "eh") 0))))
+
+(dSayText "Deux précisions à ce sujet.") ; neut_parl_s03_0676

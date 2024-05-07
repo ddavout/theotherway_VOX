@@ -1,0 +1,13 @@
+(lex.add.entry '("Personne_NOM" NOM ((("p" "eh" "rh") 0) (("s" "oh" "n") 0))))
+
+(lex.add.entry '("Personne_PRO:ind" PRO:ind ((("p" "eh" "rh") 0) (("s" "oh" "n") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("s_amusera_VER" VER (((s "a") 0) (("m" "y") 0) (("z" "rh" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("petit_ADJ" "ADJ" ((("p" "ae") 0) (("t" "i") 0))))
+(lex.add.entry '("jeu_NOM" "NOM" ((("zh" "eu") 0))))
+
+
+(set! text "Personne ne s'amusera à ce petit jeu.") ; neut_parl_s04_0400
+(dSayText text)

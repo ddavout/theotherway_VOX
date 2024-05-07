@@ -1,0 +1,10 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("tourne_VER" "VER" ((("t" "u" "rh")0) (("n" ae) 0))))
+(lex.add.entry '("vers_PRE" PRE ((("v" "eh" "rh") 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("collègue_NOM" "NOM" ((("k" "oh") 0) (("l" "eh")0) (("g" ae) 0))))
+(lex.add.entry '("pierre_alain_NAM" "NAM" ((("p" "j" "eh") 0) (("rh" a) 0) ((l ehn) 0))))
+(lex.add.entry '("muet_NAM" "NAM" ((("m" "y") 0) (("eh") 0))))
+
+(dSayText "Je me tourne vers notre collègue Pierre-Alain Muet.") ; neut_parl_s06_0092

@@ -1,0 +1,11 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("créons_VER" VER ((("k" "rh" "e") 0) (("ohn") 0))))
+(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("Conseil_NAM" "NAM" ((("k" "ohn") 0) (("s" "eh" "j") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("évolution_NOM" "NOM" ((("e") 0) (("v" "oh") 0) (("l" "y") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("professionnelle_ADJ" "ADJ" ((("p" "rh" "oh") 0) (("f" "e") 0) (("s" "j" "oh") 0) (("n" "eh")0) (("l" ae) 0))))
+
+(set! list_exclus*-> (append (list "créons") list_exclus*->_default))
+(dSayText "Nous créons, ici un conseil en évolution professionnelle.") ; neut_parl_s06_0062

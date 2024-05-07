@@ -1,0 +1,19 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("champ_NOM" "NOM" ((("sh" "ahn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("enjeux_NOM" NOM (((z "ahn") 0) (("zh" "eu") 0)))); LIA; confusion NOM / ADJ ! 
+(lex.add.entry '("sanitaires_ADJ" ADJ ((("s" "a") 0) (("n" "i") 0) (("t" "eh" "rh") 0)))); confusion ADJ/CON !
+; (lex.add.entry '("enjeux" nil (((z "ahn") 0) (("zh" "eu") 0)))); LIA; confusion NOM / ADJ ! 
+; (lex.add.entry '("sanitaires" nil ((("s" "a") 0) (("n" "i") 0) (("t" "eh" "rh") 0)))); confusion ADJ/CON !
+(lex.add.entry '("est_VER" "VER" ((("eh") 0)))); no LIA
+(lex.add.entry '("lui-même_PRO:per" "PRO:per" ((("l" "hw" i) 0)(("m" "eh" "m") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("vaste_ADJ" "ADJ" ((("v" "a" "s")0) (("t" ae) 0))))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("l_a_AUX" "AUX" (((l "a") 0))))
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m eh) 0))))
+(lex.add.entry '("été_VER" "VER" (((z "e") 0) (("t" "e") 0)))); LIA
+
+(set! text "Le champ des enjeux sanitaires, est lui-même, plus vaste qu'il ne l'a jamais été.") ; neut_parl_s04_0301
+(dSayText text)

@@ -1,0 +1,10 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("vaut_VER" "VER" (((v o) 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("football_NOM" "NOM" ((("f" "u" "t") 0) (("b" "o" "l") 0))))
+
+(set! never_exception_list (append (list "vaut" ) never_exception_list_default))
+(dSayText "Et cela vaut aussi pour le football.") ; neut_parl_s04_0679

@@ -1,0 +1,12 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("jeunes_NOM" NOM ((("zh" "oe") 0) (("n" ae) 0))))
+(lex.add.entry '("doivent_VER" VER ((("d" "w" "a" "v") 0))))
+(lex.add.entry '("être_VER" VER (((t "eh") 0) (("t" "rh" ae) 0)))); LIA
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("leur_ADJ:pos" "ADJ:pos" ((("l" "oe" "rh") 0))))
+(lex.add.entry '("langue_NOM" "NOM" ((("l" "ahn" "g") 0))))
+
+
+(set! text "Les jeunes doivent être bien dans leur langue.") ; neut_parl_s02_0124
+(dSayText text)

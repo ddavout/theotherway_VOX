@@ -1,0 +1,15 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("Italie_NAM" "NAM" ((("i") 0) (("t" "a") 0) (("l" "i") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("bondi_VER" "VER" ((("b" "ohn") 0) (("d" "i") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("onze_NOM" "NOM" ((("ohn" "z") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("cent_NOM" "NOM" (((s ahn) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("an_NOM" "NOM" ((("ahn") 0))))
+
+(set! never_exception_list (append (list "En" "en" ) never_exception_list_default)); todo EN
+(dSayText "En Italie, il a bondi de onze pour cent en un an.") ; neut_parl_s02_0618

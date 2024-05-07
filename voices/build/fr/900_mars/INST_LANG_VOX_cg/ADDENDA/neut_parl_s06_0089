@@ -1,0 +1,9 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("faisant_VER" "VER" ((("f" "ae") 0) (("z" "ahn") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("m_encouragez_VER" VER (((m "ahn") 0) (("k" "u") 0) (("rh" "a") 0) (("zh" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("continuer_VER" VER ((("k" "ohn") 0) (("t" "i") 0) (("n" "hw" "e") 0))))
+
+(set! text "Ce faisant, vous m'encouragez à continuer !") ; neut_parl_s06_0089
+(dSayText text)

@@ -1,0 +1,20 @@
+(lex.add.entry '("recours_VER" VER ((("rh" "ae") 0) (("k" "u" "rh") 0))))
+
+
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "oh") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("vise_VER" "VER" ((("v" "i") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((z a) 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("qu_un_ART:ind" "ART:ind" (((k oen) 0))))
+(lex.add.entry '("nombre_NOM" "NOM" ((("n" "ohn")0) (("b" "rh" ae) 0))))
+(lex.add.entry '("accru_ADJ" ADJ ((("a") 0) (("k" "rh" "y") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("pères_NOM" NOM ((("p" "eh" "rh") 0))))
+(lex.add.entry '("ait_AUX" "AUX" ((("e") 0)))); no LIA
+(lex.add.entry '("recours_NOM" NOM ((("rh" "ae") 0) (("k" "u" "rh") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("congé_NOM" "NOM" ((("k" "ohn") 0) (("zh" "e") 0))))
+(lex.add.entry '("parental_ADJ" "ADJ" ((("p" "a") 0) (("rh" "ahn") 0) (("t" "a" "l") 0))))
+
+(set! text "Le dispositif vise à ce qu'un nombre accru de pères, ait recours au congé parental.") ; neut_parl_s01_0693
+(dSayText text)

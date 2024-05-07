@@ -1,0 +1,10 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("n_avons_AUX" AUX ((("n" "a") 0) (("v" "ohn") 0))))
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m eh) 0))))
+(lex.add.entry '("fait_VER" "VER" ((("f" "e") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0)))); no LIA
+(lex.add.entry '("telle_ADJ:ind" "ADJ:ind" ((("t" "eh" "l") 0))))
+(lex.add.entry '("chose_NOM" "NOM" (((sh o)0) ((z ae) 0))))
+
+(set! text "Nous n'avons jamais fait une telle chose !") ; neut_parl_s05_0294
+(dSayText text)

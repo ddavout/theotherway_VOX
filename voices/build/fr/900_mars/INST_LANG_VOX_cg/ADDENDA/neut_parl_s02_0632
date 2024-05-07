@@ -1,0 +1,9 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_PRO:per" "PRO:per" nil))
+(lex.add.entry '("agit_VER" "VER" ((("a") 0) (("zh" "i") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("amendements_NOM" "NOM" ((("a") 0) (("m" "ahn") 0) (("d" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("coordination_NOM" NOM ((("k" "o") 0) (("oh" "rh") 0) (("d" "i") 0) (("n" "a") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "Il s'agit d'amendements de coordination.") ; neut_parl_s02_0632

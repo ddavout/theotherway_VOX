@@ -1,0 +1,16 @@
+(lex.add.entry '("ensuite_ADV" "ADV" ((("ahn") 0) (("s" "hw" i)0) (("t" ae) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("objectif_NOM" "NOM" ((("oh" b) 0) (("zh" "e" "k") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("visant_VER" "VER" ((("v" "i") 0) (("z" "ahn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("construire_VER" "VER" ((("k" "ohn" "s") 0) (("t" "rh" "hw" i "rh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("première_ADJ" "ADJ" ((("p" "rh" "ae") 0) (("m" "j" "eh") 0))))
+(lex.add.entry '("étape_NOM" "NOM" (((rh "e") 0) (("t" "a" "p") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("réforme_NOM" "NOM" ((("rh" "e") 0) (("f" "oh" "rh")0) (("m" "ae") 0))))
+(lex.add.entry '("fiscale_ADJ" "ADJ" ((("f" "i" "s") 0) (("k" "a")0) (("l" ae) 0))))
+
+(set! never_exception_list (append (list "visant" ) never_exception_list_default))
+(dSayText "Ensuite, un objectif visant à construire une première étape de la réforme fiscale.") ; neut_parl_s06_0015

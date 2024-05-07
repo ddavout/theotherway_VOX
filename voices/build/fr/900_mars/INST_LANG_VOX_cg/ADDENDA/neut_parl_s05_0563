@@ -1,0 +1,9 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("projet_NOM" "NOM" ((("p" "rh" "oh") 0) (("zh" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("loi_NOM" "NOM" ((("l" "w" "a") 0))))
+(lex.add.entry '("sent_VER" VER (((s ahn) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("naphtaline_NOM" "NOM" ((("n" "a" "f") 0) (("t" "a") 0) (("l" "i")0) (("n" ae) 0))))
+
+(dSayText "Ce projet de loi, sent la naphtaline !") ; neut_parl_s05_0563

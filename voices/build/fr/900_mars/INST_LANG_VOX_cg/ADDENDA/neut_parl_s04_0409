@@ -1,0 +1,7 @@
+(lex.add.entry '("posez-vous_VER" VER ((("p" "o") 0) (("z" "e") 0)((v u) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("sérieusement_ADV" "ADV" ((("s" "eh") 0) (("rh" "j" "eu" "z") 0) (("m" "ahn") 0))))
+
+(set! text "Posez-vous la question sérieusement !") ; neut_parl_s04_0409
+(dSayText text)

@@ -1,0 +1,15 @@
+; mauvais Je et surtout pas de pause finale 
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("commence_VER" "VER" ((("k" "oh") 0) (("m" "ahn" "s") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("renseignement_NOM" "NOM" ((("rh" "ahn") 0) (("s" "eh" "jg") 0) (("m" "ahn") 0))))
+(lex.add.entry '("pièce_NOM" "NOM" ((("p" "j" "eh" "s") 0))))
+(lex.add.entry '("essentielle_ADJ" "ADJ" ((("eh") 0) (("s" "ahn") 0) (("s" "j" "eh" "l") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t") 0))))
+(lex.add.entry '("autonomie_NOM" "NOM" ((("rh" "oh") 0) ((t o) 0) (("n" "oh") 0) (("m" "i") 0))))
+(lex.add.entry '("stratégique_ADJ" "ADJ" ((("s" "t" "rh" "a") 0) (("t" "e") 0) (("zh" "i")0) (("k" "ae") 0))))
+
+(set! text "je commence par le renseignement, pièce essentielle de notre autonomie stratégique.") ; 
+(dSayText text); neut_parl_s01_0345

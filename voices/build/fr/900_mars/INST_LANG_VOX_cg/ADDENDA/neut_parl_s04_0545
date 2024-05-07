@@ -1,0 +1,13 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("même_ADJ" "ADJ" ((("m" "eh" "m") 0))))
+(lex.add.entry '("disposition_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("retrouve_VER" "VER" ((("rh" "ae") 0) (("t" "rh" "u")0) (("v" ae) 0))))
+
+(dSayText "En droit européen, c'est la même disposition qui se retrouve.") ; neut_parl_s04_0545

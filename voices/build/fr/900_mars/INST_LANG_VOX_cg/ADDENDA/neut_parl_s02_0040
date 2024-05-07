@@ -1,0 +1,12 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
+(lex.add.entry '("prioritaire_ADJ" "ADJ" ((("p" "rh" "j" "oh") 0) (("rh" "i") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("vincent_NAM" "NAM" (((v ehn) 0) ((s ahn) 0))))
+(lex.add.entry '("peillon_NAM" "NAM" ((("p" "e") 0) (("j" "ohn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("moi-même_PRO:per" "PRO:per" ((("m" "w" "a") 0)(("m" "eh")0)(("m" ae) 0)))); plus de pb POS confusion PRO:per et NOM
+
+(set! text "C'est un point prioritaire pour Vincent Peillon et moi-même.") ; neut_parl_s02_0040
+(dSayText text)

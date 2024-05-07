@@ -1,0 +1,14 @@
+(lex.add.entry '("j_ouvre_VER" VER ((("zh" "u") 0) (("v" "rh" ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("scrutin_NOM" "NOM" ((("s" "k" "rh" "y") 0) (("t" "ehn") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("annoncé_VER" VER (((t "a") 0) (("n" "ohn") 0) (("s" "e") 0)))); LIA
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("l_enceinte_NOM" "NOM" (((l "ahn") 0) (("s" "ehn" "t") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_assemblée_NOM" "NOM" (((l "a") 0) (("s" "ahn") 0) (("b" "l" "e") 0))))
+(lex.add.entry '("nationale_ADJ" "ADJ" ((("n" "a") 0) (("s" "j" "oh") 0) (("n" "a")0) (("l" ae) 0))))
+
+(set! text "j'ouvre le scrutin, qui est annoncé dans l'enceinte de l'Assemblée nationale.") ; 
+(dSayText text); neut_parl_s01_0581

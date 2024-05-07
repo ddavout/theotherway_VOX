@@ -1,0 +1,16 @@
+(lex.add.entry '("mieux_ADV" "ADV" ((("m" "j" "eu") 0))))
+(lex.add.entry '("encadré_VER" VER ((("ahn") 0) (("k" "a") 0) (("d" "rh" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("stages_NOM" NOM ((("s" "t" "a")0) (("zh" ae) 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("agir_VER" "VER" ((("a") 0) (("zh" "i" "rh") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("emploi_NOM" "NOM" ((("ahn") 0) (("p" "l" "w" "a") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("jeunes_NOM" NOM ((("zh" "oe")0) (("n" ae) 0))))
+
+(set! list_exclus*-> (append (list "Mieux") list_exclus*->_default))
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "Mieux encadrer les stages, c'est agir pour l'emploi des jeunes.") ; neut_parl_s03_0725

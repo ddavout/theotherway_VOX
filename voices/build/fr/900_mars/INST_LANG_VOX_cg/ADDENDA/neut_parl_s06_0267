@@ -1,0 +1,15 @@
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((t  ahn) 0) ((n e) 0) ((f eh) 0)))); LIA
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "e" "s") 0) (("t" "j" "ohn") 0)))) ; Q
+(lex.add.entry '("essentielle_ADJ" "ADJ" ((("eh") 0) (("s" "ahn") 0) (("s" "j" "eh")0) (("l" ae) 0)))); Q
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("dizaines_NOM" NOM (((d i) 0) ((z eh n) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("milliers_NOM" NOM ((("m" "i") 0) (("l" "j" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("familles_NOM" NOM ((("f" "a") 0) (("m" "i")0) (("j" "ae") 0))))
+
+(set! text "C'est en effet une question, essentielle, pour des dizaines de milliers de familles.") ; neut_parl_s06_0267
+(dSayText text)

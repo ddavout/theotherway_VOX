@@ -1,0 +1,10 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("temps_NOM" "NOM" (((t ahn) 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("dialogue_NOM" "NOM" ((("d" "j" "a") 0) (("l" "oh" "g") 0))))
+(lex.add.entry '("social_ADJ" "ADJ" ((("s" "oh") 0) (("s" "j" "a")0) (("l" ae) 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("eu_VER" "VER" (((y) 0))))
+(lex.add.entry '("lieu_NOM" "NOM" ((("l" "j" "eu") 0))))
+
+(dSayText "Le temps du dialogue social, a eu lieu.") ; neut_parl_s06_0378

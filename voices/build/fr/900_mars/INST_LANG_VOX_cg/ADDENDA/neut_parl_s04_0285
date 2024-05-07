@@ -1,0 +1,12 @@
+(lex.add.entry '("j_en_PRO:per" "PRO:per" (((zh ahn) 0))))
+(lex.add.entry '("reviens_VER" VER ((("rh" "ae") 0) (("v" "j" "ehn") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("individuel_ADJ" "ADJ" ((("ehn") 0) (("d" "i") 0) (("v" "i") 0) (("d" "hw" "eh" "l") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("formation_NOM" "NOM" ((("f" "oh" "rh") 0) (("m" "a") 0) (("s" "j" "ohn") 0))))
+
+(set! text "Je reviens sur le droit individuel à la formation.") ; neut_parl_s04_0285
+(dSayText text)

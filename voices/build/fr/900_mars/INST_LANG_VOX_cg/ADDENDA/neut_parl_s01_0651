@@ -1,0 +1,11 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("respecte_VER" "VER" ((("rh" "eh" "s") 0) (("p" "eh" "k")0) (("t" ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("principes_NOM" NOM ((("p" "rh" "ehn") 0) (("s" "i" "p") 0))))
+(lex.add.entry '("généraux_ADJ" "ADJ" ((("zh" "e") 0) (("n" "e") 0) (("rh" "o") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+
+(set! text "ce dispositif respecte les principes généraux du droit.") ; neut_parl_s01_0651
+(dSayText text)

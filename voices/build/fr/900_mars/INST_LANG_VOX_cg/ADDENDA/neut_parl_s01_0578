@@ -1,0 +1,11 @@
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("telles_ADJ:ind" ADJ:ind ((("t" "eh")0) (("l" ae) 0))));; Q
+(lex.add.entry '("attaques_NOM" NOM (((z "a") 0) (("t" "a" "k") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m eh) 0))))
+(lex.add.entry '("neutres_ADJ" ADJ ((("n" "eu") 0) (("t" "rh" "ae") 0))))
+
+
+(set! text "De telles attaques ne sont jamais neutres.") ; 
+(dSayText text); neut_parl_s01_0578

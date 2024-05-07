@@ -1,0 +1,16 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_étaient_VER" "VER" (((s e) 0) ((t e) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("mots_NOM" NOM ((("m" "o") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("louis_NAM" "NAM" (((l w i) 0))))
+(lex.add.entry '("Besson_NAM" NAM ((("b" "e") 0) (("s" "ohn") 0))))
+(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0))))
+(lex.add.entry '("même_ADJ" "ADJ" ((("m" "eh")0) (("m" ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("huit_ADJ:num" "ADJ:num" ((("hw" i) 0))))
+(lex.add.entry '("mars_NOM" "NOM" (((m a rh s) 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("mille_NOM" "NOM" ((("m" "i")0) (("l" ae) 0))))
+
+(dSayText "c'étaient les mots de Louis Besson, ici même, le huit mars deux mille.") ; neut_parl_s05_0557

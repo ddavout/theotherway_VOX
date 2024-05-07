@@ -1,0 +1,9 @@
+(lex.add.entry '("Puis_VER" VER ((("p" "hw" "i") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("crise_NOM" "NOM" ((("k" "rh" "i" "z") 0))))
+(lex.add.entry '("financière_ADJ" "ADJ" ((("f" "i") 0) (("n" "ahn") 0) (("s" "j" "eh" "rh") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("arrivée_VER" "VER" ((("a") 0) (("rh" "i") 0) (("v" "e") 0))))
+
+(set! never_exception_list (append (list "est"  ) never_exception_list_default))
+(dSayText "Puis, la crise financière est arrivée.") ; neut_parl_s03_0119

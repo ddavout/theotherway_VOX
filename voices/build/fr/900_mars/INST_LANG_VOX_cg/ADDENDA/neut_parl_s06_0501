@@ -1,0 +1,14 @@
+(lex.add.entry '("Or_CON" CON ((("oh" "rh") 0))))(lex.add.entry '("Or_NOM" NOM ((("oh" "rh") 0))))
+(lex.add.entry '("huit_ADJ:num" "ADJ:num" ((("hw" i) 0))))
+(lex.add.entry '("cents_ADJ:num" ADJ:num ((("s" "ahn") 0))))
+(lex.add.entry '("personnes_NOM" NOM ((("p" "eh" "rh") 0) (("s" "oh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((n ahn) 0)))); no LIA
+(lex.add.entry '("situation_NOM" "NOM" ((("s" "i") 0) (("t" "hw" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("handicap_NOM" "NOM" ((("ahn") 0) (("d" "i") 0) (("k" "a" "p") 0))))
+(lex.add.entry '("attendent_VER" VER ((("a") 0) (("t" "ahn" "d") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
+(lex.add.entry '("place_NOM" "NOM" ((("p" "l" "a" "s") 0))))
+
+(set! text "Or, huit cents personnes en situation de handicap, attendent une place.") ; neut_parl_s06_0501
+(dSayText text)

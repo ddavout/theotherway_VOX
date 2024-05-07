@@ -1,0 +1,9 @@
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("texte_NOM" NOM ((("t" "eh" "k" s) 0) (("t" ae) 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("remet_VER" "VER" ((("rh" "ae") 0) (("m" "eh") 0))))
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+
+(set! text "C'est un texte qui remet  enfin !") ; 
+(dSayText text); neut_parl_s01_0610

@@ -1,0 +1,13 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("vrai_ADJ" "ADJ" ((("v" "rh" "eh") 0))))
+(lex.add.entry '("sujet_NOM" "NOM" ((("s" "y") 0) (("zh" "eh") 0))))
+(lex.add.entry '("dont_PRO:rel" "PRO:rel" ((("d" "ohn") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" (((t "ohn") 0)))); LIA
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("s_occupe_VER" VER (((s "oh") 0) (("k" "y" "p") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("vraiment_ADV" "ADV" ((("v" "rh" "eh") 0) (("m" "ahn") 0))))
+
+(set! text "C'est un vrai sujet, dont on ne s'occupe pas vraiment.") ; neut_parl_s06_0423
+(dSayText text)

@@ -1,0 +1,14 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("devrè_VER" VER ((("d" "ae") 0) (("v" "rh" "eh") 0))))
+(lex.add.entry '("entré_VER" VER ((("ahn") 0) (("t" "rh" "e") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("vigueur_NOM" "NOM" ((("v" "i") 0) (("g" "oe" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("premier_NOM" NOM ((("p" "rh" "ae") 0) (("m" "j" "e") 0))))
+(lex.add.entry '("octobre_NOM" "NOM" ((("oh" "k") 0) (("t" "oh" "b" "rh") 0)))); done
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("mille_ADJ:num" ADJ:num ((("m" "i" "l") 0))))
+(lex.add.entry '("quatorze_ADJ:num" "ADJ:num" ((("k" "a") 0) (("t" "oh" "rh")0) (("z" ae) 0))))
+
+(set! never_exception_list (append (list "devrait" ) never_exception_list_default))
+(dSayText "Il devrait entrer en vigueur le premier octobre deux mille quatorze.") ; neut_parl_s05_0125

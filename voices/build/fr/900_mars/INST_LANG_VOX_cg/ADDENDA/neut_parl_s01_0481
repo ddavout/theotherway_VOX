@@ -1,0 +1,15 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("y_a_VER" "VER" (((l "j" "a") 0))))
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0)))); NO LIA
+(lex.add.entry '("révision_NOM" "NOM" ((("rh" "e") 0) (("v" "i") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("politique_NOM" NOM (((p oh) 0) ((l i) 0) ((t i k) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("loyers_NOM" NOM ((("l" "w" "a") 0) (("j" "e") 0))))
+
+(lex.add.entry '("politique_NOM" NOM (((p oh)0) ((l i)0) ((t i k)0))))
+(set! text "Il y a enfin une révision de la politique des loyers.") ; 
+(dSayText text); neut_parl_s01_0481
+

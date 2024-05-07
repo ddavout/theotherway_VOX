@@ -1,0 +1,14 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("est_VER" "VER" ((("e") 0))))
+(lex.add.entry '("certain_ADJ" ADJ ((("s" "eh" "rh") 0) (("t" "ehn") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("existence_NOM" "NOM" ((("eh" "g") 0) (("z" "i" "s") 0) (("t" "ahn" "s") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("privatisations_NOM" NOM ((("p" "rh" "i") 0) (("v" "a") 0) (("t" "i") 0) (("z" "a") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "Ce qui est certain, c'est l'existence d'une période de privatisations.") ; neut_parl_s03_0422

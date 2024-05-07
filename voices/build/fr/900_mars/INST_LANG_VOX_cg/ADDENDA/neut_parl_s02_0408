@@ -1,0 +1,12 @@
+
+
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("répartition_NOM" "NOM" ((("rh" "e") 0) (("p" "a" "rh") 0) (("t" "i") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("fait_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("partie_NOM" "NOM" ((("p" "a" "rh") 0) (("t" "i") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("principes_NOM" NOM ((("p" "rh" "ehn") 0) (("s" "i" "p") 0))))
+(lex.add.entry '("fondateurs_ADJ" ADJ ((("f" "ohn") 0) (("d" "a") 0) (("t" "oe" "rh") 0))))
+
+(set! text "La répartition fait partie des principes fondateurs.") ; neut_parl_s02_0408
+(dSayText text)

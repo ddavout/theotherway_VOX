@@ -1,0 +1,8 @@
+(lex.add.entry '("or_NOM" "NOM" ((("oh" "rh") 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("hasard_NOM" "NOM" ((("a") 0) (("z" "a" "rh") 0))))
+(lex.add.entry '("hop_NOM" "NOM" ((("oh")0) ((p ae) 0))))
+
+(dSayText "Or là, comme par hasard, hop !") ; neut_parl_s03_0445

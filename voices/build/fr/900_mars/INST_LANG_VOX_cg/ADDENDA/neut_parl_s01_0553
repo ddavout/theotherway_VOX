@@ -1,0 +1,17 @@
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("elles_PRO:per" PRO:per ((("eh" "l") 0))))
+(lex.add.entry '("cherchent_VER" VER ((("sh" "eh" "rh" "sh") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("eux-mêmes_PRO:per" "PRO:per" ((("eu") 0)(("m" "eh")0) (("m" ae) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0)))); no LIA
+(lex.add.entry '("répondre_VER" "VER" ((("rh" "e") 0) (("p" "ohn" "d" "rh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("comment_ADV" ADV ((("k" "oh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("mourir_VER" "VER" ((("m" "u") 0) (("rh" "i" "rh") 0))))
+
+(set! text "Ils et elles cherchent, pour eux-mêmes, à répondre à la question du comment mourir.") ; 
+(dSayText text); neut_parl_s01_0553

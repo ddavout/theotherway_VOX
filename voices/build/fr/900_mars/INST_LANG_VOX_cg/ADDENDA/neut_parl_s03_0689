@@ -1,0 +1,9 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("prévoit_VER" "VER" ((("p" "rh" "e") 0) (("v" "w" "a") 0))))
+(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nombreuses_ADJ" ADJ ((("n" "ohn") 0) (("b" "rh" "eu" "z") 0))))
+(lex.add.entry '("exonérations_NOM" NOM ((("e" "g") 0) (("z" "oh") 0) (("n" "e") 0) (("rh" "a") 0) (("s" "j" "ohn") 0)))); no LIA
+
+(set! text "Il prévoit déjà de nombreuses exonérations.") ; neut_parl_s03_0689
+(dSayText text)

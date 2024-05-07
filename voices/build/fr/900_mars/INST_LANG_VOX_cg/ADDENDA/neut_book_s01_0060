@@ -1,0 +1,23 @@
+(set! fileid "neut_book_s01_0060")
+(lex.add.entry '("en_outre_ADV" "ADV" ((("ahn")0) (("n" "u")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("elles_PRO:per" PRO:per ((("eh" "l") 0))))
+(lex.add.entry '("étaient_VER" VER (((z "e") 0) (("t" "eh") 0)))); LIA
+(lex.add.entry '("excellentes_ADJ" ADJ (((t "e" "k") 0) (("s" "e") 0) (("l" "ahn" "t") 0)))); LIA
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0)))); no LIA
+(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("vue_NOM" "NOM" ((("v" "y") 0))))
+(lex.add.entry '("comestible_ADJ" "ADJ" ((("k" "oh") 0) (("m" "e" "s") 0) (("t" "i")0) (("b" "l" ae) 0))))
+(lex.add.entry '("ainsi_ADV" "ADV" ((("ehn") 0) (("s" "i") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("tortues_NOM" NOM ((("t" "oh" "rh") 0) (("t" "y") 0))))
+(lex.add.entry '("franches_ADJ" ADJ ((("f" "rh" "ahn" "sh") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("d_un_ART:ind" ART:ind (((d "oen") 0))))
+(lex.add.entry '("goût_NOM" "NOM" (((g u) 0))))
+(lex.add.entry '("exquis_ADJ" ADJ ((("eh" "k") 0) ((s "k" "i") 0))))
+
+(set! text "en outre, elles étaient excellentes au point de vue comestible, ainsi que les tortues franches qui sont d'un goût exquis.") ; neut_book_s01_0060
+(dSayText text)

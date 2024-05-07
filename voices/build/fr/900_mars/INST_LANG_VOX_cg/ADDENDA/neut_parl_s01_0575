@@ -1,0 +1,15 @@
+(lex.add.entry '("mais_CON" "CON" (((m e) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((z i l) 0)))); LIA
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("éviter_VER" VER ((("e") 0) (("v" "i") 0) (("t" "e") 0)))); no LIA
+(lex.add.entry '("d_employer_VER" "VER" (((d "ahn") 0) (("p" "l" "w" "a") 0) (("j" "e") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("mots_NOM" NOM ((("m" "o") 0))))
+(lex.add.entry '("trop_ADV" "ADV" ((("t" "rh" "o") 0))))
+(lex.add.entry '("forts_ADJ" ADJ ((("f" "oh" "rh") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("peuvent_VER" VER ((("p" "eu" "v") 0))))
+(lex.add.entry '("choquer_VER" VER ((("sh" "oh") 0) (("k" "e") 0))))
+
+(set! text "Mais il faut éviter d'employer des mots trop forts qui peuvent choquer.") ; 
+(dSayText text); neut_parl_s01_0575

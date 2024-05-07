@@ -1,0 +1,12 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("prendrai_VER" VER ((("p" "rh" "ahn") 0) (("d" "rh" "eh") 0))))
+(lex.add.entry '("l_exemple_NOM" "NOM" (((l "eh" "g") 0) (("z" "ahn")0) (("p" "l" ae) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("Hautes_Alpes_NAM" "NAM" ((("o" t) 0) (("z" "a" "l" "p") 0)))); no LIA
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("connais_VER" VER ((("k" "oh") 0) (("n" "eh") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+
+(set! text "Je prendrai l'exemple des Hautes-Alpes, que je connais bien.") ; neut_parl_s02_0303
+(dSayText text)

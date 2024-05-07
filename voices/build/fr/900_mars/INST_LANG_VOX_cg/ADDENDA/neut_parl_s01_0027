@@ -1,0 +1,7 @@
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("nébuleux_ADJ" "ADJ" ((("n" "e") 0) (("b" "y") 0) (("l" "eu") 0))))
+
+(set! text  "c'est un peu nébuleux !") ; neut_parl_s01_0027
+(dSayText text)

@@ -1,0 +1,16 @@
+(set! fileid "neut_book_s01_0121")
+
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m eh) 0))))
+(lex.add.entry '("appareil_NOM" "NOM" ((("a") 0) (("p" "a") 0) (("rh" "eh" "j") 0))))
+(lex.add.entry '("caudal_ADJ" "ADJ" ((("k" "o") 0) (("d" "a")0) (("l" ae) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("battit_VER" "VER" ((("b" "a") 0) (("t" "i") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("mer_NOM" "NOM" ((("m" "eh" "rh") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" k) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("telle_ADJ:ind" "ADJ:ind" ((("t" "eh" "l") 0))))
+(lex.add.entry '("puissance_NOM" "NOM" ((("p" "hw" i) 0) (("s" "ahn" "s") 0))))
+
+(set! text "jamais appareil, caudal, ne battit la mer avec une telle puissance.") ; neut_book_s01_0121
+(dSayText text)

@@ -1,0 +1,12 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((k "o") 0))))
+(lex.add.entry '("moins_NOM" NOM ((("m" "w" "ehn") 0))))
+(lex.add.entry '("penser_VER" VER ((("p" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("eux_PRO:per" "PRO:per" ((("eu") 0))))
+
+
+(set! text "On peut donc au moins penser à eux.") ; 
+(dSayText text); neut_parl_s01_0475

@@ -1,0 +1,13 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("combat_NOM" "NOM" ((("k" "ohn") 0) (("b" "a") 0))))
+(lex.add.entry '("n_avait_AUX" AUX ((("n" "a") 0) (("v" "eh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("été_VER" "VER" (((z "e") 0) (("t" "e") 0))))
+(lex.add.entry '("mené_VER" "VER" ((("m" "ae") 0) (("n" "e") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("niveau_NOM" "NOM" ((("n" "i") 0) (("v" "o") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+
+(set! never_exception_list (append (list "pas" ) never_exception_list_default))
+(set! text "Ce combat n'avait pas été mené au niveau européen.") ; neut_parl_s04_0422
+(dSayText text)

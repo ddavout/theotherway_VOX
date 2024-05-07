@@ -1,0 +1,10 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("moyen_NOM" "NOM" ((("m" "w" "a") 0) (("j" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("vente_NOM" "NOM" ((("v" "ahn" "t") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("développe_VER" "VER" ((("d" "e") 0) (("v" "l" "oh" "p") 0))))
+
+
+(set! text "Ce moyen de vente se développe.") ; neut_parl_s03_0092
+(dSayText text)

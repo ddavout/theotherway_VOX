@@ -1,0 +1,18 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("idée_NOM" "NOM" ((("i") 0) (("d" "e") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("fraude_NOM" "NOM" ((("f" "rh" "o")0) (("d" ae) 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("qu_CON" "CON" nil))
+(lex.add.entry '("qu_elle_PRO:per" "PRO:per" (((k eh l) 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_a_VER" VER ((("n" a) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("vocation_NOM" "NOM" ((("v" "oh") 0) (("k" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("être_AUX" "AUX" ((("eh" "t" "rh") 0)))); done
+(lex.add.entry '("découverte_VER" VER ((("d" "e") 0) (("k" "u") 0) (("v" "eh" "rh" "t") 0))))
+
+(dSayText "l'idée d'une fraude, c'est qu'elle n'a pas vocation à être découverte.") ; neut_parl_s04_0647

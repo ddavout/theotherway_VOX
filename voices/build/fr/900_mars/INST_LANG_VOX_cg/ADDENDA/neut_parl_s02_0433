@@ -1,0 +1,9 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_agit_VER" "VER" (((s "a") 0) (("zh" "i") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("boire_VER" "VER" ((("b" "w" "a" "rh") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("modération_NOM" "NOM" ((("m" "oh") 0) (("d" "e") 0) (("rh" "a") 0) (("s" "j" "ohn") 0))))
+
+(set! text "Il s'agit de boire avec modération.") ; neut_parl_s02_0433
+(dSayText text)

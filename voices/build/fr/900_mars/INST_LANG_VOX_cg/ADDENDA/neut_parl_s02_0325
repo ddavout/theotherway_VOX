@@ -1,0 +1,11 @@
+(lex.add.entry '("Revenons_VER" VER ((("rh" "ae") 0) (("v" "ae") 0) (("n" "ohn") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("budget_NOM" "NOM" ((("b" "y" d) 0) (("zh" "eh") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("est_AUX" "AUX" (((z "eh") 0))))
+(lex.add.entry '("soumis_VER" VER ((("s" "u") 0) (("m" "i") 0))))
+(set! list_exclus*-> (append (list "Revenons") list_exclus*->_default))
+
+(set! text "Revenons au budget qui nous est soumis.") ; neut_parl_s02_0325
+(dSayText  text)

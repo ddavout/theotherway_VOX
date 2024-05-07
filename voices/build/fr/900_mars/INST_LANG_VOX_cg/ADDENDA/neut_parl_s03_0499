@@ -1,0 +1,10 @@
+(lex.add.entry '("voilà_VER" "VER" ((("v" "w" "a") 0) (("l" "a") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("plan_ADJ" ADJ ((("p" "l" "ahn") 0))))
+(lex.add.entry '("général_NOM" "NOM" ((("zh" "e") 0) (("n" "e") 0) (("rh" "a" "l") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("lequel_PRO:rel" "PRO:rel" ((("l" "ae") 0) (("k" "eh" "l") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("évoluons_VER" VER ((("e") 0) (("v" "oh") 0) (("l" "y") 0) (("ohn") 0))))
+
+(dSayText "Voilà le plan général dans lequel nous évoluons.") ; neut_parl_s03_0499

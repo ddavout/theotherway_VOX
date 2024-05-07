@@ -1,0 +1,11 @@
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("avez_VER" VER (((z "a") 0) (("v" "e") 0)))); LIA
+(lex.add.entry '("su_VER" "VER" ((("s" "y") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("brillamment_ADV" "ADV" ((("b" "rh" "i") 0) (("j" "a") 0) (("m" "ahn") 0))))
+(lex.add.entry '("hier_ADV" ADV (((i) 0) ((j eh rh) 0))))
+
+(set! text "vous avez su le faire brillamment hier.") ; 
+(dSayText text); neut_parl_s01_0272
+

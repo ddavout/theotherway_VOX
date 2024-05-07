@@ -1,0 +1,12 @@
+(lex.add.entry '("Or_CON" CON ((("oh" "rh") 0))))(lex.add.entry '("Or_NOM" NOM ((("oh" "rh") 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("but_NOM" "NOM" ((("b" "y" t) 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("recherchons_VER" VER ((("rh" "ae") 0) (("sh" "eh" "rh") 0) (("sh" "ohn") 0))))
+
+
+(set! text "Or ce n'est pas le but que nous recherchons.") ; neut_parl_s05_0507
+(dSayText text)

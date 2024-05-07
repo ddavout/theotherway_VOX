@@ -1,0 +1,18 @@
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("cadre_NOM" "NOM" ((("k" "a" "d" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("entreprise_NOM" "NOM" ((("ahn") 0) (("t" "rh" "ae") 0) (("p" "rh" "i")0) (("z" "ae") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("vois_VER" VER ((("v" "w" "a") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("remettrè_VER" VER ((("rh" "ae") 0) (("m" "eh") 0) (("t" "rh" "eh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("cause_NOM" "NOM" ((("k" "o")0) (("z" "ae") 0))))
+
+(dSayText "Dans le cadre de l'entreprise, je ne vois pas pourquoi, on le remettrait en cause.") ; neut_parl_s04_0696

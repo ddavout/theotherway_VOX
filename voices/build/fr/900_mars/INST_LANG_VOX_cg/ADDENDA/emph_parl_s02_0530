@@ -1,0 +1,10 @@
+(lex.add.entry '("Qui_PRO:int" PRO:int ((("k" "i") 0))))
+(lex.add.entry '("s_CON" "CON" nil))
+(lex.add.entry '("en_nil" nil (((ahn) 0))))
+(lex.add.entry '("trouve_VER" "VER" ((("t" "rh" "u" "v") 0))))
+(lex.add.entry '("protégé_ADJ" ADJ ((("p" "rh" "oh") 0) (("t" "e") 0) (("zh" "e") 0))))
+(lex.add.entry '("sinon_CON" "CON" ((("s" "i") 0) (("n" "ohn") 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("peuples_NOM" NOM ((("p" "oe")0) (("p" "l" ae) 0))))
+
+(dSayText "Qui s'en trouve protégé, sinon nos peuples ?") ; emph_parl_s02_0530

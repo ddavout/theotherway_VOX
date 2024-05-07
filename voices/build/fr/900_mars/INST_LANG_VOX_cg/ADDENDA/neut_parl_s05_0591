@@ -1,0 +1,14 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("solution_NOM" NOM ((("s" "oh") 0) (("l" "y") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("semble_VER" "VER" ((("s" "ahn")0) (("b" "l" ae) 0))))
+(lex.add.entry '("relativement_ADV" "ADV" ((("rh" "ae") 0) (("l" "a") 0) (("t" "i" "v") 0) (("m" "ahn") 0))))
+(lex.add.entry '("honnête_ADJ" "ADJ" ((("oh") 0) (("n" "eh" "t") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("tout_NOM" NOM ((("t" "u" l) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" nil))
+(lex.add.entry '("monde_NOM" "NOM" ((("m" "ohn") 0) (("d" ae) 0))))
+
+(set! list_exclus*-> (append (list "relativement") list_exclus*->_default))
+(dSayText "Cette solution me semble relativement honnête pour tout le monde.") ; neut_parl_s05_0591
+

@@ -1,0 +1,12 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("y_a_VER" "VER" ((("j" "a") 0))))
+(lex.add.entry '("quinze_ADJ:num" "ADJ:num" ((("k" "ehn") 0))))
+(lex.add.entry '("ans_NOM" NOM (((z "ahn") 0))))
+(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
+(lex.add.entry '("Peugeot_NAM" NAM ((("p" "eu") 0) (("zh" "o") 0))))
+(lex.add.entry '("produisè_VER" "VER" ((("p" "rh" "oh") 0) (("d" "hw" i) 0) (("z" "eh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("voiture_NOM" "NOM" ((("v" "w" "a") 0) (("t" "y" "rh") 0))))
+(lex.add.entry '("électrique_ADJ" "ADJ" ((("e") 0) (("l" "e" "k") 0) (("t" "rh" "i")0) (("k" ae) 0))))
+
+(dSayText "Il y a quinze ans déjà, Peugeot produisait une voiture électrique.") ; neut_parl_s02_0500

@@ -1,0 +1,11 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
+(lex.add.entry '("aveugle_ADJ" ADJ ((("a") 0) (("v" "oe") 0) (("g" "l" ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0))))
+(lex.add.entry '("rapport_NOM" "NOM" ((("rh" "a") 0) (("p" "oh" "rh") 0))))
+
+; todo triple g l d 
+(dSayText "C'est le point aveugle de votre rapport.") ; neut_parl_s04_0267

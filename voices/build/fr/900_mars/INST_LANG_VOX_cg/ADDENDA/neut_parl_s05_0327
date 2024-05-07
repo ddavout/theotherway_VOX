@@ -1,0 +1,14 @@
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("importe_VER" "VER" ((("ehn") 0) (("p" "oh" "rh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0))))
+(lex.add.entry '("quelle_ADJ:int" "ADJ:int" ((("k" "eh") 0))))
+(lex.add.entry '("hauteur_NOM" "NOM" (((l "o") 0) (("t" "oe" "rh") 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("l_objet_NOM" "NOM" (((l oh b) 0) ((zh eh) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("amendement_NOM" "NOM" (((t "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+
+(dSayText "Peu importe à quelle hauteur, ce n'est pas l'objet de cet amendement.") ; neut_parl_s05_0327

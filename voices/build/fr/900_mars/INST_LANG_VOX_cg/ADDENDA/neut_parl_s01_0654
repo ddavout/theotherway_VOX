@@ -1,0 +1,13 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("ainsi_ADV" "ADV" (((t "ehn") 0) (("s" "i") 0)))); LIA
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("agirons_VER" VER (((z "a") 0) (("zh" "i") 0) (("rh" "ohn") 0)))); LIA
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("service_NOM" "NOM" ((("s" "eh" "rh") 0) (("v" "i" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("compatriotes_NOM" NOM ((("k" "ohn") 0) (("p" "a") 0) (("t" "rh" "i") 0) (("j" "oh" "t") 0))))
+
+(set! text "C'est ainsi que nous agirons au service de nos compatriotes.") ; 
+(dSayText text); neut_parl_s01_0654

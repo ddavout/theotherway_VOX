@@ -1,0 +1,13 @@
+(lex.add.entry '("j_ai_VER" "VER" (((zh e) 0)))); confusion possible
+(lex.add.entry '("j_ai_AUX" "AUX" (((zh e) 0))))
+(lex.add.entry '("toujours_ADV" ADV ((("t" "u") 0) (("zh" "u" "rh") 0))))
+(lex.add.entry '("respecté_VER" "VER" ((("rh" "eh" "s") 0) (("p" "e" "k") 0) (("t" "e") 0))))
+(lex.add.entry '("mes_ADJ:pos" "ADJ:pos" ((("m" "e") 0))))
+(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh") 0) (("g" ae) 0))))
+(lex.add.entry '("quand_CON" "CON" ((("k" "ahn") 0))))
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((t i l) 0)))); LIA
+(lex.add.entry '("étaient_VER" VER (((z "e") 0) (("t" "eh") 0)))); LIA
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("l_opposition_NOM" "NOM" (((l "oh") 0) (("p" "o") 0) (("z" "i") 0) (("s" "j" "ohn") 0))))
+(set! text "j'ai toujours respecté mes collègues quand ils étaient dans l'opposition.") ; neut_parl_s01_0052
+(dSayText text)

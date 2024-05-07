@@ -1,0 +1,8 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("n_effarouche_VER" VER ((("n" "e") 0) (("f" "a") 0) (("rh" "u" "sh") 0))))
+(lex.add.entry '("personne_PRO:ind" PRO:ind ((("p" "eh" "rh") 0) (("s" "oh")0) (("n" ae) 0))))
+
+
+(set! text "Et cela n'effarouche, personne !") ; neut_parl_s02_0243
+(dSayText text)

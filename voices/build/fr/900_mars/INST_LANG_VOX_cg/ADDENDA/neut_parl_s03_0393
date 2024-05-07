@@ -1,0 +1,16 @@
+(lex.add.entry '("celui_ci_VER" "VER" ((("s" "ae") 0) (("l" "hw" i) 0) (("s" "i") 0))))
+(lex.add.entry '("exerce_VER" VER ((("eh" "g") 0) (("z" "eh" "rh" "s") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("missions_NOM" NOM ((("m" "i") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("diagnostic_NOM" "NOM" ((("d" "j" "a" "g") 0) (("n" "oh" "s") 0) (("t" "i" "k") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("Conseil_NAM" "NAM" ((("k" "ohn") 0) (("s" "eh" "j") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("surveillance_NOM" "NOM" ((("s" "y" "rh") 0) (("v" "e") 0) ((j "ahn" "s") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("matière_NOM" "NOM" ((("m" "a") 0) (("t" "j" "eh" "rh") 0))))
+
+(dSayText "Celui-ci exerce des missions de diagnostic de conseil, et de surveillance en la matière.") ; neut_parl_s03_0393

@@ -1,0 +1,8 @@
+(lex.add.entry '("voilà_VER" "VER" ((("v" "w" "a") 0) (("l" "a") 0))))
+(lex.add.entry '("quelques_ADJ:ind" ADJ:ind ((("k" "eh" "l") 0) (("k" "ae") 0))))
+(lex.add.entry '("questions_NOM" NOM ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("venues_VER" VER ((("v" "ae") 0) (("n" "y") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("terrain_NOM" NOM ((("t" "e") 0) (("rh" "ehn") 0))))
+
+(dSayText "Voilà quelques questions venues du terrain.") ; neut_parl_s06_0690

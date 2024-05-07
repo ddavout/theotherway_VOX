@@ -1,0 +1,10 @@
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("importè_VER" VER ((("ehn") 0) (("p" "oh" "rh") 0) (("t" "eh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("fracture_VER" VER ((("f" "rh" "a" "k") 0) (("t" "y" "rh") 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("contrat_NOM" "NOM" ((("k" "ohn") 0) (("t" "rh" "a") 0))))
+(lex.add.entry '("social_ADJ" "ADJ" ((("s" "oh") 0) (("s" "j" "a" "l") 0))))
+
+(dSayText "Peu importait que cela fracture notre contrat social.") ; neut_parl_s03_0041

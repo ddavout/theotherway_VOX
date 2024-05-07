@@ -1,0 +1,11 @@
+; Le tronqué
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0)))); no LIA
+(lex.add.entry '("fait_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0)))); no LIA
+(lex.add.entry '("choix_NOM" "NOM" ((("sh" "w" "a") 0))))
+
+(set! text "le gouvernement a fait un choix.") ; 
+(dSayText text); neut_parl_s01_0324
+

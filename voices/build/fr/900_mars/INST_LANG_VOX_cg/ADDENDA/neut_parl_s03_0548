@@ -1,0 +1,9 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("démocraties_NOM" NOM ((("d" "e") 0) (("m" "o") 0) (("k" "rh" "a") 0) (("s" "i") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("peuvent_VER" VER ((("p" "eu" "v") 0))))
+(lex.add.entry '("baissé_VER" VER ((("b" "e") 0) (("s" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("bras_NOM" NOM ((("b" "rh" "a") 0))))
+
+(dSayText "Les démocraties ne, peuvent baisser les bras.") ; neut_parl_s03_0548

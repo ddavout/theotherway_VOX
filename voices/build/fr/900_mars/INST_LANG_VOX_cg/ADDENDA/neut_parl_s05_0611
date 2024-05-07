@@ -1,0 +1,9 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("opposable_ADJ" "ADJ" ((("oh") 0) ((p o) 0) ((z a)0) ((b l ae) 0))))
+
+
+
+(dSayText "C'est un droit, opposable.") ; neut_parl_s05_0611

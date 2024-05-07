@@ -1,0 +1,46 @@
+(set! fileid "neut_book_s01_0004")
+; TODO confusion VER/ADJ qd suivi de par
+(lex.add.entry '("emporté_VER" VER ((("ahn") 0) (("p" "oh" "rh") 0) (("t" "e") 0))))
+(lex.add.entry '("emporté_ADJ" ADJ ((("ahn") 0) (("p" "oh" "rh") 0) (("t" "e") 0))))
+; TODO au-dessus des pris pour ADV au lieu de préposition 
+; TODO au-dessus des = ? ART:def comme au, aux 
+(lex.add.entry '("au_dessus_ADV"  "ADV" ((("o") 0) (("d" "ae") 0) (("s" "y") 0))))
+(lex.add.entry '("au_dessus_PRE"  "PRE" ((("o") 0) (("d" "ae") 0) (("s" "y") 0))))
+
+; cause doublon il 1 qui porte liaison
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("filait_VER" VER ((("f" "i") 0) (("l" "eh") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("ballon_NOM" "NOM" ((("b" "a") 0) (("l" "ohn") 0))))
+(lex.add.entry '("emporté" nil ((("ahn") 0) (("p" "oh" "rh") 0) (("t" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("vent_NOM" "NOM" ((("v" "ahn") 0))))
+(lex.add.entry '("au_dessus" nil ((("o") 0) (("d" "ae") 0) (("s" "y") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("prairies_NOM" NOM ((("p" "rh" "eh") 0) (("rh" "i") 0))))
+(lex.add.entry '("terrestres_ADJ" ADJ ((("t" "eh") 0) (("rh" "eh" "s") 0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("il__PRO:per" "PRO:per" (((z i l) 0)))); NON
+(lex.add.entry '("serait_VER" "VER" ((("s" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("vrai_ADJ" "ADJ" ((("v" "rh" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("dire_VER" "VER" ((("d" "i" "rh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("étions_VER" VER (((z "e") 0) (("t" "j" "ohn") 0)))); LIA
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("salon_NOM" "NOM" ((("s" "a") 0) (("l" "ohn") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("wagon_NOM" "NOM" (((v a) 0) ((g ohn) 0))))
+(lex.add.entry '("d_un_ART:ind" ART:ind (((d "oen") 0))))
+(lex.add.entry '("train_NOM" "NOM" ((("t" "rh" "ehn") 0))))
+(lex.add.entry '("express_ADJ" "ADJ" (((eh k s) 0) ((p rh eh s) 0))))
+
+(set! text "il filait comme un ballon emporté par le vent au-dessus des prairies terrestres ; mais il_ serait plus vrai de dire que nous étions dans ce salon comme dans le wagon d'un train express.")
+(dSayText text)

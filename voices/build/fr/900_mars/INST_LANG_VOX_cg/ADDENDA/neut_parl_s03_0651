@@ -1,0 +1,18 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("s_PRO:per" "PRO:per" nil))
+(lex.add.entry '("agit_VER" "VER" ((("a") 0) (("zh" "i") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("un_ART:ind" ART:ind ((("oen") 0))))
+(lex.add.entry '("élément_NOM" "NOM" ((("e") 0) (("l" "e") 0) (("m" "ahn") 0))))
+(lex.add.entry '("isolé_ADJ" "ADJ" ((("i") 0) (("z" "oh") 0) (("l" "e") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("petite_ADJ" "ADJ" ((("p" "ae") 0) (("t" "i" "t") 0))))
+(lex.add.entry '("pièce_NOM" "NOM" ((("p" "j" "eh" "s") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("un_ART:ind" ART:ind ((("oen") 0))))
+(lex.add.entry '("puzzle_NOM" NOM (((p oe) 0) ((z oe)0) ((l ae) 0))))
+
+(dSayText "Il ne s'agit pas d'un élément isolé, d'une petite pièce d'un puzzle.") ; neut_parl_s03_0651

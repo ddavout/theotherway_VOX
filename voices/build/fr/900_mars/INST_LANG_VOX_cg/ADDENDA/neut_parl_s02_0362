@@ -1,0 +1,10 @@
+(lex.add.entry '("voilà_VER" "VER" ((("v" "w" "a") 0) (("l" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("raisonnement_NOM" "NOM" ((("rh" "e") 0) (("z" "oh" "n") 0) (("m" "ahn") 0))))
+(lex.add.entry '("auquel_PRO:rel" PRO:rel ((("o") 0) (("k" "eh" "l") 0))))
+(lex.add.entry '("j_ai_AUX" "AUX" (((zh e) 0))))
+(lex.add.entry '("toujours_ADV" ADV ((("t" "u") 0) (("zh" "u" "rh") 0))))
+(lex.add.entry '("cru_VER" "VER" ((("k" "rh" "y") 0))))
+
+(set! text "Voilà un raisonnement auquel j'ai, toujours cru.") ; neut_parl_s02_0362
+(dSayText text)

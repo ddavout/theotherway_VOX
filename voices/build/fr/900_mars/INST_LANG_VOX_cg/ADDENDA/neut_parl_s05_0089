@@ -1,0 +1,12 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh") 0))))
+(lex.add.entry '("enthousiasme_NOM" NOM (((k "ahn") 0) (("t" "u") 0) (("z" "j" "a" "s") 0) (("m" ae) 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("voterons_VER" VER ((("v" "oh") 0) (("t" "rh" "ohn") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("texte_NOM" NOM ((("t" "eh" "k" s) 0) (("t" ae) 0))))
+
+(dSayText "C'est donc avec enthousiasme, que nous voterons ce texte.") ; neut_parl_s05_0089

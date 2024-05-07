@@ -1,0 +1,18 @@
+(lex.add.entry '("Ayons_VER" VER ((("e") 0) (("j" "ohn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((z a) 0)))); LIA
+(lex.add.entry '("coeur_NOM" "NOM" ((("k" "oe" "rh") 0))))
+(lex.add.entry '("toutefois_ADV" ADV ((("t" "u" t) 0)(("f" "w" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("mettre_VER" VER ((("m" "eh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("trains_NOM" NOM ((("t" "rh" "ehn") 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("où_PRO:rel" "PRO:rel" ((("u") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("qu_ils_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("soient_VER" VER ((("s" "w" "a") 0))))
+
+
+(set! text "Ayons à coeur toutefois de mettre les trains là où il faut qu'ils soient.") ; neut_parl_s03_0454
+(dSayText text)

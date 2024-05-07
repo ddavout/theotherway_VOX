@@ -1,0 +1,7 @@
+(lex.add.entry '("Poussons_VER" VER ((("p" "u") 0) (("s" "ohn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("logique_NOM" NOM ((("l" "oh") 0) (("zh" "i" "k") 0))))
+(lex.add.entry '("jusqu_au_bout_ADV" "ADV" (((zh y s) 0) ((k o) 0)(("b" "u") 0))))
+
+(set! text "Poussons la logique, jusqu'au bout !") ; neut_parl_s02_0159
+(dSayText text)

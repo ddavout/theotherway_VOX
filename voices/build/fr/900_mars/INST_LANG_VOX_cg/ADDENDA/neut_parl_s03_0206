@@ -1,0 +1,11 @@
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("auriez_VER" VER (((z "oh") 0) (("rh" "j" "e") 0))))
+(lex.add.entry '("pu_VER" "VER" ((("p" "y") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((z ahn) 0))))
+(lex.add.entry '("inquiéter_VER" VER (((n "ehn") 0) (("k" "j" "e") 0) (("t" "e") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("tôt_ADV" "ADV" ((("t" "o") 0))))
+
+(set! text "Vous auriez pu vous en inquiéter plus tôt.") ; neut_parl_s03_0206
+(dSayText text)

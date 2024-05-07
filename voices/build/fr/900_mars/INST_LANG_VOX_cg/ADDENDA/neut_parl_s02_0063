@@ -1,0 +1,20 @@
+(lex.add.entry '("aucun_ADJ:ind" "ADJ:ind" ((("o") 0) (("k" "oen") 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("gauche_NOM" "NOM" ((("g" "o" "sh") 0))))
+(lex.add.entry '("n_avait_AUX" AUX ((("n" "a") 0) (("v" "eh") 0))))
+(lex.add.entry '("encore_ADV" "ADV" (((t "ahn") 0) (("k" "oh" "rh") 0)))); LIA
+(lex.add.entry '("attaqué_VER" "VER" ((("a") 0) (("t" "a") 0) (("k" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("code_NOM" "NOM" ((("k" "oh") 0)))) ; BUG  d d
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+
+(set! text "Aucun gouvernement de gauche n'avait encore attaqué à ce point le code du travail.") ; neut_parl_s02_0063
+(dSayText text)
+
+
+

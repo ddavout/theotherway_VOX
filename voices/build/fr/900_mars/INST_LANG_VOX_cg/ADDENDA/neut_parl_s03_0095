@@ -1,0 +1,11 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("lait_NOM" "NOM" ((("l" "eh") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("zones_NOM" NOM (((z o)0) ((n ae) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("enjeu_NOM" "NOM" ((("ahn") 0) (("zh" "eu") 0))))
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "Le lait, pour ces zones, est un enjeu.") ; neut_parl_s03_0095

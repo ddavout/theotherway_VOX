@@ -1,0 +1,17 @@
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("inverse_NOM" "NOM" ((("ehn") 0) (("v" "eh" "rh")0) (("s" ae) 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("territoires_NOM" NOM ((("t" "e") 0) (("rh" "i") 0) (("t" "w" "a" "rh") 0))))
+(lex.add.entry '("urbains_ADJ" ADJ ((("y" "rh") 0) (("b" "ehn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("pertes_NOM" NOM ((("p" "eh" "rh") 0) (("t" ae) 0))))
+(lex.add.entry '("seront_AUX" "AUX" ((("s" "ae") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("limitées_VER" VER ((("l" "i") 0) (("m" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("huit_NOM" "NOM" ((("hw" i) 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("cent_NOM" "NOM" (((s ahn) 0))))
+
+(dSayText "à l'inverse, dans les territoires urbains, les pertes seront limitées à huit pour cent.") ; neut_parl_s04_0710

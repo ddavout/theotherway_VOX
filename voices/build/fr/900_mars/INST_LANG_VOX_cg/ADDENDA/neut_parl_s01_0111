@@ -1,0 +1,10 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n oe) 0)))); Q
+(lex.add.entry '("relève_VER" "VER" ((("rh" "ae") 0) (("l" "eh")0) (("v" "ae") 0))))
+(lex.add.entry '("que_ADV" ADV (((k ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_affichage_NOM" "NOM" (((l "l" "a") 0) (("f" "i") 0) (("sh" "a" "zh") 0))))
+(lex.add.entry '("politicien_ADJ" "ADJ" ((("p" "oh") 0) (("l" "i") 0) (("t" "i") 0) (("s" "j" "ehn") 0))))
+
+(set! text "il ne relève que de l'affichage politicien.") ; 
+(dSayText text); neut_parl_s01_0111

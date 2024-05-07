@@ -1,0 +1,13 @@
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("avez_VER" VER (((z "a") 0) (("v" "e") 0)))); LIA
+(lex.add.entry '("en_outre_ADV" ADV (((ahn) 0) ((n "u") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("fait_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("quelque_ADJ:ind" "ADJ:ind" ((("k" "eh" "l") 0) (("k" "ae") 0))))
+(lex.add.entry '("sorte_NOM" "NOM" ((("s" "oh" "rh" "t") 0))))
+(lex.add.entry '("preuve_NOM" "NOM" ((("p" "rh" "oe" "v") 0))))
+(lex.add.entry '("d_aveuglement_NOM" "NOM" (((d "a") 0) (("v" "oe") 0) (("g" "l" "ae") 0) (("m" "ahn") 0))))
+
+
+(set! text "Vous avez en outre fait, en quelque sorte, preuve d'aveuglement.") ; neut_parl_s03_0021
+(dSayText text)

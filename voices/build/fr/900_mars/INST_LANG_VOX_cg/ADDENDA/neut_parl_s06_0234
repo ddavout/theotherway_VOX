@@ -1,0 +1,14 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("connu_ADJ" ADJ ((("k" "oh") 0) (("n" "y") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("tous_PRO:ind" "PRO:ind" (((t u s) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("prévu_VER" "VER" ((("p" "rh" "e") 0) (("v" "y") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("prochain_ADJ" "ADJ" ((("p" "rh" "oh") 0) (("sh" "ehn") 0))))
+(lex.add.entry '("collectif_NOM" NOM ((("k" "oh") 0) (("l" "e" "k") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("budgétaire_ADJ" "ADJ" ((("b" "y" d) 0) (("zh" "e") 0) (("t" "eh" "rh") 0))))
+
+(dSayText "Cela est connu de tous, et prévu dans le prochain collectif budgétaire.") ; neut_parl_s06_0234

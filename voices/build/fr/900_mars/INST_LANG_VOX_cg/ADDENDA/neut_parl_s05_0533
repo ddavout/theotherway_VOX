@@ -1,0 +1,13 @@
+(lex.add.entry '("quitte_VER" "VER" ((("k" "i") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0))))
+(lex.add.entry '("créé_VER" VER ((("k" "rh" "e") 0) (("e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("profondes_ADJ" ADJ ((("p" "rh" "oh") 0) (("f" "ohn" "d") 0))))
+(lex.add.entry '("fractures_NOM" NOM ((("f" "rh" "a" "k") 0) (("t" "y" "rh") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("société_NOM" "NOM" ((("s" "oh") 0) (("s" "j" "e") 0) (("t" "e") 0))))
+
+; todo triple t rh s
+
+(dSayText "Quitte à créer de profondes fractures dans notre société.") ; neut_parl_s05_0533

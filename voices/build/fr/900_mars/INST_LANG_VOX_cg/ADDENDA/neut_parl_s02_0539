@@ -1,0 +1,17 @@
+(lex.add.entry '("suite_NOM" "NOM" ((("s" "hw" i) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("examen_NOM" "NOM" ((("e" "g") 0) (("z" "a") 0) (("m" "ehn") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("commission_NOM" "NOM" ((("k" "oh") 0) (("m" "i") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("mots_NOM" NOM ((("m" "o") 0))))
+(lex.add.entry '("àhh_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s) 0) ((t rh ae) 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("disparu_VER" VER ((("d" "i" "s") 0) (("p" "a") 0) (("rh" "y") 0))))
+
+
+(dSayText "Suite à l'examen en commission, les mots, à la demande du ministre ont disparu.") ; neut_parl_s02_0539

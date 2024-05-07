@@ -1,0 +1,12 @@
+(lex.add.entry '("oui_ADV" "ADV" (((u)0)(("w" "i") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("sommes_VER" VER ((("s" "oh" "m") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("feuilleton_NOM" "NOM" ((("f" "oe" "j") 0) (("t" "ohn") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("rebondissements_NOM" NOM ((("rh" "ae") 0) (("b" "ohn") 0) (("d" "i") 0) (("s" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("quotidiens_ADJ" ADJ ((("k" "oh") 0) (("t" "i") 0) (("d" "j" "ehn") 0))))
+
+(dSayText "Oui, nous sommes dans un feuilleton avec des rebondissements quotidiens !") ; neut_parl_s04_0025

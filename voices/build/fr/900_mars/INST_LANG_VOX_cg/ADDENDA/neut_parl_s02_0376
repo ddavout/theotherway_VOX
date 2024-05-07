@@ -1,0 +1,16 @@
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("Gorges_NAM" NAM ((("g" "oh" "rh")0) (("zh" ae) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("m_avait_AUX" AUX (((m "a") 0) (("v" "eh") 0))))
+(lex.add.entry '("échappé_VER" "VER" (((t "e") 0) (("sh" "a") 0) (("p" "e") 0))));  LIA
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("chartres_NAM" "NAM" (((sh a rh)0) ((t rh ae) 0))))
+(lex.add.entry '("était_VER" "VER" ((("e") 0) (("t" "eh") 0)))); no LIA
+(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
+(lex.add.entry '("station_NOM" "NOM" ((("s" "t" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("montagne_NOM" "NOM" ((("m" "ohn") 0) (("t" "a")0) (("jg" ae) 0))))
+
+
+(set! text "Monsieur Gorges, il m'avait échappé que Chartres était une station de montagne.") ; neut_parl_s02_0376
+(dSayText text)

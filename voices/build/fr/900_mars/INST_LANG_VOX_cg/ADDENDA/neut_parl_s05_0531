@@ -1,0 +1,16 @@
+(lex.add.entry '("en_fait_ADV" "ADV" ((("ahn") 0) (("f" "eh" t) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("leur_PRO:per" "PRO:per" ((("l" "oe" "rh") 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("peine_NOM" "NOM" ((("p" "eh" "n") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("prison_NOM" "NOM" ((("p" "rh" "i") 0) (("z" "ohn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("blâmable_ADJ" "ADJ" ((("b" "l" "a") 0) ((m a)0) ((b l ae) 0))))
+(lex.add.entry '("mauvaise_ADJ" "ADJ" ((("m" "oh") 0) (("v" "eh" "z") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("définition_NOM" "NOM" ((("d" "e") 0) (("f" "i") 0) (("n" "i") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "En fait, il leur dit que la peine de prison est blâmable, mauvaise par définition.") ; neut_parl_s05_0531

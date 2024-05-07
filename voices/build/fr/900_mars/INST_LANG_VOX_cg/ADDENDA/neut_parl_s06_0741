@@ -1,0 +1,11 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("rôle_NOM" "NOM" ((("rh" "o" "l") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("incombe_VER" VER ((("ehn") 0) (("k" "ohn")0)(("b" "ae") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("grandes_ADJ" ADJ ((("g" "rh" "ahn" "d") 0))))
+(lex.add.entry '("fédérations_NOM" NOM ((("f" "e") 0) (("d" "e") 0) (("rh" "a") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "C'est le rôle qui incombe, aux grandes fédérations.") ; neut_parl_s06_0741

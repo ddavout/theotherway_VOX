@@ -1,0 +1,13 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("aurè_VER" VER ((("oh") 0) (("rh" "eh") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("exemple_NOM" "NOM" ((("eh" "g") 0) (("z" "ahn")0)(( "p" "l" "ae") 0))))
+(lex.add.entry '("pu_VER" "VER" ((("p" "y") 0))))
+(lex.add.entry '("imaginé_VER" VER ((("i") 0) (("m" "a") 0) (("zh" "i") 0) (("n" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("placé_VER" VER ((("p" "l" "a") 0) (("s" "e") 0))))
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("article_NOM" "NOM" (((t "a" "rh") 0) (("t" "i") 0) (("k" "l" "oe") 0)))); Q!
+(lex.add.entry '("après_PRE" "PRE" ((("a") 0) ((p rh eh) 0))))
+
+(dSayText "On aurait par exemple pu imaginer de placer cet article après.") ; neut_parl_s02_0583

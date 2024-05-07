@@ -1,0 +1,7 @@
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("veulent_VER" VER ((("v" "oe" "l") 0))))
+(lex.add.entry '("blessé_VER" VER ((("b" "l" "e") 0) (("s" "e") 0))))
+(lex.add.entry '("personne_PRO:ind" PRO:ind ((("p" "eh" "rh") 0) (("s" "oh")0) (("n" ae) 0))))
+
+(dSayText "Ils ne veulent blesser personne.") ; neut_parl_s03_0426

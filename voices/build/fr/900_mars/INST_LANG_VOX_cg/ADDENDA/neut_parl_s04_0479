@@ -1,0 +1,14 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("pense_VER" "VER" ((("p" "ahn" "s") 0))))
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh" "m") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("président_NOM" NOM ((("p" "rh" "e") 0) (("z" "i") 0) (("d" "ahn") 0))))
+(lex.add.entry '("hollande_NAM" "NAM" (((oh) 0) ((l ahn)0) ((d ae) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("également_ADV" "ADV" ((("e") 0) (("g" "a" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("radical_NOM" NOM ((("rh" "a") 0) (("d" "i") 0) (("k" "a")0) (("l" ae) 0))))
+
+(set! never_exception_list (append (list "est" "C_est" ) never_exception_list_default))
+(dSayText "Je pense même que le président Hollande, est également un radical.") ; neut_parl_s04_0479

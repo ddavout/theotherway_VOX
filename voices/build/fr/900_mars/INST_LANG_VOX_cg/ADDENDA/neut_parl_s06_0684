@@ -1,0 +1,13 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("politique_NOM" "NOM" ((("p" "o") 0) (("l" "i") 0) (("t" "i" "k") 0))))
+(lex.add.entry '("d_inclusion_VER" VER (((d  "ehn") 0) (("k" "l" "y") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("élèves_NOM" NOM ((("e") 0) (("l" "eh" "v") 0))))
+(lex.add.entry '("porteurs_ADJ" ADJ ((("p" "oh" "rh") 0) (("t" "oe" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("handicap_NOM" "NOM" ((("ahn") 0) (("d" "i") 0) (("k" "a" "p") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("poursuivre_VER" "VER" ((("p" "u" "rh") 0) (("s" "hw" "i")0) (("v" "rh" "ae") 0))))
+
+(dSayText "La politique d'inclusion des élèves porteurs de handicap doit se poursuivre.") ; neut_parl_s06_0684

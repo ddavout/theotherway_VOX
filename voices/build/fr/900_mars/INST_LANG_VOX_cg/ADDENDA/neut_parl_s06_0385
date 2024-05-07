@@ -1,0 +1,16 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("texte_NOM" "NOM" ((("t" "eh" "k" "s" "t") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("preuve_NOM" "NOM" ((("p" "rh" "oe")0) (("v" ae) 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("Europe_NAM" NAM ((("oe") 0) ((rh oh "p") 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("être_VER" "VER" ((("eh" "t" "rh") 0))))
+(lex.add.entry '("protectrice_ADJ" ADJ ((("p" "rh" "oh") 0) (("t" "e" "k") 0) (("t" "rh" "i" "s") 0))))
+
+
+; todo double v k ?
+(set! never_exception_list (append (list "peut") never_exception_list_default))
+(dSayText "Ce texte est la preuve que l'Europe, peut être protectrice.") ; neut_parl_s06_0385

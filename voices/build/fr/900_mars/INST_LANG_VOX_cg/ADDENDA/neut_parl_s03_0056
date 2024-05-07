@@ -1,0 +1,20 @@
+(lex.add.entry '("tout_ADJ" ADJ ((("t" "u") 0))))
+
+
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0))))
+(lex.add.entry '("bonus_NOM" "NOM" (((b oh) 0) ((n y s) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("y_a_VER" "VER" ((("j" "a") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0)))); no LIA
+(lex.add.entry '("tout_ADJ:ind" ADJ:ind ((("t" "u") 0))))
+(lex.add.entry '("cas_NOM" NOM ((("k" "a") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("manne_NOM" "NOM" ((("m" "a" "n") 0))))
+(lex.add.entry '("tombée_VER" "VER" ((("t" "ohn") 0) (("b" "e") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("ciel_NOM" "NOM" ((("s" "j" "eh")0) (("l" ae) 0))))
+
+(set! text "si bonus il y a, il n'est pas en tout cas une manne tombée du ciel.") ; neut_parl_s03_0056
+(dSayText text)

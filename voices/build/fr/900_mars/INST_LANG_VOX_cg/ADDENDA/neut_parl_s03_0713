@@ -1,0 +1,10 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("visuel_ADJ" "ADJ" ((("v" "i") 0) (("z" "hw" "eh" "l") 0))))
+(lex.add.entry '("adopté_NOM" NOM ((("a") 0) (("d" "oh" p) 0) (("t" "e") 0))))
+(lex.add.entry '("soit_VER" "VER" ((("s" "w" "a") 0))))
+(lex.add.entry '("unique_ADJ" "ADJ" ((("y") 0) (("n" "i")0) (("k" ae) 0))))
+
+(dSayText "Il faut que le visuel adopté soit, unique.") ; neut_parl_s03_0713

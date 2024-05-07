@@ -1,0 +1,7 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("héritage_NOM" "NOM" ((("e") 0) (("rh" "i") 0) (("t" "a") 0))))
+(lex.add.entry '("a_VER" "VER" (((zh a) 0))))
+(lex.add.entry '("bon_ADJ" "ADJ" ((("b" "ohn") 0))))
+(lex.add.entry '("dos_NOM" NOM ((("d" "o") 0))))
+
+(dSayText "l'héritage a bon dos !") ; neut_parl_s02_0520

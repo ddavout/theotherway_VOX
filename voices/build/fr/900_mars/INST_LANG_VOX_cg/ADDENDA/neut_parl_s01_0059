@@ -1,0 +1,16 @@
+(lex.add.entry '("visé_VER" "VER" ((("v" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("visé_ADJ" "ADJ" ((("v" "i") 0) (("z" "e") 0)))); confusion + par
+
+
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("disposition_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("répond_VER" "VER" ((("rh" "e") 0) (("p" "ohn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0)))); LIA
+(lex.add.entry '("l_objectif_NOM" "NOM" (((l oh b) 0) ((zh e k) 0) ((t i f) 0))))
+(lex.add.entry '("visé" nil ((("v" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("l_article_NOM" "NOM" (((l "a" "rh") 0) (("t" "i") 0) (("k" "l" "ae") 0))))
+
+
+(set! text "cette disposition répond à l'objectif visé par l'article.") ; neut_parl_s01_0059
+(dSayText text)

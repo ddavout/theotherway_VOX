@@ -1,0 +1,14 @@
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("quoi_NOM" NOM ((("k" "w" "a") 0))))
+(lex.add.entry '("chers_ADJ" "ADJ" ((("sh" "eh" "rh") 0))))
+(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh")0) (("g" "ae") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("bouclier_NOM" "NOM" ((("b" "u") 0) (("k" "l" "i") 0) (("j" "e") 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((t ahn) 0)))); LIA
+(lex.add.entry '("cacher_VER" VER ((("k" "a") 0) (("sh" "e") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("autre_ADJ" "ADJ" (((n "o")0) (("t" "rh" "ae") 0))))
+
+(set! text "Comme quoi chers collègues, un bouclier peut en cacher un autre.") ; neut_parl_s06_0116
+(dSayText text)

@@ -1,0 +1,16 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
+(lex.add.entry '("retiendrai_VER" VER ((("rh" "ae") 0) (("t" "j" "ehn") 0) (("d" "rh" "e") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("qu_un_ART:ind" "ART:ind" (((k oen) 0))))
+(lex.add.entry '("seul_NOM" NOM ((("s" "oe" "l") 0))))
+(lex.add.entry '("lié_ADJ" ADJ ((("l" "j" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("dignité_NOM" "NOM" ((("d" "i") 0) (("jg" "i") 0) (("t" "e") 0))))
+
+(set! text "Je n'en retiendrai donc qu'un seul, lié à la question de la dignité.") ; neut_parl_s06_0601
+(dSayText text)

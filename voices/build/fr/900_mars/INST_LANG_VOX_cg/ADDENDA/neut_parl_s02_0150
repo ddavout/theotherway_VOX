@@ -1,0 +1,14 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("n_atténuons_VER" "VER" (((n "a") 0) (("t" "e") 0) (("n" "hw" "ohn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("portée_NOM" "NOM" ((("p" "oh" "rh") 0) (("t" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("nouvelle_NAM" NAM ((("n" "u") 0) (("v" "eh" "l") 0))))
+(lex.add.entry '("mission_NOM" "NOM" ((("m" "i") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("autant_ADV" "ADV" ((("o") 0) (("t" "ahn") 0))))
+
+(set! text "Mais n'atténuons pas la portée de cette nouvelle mission pour autant.") ; neut_parl_s02_0150
+(dSayText text)

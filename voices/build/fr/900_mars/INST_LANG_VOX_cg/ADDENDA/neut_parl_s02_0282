@@ -1,0 +1,16 @@
+(lex.add.entry '("qu_une_ART:ind" "ART:ind" (((k y n) 0))))
+(lex.add.entry '("qu_une_PRO:ind" "PRO:ind" (((k y n) 0)))); confusion possible devant ponctauation TOD0 ?
+
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("il_y_a_VER" "VER" (((i)0)((l "j" "a") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("sortes_NOM" NOM ((("s" "oh" "rh")0) (("t" "ae") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("Français_NOM" NOM ((("f" "rh" "ahn") 0) (("s" "eh") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("n_y_en_a_VER" VER (((n j ahn) 0)((n a)0))))
+(lex.add.entry '("qu_une" nil (((k y n) 0))))
+
+(set! text "Ou il y a deux sortes de Français, ou il n'y en a qu'une.") ; neut_parl_s02_0282
+(dSayText text)

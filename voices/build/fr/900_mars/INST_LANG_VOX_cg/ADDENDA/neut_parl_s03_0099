@@ -1,0 +1,13 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("sujet_NOM" "NOM" ((("s" "y") 0) (("zh" "eh") 0))))
+(lex.add.entry '("a_AUX" "AUX" (((a) 0))))
+(lex.add.entry '("d_ailleurs_ADV" "ADV" (((d "a") 0) (("j" "oe" "rh") 0)))); no LIA
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("évoqué_VER" "VER" ((("e") 0) (("v" "oh") 0) (("k" "e") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("niveau_NOM" "NOM" ((("n" "i") 0) (("v" "o") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+
+(set! list_exclus*-> (append (list "d_ailleurs" ) list_exclus*->_default))
+(set! text "Le sujet a d'ailleurs été évoqué au niveau européen.") ; neut_parl_s03_0099
+(dSayText text)

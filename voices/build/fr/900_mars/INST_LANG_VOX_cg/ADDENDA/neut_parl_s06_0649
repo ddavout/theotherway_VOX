@@ -1,0 +1,13 @@
+(lex.add.entry '("l_ambition_NOM" "NOM" (((l "ahn") 0) (("b" "i") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("affichée_VER" "VER" ((("a") 0) (("f" "i") 0) (("sh" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("paquet_NOM" "NOM" ((("p" "a") 0) (("k" "eh") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("permis_VER" VER (((p eh rh) 0) ((m i) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("avancées_NOM" NOM (((z "a") 0) (("v" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("majeures_ADJ" ADJ ((("m" "a") 0) (("zh" "oe" "rh") 0))))
+
+(dSayText "l'ambition affichée par ce paquet européen a permis des avancées majeures.") ; neut_parl_s06_0649

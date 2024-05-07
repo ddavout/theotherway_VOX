@@ -1,0 +1,15 @@
+(lex.add.entry '("quatre_NOM" "NOM" ((("k" "a") 0) (("t" "rh" ae) 0))))
+
+(lex.add.entry '("cinq_ADJ:num" ADJ:num ((("s" "ehn" "k") 0))))
+(lex.add.entry '("groupes_NOM" NOM ((("g" "rh" "u")0) (("p" "ae") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0)))); no LIA
+(lex.add.entry '("appelé_VER" VER (((t "a") 0) (("p" "ae") 0) (("l" "e") 0)))); LIA
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("suppression_NOM" "NOM" ((("s" "y") 0) (("p" "rh" "e") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_article_NOM" "NOM" (((l "a" "rh") 0) (("t" "i") 0) (("k" "l" "ae") 0))))
+(lex.add.entry '("quatre_ADJ:num" "ADJ:num" ((("k" "a") 0) (("t" "rh" ae) 0))))
+
+(set! text "Cinq groupes ont appelé à la suppression de l'article quatre.") ; neut_parl_s02_0037
+(dSayText text)

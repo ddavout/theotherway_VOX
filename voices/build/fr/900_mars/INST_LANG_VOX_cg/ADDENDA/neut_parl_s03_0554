@@ -1,0 +1,13 @@
+(lex.add.entry '("faute_NOM" "NOM" ((("f" "o" "t") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("économie_NOM" "NOM" ((("e") 0) (("k" "o") 0) (("n" "oh") 0) (("m" "i") 0))))
+(lex.add.entry '("budgétaire_ADJ" "ADJ" ((("b" "y" d) 0) (("zh" "e") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("envergure_CON" CON ((("ahn") 0) (("v" "eh" "rh") 0) (("g" "y" "rh") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("inévitable_ADJ" "ADJ" ((("i") 0) (("n" "e") 0) ((v i) 0) (("t" "a")0) (("b" "l" ae) 0))))
+
+; POS enverure CON !
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "Faute d'économie budgétaire d'envergure, c'est inévitable.") ; neut_parl_s03_0554

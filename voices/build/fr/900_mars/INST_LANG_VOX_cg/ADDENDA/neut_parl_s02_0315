@@ -1,0 +1,9 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("fonctionne_VER" "VER" ((("f" "ohn" "k") 0) (("s" "j" "oh")0) (("n" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+;(lex.add.entry '("fonctionne_VER" "VER" ((("f" "ohn" "k") 0) (("s" "j" "oh" "n") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+
+(set! text "Ce dispositif fonctionne, et fonctionne bien.") ; neut_parl_s02_0315
+(dSayText text)

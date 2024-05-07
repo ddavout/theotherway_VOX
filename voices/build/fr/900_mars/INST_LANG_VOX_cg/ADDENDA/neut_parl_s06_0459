@@ -1,0 +1,7 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("nuit_NOM" "NOM" ((("n" "hw" i) 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("a_VER" "VER" (((a) 0))))
+(lex.add.entry '("peur_NOM" "NOM" ((("p" "oe" "rh") 0))))
+
+(dSayText "La nuit, on a peur.") ; neut_parl_s06_0459

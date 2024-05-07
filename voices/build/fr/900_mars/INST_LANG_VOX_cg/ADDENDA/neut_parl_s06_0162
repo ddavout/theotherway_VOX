@@ -1,0 +1,11 @@
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("j_invite_VER" VER ((("zh" "ehn") 0) (("v" "i" "t") 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh")0) (("g" "ae") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("rejeter_VER" VER ((("rh" "ae" "zh") 0) (("t" "e") 0))))
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("amendement_NOM" "NOM" (((t "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0)))); LIA
+
+(dSayText "C'est pourquoi j'invite nos collègues à rejeter cet amendement.") ; neut_parl_s06_0162

@@ -1,0 +1,8 @@
+(lex.add.entry '("j_aurais_VER" VER ((("zh" "oh") 0) (("rh" "eh") 0))))
+(lex.add.entry '("mauvaise_ADJ" "ADJ" ((("m" "oh") 0) (("v" "eh" "z") 0))))
+(lex.add.entry '("grâce_NOM" "NOM" ((("g" "rh" "a")0) (("s" ae) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("prétendre_VER" "VER" ((("p" "rh" "e") 0) (("t" "ahn")0) (("d" "rh" ae) 0))))
+
+(dSayText "J'aurais mauvaise grâce, à le prétendre.") ; neut_parl_s06_0373

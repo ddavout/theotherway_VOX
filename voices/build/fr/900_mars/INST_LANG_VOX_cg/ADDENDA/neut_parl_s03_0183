@@ -1,0 +1,16 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("ordre_NOM" "NOM" ((("oh" "rh" "d" "rh") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("jour_NOM" "NOM" ((("zh" "u" "rh") 0))))
+(lex.add.entry '("appelle_VER" "VER" ((("a") 0) (("p" "eh" "l") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("questions_NOM" NOM ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("sujets_NOM" NOM ((("s" "y") 0) (("zh" "eh") 0))))
+(lex.add.entry '("européens_ADJ" ADJ ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+
+(set! never_exception_list (append (list "sujets" ) never_exception_list_default))
+(dSayText "l'ordre du jour, appelle les questions au Gouvernement, sur des sujets européens.") ; neut_parl_s03_0183

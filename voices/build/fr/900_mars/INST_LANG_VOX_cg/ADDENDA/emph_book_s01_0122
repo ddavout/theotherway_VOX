@@ -1,0 +1,10 @@
+(lex.add.entry '("qu_PRO:int" "PRO:int" nil))
+(lex.add.entry '("qu_ai_VER" VER ((("k" "eh" zh) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" nil))
+(lex.add.entry '("découvert_VER" "VER" ((("d" "e") 0) (("k" "u") 0) (("v" "eh" "rh") 0))))
+(lex.add.entry '("jusqu_PRE" "PRE" nil))
+(lex.add.entry '("jusqu_ici" nil ((("zh" "y" "s") 0) (("k" "i") 0) (("s" "i") 0))))
+
+;(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+    ;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
+(dSayText "Qu'ai-je découvert jusqu'ici ?") ; emph_book_s01_0122

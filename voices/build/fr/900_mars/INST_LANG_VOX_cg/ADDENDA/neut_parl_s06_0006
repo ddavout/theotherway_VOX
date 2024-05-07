@@ -1,0 +1,11 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("suis_VER" "VER" (((s hw i) 0))))
+(lex.add.entry '("élue_ADJ" "ADJ" ((("e") 0) (("l" "y") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("zone_NOM" NOM (((z o n) 0))))
+(lex.add.entry '("frontalière_ADJ" "ADJ" ((("f" "rh" "ohn") 0) (("t" "a") 0) (("l" "j" "eh" "rh") 0))))
+
+(set! list_exclus*-> (append (list "suis") list_exclus*->_default))
+
+(dSayText "Je suis élue d'une zone frontalière.") ; neut_parl_s06_0006

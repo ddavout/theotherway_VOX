@@ -1,0 +1,12 @@
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("est_VER" "VER" ((("e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("servir_VER" "VER" ((("s" "eh" "rh") 0) (("v" "i" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("façon_NOM" "NOM" ((("f" "a") 0) (("s" "ohn") 0))))
+(lex.add.entry '("objective_VER" "VER" ((("oh" b) 0) (("zh" "eh" "k") 0) (("t" "i" "v") 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("points_NOM" NOM (((p w ehn) 0))))
+(lex.add.entry '("forts_ADJ" ADJ ((("f" "oh" "rh") 0))))
+
+(dSayText "Elle est de servir de façon, objective, nos points forts.") ; neut_parl_s04_0448

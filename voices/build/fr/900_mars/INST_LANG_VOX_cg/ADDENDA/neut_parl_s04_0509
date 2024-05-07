@@ -1,0 +1,17 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("annoncé_VER" "VER" ((("a") 0) (("n" "ohn") 0) (("s" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("laurent_NAM" "NAM" (((l oh) 0) ((rh ahn) 0))))
+(lex.add.entry '("fabius_NAM" "NAM" (((f a) 0) ((b j y) 0) ((s ae) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("occasion_NOM" "NOM" ((("oh") 0) (("k" "a") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("conférence_NOM" "NOM" ((("k" "ohn") 0) (("f" "e") 0) (("rh" "ahn" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("Doha_NAM" NAM ((("d" "o") 0) (("a") 0))))
+
+(dSayText "Cela a été annoncé par Laurent Fabius, à l'occasion de la conférence de Doha.") ; neut_parl_s04_0509

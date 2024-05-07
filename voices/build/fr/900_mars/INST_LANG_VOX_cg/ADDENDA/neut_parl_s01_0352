@@ -1,0 +1,16 @@
+(lex.add.entry '("Changer_VER" VER ((("sh" "ahn") 0) (("zh" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("proposez_VER" VER ((("p" "rh" "oh") 0) (("p" "o") 0) (("z" "e") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("serait_VER" "VER" ((("s" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("solution_NOM" NOM ((("s" "oh") 0) (("l" "y") 0) (("s" "j" "ohn") 0))))
+
+(set! text "Changer le dispositif comme vous le proposez, ne serait pas la solution.") ; 
+(dSayText text); neut_parl_s01_0352
+

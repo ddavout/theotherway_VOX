@@ -1,0 +1,14 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("eux_PRO:per" "PRO:per" (((t "eu") 0)))); LIA
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("y_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("sont_AUX" AUX ((("s" "ohn") 0))))
+(lex.add.entry '("confrontés_VER" VER ((("k" "ohn") 0) (("f" "rh" "ohn") 0) (("t" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
+(lex.add.entry '("longtemps_ADV" "ADV" (((l ohn) 0) ((t ahn) 0))))
+
+(set! text "Ce sont eux aussi qui y sont confrontés le plus longtemps.") ; neut_parl_s06_0610
+(dSayText text)

@@ -1,0 +1,9 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("construire_VER" "VER" ((("k" "ohn" "s") 0) (("t" "rh" "hw" i "rh") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y" s) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("mieux_ADV" "ADV" ((("m" "j" "eu") 0))))
+
+(set! text "Il faut construire, plus et mieux.") ; neut_parl_s03_0537
+(dSayText text)

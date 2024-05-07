@@ -1,0 +1,7 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("mutualisation_NOM" "NOM" ((("m" "y") 0) (("t" "hw" "a") 0) (("l" "i") 0) (("z" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("améliore_VER" "VER" ((("a") 0) (("m" "eh") 0) (("l" "j" "oh" "rh") 0))))
+(lex.add.entry '("leurs_ADJ:pos" ADJ:pos ((("l" "oe" "rh") 0))))
+(lex.add.entry '("performances_NOM" NOM ((("p" "eh" "rh") 0) (("f" "oh" "rh") 0) (("m" "ahn")0) (("s" ae) 0))))
+
+(dSayText "Cette mutualisation améliore leurs performances.") ; neut_parl_s05_0100
