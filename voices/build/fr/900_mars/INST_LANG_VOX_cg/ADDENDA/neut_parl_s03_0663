@@ -1,9 +1,0 @@
-(lex.add.entry '("tout_ADV" "ADV" (((t u l) 0))))
-(lex.add.entry '("le_ART:def" "ART:def" nil))
-(lex.add.entry '("monde_NOM" "NOM" ((("m" "ohn" "d") 0))))
-(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
-(lex.add.entry '("sè_VER" VER ((("s" "eh") 0))))
-
-
-
-(dSayText "Tout le monde le sait.") ; neut_parl_s03_0663

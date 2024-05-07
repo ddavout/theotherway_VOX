@@ -1,9 +1,0 @@
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("mariage_NOM" "NOM" ((("m" "a") 0) (("rh" "j" "a" "zh") 0))))
-(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("carte_NOM" "NOM" ((("k" "a" "rh" "t") 0))))
-(lex.add.entry '("Navigo_NAM" "NAM" ((("n" "a") 0) (("v" "i") 0) (("g" "o") 0))))
-
-(set! text "Le mariage n'est pas la carte Navigo !") ; neut_parl_s03_0078
-(dSayText text)

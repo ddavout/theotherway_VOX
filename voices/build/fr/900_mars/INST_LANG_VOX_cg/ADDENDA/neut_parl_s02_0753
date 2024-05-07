@@ -1,9 +1,0 @@
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("confusion_NOM" "NOM" ((("k" "ohn") 0) (("f" "y") 0) (("z" "j" "ohn") 0))))
-(lex.add.entry '("est_VER" "VER" ((("e") 0))))
-(lex.add.entry '("grande_ADJ" "ADJ" ((("g" "rh" "ahn") 0))))
-(lex.add.entry '("il_PRO:per" "PRO:per" (((d i) 0))))
-(lex.add.entry '("esthh_VER" "VER" (((l "e") 0))))
-(lex.add.entry '("vrai_ADJ" "ADJ" ((("v" "rh" "eh") 0))))
-
-(dSayText "La confusion est grande il esthh vrai !") ; neut_parl_s02_0753

@@ -1,8 +1,0 @@
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("l_entendrez_VER" VER (((l "ahn") 0) (("t" "ahn") 0) (("d" "rh" "e") 0))))
-(lex.add.entry '("dès_PRE" PRE ((("d" "eh") 0))))
-(lex.add.entry '("l_automne_NOM" NOM (((l "oh") 0) (("t" "oh")0) (("n" "ae") 0))))
-(lex.add.entry '("croyez-moi_VER" VER ((("k" "rh" "w" "a") 0) (("j" "e") 0)(("m" "w" "a") 0))))
-
-(set! text "vous l'entendrez dès l'automne croyez-moi !") ; 
-(dSayText text); neut_parl_s01_0138

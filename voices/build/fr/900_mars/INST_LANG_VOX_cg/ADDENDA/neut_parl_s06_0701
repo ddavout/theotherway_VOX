@@ -1,7 +1,0 @@
-(lex.add.entry '("aujourd_hui_ADV" "ADV" (((o) 0) ((zh u rh) 0) ((d hw i) 0))))
-(lex.add.entry '("de_quoi_PRO:ind" PRO:ind (((d ae)0)(("k" "w" "a") 0))))
-(lex.add.entry '("avons-nous_VER" "VER" ((("a") 0) (("v" "ohn") 0)(("n" "u") 0))))
-(lex.add.entry '("besoin_NOM" "NOM" ((("b" "ae") 0) (("z" "w" "ehn") 0))))
-
-(set! text "Aujourd'hui, de quoi avons-nous besoin ?") ; neut_parl_s06_0701
-(dSayText text)

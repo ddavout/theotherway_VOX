@@ -1,9 +1,0 @@
-(lex.add.entry '("vos_ADJ:pos" "ADJ:pos" ((("v" "o") 0))))
-(lex.add.entry '("services_NOM" NOM ((("s" "eh" "rh") 0) (("v" "i" "s") 0))))
-(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
-(lex.add.entry '("savent_VER" VER ((("s" "a" "v") 0))))
-(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
-
-
-(set! text "vos services le savent bien.") ; 
-(dSayText text); neut_parl_s01_0275

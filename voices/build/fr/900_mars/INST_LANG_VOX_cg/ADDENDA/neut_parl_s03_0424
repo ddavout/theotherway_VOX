@@ -1,7 +1,0 @@
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("diagnostic_NOM" "NOM" ((("d" "j" "a" "g") 0) (("n" "oh" "s") 0) (("t" "i") 0))))
-(lex.add.entry '("est_VER" "VER" (((k e) 0))))
-(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
-(lex.add.entry '("clair_ADJ" "ADJ" ((("k" "l" "eh" "rh") 0))))
-
-(dSayText "Le diagnostic est donc clair.") ; neut_parl_s03_0424

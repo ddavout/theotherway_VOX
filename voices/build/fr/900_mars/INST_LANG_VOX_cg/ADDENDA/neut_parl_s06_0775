@@ -1,8 +1,0 @@
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("deuxième_ADJ" "ADJ" ((("d" "eu") 0) (("z" "j" "eh" "m") 0))))
-(lex.add.entry '("grief_NOM" "NOM" ((("g" "rh" i) 0) (("j" eh f) 0))))
-(lex.add.entry '("porte_VER" "VER" ((("p" "oh" "rh")0) (("t" ae) 0))))
-(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
-(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
-(lex.add.entry '("compétences_NOM" NOM ((("k" "ohn") 0) (("p" "e") 0) (("t" "ahn")0) (("s" ae) 0))))
-(dSayText "Le deuxième grief, porte sur les compétences.") ; neut_parl_s06_0775

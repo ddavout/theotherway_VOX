@@ -1,9 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("message_NOM" "NOM" ((("m" "e") 0) (("s" "a" "zh") 0))))
-(lex.add.entry '("politique_ADJ" "ADJ" ((("p" "o") 0) (("l" "i") 0) (("t" "i" "k") 0))))
-(lex.add.entry '("fort_ADV" ADV ((("f" "oh" "rh") 0))))
-
-(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
-(dSayText "C'est un message politique fort.") ; neut_parl_s05_0302

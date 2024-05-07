@@ -1,8 +1,0 @@
-(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
-(lex.add.entry '("geoffroy_NAM" "NAM" (((zh oh) 0) ((f rh w a) 0))))
-
-(set! text "c'est vous monsieur geoffroy.") ; 
-(dSayText text); neut_parl_s01_0105
-

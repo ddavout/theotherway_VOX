@@ -1,8 +1,0 @@
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("partageons_VER" VER ((("p" "a" "rh") 0) (("t" "a") 0) (("zh" "ohn") 0))))
-(lex.add.entry '("entièrement_ADV" "ADV" ((("ahn") 0) (("t" "j" "eh" "rh") 0) (("m" "ahn") 0)))); no LIA
-(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh) 0))))
-(lex.add.entry '("opinion_NOM" "NOM" ((("t" "oh") 0) (("p" "i") 0) (("n" "j" "ohn") 0))))
-
-(set! text "Nous partageons entièrement cette opinion.") ; neut_parl_s02_0290
-(dSayText text)

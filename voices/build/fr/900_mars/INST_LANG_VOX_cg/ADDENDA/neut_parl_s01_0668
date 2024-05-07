@@ -1,8 +1,0 @@
-(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
-(lex.add.entry '("jeu_NOM" "NOM" ((("zh" "eu") 0))))
-(lex.add.entry '("malheureux_ADJ" "ADJ" ((("m" "a") 0) (("l" "eu") 0) (("rh" "eu") 0))))
-
-(set! text "Mais c'est un jeu malheureux.") ; neut_parl_s01_0668
-(dSayText text)

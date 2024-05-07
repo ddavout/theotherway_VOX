@@ -1,8 +1,0 @@
-(lex.add.entry '("croyez-vous_VER" VER ((("k" "rh" "w" "a") 0) (("j" "a") 0)((v u) 0))))
-(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("l_aie_AUX" "AUX" (((l "eh") 0))))
-(lex.add.entry '("oublié_VER" "VER" ((("u") 0) (("b" "l" "j" "e") 0))))
-
-(set! text "croyez-vous que je l'aie oublié ?") ; 
-(dSayText text); neut_parl_s01_0274

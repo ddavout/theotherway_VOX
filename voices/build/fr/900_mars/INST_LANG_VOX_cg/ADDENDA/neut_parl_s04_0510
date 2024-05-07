@@ -1,7 +1,0 @@
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("veut_VER" "VER" ((("v" "eu") 0))))
-(lex.add.entry '("moins_ADV" ADV ((("m" "w" "ehn") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("normes_NOM" NOM ((("n" "oh" "rh" "m") 0))))
-
-(dSayText "Il veut moins de normes.") ; neut_parl_s04_0510

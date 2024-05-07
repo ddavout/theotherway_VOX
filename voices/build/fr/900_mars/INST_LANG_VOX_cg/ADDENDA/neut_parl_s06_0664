@@ -1,9 +1,0 @@
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("volontariat_NOM" "NOM" ((("v" "o") 0) (("l" "ohn") 0) (("t" "a") 0) (("rh" "j" "a") 0))))
-(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
-(lex.add.entry '("salarié_NOM" "NOM" ((("s" "a") 0) (("l" "a") 0) (("rh" "j" "e") 0))))
-(lex.add.entry '("sera_AUX" "AUX" ((("s" "ae") 0) (("rh" "a") 0))))
-(lex.add.entry '("également_ADV" "ADV" ((("e") 0) (("g" "a" l) 0) (("m" "ahn") 0))))
-(lex.add.entry '("garanti_VER" "VER" ((("g" "a") 0) (("rh" "ahn") 0) (("t" "i") 0))))
-
-(dSayText "Le volontariat du salarié sera également garanti.") ; neut_parl_s06_0664

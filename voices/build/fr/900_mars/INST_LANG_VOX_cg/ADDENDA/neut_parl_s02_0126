@@ -1,9 +1,0 @@
-(lex.add.entry '("ainsi_ADV" "ADV" ((("ehn") 0) (("s" "i") 0))))
-(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
-(lex.add.entry '("gagnerait_VER" VER ((("g" "a") 0) (("jg" "ae") 0) (("rh" "eh") 0))))
-(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
-(lex.add.entry '("temps_NOM" "NOM" (((t ahn) 0))))
-
-
-(set! text "Ainsi, on gagnerait du temps.") ; neut_parl_s02_0126
-(dSayText text)

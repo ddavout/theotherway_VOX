@@ -1,9 +1,0 @@
-(lex.add.entry '("cachez_VER" VER ((("k" "a") 0) (("sh" "e") 0))))
-(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh)0) ((t rh ae) 0))))
-(lex.add.entry '("joie_NOM" "NOM" ((("zh" "w" "a") 0))))
-(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s)0) ((t rh ae) 0))))
-
-(set! text "cachez votre joie, monsieur le ministre !") ; neut_parl_s01_0040
-(dSayText text)

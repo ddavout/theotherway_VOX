@@ -1,9 +1,0 @@
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("pourquoi_PRO:rel" PRO:rel ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
-(lex.add.entry '("j_y_ADV" "ADV" ((("zh" "i") 0))))
-(lex.add.entry '("suis_AUX" AUX ((("s" "hw" "i") 0))))
-(lex.add.entry '("farouchement_ADV" "ADV" ((("f" "a") 0) (("rh" "u" "sh") 0) (("m" "ahn") 0))))
-(lex.add.entry '("opposé_VER" "VER" ((("o") 0) (("p" "o") 0) (("z" "e") 0)))); no LIA
-
-
-(dSayText "C'est pourquoi j'y suis farouchement opposé.") ; neut_parl_s04_0081

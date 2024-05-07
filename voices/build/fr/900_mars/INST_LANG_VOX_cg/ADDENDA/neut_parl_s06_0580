@@ -1,9 +1,0 @@
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("n_ADV" "ADV" nil))
-(lex.add.entry '("n_avé_VER" VER ((("n" "a") 0) (("v" "e") 0))))
-(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("vision_NOM" "NOM" ((("v" "i") 0) (("z" "j" "ohn") 0))))
-(lex.add.entry '("globale_ADJ" "ADJ" ((("g" "l" "oh") 0) (("b" "a" "l") 0))))
-
-(dSayText "Vous n'avez pas de vision globale.") ; neut_parl_s06_0580

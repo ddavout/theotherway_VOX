@@ -1,7 +1,0 @@
-(lex.add.entry '("Prenons_VER" VER ((("p" "rh" "ae") 0) (("n" "ohn") 0))))
-(lex.add.entry '("l_exemple_NOM" "NOM" (((l "eh" "g") 0) (("z" "ahn" "p" "l") 0))))
-(lex.add.entry '("d_un_ART:ind" ART:ind (((d "oen") 0))))
-(lex.add.entry '("Sandwich_NAM" NAM (((s ahn d) 0) ((w i t sh) 0))))
-
-(set! text "Prenons l'exemple d'un Sandwich.") ; 
-(dSayText text); neut_parl_s01_0485

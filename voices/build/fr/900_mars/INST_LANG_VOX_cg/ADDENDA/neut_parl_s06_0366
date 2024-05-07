@@ -1,8 +1,0 @@
-(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
-(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh")0) (("g" ae) 0))))
-(lex.add.entry '("défendront_VER" VER ((("d" "e") 0) (("f" "ahn") 0) (("d" "rh" "ohn") 0))))
-(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
-(lex.add.entry '("amendements_NOM" NOM (((z "a") 0) (("m" "ahn") 0) (("d" "ae") 0) (("m" "ahn") 0))))
-
-
-(dSayText "Nos collègues, défendront des amendements.") ; neut_parl_s06_0366

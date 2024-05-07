@@ -1,9 +1,0 @@
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
-(lex.add.entry '("y_a_VER" "VER" (((l "j" "a") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("nuance_NOM" "NOM" ((("n" "hw" "ahn" "s") 0))))
-
-
-
-(set! text "il y a une nuance.") ; 
-(dSayText text); neut_parl_s01_0538

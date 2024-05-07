@@ -1,9 +1,0 @@
-(lex.add.entry '("autant_ADV" "ADV" ((("o") 0) (("t" "ahn") 0))))
-(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
-(lex.add.entry '("rester_VER" VER ((("rh" "eh" "s") 0) (("t" "e") 0))))
-(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
-(lex.add.entry '("déontologue_NOM" "NOM" ((("d" "e") 0) (("ohn") 0) (("t" "oh") 0) (("l" "oh")0) (("g" ae) 0))))
-
-
-(set! text "Autant en rester au déontologue.") ; neut_parl_s02_0313
-(dSayText text)

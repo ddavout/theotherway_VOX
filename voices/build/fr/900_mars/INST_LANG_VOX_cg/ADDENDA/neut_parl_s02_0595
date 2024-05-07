@@ -1,8 +1,0 @@
-(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
-(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
-(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("bonnes_ADJ" ADJ ((("b" "oh" "n") 0))))
-(lex.add.entry '("mesures_NOM" NOM ((("m" "ae") 0) (("z" "y" "rh") 0))))
-
-(dSayText "Ce sont là de bonnes mesures.") ; neut_parl_s02_0595

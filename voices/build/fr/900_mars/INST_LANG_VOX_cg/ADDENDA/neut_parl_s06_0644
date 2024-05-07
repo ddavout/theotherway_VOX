@@ -1,8 +1,0 @@
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("laisse_VER" "VER" ((("l" "eh" "s") 0))))
-(lex.add.entry '("vos_ADJ:pos" "ADJ:pos" ((("v" "o") 0))))
-(lex.add.entry '("références_NOM" NOM ((("rh" "e") 0) (("f" "e") 0) (("rh" "ahn" "s") 0))))
-(lex.add.entry '("religieuses_ADJ" ADJ ((("rh" "ae") 0) (("l" "i") 0) (("zh" "j" "eu")0) (("z" ae) 0))))
-
-(dSayText "Je vous laisse vos références religieuses !") ; neut_parl_s06_0644

@@ -1,8 +1,0 @@
-(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
-(lex.add.entry '("sent_VER" VER (((s ahn) 0))))
-(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("êtes_VER" "VER" ((("eh" t) 0))))
-(lex.add.entry '("généreuse_ADJ" "ADJ" ((("zh" "e") 0) (("n" "e") 0) (("rh" "eu")0) (("z" ae) 0))))
-
-(dSayText "On sent que vous êtes généreuse.") ; neut_parl_s05_0699

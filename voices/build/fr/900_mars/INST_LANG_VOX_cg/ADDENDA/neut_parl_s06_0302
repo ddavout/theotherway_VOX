@@ -1,9 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("amendement_NOM" "NOM" ((("a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("coordination_NOM" "NOM" ((("k" "oh") 0) (("oh" "rh") 0) (("d" "i") 0) (("n" "a") 0) (("s" "j" "ohn") 0))))
-
-(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
-(dSayText "C'est un amendement de coordination.") ; neut_parl_s06_0302

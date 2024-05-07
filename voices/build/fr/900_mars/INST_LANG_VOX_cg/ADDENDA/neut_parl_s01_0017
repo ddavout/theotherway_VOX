@@ -1,8 +1,0 @@
-; moche avant régionale
-(lex.add.entry '("c_était_VER" "VER" (((s e) 0) ((t e) 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("dimension_NOM" "NOM" ((("d" "i") 0) (("m" "ahn") 0) (("s" "j" "ohn") 0))))
-(lex.add.entry '("régionale_ADJ" "ADJ" ((("rh" "e") 0) (("zh" "j" "oh") 0) (("n" "a" "l") 0))))
-
-(set! text "c'était la dimension régionale.") ; neut_parl_s01_0017
-(dSayText text)

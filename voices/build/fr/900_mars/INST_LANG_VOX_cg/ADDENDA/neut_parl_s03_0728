@@ -1,9 +1,0 @@
-(lex.add.entry '("Auquel_cas_CON" CON ((("o") 0) (("k" "eh" "l") 0)(("k" "a") 0))))
-(lex.add.entry '("quid_PRO:int" "PRO:int" (((k w i d)0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("de_PRE" PRE (((d ae)0))))
-(lex.add.entry '("fiscalité_NOM" "NOM" ((("f" "i" "s") 0) (("k" "a") 0) (("l" "i") 0) (("t" "e") 0))))
-
-(set! text "Auquel cas, quid de la fiscalité ?") ; neut_parl_s03_0728
-(dSayText text)

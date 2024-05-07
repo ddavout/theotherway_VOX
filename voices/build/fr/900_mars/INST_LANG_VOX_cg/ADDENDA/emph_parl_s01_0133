@@ -1,8 +1,0 @@
-(lex.add.entry '("comment_ADV" "ADV" ((("k" "oh") 0) (("m" "ahn") 0))))
-(lex.add.entry '("allons_VER" VER ((("a") 0) (("l" "ohn") 0))))
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
-(lex.add.entry '("dénoué_VER" VER ((("d" "e") 0) (("n" "u") 0) ((w "e") 0))))
-
-
-(dSayText "Comment allons-nous le dénouer ?") ; emph_parl_s01_0133

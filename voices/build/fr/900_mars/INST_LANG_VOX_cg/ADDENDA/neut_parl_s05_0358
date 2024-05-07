@@ -1,7 +1,0 @@
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
-(lex.add.entry '("a_AUX" "AUX" (((j "a") 0)))) ; Q ?
-(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
-(lex.add.entry '("fè_VER" "VER" ((("f" "eh") 0))))
-
-(dSayText "Le travail a été fait !") ; neut_parl_s05_0358

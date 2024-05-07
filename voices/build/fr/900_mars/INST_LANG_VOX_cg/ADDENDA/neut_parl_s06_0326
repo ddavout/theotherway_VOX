@@ -1,8 +1,0 @@
-(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
-(lex.add.entry '("modèle_NOM" "NOM" ((("m" "oh") 0) (("d" "eh" "l") 0))))
-(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
-(lex.add.entry '("fè_VER" "VER" ((("f" "eh") 0))))
-(lex.add.entry '("ses_ADJ:pos" "ADJ:pos" (((s e) 0))))
-(lex.add.entry '("preuves_NOM" NOM ((("p" "rh" "oe")0) (("v" ae) 0))))
-
-(dSayText "Ce modèle a fait ses preuves.") ; neut_parl_s06_0326

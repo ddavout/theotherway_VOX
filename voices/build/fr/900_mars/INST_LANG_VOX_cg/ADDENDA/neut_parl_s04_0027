@@ -1,9 +1,0 @@
-(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
-(lex.add.entry '("progrès_NOM" NOM ((("p" "rh" "oh") 0) (("g" "rh" "eh") 0))))
-(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
-(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
-(lex.add.entry '("réalisés_VER" VER ((("rh" "e") 0) (("a") 0) (("l" "i") 0) (("z" "e") 0))))
-(set! list_exclus*-> (append (list "progrès") list_exclus*->_default))
-
-(set! never_exception_list (append (list "ont" ) never_exception_list_default))
-(dSayText "Des progrès ont été réalisés.") ; neut_parl_s04_0027

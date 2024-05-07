@@ -1,6 +1,0 @@
-(lex.add.entry '("est_ce_VER" "VER" ((("eh") 0))))
-(lex.add.entry '("la_ART:def" "ART:def" (((s "l" "a") 0))))
-(lex.add.entry '("bonne_ADJ" "ADJ" ((("b" "oh" "n") 0))))
-(lex.add.entry '("méthode_NOM" "NOM" ((("m" "e") 0) (("t" "oh")0) (("d" ae) 0))))
-
-(dSayText "Est-ce la bonne méthode ?") ; neut_parl_s04_0619

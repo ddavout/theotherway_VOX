@@ -1,8 +1,0 @@
-(lex.add.entry '("et_CON" "CON" ((("e") 0))))
-(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
-(lex.add.entry '("mouvement_NOM" "NOM" ((("m" "u" v) 0) (("m" "ahn") 0))))
-(lex.add.entry '("étè_VER" "VER" ((("e") 0) (("t" "eh") 0))))
-(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
-
-(set! never_exception_list (append (list "était" ) never_exception_list_default))
-(dSayText "Et ce mouvement était européen.") ; neut_parl_s03_0712

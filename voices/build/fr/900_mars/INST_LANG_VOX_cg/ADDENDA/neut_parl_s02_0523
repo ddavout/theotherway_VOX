@@ -1,7 +1,0 @@
-(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
-(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
-(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
-(lex.add.entry '("recevable_ADJ" "ADJ" ((("rh" "ae") 0) (("s" "ae") 0) (("v" "a")0) (("b" "l" ae) 0))))
-
-(set! text "non, ce n'est pas recevable.") ; neut_parl_s02_0523
-(dSayText text)

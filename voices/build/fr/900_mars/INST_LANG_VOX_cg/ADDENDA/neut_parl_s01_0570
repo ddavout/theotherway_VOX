@@ -1,7 +1,0 @@
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("s_agit_VER" "VER" (((s "a") 0) (("zh" "i") 0))))
-(lex.add.entry '("d_avancées_NOM" "NOM" (((d "a") 0) (("v" "ahn") 0) (("s" "e") 0))))
-(lex.add.entry '("indéniables_ADJ" ADJ ((("ehn") 0) (("d" "e") 0) (("n" "j" "a")0) (("b" "l" ae) 0)))); no LIA
-
-(set! text "Il s'agit d'avancées indéniables.") ; 
-(dSayText text); neut_parl_s01_0570

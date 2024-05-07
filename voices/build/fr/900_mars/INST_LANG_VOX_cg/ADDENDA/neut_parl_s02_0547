@@ -1,6 +1,0 @@
-(lex.add.entry '("l_esclavage_NOM" "NOM" (((l "eh" "s") 0) (("k" "l" "a") 0) (("v" "a" "zh") 0))))
-(lex.add.entry '("n_est_pas_VER" "VER" (((n eh) 0)(("p" "a") 0))))
-(lex.add.entry '("loin_ADV" "ADV" ((("l" "w" "ehn") 0))))
-
-(set! text "l'esclavage n'est pas loin.") ; neut_parl_s02_0547
-(dSayText text)

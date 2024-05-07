@@ -1,9 +1,0 @@
-(lex.add.entry '("aujourd_hui_ADV" "ADV" (((o) 0) ((zh oh rh) 0) ((d hw i) 0))))
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("s_agit_VER" "VER" (((s "a") 0) (("zh" "i") 0))))
-(lex.add.entry '("d_un_ART:ind" ART:ind (((d "oen") 0))))
-(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
-(lex.add.entry '("juridique_ADJ" "ADJ" ((("zh" "y") 0) (("rh" "i") 0) (("d" "i")0) (("k" ae) 0))))
-
-(set! text "aujourd'hui, il s'agit d'un travail juridique.") ; neut_parl_s04_0090
-(dSayText text)

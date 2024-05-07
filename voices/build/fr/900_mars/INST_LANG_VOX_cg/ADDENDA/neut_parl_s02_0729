@@ -1,7 +1,0 @@
-(lex.add.entry '("Veuillé_VER" VER ((("v" "eu") 0) (("j" "e") 0))))
-(lex.add.entry '("conclure_VER" "VER" ((("k" "ohn") 0) (("k" "l" "y" "rh") 0))))
-(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
-(lex.add.entry '("cher_ADJ" "ADJ" ((("sh" "eh" "rh") 0))))
-(lex.add.entry '("collègue_NOM" "NOM" ((("k" "oh") 0) (("l" "eh")0) (("g" "ae") 0))))
-
-(dSayText "Veuillez conclure, mon cher collègue !") ; neut_parl_s02_0729

@@ -1,9 +1,0 @@
-(lex.add.entry '("et_CON" "CON" ((("e") 0))))
-(lex.add.entry '("quid_PRO:int" "PRO:int" (((k w i d) 0))))
-(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
-(lex.add.entry '("réductions_NOM" NOM ((("rh" "e") 0) (("d" "y" "k") 0) (("s" "j" "ohn") 0))))
-(lex.add.entry '("fiscales_ADJ" ADJ ((("f" "i" "s") 0) (("k" "a")0) (("l" ae) 0))))
-
-
-(set! text "Et quid des réductions fiscales ?") ; neut_parl_s02_0201
-(dSayText text)

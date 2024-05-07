@@ -1,8 +1,0 @@
-(lex.add.entry '("Malheureusement_ADV" "ADV" ((("m" "a") 0) (("l" "eu") 0) (("rh" "eu" "z") 0) (("m" "ahn") 0))))
-(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0))))
-(lex.add.entry '("démarche_NOM" "NOM" ((("d" "e") 0) (("m" "a" "rh" "sh") 0))))
-(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
-(lex.add.entry '("inverse_ADJ" "ADJ" ((("ehn") 0) (("v" "eh" "rh")0) (("s" ae) 0))))
-
-(set! never_exception_list (append (list "est" ) never_exception_list_default))
-(dSayText "Malheureusement, votre démarche est inverse.") ; neut_parl_s05_0055

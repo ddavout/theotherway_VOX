@@ -1,9 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("juge_NOM" "NOM" ((("zh" "y" "zh") 0))))
-(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
-(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
-(lex.add.entry '("dira_VER" "VER" ((("d" "i") 0) (("rh" "a") 0))))
-
-(dSayText "C'est le juge qui le dira.") ; neut_parl_s06_0604

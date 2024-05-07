@@ -1,9 +1,0 @@
-(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
-(lex.add.entry '("votons-les_VER" VER ((("v" "oh") 0) (("t" "ohn") 0)((l e)0))))
-(lex.add.entry '("les_PRO:per" "PRO:per" ((("l" "eh") 0))))
-(lex.add.entry '("sans_PRE" PRE ((("s" "ahn") 0))))
-(lex.add.entry '("réserve_NOM" NOM ((("rh" "e") 0) (("z" "eh" "rh")0) (("v" ae) 0))))
-
-
-(set! text "aussi, votons-les sans réserve.") ; 
-(dSayText text); neut_parl_s01_0338

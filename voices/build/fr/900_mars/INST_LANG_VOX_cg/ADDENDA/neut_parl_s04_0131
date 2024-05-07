@@ -1,7 +1,0 @@
-(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
-(lex.add.entry '("questions_NOM" NOM ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
-(lex.add.entry '("peuvent_VER" VER ((("p" "eu" "v") 0))))
-(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
-(lex.add.entry '("posé_VER" VER ((("p" "o") 0) (("z" "e") 0))))
-
-(dSayText "Ces questions, peuvent se poser.") ; neut_parl_s04_0131

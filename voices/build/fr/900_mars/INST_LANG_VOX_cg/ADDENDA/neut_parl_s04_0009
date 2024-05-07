@@ -1,7 +1,0 @@
-(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh") 0))))
-(lex.add.entry '("est_VER" "VER" (((l "eh") 0))))
-(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
-(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
-(lex.add.entry '("rôle_NOM" "NOM" ((("rh" "o")0) (("l" ae) 0))))
-
-(dSayText "Elle est dans son rôle.") ; neut_parl_s04_0009

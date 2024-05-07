@@ -1,8 +1,0 @@
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("veillerai_VER" VER ((("v" "eh") 0) (("j" "ae") 0) (("rh" "e") 0))))
-(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("la_PRO:per" PRO:per ((("l" "a") 0))))
-(lex.add.entry '("communiqué_VER" VER ((("k" "oh") 0) (("m" "y") 0) (("n" "i") 0) (("k" "e") 0))))
-
-(dSayText "Je veillerai à vous la communiquer.") ; neut_parl_s05_0114

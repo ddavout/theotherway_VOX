@@ -1,8 +1,0 @@
-(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
-(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
-(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh" "rh") 0))))
-(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
-(lex.add.entry '("pistes_NOM" NOM ((("p" "i" "s")0) (("t" ae) 0))))
-
-(set! never_exception_list (append (list "sont" ) never_exception_list_default))
-(dSayText "Ce sont encore des, pistes.") ; neut_parl_s04_0558

@@ -1,8 +1,0 @@
-(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
-(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
-(lex.add.entry '("j_émets_VER" VER ((("zh" "e") 0) (("m" "eh") 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0)))); no LIA
-(lex.add.entry '("avis_NOM" NOM ((("a") 0) (("v" "i") 0))))
-(lex.add.entry '("favorable_ADJ" "ADJ" ((("f" "a") 0) (("v" "oh") 0) (("rh" "a")0) (("b" "l" ae) 0)))); no LIA
-
-(dSayText "C'est pourquoi j'émets un avis favorable.") ; neut_parl_s05_0129

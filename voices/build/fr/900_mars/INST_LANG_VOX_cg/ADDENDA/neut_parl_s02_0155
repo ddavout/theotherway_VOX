@@ -1,7 +1,0 @@
-(lex.add.entry '("si_ADV" "ADV" ((("s" "i") 0))))
-(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
-(lex.add.entry '("qu_a-t-il_VER" "VER" (((k a) 0)(("t" "i" l) 0))))
-(lex.add.entry '("donné_VER" "VER" ((("d" "oh") 0) (("n" "e") 0))))
-
-(set! text "Si oui, qu'a-t-il donné ?") ; neut_parl_s02_0155
-(dSayText text)

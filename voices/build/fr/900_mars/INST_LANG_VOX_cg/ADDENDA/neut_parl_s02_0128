@@ -1,9 +1,0 @@
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("sous_traitance" nil ((("s" "u") 0) (("t" "rh" "eh") 0) (("t" "ahn") 0))))
-(lex.add.entry '("est_VER" "VER" (((s "e") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
-(lex.add.entry '("question_NOM" "NOM" ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
-(lex.add.entry '("majeure_ADJ" "ADJ" ((("m" "a") 0) (("zh" "oe" "rh") 0))))
-
-(set! text "La sous-traitance est une question majeure.") ; neut_parl_s02_0128
-(dSayText text)

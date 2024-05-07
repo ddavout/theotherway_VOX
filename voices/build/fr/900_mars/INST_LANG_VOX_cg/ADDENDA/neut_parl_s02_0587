@@ -1,8 +1,0 @@
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("mort_NOM" "NOM" ((("m" "oh" "rh") 0))))
-(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("arrachement_NOM" "NOM" ((("a") 0) (("rh" "a") 0) (("sh" "m" "ahn") 0))))
-
-(set! never_exception_list (append (list "est") never_exception_list_default))
-(dSayText "La mort est un arrachement.") ; neut_parl_s02_0587

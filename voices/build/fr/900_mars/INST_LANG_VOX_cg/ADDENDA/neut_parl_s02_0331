@@ -1,9 +1,0 @@
-(lex.add.entry '("incontestablement_ADV" "ADV" ((("ehn") 0) (("k" "ohn") 0) (("t" "eh" "s") 0) (("t" "a") 0) (("b" "l" "ae") 0) (("m" "ahn") 0))))
-(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
-(lex.add.entry '("malgré_PRE" "PRE" ((("m" "a" "l") 0) (("g" "rh" "e") 0))))
-(lex.add.entry '("ses_ADJ:pos" "ADJ:pos" (((s e) 0))))
-(lex.add.entry '("limites_NOM" NOM ((("l" "i") 0) (("m" "i")0) (("t" ae) 0))))
-
-
-(set! text "Incontestablement oui, malgré ses limites.") ; neut_parl_s02_0331
-(dSayText text)

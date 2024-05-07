@@ -1,8 +1,0 @@
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("avez_VER" VER (((z "a") 0) (("v" "e") 0))))
-(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
-(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
-(lex.add.entry '("l_esbroufe_NOM" "NOM" (((l "eh" "s") 0) (("b" "rh" "u")0) (("f" ae) 0))))
-
-(set! text "Vous avez été dans l'esbroufe.") ; neut_parl_s02_0724
-(dSayText text)

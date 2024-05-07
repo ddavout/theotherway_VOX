@@ -1,8 +1,0 @@
-(lex.add.entry '("l_ART:def" "ART:def" nil))
-(lex.add.entry '("objectif_NOM" "NOM" (((oh b) 0) ((zh e k) 0) ((t i f) 0))))
-(lex.add.entry '("n_ADV" "ADV" nil))
-(lex.add.entry '("n_est_VER" "VER" (((n eh) 0))))
-(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
-(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
-
-(dSayText "l'objectif n'est pas là.") ; neut_parl_s06_0018

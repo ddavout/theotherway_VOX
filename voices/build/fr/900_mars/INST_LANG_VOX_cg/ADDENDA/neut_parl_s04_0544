@@ -1,9 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
-(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
-(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
-(lex.add.entry '("réside_VER" "VER" ((("rh" "e") 0) (("z" "i") 0))))
-(lex.add.entry '("le_ART:def" "ART:def" (((d "l" "ae") 0))))
-(lex.add.entry '("problème_NOM" "NOM" ((("p" "rh" "oh") 0) (("b" "l" "eh" "m") 0)))); Q
-
-(dSayText "C'est là que réside le problème.") ; neut_parl_s04_0544

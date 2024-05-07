@@ -1,8 +1,0 @@
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("réserve_NOM" "NOM" ((("rh" "e") 0) (("z" "eh" "rh")0) (("v" ae) 0))))
-(lex.add.entry '("principale_ADJ" "ADJ" ((("p" "rh" "ehn") 0) (("s" "i") 0) (("p" "a" "l") 0))))
-(lex.add.entry '("concerne_VER" "VER" ((("k" "ohn") 0) (("s" "eh" "rh")0) (("n" ae) 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("diagnostic_NOM" "NOM" ((("d" "j" "a" "g") 0) (("n" "oh" "s") 0) (("t" "i")0) (("k" ae) 0))))
-
-(dSayText "La réserve principale concerne le diagnostic.") ; neut_parl_s03_0318

@@ -1,7 +1,0 @@
-(lex.add.entry '("y_en_NOM" "NOM" (((j ahn) 0))))
-(lex.add.entry '("a-t-il_VER" "VER" (((a) 0)(("t" "i" l) 0))))
-(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0))))
-
-
-(set! text "y en a-t-il ici ?") ; neut_parl_s06_0223
-(dSayText text)

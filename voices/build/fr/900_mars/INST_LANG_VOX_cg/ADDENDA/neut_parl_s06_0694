@@ -1,9 +1,0 @@
-(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
-(lex.add.entry '("budget_NOM" "NOM" ((("b" "y" d) 0) (("zh" "eh") 0))))
-(lex.add.entry '("tombe_VER" VER ((("t" "ohn" "b") 0))))
-(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
-(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
-(lex.add.entry '("travers_NOM" NOM ((("t" "rh" "a") 0) (("v" "eh" "rh") 0))))
-
-
-(dSayText "Ce budget tombe dans ce travers.") ; neut_parl_s06_0694

@@ -1,7 +1,0 @@
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
-(lex.add.entry '("devrions_VER" VER ((("d" "ae") 0) (("v" "rh" "j" "ohn") 0))))
-(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
-(lex.add.entry '("hésité_VER" VER ((("e") 0) (("z" "i") 0) (("t" "e") 0))))
-
-(dSayText "Nous ne devrions pas hésiter.") ; neut_parl_s02_0482

@@ -1,8 +1,0 @@
-(lex.add.entry '("leur_ADJ:pos" "ADJ:pos" ((("l" "oe" "rh") 0))))
-(lex.add.entry '("jeunesse_NOM" "NOM" ((("zh" "oe") 0) (("n" "eh") 0))))
-(lex.add.entry '("est_VER" "VER" (((s "e") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("chance_NOM" "NOM" ((("sh" "ahn")0) (("s" ae) 0))))
-
-(set! never_exception_list (append (list "est" ) never_exception_list_default))
-(dSayText "Leur jeunesse est une chance.") ; neut_parl_s02_0742

@@ -1,7 +1,0 @@
-(lex.add.entry '("dites-nous_VER" VER ((("d" "i" "t") 0)(("n" "u") 0))))
-(lex.add.entry '("où_PRO:rel" "PRO:rel" nil)); no LIA
-(lex.add.entry '("elle_PRO:per" "PRO:per" (((w "eh" "l") 0))))
-(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
-
-(set! text "Dites-nous où elle est !") ; neut_parl_s02_0558
-(dSayText text)

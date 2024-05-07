@@ -1,8 +1,0 @@
-(lex.add.entry '("Veuillé_VER" VER ((("v" "oe") 0) (("j" "e") 0))))
-(lex.add.entry '("conclure_VER" "VER" ((("k" "ohn") 0) (("k" "l" "y" "rh") 0))))
-(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("député_NOM" "NOM" ((("d" "e") 0) (("p" "y") 0) (("t" "e") 0))))
-
-
-(dSayText "Veuillez conclure, monsieur le député.") ; neut_parl_s03_0294

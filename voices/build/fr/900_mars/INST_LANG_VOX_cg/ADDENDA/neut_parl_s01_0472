@@ -1,9 +1,0 @@
-(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
-(lex.add.entry '("bouscule_VER" "VER" ((("b" "u" "s") 0) (("k" "y" "l") 0))))
-(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
-(lex.add.entry '("idées_NOM" NOM (((z s "i") 0) (("d" "e") 0))))
-(lex.add.entry '("reçues_VER" VER ((("rh" "ae") 0) (("s" "y") 0))))
-
-
-(set! text "Elle bouscule les idées reçues.") ; 
-(dSayText text); neut_parl_s01_0472

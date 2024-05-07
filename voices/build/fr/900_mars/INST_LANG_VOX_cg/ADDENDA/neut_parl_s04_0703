@@ -1,9 +1,0 @@
-(lex.add.entry '("Or_CON" CON ((("oh" "rh") 0))))(lex.add.entry '("Or_NOM" NOM ((("oh" "rh") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("telle_ADJ:ind" "ADJ:ind" ((("t" "eh" "l") 0))))
-(lex.add.entry '("méthode_NOM" "NOM" ((("m" "e") 0) (("t" "oh")0) (("d" ae) 0))))
-(lex.add.entry '("n_est_pas_VER" "VER" (((n eh) 0)(("p" "a") 0))))
-(lex.add.entry '("envisageable_ADJ" "ADJ" (((z "ahn") 0) (("v" "i") 0) (("z" "a") 0) (("zh" "a")0) (("b" "l" ae) 0)))); LIA
-
-(set! text "Or, une telle méthode, n'est pas envisageable.") ; neut_parl_s04_0703
-(dSayText text)

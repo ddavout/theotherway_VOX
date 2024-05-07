@@ -1,9 +1,0 @@
-(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
-(lex.add.entry '("choses_NOM" NOM ((("sh" "o" "z") 0))))
-(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
-(lex.add.entry '("changé_VER" "VER" ((("sh" "ahn") 0) (("zh" "e") 0))))
-(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
-(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
-
-(set! list_exclus*-> (append (list "choses" ) list_exclus*->_default))
-(dSayText "Les choses ont changé, là aussi !") ; neut_parl_s04_0453

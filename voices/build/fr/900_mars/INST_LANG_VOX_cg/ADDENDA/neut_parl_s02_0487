@@ -1,7 +1,0 @@
-(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
-(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
-(lex.add.entry '("projeté_VER" VER ((("p" "rh" "oh" zh) 0)(("t" "e") 0))))
-(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
-(lex.add.entry '("bouteilles_NOM" NOM ((("b" "u") 0) (("t" "eh")0) (("j" ae) 0))))
-
-(dSayText "Oui, pour projeter les bouteilles !") ; neut_parl_s02_0487

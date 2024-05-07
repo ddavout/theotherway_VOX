@@ -1,8 +1,0 @@
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("sommes_VER" VER ((("s" "oh" "m") 0))))
-(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("situation_NOM" "NOM" ((("s" "i") 0) (("t" "hw" "a") 0) (("s" "j" "ohn") 0))))
-(lex.add.entry '("assez_ADV" "ADV" ((("a") 0) (("s" "e") 0))))
-(lex.add.entry '("grave_ADJ" "ADJ" ((("g" "rh" "a")0) (("v" "ae") 0))))
-(dSayText "Nous sommes dans une situation assez grave.") ; neut_parl_s06_0506

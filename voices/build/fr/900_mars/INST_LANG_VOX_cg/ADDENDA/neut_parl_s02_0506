@@ -1,9 +1,0 @@
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("termine_VER" "VER" ((("t" "eh" "rh") 0) (("m" "i" "n") 0))))
-(lex.add.entry '("d_PRE" "PRE" nil))
-(lex.add.entry '("un_ART:ind" ART:ind ((("oen") 0))))
-(lex.add.entry '("mot_NOM" "NOM" ((("m" "o") 0))))
-
-
-
-(dSayText "Je termine, d'un mot.") ; neut_parl_s02_0506

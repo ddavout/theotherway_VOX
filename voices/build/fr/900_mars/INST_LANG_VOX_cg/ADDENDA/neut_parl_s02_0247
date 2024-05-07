@@ -1,9 +1,0 @@
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("pense_VER" "VER" ((("p" "ahn") 0))))
-(lex.add.entry '("aussi_ADV" "ADV" (((s "o") 0) (("s" "i") 0))))
-(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
-(lex.add.entry '("familles_NOM" NOM ((("f" "a") 0) (("m" "i" "j") 0))))
-(lex.add.entry '("monoparentales_ADJ" ADJ ((("m" "oh") 0) (("n" "o") 0) (("p" "a") 0) (("rh" "ahn") 0) (("t" "a")0) (("l" ae) 0))))
-
-(set! text "je pense aussi aux familles, monoparentales.") ; neut_parl_s02_0247
-(dSayText text)

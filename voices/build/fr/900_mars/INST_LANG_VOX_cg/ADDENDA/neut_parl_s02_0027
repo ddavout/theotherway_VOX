@@ -1,7 +1,0 @@
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("suis_VER" "VER" (((s hw i) 0))))
-(lex.add.entry '("moi-même_PRO:per" "PRO:per" ((("m" "w" "a") 0)((m eh m) 0)))); plus de pb POS confusion PRO:per et NOM
-(lex.add.entry '("fonctionnaire_NOM" "NOM" ((("f" "ohn" "k") 0) (("s" "j" "oh") 0) (("n" "eh" "rh") 0))))
-
-(set! text "Je suis moi-même fonctionnaire !") ; neut_parl_s02_0027
-(dSayText text)

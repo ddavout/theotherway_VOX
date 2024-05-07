@@ -1,9 +1,0 @@
-; todo Token ajouter qu 
-(lex.add.entry '("voilà_VER" "VER" ((("v" "w" "a") 0) (("l" "a") 0))))
-(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
-(lex.add.entry '("qu_attendent_VER" "VER" ((("k" "a") 0) (("t" "ahn" "d") 0))))
-(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
-(lex.add.entry '("concitoyens_NOM" NOM ((("k" "ohn") 0) (("s" "i") 0) (("t" "w" "a") 0) (("j" "ehn") 0))))
-
-(set! text "Voilà ce qu'attendent nos concitoyens !") ; 
-(dSayText text); neut_parl_s01_0464

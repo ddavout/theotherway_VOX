@@ -1,9 +1,0 @@
-(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
-(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
-(lex.add.entry '("verrouille_VER" "VER" ((("v" "e") 0) (("rh" "u" "j") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("nouveau_NOM" "NOM" ((("n" "u") 0) (("v" "o") 0))))
-
-
-(set! text "Là, on verrouille de nouveau.") ; neut_parl_s02_0131
-(dSayText text)

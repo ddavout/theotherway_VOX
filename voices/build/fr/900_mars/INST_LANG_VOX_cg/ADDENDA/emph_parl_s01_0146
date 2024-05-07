@@ -1,7 +1,0 @@
-(lex.add.entry '("Que_PRO:int" PRO:int (((k ae) 0))))
-(lex.add.entry '("peut-il_VER" "VER" ((("p" "eu") 0)("t" "i" l) 0))))
-(lex.add.entry '("ensuite_ADV" "ADV" ((("ahn") 0) (("s" "hw" i) 0)))); Q
-(lex.add.entry '("advenir_VER" "VER" (((t a d) 0) ((v ae) 0) ((n i rh) 0))))
-
-
-(dSayText "Que peut-il ensuite advenir ?") ; emph_parl_s01_0146

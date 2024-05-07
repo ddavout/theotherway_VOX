@@ -1,8 +1,0 @@
-(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh") 0))))
-(lex.add.entry '("était_AUX" "AUX" (((l "e") 0) (("t" "eh") 0))))
-(lex.add.entry '("accréditée_VER" VER ((("a") 0) (("k" "rh" "e") 0) (("d" "i") 0) (("t" "e") 0))))
-(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
-(lex.add.entry '("niveau_NOM" "NOM" ((("n" "i") 0) (("v" "o") 0))))
-(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
-
-(dSayText "Elle était accréditée au niveau européen.") ; neut_parl_s02_0751

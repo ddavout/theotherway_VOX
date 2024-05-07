@@ -1,8 +1,0 @@
-(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
-(lex.add.entry '("problème_NOM" "NOM" ((("p" "rh" "oh") 0) (("b" "l" "eh" "m") 0))))
-(lex.add.entry '("majeur_ADJ" "ADJ" ((("m" "a") 0) (("zh" "oe" "rh") 0))))
-(lex.add.entry '("l_ART:def" "ART:def" nil))
-(lex.add.entry '("exige_NOM" NOM ((("eh" "g") 0) (("z" "i")0) (("zh" ae) 0))))
-
-
-(dSayText "Ce problème majeur l'exige.") ; neut_parl_s05_0439

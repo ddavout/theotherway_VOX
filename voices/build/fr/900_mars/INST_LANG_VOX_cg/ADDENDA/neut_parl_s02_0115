@@ -1,9 +1,0 @@
-(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
-(lex.add.entry '("texte_NOM" NOM ((("t" "eh" "k") 0) (("s" "t" ae) 0))))
-(lex.add.entry '("propose_VER" "VER" ((("p" "rh" "oh") 0) (("p" "o" "z") 0))))
-(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y") 0)))); no LIA
-(lex.add.entry '("avancée_NOM" NOM (((n "a") 0) (("v" "ahn") 0) (("s" "e") 0))))
-
-(set! text "Ce texte propose bien une avancée.") ; neut_parl_s02_0115
-(dSayText text)

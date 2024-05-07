@@ -1,9 +1,0 @@
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("sommes_VER" VER ((("s" "oh" "m") 0))))
-(lex.add.entry '("prêts_ADJ" ADJ ((("p" "rh" "eh") 0))))
-(lex.add.entry '("à_PRE" "PRE" (((a) 0)))); no LIA
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("aimer_VER" VER (((z "e") 0) (("m" "e") 0))))
-
-(set! text "nous sommes prêts à nous aimer !") ; 
-(dSayText text); neut_parl_s01_0154

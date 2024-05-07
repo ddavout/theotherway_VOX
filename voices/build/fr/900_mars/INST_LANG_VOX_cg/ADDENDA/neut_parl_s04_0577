@@ -1,9 +1,0 @@
-(lex.add.entry '("en_fait_ADV" "ADV" ((("ahn") 0) (("f" "eh")0) ((t ae) 0))))
-(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("étè_VER" VER ((("e") 0) (("t" "eh") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("réels_ADJ" ADJ ((("rh" "e") 0) (("eh" "l") 0))))
-(lex.add.entry '("médiateurs_NOM" NOM ((("m" "e") 0) (("d" "j" "a") 0) (("t" "oe" "rh") 0))))
-
-
-(dSayText "En fait, ils étaient de réels médiateurs.") ; neut_parl_s04_0577

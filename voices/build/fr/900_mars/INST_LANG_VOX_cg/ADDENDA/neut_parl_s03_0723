@@ -1,8 +1,0 @@
-(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
-(lex.add.entry '("revanche_NOM" "NOM" ((("rh" "ae") 0) (("v" "ahn")0) (("sh" ae) 0))))
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("soulignerai_VER" VER ((("s" "u") 0) (("l" "i") 0) (("jg" "ae") 0) (("rh" "e") 0))))
-(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
-(lex.add.entry '("points_NOM" NOM (((p w ehn) 0))))
-
-(dSayText "En revanche, je soulignerai deux points.") ; neut_parl_s03_0723

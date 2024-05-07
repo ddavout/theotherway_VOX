@@ -1,8 +1,0 @@
-(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
-(lex.add.entry '("m_avait_AUX" AUX (((m "a") 0) (("v" "eh") 0))))
-(lex.add.entry '("rendu_VER" "VER" ((("rh" "ahn") 0) (("d" "y") 0))))
-(lex.add.entry '("fou_ADJ" "ADJ" ((("f" "u") 0))))
-
-
-(set! text "cela m'avait rendu fou !") ; 
-(dSayText text); neut_parl_s01_0103

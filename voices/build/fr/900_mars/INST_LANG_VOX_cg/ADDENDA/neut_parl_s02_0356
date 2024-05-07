@@ -1,9 +1,0 @@
-(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
-(lex.add.entry '("goldberg_NAM" "NAM" (((g oh l d) 0) ((b eh rh g) 0))))
-(lex.add.entry '("y_PRO:per" "PRO:per" ((( i) 0))))
-(lex.add.entry '("est_AUX" "AUX" (((j "eh") 0))))
-(lex.add.entry '("revenu_VER" "VER" ((("rh" "ae" v) 0) (("n" "y") 0))))
-
-
-(set! text "Monsieur Goldberg y est revenu.") ; neut_parl_s02_0356
-(dSayText text)

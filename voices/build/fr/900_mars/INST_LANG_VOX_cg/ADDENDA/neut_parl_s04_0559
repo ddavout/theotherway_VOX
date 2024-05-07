@@ -1,8 +1,0 @@
-(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
-(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
-(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
-(lex.add.entry '("choses_NOM" NOM ((("sh" "o" "z") 0))))
-(lex.add.entry '("totalement_ADV" "ADV" ((("t" "oh") 0) (("t" "a" l) 0) (("m" "ahn") 0))))
-(lex.add.entry '("différentes_ADJ" ADJ ((("d" "i") 0) (("f" "e") 0) (("rh" "ahn" "t") 0))))
-
-(dSayText "Ce sont deux choses totalement différentes.") ; neut_parl_s04_0559

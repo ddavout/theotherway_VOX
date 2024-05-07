@@ -1,7 +1,0 @@
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("quels_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0))))
-(lex.add.entry '("moyens_NOM" NOM ((("m" "w" "a") 0) (("j" "ehn") 0))))
-(lex.add.entry '("disposerons-nous_VER" VER ((("d" "i" "s") 0) (("p" "o") 0) (("z" "rh" "ohn") 0)(("n" "u") 0))))
-
-(set! text "De quels moyens disposerons-nous ?") ; neut_parl_s04_0108
-(dSayText text)

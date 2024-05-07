@@ -1,9 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
-(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("petite_ADJ" "ADJ" ((("p" "ae") 0) (("t" "i" "t") 0))))
-(lex.add.entry '("prime_NOM" "NOM" ((("p" "rh" "i")0) (("m" ae) 0))))
-
-(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
-(dSayText "C'est aussi une petite prime.") ; neut_parl_s05_0567

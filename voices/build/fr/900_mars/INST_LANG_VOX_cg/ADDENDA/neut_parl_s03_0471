@@ -1,9 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("question_NOM" "NOM" ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
-(lex.add.entry '("extrêmement_ADV" "ADV" ((("eh" "k" "s") 0) (("t" "rh" "eh") 0) (("m" "ae") 0) (("m" "ahn") 0))))
-(lex.add.entry '("difficile_ADJ" "ADJ" ((("d" "i") 0) (("f" "i") 0) (("s" "i")0) (("l" ae) 0))))
-
-(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
-(dSayText "C'est une question, extrêmement difficile.") ; neut_parl_s03_0471

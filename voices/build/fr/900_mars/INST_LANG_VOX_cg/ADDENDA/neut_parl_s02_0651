@@ -1,7 +1,0 @@
-(lex.add.entry '("Simplifions_VER" VER ((("s" "ehn") 0) (("p" "l" "i") 0) (("f" "j" "ohn") 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("vie_NOM" "NOM" ((("v" "i") 0))))
-(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
-(lex.add.entry '("Français_NOM" NOM ((("f" "rh" "ahn") 0) (("s" "eh") 0))))
-
-(dSayText "Simplifions la vie des Français.") ; neut_parl_s02_0651

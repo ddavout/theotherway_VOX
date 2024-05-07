@@ -1,9 +1,0 @@
-(lex.add.entry '("Dès_PRE" PRE ((("d" "eh") 0))))
-(lex.add.entry '("lors_ADV" ADV ((("l" "oh" "rh") 0))))
-(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
-(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
-(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
-
-
-(set! list_exclus*-> (append (list "xx") list_exclus*->_default))
-(dSayText "Dès lors, pourquoi le faire ?") ; emph_parl_s01_0451

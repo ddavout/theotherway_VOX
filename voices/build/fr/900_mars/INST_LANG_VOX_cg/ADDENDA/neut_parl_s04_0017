@@ -1,9 +1,0 @@
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("beau_ADJ" "ADJ" ((("b" "o") 0))))
-(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("attend_VER" "VER" (((z "a") 0) (("t" "ahn") 0))))
-
-
-
-(dSayText "Un beau travail nous attend.") ; neut_parl_s04_0017

@@ -1,9 +1,0 @@
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
-(lex.add.entry '("sommes_VER" VER ((("s" "oh" "m") 0))))
-(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
-(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("cuisine_NOM" "NOM" ((("k" "hw" i) 0) (("z" "i")0) (("n" ae) 0))))
-
-(dSayText "Nous ne sommes pas dans une cuisine.") ; neut_parl_s06_0369

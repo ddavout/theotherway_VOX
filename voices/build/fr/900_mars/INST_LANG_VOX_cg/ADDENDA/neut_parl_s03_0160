@@ -1,8 +1,0 @@
-(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
-(lex.add.entry '("introduction_NOM" "NOM" ((("ehn") 0) (("t" "rh" "oh") 0) (("d" "y" "k") 0) (("s" "j" "ohn") 0))))
-(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
-(lex.add.entry '("semblé_VER" VER ((("s" "ahn") 0) (("b" "l" "e") 0))))
-(lex.add.entry '("sombre_ADJ" "ADJ" ((("s" "ohn")0) (("b" "rh" ae) 0))))
-
-
-(dSayText "Mon introduction peut sembler sombre.") ; neut_parl_s03_0160

@@ -1,8 +1,0 @@
-(lex.add.entry '("or_CON" "CON" ((("oh" "rh") 0))))
-(lex.add.entry '("l_enjeu_NOM" "NOM" (((l "ahn") 0) (("zh" "eu") 0))))
-(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
-(lex.add.entry '("réel_ADJ" "ADJ" ((("rh" "e") 0) (("eh" "l") 0))))
-
-
-(set! text "Or l'enjeu est réel.") ; 
-(dSayText text); neut_parl_s01_0457

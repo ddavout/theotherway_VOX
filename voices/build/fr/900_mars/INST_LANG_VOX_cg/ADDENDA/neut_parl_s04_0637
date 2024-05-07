@@ -1,7 +1,0 @@
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("quels_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0))))
-(lex.add.entry '("groupes_NOM" NOM ((("g" "rh" "u" "p") 0))))
-(lex.add.entry '("parlez-vous_VER" VER ((("p" "a" "rh") 0) (("l" "e") 0)((v u) 0))))
-
-(set! text "De quels groupes parlez-vous ?") ; neut_parl_s04_0637
-(dSayText text)

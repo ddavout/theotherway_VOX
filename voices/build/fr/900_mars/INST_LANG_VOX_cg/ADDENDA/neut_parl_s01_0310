@@ -1,9 +1,0 @@
-(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
-(lex.add.entry '("soulève_VER" "VER" ((("s" "u") 0) (("l" "eh") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("v" "y" "n") 0)))); no LIA
-(lex.add.entry '("vraie_ADJ" "ADJ" ((("v" "rh" "eh") 0))))
-(lex.add.entry '("interrogation_NOM" "NOM" ((("ehn") 0) (("t" "eh") 0) (("rh" "oh") 0) (("g" "a") 0) (("s" "j" "ohn") 0))))
-
-
-(set! text "cela soulève une vraie interrogation.") ; 
-(dSayText text); neut_parl_s01_0310

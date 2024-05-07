@@ -1,7 +1,0 @@
-(lex.add.entry '("rien_PRO:ind" "PRO:ind" ((("rh" "j" "ehn") 0))))
-(lex.add.entry '("n_ADV" "ADV" nil))
-(lex.add.entry '("n_est_VER" "VER" (((n eh) 0))))
-(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m eh) 0))))
-(lex.add.entry '("parfait_ADJ" "ADJ" ((("p" "a" "rh") 0) (("f" "eh") 0))))
-
-(dSayText "Rien n'est jamais parfait.") ; neut_parl_s05_0404

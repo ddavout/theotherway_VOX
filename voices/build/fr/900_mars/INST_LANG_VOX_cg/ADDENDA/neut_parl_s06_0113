@@ -1,7 +1,0 @@
-(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
-(lex.add.entry '("calme_NOM" NOM ((("k" "a" "l") 0) (("m" ae) 0))))
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("prie_VER" "VER" ((("p" "rh" "i") 0))))
-
-(dSayText "Du calme, je vous prie !") ; neut_parl_s06_0113

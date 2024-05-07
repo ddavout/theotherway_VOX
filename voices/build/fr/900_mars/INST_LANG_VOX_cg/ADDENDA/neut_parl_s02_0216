@@ -1,9 +1,0 @@
-(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
-(lex.add.entry '("seconde_ADJ" ADJ ((("s" "ae") 0) (("g" "ohn" d) 0))))
-(lex.add.entry '("délibération_NOM" "NOM" ((("d" "e") 0) (("l" "i") 0) (("b" "e") 0) (("rh" "a") 0) (("s" "j" "ohn") 0))))
-(lex.add.entry '("a_VER" "VER" (((a) 0))))
-(lex.add.entry '("plusieurs_ADJ:ind" ADJ:ind ((("p" "l" "y") 0) (("z" "j" "oe" "rh") 0))))
-(lex.add.entry '("objets_NOM" NOM (((z "oh" b) 0) (("zh" "eh") 0)))); LIA
-
-(set! text "Cette seconde délibération, a plusieurs objets.") ; neut_parl_s02_0216
-(dSayText text)

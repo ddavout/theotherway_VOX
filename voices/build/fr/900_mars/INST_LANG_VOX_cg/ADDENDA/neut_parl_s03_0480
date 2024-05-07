@@ -1,8 +1,0 @@
-(lex.add.entry '("Néanmoins_CON" CON ((("n" "e") 0) (("ahn") 0) (("m" "w" "ehn") 0))))
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("vivon_VER" "VER" ((("v" "i") 0) (("v" "ohn") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("confusion_NOM" "NOM" ((("k" "ohn") 0) (("f" "y") 0) (("z" "j" "ohn") 0))))
-
-(dSayText "Néanmoins, nous vivons une période de confusion.") ; neut_parl_s03_0480

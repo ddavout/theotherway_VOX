@@ -1,8 +1,0 @@
-(lex.add.entry '("Travaillons_VER" VER ((("t" "rh" "a") 0) (("v" "a") 0) (("j" "ohn") 0))))
-(lex.add.entry '("ensemble_ADV" "ADV" ((("ahn") 0) (("s" "ahn" "b" "l") 0))))
-(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
-(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
-(lex.add.entry '("direction_NOM" "NOM" ((("d" "i") 0) (("rh" "eh" "k") 0) (("s" "j" "ohn") 0))))
-
-(set! never_exception_list (append (list "Travaillons" ) never_exception_list_default))
-(dSayText "Travaillons ensemble dans cette direction !") ; neut_parl_s06_0681

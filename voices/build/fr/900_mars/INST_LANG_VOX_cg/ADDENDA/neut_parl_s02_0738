@@ -1,9 +1,0 @@
-(lex.add.entry '("parce_que_CON" CON (((p a rh s) 0) ((k ae) 0))))
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("loi_NOM" "NOM" ((("l" "w" "a") 0))))
-(lex.add.entry '("valls_NAM" "NAM" (((v a l s) 0))))
-
-(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
-(dSayText "Parce que c'est une loi Valls.") ; neut_parl_s02_0738

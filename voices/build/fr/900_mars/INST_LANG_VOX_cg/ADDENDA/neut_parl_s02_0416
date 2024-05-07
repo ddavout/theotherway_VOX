@@ -1,9 +1,0 @@
-(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
-(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("dites_VER" VER ((("d" "i" "t") 0))))
-(lex.add.entry '("est_VER" "VER" ((("e") 0))))
-(lex.add.entry '("faux_ADJ" "ADJ" ((("f" "o") 0))))
-
-(set! text "Ce que vous dites est faux !") ; neut_parl_s02_0416
-(dSayText text)

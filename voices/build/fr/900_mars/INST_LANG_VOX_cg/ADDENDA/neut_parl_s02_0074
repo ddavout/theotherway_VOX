@@ -1,9 +1,0 @@
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("second_ADJ" "ADJ" ((("s" "ae") 0) (("g" "ohn") 0)))) ; done
-(lex.add.entry '("enjeu_NOM" "NOM" (((t "ahn") 0) (("zh" "eu") 0)))); LIA
-(lex.add.entry '("est_VER" "VER" ((("e") 0))))
-(lex.add.entry '("financier_ADJ" "ADJ" ((("f" "i") 0) (("n" "ahn") 0) (("s" "j" "e") 0))))
-
-
-(set! text "Le second enjeu est financier.") ; neut_parl_s02_0074
-(dSayText text)

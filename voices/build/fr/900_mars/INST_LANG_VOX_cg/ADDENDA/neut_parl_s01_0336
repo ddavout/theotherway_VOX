@@ -1,9 +1,0 @@
-(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
-(lex.add.entry '("banques_NOM" NOM ((("b" "ahn") 0)))); no LIA
-(lex.add.entry '("ont_VER" "VER" (((k "ohn") 0))))
-(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
-(lex.add.entry '("payé_VER" "VER" ((("p" "e") 0) (("j" "e") 0))))
-
-(set! text "Les banques ont donc payé.") ; 
-(dSayText text); neut_parl_s01_0336
-

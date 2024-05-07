@@ -1,8 +1,0 @@
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
-(lex.add.entry '("peux_VER" "VER" ((("p" "eu") 0))))
-(lex.add.entry '("m_y_PRO:per" PRO:per ((("m" i) 0))))
-(lex.add.entry '("résoudre_VER" "VER" ((("rh" "e") 0) (("z" "u")0) (("d" "rh" ae) 0))))
-
-(set! text "Je ne peux m'y résoudre !") ; neut_parl_s02_0517
-(dSayText text)

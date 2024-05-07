@@ -1,7 +1,0 @@
-(lex.add.entry '("mieux_ADV" "ADV" ((("m" "j" "eu") 0))))
-(lex.add.entry '("vaut_VER" "VER" (((v o) 0))))
-(lex.add.entry '("convaincre_VER" "VER" ((("k" "ohn") 0) (("v" "ehn")0) (("k" "rh" ae) 0))))
-(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
-(lex.add.entry '("contraindre_VER" "VER" ((("k" "ohn") 0) (("t" "rh" "ehn")0) (("d" "rh" ae) 0))))
-
-(dSayText "Mieux vaut convaincre, que contraindre.") ; neut_parl_s04_0002

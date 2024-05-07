@@ -1,7 +1,0 @@
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("demande_NOM" "NOM" ((("d" "ae") 0) (("m" "ahn" "d") 0))))
-(lex.add.entry '("fondée_ADJ" "ADJ" ((("f" "ohn") 0) (("d" "e") 0))))
-(lex.add.entry '("et_CON" "CON" ((("e") 0))))
-(lex.add.entry '("légitime_ADJ" "ADJ" ((("l" "e") 0) (("zh" "i") 0) (("t" "i")0) (("m" "ae") 0))))
-
-(dSayText "Une demande fondée et légitime !") ; neut_parl_s04_0005

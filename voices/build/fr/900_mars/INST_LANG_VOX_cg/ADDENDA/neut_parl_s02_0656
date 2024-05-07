@@ -1,8 +1,0 @@
-(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
-(lex.add.entry '("j_insisterai_VER" VER ((("zh" "ehn") 0) (("s" "i" "s") 0) (("t" "ae") 0) (("rh" "e") 0))))
-(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("dernier_ADJ" "ADJ" ((("d" "eh" "rh") 0) (("n" "j" "e") 0))))
-(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
-
-(dSayText "Enfin, j'insisterai sur un dernier point.") ; neut_parl_s02_0656

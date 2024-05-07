@@ -1,9 +1,0 @@
-(lex.add.entry '("aujourd_hui_NOM" "NOM" (((o) 0) ((zh u rh) 0) ((d hw i) 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn" "s") 0))))
-(lex.add.entry '("cherche_VER" "VER" ((("sh" "eh" "rh" "sh") 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("nouveau_ADJ" "ADJ" ((("n" "u") 0) (("v" "o") 0))))
-(lex.add.entry '("souffle_NOM" "NOM" ((("s" "u")0) (("f" "l" ae) 0))))
-
-(dSayText "Aujourd'hui, la France cherche un nouveau souffle.") ; neut_parl_s03_0740

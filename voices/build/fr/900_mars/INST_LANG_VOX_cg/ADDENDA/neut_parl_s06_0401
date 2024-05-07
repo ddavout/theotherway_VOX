@@ -1,8 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("enjeu_NOM" "NOM" ((("ahn") 0) (("zh" "eu") 0))))
-(lex.add.entry '("mondial_ADJ" ADJ ((("m" "ohn") 0) (("d" "j" "a")0) (("l" ae) 0))))
-
-(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
-(dSayText "C'est un enjeu mondial.") ; neut_parl_s06_0401

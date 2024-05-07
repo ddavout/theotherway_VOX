@@ -1,7 +1,0 @@
-(lex.add.entry '("peut_être_ADV" "ADV" ((("p" "eu") 0) (("t" "eh" "t" "rh") 0))))
-(lex.add.entry '("avez-vous_VER" VER ((("a") 0) (("v" "e") 0)((v u) 0))))
-(lex.add.entry '("eu_VER" "VER" (((y) 0)))); no LIA
-(lex.add.entry '("peur_NOM" "NOM" ((("p" "oe" "rh") 0))))
-
-(set! text "peut-être avez-vous eu peur.") ; neut_parl_s03_0675
-(dSayText text)

@@ -1,7 +1,0 @@
-(lex.add.entry '("l_enjeu_NOM" "NOM" (((l "ahn") 0) (("zh" "eu") 0))))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("leurs_ADJ:pos" ADJ:pos ((("l" "oe" "rh") 0))))
-(lex.add.entry '("peuples_NOM" NOM ((("p" "oe")0) (("p" "l" ae) 0))))
-
-(set! text "l'enjeu, c'est leurs peuples.") ; neut_parl_s02_0404
-(dSayText text)

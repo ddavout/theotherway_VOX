@@ -1,7 +1,0 @@
-(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
-(lex.add.entry '("homme_NOM" "NOM" (((t "oh" "m") 0))))
-(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
-(lex.add.entry '("françois_NAM" "NAM" (((f rh ahn) 0) ((s w a) 0))))
-(lex.add.entry '("hollande_NAM" "NAM" (((oh) 0) ((l ahn d) 0))))
-
-(dSayText "Cet homme, c'est François Hollande.") ; neut_parl_s06_0152

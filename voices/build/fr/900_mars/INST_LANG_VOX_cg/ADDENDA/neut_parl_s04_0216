@@ -1,7 +1,0 @@
-(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
-(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
-(lex.add.entry '("joue_VER" "VER" ((("zh" "u") 0))))
-(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
-(lex.add.entry '("kobané_NAM" "NAM" (((k oh) 0) ((b a) 0) ((n e) 0))))
-
-(dSayText "Beaucoup se joue à Kobané.") ; neut_parl_s04_0216

@@ -1,8 +1,0 @@
-(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
-(lex.add.entry '("peines_NOM" NOM ((("p" "eh" "n") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("prison_NOM" "NOM" ((("p" "rh" "i") 0) (("z" "ohn") 0))))
-(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
-(lex.add.entry '("disparu_VER" VER ((("d" "i" "s") 0) (("p" "a") 0) (("rh" "y") 0))))
-
-(dSayText "Les peines de prison ont disparu.") ; neut_parl_s04_0182

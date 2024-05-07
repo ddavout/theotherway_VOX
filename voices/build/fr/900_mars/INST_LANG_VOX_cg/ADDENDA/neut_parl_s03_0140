@@ -1,8 +1,0 @@
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("n_ADV" "ADV" nil))
-(lex.add.entry '("n_ai_VER" "VER" (((n e) 0))))
-(lex.add.entry '("reçu_VER" "VER" ((("rh" "ae") 0) (("s" "y") 0))))
-(lex.add.entry '("aucune_ADJ:ind" "ADJ:ind" ((("o") 0) (("k" "y" "n") 0))))
-(lex.add.entry '("réponse_NOM" "NOM" ((("rh" "e") 0) (("p" "ohn")0) (("s" ae) 0))))
-
-(dSayText "Je n'ai reçu aucune réponse.") ; neut_parl_s03_0140

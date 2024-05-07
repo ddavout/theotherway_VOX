@@ -1,9 +1,0 @@
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("deuxième_NOM" NOM ((("d" "eu") 0) (("z" "j" "eh")0) (("m" ae) 0))))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("carte_NOM" "NOM" ((("k" "a" "rh" "t") 0))))
-(lex.add.entry '("elle-même_PRO:per" "PRO:per" ((("eh" "l") 0)(("m" "eh")0) (("m" ae) 0))))
-
-(set! text "La deuxième, c'est la carte, elle-même.") ; neut_parl_s02_0292
-(dSayText text)

@@ -1,9 +1,0 @@
-; zéro zozoté
-(lex.add.entry '("zéro_NOM" "NOM" ((("z" "e") 0) (("rh" "o") 0))))
-(lex.add.entry '("applaudissements_NOM" NOM ((("a") 0) (("p" "l" "o") 0) (("d" "i") 0) (("s" "ae") 0) (("m" "ahn") 0))))
-(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
-(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
-(lex.add.entry '("rebsamen_NAM" "NAM" ((("rh" "eh" "p") 0) (("s" "a") 0) (("m" "eh" "n") 0))))
-
-; POS zéro
-(dSayText "Zéro applaudissements, pour Monsieur Rebsamen !") ; neut_parl_s04_0251

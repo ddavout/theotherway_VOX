@@ -1,8 +1,0 @@
-(lex.add.entry '("kaboul_NAM" "NAM" (((k a) 0) ((b u l) 0))))
-(lex.add.entry '("était_VER" "VER" ((("e") 0) (("t" "eh") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
-(lex.add.entry '("zone_NOM" NOM (((z o n) 0))))
-(lex.add.entry '("sûre_ADJ" "ADJ" ((("s" "y" "rh") 0))))
-
-(set! text "Kaboul était une zone sûre.") ; neut_parl_s02_0384
-(dSayText text)

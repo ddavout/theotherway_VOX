@@ -1,8 +1,0 @@
-(lex.add.entry '("n_ADV" "ADV" nil))
-(lex.add.entry '("n_est_ce_VER" "VER" ((("n" "eh" "s") 0))))
-(lex.add.entry '("pas_ADV" ADV ((("s" p a) 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("urgence_NOM" "NOM" ((("y" "rh") 0) (("zh" "ahn") 0) (("s" ae) 0))))
-
-(set! never_exception_list (append (list "pas" "C_est" ) never_exception_list_default))
-(dSayText "N'est-ce pas une urgence ?") ; neut_parl_s02_0602

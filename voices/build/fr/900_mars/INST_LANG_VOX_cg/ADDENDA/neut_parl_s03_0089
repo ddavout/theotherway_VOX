@@ -1,7 +1,0 @@
-(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
-(lex.add.entry '("entre_PRE" PRE ((("ahn" )0)(("t" "rh" ae) 0))));
-(lex.add.entry '("couples_NOM" NOM ((("k" "u")0) (("p" "l" ae) 0))))
-
-;(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
-;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
-(dSayText "Il y a aussi une inégalité entre les couples, selon qu'ils travaillent ou pas.") ; neut_parl_s03_0089

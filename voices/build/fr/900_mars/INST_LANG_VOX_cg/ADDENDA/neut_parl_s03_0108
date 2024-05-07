@@ -1,8 +1,0 @@
-(lex.add.entry '("ni_CON" "CON" ((("n" "i") 0))))
-(lex.add.entry '("même_ADV" "ADV" ((("m" "eh") 0))))
-(lex.add.entry '("à_PRE" "PRE" (((m a) 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("fin_NOM" "NOM" ((("f" "ehn") 0))))
-(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
-(lex.add.entry '("monde_NOM" "NOM" ((("m" "ohn")0) (("d" "ae") 0))))
-(dSayText "Ni même à la fin du monde !") ; neut_parl_s03_0108

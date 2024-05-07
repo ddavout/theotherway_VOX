@@ -1,7 +1,0 @@
-(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
-(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
-(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
-(lex.add.entry '("luxe_NOM" "NOM" ((("l" "y") 0) ((k "s" ae) 0))))
-
-(set! text "Ce n'est pas du luxe !") ; 
-(dSayText text); neut_parl_s01_0549

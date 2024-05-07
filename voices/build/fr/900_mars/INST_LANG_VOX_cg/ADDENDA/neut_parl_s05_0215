@@ -1,9 +1,0 @@
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("menons_VER" VER ((("m" "ae") 0) (("n" "ohn") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("politique_NOM" "NOM" ((("p" "oh") 0) (("l" "i") 0) (("t" "i" "k") 0))))
-(lex.add.entry '("sérieuse_ADJ" ADJ ((("s" "e") 0) (("rh" "j" "eu" "z") 0))))
-(lex.add.entry '("et_CON" "CON" ((("e") 0))))
-(lex.add.entry '("crédible_ADJ" ADJ ((("k" "rh" "e") 0) (("d" "i") 0) (("b" "l" ae) 0))))
-
-(dSayText "Nous menons une politique sérieuse et crédible.") ; neut_parl_s05_0215

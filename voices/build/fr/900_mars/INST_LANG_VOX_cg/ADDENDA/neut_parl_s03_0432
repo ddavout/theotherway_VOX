@@ -1,9 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
-(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
-(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
-(lex.add.entry '("marche_VER" "VER" ((("m" "a" "rh")0) (("sh" ae) 0))))
-
-(dSayText "C'est donc un dispositif qui marche.") ; neut_parl_s03_0432

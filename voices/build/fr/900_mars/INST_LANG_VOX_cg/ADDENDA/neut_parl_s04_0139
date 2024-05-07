@@ -1,7 +1,0 @@
-(lex.add.entry '("abord_ADV" "ADV" ((("a") 0) (("b" "oh" "rh") 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("motif_NOM" "NOM" ((("m" "oh") 0) (("t" "i" "f") 0))))
-(lex.add.entry '("politique_ADJ" "ADJ" ((("p" "o") 0) (("l" "i") 0) (("t" "i") 0)))); Q
-
-
-(dSayText "d'abord, un motif politique.") ; neut_parl_s04_0139

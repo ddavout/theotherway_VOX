@@ -1,9 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("principe_NOM" "NOM" ((("p" "rh" "ehn") 0) (("s" "i" "p") 0))))
-(lex.add.entry '("même_ADJ" "ADJ" ((("m" "eh" "m") 0))))
-(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
-(lex.add.entry '("cycle_NOM" "NOM" ((("s" "i")0) (("k" "l" ae) 0))))
-
-(dSayText "C'est le principe, même du cycle.") ; neut_parl_s06_0713

@@ -1,8 +1,0 @@
-(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
-(lex.add.entry '("figurè_VER" VER ((("f" "i") 0) (("g" "y") 0) (("rh" "eh") 0))))
-(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("dépêche_NOM" NOM ((("d" "e") 0) (("p" "eh" "sh") 0))))
-
-
-(dSayText "Cela figurait dans une dépêche.") ; neut_parl_s03_0228

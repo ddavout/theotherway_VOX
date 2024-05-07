@@ -1,7 +1,0 @@
-(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
-(lex.add.entry '("budget_NOM" "NOM" ((("b" "y" d) 0) (("zh" "eh") 0))))
-(lex.add.entry '("sera-t-il_VER" "VER" ((("s" "ae") 0) (("rh" "a") 0)(("t" "i" l) 0))))
-(lex.add.entry '("pérennisé_VER" "VER" ((("p" "eh") 0) (("rh" "e") 0) ((n "i") 0) (("z" "e") 0))))
-
-(set! text "Son budget sera-t-il pérennisé ?") ; neut_parl_s03_0257
-(dSayText text)

@@ -1,8 +1,0 @@
-(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
-(lex.add.entry '("proposition_NOM" "NOM" ((("p" "rh" "oh") 0) (("p" "o") 0) (("z" "i") 0) (("s" "j" "ohn") 0))))
-(lex.add.entry '("concrétise_VER" "VER" ((("k" "ohn") 0) (("k" "rh" "e") 0) (("t" "i" "z") 0))))
-(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh) 0))))
-(lex.add.entry '("engagement_NOM" "NOM" (((t rh "ahn") 0) (("g" "a" "zh") 0) (("m" "ahn") 0))))
-
-(set! text "Cette proposition, concrétise votre engagement.") ; neut_parl_s02_0210
-(dSayText text)

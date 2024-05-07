@@ -1,7 +1,0 @@
-(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
-(lex.add.entry '("marche_VER" "VER" ((("m" "a" "rh")0) (("sh" "ae") 0))))
-(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("tête_NOM" "NOM" ((("t" "eh")0) (("t" "ae") 0))))
-
-(dSayText "On marche sur la tête !") ; neut_parl_s06_0149

@@ -1,7 +1,0 @@
-(lex.add.entry '("or_NOM" "NOM" ((("oh" "rh") 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("réponse_NOM" "NOM" ((("rh" "e") 0) (("p" "ohn") 0))))
-(lex.add.entry '("est_VER" "VER" (((s "e") 0))))
-(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
-
-(dSayText "Or la réponse est oui.") ; neut_parl_s04_0186

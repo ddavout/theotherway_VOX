@@ -1,7 +1,0 @@
-(lex.add.entry '("j_en_PRO:per" "PRO:per" (((zh ahn) 0))))
-(lex.add.entry '("viens_VER" VER ((("v" "j" "ehn") 0))))
-(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
-(lex.add.entry '("solde_NOM" NOM ((("s" "oh" "l") 0) (("d" ae) 0))))
-
-(set! text "J'en viens au solde.") ; neut_parl_s05_0088
-(dSayText text)

@@ -1,9 +1,0 @@
-(lex.add.entry '("l_ART:def" "ART:def" nil))
-(lex.add.entry '("un_PRO:ind" "PRO:ind" ((("oen") 0))))
-(lex.add.entry '("n_ADV" "ADV" nil))
-(lex.add.entry '("n_empêche_VER" "VER" (((n "ahn") 0) (("p" "eh" "sh") 0))))
-(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
-(lex.add.entry '("l_ART:def" "ART:def" nil))
-(lex.add.entry '("autre_PRO:ind" PRO:ind ((("o")0) (("t" "rh" ae) 0))))
-
-(dSayText "l'un n'empêche pas l'autre !") ; neut_parl_s03_0447

@@ -1,9 +1,0 @@
-(lex.add.entry '("Jean_Yve" "NAM" ((("zh" "ahn") 0) (("i" "v") 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("bouillonnec_NAM" "NAM" ((("b" "u") 0) (("j" "oh") 0) (("n" "eh" "k") 0))))
-(lex.add.entry '("s_en_PRO:per" "PRO:per" (((s ahn) 0)))); confusion 
-(lex.add.entry '("s_en_AUX" "AUX" (((s ahn) 0)))); confusion 
-(lex.add.entry '("souvient_VER" VER ((("s" "u") 0) (("v" "j" ehn) 0))))
-
-(set! text "Jean-Yves Le Bouillonnec s'en souvient.") ; neut_parl_s02_0035
-(dSayText text)

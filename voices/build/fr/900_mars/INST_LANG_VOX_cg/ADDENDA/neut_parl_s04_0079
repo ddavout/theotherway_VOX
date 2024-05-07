@@ -1,9 +1,0 @@
-(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
-(lex.add.entry '("erreur_NOM" "NOM" (((t "eh") 0) (("rh" "oe" "rh") 0)))); Q
-(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
-(lex.add.entry '("d_PRE" "PRE" nil))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("extrême_ADJ" "ADJ" ((("eh" "k" s) 0) (("t" "rh" "eh")0) (("m" ae) 0)))); Q
-(lex.add.entry '("gravité_NOM" NOM ((("g" "rh" "a") 0) (("v" "i") 0) (("t" "e") 0))))
-
-(dSayText "Cette erreur, est d'une extrême gravité.") ; neut_parl_s04_0079

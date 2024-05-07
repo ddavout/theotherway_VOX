@@ -1,7 +1,0 @@
-(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
-(lex.add.entry '("inquiétudes_NOM" NOM (((z "ehn") 0) (("k" "j" "e") 0) (("t" "y" "d") 0))))
-(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
-(lex.add.entry '("donc_CON" "CON" ((("d" "ohn") 0))))
-(lex.add.entry '("réelles_ADJ" ADJ (((k "rh" "e") 0) (("eh" "l") 0))))
-
-(dSayText "Les inquiétudes sont donc réelles.") ; neut_parl_s06_0283

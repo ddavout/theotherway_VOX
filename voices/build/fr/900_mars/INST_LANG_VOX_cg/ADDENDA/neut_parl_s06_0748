@@ -1,8 +1,0 @@
-(lex.add.entry '("cour_NOM" "NOM" ((("k" "u" "rh") 0))))
-(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
-(lex.add.entry '("comptes_NOM" NOM ((("k" "ohn" "t") 0))))
-(lex.add.entry '("jusqu_PRE" "PRE" nil))
-(lex.add.entry '("jusqu_au_ART:def" "ART:def" (((zh y s) 0) ((k o) 0))))
-(lex.add.entry '("bout_NOM" "NOM" ((("b" "u") 0))))
-
-(dSayText "Cour des comptes jusqu'au bout.") ; neut_parl_s06_0748

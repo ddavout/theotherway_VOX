@@ -1,9 +1,0 @@
-(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("regardant_VER" "VER" ((("rh" "ae") 0) (("g" "a" "rh") 0) (("d" "ahn") 0))))
-(lex.add.entry '("j_observe_VER" "VER" (((zh "oh" "p") 0) (("s" "eh" "rh") 0))))
-(lex.add.entry '("aussi_ADV" "ADV" (((v "o") 0) (("s" "i") 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("changement_NOM" "NOM" ((("sh" "ahn" "zh") 0) (("m" "ahn") 0))))
-
-(dSayText "En vous regardant, j'observe aussi le changement.") ; neut_parl_s06_0776

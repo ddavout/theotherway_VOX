@@ -1,9 +1,0 @@
-(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
-(lex.add.entry '("vise_VER" "VER" ((("v" "i") 0))))
-(lex.add.entry '("à_PRE" "PRE" (((z a) 0))))
-(lex.add.entry '("réunir_VER" "VER" ((("rh" "e") 0) (("y") 0) (("n" "i" "rh") 0))))
-(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
-(lex.add.entry '("àhhs_PRE" "PRE" (((a) 0))))
-(lex.add.entry '("divisé_VER" VER ((("d" "i") 0) (("v" "i") 0) (("z" "e") 0))))
-
-(dSayText "Elle vise à réunir, non àhh diviser.") ; neut_parl_s04_0041

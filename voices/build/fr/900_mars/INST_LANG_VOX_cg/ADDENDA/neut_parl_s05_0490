@@ -1,7 +1,0 @@
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("responsabilité_NOM" "NOM" ((("rh" "eh" "s") 0) (("p" "ohn") 0) (("s" "a") 0) (("b" "i") 0) (("l" "i") 0) (("t" "e") 0))))
-(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
-(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
-(lex.add.entry '("humaine_ADJ" "ADJ" ((("y") 0) (("m" "eh" "n") 0))))
-
-(dSayText "La responsabilité est bien humaine.") ; neut_parl_s05_0490

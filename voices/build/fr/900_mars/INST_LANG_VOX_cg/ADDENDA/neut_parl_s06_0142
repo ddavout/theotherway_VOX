@@ -1,9 +1,0 @@
-(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
-(lex.add.entry '("peuples_NOM" NOM ((("p" "oe") 0) (("p" "l" ae) 0))))
-(lex.add.entry '("crient_VER" VER ((("k" "rh" "i") 0))))
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
-(lex.add.entry '("les_PRO:per" "PRO:per" ((("l" "e") 0))))
-(lex.add.entry '("entendre_VER" "VER" ((("ahn") 0) (("t" "ahn")0) (("d" "rh" "ae") 0))))
-
-(dSayText "Les peuples crient, il faut les entendre.") ; neut_parl_s06_0142

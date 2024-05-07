@@ -1,8 +1,0 @@
-(lex.add.entry '("Soyons_VER" VER ((("s" "w" "a") 0) (("j" "ohn") 0))))
-(lex.add.entry '("fiers_ADJ" ADJ (((f j eh rh) 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("siégé_VER" VER ((("s" "i") 0) (("e") 0) (("zh" "e") 0))))
-(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0))))
-(lex.add.entry '("aujourd_hui_ADV" "ADV" (((o) 0) ((zh u rh) 0) ((d hw i) 0))))
-
-(dSayText "Soyons fiers de siéger ici aujourd'hui !") ; neut_parl_s06_0203

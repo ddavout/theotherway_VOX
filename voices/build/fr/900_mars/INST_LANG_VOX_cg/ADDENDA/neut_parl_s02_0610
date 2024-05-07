@@ -1,9 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_était_VER" "VER" (((s e) 0) ((t eh) 0))))
-(lex.add.entry '("vraiment_ADV" "ADV" ((("v" "rh" "eh") 0) (("m" "ahn") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y") 0))))
-(lex.add.entry '("information_NOM" NOM (((n "ehn") 0) (("f" "oh" "rh") 0) (("m" "a") 0) (("s" "j" "ohn") 0))))
-(lex.add.entry '("minimale_ADJ" "ADJ" ((("m" "i") 0) (("n" "i") 0) (("m" "a")0) (("l" ae) 0))))
-
-(set! list_exclus*-> (append (list "vraiment") list_exclus*->_default));
-(dSayText "C'était vraiment une information minimale.") ; neut_parl_s02_0610

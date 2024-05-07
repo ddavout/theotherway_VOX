@@ -1,7 +1,0 @@
-(lex.add.entry '("j_ai_AUX" "AUX" (((zh e) 0))))
-(lex.add.entry '("cherché_VER" "VER" ((("sh" "eh" "rh") 0) (("sh" "e") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y") 0))))
-(lex.add.entry '("image_NOM" "NOM" (((n "i") 0) (("m" "a")0)(("zh" ae) 0))))
-
-
-(dSayText "J'ai cherché une image.") ; neut_parl_s06_0738

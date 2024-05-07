@@ -1,9 +1,0 @@
-(lex.add.entry '("alors_ADV" "ADV" (((a) 0) ((l oh rh) 0))))
-(lex.add.entry '("faisons_VER" VER ((("f" "ae") 0) (("z" "ohn") 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("ensemble_NOM" "NOM" ((("ahn") 0) (("s" "ahn")0) (("b" "l" "ae") 0))))
-(lex.add.entry '("mes_ADJ:pos" "ADJ:pos" ((("m" "e") 0))))
-(lex.add.entry '("chers_ADJ" ADJ ((("sh" "eh" "rh") 0))))
-(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh")0) (("g" "ae") 0))))
-
-(dSayText "Alors, faisons-le ensemble mes chers collègues !") ; neut_parl_s06_0679

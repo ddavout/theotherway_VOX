@@ -1,8 +1,0 @@
-(lex.add.entry '("d_ores_et_deja_ADV" "ADV" (((d "oh" "rh") 0)(z "e") 0)(("d" "e") 0) (("zh" "a") 0)))
-(lex.add.entry '("deux_NOM" NOM ((("d" "eu") 0))))
-(lex.add.entry '("fondamentaux_ADJ" "ADJ" ((("f" "ohn") 0) (("d" "a") 0) (("m" "ahn") 0) (("t" "o") 0))))
-(lex.add.entry '("sont_AUX" AUX ((("s" "ohn") 0))))
-(lex.add.entry '("acquis_VER" VER (((t "a") 0) (("k" "i") 0)))); LIA
-
-(set! text "d'ores et déjà, deux fondamentaux sont acquis.") ; neut_parl_s02_0101
-(dSayText text)

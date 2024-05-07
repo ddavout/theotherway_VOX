@@ -1,9 +1,0 @@
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("s_agirait_VER" VER (((s "a") 0) (("zh" "i") 0) (("rh" "eh") 0))))
-(lex.add.entry '("d_une_ART:ind" "ART:ind" (((d "y") 0))))
-(lex.add.entry '("autre_ADJ" "ADJ" (((n "o")0) (("t" "rh" ae) 0))))
-(lex.add.entry '("niche_NOM" "NOM" ((("n" "i" "sh") 0))))
-(lex.add.entry '("fiscale_ADJ" "ADJ" ((("f" "i" "s") 0) (("k" "a")0) (("l" ae) 0))))
-
-(set! text "Il s'agirait d'une autre niche fiscale.") ; neut_parl_s03_0730
-(dSayText text)

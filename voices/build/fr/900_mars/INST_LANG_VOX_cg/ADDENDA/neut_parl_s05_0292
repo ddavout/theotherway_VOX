@@ -1,8 +1,0 @@
-(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
-(lex.add.entry '("appelle_VER" "VER" ((("a") 0) (("p" "eh" "l") 0))))
-(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("besoin_NOM" "NOM" ((("b" "ae") 0) (("z" "w" "ehn") 0))))
-(lex.add.entry '("impérieux_ADJ" "ADJ" ((("ehn") 0) (("p" "e") 0) (("rh" "j" "eu") 0))))
-
-(dSayText "On appelle cela un besoin impérieux !") ; neut_parl_s05_0292

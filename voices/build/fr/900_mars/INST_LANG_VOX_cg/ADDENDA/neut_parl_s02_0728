@@ -1,9 +1,0 @@
-(lex.add.entry '("Certains_ADJ:ind" ADJ:ind ((("s" "eh" "rh") 0) (("t" "ehn") 0))))
-(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0)))); no LIA
-(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
-(lex.add.entry '("engagé_VER" "VER" ((("ahn") 0) (("g" "a") 0) (("zh" "e") 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
-
-(set! text "Certains ont déjà, engagé le débat.") ; neut_parl_s02_0728
-(dSayText text)

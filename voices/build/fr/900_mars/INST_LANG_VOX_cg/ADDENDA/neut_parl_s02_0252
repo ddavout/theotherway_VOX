@@ -1,9 +1,0 @@
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
-(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
-(lex.add.entry '("eu_VER" "VER" (((y) 0))))
-(lex.add.entry '("lieu_NOM" "NOM" ((("l" "j" "eu") 0))))
-
-
-(set! text "Le débat a eu lieu.") ; neut_parl_s02_0252
-(dSayText text)

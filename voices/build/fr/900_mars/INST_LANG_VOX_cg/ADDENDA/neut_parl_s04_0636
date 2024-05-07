@@ -1,7 +1,0 @@
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("voudrions_VER" VER ((("v" "u") 0) (("d" "rh" "i") 0) (("j" "ohn") 0))))
-(lex.add.entry '("levé_VER" VER ((("l" "ae") 0) (("v" "e") 0))))
-(lex.add.entry '("toute_ADJ:ind" "ADJ:ind" ((("t" "u" ) 0))))
-(lex.add.entry '("ambiguïté_NOM" "NOM" (((t "ahn") 0) (("b" "i") 0) (("g" "hw" i) 0) (("t" "e") 0))))
-
-(dSayText "Nous voudrions lever, toute ambiguïté.") ; neut_parl_s04_0636

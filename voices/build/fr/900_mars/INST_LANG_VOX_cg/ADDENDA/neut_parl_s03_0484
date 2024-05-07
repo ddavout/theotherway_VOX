@@ -1,8 +1,0 @@
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("nature_NOM" "NOM" ((("n" "a") 0) (("t" "y" "rh") 0))))
-(lex.add.entry '("a_VER" "VER" (((a) 0))))
-(lex.add.entry '("horreur_NOM" "NOM" (((o) 0) ((rh eu rh) 0))))
-(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
-(lex.add.entry '("vide_NOM" "NOM" ((("v" "i")0) (("d" ae) 0))))
-
-(dSayText "La nature, a horreur du vide.") ; neut_parl_s03_0484

@@ -1,7 +1,0 @@
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("rappellerai_VER" VER ((("rh" "a") 0) (("p" "eh") 0) (("l" "ae") 0) (("rh" "e") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("chose_NOM" "NOM" (((sh o) 0) ((z ae) 0))))
-
-
-(dSayText "Je rappellerai, une chose.") ; neut_parl_s06_0451

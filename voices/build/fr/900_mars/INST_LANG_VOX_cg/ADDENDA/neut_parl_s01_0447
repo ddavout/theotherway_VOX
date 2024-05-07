@@ -1,9 +1,0 @@
-(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
-(lex.add.entry '("inconnus_ADJ" ADJ (((t "ehn") 0) (("k" "oh") 0) (("n" "y") 0)))); LIA
-(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0)))); no LIA
-(lex.add.entry '("bataillon_NOM" "NOM" ((("b" "a" t) 0) (("t" "a") 0) (("j" "ohn") 0)))); Q
-
-(set! text "Ils sont inconnus au bataillon !") ; 
-(dSayText text); neut_parl_s01_0447
-

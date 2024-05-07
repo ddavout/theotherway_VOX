@@ -1,9 +1,0 @@
-(lex.add.entry '("qu_est-il_VER" VER ((("k" "eh") 0)(("t" "i" l) 0))))
-(lex.add.entry '("posé_VER" "VER" ((("p" "o") 0) (("z" "e") 0))))
-(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("cadre_NOM" "NOM" ((("k" "a" "d" "rh") 0))))
-(lex.add.entry '("républicain_ADJ" "ADJ" ((("rh" "e") 0) (("p" "y") 0) (("b" "l" "i") 0) (("k" "ehn") 0))))
-
-(set! text "Qu'est-il posé dans le cadre républicain ?") ; neut_parl_s04_0372
-(dSayText text)

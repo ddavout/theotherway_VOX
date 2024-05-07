@@ -1,8 +1,0 @@
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("jeunesse_NOM" "NOM" ((("zh" "oe") 0) (("n" "eh")0) (("s" ae) 0))))
-(lex.add.entry '("française_ADJ" "ADJ" ((("f" "rh" "ahn") 0) (("s" "eh" "z") 0))))
-(lex.add.entry '("s_PRO:per" "PRO:per" nil))
-(lex.add.entry '("est_VER" "VER" (((eh) 0))))
-(lex.add.entry '("levée_VER" "VER" ((("l" "ae") 0) (("v" "e") 0))))
-
-(dSayText "Une jeunesse française s'est levée.") ; neut_parl_s02_0454

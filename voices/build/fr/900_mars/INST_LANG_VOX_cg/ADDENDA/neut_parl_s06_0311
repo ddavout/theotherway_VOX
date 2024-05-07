@@ -1,7 +1,0 @@
-(lex.add.entry '("l_ART:def" "ART:def" nil))
-(lex.add.entry '("objectif_NOM" "NOM" (((oh b) 0) ((zh eh k) 0) ((t i f) 0))))
-(lex.add.entry '("poursuivi_VER" "VER" ((("p" "u" "rh") 0) (("s" "hw" i) 0) (("v" "i") 0))))
-(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
-(lex.add.entry '("triple_ADJ" "ADJ" ((("t" "rh" "i")0) (("p" "l" ae) 0))))
-
-(dSayText "l'objectif poursuivi, est triple.") ; neut_parl_s06_0311

@@ -1,7 +1,0 @@
-(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
-(lex.add.entry '("fait_VER" "VER" ((("f" "eh") 0))))
-(lex.add.entry '("tout_de_même_ADV" "ADV" ((("t" "u") 0)((d ae) 0)(("m" "eh" "m") 0))))
-(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
-
-(set! text "Cela fait tout de même beaucoup !") ; neut_parl_s02_0508
-(dSayText text)

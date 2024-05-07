@@ -1,9 +1,0 @@
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("vais_VER" "VER" ((("v" "e") 0))))
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
-(lex.add.entry '("dire_VER" "VER" ((("d" "i" "rh") 0))))
-(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
-(lex.add.entry '("boyer_NAM" "NAM" ((("b" "w" "a") 0) (("j" "e") 0))))
-
-(dSayText "Je vais vous le dire, madame Boyer.") ; neut_parl_s02_0509

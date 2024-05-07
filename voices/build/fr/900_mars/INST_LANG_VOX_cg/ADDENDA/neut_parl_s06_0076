@@ -1,9 +1,0 @@
-(lex.add.entry '("aucun_ADJ:ind" "ADJ:ind" ((("o") 0) (("k" "oen") 0))))
-(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
-(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
-(lex.add.entry '("n_ADV" "ADV" nil))
-(lex.add.entry '("n_y_PRO:per" PRO:per ((("n" i) 0))))
-(lex.add.entry '("figure_VER" "VER" ((("f" "i") 0) (("g" "y" "rh") 0))))
-
-(set! list_exclus*-> (append (list "pays") list_exclus*->_default)); todo
-(dSayText "Aucun pays européen n'y figure.") ; neut_parl_s06_0076

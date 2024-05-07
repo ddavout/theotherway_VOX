@@ -1,9 +1,0 @@
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("douze_ADJ:num" "ADJ:num" (((d u z) 0))))
-(lex.add.entry '("juin_NOM" "NOM" ((("zh" "hw" "ehn") 0))))
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_était_VER" "VER" (((s e) 0) ((t eh) 0))))
-(lex.add.entry '("hier_ADV" ADV (((t i)0) ((j "eh" rh) 0))))
-
-(set! never_exception_list (append (list "c_était") never_exception_list_default))
-(dSayText "Le douze juin, c'était hier.") ; neut_parl_s06_0104

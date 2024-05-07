@@ -1,9 +1,0 @@
-(lex.add.entry '("voilà_VER" "VER" ((("v" "w" "a") 0) (("l" "a") 0))))
-(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
-(lex.add.entry '("aider_VER" VER (((t "e") 0) (("d" "e") 0)))); LIA
-(lex.add.entry '("l_agriculture_NOM" "NOM" (((l "a") 0) (("g" "rh" "i") 0) (("k" "y" "l") 0) (("t" "y" "rh") 0))))
-
-(set! text "Voilà pourquoi il faut aider l'agriculture.") ; neut_parl_s02_0056
-(dSayText text)

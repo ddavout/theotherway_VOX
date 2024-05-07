@@ -1,8 +1,0 @@
-(set! list_exclus*-> (append (list "pillages") list_exclus*->_default))
-(lex.add.entry '("exponentiel_ADJ" ADJ (((t "eh" "k" "s") 0) (("p" "o") 0) (("n" "ahn") 0) (("s" "j" "eh" "l") 0))))
-(lex.add.entry '("nombre_NOM" NOM ((("n" "ohn")0) (("b" "rh" ae) 0))))
-
-
-(set! never_exception_list (append (list "est" "C_est" ) never_exception_list_default))
-;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
-(dSayText "Le nombre de ces pillages est exponentiel.") ; neut_parl_s01_0710

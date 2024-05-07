@@ -1,8 +1,0 @@
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("arrangerez_VER" VER (((z "a") 0) (("rh" "ahn") 0) (("zh" "rh" "e") 0))))
-(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh") 0))))
-(lex.add.entry '("eux_PRO:per" "PRO:per" (((k "eu") 0))))
-
-(set! text "Vous vous arrangerez avec eux.") ; neut_parl_s02_0559
-(dSayText text)

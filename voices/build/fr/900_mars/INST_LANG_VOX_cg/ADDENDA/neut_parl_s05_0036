@@ -1,9 +1,0 @@
-(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
-(lex.add.entry '("matériels_NOM" NOM ((("m" "a") 0) (("t" "e") 0) (("rh" "j" "eh" "l") 0))))
-(lex.add.entry '("nouveaux_ADJ" "ADJ" ((("n" "u") 0) (("v" "o") 0))))
-(lex.add.entry '("arrivent_VER" VER ((("a") 0) (("rh" "i" "v") 0))))
-(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
-(lex.add.entry '("compte-gouttes_NOM" NOM ((("k" "ohn" "t") 0) (("g" "u")0) (("t" ae) 0))))
-
-(set! never_exception_list (append (list "arrivent" ) never_exception_list_default))
-(dSayText "Les matériels nouveaux arrivent au compte-gouttes.") ; neut_parl_s05_0036

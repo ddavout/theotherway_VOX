@@ -1,9 +1,0 @@
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("tel_ADJ:ind" ADJ:ind ((("t" "eh" "l") 0))))
-(lex.add.entry '("choix_NOM" "NOM" ((("sh" "w" "a") 0))))
-(lex.add.entry '("n_ADV" "ADV" nil))
-(lex.add.entry '("n_est_VER" "VER" (((n e) 0))))
-(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
-(lex.add.entry '("compréhensible_ADJ" "ADJ" ((("k" "ohn") 0) (("p" "rh" "e") 0) (("ahn") 0) (("s" "i")0) (("b" "l" ae) 0))))
-
-(dSayText "Un tel choix, n'est pas compréhensible.") ; neut_parl_s06_0536

@@ -1,9 +1,0 @@
-(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
-(lex.add.entry '("principe_NOM" "NOM" ((("p" "rh" "ehn") 0) (("s" "i" "p") 0))))
-(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
-(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
-(lex.add.entry '("connaitre_VER" "VER" ((("k" "oh") 0) (("n" "eh" "t" "rh") 0))))
-(lex.add.entry '("aucune_ADJ:ind" "ADJ:ind" ((("o") 0) (("k" "y") 0))))
-(lex.add.entry '("entorse_NOM" "NOM" (((n "ahn") 0) (("t" "oh" "rh")0) (("s" "ae") 0))))
-
-(dSayText "Ce principe ne peut connaître aucune entorse.") ; neut_parl_s05_0384

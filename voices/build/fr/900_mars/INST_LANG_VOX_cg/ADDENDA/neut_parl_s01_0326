@@ -1,9 +1,0 @@
-(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
-(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("leçons_NOM" NOM ((("l" "ae") 0) (("s" "ohn") 0))))
-(lex.add.entry '("à_PRE" "PRE" (((a) 0)))); LIA
-(lex.add.entry '("recevoir_VER" "VER" ((("rh" "ae") 0) (("s" "ae") 0) (("v" "w" "a" "rh") 0))))
-
-(set! text "Non, pas de leçons à recevoir !") ; 
-(dSayText text); neut_parl_s01_0326

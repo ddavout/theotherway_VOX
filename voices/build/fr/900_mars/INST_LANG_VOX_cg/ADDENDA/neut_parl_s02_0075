@@ -1,8 +1,0 @@
-(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("ont_AUX" "AUX" (((z "ohn") 0))))
-(lex.add.entry '("malheureusement_ADV" "ADV" ((("m" "a") 0) (("l" "eu") 0) (("rh" "eu" "z") 0) (("m" "ahn") 0))))
-(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0)))); no LIA
-(lex.add.entry '("rejetés_VER" VER ((("rh" "ae" zh) 0) (("t" "e") 0))))
-
-(set! text "Ils ont malheureusement été rejetés.") ; neut_parl_s02_0075
-(dSayText text)

@@ -1,8 +1,0 @@
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("chômage_NOM" "NOM" ((("sh" "o") 0) (("m" "a") 0))))
-(lex.add.entry '("atteint_VER" "VER" (((zh "a") 0) (("t" "ehn") 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("niveau_NOM" "NOM" ((("n" "i") 0) (("v" "o") 0))))
-(lex.add.entry '("insupportable_ADJ" "ADJ" ((("ehn") 0) (("s" "y") 0) (("p" "oh" "rh") 0) (("t" "a")0) (("b" "l" ae) 0))))
-
-(dSayText "Le chômage atteint un niveau, insupportable.") ; neut_parl_s06_0173

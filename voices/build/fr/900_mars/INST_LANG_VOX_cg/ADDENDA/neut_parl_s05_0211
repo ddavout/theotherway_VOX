@@ -1,6 +1,0 @@
-(lex.add.entry '("j_interroge_VER" VER ((("zh" "ehn") 0) (("t" "eh") 0) (("rh" "oh" "zh") 0))))
-(lex.add.entry '("tout_ADV" "ADV" (((t u l) 0))))
-(lex.add.entry '("le_ART:def" "ART:def" nil))
-(lex.add.entry '("monde_NOM" "NOM" ((("m" "ohn")0) (("d" "ae") 0))))
-
-(dSayText "J'interroge tout le monde !") ; neut_parl_s05_0211

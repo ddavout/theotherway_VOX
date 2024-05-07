@@ -1,8 +1,0 @@
-(lex.add.entry '("et_CON" "CON" ((("e") 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("gauche_NOM" "NOM" ((("g" "o" "sh") 0))))
-(lex.add.entry '("les_PRO:per" "PRO:per" ((("l" "e") 0))))
-(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
-(lex.add.entry '("votés_VER" VER ((("v" "oh") 0) (("t" "e") 0))))
-
-(dSayText "Et la gauche les a votés.") ; neut_parl_s05_0050

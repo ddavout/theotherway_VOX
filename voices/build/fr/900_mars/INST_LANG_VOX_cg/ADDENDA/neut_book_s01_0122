@@ -1,9 +1,0 @@
-(set! fileid "neut_s01_book_0122")
-
-(lex.add.entry '("qu_ai-je_VER" VER ((("k" "eh" zh) 0))))
-(lex.add.entry '("découvert_VER" "VER" ((("d" "e") 0) (("k" "u") 0) (("v" "eh" "rh") 0))))
-(lex.add.entry '("jusqu_ici_ADV" "ADV" ((("zh" "y" "s") 0) (("k" "i") 0) (("s" "i") 0))))
-
-
-(set! text "qu'ai-je découvert jusqu'ici ?") ; neut_book_s01_0122
-(dSayText text)

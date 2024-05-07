@@ -1,9 +1,0 @@
-(lex.add.entry '("depuis_PRE" "PRE" (((d ae) 0) ((p hw i) 0))))
-(lex.add.entry '("lors_ADV" ADV ((("l" "oh" "rh") 0))))
-(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
-(lex.add.entry '("phénomènes_NOM" NOM ((("f" "e") 0) (("n" "o") 0) (("m" "eh" "n") 0))))
-(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
-(lex.add.entry '("sont_AUX" AUX ((("s" "ohn") 0))))
-(lex.add.entry '("produits_VER" VER ((("p" "rh" "oh") 0) (("d" "hw" "i") 0))))
-
-(dSayText "Depuis lors, deux phénomènes se sont produits.") ; neut_parl_s04_0284

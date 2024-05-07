@@ -1,7 +1,0 @@
-(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
-(lex.add.entry '("texte_NOM" NOM ((("t" "eh" "k" s) 0) (("t" ae) 0))))
-(lex.add.entry '("constitue_VER" "VER" ((("k" "ohn" "s") 0) (("t" "i") 0) (("t" "y") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y") 0))))
-(lex.add.entry '("innovation_NOM" NOM (((n "i") 0) (("n" "oh") 0) (("v" "a") 0) (("s" "j" "ohn") 0))))
-
-(dSayText "Ce texte constitue une innovation.") ; neut_parl_s05_0112

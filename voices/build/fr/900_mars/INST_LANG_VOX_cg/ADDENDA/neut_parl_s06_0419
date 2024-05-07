@@ -1,8 +1,0 @@
-(lex.add.entry '("mieux_ADV" "ADV" ((("m" "j" "eu") 0))))
-(lex.add.entry '("vaut_VER" "VER" (((v o) 0))))
-(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
-(lex.add.entry '("resté_VER" VER ((("rh" "eh" "s") 0) (("t" "e") 0))))
-(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
-(lex.add.entry '("texte_NOM" "NOM" ((("t" "eh" "k" "s")0) (("t" ae) 0))))
-
-(dSayText "Mieux vaut en rester au texte.") ; neut_parl_s06_0419

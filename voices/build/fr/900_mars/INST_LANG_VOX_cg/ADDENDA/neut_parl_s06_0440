@@ -1,6 +1,0 @@
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("pose_VER" "VER" ((("p" "o" "z") 0))))
-(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
-(lex.add.entry '("garde-fous_NOM" NOM ((("g" "a" "rh") 0) (("d" "ae")0) (("f" "u") 0))))
-
-(dSayText "Il pose des garde-fous.") ; neut_parl_s06_0440

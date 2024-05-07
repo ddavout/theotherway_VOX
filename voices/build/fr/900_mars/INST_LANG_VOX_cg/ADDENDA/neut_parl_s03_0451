@@ -1,6 +1,0 @@
-(lex.add.entry '("j_aimerais_VER" VER ((("zh" "eh") 0) (("m" "ae") 0) (("rh" "eh") 0))))
-(lex.add.entry '("posé_VER" VER ((("p" "o") 0) (("z" "e") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("question_NOM" "NOM" ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
-
-(dSayText "J'aimerais poser une question.") ; neut_parl_s03_0451

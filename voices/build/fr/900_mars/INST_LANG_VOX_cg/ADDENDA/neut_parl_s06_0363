@@ -1,9 +1,0 @@
-(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
-(lex.add.entry '("final_NOM" NOM ((("f" "i") 0) (("n" "a")0) (("l" ae) 0))))
-(lex.add.entry '("quel_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0))))
-(lex.add.entry '("beau_ADJ" "ADJ" ((("b" "o") 0))))
-(lex.add.entry '("gâchis_NOM" NOM ((("g" "a") 0) (("sh" "i") 0))))
-
-
-
-(dSayText "Au final, quel beau gâchis !") ; neut_parl_s06_0363

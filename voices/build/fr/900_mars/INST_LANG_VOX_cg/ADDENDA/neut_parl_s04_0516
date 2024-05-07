@@ -1,8 +1,0 @@
-(lex.add.entry '("Quelle_ADJ:int" ADJ:int ((("k" "eh" "l") 0))))
-(lex.add.entry '("belle_NOM" NOM ((("b" "eh") 0))))
-(lex.add.entry '("envolée_VER" "VER" (((l "ahn") 0) (("v" "oh") 0) (("l" "e") 0))))
-(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
-(lex.add.entry '("hetzel_NAM" "NAM" (((eh t) 0) ((z eh l) 0))))
-
-(set! text "Quelle belle envolée, monsieur Hetzel !") ; neut_parl_s04_0516
-(dSayText text)

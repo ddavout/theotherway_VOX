@@ -1,7 +1,0 @@
-(lex.add.entry '("kobané_NAM" "NAM" (((k oh) 0) ((b a) 0) ((n e) 0))))
-(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
-(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
-(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
-(lex.add.entry '("tombé_VER" VER ((("t" "ohn") 0) (("b" "e") 0))))
-
-(dSayText "Kobané, ne doit pas tomber.") ; neut_parl_s03_0593

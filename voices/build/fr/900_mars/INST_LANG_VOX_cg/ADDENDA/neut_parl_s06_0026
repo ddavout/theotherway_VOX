@@ -1,9 +1,0 @@
-(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
-(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("vraie_ADJ" "ADJ" ((("v" "rh" "eh") 0))))
-(lex.add.entry '("question_NOM" "NOM" ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
-
-;(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
-    ;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
-(dSayText "Là est la vraie question.") ; neut_parl_s06_0026

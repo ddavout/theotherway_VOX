@@ -1,7 +1,0 @@
-(lex.add.entry '("Allons_VER" VER ((("a") 0) (("l" "ohn") 0))))
-(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
-(lex.add.entry '("jusqu_PRE" "PRE" nil))
-(lex.add.entry '("jusqu_au_ART:def" "ART:def" (((zh y s) 0) ((k o) 0))))
-(lex.add.entry '("bout_NOM" "NOM" ((("b" "u") 0))))
-
-(dSayText "Allons donc jusqu'au bout.") ; neut_parl_s05_0483

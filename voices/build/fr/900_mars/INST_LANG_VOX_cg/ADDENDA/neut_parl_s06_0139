@@ -1,7 +1,0 @@
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("jeunesse_NOM" "NOM" ((("zh" "oe") 0) (("n" "eh" "s") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn")0) (("s" "ae") 0))))
-(lex.add.entry '("doute_NOM" "NOM" ((("d" "u")0) (("t" "ae") 0))))
-
-(dSayText "La jeunesse de France doute.") ; neut_parl_s06_0139

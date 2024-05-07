@@ -1,9 +1,0 @@
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("partage_VER" "VER" ((("p" "a" "rh") 0) (("t" "a" "zh") 0))))
-(lex.add.entry '("l_ART:def" "ART:def" nil))
-(lex.add.entry '("avis_NOM" "NOM" ((("a") 0) (("v" "i") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s)0) ((t rh ae) 0))))
-
-(dSayText "Je partage l'avis de la ministre.") ; neut_parl_s03_0649

@@ -1,7 +1,0 @@
-(lex.add.entry '("n_ADV" "ADV" nil))
-(lex.add.entry '("n_attendons_VER" "VER" (((n "a") 0) (("t" "ahn") 0) (("d" "ohn") 0))))
-(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
-(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
-(lex.add.entry '("longtemps_ADV" "ADV" (((l ohn) 0) ((t ahn) 0))))
-
-(dSayText "N'attendons pas plus longtemps !") ; neut_parl_s03_0123

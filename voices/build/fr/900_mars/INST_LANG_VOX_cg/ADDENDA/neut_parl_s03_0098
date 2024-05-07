@@ -1,9 +1,0 @@
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("raisonnement_NOM" "NOM" ((("rh" "eh") 0) (("z" "oh" "n") 0) (("m" "ahn") 0))))
-(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
-(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
-(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
-(lex.add.entry '("double_ADJ" "ADJ" ((("d" "u")0) (("b" "l" ae) 0))))
-
-
-(dSayText "Le raisonnement du Gouvernement, est double.") ; neut_parl_s03_0098

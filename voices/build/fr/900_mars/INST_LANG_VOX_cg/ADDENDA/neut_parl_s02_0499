@@ -1,9 +1,0 @@
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("ouvre_VER" VER ((("u") 0) (("v" "rh" ae) 0))))
-(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
-(lex.add.entry '("d_PRE" "PRE" nil))
-(lex.add.entry '("espoirs_NOM" "NOM" ((("eh" "s") 0) (("p" "w" "a") 0)))); !!
-
-
-
-(dSayText "Il ouvre beaucoup d'espoirs.") ; neut_parl_s02_0499

@@ -1,8 +1,0 @@
-(lex.add.entry '("très_ADV" "ADV" ((("t" "rh" "eh") 0))))
-(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("êtes_VER" "VER" ((("eh" t) 0))))
-(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
-;(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
-    ;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
-(dSayText "Très bien, vous êtes pour.") ; neut_parl_s06_0033

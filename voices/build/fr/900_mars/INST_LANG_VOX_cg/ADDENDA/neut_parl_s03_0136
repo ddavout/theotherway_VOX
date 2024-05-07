@@ -1,8 +1,0 @@
-(lex.add.entry '("Toutefois_ADV" ADV ((("t" "u" t) 0) (("f" "w" "a") 0))))
-(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
-(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
-(lex.add.entry '("n_est_pas_VER" "VER" (((n eh) 0)(("p" "a") 0))))
-(lex.add.entry '("parfait_ADJ" "ADJ" ((("p" "a" "rh") 0) (("f" "eh") 0))))
-
-(set! text "Toutefois, ce dispositif n'est pas parfait.") ; neut_parl_s03_0136
-(dSayText text)

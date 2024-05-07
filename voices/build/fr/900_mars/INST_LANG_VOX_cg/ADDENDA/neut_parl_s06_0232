@@ -1,7 +1,0 @@
-(lex.add.entry '("si_ADV" "ADV" ((("s" "i") 0))))
-(lex.add.entry '("oui_ADV" "ADV" ((("u")0) (("w" "i") 0))))
-(lex.add.entry '("selon_PRE" "PRE" ((("s" "ae") 0) (("l" "ohn") 0))))
-(lex.add.entry '("quels_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0))))
-(lex.add.entry '("critères_NOM" NOM ((("k" "rh" "i") 0) (("t" "eh" "rh") 0))))
-
-(dSayText "Si oui, selon quels critères ?") ; neut_parl_s06_0232

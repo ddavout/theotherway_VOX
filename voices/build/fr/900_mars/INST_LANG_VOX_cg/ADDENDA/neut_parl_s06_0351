@@ -1,8 +1,0 @@
-(lex.add.entry '("qu_a_AUX" "AUX" (((k a) 0))))
-(lex.add.entry '("fait_VER" "VER" ((("f" "eh") 0))))
-(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh) 0) ((t rh ae) 0))))
-(lex.add.entry '("groupe_NOM" "NOM" ((("g" "rh" "u")0) (("p" ae) 0))))
-
-
-(set! text "Qu'a fait votre groupe ?") ; neut_parl_s06_0351
-(dSayText text)

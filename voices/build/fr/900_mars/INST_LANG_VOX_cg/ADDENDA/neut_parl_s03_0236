@@ -1,9 +1,0 @@
-(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
-(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
-(lex.add.entry '("catacombes_NOM" NOM ((("k" "a") 0) (("t" "a") 0) (("k" "ohn" "b") 0))))
-(lex.add.entry '("peut-être_ADV" ADV ((("p" "eu") 0) (("t" "eh" "t" "rh") 0))))
-
-
-
-
-(dSayText "Dans les catacombes peut-être ?") ; neut_parl_s03_0236

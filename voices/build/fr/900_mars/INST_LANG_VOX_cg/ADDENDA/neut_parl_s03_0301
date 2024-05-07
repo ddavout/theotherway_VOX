@@ -1,9 +1,0 @@
-(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
-(lex.add.entry '("concitoyens_NOM" NOM ((("k" "ohn") 0) (("s" "i") 0) (("t" "w" "a") 0) (("j" "ehn") 0))))
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("font_VER" VER ((("f" "ohn") 0))))
-(lex.add.entry '("confiance_NOM" "NOM" ((("k" "ohn") 0) (("f" "j" "ahn")0) (("s" ae) 0))))
-
-
-
-(dSayText "Nos concitoyens nous font confiance.") ; neut_parl_s03_0301

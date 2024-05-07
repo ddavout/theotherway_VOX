@@ -1,9 +1,0 @@
-(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
-(lex.add.entry '("fut_VER" "VER" ((("f" "y") 0))))
-(lex.add.entry '("sous_PRE" PRE ((("s" "u") 0))))
-(lex.add.entry '("vichy_NOM" "NOM" (((v i) 0) ((sh i) 0))))
-(lex.add.entry '("en_PRE" "PRE" (((j ahn) 0)))) ; Q ?
-(lex.add.entry '("particulier_NOM" NOM ((("p" "a" "rh") 0) (("t" "i") 0) (("k" "y") 0) (("l" "j" "e") 0))))
-
-
-(dSayText "Ce fut sous Vichy en particulier.") ; neut_parl_s03_0538

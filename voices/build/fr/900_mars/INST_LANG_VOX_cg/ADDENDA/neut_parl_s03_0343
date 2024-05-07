@@ -1,9 +1,0 @@
-(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
-(lex.add.entry '("voit_VER" "VER" ((("v" "w" "a") 0))))
-(lex.add.entry '("arrivé_VER" VER ((("a") 0) (("rh" "i") 0) (("v" "e") 0))))
-(lex.add.entry '("en_catimini" ADV (((ahn) 0) ((k a) 0) ((t i) 0) ((m i) 0) ((n i) 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("théorie_NOM" "NOM" ((("t" "e") 0) (("oh") 0) (("rh" "i") 0))))
-(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
-(lex.add.entry '("genre_NOM" "NOM" ((("zh" "ahn" "rh") 0))))
-(dSayText "On voit arriver en catimini la théorie du genre.") ; neut_parl_s03_0343

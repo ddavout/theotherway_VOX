@@ -1,7 +1,0 @@
-(lex.add.entry '("eh_bien" ONO (((e) 0) ((b j ehn) 0))))
-(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("l_PRO:per" "PRO:per" nil))
-(lex.add.entry '("ignoron_VER" "VER" ((("i") 0) (("jg" "oh") 0) (("rh" "ohn") 0))))
-
-(dSayText "Eh bien oui, nous l'ignorons !") ; neut_parl_s06_0531

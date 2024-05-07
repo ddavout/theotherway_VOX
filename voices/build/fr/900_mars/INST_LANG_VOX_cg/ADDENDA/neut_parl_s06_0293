@@ -1,9 +1,0 @@
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("seconde_ADJ" ADJ ((("s" "ae") 0) (("g" "ohn" "d") 0))))
-(lex.add.entry '("question_NOM" "NOM" ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
-(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
-(lex.add.entry '("celle_PRO:dem" "PRO:dem" ((("s" "eh" "l") 0))))
-(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
-(lex.add.entry '("normes_NOM" NOM ((("n" "oh" "rh")0) (("m" ae) 0))))
-
-(dSayText "La seconde question, est celle des normes.") ; neut_parl_s06_0293

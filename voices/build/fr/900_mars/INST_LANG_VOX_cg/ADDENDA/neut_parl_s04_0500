@@ -1,7 +1,0 @@
-(lex.add.entry '("Quelques_ADJ:ind" ADJ:ind ((("k" "eh" "l") 0) (("k" "ae") 0))))
-(lex.add.entry '("signes_NOM" NOM ((("s" "i") 0) (("jg" ae) 0))))
-(lex.add.entry '("positifs_ADJ" ADJ ((("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
-(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
-(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
-
-(dSayText "Quelques signes positifs sont là.") ; neut_parl_s04_0500

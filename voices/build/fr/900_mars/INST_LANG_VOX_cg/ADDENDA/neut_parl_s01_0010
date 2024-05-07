@@ -1,9 +1,0 @@
-; Ce moche
-(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
-(lex.add.entry '("serait_VER" "VER" ((("s" "rh" "eh") 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
-(lex.add.entry '("choquant_ADJ" "ADJ" ((("sh" "oh") 0) (("k" "ahn") 0))))
-
-(set! text "Ce serait un peu choquant.") ; neut_parl_s01_0010
-(dSayText text)

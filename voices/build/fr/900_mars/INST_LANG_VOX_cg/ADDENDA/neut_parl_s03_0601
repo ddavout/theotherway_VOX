@@ -1,7 +1,0 @@
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("devé_VER" VER ((("d" "ae") 0) (("v" "e") 0))))
-(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("choix_NOM" "NOM" ((("sh" "w" "a") 0))))
-
-(dSayText "Vous devez faire un choix.") ; neut_parl_s03_0601

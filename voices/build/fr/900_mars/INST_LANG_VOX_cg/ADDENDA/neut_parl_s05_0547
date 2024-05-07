@@ -1,9 +1,0 @@
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("existe_VER" "VER" ((("eh" "g") 0) (("z" "i" "s" "t") 0))))
-(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("méthode_NOM" "NOM" ((("m" "e") 0) (("t" "oh")0) (("d" "ae") 0))))
-(lex.add.entry '("valls_NAM" "NAM" (((v a l s) 0))))
-
-(set! list_exclus*-> (append (list "bien") list_exclus*->_default))
-(dSayText "Il existe bien une méthode Valls.") ; neut_parl_s05_0547

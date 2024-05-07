@@ -1,8 +1,0 @@
-(lex.add.entry '("notre_ADJ:pos" ADJ:pos ((("n" "oh") 0) (("t" "rh" ae) 0))))
-(lex.add.entry '("bicaméralisme_NOM" NOM ((("b" "i") 0) (("k" "a") 0) (("m" "e") 0) (("rh" "a") 0) (("l" "i" "s") 0) (("m" ae) 0))))
-(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("chance_NOM" "NOM" ((("sh" "ahn")0) (("s" ae) 0))))
-
-(set! never_exception_list (append (list "est") never_exception_list_default))
-(dSayText "Notre bicaméralisme est une chance.") ; neut_parl_s04_0222

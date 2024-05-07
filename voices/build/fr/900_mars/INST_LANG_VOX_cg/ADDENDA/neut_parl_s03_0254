@@ -1,8 +1,0 @@
-(lex.add.entry '("et_CON" "CON" ((("e") 0))))
-(lex.add.entry '("pourquoi_NOM" NOM ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
-(lex.add.entry '("ai-je_VER" "VER" ((("eh") 0)(("zh" "e") 0))))
-(lex.add.entry '("évolué_ADJ" "ADJ" ((("v" "oh") 0) (("l" "y") 0) (("e") 0))))
-
-
-(set! text "Et pourquoi ai-je évolué ?") ; neut_parl_s03_0254
-(dSayText text)

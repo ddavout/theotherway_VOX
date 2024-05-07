@@ -1,9 +1,0 @@
-(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
-(lex.add.entry '("fuite_NOM" "NOM" ((("f" "hw" i) 0))))
-(lex.add.entry '("en_avant_ADV" "ADV" (((t ahn) 0) ((n a) 0) ((v ahn) 0))))
-(lex.add.entry '("est_VER" "VER" ((("eh") 0)))); no LIA
-(lex.add.entry '("désespérée_VER" VER ((("d" "e") 0) (("z" "eh" "s") 0) (("p" "e") 0) (("rh" "e") 0))))
-
-
-(set! text "Cette fuite en avant est désespérée !") ; neut_parl_s02_0407
-(dSayText text)

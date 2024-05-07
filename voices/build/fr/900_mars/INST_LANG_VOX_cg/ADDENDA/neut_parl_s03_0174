@@ -1,7 +1,0 @@
-(lex.add.entry '("changeons_VER" VER ((("sh" "ahn") 0) (("zh" "ohn") 0))))
-(lex.add.entry '("à_présent_ADV" "PRE" (((z a) 0)(("p" "rh" "e") 0) (("z" "ahn") 0)))); LIA !
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("continent_NOM" "NOM" ((("k" "ohn") 0) (("t" "i") 0) (("n" "ahn") 0))))
-
-(set! text "changeons à présent de continent.") ; neut_parl_s03_0174
-(dSayText text)

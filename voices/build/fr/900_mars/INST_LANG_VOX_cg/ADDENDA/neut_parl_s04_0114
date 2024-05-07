@@ -1,8 +1,0 @@
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("telle_ADJ:ind" "ADJ:ind" ((("t" "eh" "l") 0))))
-(lex.add.entry '("situation_NOM" "NOM" ((("s" "i") 0) (("t" "hw" "a") 0) (("s" "j" "ohn") 0))))
-(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
-(lex.add.entry '("inacceptable_ADJ" ADJ (((t "i") 0) (("n" "a" "k") 0) (("s" "eh" p) 0) (("t" "a") 0) (("b" "l" "ae") 0))))
-
-(set! never_exception_list (append (list "est" ) never_exception_list_default))
-(dSayText "Une, telle situation, est inacceptable.") ; neut_parl_s04_0114

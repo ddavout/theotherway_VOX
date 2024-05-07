@@ -1,9 +1,0 @@
-(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
-(lex.add.entry '("question_NOM" "NOM" ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
-(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
-(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
-(lex.add.entry '("difficile_ADJ" "ADJ" ((("d" "i") 0) (("f" "i") 0) (("s" "i" "l") 0))))
-(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
-(lex.add.entry '("résoudre_VER" "VER" ((("rh" "e") 0) (("z" "u")0) (("d" "rh" ae) 0))))
-
-(dSayText "Cette question est, très difficile à résoudre.") ; neut_parl_s06_0222

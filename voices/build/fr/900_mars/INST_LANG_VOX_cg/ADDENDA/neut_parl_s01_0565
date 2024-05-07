@@ -1,8 +1,0 @@
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("en_PRE" "PRE" (((z ahn) 0)))); LIA
-(lex.add.entry '("arrivons_VER" "VER" ((("a") 0) (("rh" "i") 0) (("v" "ohn") 0))))
-(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0)))); no lia
-(lex.add.entry '("questions_NOM" NOM ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
-
-(set! text "Nous en arrivons aux questions.") ; 
-(dSayText text); neut_parl_s01_0565

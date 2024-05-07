@@ -1,7 +1,0 @@
-(lex.add.entry '("j_essaie_VER" VER ((("zh" "e") 0) (("s" "eh") 0))))
-(lex.add.entry '("néanmoins_ADV" ADV ((("n" "e") 0) (("ahn") 0) (("m" "w" "ehn") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("convaincre_VER" "VER" ((("k" "ohn") 0) (("v" "ehn")0) (("k" "rh" ae) 0))))
-
-(dSayText "J'essaie néanmoins de vous convaincre.") ; neut_parl_s04_0168

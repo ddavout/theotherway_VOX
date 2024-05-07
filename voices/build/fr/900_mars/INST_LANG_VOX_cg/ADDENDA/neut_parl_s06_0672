@@ -1,8 +1,0 @@
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("croissance_NOM" "NOM" ((("k" "rh" "w" "a") 0) (("s" "ahn" "s") 0))))
-(lex.add.entry '("zéro_NOM" "NOM" ((("z" "e") 0) (("rh" "o") 0))))
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-
-(dSayText "La croissance zéro, c'est vous !") ; neut_parl_s06_0672

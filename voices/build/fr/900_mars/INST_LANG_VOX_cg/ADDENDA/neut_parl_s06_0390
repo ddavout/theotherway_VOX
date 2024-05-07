@@ -1,8 +1,0 @@
-(lex.add.entry '("en_PRO:per" "PRO:per" (((ahn) 0))))
-(lex.add.entry '("en_PRE" "PRE" (((ahn) 0)))); confusion
-(lex.add.entry '("sommes-nous_VER" VER ((("s" "oh" "m") 0)(("n" "u") 0))))
-(lex.add.entry '("capables_ADJ" ADJ ((("k" "a") 0) (("p" "a")0)(( "b" "l" ae) 0))))
-(lex.add.entry '("techniquement_ADV" "ADV" ((("t" "eh" "k") 0) (("n" "i" k) 0) (("m" "ahn") 0))))
-
-(set! text "En sommes-nous capables, techniquement ?") ; neut_parl_s06_0390
-(dSayText text)

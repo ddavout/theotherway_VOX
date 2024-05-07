@@ -1,8 +1,0 @@
-(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
-(lex.add.entry '("êtes-vous_VER" "VER" ((("eh" t) 0)((v u) 0))))
-(lex.add.entry '("frappés_VER" VER (((f rh a) 0) ((p e) 0))))
-(lex.add.entry '("d_amnésie_NOM" NOM (((d "a" "m") 0) (("n" "e") 0) (("z" "i") 0))))
-
-(set! text "ou êtes-vous frappés d'amnésie ?"); 
-(dSayText text); neut_parl_s01_0175
-

@@ -1,9 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("toute_ADJ" "ADJ" ((("t" "u" "t") 0))))
-(lex.add.entry '("petite_ADJ" "ADJ" ((("p" "ae") 0) (("t" "i" "t") 0))))
-(lex.add.entry '("chose_NOM" "NOM" (((sh o)0) ((z ae) 0))))
-
-(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
-(dSayText "C'est une toute, petite chose !") ; neut_parl_s04_0300

@@ -1,8 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("belle_ADJ" "ADJ" ((("b" "eh" "l") 0))))
-(lex.add.entry '("conciliation_NOM" "NOM" ((("k" "ohn") 0) (("s" "i") 0) (("l" "j" "a") 0) (("s" "j" "ohn") 0))))
-
-(set! never_exception_list (append (list "C_est" ) never_exception_list_default))
-(dSayText "C'est une belle conciliation.") ; neut_parl_s03_0090

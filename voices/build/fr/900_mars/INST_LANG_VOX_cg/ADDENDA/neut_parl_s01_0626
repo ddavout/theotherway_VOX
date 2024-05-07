@@ -1,8 +1,0 @@
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
-(lex.add.entry '("décision_NOM" "NOM" ((("d" "e") 0) (("s" "i") 0) (("z" "j" "ohn") 0))))
-(lex.add.entry '("extrêmement_ADV" "ADV" ((("eh" "k" "s") 0) (("t" "rh" "eh") 0) (("m" "ae") 0) (("m" "ahn") 0))))
-(lex.add.entry '("importante_ADJ" "ADJ" ((("ehn") 0) (("p" "oh" "rh") 0) (("t" "ahn" "t") 0)))); no LIA
-
-(set! text "C'est une décision extrêmement importante.") ; 
-(dSayText text); neut_parl_s01_0626

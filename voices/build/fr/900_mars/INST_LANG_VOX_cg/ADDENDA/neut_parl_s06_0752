@@ -1,9 +1,0 @@
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("chemin_NOM" "NOM" ((("sh" "ae") 0) (("m" "ehn") 0))))
-(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
-(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh")0) (("rh" ae) 0))))
-(lex.add.entry '("long_ADJ" "ADJ" ((("l" "ohn") 0))))
-
-
-(set! never_exception_list (append (list "est" ) never_exception_list_default))
-(dSayText "Le chemin est encore long.") ; neut_parl_s06_0752

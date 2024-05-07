@@ -1,8 +1,0 @@
-; déséquilibre moche 
-(lex.add.entry '("Pourquoi_PRO:int" PRO:int ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
-(lex.add.entry '("un_PRO:ind" PRO:ind ((("oen") 0))))
-(lex.add.entry '("tel_ADJ:ind" ADJ:ind ((("t" "eh" "l") 0))))
-(lex.add.entry '("déséquilibre_NOM" "NOM" ((("d" "e") 0) (("z" "e") 0) (("k" "i") 0) (("l" "i") 0) (("b" "rh" "ae") 0))))
-
-(dSayText "Pourquoi un tel déséquilibre ?") ; emph_parl_s01_0364
-

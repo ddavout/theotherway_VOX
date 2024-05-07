@@ -1,8 +1,0 @@
-(lex.add.entry '("nulle_ADJ:ind" "ADJ:ind" ((("n" "y" "l") 0))))
-(lex.add.entry '("guerre_NOM" "NOM" ((("g" "eh" "rh") 0))))
-(lex.add.entry '("donc_CON" "CON" ((("d" "ohn")0) (("k" ae) 0))))
-(lex.add.entry '("entre_PRE" "PRE" ((("ahn")0) (("t" "rh" ae) 0))))
-(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
-(lex.add.entry '("pouvoirs_NOM" NOM ((("p" "u") 0) (("v" "w" "a" "rh") 0))))
-
-(dSayText "Nulle guerre donc, entre les pouvoirs !") ; neut_parl_s05_0303

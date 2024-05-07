@@ -1,9 +1,0 @@
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("rapporteur_NOM" NOM ((("rh" "a") 0) (("p" "oh" "rh") 0) (("t" "oe" "rh") 0))))
-(lex.add.entry '("propose_VER" "VER" ((("p" "rh" "oh") 0) (("p" "o" "z") 0))))
-(lex.add.entry '("treize_ADJ:num" "ADJ:num" (((t rh eh)0) ((z ae) 0))))
-(lex.add.entry '("régions_NOM" NOM ((("rh" "e") 0) (("zh" "j" "ohn") 0))))
-
-
-(set! text "Le rapporteur propose treize régions.") ; neut_parl_s02_0392
-(dSayText text)

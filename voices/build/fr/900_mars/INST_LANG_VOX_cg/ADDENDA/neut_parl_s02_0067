@@ -1,9 +1,0 @@
-(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
-(lex.add.entry '("aussi_ADV" "ADV" (((t "o") 0) (("s" "i") 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("gage_NOM" "NOM" ((("g" "a" "zh") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("réussite_NOM" "NOM" ((("rh" "e") 0) (("y") 0) (("s" "i")0) (("t" ae) 0))))
-
-(set! text "C'est aussi un gage de réussite.") ; neut_parl_s02_0067
-(dSayText text)

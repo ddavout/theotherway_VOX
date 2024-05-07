@@ -1,9 +1,0 @@
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("avez_VER" VER (((z "a") 0) (("v" "e") 0))))
-(lex.add.entry '("heurté_VER" "VER" ((("oe" "rh") 0) (("t" "e") 0)))); no LIA
-(lex.add.entry '("profondément_ADV" "ADV" ((("p" "rh" "oh") 0) (("f" "ohn") 0) (("d" "e") 0) (("m" "ahn") 0))))
-(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
-(lex.add.entry '("peuple_NOM" "NOM" ((("p" "oe")0) (("p" "l" "ae") 0))))
-
-(set! text "Vous avez heurté profondément ce peuple.") ; neut_parl_s06_0182
-(dSayText text)

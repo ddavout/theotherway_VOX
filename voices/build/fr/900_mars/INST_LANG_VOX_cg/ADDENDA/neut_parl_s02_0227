@@ -1,8 +1,0 @@
-(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("reste_NOM" NOM ((("rh" "eh" "s") 0) (("t" ae) 0))))
-(lex.add.entry '("soyons_VER" VER ((("s" "w" "a") 0) (("j" "ohn") 0))))
-(lex.add.entry '("optimistes_ADJ" ADJ ((("oh" p) 0) (("t" "i") 0) (("m" "i" "s") 0) (("t" ae) 0)))); no LIA
-
-(set! text "Pour le reste, soyons optimistes.") ; neut_parl_s02_0227
-(dSayText text)

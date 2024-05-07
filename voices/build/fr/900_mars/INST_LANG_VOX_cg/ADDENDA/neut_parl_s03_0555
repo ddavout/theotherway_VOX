@@ -1,6 +1,0 @@
-(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
-(lex.add.entry '("j_ai_VER" "VER" (((zh e) 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("métier_NOM" "NOM" ((("m" "e") 0) (("t" "j" "e") 0))))
-
-(dSayText "Moi, j'ai un métier !") ; neut_parl_s03_0555

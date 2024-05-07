@@ -1,9 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("mauvaise_ADJ" "ADJ" ((("m" "oh") 0) (("v" "eh" "z") 0))))
-(lex.add.entry '("tradition_NOM" "NOM" ((("t" "rh" "a") 0) (("d" "i") 0) (("s" "j" "ohn") 0))))
-(lex.add.entry '("républicaine_ADJ" "ADJ" ((("rh" "e") 0) (("p" "y") 0) (("b" "l" "i") 0) (("k" "eh")0) (("n" ae) 0))))
-
-(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
-(dSayText "C'est une mauvaise tradition républicaine.") ; neut_parl_s05_0521

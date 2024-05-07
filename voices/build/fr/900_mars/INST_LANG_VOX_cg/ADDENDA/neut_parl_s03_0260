@@ -1,8 +1,0 @@
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("guerre_NOM" "NOM" ((("g" "eh" "rh") 0))))
-(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
-(lex.add.entry '("joue_VER" "VER" ((("zh" "u") 0))))
-(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0))))
-(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
-
-(dSayText "La guerre se joue ici aussi.") ; neut_parl_s03_0260

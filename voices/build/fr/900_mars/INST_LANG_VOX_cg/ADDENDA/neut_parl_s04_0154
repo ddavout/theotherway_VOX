@@ -1,9 +1,0 @@
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
-(lex.add.entry '("tomberons_VER" VER ((("t" "ohn") 0) (("b" "rh" "ohn") 0))))
-(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
-(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
-(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
-(lex.add.entry '("piège_NOM" "NOM" ((("p" "j" "eh")0) (("zh" ae) 0))))
-
-(dSayText "Nous ne, tomberons pas dans ce piège.") ; neut_parl_s04_0154

@@ -1,9 +1,0 @@
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("sommes_VER" VER ((("s" "oh" "m") 0))))
-(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
-(lex.add.entry '("montée_NOM" "NOM" ((("m" "ohn") 0) (("t" "e") 0))))
-(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
-(lex.add.entry '("charge_NOM" "NOM" ((("sh" "a" "rh")0) (("zh" "ae") 0))))
-
-(set! never_exception_list (append (list "sommes" ) never_exception_list_default))
-(dSayText "Nous sommes en montée en charge.") ; neut_parl_s06_0296

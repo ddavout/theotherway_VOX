@@ -1,9 +1,0 @@
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
-(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
-(lex.add.entry '("vigueur_NOM" "NOM" ((("v" "i") 0) (("g" "oe" "rh") 0))))
-(lex.add.entry '("reste_VER" VER ((("rh" "eh" "s") 0) (("t" ae) 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("même_ADJ" "ADJ" ((("m" "eh")0) (("m" ae) 0))))
-
-(dSayText "Le droit en vigueur reste le même.") ; neut_parl_s04_0499

@@ -1,8 +1,0 @@
-(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
-(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
-(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
-(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
-(lex.add.entry '("grands_ADJ" ADJ ((("g" "rh" "ahn") 0))))
-(lex.add.entry '("points_NOM" NOM (((p w ehn) 0))))
-
-(dSayText "Ce sont les trois grands points.") ; neut_parl_s04_0707

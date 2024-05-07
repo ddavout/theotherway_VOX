@@ -1,9 +1,0 @@
-(lex.add.entry '("j_y_ADV" "ADV" ((("zh" "i") 0))))
-(lex.add.entry '("serai_VER" VER ((("s" "ae") 0) (("rh" "eh") 0))))
-(lex.add.entry '("même_ADV" "ADV" ((("m" "eh") 0))))
-(lex.add.entry '("un_PRO:ind" PRO:ind (((m "oen") 0))))
-(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
-(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
-(lex.add.entry '("retard_NOM" "NOM" ((("rh" "ae") 0) (("t" "a" "rh") 0))))
-
-(dSayText "J'y serai même un peu en retard.") ; neut_parl_s04_0406

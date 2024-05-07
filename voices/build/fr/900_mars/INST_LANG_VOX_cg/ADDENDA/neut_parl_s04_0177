@@ -1,9 +1,0 @@
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("principe_NOM" "NOM" ((("p" "rh" "ehn") 0) (("s" "i" "p") 0))))
-(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
-(lex.add.entry '("vous-mêmes_PRO:per" "PRO:per" (((v u) 0)(("m" "eh" "m") 0))))
-(lex.add.entry '("avez_VER" VER ((("a") 0) (("v" "e") 0)))); no LIA
-(lex.add.entry '("fixé_VER" "VER" ((("f" "i" "k") 0) (("s" "e") 0))))
-
-(dSayText "C'est le principe, que vous-même avez fixé.") ; neut_parl_s04_0177

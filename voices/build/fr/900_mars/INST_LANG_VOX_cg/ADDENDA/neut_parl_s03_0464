@@ -1,9 +1,0 @@
-(lex.add.entry '("Restons_VER" VER ((("rh" "eh" "s") 0) (("t" "ohn") 0))))
-(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
-(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
-(lex.add.entry '("haut_ADJ" "ADJ" ((("o") 0))))
-(lex.add.entry '("niveau_NOM" "NOM" ((("n" "i") 0) (("v" "o") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
-
-(dSayText "Restons à ce, haut niveau de débat !") ; neut_parl_s03_0464

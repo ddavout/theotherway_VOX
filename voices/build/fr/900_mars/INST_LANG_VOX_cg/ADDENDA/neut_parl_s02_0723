@@ -1,9 +1,0 @@
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn") 0))))
-(lex.add.entry '("a_AUX" "AUX" (((s "a") 0))))
-(lex.add.entry '("gagné_VER" "VER" ((("g" "a") 0) ((jg "e") 0))))
-(lex.add.entry '("ça_PRO:dem" "PRO:dem" ((("s" "a") 0))))
-(lex.add.entry '("change_VER" "VER" ((("sh" "ahn" "zh") 0))))
-(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
-
-(dSayText "La France a gagné, ça change tout !") ; neut_parl_s02_0723

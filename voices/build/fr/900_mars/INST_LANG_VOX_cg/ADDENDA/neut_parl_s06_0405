@@ -1,9 +1,0 @@
-(lex.add.entry '("et_CON" "CON" ((("e") 0))))
-(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
-(lex.add.entry '("nombre_NOM" "NOM" ((("n" "ohn" "b" "rh") 0))))
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
-(lex.add.entry '("terrible_ADJ" "ADJ" ((("t" "eh") 0) (("rh" "i")0) (("b" "l" ae) 0))))
-(lex.add.entry '("augmente_VER" "VER" ((("oh" "g") 0) (("m" "ahn" "t") 0))))
-
-(dSayText "Et ce nombre, c'est terrible, augmente !") ; neut_parl_s06_0405

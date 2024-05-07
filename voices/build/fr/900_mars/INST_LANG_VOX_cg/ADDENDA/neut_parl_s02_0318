@@ -1,8 +1,0 @@
-(lex.add.entry '("deuxième_ADJ" "ADJ" ((("d" "eu") 0) (("z" "j" "eh" "m") 0))))
-(lex.add.entry '("raison_NOM" NOM ((("rh" "e") 0) (("z" "ohn") 0))))
-(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
-(lex.add.entry '("personne_PRO:ind" PRO:ind ((("p" "eh" "rh") 0) (("s" "oh" "n") 0))))
-(lex.add.entry '("n_évoque_VER" VER ((("n" "e") 0) (("v" "oh" "k") 0))))
-
-(set! text "Deuxième raison, que personne n'évoque.") ; neut_parl_s02_0318
-(dSayText text)

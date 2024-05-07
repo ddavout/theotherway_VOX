@@ -1,8 +1,0 @@
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i)0))))
-(lex.add.entry '("a_AUX" "AUX" (((l "a")0)))) 
-(lex.add.entry '("y_ADV" "ADV" nil))
-(lex.add.entry '("y_PRO:per" "PRO:per" nil))
-(lex.add.entry '("avoir_VER" "VER" (((j "a") 0) (("v" "w" "a" "rh") 0))))
-
-(lex.add.entry '("manquement_NOM" "NOM" ((("m" "ahn" k) 0)  (("m" "ahn") 0))))
-(dSayText "s'il a pu y avoir des manquements, ils ont été identifiés.") ; neut_parl_s01_0325

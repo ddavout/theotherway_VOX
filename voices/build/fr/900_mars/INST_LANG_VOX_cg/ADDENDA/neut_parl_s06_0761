@@ -1,9 +1,0 @@
-(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
-(lex.add.entry '("Finlandais_NOM" NOM ((("f" "ehn") 0) (("l" "ahn") 0) (("d" "eh") 0))))
-(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
-(lex.add.entry '("mènent_VER" VER ((("m" "eh" "n") 0))))
-(lex.add.entry '("eux_PRO:per" "PRO:per" (((t "eu") 0))))
-(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
-
-; bug eux
-(dSayText "Les Finlandais en mènent eux aussi.") ; neut_parl_s06_0761

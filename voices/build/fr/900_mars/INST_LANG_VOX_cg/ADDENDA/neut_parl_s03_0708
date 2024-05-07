@@ -1,7 +1,0 @@
-(lex.add.entry '("Heureusement_ADV" "ADV" ((("oe") 0) (("rh" "eu" "z") 0) (("m" "ahn") 0))))
-(lex.add.entry '("que_CON" "CON" nil))
-(lex.add.entry '("j_étais_VER" VER (((k "zh" "e") 0) (("t" "eh") 0))))
-(lex.add.entry '("assis_VER" VER (((z "a") 0) (("s" "i") 0)))); LIA
-
-; POS AUX/VER
-(dSayText "Heureusement que j'étais assis !") ; neut_parl_s03_0708

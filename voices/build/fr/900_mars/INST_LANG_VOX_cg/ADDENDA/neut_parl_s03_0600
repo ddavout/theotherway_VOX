@@ -1,7 +1,0 @@
-(lex.add.entry '("j_en_PRO:per" "PRO:per" (((zh ahn) 0))))
-(lex.add.entry '("demande_VER" "VER" ((("d" "ae") 0) (("m" "ahn" "d") 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("retrait_NOM" "NOM" ((("rh" "ae") 0) (("t" "rh" "eh") 0))))
-
-(set! text "J'en demande le retrait.") ; neut_parl_s03_0600
-(dSayText text)

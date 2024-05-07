@@ -1,7 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("séquence_NOM" "NOM" ((("s" "e") 0) (("k" "ahn" "s") 0))))
-(lex.add.entry '("pub_NOM" "NOM" ((("p" "y")0) (("b" ae) 0))))
-
-(dSayText "C'est la séquence pub !") ; neut_parl_s03_0116

@@ -1,8 +1,0 @@
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("connaît_VER" VER ((("k" "oh") 0) (("n" "eh") 0))))
-(lex.add.entry '("parfaitement_ADV" "ADV" ((("p" "a" "rh") 0) (("f" "eh" "t") 0) (("m" "ahn") 0))))
-(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
-(lex.add.entry '("dirigeants_NOM" NOM ((("d" "i") 0) (("rh" "i") 0) (("zh" "ahn") 0))))
-(lex.add.entry '("européens_ADJ" ADJ ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0)))); no LIA
-
-(dSayText "il connaît, parfaitement les dirigeants européens.") ; neut_parl_s04_0223

@@ -1,7 +1,0 @@
-(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh) 0))))
-(lex.add.entry '("approche_NOM" "NOM" (((t "a") 0) (("p" "rh" "oh" "sh") 0))))
-(lex.add.entry '("honore_VER" "VER" ((("oh") 0) (("n" "oh" "rh") 0))))
-(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh")0) (("t" "rh" ae) 0))))
-(lex.add.entry '("majorité_NOM" "NOM" ((("m" "a") 0) (("zh" "oh") 0) (("rh" "i") 0) (("t" "e") 0))))
-
-(dSayText "Cette approche honore notre majorité.") ; neut_parl_s04_0643

@@ -1,7 +1,0 @@
-(lex.add.entry '("quinze_ADJ:num" "ADJ:num" ((("k" "ehn" z) 0))))
-(lex.add.entry '("millions_NOM" NOM ((("m" "i") 0) (("l" "j" "ohn") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("personnes_NOM" NOM ((("p" "eh" "rh") 0) (("s" "oh")0) (("n" "ae") 0))))
-(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
-(lex.add.entry '("moins_NOM" NOM ((("m" "w" "ehn") 0))))
-(dSayText "Quinze millions de personnes, au moins !") ; neut_parl_s06_0767

@@ -1,7 +1,0 @@
-(lex.add.entry '("et_CON" "CON" ((("e") 0))))
-(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
-(lex.add.entry '("refuserié_VER" VER ((("rh" "ae") 0) (("f" "y") 0) (("z" "ae") 0) (("rh" "j" "e") 0))))
-(lex.add.entry '("d_PRE" "PRE" nil))
-(lex.add.entry '("agir_NOM" "NOM" ((("a") 0) (("zh" "i" "rh") 0))))
-
-(dSayText "Et vous refuseriez d'agir ?") ; neut_parl_s03_0541

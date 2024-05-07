@@ -1,9 +1,0 @@
-(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
-(lex.add.entry '("pose_VER" "VER" ((("p" "o" "z") 0))))
-(lex.add.entry '("juste_ADV" "ADV" ((("zh" "y" "s") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0))))
-(lex.add.entry '("question_NOM" "NOM" ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("détail_NOM" "NOM" ((("d" "e") 0) (("t" "a")0) (("j" ae) 0))))
-
-(dSayText "Se pose juste une question de détail.") ; neut_parl_s04_0232

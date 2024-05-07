@@ -1,9 +1,0 @@
-(lex.add.entry '("chacun_PRO:ind" "PRO:ind" ((("sh" "a") 0) (("k" "oen") 0))))
-(lex.add.entry '("donnera_VER" VER ((("d" "oh" n) 0) (("rh" "a") 0))))
-(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
-(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
-(lex.add.entry '("de_PRE" PRE nil))
-(lex.add.entry '("vue_NOM" NOM (((d v y) 0))))
-
-
-(dSayText "Chacun donnera son point de vue.") ; neut_parl_s06_0356

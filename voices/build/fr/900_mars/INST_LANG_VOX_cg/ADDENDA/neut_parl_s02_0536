@@ -1,8 +1,0 @@
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("devrions_VER" VER ((("d" "ae") 0) (("v" "rh" "j" "ohn") 0))))
-(lex.add.entry '("revenir_VER" "VER" ((("rh" "ae") 0) ((v ae)0) (("n" "i" "rh") 0))))
-(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
-(lex.add.entry '("conseiller_NOM" "NOM" ((("k" "ohn") 0) (("s" "e") 0) (("j" "e") 0))))
-(lex.add.entry '("territorial_ADJ" "ADJ" ((("t" "eh") 0) (("rh" "i") 0) (("t" "oh") 0) (("rh" "j" "a")0) (("l" ae) 0))))
-
-(dSayText "Nous devrions revenir au conseiller territorial.") ; neut_parl_s02_0536

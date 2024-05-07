@@ -1,8 +1,0 @@
-(lex.add.entry '("alors_ADV" "ADV" (((a) 0) ((l oh rh) 0))))
-(lex.add.entry '("seront-elles_VER" VER ((("s" "ae") 0) (("rh" "ohn") 0)(("t" "eh" "l") 0))))
-(lex.add.entry '("défiscalisées_VER" VER ((("d" "e") 0) (("f" "i" "s") 0) (("k" "a") 0) (("l" "i") 0) (("z" "e") 0))))
-(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
-(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
-
-(set! text "Alors, seront-elles défiscalisées, ou non ?") ; neut_parl_s03_0367
-(dSayText text)

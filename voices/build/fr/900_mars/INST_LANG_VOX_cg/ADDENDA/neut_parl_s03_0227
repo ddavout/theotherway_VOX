@@ -1,7 +1,0 @@
-(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
-(lex.add.entry '("moins_NOM" NOM ((("m" "w" "ehn") 0))))
-(lex.add.entry '("êtes-vous_VER" "VER" ((("eh" t) 0)((v u) 0)))); no LIA
-(lex.add.entry '("constant_ADJ" "ADJ" ((("k" "ohn" "s") 0) (("t" "ahn") 0))))
-
-(set! text "Au moins êtes-vous constant !") ; neut_parl_s03_0227
-(dSayText text)

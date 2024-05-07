@@ -1,9 +1,0 @@
-(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("rugy_NAM" "NAM" ((("rh" "y") 0) (("zh" "i") 0))))
-(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
-(lex.add.entry '("demande_VER" "VER" ((("d" "ae") 0) (("m" "ahn" "d") 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("parole_NOM" "NOM" ((("p" "a") 0) (("rh" "oh" "l") 0))))
-
-(dSayText "Monsieur de Rugy me demande la parole.") ; neut_parl_s06_0706

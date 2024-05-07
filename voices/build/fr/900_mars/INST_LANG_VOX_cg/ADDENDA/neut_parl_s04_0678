@@ -1,9 +1,0 @@
-(lex.add.entry '("veut-on_VER" "VER" ((("v" "eu") 0)(("t" "ohn") 0))))
-(lex.add.entry '("vraiment_ADV" "ADV" ((("v" "rh" "eh") 0) (("m" "ahn") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("politique_NOM" "NOM" ((("p" "oh") 0) (("l" "i") 0) (("t" "i" "k") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("l_emploi_NOM" "NOM" (((l "ahn") 0) (("p" "l" "w" "a") 0))))
-
-(set! text "Veut-on vraiment une politique de l'emploi ?") ; neut_parl_s04_0678
-(dSayText text)

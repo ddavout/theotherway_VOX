@@ -1,9 +1,0 @@
-(lex.add.entry '("Jean_NAM" "NAM" (((zh ahn) 0))))
-(lex.add.entry '("Leonetti_NAM" "NAM" (((l e) 0) ((o) 0) ((n e) 0) ((t i) 0))))
-(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
-(lex.add.entry '("a_VER" "VER" ((("a") 0))))
-(lex.add.entry '("rappelé_VER" "VER" ((("rh" "a") 0) (("p" "l" "e") 0))))
-(lex.add.entry '("cela_PRO:dem" PRO:dem ((("s" "l" "a") 0))))
-
-(set! text "Jean Leonetti a rappelé cela.") ; 
-(dSayText text); neut_parl_s01_0530

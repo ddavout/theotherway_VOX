@@ -1,7 +1,0 @@
-(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
-(lex.add.entry '("dialogue_NOM" "NOM" ((("d" "j" "a") 0) (("l" "oh" "g") 0))))
-(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
-(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
-(lex.add.entry '("poursuivre_VER" "VER" ((("p" "u" "rh") 0) (("s" "hw" i)0)(("v" "rh" ae) 0))))
-
-(dSayText "Ce dialogue doit se poursuivre.") ; neut_parl_s02_0502

@@ -1,7 +1,0 @@
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
-(lex.add.entry '("avions_VER" VER (((n "a") 0) (("v" "j" "ohn") 0)))); LIA
-(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
-
-(set! text "Nous n'en avions pas !") ; neut_parl_s02_0630
-(dSayText text)

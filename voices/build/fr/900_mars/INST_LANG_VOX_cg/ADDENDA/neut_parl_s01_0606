@@ -1,9 +1,0 @@
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("avons_AUX" AUX (((z "a") 0) (("v" "ohn") 0)))); LIA
-(lex.add.entry '("développé_VER" "VER" ((("d" "e") 0) (("v" "l" "oh") 0) (("p" "e") 0))))
-(lex.add.entry '("l_accueil_NOM" "NOM" (((l "a") 0) (("k" "oe" "j") 0))))
-(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
-(lex.add.entry '("petits_NOM" NOM ((("p" "ae") 0) (("t" "i") 0))))
-
-(set! text "Nous avons développé l'accueil des petits.") ; 
-(dSayText text); neut_parl_s01_0606

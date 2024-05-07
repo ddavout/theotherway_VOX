@@ -1,8 +1,0 @@
-(lex.add.entry '("j_en_PRO:per" "PRO:per" (((zh ahn) 0))))
-(lex.add.entry '("suggère_VER" "VER" ((("s" "y" g) 0) (("zh" "eh" "rh") 0))))
-(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("retrait_NOM" "NOM" ((("rh" "ae") 0) (("t" "rh" "eh") 0))))
-
-(set! text "J'en suggère donc le retrait.") ; neut_parl_s02_0485
-(dSayText text)

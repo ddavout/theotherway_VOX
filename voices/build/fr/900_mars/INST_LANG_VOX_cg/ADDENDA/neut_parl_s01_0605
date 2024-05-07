@@ -1,9 +1,0 @@
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
-(lex.add.entry '("conséquence_NOM" "NOM" ((("k" "ohn") 0) (("s" "e") 0) (("k" "ahn" "s") 0))))
-(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
-(lex.add.entry '("vieillissement_NOM" "NOM" ((("v" "j" "e") 0) (("i" s) 0) (("m" "ahn") 0))))
-
-
-(set! text "C'est une conséquence du vieillissement.") ; 
-(dSayText text); neut_parl_s01_0605

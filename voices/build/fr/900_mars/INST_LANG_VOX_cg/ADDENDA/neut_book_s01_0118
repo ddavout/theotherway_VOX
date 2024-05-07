@@ -1,3 +1,0 @@
-;(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
-    ;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
-(dSayText "Bientôt Cyrus Smith, Harbert, Gédéon Spilett, Nab et le marin étaient réunis sur la grève, en un point où le canal laissait une sorte de passage guéable à mer basse.") ; neut_book_s01_0118

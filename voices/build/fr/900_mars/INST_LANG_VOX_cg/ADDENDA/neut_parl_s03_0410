@@ -1,7 +1,0 @@
-(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
-(lex.add.entry '("rédaction_NOM" "NOM" ((("rh" "e") 0) (("d" "a" "k") 0) (("s" "j" "ohn") 0))))
-(lex.add.entry '("constitue_VER" "VER" ((("k" "ohn" "s") 0) (("t" "i") 0) (("t" "y") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("avancée_NOM" "NOM" ((("a") 0) (("v" "ahn") 0) (("s" "e") 0))))
-
-(dSayText "Cette rédaction constitue une avancée.") ; neut_parl_s03_0410

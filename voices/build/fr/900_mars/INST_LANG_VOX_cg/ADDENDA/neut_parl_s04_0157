@@ -1,9 +1,0 @@
-(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
-(lex.add.entry '("directive_NOM" "NOM" ((("d" "i") 0) (("rh" "eh" "k") 0) (("t" "i")0) (("v" "ae") 0))))
-(lex.add.entry '("vient_VER" VER ((("v" "j" "ehn") 0))))
-(lex.add.entry '("d_PRE" "PRE" nil))
-(lex.add.entry '("être_AUX" "AUX" ((("eh")0) (("t" "rh" "ae") 0))))
-(lex.add.entry '("d_être_AUX" "AUX" (((d "eh")0) (("t" "rh" "ae") 0))))
-(lex.add.entry '("révisée_VER" "VER" ((("rh" "e") 0) (("v" "i") 0) (("z" "e") 0))))
-
-(dSayText "Cette directive, vient d'être révisée.") ; neut_parl_s04_0157

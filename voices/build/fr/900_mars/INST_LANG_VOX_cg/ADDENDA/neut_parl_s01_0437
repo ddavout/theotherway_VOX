@@ -1,9 +1,0 @@
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
-(lex.add.entry '("lui_PRO:per" "PRO:per" ((("l" "hw" i) 0))))
-(lex.add.entry '("ai_AUX" "AUX" ((("eh") 0))))
-(lex.add.entry '("d_ailleurs_ADV" "ADV" (((d "a") 0) (("j" "oe" "rh") 0))))
-(lex.add.entry '("suggéré_VER" "VER" ((("s" "y" g) 0) (("zh" "e") 0) (("rh" "e") 0))))
-
-(set! text "Je le lui ai d'ailleurs suggéré.") ; 
-(dSayText text); neut_parl_s01_0437

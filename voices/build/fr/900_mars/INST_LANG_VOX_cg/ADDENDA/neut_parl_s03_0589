@@ -1,9 +1,0 @@
-(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
-(lex.add.entry '("épisode_NOM" "NOM" (((t "e") 0) (("p" "i") 0) (("z" "oh")0) (("d" ae) 0))))
-(lex.add.entry '("n_était_ADJ" ADJ ((("n" "e") 0) (("t" "eh") 0))))
-(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
-(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
-(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
-(lex.add.entry '("utile_ADJ" "ADJ" (((z "y") 0) (("t" "i")0) (("l" ae) 0))))
-
-(dSayText "Cet épisode, n'était donc pas très utile.") ; neut_parl_s03_0589

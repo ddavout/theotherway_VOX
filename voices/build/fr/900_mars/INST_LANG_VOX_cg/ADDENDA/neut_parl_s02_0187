@@ -1,9 +1,0 @@
-(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
-(lex.add.entry '("calme_NOM" "NOM" ((("k" "a" "l")0) (("m" ae) 0))))
-(lex.add.entry '("mes_ADJ:pos" "ADJ:pos" ((("m" "e") 0))))
-(lex.add.entry '("chers_ADJ" ADJ ((("sh" "eh" "rh") 0))))
-(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh")0) (("g" ae) 0))))
-
-
-(set! text "Du calme, mes chers collègues.") ; neut_parl_s02_0187
-(dSayText text)

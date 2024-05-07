@@ -1,8 +1,0 @@
-(lex.add.entry '("Un_PRO:ind" PRO:ind ((("oen") 0))))
-(lex.add.entry '("de_plus_ADV" "ADV" (((d ae) 0) (("p" "l" "y" s) 0))))
-(lex.add.entry '("est-il_VER" "VER" ((("eh") 0)(("t" "i" l) 0))))
-(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
-(lex.add.entry '("nécessaire_ADJ" "ADJ" ((("n" "e") 0) (("s" "e") 0) (("s" "eh" "rh") 0))))
-
-(set! text "Un de plus est-il bien nécessaire ?") ; neut_parl_s04_0686
-(dSayText text)

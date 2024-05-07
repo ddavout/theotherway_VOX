@@ -1,8 +1,0 @@
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
-(lex.add.entry '("combler_VER" VER ((("k" "ohn") 0) (("b" "l" "e") 0))))
-(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
-(lex.add.entry '("gap_NOM" NOM ((("g" "a" "p") 0))))
-
-(set! text "il faut combler ce gap.") ; neut_parl_s02_0483
-(dSayText text)

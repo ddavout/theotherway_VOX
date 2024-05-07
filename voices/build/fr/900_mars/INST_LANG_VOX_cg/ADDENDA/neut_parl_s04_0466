@@ -1,7 +1,0 @@
-(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
-(lex.add.entry '("n_est_pas_VER" "VER" (((n eh) 0)(("p" "a") 0))))
-(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
-(lex.add.entry '("genre_NOM" "NOM" ((("zh" "ahn" "rh") 0))))
-
-(set! text "Ce n'est pas son genre !") ; neut_parl_s04_0466
-(dSayText text)

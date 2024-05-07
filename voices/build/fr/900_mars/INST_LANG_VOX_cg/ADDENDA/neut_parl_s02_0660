@@ -1,9 +1,0 @@
-(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
-(lex.add.entry '("mots_NOM" NOM ((("m" "o") 0))))
-(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0)))); no lia
-(lex.add.entry '("justifié_VER" "VER" ((("zh" "y" "s") 0) (("t" "i") 0) (("f" "j" "e") 0))))
-(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
-(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
-(lex.add.entry '("abus_NOM" NOM (((z "a") 0) (("b" "y") 0))))
-
-(dSayText "Ces mots ont justifié bien des abus.") ; neut_parl_s02_0660

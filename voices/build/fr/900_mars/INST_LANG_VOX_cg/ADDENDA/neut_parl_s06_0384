@@ -1,8 +1,0 @@
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
-(lex.add.entry '("y_a_VER" "VER" (((l "j" "a") 0))))
-(lex.add.entry '("de_quoi_PRO:ind" PRO:ind  (((d ae)0)(("k" "w" "a") 0))))
-(lex.add.entry '("être_VER" "VER" ((("eh" "t") 0))))
-(lex.add.entry '("inquiet_ADJ" "ADJ" (((t rh "ehn") 0) (("k" "j" "eh") 0))))
-
-(set! text "Il y a de quoi être inquiet.") ; neut_parl_s06_0384
-(dSayText text)

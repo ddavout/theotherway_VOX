@@ -1,8 +1,0 @@
-(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
-(lex.add.entry '("charte_NOM" "NOM" ((("sh" "a" "rh" "t") 0))))
-(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
-(lex.add.entry '("y_ADV" "ADV" (((i) 0))))
-(lex.add.entry '("contribué_VER" VER ((("k" "ohn") 0) (("t" "rh" "i") 0) (("b" "hw" "e") 0))))
-
-(set! never_exception_list (append (list "peut" ) never_exception_list_default))
-(dSayText "Cette charte peut y contribuer.") ; neut_parl_s05_0696

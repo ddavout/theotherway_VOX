@@ -1,8 +1,0 @@
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("sommes_VER" VER ((("s" "oh" "m") 0))))
-(lex.add.entry '("bons_ADJ" ADJ ((("b" "ohn") 0))))
-(lex.add.entry '("et_CON" "CON" ((("e") 0)))); no LIA
-(lex.add.entry '("rapides_ADJ" ADJ ((("rh" "a") 0) (("p" "i")0) (("d" ae) 0))))
-
-(set! text "Nous sommes bons, et rapides !") ; neut_parl_s03_0444
-(dSayText text)

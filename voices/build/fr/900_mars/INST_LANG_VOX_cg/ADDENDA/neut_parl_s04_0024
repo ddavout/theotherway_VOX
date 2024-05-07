@@ -1,9 +1,0 @@
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
-(lex.add.entry '("vraiment_ADV" "ADV" ((("v" "rh" "eh") 0) (("m" "ahn") 0))))
-(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
-(lex.add.entry '("rejeter_VER" VER ((("rh" "ae") 0) (("zh" "ae") 0) (("t" "e") 0))))
-
-
-(set! text "Il faut vraiment le rejeter !") ; neut_parl_s04_0024
-(dSayText text)

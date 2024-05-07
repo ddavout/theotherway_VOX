@@ -1,8 +1,0 @@
-(lex.add.entry '("doit-on_VER" "VER" ((("d" "w" "a") 0)(("t" "ohn") 0))))
-(lex.add.entry '("peut-on_VER" "VER" ((("p" "eu") 0)(("t" "ohn") 0))))
-(lex.add.entry '("aller_VER" VER ((("a") 0) (("l" "e") 0))))
-(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
-(lex.add.entry '("loin_ADV" "ADV" ((("l" "w" "ehn") 0))))
-
-(set! text "Doit-on, peut-on aller plus loin ?") ; neut_parl_s04_0050
-(dSayText text)

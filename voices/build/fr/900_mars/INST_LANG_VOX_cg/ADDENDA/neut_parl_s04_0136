@@ -1,7 +1,0 @@
-(lex.add.entry '("donnons_VER" VER ((("d" "o") 0) (("n" "ohn") 0))))
-(lex.add.entry '("leur_PRO:per" "PRO:per" ((("l" "oe" "rh") 0))))
-(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
-(lex.add.entry '("chance_NOM" "NOM" ((("sh" "ahn" "s") 0))))
-(lex.add.entry '("supplémentaire_ADJ" "ADJ" ((("s" "y") 0) (("p" "l" "e") 0) (("m" "ahn") 0) (("t" "eh" "rh") 0))))
-
-(dSayText "Donnons-leur cette chance supplémentaire.") ; neut_parl_s04_0136

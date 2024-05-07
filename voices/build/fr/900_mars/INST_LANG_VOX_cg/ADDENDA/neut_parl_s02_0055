@@ -1,9 +1,0 @@
-(lex.add.entry '("venons_VER" VER ((("v" "ae") 0) (("n" "ohn") 0))))
-(lex.add.entry '("venon_VER" VER ((("v" "ae") 0) (("n" "ohn") 0))))
-(lex.add.entry '("z_en_PRE" "PRE" (((z ahn) 0))))
-(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
-(lex.add.entry '("l_échec_NOM" "NOM" (((l "e") 0) (("sh" "eh" "k") 0))))
-(lex.add.entry '("français_ADJ" ADJ ((("f" "rh" "ahn") 0) (("s" "eh") 0))))
-
-(set! text "Venons-en à l'échec français.") ; neut_parl_s02_0055
-(dSayText text)

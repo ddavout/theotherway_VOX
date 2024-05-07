@@ -1,8 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("mauvaise_ADJ" "ADJ" ((("m" "oh") 0) (("v" "eh" "z") 0))))
-(lex.add.entry '("méthode_NOM" "NOM" ((("m" "e") 0) (("t" "oh" "d") 0))))
-
-(set! never_exception_list (append (list "C_est" ) never_exception_list_default))
-(dSayText "C'est une mauvaise méthode.") ; neut_parl_s06_0625

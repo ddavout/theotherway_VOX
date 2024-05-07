@@ -1,7 +1,0 @@
-(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
-(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
-(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
-(lex.add.entry '("abondée_VER" "VER" ((("a") 0) (("b" "ohn") 0) (("d" "e") 0))))
-(lex.add.entry '("depuis_PRE" "PRE" (((d ae) 0) ((p hw i) 0))))
-
-(dSayText "Elle a été abondée depuis !") ; neut_parl_s06_0593

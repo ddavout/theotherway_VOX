@@ -1,8 +1,0 @@
-(lex.add.entry '("j_y_ADV" "ADV" ((("zh" "j" a) 0))))
-(lex.add.entry '("associe_VER" "VER" ((("s" "oh") 0) (("s" "i") 0)))); no LIA
-(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
-(lex.add.entry '("collègue_NOM" "NOM" ((("k" "oh") 0) (("l" "eh")0) (("g" ae) 0))))
-(lex.add.entry '("bernard_NAM" "NAM" ((("b" "eh" "rh") 0) (("n" "a" "rh") 0))))
-(lex.add.entry '("gérard_NAM" "NAM" (((zh e) 0) ((rh a rh) 0))))
-
-(dSayText "J'y associe mon collègue : Bernard Gérard.") ; neut_parl_s04_0161

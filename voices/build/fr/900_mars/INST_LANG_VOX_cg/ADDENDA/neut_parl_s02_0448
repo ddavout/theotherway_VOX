@@ -1,9 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
-(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
-(lex.add.entry '("agenda_NOM" "NOM" (((a) 0) ((zh ehn) 0) ((d a) 0))))
-(lex.add.entry '("ambitieux_ADJ" "ADJ" ((("ahn") 0) (("b" "i") 0) (("s" "j" "eu") 0))))
-
-(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
-(dSayText "C'est aussi un agenda ambitieux.") ; neut_parl_s02_0448

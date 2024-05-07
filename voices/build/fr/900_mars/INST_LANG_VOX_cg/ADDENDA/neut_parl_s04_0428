@@ -1,9 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("l_ART:def" "ART:def" nil))
-(lex.add.entry '("affaire_NOM" "NOM" ((("a") 0) (("f" "eh" "rh") 0))))
-(lex.add.entry '("d_PRE" "PRE" nil))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("seconde_NOM" "NOM" ((("s" "ae") 0) (("g" "ohn")0) (("d" "ae") 0))))
-
-(dSayText "C'est l'affaire d'une seconde.") ; neut_parl_s04_0428

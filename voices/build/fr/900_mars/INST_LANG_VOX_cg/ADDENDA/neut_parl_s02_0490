@@ -1,9 +1,0 @@
-(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
-(lex.add.entry '("viticulteurs_NOM" NOM ((("v" "i") 0) (("t" "i") 0) (("k" "y" "l") 0) (("t" "oe" "rh") 0))))
-(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
-(lex.add.entry '("trouvent_VER" VER ((("t" "rh" "u" "v") 0))))
-(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
-(lex.add.entry '("difficulté_NOM" "NOM" ((("d" "i") 0) (("f" "i") 0) (("k" "y" "l") 0) (("t" "e") 0))))
-
-(set! never_exception_list (append (list "trouvent" ) never_exception_list_default))
-(dSayText "Nos viticulteurs se trouvent en difficulté.") ; neut_parl_s02_0490

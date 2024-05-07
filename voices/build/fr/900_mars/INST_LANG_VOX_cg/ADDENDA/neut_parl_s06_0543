@@ -1,9 +1,0 @@
-(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
-(lex.add.entry '("personne_PRO:ind" PRO:ind ((("p" "eh" "rh") 0) (("s" "oh" "n") 0))))
-(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
-(lex.add.entry '("veut_VER" "VER" ((("v" "eu") 0))))
-(lex.add.entry '("en_PRE" "PRE" (((t ahn) 0)))); LIA
-(lex.add.entry '("parler_VER" VER ((("p" "a" "rh") 0) (("l" "e") 0))))
-
-(set! text "plus personne ne veut en parler.") ; neut_parl_s06_0543
-(dSayText text)

@@ -1,7 +1,0 @@
-(lex.add.entry '("combien_ADV" "ADV" ((("k" "ohn") 0)(("b" "j" "ehn") 0))))
-(lex.add.entry '("y_en_PRO:per" "PRO:per" (((j ahn) 0))))
-(lex.add.entry '("a_t-il_VER" "VER" (((n a) 0)(("t" "i")0)((l ae) 0)))); LIA
-
-
-(set! text "combien y en a-t'il")
-(dSayText text); neut_parl_s01_0727

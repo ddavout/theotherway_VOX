@@ -1,9 +1,0 @@
-(lex.add.entry '("donc_CON" "CON" ((("d" "ohn")0) (("k" ae) 0))))
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("suggère_VER" "VER" ((("s" "y" g) 0) (("zh" "eh" "rh") 0))))
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("retrait_NOM" "NOM" ((("rh" "ae") 0) (("t" "rh" "eh") 0))))
-
-;(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
-    ;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
-(dSayText "Donc, je suggère le retrait.") ; neut_parl_s03_0521

@@ -1,9 +1,0 @@
-(lex.add.entry '("n_est-on_VER" "VER" (((n e) 0)(("t" "ohn") 0))))
-(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
-(lex.add.entry '("proche_ADJ" "ADJ" ((("p" "rh" "oh" "sh") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("l_injonction_NOM" "NOM" (((l "ehn") 0) (("zh" "ohn" "k") 0) (("s" "j" "ohn") 0))))
-
-
-(set! text "n'est-on pas proche de l'injonction ?") ; neut_parl_s02_0278
-(dSayText text)

@@ -1,8 +1,0 @@
-(lex.add.entry '("j_en_PRO:per" "PRO:per" (((zh ahn) 0))))
-(lex.add.entry '("étais_VER" VER (((n "e") 0) (("t" "eh") 0)))); LIA
-(lex.add.entry '("l_un_PRO:ind" "PRO:ind" (((l "oen") 0))))
-(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
-(lex.add.entry '("signataires_NOM" NOM ((("s" "i") 0) (("jg" "a") 0) (("t" "eh" "rh") 0))))
-
-(set! text "J'en étais l'un des signataires.") ; neut_parl_s02_0565
-(dSayText text)

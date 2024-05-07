@@ -1,8 +1,0 @@
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("lui_PRO:per" "PRO:per" ((("l" "hw" i) 0))))
-(lex.add.entry '("opposons_VER" VER ((("oh") 0) (("p" "o") 0) (("z" "ohn") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("stratégie_NOM" NOM ((("s" "t" "rh" "a") 0) (("t" "e") 0) (("zh" "i") 0))))
-(lex.add.entry '("globale_ADJ" "ADJ" ((("g" "l" "oh") 0) (("b" "a")0) (("l" ae) 0))))
-
-(dSayText "Nous lui opposons une stratégie globale.") ; neut_parl_s03_0505

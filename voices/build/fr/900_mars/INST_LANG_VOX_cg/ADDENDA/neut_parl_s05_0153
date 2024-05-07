@@ -1,8 +1,0 @@
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
-(lex.add.entry '("belle_ADJ" "ADJ" ((("b" "eh" "l") 0))))
-(lex.add.entry '("enveloppe_NOM" "NOM" ((("ahn") 0) (("v" "l" "oh" "p") 0))))
-
-(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
-(dSayText "C'est une belle enveloppe !") ; neut_parl_s05_0153

@@ -1,9 +1,0 @@
-(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
-(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
-(lex.add.entry '("conclure_VER" "VER" ((("k" "ohn") 0) (("k" "l" "y" "rh") 0))))
-(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
-(lex.add.entry '("gomes_NAM" "NAM" (((g oh) 0) ((m eh s) 0))))
-
-
-(set! text "Il faut conclure, monsieur Gomes.") ; 
-(dSayText text); neut_parl_s01_0478

@@ -1,9 +1,0 @@
-(lex.add.entry '("j_ai_AUX" "AUX" (((zh e) 0))))
-(lex.add.entry '("entendu_VER" "VER" ((("ahn") 0) (("t" "ahn") 0) (("d" "y") 0))))
-(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
-(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("nostalgie_NOM" "NOM" ((("n" "oh" "s") 0) (("t" "a" "l") 0) (("zh" "i") 0))))
-
-(set! text "j'ai entendu aussi beaucoup de nostalgie.") ; neut_parl_s01_0038
-(dSayText text)

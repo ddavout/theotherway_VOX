@@ -1,8 +1,0 @@
-(lex.add.entry '("et_CON" "CON" ((("e") 0))))
-(lex.add.entry '("Heureusement_ADV" "ADV" ((("oe") 0) (("rh" "eu" "z") 0) (("m" "ahn") 0))))
-(lex.add.entry '("qu_CON" "CON" nil))
-(lex.add.entry '("qu_elles_PRO:per" PRO:per ((("k" "eh" "l") 0))))
-(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
-(lex.add.entry '("évolué_VER" "VER" ((("e") 0) (("v" "oh") 0) (("l" "y") 0) (("e") 0))))
-
-(dSayText "Et heureusement qu'elles ont évolué !") ; neut_parl_s02_0518

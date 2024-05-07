@@ -1,9 +1,0 @@
-(lex.add.entry '("j_ai_AUX" "AUX" (((zh eh) 0))))
-(lex.add.entry '("vérifié_VER" "VER" ((("v" "e") 0) (("rh" "i") 0) (("f" "j" "e") 0))))
-(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
-(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
-(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
-(lex.add.entry '("bons_ADJ" ADJ ((("b" "ohn") 0))))
-(lex.add.entry '("chiffres_NOM" NOM ((("sh" "i") 0) (("f" "rh" "ae") 0))))
-
-(dSayText "J'ai vérifié, ce sont les bons chiffres.") ; neut_parl_s03_0629

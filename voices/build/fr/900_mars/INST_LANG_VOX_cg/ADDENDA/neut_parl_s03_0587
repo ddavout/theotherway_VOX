@@ -1,8 +1,0 @@
-(lex.add.entry '("aucun_ADJ:ind" "ADJ:ind" ((("o") 0) (("k" "oen") 0))))
-(lex.add.entry '("bilan_NOM" NOM ((("b" "i") 0) (("l" "ahn") 0))))
-(lex.add.entry '("annuel_ADJ" "ADJ" ((("a") 0) (("n" "hw" "eh" "l") 0))))
-(lex.add.entry '("n_ADV" "ADV" nil))
-(lex.add.entry '("n_est_VER" "VER" (((n e) 0))))
-(lex.add.entry '("publié_VER" "VER" ((("p" "y") 0) (("b" "l" "i") 0) (("j" "e") 0))))
-
-(dSayText "Aucun bilan annuel n'est publié.") ; neut_parl_s03_0587

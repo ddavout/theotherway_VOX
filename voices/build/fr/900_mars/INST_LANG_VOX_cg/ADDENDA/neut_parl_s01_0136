@@ -1,9 +1,0 @@
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("question_NOM" "NOM" ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
-(lex.add.entry '("reste_VER" VER ((("rh" "eh" "s") 0) (("t" ae) 0))))
-(lex.add.entry '("donc_CON" "CON" ((("d" "ohn") 0))))
-(lex.add.entry '("entière_ADJ" "ADJ" (((k "ahn") 0) (("t" "j" "eh" "rh") 0))))
-
-(set! text "la question reste donc entière.") ; 
-(dSayText text); neut_parl_s01_0136
-

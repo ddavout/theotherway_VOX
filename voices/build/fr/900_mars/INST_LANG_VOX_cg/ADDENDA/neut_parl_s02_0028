@@ -1,9 +1,0 @@
-(lex.add.entry '("Heureusement_ADV" "ADV" ((("oe") 0) (("rh" "eu" "z") 0) (("m" "ahn") 0))))
-(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
-(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0))))
-(lex.add.entry '("bail_NOM" "NOM" ((("b" "a" "j") 0))))
-(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
-(lex.add.entry '("matignon_NAM" "NAM" (((m a) 0) ((t i) 0) ((jg ohn) 0))))
-
-(set! text "Heureusement pour votre bail à Matignon.") ; neut_parl_s02_0028
-(dSayText text)

@@ -1,8 +1,0 @@
-(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
-(lex.add.entry '("souhaite_VER" "VER" ((("s" "w" "eh" "t") 0))))
-(lex.add.entry '("qu_CON" "CON" nil))
-(lex.add.entry '("qu_ils_PRO:per" "PRO:per" (((k i l) 0))))
-(lex.add.entry '("travaillent_VER" VER ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
-(lex.add.entry '("ensemble_ADV" "ADV" ((("ahn") 0) (("s" "ahn")0) (("b" "l" "ae") 0))))
-
-(dSayText "Je souhaite qu'ils travaillent ensemble.") ; neut_parl_s06_0140

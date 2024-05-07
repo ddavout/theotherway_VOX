@@ -1,9 +1,0 @@
-(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
-(lex.add.entry '("strasbourg_NAM" "NAM" (((s t rh a s) 0) ((b u rh) 0))))
-(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
-(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
-(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
-(lex.add.entry '("même_ADJ" "ADJ" ((("m" "eh" "m") 0))))
-(lex.add.entry '("chose_NOM" "NOM" (((sh o)0)((z ae) 0))))
-
-(dSayText "à Strasbourg, c'est la même chose.") ; neut_parl_s05_0015

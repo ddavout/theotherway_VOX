@@ -1,9 +1,0 @@
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("plan_NOM" "NOM" ((("p" "l" "ahn") 0))))
-(lex.add.entry '("juncker_NAM" "NAM" (((j u n) 0) ((k eh rh) 0))))
-(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
-(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
-(lex.add.entry '("force_NOM" "NOM" ((("f" "oh" "rh")0) (("s" ae) 0))))
-
-(set! text "Le plan Juncker est une force.") ; neut_parl_s02_0268
-(dSayText text)

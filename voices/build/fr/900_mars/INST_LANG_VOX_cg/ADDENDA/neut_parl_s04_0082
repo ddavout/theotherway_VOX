@@ -1,9 +1,0 @@
-(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
-(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
-(lex.add.entry '("fut_VER" "VER" ((("f" "y") 0))))
-(lex.add.entry '("Heureusement_ADV" "ADV" ((("oe") 0) (("rh" "eu" "z") 0) (("m" "ahn") 0))))
-(lex.add.entry '("qu_CON" "CON" nil))
-(lex.add.entry '("qu_une_ART:ind" "ART:ind" (((k y) 0))))
-(lex.add.entry '("étape_NOM" "NOM" (((n "e") 0) (("t" "a")0) (("p" ae) 0))))
-
-(dSayText "Ce ne fut heureusement qu'une étape.") ; neut_parl_s04_0082

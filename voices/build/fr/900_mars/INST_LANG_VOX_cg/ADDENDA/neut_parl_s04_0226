@@ -1,7 +1,0 @@
-(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
-(lex.add.entry '("nouveau_ADJ" "ADJ" ((("n" "u") 0) (("v" "o") 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
-(lex.add.entry '("les_PRO:per" "PRO:per" ((("l" "e") 0))))
-(lex.add.entry '("encourage_VER" "VER" ((("ahn") 0) (("k" "u") 0) (("rh" "a")0) (("zh" "ae") 0))))
-(dSayText "Le nouveau code de travail les encourage.") ; neut_parl_s04_0226

@@ -1,9 +1,0 @@
-(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
-(lex.add.entry '("revanche_NOM" "NOM" ((("rh" "ae") 0) (("v" "ahn")0) (("sh" ae) 0))))
-(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
-(lex.add.entry '("nombreuses_ADJ" ADJ ((("n" "ohn") 0) (("b" "rh" "eu" "z") 0))))
-(lex.add.entry '("questions_NOM" NOM ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
-(lex.add.entry '("demeurent_VER" VER ((("d" "ae") 0) (("m" "oe" "rh") 0))))
-
-
-(dSayText "En revanche, de nombreuses questions demeurent.") ; neut_parl_s03_0324
