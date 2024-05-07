@@ -37,9 +37,9 @@ structure="${voices}"/config/env_settings2.cfg
 # modele pour la variante $VARIANTE de INST_LANG_VOX_cg
 LANG_VOX=fr
 # TODO symlink clunits.scm pb ,
-modele=${voices}/build/fr/900_mars
+modele="${voices}"/build/fr/900_mars
 
-waves16='/home/dop7/MyDevelop/Voices/frenchy/waves16'
+waves16="${voices}"/frenchy/waves16
 ############################################################################
 # to be used to accueillir une nouvelle voix
 scratch="${scratch:-scratch}"
@@ -71,7 +71,7 @@ for cfg in "${names[@]}"; do
     source "$cfg";
     awk '/^[a-zA-Z0-9_]+=/ {
         split($0, a, /=/);
-        # print a[1];
+        print a[1];
         export a[1]
     }' <"$cfg"
 done
@@ -315,7 +315,7 @@ export -f enforce_requisite
 
 
 default() {
-    echo 'are you afraid of missing files or exports ?'
+    echo 'in case you afraid of missing files or exports, I make some checks!'
     echo "${list_ext}"
     echo "${DIR_VOX}"
     # ls -l "${DIR_VOX}"/wav
@@ -325,6 +325,7 @@ default() {
     # check requisites and allow/stop
     ok=1
     echo "just checking"
+    echo FESTVOXDIR="$FESTVOXDIR"
     for file in "${requisite_files[@]}"; do
         echo "${DIR_VOX}"/"$file"
         if [[ ! -s "${DIR_VOX}"/"$file" ]]; then ok=0; missing=$file; continue; fi

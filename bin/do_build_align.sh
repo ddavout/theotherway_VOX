@@ -39,7 +39,7 @@
 set -euo pipefail -
     LANG=C; export LANG
     export FESTVOXDIR FESTIVALDIR
-    EHMMDIR=$FESTVOXDIR/src/ehmm
+    EHMMDIR="$FESTVOXDIR"/src/ehmm
     export EHMMDIR
     vanilla=1
     # num_cpus encore recalculé, envisager changement de bin/find_num_available_cpu
@@ -63,10 +63,12 @@ fi
 if [[ "$vanilla" == "1" ]]; then
     num_cpus=$(./bin/find_num_available_cpu); 
     num_cpus=$(( num_cpus -1 ))
+
     #$EHMMDIR/bin/edec ehmm/etc/ph_list.int ehmm/etc/txt.phseq.data.int 1 ehmm/feat ft ehmm/etc/mysp_settings ehmm/mod 0 lab
     #SC2086 (info): Double quote to prevent globbing and word splitting.
-    echo  "$EHMMDIR"/bin/edec ehmm/etc/ph_list.int ehmm/etc/txt.phseq.data.int 1 ehmm/binfeat scaledft ehmm/etc/mysp_settings ehmm/mod 0 lab "${num_cpus}"
-    "$EHMMDIR"/bin/edec ehmm/etc/ph_list.int ehmm/etc/txt.phseq.data.int 1 ehmm/binfeat scaledft ehmm/etc/mysp_settings ehmm/mod 0 lab "${num_cpus}"
+    echo inside the VOX directory we will run  "$EHMMDIR"/bin/edec ehmm/etc/ph_list.int ehmm/etc/txt.phseq.data.int 1 ehmm/binfeat scaledft ehmm/etc/mysp_settings ehmm/mod 0 lab "${num_cpus}"
+    echo PWD "${PWD}"
+    NEW=1; export NEW ; "$EHMMDIR"/bin/edec ehmm/etc/ph_list.int ehmm/etc/txt.phseq.data.int 1 ehmm/binfeat scaledft ehmm/etc/mysp_settings ehmm/mod 0 lab 1 # "${num_cpus}"
            # scaledft: use binary feature files
            # (1): Sequential Flag..
 	       # (0): nde flag if 1 uses Viterbi_NDE
@@ -101,7 +103,7 @@ if [[ ! -s ehmm/mod/model101.txt ]] ; then
 fi
 if [[ ! -s 'etc/statenames.ehmm' ]] ; then
     echo "etc/statenames.ehmm not generated, needed by do_ehmm_standardize ornot ?"
-    
+    ls -al etc/statenames.ehmm
     #exit 66
 fi
 fi
