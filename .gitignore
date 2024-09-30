@@ -1,0 +1,10 @@
+# Specify filepatterns you want git to ignore.
+
+SPTK-3.6/
+lpc/
+pm_unfilled/
+sts/
+*.wav
+voices/build/fr/900_mars
+voices/build/fr/900_mars_biz
+pasgit/
