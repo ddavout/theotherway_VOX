@@ -1,0 +1,15 @@
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("eux_PRO:per" "PRO:per" (((t "eu") 0)))); LIA
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("humains_ADJ" ADJ ((("y") 0) (("m" "ehn") 0))))
+(lex.add.entry '("l_humanisme_NOM" "NOM" (((l "y") 0) (("m" "a") 0) (("n" "i" "s" "m") 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n eh) 0)(("p" "a") 0))))
+(lex.add.entry '("réservé_VER" "VER" ((("rh" "e") 0) (("z" "eh" "rh") 0) (("v" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("gauche_NOM" "NOM" ((("g" "o")0) (("sh" "ae") 0))))
+
+(set! text "ils sont eux aussi humains : l'humanisme n'est pas réservé à la gauche.") ; neut_parl_s02_0307
+(dSayText text)
+

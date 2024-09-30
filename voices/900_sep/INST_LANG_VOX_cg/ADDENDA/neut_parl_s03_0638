@@ -1,0 +1,10 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("analysé_VER" "VER" ((("a") 0) (("n" "a") 0) (("l" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("emploi_NOM" "NOM" ((("ahn") 0) (("p" "l" "w" "a") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("seniors_NOM" NOM ((("s" "e") 0) (("n" "j" "oh" "rh") 0))))
+
+(dSayText "Il a aussi analysé l'emploi des seniors.") ; neut_parl_s03_0638

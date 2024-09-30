@@ -1,0 +1,9 @@
+(lex.add.entry '("l_égalité_NOM" "NOM" (((l "e") 0) (("g" "a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("traitement_NOM" "NOM" ((("t" "rh" "eh" "t") 0) (("m" "ahn") 0))))
+(lex.add.entry '("sera_VER" "VER" ((("s" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("garantie_VER" VER ((("g" "a") 0) (("rh" "ahn") 0) (("t" "i") 0))))
+
+(set! text "l'égalité de traitement sera donc garantie.") ; neut_parl_s02_0130
+(dSayText text)

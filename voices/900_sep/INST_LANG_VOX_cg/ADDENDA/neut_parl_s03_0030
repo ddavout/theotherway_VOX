@@ -1,0 +1,16 @@
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("donne_VER" "VER" ((("d" "oh" "n") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("démarche_NOM" "NOM" ((("d" "e") 0) (("m" "a" "rh" "sh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("adhésion_NOM" "NOM" ((("a") 0) (("d" "e") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("croatie_NAM" "NAM" (((k rh oh) 0) ((a) 0) ((s i) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("forte_ADJ" "ADJ" ((("f" "oh" "rh")0) (("t" ae) 0))))
+(lex.add.entry '("charge_NOM" "NOM" ((("sh" "a" "rh" "zh") 0))))
+(lex.add.entry '("symbolique_ADJ" "ADJ" ((("s" "ehn") 0) (("b" "oh") 0) (("l" "i")0) (("k" ae) 0))))
+
+(dSayText "Elle donne à la démarche d'adhésion de la Croatie, une forte charge symbolique.") ; neut_parl_s03_0030

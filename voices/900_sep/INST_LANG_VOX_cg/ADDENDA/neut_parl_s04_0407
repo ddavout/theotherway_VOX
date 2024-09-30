@@ -1,0 +1,7 @@
+(lex.add.entry '("souhaitez-vous_VER" VER ((("s" "w" "e") 0) (("t" "e") 0)((v u) 0))))
+(lex.add.entry '("poser_VER" VER ((("p" "o") 0) (("z" "e") 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0)))) ; done
+(lex.add.entry '("question_NOM" "NOM" ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
+
+(set! text "Souhaitez-vous poser votre question ?") ; neut_parl_s04_0407
+(dSayText text)

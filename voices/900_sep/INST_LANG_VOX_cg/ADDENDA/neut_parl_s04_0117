@@ -1,0 +1,11 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("amendement_NOM" "NOM" ((("a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("numéro_NOM" "NOM" ((("n" "y") 0) (("m" "e") 0) (("rh" "o") 0))))
+(lex.add.entry '("onze_NOM" "NOM" ((("ohn")0) (("z" "ae") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("adopté_VER" "VER" ((("a") 0) (("d" "oh" "p") 0) (("t" "e") 0))))
+
+; POS onze
+(lex.add.entry '("onze_ADJ:num" ADJ:num ((("ohn")0) (("z" ae) 0))))
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "l'amendement numéro onze, est adopté.") ; neut_parl_s04_0117

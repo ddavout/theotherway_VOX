@@ -1,0 +1,41 @@
+(set! fileid "neut_book_s01_0023")
+(set! text "ces idées, on le comprend, se présentèrent à mon esprit, sous une forme vague, et obscure.")
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("idées_NOM" NOM (((z "i") 0) (("d" "e") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("comprend_VER" "VER" ((("k" "ohn") 0) (("p" "rh" "ahn") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("présentèrent_VER" VER ((("p" "rh" "e") 0) (("z" "ahn") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0))))
+(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
+(lex.add.entry '("esprit_NOM" "NOM" (((n "eh" "s") 0) (("p" "rh" "i") 0)))); indépendance peut_se_denat
+(lex.add.entry '("sous_PRE" PRE ((("s" "u") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((z "y" "n") 0)))); LIA
+(lex.add.entry '("forme_NOM" "NOM" ((("f" "oh" "rh" "m") 0))))
+(lex.add.entry '("vague_ADJ" "ADJ" ((("v" "a")0) (("g" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("obscure_ADJ" "ADJ" ((("oh" "p") 0) (("s" "k" "y" "rh") 0))))
+
+(set! never_exception_list (append (list "présentèrent" "sous" ) never_exception_list_default))
+(dSayText text) ; neut_book_s01_0023
+;()
+;id _17 ; name ces ; pos_index 1 ; pos_index_score 0 ; pos ADJ:dem ; pbreak NB ; 
+;id _18 ; name idées ; pos_index 13 ; pos_index_score 0 ; pos NOM ; pbreak B ; 
+;id _19 ; name on ; pos_index 19 ; pos_index_score 0 ; pos PRO:per ; pbreak NB ; 
+;id _20 ; name le ; pos_index 19 ; pos_index_score 0 ; pos PRO:per ; pbreak NB ; 
+;id _21 ; name comprend ; pos_index 22 ; pos_index_score 0 ; pos VER ; pbreak B ; 
+;id _22 ; name se ; pos_index 19 ; pos_index_score 0 ; pos PRO:per ; pbreak NB ; 
+;id _23 ; name présentèrent ; pos_index 22 ; pos_index_score 0 ; pos VER ; pbreak NB ; 
+;id _24 ; name à ; pos_index 15 ; pos_index_score 0 ; pos PRE ; pbreak NB ; 
+;id _25 ; name mon ; pos_index 5 ; pos_index_score 0 ; pos ADJ:pos ; pbreak NB ; 
+;id _26 ; name esprit ; pos_index 13 ; pos_index_score 0 ; pos NOM ; pbreak B ; 
+;id _27 ; name sous ; pos_index 15 ; pos_index_score 0 ; pos PRE ; pbreak NB ; 
+;id _28 ; name une ; pos_index 8 ; pos_index_score 0 ; pos ART:ind ; pbreak NB ; 
+;id _29 ; name forme ; pos_index 13 ; pos_index_score 0 ; pos NOM ; pbreak NB ; 
+;id _30 ; name vague ; pos_index 0 ; pos_index_score 0 ; pos ADJ ; pbreak B ; 
+;id _31 ; name et ; pos_index 10 ; pos_index_score 0 ; pos CON ; pbreak NB ; 
+;id _32 ; name obscure ; pos_index 0 ; pos_index_score 0 ; pos ADJ ; pbreak BB ; 
+;
+(set! flat_expected "<{(0 s  e )}{(0 z  i )(0 d  e )}> _B <{(0 ohn )}{(0 l  ae )}{(0 k  ohn )(0 p  rh  ahn )}> _B <{(0 s  ae )}{(0 p  rh  e )(0 z  ahn )(0 t  eh  rh )}{(0 t  a )}{(0 m  ohn )}{(0 n eh  s )(0 p  rh  i )}> _B <{(0 s  u )}{(0 z  y  n )}{(0 f  oh  rh  m )}{(0 v  a )(0 g  ae )}> _B <{(0 e )}{(0 oh  p )(0 s  k  y  rh )}> _BB ")
+

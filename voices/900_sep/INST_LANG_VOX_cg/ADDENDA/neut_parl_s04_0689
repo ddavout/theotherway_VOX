@@ -1,0 +1,10 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_PRO:per" "PRO:per" nil))
+(lex.add.entry '("agit_VER" "VER" ((("a") 0) (("zh" "i") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("un_ART:ind" ART:ind ((("oen") 0))))
+(lex.add.entry '("progrès_NOM" NOM ((("p" "rh" "oh") 0) (("g" "rh" "eh") 0))))
+(lex.add.entry '("indéniable_ADJ" "ADJ" ((("ehn") 0) (("d" "e") 0) (("n" "j" "a")0) (("b" "l" ae) 0))))
+
+(set! list_exclus*-> (append (list "progrès") list_exclus*->_default)) ; todo
+(dSayText "Il s'agit d'un progrès, indéniable.") ; neut_parl_s04_0689

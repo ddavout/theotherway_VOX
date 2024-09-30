@@ -1,0 +1,12 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("souhaite_VER" "VER" ((("s" "w" "eh" "t") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("guadeloupe_NAM" "NAM" (((g w a d) 0) ((l u "p") 0))))
+(lex.add.entry '("suive_VER" "VER" ((("s" "hw" i "v") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("rapidement_ADV" "ADV" ((("rh" "a") 0) (("p" "i" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("martinique_NAM" "NAM" (((m a rh) 0) ((t i) 0) ((n i)0) ((k ae) 0))))
+
+(dSayText "Je souhaite que la Guadeloupe suive très rapidement la Martinique.") ; neut_parl_s06_0609

@@ -1,0 +1,14 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("considère_VER" "VER" ((("k" "ohn") 0) (("s" "i") 0) (("d" "eh" "rh") 0))))
+(lex.add.entry '("absolument_ADV" "ADV" ((("a" "p") 0) (("s" "o") 0) (("l" "y") 0) (("m" "ahn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("ayons_AUX" AUX (((z "e") 0) (("j" "ohn") 0))))
+(lex.add.entry '("renoncer_VER" "VER" ((("rh" "ae") 0) (("n" "ohn") 0) (("s" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0)))); done
+(lex.add.entry '("rang_NOM" "NOM" ((("rh" "ahn") 0))))
+
+(dSayText "Je ne considère, absolument pas, que nous ayons renoncé à notre rang.") ; neut_parl_s04_0618

@@ -1,0 +1,8 @@
+(lex.add.entry '("Pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("ça_PRO:dem" "PRO:dem" ((("s" "a") 0))))
+(lex.add.entry '("Pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+
+(set! never_exception_list (append (list "pas" ) never_exception_list_default))
+(dSayText "Pas ça, pas à nous !") ; neut_parl_s03_0390

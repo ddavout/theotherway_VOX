@@ -1,0 +1,7 @@
+(lex.add.entry '("j_en_PRO:per" "PRO:per" (((zh ahn) 0))))
+(lex.add.entry '("ai_VER" "VER" (((n "eh") 0))))
+(lex.add.entry '("moi-même_PRO:per" "PRO:per" ((("m" "w" "a") 0)((m eh m) 0)))); plus de pb POS confusion PRO:per et NOM
+(lex.add.entry '("acheté_VER" VER ((("a" sh) 0) (("t" "e") 0))))
+
+(set! text "J'en ai moi-même acheté.") ; neut_parl_s02_0030
+(dSayText text)

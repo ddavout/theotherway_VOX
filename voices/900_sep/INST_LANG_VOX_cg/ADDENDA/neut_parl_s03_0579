@@ -1,0 +1,14 @@
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("muet_NAM" "NAM" ((("m" "y") 0) (("eh") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("s_PRO:per" "PRO:per" nil))
+(lex.add.entry '("agit_VER" "VER" ((("a") 0) (("zh" "i") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("un_ART:ind" ART:ind ((("oen") 0))))
+(lex.add.entry '("rappel_NOM" "NOM" ((("rh" "a") 0) (("p" "eh" "l") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("règlement_NOM" "NOM" ((("rh" "eh") 0) (("g" "l" "ae") 0) (("m" "ahn") 0))))
+
+(dSayText "Monsieur Muet, il ne s'agit pas d'un rappel au règlement.") ; neut_parl_s03_0579

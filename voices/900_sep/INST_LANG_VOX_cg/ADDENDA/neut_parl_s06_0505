@@ -1,0 +1,13 @@
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("autant_ADV" "ADV" ((("o") 0) (("t" "ahn") 0))))
+(lex.add.entry '("l_entretien_NOM" "NOM" (((l "ahn") 0) (("t" "rh" "ae") 0) (("t" "j" "ehn") 0))))
+(lex.add.entry '("d_un_ART:ind" ART:ind (((d "oen") 0))))
+(lex.add.entry '("bien_NOM" "NOM" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("immobilier_ADJ" "ADJ" ((("i") 0) (("m" "oh") 0) (("b" "i") 0) (("l" "j" "e") 0)))); no LIA
+(lex.add.entry '("coûte_VER" "VER" ((("k" "u" "t") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("cher_ADJ" "ADJ" ((("sh" "eh" "rh") 0))))
+
+(set! text "Pour autant, l'entretien d'un bien immobilier coûte très cher.") ; neut_parl_s06_0505
+
+(dSayText text)

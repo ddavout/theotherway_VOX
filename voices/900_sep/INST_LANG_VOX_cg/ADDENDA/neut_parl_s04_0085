@@ -1,0 +1,16 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("temps_NOM" "NOM" (((t ahn) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("mettre_VER" VER ((("m" "eh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("fin_NOM" "NOM" ((("f" "ehn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("pillage_NOM" NOM ((("p" "i") 0) (("j" "a") 0) (("zh" ae) 0))))
+(lex.add.entry '("sans_PRE" PRE ((("s" "ahn") 0))))
+(lex.add.entry '("règle_NOM" NOM ((("rh" "eh") 0) (("g" "l" ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("forêts_NOM" NOM ((("f" "oh") 0) (("rh" "eh") 0))))
+
+(dSayText "Il est temps de mettre fin à ce pillage sans règle de nos forêts.") ; neut_parl_s04_0085

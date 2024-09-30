@@ -1,0 +1,11 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("mesure_NOM" "NOM" ((("m" "ae") 0) (("z" "y" "rh") 0))))
+(lex.add.entry '("permet_VER" "VER" ((("p" "eh" "rh") 0) (("m" "eh") 0))))
+(lex.add.entry '("d_éviter_VER" "VER" (((d "e") 0) (("v" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("regroupements_NOM" NOM ((("rh" "ae") 0) (("g" "rh" "u" "p") 0) (("m" "ahn") 0))))
+(lex.add.entry '("trop_ADV" "ADV" ((("t" "rh" "o") 0))))
+(lex.add.entry '("importants_ADJ" ADJ (((p "ehn") 0) (("p" "oh" "rh") 0) (("t" "ahn") 0)))); LIA
+
+(set! text "Cette mesure permet d'éviter des regroupements trop importants.") ; 
+(dSayText text); neut_parl_s01_0461

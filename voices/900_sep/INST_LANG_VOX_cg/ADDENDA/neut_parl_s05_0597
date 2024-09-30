@@ -1,0 +1,10 @@
+; quinquennat 
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("duré_VER" VER ((("d" "y") 0) (("rh" "e") 0))))
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
+(lex.add.entry '("longtemps_ADV" "ADV" (((l ohn) 0) ((t ahn) 0))))
+(lex.add.entry '("qu_un_ART:ind" "ART:ind" (((k oen) 0))))
+(lex.add.entry '("quinquennat_NOM" "NOM" ((("k" "a") 0) (("k" "e") 0) (("n" "a") 0)))); Q!
+
+(dSayText "elle a duré plus longtemps qu'un quinquennat.") ; neut_parl_s05_0597

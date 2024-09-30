@@ -1,0 +1,10 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("la_PRO:per" PRO:per ((("l" "a") 0))))
+(lex.add.entry '("pè_VER" VER ((("p" "eh") 0))))
+(lex.add.entry '("cash_ADV" ADV (((k a sh) 0))))
+
+
+
+
+(dSayText "Et ils la, paient, cash !") ; neut_parl_s03_0559

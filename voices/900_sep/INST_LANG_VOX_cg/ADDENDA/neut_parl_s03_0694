@@ -1,0 +1,9 @@
+
+(lex.add.entry '("premier_ADJ" "ADJ" ((("p" "rh" "ae") 0) (("m" "j" "e") 0))))
+(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("hausse_NOM" "NOM" ((("o" "s") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("impôts_NOM" NOM (((z "ehn") 0) (("p" "o") 0))))
+
+(dSayText "Premier point, la hausse des impôts.") ; neut_parl_s03_0694

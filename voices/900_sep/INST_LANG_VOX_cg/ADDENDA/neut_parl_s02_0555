@@ -1,0 +1,11 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faudrait_VER" VER ((("f" "o") 0) (("d" "rh" "eh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("groupe_NOM" "NOM" ((("g" "rh" "u" "p") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("travaille_VER" "VER" ((("t" "rh" "a") 0) (("v" "a")0) (("j" ae) 0))))
+
+(set! text "il faudrait que ce groupe de travail, travaille.") ; neut_parl_s02_0555
+(dSayText text)

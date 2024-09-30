@@ -1,0 +1,13 @@
+(lex.add.entry '("Fusionné_VER" VER ((("f" "y") 0) (("z" "j" "oh") 0) (("n" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("régions_NOM" NOM ((("rh" "e") 0) (("zh" "j" "ohn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("permettra_VER" "VER" ((("p" "eh" "rh") 0) (("m" "eh") 0) (("t" "rh" "a") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("économies_NOM" NOM ((("e") 0) (("k" "o") 0) (("n" "oh") 0) (("m" "i") 0))))
+
+(dSayText "Fusionner les régions, ne permettra donc pas de faire des économies.") ; neut_parl_s03_0194

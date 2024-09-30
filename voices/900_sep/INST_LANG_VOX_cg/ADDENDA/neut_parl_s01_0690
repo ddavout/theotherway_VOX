@@ -1,0 +1,13 @@
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("conséquent_ADJ" "ADJ" ((("k" "ohn") 0) (("s" "e") 0) (("k" "ahn") 0))))
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("boyer_NAM" "NAM" ((("b" "w" "a") 0) (("j" "e") 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh) 0))))
+(lex.add.entry '("amendement_NOM" "NOM" (((t rh "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
+(lex.add.entry '("satisfait_VER" VER ((("s" "a") 0) (("t" "i" "s") 0) (("f" "eh") 0))))
+(lex.add.entry '("satisfait_ADJ" "ADJ" ((("s" "a") 0) (("t" "i" "s") 0) (("f" "eh") 0)))); confusion possible
+
+(set! text "par conséquent madame Boyer, votre amendement est déjà satisfait.") ; neut_parl_s01_0690
+(dSayText text)

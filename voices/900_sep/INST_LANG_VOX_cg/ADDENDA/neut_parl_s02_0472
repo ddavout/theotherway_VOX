@@ -1,0 +1,9 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("voyons_VER" VER ((("v" "w" "a") 0) (("j" "ohn") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("arrivera_VER" "VER" ((("a") 0) (("rh" "i") 0) (("v" "rh" "a") 0))))
+
+(set! text "Nous voyons bien ce qui arrivera.") ; neut_parl_s02_0472
+(dSayText text)

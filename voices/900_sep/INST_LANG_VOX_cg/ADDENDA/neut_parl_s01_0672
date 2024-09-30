@@ -1,0 +1,16 @@
+(lex.add.entry '("or_NOM" "NOM" ((("oh" "rh") 0))))
+(lex.add.entry '("force_VER" VER ((("f" "oh" "rh") 0))))
+(lex.add.entry '("est_VER" "VER" ((("s" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("constater_VER" VER ((("k" "ohn" "s") 0) (("t" "a") 0) (("t" "e") 0))))
+(lex.add.entry '("qu_elle_PRO:per" "PRO:per" (((k eh) 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("l" "a") 0))))
+(lex.add.entry '("eu_VER" "VER" (((y) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("effets_NOM" NOM (((z "e") 0) (("f" "eh") 0)))); LIA
+(lex.add.entry '("positifs_ADJ" ADJ ((("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("escomptés_VER" VER ((("eh" "s") 0) (("k" "ohn") 0) (("t" "e") 0)))); no LIA
+
+
+(set! text "or, force est de constater qu'elle a eu les effets positifs escomptés.") ; neut_parl_s01_0672
+(dSayText text)

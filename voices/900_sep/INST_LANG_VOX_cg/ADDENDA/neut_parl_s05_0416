@@ -1,0 +1,13 @@
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("met_VER" "VER" ((("m" "eh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((t ahn) 0)))); LIA
+(lex.add.entry '("jeu_NOM" "NOM" ((("zh" "eu") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("intérêts_NOM" NOM (((z "ehn") 0) (("t" "e") 0) (("rh" "eh") 0))))
+(lex.add.entry '("humains_ADJ" ADJ ((("y") 0) (("m" "ehn") 0)))); no lia
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("économiques_ADJ" ADJ ((("e") 0) (("k" "oh") 0) (("n" "oh") 0) (("m" "i" "k") 0))))
+(lex.add.entry '("particuliers_NOM" NOM ((("p" "a" "rh") 0) (("t" "i") 0) (("k" "y") 0) (("l" "j" "e") 0))))
+
+
+(dSayText "Elle met en jeu des intérêts humains et économiques particuliers.") ; neut_parl_s05_0416

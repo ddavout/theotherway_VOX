@@ -1,0 +1,14 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("fallè_VER" VER ((("f" "a") 0) (("l" "eh") 0))))
+(lex.add.entry '("absolument_ADV" "ADV" ((("a" "p") 0) (("s" "o") 0) (("l" "y") 0) (("m" "ahn") 0))))
+(lex.add.entry '("obtenir_VER" "VER" ((("oh" "p") 0) (("t" "ae") 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("vote_NOM" "NOM" ((("v" "oh" "t") 0))))
+(lex.add.entry '("conforme_ADJ" "ADJ" ((("k" "ohn") 0) (("f" "oh" "rh")0) (("m" ae) 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("rapide_ADJ" "ADJ" ((("rh" "a") 0) (("p" "i")0) (("d" ae) 0))))
+
+(set! list_exclus*-> (append (list "absolument") list_exclus*->_default))
+(set! never_exception_list (append (list "fallait" ) never_exception_list_default))
+
+(dSayText "Il fallait absolument obtenir un vote conforme très rapide.") ; neut_parl_s04_0528

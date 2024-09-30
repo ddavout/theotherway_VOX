@@ -1,0 +1,10 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("mesures_NOM" NOM ((("m" "ae") 0) (("z" "y" "rh") 0))))
+(lex.add.entry '("seront_AUX" "AUX" ((("s" "ae") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("présentées_VER" VER ((("p" "rh" "e") 0) (("z" "ahn") 0) (("t" "e") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0)))); no LIA
+(lex.add.entry '("juin_NOM" "NOM" ((("zh" "hw" "ehn") 0))))
+(lex.add.entry '("prochain_ADJ" "ADJ" ((("p" "rh" "oh") 0) (("sh" "ehn") 0))))
+
+(set! text "Ces mesures seront présentées en juin prochain.") ; 
+(dSayText text); neut_parl_s01_0381

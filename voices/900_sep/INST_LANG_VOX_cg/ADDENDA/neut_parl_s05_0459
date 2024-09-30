@@ -1,0 +1,22 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("tâche_NOM" "NOM" ((("t" "a" "sh") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("haut_NOM" "NOM" ((("o") 0))))
+(lex.add.entry '("Conseil_NAM" "NAM" ((("k" "ohn") 0) (("s" "eh")0) (("j" ae) 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("aura_VER" VER ((("oh") 0) (("rh" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("rôle_NOM" "NOM" ((("rh" "o" "l") 0))))
+(lex.add.entry '("tant_ADV" "ADV" ((("t" "ahn") 0))))
+(lex.add.entry '("ex_NOM" "NOM" (((eh k s) 0))))
+(lex.add.entry '("ante_NOM" "NOM" ((("ahn")0) (("t" ae) 0))))
+(lex.add.entry '("qu_PRO:rel" "PRO:rel" nil))
+(lex.add.entry '("qu_ex_VER" "VER" ((("k" "eh" k s) 0))))
+(lex.add.entry '("post_ADV" "ADV" ((("p" "oh" "s" "t") 0))))
+
+(set! list_exclus*-> (append (list "ex" "tant") list_exclus*->_default))
+; todo addenda freeling qu_ex
+(dSayText "C'est bien la tâche du Haut conseil qui aura, un rôle tant ex ante, qu'ex post.") ; neut_parl_s05_0459

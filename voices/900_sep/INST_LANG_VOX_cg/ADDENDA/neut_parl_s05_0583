@@ -1,0 +1,7 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("esbroufe_NOM" "NOM" ((("eh" "s") 0) (("b" "rh" "u" "f") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+
+(dSayText "l'esbroufe, c'est vous !") ; neut_parl_s05_0583

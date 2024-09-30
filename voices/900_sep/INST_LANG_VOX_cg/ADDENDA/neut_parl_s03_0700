@@ -1,0 +1,17 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("toute_ADJ" "ADJ" ((("t" "u" "t") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("classe_NOM" "NOM" ((("k" "l" "a" "s") 0))))
+(lex.add.entry '("moyenne_ADJ" "ADJ" ((("m" "w" "a") 0) (("j" "eh")0) (("n" "ae") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("cible_NOM" "NOM" ((("s" "i" "b" "l") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("matraquage_NOM" "NOM" ((("m" "a") 0) (("t" "rh" "a") 0) (("k" "a" "zh") 0))))
+(lex.add.entry '("fiscal_ADJ" "ADJ" ((("f" "i" "s") 0) (("k" "a" "l") 0))))
+
+
+(dSayText "C'est toute la classe moyenne qui a été la cible du matraquage fiscal.") ; neut_parl_s03_0700

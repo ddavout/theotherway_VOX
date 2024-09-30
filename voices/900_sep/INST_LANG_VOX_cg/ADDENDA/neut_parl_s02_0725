@@ -1,0 +1,8 @@
+(lex.add.entry '("sachons_VER" VER ((("s" "a") 0) (("sh" "ohn") 0))))
+(lex.add.entry '("mesurer_VER" VER ((("m" "ae") 0) (("z" "y") 0) (("rh" "e") 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("caractère_NOM" "NOM" ((("k" "a") 0) (("rh" "a" "k") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("relatif_ADJ" "ADJ" ((("rh" "ae") 0) (("l" "a") 0) (("t" "i" "f") 0))))
+
+(set! text "sachons mesurer son caractère relatif.") ; neut_parl_s02_0725
+(dSayText text)

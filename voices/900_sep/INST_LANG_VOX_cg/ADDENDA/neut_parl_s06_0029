@@ -1,0 +1,16 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("nouvelle_NAM" NAM ((("n" "u") 0) (("v" "eh" "l") 0))))
+(lex.add.entry '("méthodologie_NOM" NOM ((("m" "e") 0) (("t" "oh") 0) (("d" "oh") 0) (("l" "oh") 0) (("zh" "i") 0))))
+(lex.add.entry '("donne_VER" "VER" ((("d" "oh" "n") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("résultats_NOM" NOM ((("rh" "e") 0) (("z" "y" "l") 0) (("t" "a") 0))))
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
+(lex.add.entry '("précis_ADJ" ADJ ((("p" "rh" "e") 0) (("s" "i") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("nuance_VER" "VER" ((("n" "y") 0) (("ahn" "s") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("constat_NOM" "NOM" ((("k" "ohn" "s") 0) (("t" "a") 0))))
+(lex.add.entry '("d_échec_ADJ" ADJ (((d "e") 0) (("sh" "eh" "k") 0))))
+
+(set! text "cette nouvelle méthodologie, donne des résultats plus précis, et nuance le constat d'échec.") ; neut_parl_s06_0029
+(dSayText text)

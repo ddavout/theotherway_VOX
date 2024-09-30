@@ -1,0 +1,19 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("pense_VER" "VER" ((("p" "ahn" "s") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("allemagne_NAM" "NAM" (((a l) 0) ((m a)0) ((jg ae) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("espagne_NAM" "NAM" ((("eh" "s") 0) (("p" "a") 0) (("jg" "ae") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh" "rh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("Italie_NAM" NAM ((("i") 0) (("t" "a") 0) (("l" "i") 0))))
+(lex.add.entry '("Italie_NAM" "NAM" ((("i") 0) (("t" "a") 0) (("l" "i") 0))))
+
+(set! never_exception_list (append (list "bien" ) never_exception_list_default))
+(dSayText "Je pense à l'Allemagne, à l'Espagne, ou bien encore, à l'Italie.") ; neut_parl_s05_0032
+

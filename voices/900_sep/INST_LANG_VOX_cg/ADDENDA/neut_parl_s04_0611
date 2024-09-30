@@ -1,0 +1,13 @@
+; l'an=long
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae n) 0))))
+(lex.add.entry '("ne_ADV" "ADV" nil))
+(lex.add.entry '("sera_VER" "VER" ((("s" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "l" "a") 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("an_VER" VER ((("ahn") 0))))
+(lex.add.entry '("prochain_ADJ" "ADJ" ((("p" "rh" "oh") 0) (("sh" "ehn") 0))))
+
+; todo pos l'an
+(dSayText "Ce ne sera pas comme cela l'an prochain !") ; neut_parl_s04_0611

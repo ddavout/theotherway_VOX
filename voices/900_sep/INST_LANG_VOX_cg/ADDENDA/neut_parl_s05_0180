@@ -1,0 +1,12 @@
+(lex.add.entry '("Or_CON" CON ((("oh" "rh") 0))))(lex.add.entry '("Or_NOM" NOM ((("oh" "rh") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("jugement_NOM" "NOM" ((("zh" "y" "zh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("concerne_VER" "VER" ((("k" "ohn") 0) (("s" "eh" "rh")0) (("n" "ae") 0))))
+(lex.add.entry '("tous_PRO:ind" "PRO:ind" (((t u s) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+
+(set! text "Or ce jugement nous concerne tous, vous comme nous.") ; neut_parl_s05_0180
+(dSayText text)

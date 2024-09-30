@@ -1,0 +1,8 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("avons_AUX" AUX (((z "a") 0) (("v" "ohn") 0))))
+(lex.add.entry '("agi_VER" "VER" (((z "a") 0) (("zh" "i") 0)))); LIA
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("niveau_NOM" "NOM" ((("n" "i") 0) (("v" "o") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+
+(dSayText "Nous avons agi au niveau, européen.") ; neut_parl_s03_0244

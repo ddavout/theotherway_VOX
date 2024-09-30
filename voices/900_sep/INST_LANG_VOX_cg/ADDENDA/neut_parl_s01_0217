@@ -1,0 +1,12 @@
+(lex.add.entry '("que_PRO:int" PRO:int (((k ae) 0)))); confusion
+(lex.add.entry '("que_PRO:rel" PRO:rel (((k ae) 0)))); confusion
+
+(lex.add.entry '("que" nil (((k ae) 0)))); confusion
+(lex.add.entry '("voulez-vous_VER" VER ((("v" "u") 0) (("l" "e") 0)((v u) 0))))
+(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh" "rh") 0)))); no LIA
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("gosselin_NAM" "NAM" (((g oh s) 0) ((l ehn) 0))))
+
+(set! text "Que voulez-vous encore monsieur Gosselin ?") ; 
+(dSayText text); neut_parl_s01_0217
+

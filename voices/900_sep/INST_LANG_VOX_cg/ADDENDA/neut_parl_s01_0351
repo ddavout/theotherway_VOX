@@ -1,0 +1,15 @@
+(lex.add.entry '("ça_PRO:dem" "PRO:dem" ((("s" "a") 0))))
+(lex.add.entry '("ça_NOM" "NOM" ((("s" "a") 0))))
+
+(lex.add.entry '("ça_PRO:dem" "PRO:dem" ((("s" "a") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("mange_VER" "VER" ((("m" "ahn" "zh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a" d) 0))))
+(lex.add.entry '("de_PRE" "PRE" nil))
+(lex.add.entry '("pain_NOM" "NOM" ((("p" "ehn") 0))))
+
+
+
+(set! text "ça ne mange pas de pain.") ; neut_parl_s01_0351
+(dSayText text)
+

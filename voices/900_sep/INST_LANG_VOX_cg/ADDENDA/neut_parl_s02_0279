@@ -1,0 +1,11 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("grandes_ADJ" ADJ ((("g" "rh" "ahn" "d") 0))))
+(lex.add.entry '("menaces_NOM" NOM ((("m" "ae") 0) (("n" "a")0) (("s" ae) 0))))
+(lex.add.entry '("viennent_VER" VER ((("v" "j" "eh" "n") 0))))
+(lex.add.entry '("plutôt_ADV" "ADV" ((("p" "l" "y") 0) (("t" "o") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("low_ADJ" ADJ (((l o) 0))))
+(lex.add.entry '("cost_NOM" "NOM" ((("k" "oh" "s")0) (("t" ae) 0))))
+
+(set! text "Les grandes menaces, viennent plutôt du low cost.") ; neut_parl_s02_0279
+(dSayText text)

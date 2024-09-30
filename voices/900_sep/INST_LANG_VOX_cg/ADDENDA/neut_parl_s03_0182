@@ -1,0 +1,10 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_PRO:per" "PRO:per" nil))
+(lex.add.entry '("agit_VER" "VER" ((("a") 0) (("zh" "i") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("guerre_NOM" "NOM" ((("g" "eh" "rh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("Algérie_NAM" NAM ((("a" "l") 0) (("zh" "e") 0) (("rh" "i") 0))))
+
+(dSayText "Il s'agit de la guerre d'Algérie.") ; neut_parl_s03_0182

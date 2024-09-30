@@ -1,0 +1,10 @@
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn" "s") 0))))
+(lex.add.entry '("souffre_VER" VER ((("s" "u") 0) (("f" "rh" ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn" "s") 0))))
+(lex.add.entry '("gronde_VER" VER ((("g" "rh" "ohn") 0) (("d" ae) 0))))
+
+(set! text "oui la france souffre, la France gronde.") ; 
+(dSayText text); neut_parl_s01_0115

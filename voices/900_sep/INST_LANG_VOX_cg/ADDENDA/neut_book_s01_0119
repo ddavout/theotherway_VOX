@@ -1,0 +1,39 @@
+(set! fileid "neut_parl_s01_0119")
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("sais_VER" "VER" ((("s" "e") 0))))
+(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("vint_VER" "VER" ((("v" "ehn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0)))) ; LIA
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("pensée_NOM" "NOM" ((("p" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" ((("s" "ae") 0))))
+(lex.add.entry '("bateau_NOM" "NOM" ((("b" "a") 0) (("t" "o") 0))))
+(lex.add.entry '("enfoui_VER" "VER" (((ahn) 0) ((f u) 0) ((i) 0))))
+(lex.add.entry '("sous_PRE" "PRE" ((("s" "u") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("mer_NOM" "NOM" ((("m" "eh" "rh") 0))))
+(lex.add.entry '("pouvait_VER" "VER" ((("p" "u") 0) (("v" "eh") 0))))
+(lex.add.entry '("être_VER" "VER" (((t "eh" "t" "rh") 0)))); LIA
+(lex.add.entry '("l_atlas_NOM" NOM (((l "a") 0) (("t" "l" "a" "s") 0)))); à mettre dans poslex car s final non muet, ainsi que dans word_list à côté de atlas*
+(lex.add.entry '("disparu_VER" "VER" ((("d" "i" "s") 0) (("p" "a") 0) (("rh" "y") 0))))
+(lex.add.entry '("corps_et_biens_ADV" "ADV" ((("k" "oh" "rh") 0) (("z" "e") 0) (("b" "j" "ehn") 0)))) ; /!\ car s de corps muet
+(lex.add.entry '("depuis_PRE" "PRE" (((d ae) 0) ((p hw i) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0)))); no LIA
+(lex.add.entry '("vingtaine_NOM" "NOM" ((("v" "ehn") 0) (("t" "eh" "n") 0))))
+(lex.add.entry '("d_années_NOM" "NOM" (((d "a") 0) (("n" "e") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("dont_PRO:rel" "PRO:rel" ((("d" "ohn") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" (((t "ohn") 0)))); LIA
+(lex.add.entry '("n_a_AUX" "AUX" ((("n" "a") 0))))
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m eh) 0))))
+(lex.add.entry '("entendu_VER" "VER" ((("ahn") 0) (("t" "ahn") 0) (("d" "y") 0)))) ; no LIA
+(lex.add.entry '("parler_VER" "VER" ((("p" "a" "rh") 0) (("l" "e") 0))))
+
+
+(set! text "je ne sais pourquoi, il me vint à la pensée que ce bateau, enfoui sous la mer, pouvait être l'atlas, disparu corps et biens depuis une vingtaine d'années, et dont on n'a jamais entendu parler !") ; neut_book_s01_0119
+
+(dSayText text)

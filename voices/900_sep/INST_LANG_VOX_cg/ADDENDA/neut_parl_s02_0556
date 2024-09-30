@@ -1,0 +1,11 @@
+(lex.add.entry '("choisir_VER" "VER" ((("sh" "w" "a") 0) (("z" "i" "rh") 0))))
+(lex.add.entry '("sa_ADJ:pos" "ADJ:pos" ((("s" "a") 0))))
+(lex.add.entry '("mort_NOM" "NOM" ((("m" "oh" "rh") 0))))
+(lex.add.entry '("devrè_VER" VER ((("d" "ae") 0) (("v" "rh" "eh") 0))))
+(lex.add.entry '("être_VER" VER ((("eh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("ultime_ADJ" "ADJ" ((("y" "l") 0) (("t" "i" "m") 0))))
+(lex.add.entry '("liberté_NOM" "NOM" ((("l" "i") 0) (("b" "eh" "rh") 0) (("t" "e") 0))))
+
+(set! never_exception_list (append (list "devrait" ) never_exception_list_default))
+(dSayText "Choisir sa mort devrait être l'ultime liberté.") ; neut_parl_s02_0556

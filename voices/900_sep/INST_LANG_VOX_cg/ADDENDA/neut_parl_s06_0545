@@ -1,0 +1,8 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("bonne_ADJ" "ADJ" ((("b" "oh" "n") 0))))
+(lex.add.entry '("mesure_NOM" "NOM" ((("m" "ae") 0) (("z" "y" "rh") 0))))
+
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "C'est une bonne mesure.") ; neut_parl_s06_0545

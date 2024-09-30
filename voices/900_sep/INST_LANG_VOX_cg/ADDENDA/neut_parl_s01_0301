@@ -1,0 +1,21 @@
+(set! fileid "parl_s01_0301")
+
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("a_VER" "VER" (((a) 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("intérêt_NOM" "NOM" ((("ehn") 0) (("t" "e") 0) (("rh" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("mettre_VER" "VER" ((("m" "eh" "t" "rh") 0))))
+(lex.add.entry '("autour_ADV" ADV ((("o") 0) (("t" "u" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("table_NOM" "NOM" ((("t" "a")0) (("b" "l" "ae") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("personnes_NOM" NOM ((("p" "eh" "rh") 0) (("s" "oh" "n") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("souvent_ADV" "ADV" ((("s" "u") 0) (("v" "ahn") 0))))
+(lex.add.entry '("s_ignorent_VER" VER (((s "i") 0) (("jg" "oh" "rh") 0))))
+
+
+(set! text "il a pour intérêt de mettre autour de la table des personnes qui, souvent, s'ignorent.") ; neut_parl_s01_0301
+(dSayText text)

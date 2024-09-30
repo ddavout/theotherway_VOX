@@ -1,0 +1,16 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("étant_VER" VER ((("e") 0) (("t" "ahn") 0))))
+(lex.add.entry '("étant_AUX" AUX ((("e") 0) (("t" "ahn") 0)))); confusion
+(lex.add.entry '("il_y_a_VER" "VER" (((i)0) ((l "j" "a") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("eu_VER" "VER" (((n y) 0)))); no LIA
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("séance_NOM" "NOM" ((("s" "e") 0) (("ahn" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
+(lex.add.entry '("cabinet_NOM" "NOM" ((("k" "a") 0) (("b" "i") 0) (("n" "eh") 0))))
+
+(set! text "cela étant, il y a bien eu une séance de travail avec mon cabinet.") ; 
+(dSayText text); neut_parl_s01_0222

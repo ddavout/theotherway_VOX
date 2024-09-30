@@ -1,0 +1,14 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("diagnostic_NOM" "NOM" ((("d" "j" "a" "g") 0) (("n" "oh" "s") 0) (("t" "i")0) (("k" "ae") 0))))
+(lex.add.entry '("amiante_NOM" "NOM" ((("a") 0) (("m" "j" "ahn") 0) (("t" "ae") 0))))
+(lex.add.entry '("a_VER" "VER" (((a) 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("vertu_NOM" "NOM" ((("v" "eh" "rh") 0) (("t" "y") 0))))
+(lex.add.entry '("d_informer_VER" VER (((d "ehn") 0) (("f" "oh" "rh") 0) (("m" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("occupants_NOM" NOM (((z "oh") 0) (("k" "y") 0) (("p" "ahn") 0)))); LIA
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("logement_NOM" "NOM" ((("l" "oh" "zh") 0) (("m" "ahn") 0))))
+
+(set! text "le diagnostic amiante a pour vertu d'informer les occupants du logement.") ; neut_parl_s01_0663
+(dSayText text)

@@ -1,0 +1,16 @@
+(lex.add.entry '("Personne_PRO:ind" PRO:ind ((("p" "eh" "rh") 0) (("s" "oh" "n") 0))))
+(lex.add.entry '("n_a_VER" VER ((("n" a) 0))))
+(lex.add.entry '("rien_PRO:ind" "PRO:ind" ((("rh" "j" "ehn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("y_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("gagner_VER" VER ((("g" "a") 0) (("jg" "e") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("avons_VER" "VER" (((z "a") 0) (("v" "ohn") 0))))
+(lex.add.entry '("tout_ADV" "ADV" (((t u t) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("y_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("perdre_VER" "VER" ((("p" "eh" "rh")0) (("d" "rh" ae) 0))))
+
+
+(dSayText "Personne n'a rien à y gagner et nous avons tout à y perdre.") ; neut_parl_s03_0012

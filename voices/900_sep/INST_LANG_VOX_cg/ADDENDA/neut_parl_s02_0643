@@ -1,0 +1,14 @@
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("avenir_NOM" "NOM" (((t "a" "v") 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("évidemment_ADV" "ADV" (((n "e") 0) (("v" "i") 0) (("d" "a") 0) (("m" "ahn") 0)))) ; LIA
+(lex.add.entry '("s_inscrire_VER" VER (((s "ehn" "s") 0) (("k" "rh" "i" "rh") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("sein_NOM" "NOM" ((("s" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("république_NOM" "NOM" ((("rh" "e") 0) (("p" "y") 0) (("b" "l" "i")0) (("k" "ae") 0))))
+
+(set! text "Cet avenir doit bien évidemment s'inscrire au sein de la République.") ; neut_parl_s02_0643
+(dSayText text)

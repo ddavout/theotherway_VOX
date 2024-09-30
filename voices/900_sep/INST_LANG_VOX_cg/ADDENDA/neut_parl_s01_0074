@@ -1,0 +1,14 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("s" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0)))); LIA
+(lex.add.entry '("l_arrêt_NOM" "NOM" (((l "a") 0) (("rh" "eh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("chômage_NOM" "NOM" ((("sh" "o") 0) (("m" "a" "zh") 0))))
+(lex.add.entry '("bat_VER" "VER" ((("b" "a") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("records_NOM" NOM ((("rh" "ae") 0) (("k" "oh" "rh") 0))))
+
+
+(set! text "La France est à l'arrêt, le chômage bat des records.") ; neut_parl_s01_0074
+(dSayText text)

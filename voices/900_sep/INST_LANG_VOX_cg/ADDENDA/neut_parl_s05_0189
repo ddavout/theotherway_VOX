@@ -1,0 +1,14 @@
+(lex.add.entry '("l_éducation_NOM" "NOM" (((l "e") 0) (("d" "y") 0) (("k" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("nationale_ADJ" "ADJ" ((("n" "a") 0) (("s" "j" "oh") 0) (("n" "a")0) (("l" ae) 0))))
+(lex.add.entry '("va_VER" "VER" ((("v" "a") 0))))
+(lex.add.entry '("ainsi_ADV" "ADV" ((("ehn") 0) (("s" "i") 0))))
+(lex.add.entry '("renouer_VER" VER ((("rh" "ae") 0) (("n" "u") 0) (("e") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("ses_ADJ:pos" "ADJ:pos" (((s e) 0))))
+(lex.add.entry '("objectifs_NOM" NOM (((z "oh" b) 0) (("zh" "eh" "k") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("promotion_NOM" "NOM" ((("p" "rh" "oh") 0) (("m" "o") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("sociale_ADJ" "ADJ" ((("s" "oh") 0) (("s" "j" "a")0) (("l" ae) 0))))
+
+(set! text "l'éducation nationale, va ainsi renouer, avec ses objectifs de promotion sociale.") ; neut_parl_s05_0189
+(dSayText text)

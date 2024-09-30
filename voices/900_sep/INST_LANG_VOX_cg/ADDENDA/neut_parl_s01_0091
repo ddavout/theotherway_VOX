@@ -1,0 +1,8 @@
+(lex.add.entry '("taisez-vous_VER" VER (((t e) 0) ((z e) 0)((v u) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("droite_NOM" "NOM" ((("d" "rh" "w" "a" "t") 0))))
+
+;/!\ droite bizarre
+
+(set! text "taisez-vous, la droite !") ; neut_parl_s01_0091
+(dSayText text)

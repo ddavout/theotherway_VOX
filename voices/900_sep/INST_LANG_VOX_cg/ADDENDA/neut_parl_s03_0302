@@ -1,0 +1,12 @@
+(lex.add.entry '("Dès_PRE" PRE ((("d" "eh") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("année_NOM" "NOM" (((t "a") 0) (("n" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("rentrées_NOM" NOM ((("rh" "ahn") 0) (("t" "rh" "e") 0))))
+(lex.add.entry '("fiscales_ADJ" ADJ ((("f" "i" "s") 0) (("k" "a" "l") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("chuté_VER" "VER" ((("sh" "y") 0) (("t" "e") 0))))
+
+(set! list_exclus*-> (append (list "fiscales") list_exclus*->_default)) ; 
+
+(dSayText "Dès cette année, les rentrées fiscales ont chuté.") ; neut_parl_s03_0302

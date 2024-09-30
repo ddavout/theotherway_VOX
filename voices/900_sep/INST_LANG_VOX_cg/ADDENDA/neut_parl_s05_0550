@@ -1,0 +1,10 @@
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("argument_NOM" "NOM" (((t "a" "rh") 0) (("g" "y") 0) (("m" "ahn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("lui_PRO:per" "PRO:per" ((("l" "hw" i) 0))))
+(lex.add.entry '("seul_ADJ" "ADJ" ((("s" "oe" "l") 0))))
+(lex.add.entry '("devrait_VER" VER ((("d" "ae") 0) (("v" "rh" "eh") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("convaincre_VER" "VER" ((("k" "ohn") 0) (("v" "ehn")0) (("k" "rh" ae) 0))))
+
+(dSayText "Cet argument à lui seul, devrait vous convaincre.") ; neut_parl_s05_0550

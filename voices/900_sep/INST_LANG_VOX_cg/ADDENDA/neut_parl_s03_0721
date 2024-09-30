@@ -1,0 +1,14 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("clair_ADJ" "ADJ" ((("k" "l" "eh" "rh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("fournit_VER" "VER" ((("f" "u" "rh") 0) (("n" "i") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("puissant_ADJ" "ADJ" ((("p" "hw" i) 0) (("s" "ahn") 0))))
+(lex.add.entry '("instrument_NOM" "NOM" ((("ehn" "s") 0) (("t" "rh" "y") 0) (("m" "ahn") 0))))
+(lex.add.entry '("décisionnel_ADJ" "ADJ" ((("d" "e") 0) (("s" "i") 0) (("z" "j" "oh") 0) (("n" "eh")0) (("l" ae) 0))))
+
+(set! list_exclus*-> (append (list "fournit") list_exclus*->_default))
+
+(dSayText "C'est clair et cela fournit un puissant instrument décisionnel.") ; neut_parl_s03_0721

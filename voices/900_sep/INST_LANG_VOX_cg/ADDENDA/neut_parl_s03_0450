@@ -1,0 +1,13 @@
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("contribué_VER" "VER" ((("k" "ohn") 0) (("t" "rh" "i") 0) (("b" "hw" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("prélèvement_NOM" "NOM" ((("p" "rh" "e") 0) (("l" "eh" "v") 0) (("m" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh" "m") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("poletti_NAM" "NAM" (((p oh) 0) ((l e) 0) ((t i) 0))))
+
+(dSayText "Elle a contribué à ce prélèvement, de même que Madame Poletti.") ; neut_parl_s03_0450

@@ -1,0 +1,9 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("bureau_NOM" "NOM" ((("b" "y") 0) (("rh" "o") 0))))
+(lex.add.entry '("aura_VER" "VER" ((("oh") 0) (("rh" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("trancher_VER" VER ((("t" "rh" "ahn") 0) (("sh" "e") 0))))
+
+
+(set! text "Le Bureau, aura à trancher.") ; neut_parl_s02_0199
+(dSayText text)

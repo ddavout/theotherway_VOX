@@ -1,0 +1,12 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("contribué_VER" VER ((("k" "ohn") 0) (("t" "rh" "i") 0) (("b" y)0) (("hw" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("construire_VER" "VER" ((("k" "ohn" "s") 0) (("t" "rh" "hw" i "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("telles_ADJ:ind" ADJ:ind ((("t" "eh" "l") 0))))
+(lex.add.entry '("bases_NOM" NOM ((("b" "a")0) (("z" ae) 0))))
+
+(set! never_exception_list (append (list "doit" ) never_exception_list_default))
+(dSayText "Il doit aussi contribuer à construire de telles bases.") ; neut_parl_s05_0052

@@ -1,0 +1,16 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("gens_NOM" "NOM" (((zh ahn) 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("voyage_NOM" "NOM" ((("v" "w" "a") 0) (("j" "a" "zh") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("libres_ADJ" ADJ ((("l" "i" "b" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("choisir_VER" "VER" ((("sh" "w" "a") 0) (("z" "i" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("mode_NOM" "NOM" ((("m" "oh" "d") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("vie_NOM" "NOM" ((("v" "i") 0))))
+(lex.add.entry '("nomade_ADJ" "ADJ" ((("n" "o") 0) (("m" "a") 0) (("d" "ae") 0))))
+
+(set! text "les gens du voyage sont libres de choisir un mode de vie nomade.") ; 
+(dSayText text); neut_parl_s01_0143

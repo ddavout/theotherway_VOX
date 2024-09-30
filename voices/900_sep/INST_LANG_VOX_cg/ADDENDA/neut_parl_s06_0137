@@ -1,0 +1,16 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("parole_NOM" "NOM" ((("p" "a") 0) (("rh" "oh") 0))))
+(lex.add.entry '("est_VER" "VER" ((("l" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("philippe_NAM" "NAM" ((("f" "i") 0) (("l" "i" "p") 0))))
+(lex.add.entry '("gosselin_NAM" "NAM" (((g oh s) 0) ((l ehn) 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("rappel_NOM" "NOM" ((("rh" "a") 0) (("p" "eh") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("l" "o") 0))))
+(lex.add.entry '("règlement_NOM" "NOM" ((("rh" "eh") 0) (("g" "l" "ae") 0) (("m" "ahn") 0))))
+
+(set! list_exclus*-> (append (list "pour") list_exclus*->_default))
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "La parole est à Monsieur Philippe Gosselin, pour un rappel au règlement.") ; neut_parl_s06_0137

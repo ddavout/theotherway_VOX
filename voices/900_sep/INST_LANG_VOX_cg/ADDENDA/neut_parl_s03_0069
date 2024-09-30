@@ -1,0 +1,12 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("présent_ADJ" "ADJ" ((("p" "rh" "e") 0) (("z" "ahn") 0))))
+(lex.add.entry '("amendement_NOM" "NOM" ((("a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("stade_NOM" "NOM" ((("s" "t" "a")0) (("d" ae) 0))))
+(lex.add.entry '("vraiment_ADV" "ADV" ((("v" "rh" "eh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("prématuré_ADJ" "ADJ" ((("p" "rh" "e") 0) (("m" "a") 0) (("t" "y") 0) (("rh" "e") 0))))
+
+
+(dSayText "Le présent amendement est, à ce stade, vraiment prématuré.") ; neut_parl_s03_0069

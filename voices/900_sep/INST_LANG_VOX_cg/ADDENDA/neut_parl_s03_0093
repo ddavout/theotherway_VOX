@@ -1,0 +1,11 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("députée_NOM" "NOM" ((("d" "e") 0) (("p" "y") 0) (("t" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("guyane_NAM" "NAM" (((g "hw" i) 0) ((j a n) 0))))
+(lex.add.entry '("sus-évoquée_CON" "CON" (((s y s) 0) ((e) 0) ((v oh) 0) ((k e) 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+
+(dSayText "La députée de Guyane sus-évoquée, c'est donc moi.") ; neut_parl_s03_0093

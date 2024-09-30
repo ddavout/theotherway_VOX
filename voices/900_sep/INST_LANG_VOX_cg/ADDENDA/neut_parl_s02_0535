@@ -1,0 +1,14 @@
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("pouvoir_NOM" "NOM" ((("p" "u") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("être_AUX" "AUX" ((("eh")0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("protégé_VER" "VER" ((("p" "rh" "oh") 0) (("t" "e") 0) (("zh" "e") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("salarié_NOM" "NOM" ((("s" "a") 0) (("l" "a") 0) (("rh" "j" "e") 0))))
+(lex.add.entry '("devra_VER" "VER" ((("d" "ae") 0) (("v" "rh" "a") 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("coming-out_NOM" NOM (((k oh) 0) ((m i n g) 0) ((a) 0) ((o t) 0))))
+
+
+(dSayText "Oui, pour pouvoir être protégé, un salarié devra faire son coming-out.") ; neut_parl_s02_0535

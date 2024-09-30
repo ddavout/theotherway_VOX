@@ -1,0 +1,14 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("l_état_NOM" "NOM" (((l "e") 0) (("t" "a") 0))))
+(lex.add.entry '("actuel_ADJ" "ADJ" ((("a" "k") 0) (("t" "hw" "eh" "l") 0)))); no LIA
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("procédure_NOM" "NOM" ((("p" "rh" "oh") 0) (("s" "e") 0) (("d" "y" "rh") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("complexe_ADJ" "ADJ" ((("k" "ohn") 0) (("p" "l" "eh" "k") 0) (("s" "ae") 0))))
+(lex.add.entry '("lourde_ADJ" "ADJ" ((("l" "u" "rh") 0) (("d" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("évidente_ADJ" "ADJ" ((("e") 0) (("v" "i") 0) (("d" "ahn") 0) (("t" "ae") 0))))
+
+(set! text "en l'état actuel, la procédure est complexe, lourde et peu évidente.") ; 
+(dSayText text); neut_parl_s01_0390

@@ -1,0 +1,11 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("va_VER" "VER" ((("v" "a") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("sens_NOM" "NOM" ((("s" "ahn" "s") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("choc_NOM" "NOM" ((("sh" "oh" "k") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("simplification_NOM" "NOM" ((("s" "ehn") 0) (("p" "l" "i") 0) (("f" "i") 0) (("k" "a") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "Cela va dans le sens du choc de simplification.") ; neut_parl_s04_0477

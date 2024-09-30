@@ -1,0 +1,8 @@
+(lex.add.entry '("j_ai_AUX" "AUX" (((zh e) 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o" "z") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("simples_ADJ" ADJ ((("s" "ehn")0) (("p" "l" ae) 0))))
+
+(dSayText "J'ai dit des choses très simples.") ; neut_parl_s04_0233

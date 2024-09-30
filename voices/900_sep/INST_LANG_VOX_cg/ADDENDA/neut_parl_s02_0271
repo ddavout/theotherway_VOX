@@ -1,0 +1,9 @@
+(lex.add.entry '("l_amendement_NOM" "NOM" (((l "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("numéro_NOM" "NOM" ((("n" "y") 0) (("m" "e") 0) (("rh" "o") 0))))
+(lex.add.entry '("onze_NOM" "NOM" ((("ohn")0) (("z" ae) 0))))
+(lex.add.entry '("onze_ADJ:num" "ADJ:num" ((("ohn")0) (("z" ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("adopté_VER" VER (((z "a") 0) (("d" "oh" p) 0) (("t" "e") 0)))); LIA
+
+(set! text "l'amendement numéro onze, n'est pas adopté.") ; neut_parl_s02_0271
+(dSayText text)

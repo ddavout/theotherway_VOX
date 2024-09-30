@@ -1,0 +1,11 @@
+(lex.add.entry '("Trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("points_NOM" NOM (((p w ehn) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("réforme_NOM" "NOM" ((("rh" "e") 0) (("f" "oh" "rh")0) (("m" ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("posent_VER" VER ((("p" "o" "z") 0))))
+(lex.add.entry '("problème_NOM" "NOM" ((("p" "rh" "oh") 0) (("b" "l" "eh")0) (("m" ae) 0))))
+
+
+(dSayText "Trois points de cette réforme, nous posent problème.") ; neut_parl_s02_0664

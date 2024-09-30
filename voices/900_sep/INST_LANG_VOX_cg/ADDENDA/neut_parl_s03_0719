@@ -1,0 +1,10 @@
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("lehh_ART:def" ART:def nil))
+(lex.add.entry '("monde_NOM" NOM (((l "m" "ohn" "d") 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("le_ART:def" ART:def nil))
+(lex.add.entry '("monde_NOM" NOM (((l "m" "ohn" "d") 0))))
+
+(dSayText "Tout le monde peut le faire !") ; neut_parl_s03_0719

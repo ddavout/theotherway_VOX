@@ -1,0 +1,7 @@
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("quel_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0))))
+(lex.add.entry '("handicap_NOM" NOM ((("ahn") 0) (("d" "i") 0) (("k" "a" p) 0))))
+(lex.add.entry '("s_agit-il_VER" "VER" (((s "a") 0) (("zh" "i") 0)(("t" "i" l) 0))))
+
+(set! text "De quel handicap s'agit-il ?") ; neut_parl_s02_0148
+(dSayText text)

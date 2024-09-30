@@ -1,0 +1,10 @@
+(lex.add.entry '("voilà_VER" "VER" ((("v" "w" "a") 0) (("l" "a") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("l_intérêt_NOM" "NOM" (((l "ehn") 0) (("t" "eh") 0) (("rh" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("regroupement_NOM" "NOM" ((("rh" "ae") 0) (("g" "rh" "u" "p") 0) (("m" "ahn") 0))))
+
+(set! text "voilà aussi l'intérêt de ce regroupement.") ; 
+(dSayText text); neut_parl_s01_0368
+

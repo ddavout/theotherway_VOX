@@ -1,0 +1,12 @@
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("médiateur_NOM" "NOM" ((("m" "e") 0) (("d" "j" "a") 0) (("t" "oe" "rh") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("nommé_VER" "VER" ((("n" "oh") 0) (("m" "e") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("verrai_VER" VER ((("v" "eh") 0) (("rh" "e") 0))))
+(lex.add.entry '("demain_ADV" "ADV" ((("d" "ae") 0) (("m" "ehn") 0))))
+
+
+(set! text "un médiateur est nommé, que je verrai demain.") ; neut_parl_s01_0680
+(dSayText text)

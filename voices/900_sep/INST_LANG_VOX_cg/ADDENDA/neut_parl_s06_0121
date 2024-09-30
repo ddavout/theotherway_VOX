@@ -1,0 +1,14 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("importe_VER" "VER" ((("ehn") 0) (("p" "oh" "rh")0) (("t" "ae") 0))))
+(lex.add.entry '("qu_en_PRE" "PRE" (((k ahn) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("matière_NOM" "NOM" ((("m" "a") 0) (("t" "j" "eh" "rh") 0))))
+(lex.add.entry '("aucune_ADJ:ind" "ADJ:ind" ((("o") 0) (("k" "y" "n") 0))))
+(lex.add.entry '("fracture_NOM" "NOM" ((("f" "rh" "a" "k") 0) (("t" "y" "rh") 0))))
+(lex.add.entry '("géographique_ADJ" "ADJ" ((("zh" "e") 0) (("oh") 0) (("g" "rh" "a") 0) (("f" "i" "k") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("subsiste_VER" "VER" ((("s" "y" b) 0) (("z" "i" "s")0) (("t" "ae") 0))))
+
+
+(set! text "Il importe qu'en la matière, aucune fracture géographique ne subsiste.") ; neut_parl_s06_0121
+(dSayText text)

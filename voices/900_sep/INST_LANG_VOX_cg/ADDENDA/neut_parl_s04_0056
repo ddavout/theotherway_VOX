@@ -1,0 +1,13 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("cours_NOM" NOM ((("k" "u" "rh") 0))))
+(lex.add.entry '("statuant_VER" "VER" ((("s" "t" "a") 0) (("t" "hw" "ahn") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("dernier_ADJ" "ADJ" ((("d" "eh" "rh") 0) (("n" "j" "e") 0))))
+(lex.add.entry '("ressort_NOM" NOM ((("rh" "ae") 0) (("s" "oh" "rh") 0))))
+(lex.add.entry '("peuvent_VER" VER ((("p" "eu" "v") 0))))
+(lex.add.entry '("toujours_ADV" ADV ((("t" "u") 0) (("zh" "u" "rh") 0))))
+(lex.add.entry '("changé_VER" VER ((("sh" "ahn") 0) (("zh" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("position_NOM" "NOM" ((("p" "o") 0) (("z" "i") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "Les cours statuant en dernier ressort, peuvent toujours changer de position.") ; neut_parl_s04_0056

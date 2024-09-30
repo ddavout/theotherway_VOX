@@ -1,0 +1,11 @@
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("fiscalisé_VER" VER ((("f" "i" "s") 0) (("k" "a") 0) (("l" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("leurs_ADJ:pos" ADJ:pos ((("l" "oe" "rh") 0))))
+(lex.add.entry '("trente_ADJ:num" "ADJ:num" ((("t" "rh" "ahn" "t") 0))))
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("millions_NOM" NOM ((("m" "i") 0) (("l" "j" "ohn") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("heures_NOM" "NOM" ((("oe" "rh") 0))))
+(lex.add.entry '("supplémentaires_ADJ" ADJ ((("s" "y") 0) (("p" "l" "e") 0) (("m" "ahn") 0) (("t" "eh" "rh") 0))))
+
+(dSayText "Vous fiscalisez, leurs trente trois millions d'heures supplémentaires.") ; neut_parl_s06_0651

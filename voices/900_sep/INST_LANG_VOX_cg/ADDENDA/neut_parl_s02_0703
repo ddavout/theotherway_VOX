@@ -1,0 +1,18 @@
+(lex.add.entry '("tel_PRO:ind" "PRO:ind" ((("t" "eh") 0))))
+(lex.add.entry '("est_VER" "VER" (((l "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("système_NOM" "NOM" ((("s" "i" "s") 0) (("t" "eh" "m") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("perduré_VER" "VER" ((("p" "eh" "rh") 0) (("d" "y") 0) (("rh" "e") 0))))
+(lex.add.entry '("jusqu_PRE" "PRE" nil))
+(lex.add.entry '("jusqu_à_PRE" "PRE" (((zh y s) 0) ((k a) 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("lionel_NAM" "NAM" ((("l" "j" "oh") 0) (("n" "eh" "l") 0))))
+(lex.add.entry '("jospin_NAM" "NAM" (((zh oh s) 0) ((p ehn) 0))))
+(lex.add.entry '("y_ADV" "ADV" (((i) 0))))
+(lex.add.entry '("mette_VER" "VER" ((("m" "eh" "t") 0))))
+(lex.add.entry '("fin_ADV" ADV ((("f" "ehn") 0))))
+
+(dSayText "Tel est le système qui a perduré, jusqu'à ce que Lionel Jospin y mette fin.") ; neut_parl_s02_0703

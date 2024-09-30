@@ -1,0 +1,6 @@
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("Tibet_NAM" NAM ((("t" "i") 0) (("b" "eh") 0))))
+(lex.add.entry '("abord_ADV" "ADV" ((("a") 0) (("b" "oh" "rh") 0))))
+
+(dSayText "Sur le Tibet d'abord.") ; neut_parl_s04_0327

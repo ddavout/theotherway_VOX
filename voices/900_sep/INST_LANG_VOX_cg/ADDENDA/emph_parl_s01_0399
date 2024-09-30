@@ -1,0 +1,8 @@
+(lex.add.entry '("Pourquoi_PRO:int" PRO:int ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("est_ce_VER" "VER" ((("eh" "s") 0))))
+(lex.add.entry '("différent_ADJ" "ADJ" ((("d" "i") 0) (("f" "e") 0) (("rh" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("chacun_PRO:ind" "PRO:ind" ((("sh" "a") 0) (("k" "oen") 0))))
+
+
+(dSayText "Pourquoi est-ce différent de chacun ?") ; emph_parl_s01_0399

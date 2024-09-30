@@ -1,0 +1,15 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("tout_PRO:ind" "PRO:ind" ((("t" "u") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("tout_de_même_ADV" "ADV" ((("t" "u") 0)(("m" "eh" "m") 0)((p a)0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("pousser_VER" VER ((("p" "u") 0) (("s" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("bouchon_NOM" "NOM" ((("b" "u") 0) (("sh" "ohn") 0))))
+(lex.add.entry '("trop_ADV" "ADV" ((("t" "rh" "o") 0))))
+(lex.add.entry '("loin_ADV" "ADV" ((("l" "w" "ehn") 0))))
+
+(set! text "Il ne faut tout de même pas pousser le bouchon trop loin.") ; neut_parl_s03_0018
+(dSayText text)

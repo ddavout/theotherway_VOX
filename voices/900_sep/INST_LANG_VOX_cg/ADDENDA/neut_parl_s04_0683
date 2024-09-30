@@ -1,0 +1,12 @@
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("groupe_NOM" "NOM" ((("g" "rh" "u" "p") 0))))
+(lex.add.entry '("votera_VER" "VER" ((("v" "oh") 0) (("t" "rh" "a") 0))))
+(lex.add.entry '("contre_PRE" "PRE" ((("k" "ohn") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("motion_NOM" "NOM" ((("m" "oh") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("renvoi_NOM" "NOM" ((("rh" "ahn") 0) (("v" "w" "a") 0))))
+
+
+; triple t rh l
+(dSayText "Notre groupe votera contre la motion de renvoi.") ; neut_parl_s04_0683

@@ -1,0 +1,17 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("oublie_VER" "VER" ((("u") 0) (("b" "l" "i") 0))))
+(lex.add.entry '("ses_ADJ:pos" "ADJ:pos" (((s e) 0))))
+(lex.add.entry '("jeunes_NOM" NOM ((("zh" "oe")0) (("n" "ae") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("meurt_VER" "VER" ((("m" "oe" "rh") 0))))
+
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "Et un pays qui oublie ses jeunes, c'est un pays qui se meurt.") ; neut_parl_s02_0578

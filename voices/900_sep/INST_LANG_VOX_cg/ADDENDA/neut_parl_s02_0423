@@ -1,0 +1,17 @@
+(lex.add.entry '("après_PRE" "PRE" ((("a") 0) ((p rh eh) 0))))
+(lex.add.entry '("cancun_NAM" "NAM" (((k a n) 0) ((k u n) 0))))
+(lex.add.entry '("Copenhague_NAM" "NAM" (((k oh) 0) ((p oe) 0) ((n a)0) ((g ae) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("va_VER" "VER" ((("v" "a") 0))))
+(lex.add.entry '("y_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("avoir_VER" VER (((j "a") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("rendez_vous__NOM" "NOM" (((rh ahn) 0) ((d e) 0) ((v u) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("conférence_NOM" "NOM" ((("k" "ohn") 0) (("f" "e") 0) (("rh" "ahn" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("paris_NAM" "NAM" ((("p" "a") 0) (("rh" "i") 0))))
+
+(set! text "Après Cancún, Copenhague, il va y avoir le rendez-vous_ de la conférence de Paris.") ; neut_parl_s02_0423
+(dSayText text)

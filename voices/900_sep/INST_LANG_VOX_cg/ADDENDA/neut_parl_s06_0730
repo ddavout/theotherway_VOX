@@ -1,0 +1,24 @@
+(set! fileid "neut_parl_s06_0730")
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("ceux-là_PRO:dem" "PRO:dem" ((("s" "eu") 0) (("l" "a") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("voudrais_VER" VER ((("v" "u") 0) (("d" "rh" "eh") 0))))
+(lex.add.entry '("préciser_VER" VER ((("p" "rh" "e") 0) (("s" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("ou_CON" CON (((z "u") 0))))
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("choses_NOM" NOM (((sh o)0) ((z ae) 0))))
+
+(set! text "à ceux-là je voudrais préciser deux ou trois choses.") ; neut_parl_s06_0730
+(dSayText text)
+(set! flat_expected "<{(0 a )}{(0 s  eu )(0 l  a )}{(0 zh  ae )}{(0 v  u )(0 d  rh  eh )}{(0 p  rh  e )(0 s  i )(0 z  e )}{(0 d  eu )}{(0 z  u )}{(0 t  rh  w  a )}{(0 sh  o )(0 z  ae )}> _BB ")
+;
+;id _10 ; name à ; pos_index 15 ; pos_index_score 0 ; pos PRE ; pbreak NB ; 
+;id _11 ; name ceux-là ; pos_index 16 ; pos_index_score 0 ; pos PRO:dem ; pbreak NB ; 
+;id _12 ; name je ; pos_index 19 ; pos_index_score 0 ; pos PRO:per ; pbreak NB ; 
+;id _13 ; name voudrais ; pos_index 22 ; pos_index_score 0 ; pos VER ; pbreak NB ; 
+;id _14 ; name préciser ; pos_index 22 ; pos_index_score 0 ; pos VER ; pbreak NB ; 
+;id _15 ; name deux ; pos_index 4 ; pos_index_score 0 ; pos ADJ:num ; pbreak NB ; 
+;id _16 ; name ou ; pos_index 10 ; pos_index_score 0 ; pos CON ; pbreak NB ; 
+;id _17 ; name trois ; pos_index 4 ; pos_index_score 0 ; pos ADJ:num ; pbreak NB ; 
+;id _18 ; name choses ; pos_index 13 ; pos_index_score 0 ; pos NOM ; pbreak BB ;

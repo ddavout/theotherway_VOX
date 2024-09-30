@@ -1,0 +1,12 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("cohésion_NOM" "NOM" ((("k" "oh") 0) (("e") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("républicaine_ADJ" "ADJ" ((("rh" "e") 0) (("p" "y") 0) (("b" "l" "i") 0) (("k" "eh" "n") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "j" eh) 0))))
+(lex.add.entry '("est_VER" "VER" nil))
+(lex.add.entry '("en_PRE" "PRE" (((t ahn) 0))))
+(lex.add.entry '("jeu_NOM" "NOM" ((("zh" "eu") 0))))
+
+; todo en_PRE (set! never_exception_list (append (list "est") never_exception_list_default))
+(dSayText "C'est la cohésion républicaine qui est en jeu.") ; neut_parl_s03_0013

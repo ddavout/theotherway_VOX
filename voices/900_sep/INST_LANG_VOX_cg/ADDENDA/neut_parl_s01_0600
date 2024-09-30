@@ -1,0 +1,12 @@
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("chercher_VER" VER ((("sh" "eh" "rh") 0) (("sh" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("réduire_VER" "VER" ((("rh" "e") 0) (("d" "hw" i "rh") 0))))
+(lex.add.entry '("évasion_NOM" "NOM" ((("e") 0) (("v" "a") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("niches_NOM" NOM ((("n" "i" "sh") 0))))
+(lex.add.entry '("fiscales_ADJ" ADJ ((("f" "i" "s") 0) (("k" "a" "l") 0))))
+
+
+(set! text "C'est chercher à réduire évasion et niches fiscales.") ; 
+(dSayText text); neut_parl_s01_0600

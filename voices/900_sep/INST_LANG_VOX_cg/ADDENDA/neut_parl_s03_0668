@@ -1,0 +1,12 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("rappelle_VER" "VER" ((("rh" "a") 0) (("p" "eh" "l") 0))))
+(lex.add.entry '("toutefois_ADV" ADV ((("t" "u" t) 0) (("f" "w" "a") 0))))
+(lex.add.entry '("qu_CON" "CON" nil))
+(lex.add.entry '("qu_une_ART:ind" "ART:ind" (((k y n) 0))))
+(lex.add.entry '("deuxième_ADJ" "ADJ" ((("d" "eu") 0) (("z" "j" "eh" "m") 0))))
+(lex.add.entry '("tranche_NOM" NOM ((("t" "rh" "ahn" "sh") 0))))
+(lex.add.entry '("sera_VER" "VER" ((("s" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("nécessaire_ADJ" "ADJ" ((("n" "e") 0) (("s" "e") 0) (("s" "eh" "rh") 0))))
+
+
+(dSayText "Je rappelle toutefois, qu'une deuxième tranche sera nécessaire.") ; neut_parl_s03_0668

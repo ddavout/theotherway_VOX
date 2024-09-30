@@ -1,0 +1,16 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("nuance_NOM" "NOM" ((("n" "hw" "ahn" "s") 0))))
+(lex.add.entry '("est_VER" "VER" ((("e") 0))))
+(lex.add.entry '("subtile_ADJ" "ADJ" ((("s" "y" p) 0) (("t" "i")0) (("l" ae) 0))))
+(lex.add.entry '("mais_CON" "CON" (((m e) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("avis_NOM" "NOM" ((("a") 0) (("v" "i") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("commission_NOM" "NOM" ((("k" "oh") 0) (("m" "i") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("reste_VER" "VER" ((("rh" "eh" "s" "t") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh")0) (("m" ae) 0))))
+(lex.add.entry '("défavorable_ADJ" "ADJ" ((("d" "e") 0) (("f" "a") 0) (("v" "oh") 0) (("rh" "a")0) (("b" "l" ae) 0))))
+
+(dSayText "La nuance est subtile mais l'avis de la commission reste le même : défavorable.") ; neut_parl_s06_0539

@@ -1,0 +1,15 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("protège_VER" "VER" ((("p" "rh" "oh") 0) (("t" "eh" "zh") 0))))
+(lex.add.entry '("moins_ADV" ADV ((("m" "w" "ehn") 0))))
+(lex.add.entry '("efficacement_ADV" "ADV" ((("e") 0) (("f" "i") 0) (("k" "a" s) 0) (("m" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("pauvreté_NOM" "NOM" ((("p" "o") 0) (("v" "rh" "ae") 0) (("t" "e") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("passé_NOM" NOM ((("p" "a") 0) (("s" "e") 0))))
+
+(set! list_exclus*-> (append (list "moins") list_exclus*->_default))
+(dSayText "Le travail protège moins efficacement de la pauvreté que par le passé.") ; neut_parl_s04_0235

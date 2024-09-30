@@ -1,0 +1,9 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("quoi_PRO:rel" PRO:rel ((("k" "w" "a") 0))))
+(lex.add.entry '("ai_VER" "VER" ((("eh" zh) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" nil))
+(lex.add.entry '("changé_VER" "VER" ((("sh" "ahn") 0) (("zh" "e") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("avis_NOM" "NOM" ((("a") 0) (("v" "i") 0))))
+
+(dSayText "En quoi ai-je changé d'avis ?") ; neut_parl_s03_0007

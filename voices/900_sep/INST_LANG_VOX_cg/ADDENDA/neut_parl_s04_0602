@@ -1,0 +1,9 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("projet_NOM" "NOM" ((("p" "rh" "oh") 0) (("zh" "e") 0))))
+(lex.add.entry '("comporte_VER" VER ((("k" "ohn") 0) (("p" "oh" "rh") 0) (("t" ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nombreuses_ADJ" ADJ ((("n" "ohn") 0) (("b" "rh" "eu") 0))))
+(lex.add.entry '("injustices_NOM" NOM (((z "ehn") 0) (("zh" "y" "s") 0) (("t" "i" "s") 0))))
+
+(set! text "Ce projet comporte de nombreuses injustices.") ; neut_parl_s04_0602
+(dSayText text)

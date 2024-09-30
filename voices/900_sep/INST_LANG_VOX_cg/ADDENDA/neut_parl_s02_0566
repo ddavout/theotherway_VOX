@@ -1,0 +1,13 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("nouveaux_ADJ" "ADJ" ((("n" "u") 0) (("v" "o") 0))))
+(lex.add.entry '("dispositifs_NOM" NOM ((("d" "i" "s") 0) (("p" "oh") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("proposés_ADJ" ADJ ((("p" "rh" "o") 0) (("p" "o") 0) (("z" "e") 0))))
+(lex.add.entry '("doivent_VER" VER ((("d" "w" "a")0) (("v" ae) 0))))
+(lex.add.entry '("contribué_VER" VER ((("k" "ohn") 0) (("t" "rh" "i") 0) (("b" "hw" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("réduire_VER" "VER" ((("rh" "e") 0) (("d" "hw" i "rh") 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("écarts_NOM" NOM ((("e") 0) (("k" "a" "rh") 0))))
+(lex.add.entry '("sociaux_ADJ" ADJ ((("s" "o") 0) (("s" "j" "o") 0))))
+
+(dSayText "Les nouveaux dispositifs proposés doivent contribuer à réduire ces écarts sociaux.") ; neut_parl_s02_0566

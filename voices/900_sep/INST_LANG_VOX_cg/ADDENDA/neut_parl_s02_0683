@@ -1,0 +1,7 @@
+(lex.add.entry '("permetté_VER" VER ((("p" "eh" "rh") 0) (("m" "e") 0) (("t" "e") 0))))
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("remarque_NOM" "NOM" ((("rh" "ae") 0) (("m" "a" "rh")0) (("k" ae) 0))))
+(lex.add.entry '("préliminaire_ADJ" "ADJ" ((("p" "rh" "e") 0) (("l" "i") 0) (("m" "i") 0) (("n" "eh" "rh") 0))))
+
+(dSayText "Permettez-moi une remarque préliminaire.") ; neut_parl_s02_0683

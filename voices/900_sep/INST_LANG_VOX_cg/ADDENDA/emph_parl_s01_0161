@@ -1,0 +1,8 @@
+(lex.add.entry '("a-t-elle_VER" "VER" (((a)0)((t "eh" "l") 0))))
+(lex.add.entry '("changé_VER" "VER" ((("sh" "ahn") 0) (("zh" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("cours_NOM" NOM ((("k" "u" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_histoire_NOM" "NOM" (((l "i" "s") 0) (("t" "w" "a" "rh") 0))))
+
+(dSayText "a-t-elle changé le cours de l'histoire ?") ; emph_parl_s01_0161

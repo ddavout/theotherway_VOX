@@ -1,0 +1,15 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("clair_ADJ" "ADJ" ((("k" "l" "eh" "rh") 0))))
+(lex.add.entry '("l_herbe_NOM" "NOM" (((l "eh" "rh") 0))))
+(lex.add.entry '("est_VER" "VER" (((b "e") 0))))
+(lex.add.entry '("toujours_ADV" ADV ((("t" "u") 0) (("zh" "u" "rh") 0))))
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
+(lex.add.entry '("verte_ADJ" "ADJ" ((("v" "eh" "rh")0) (("t" ae) 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("champ_NOM" "NOM" ((("sh" "ahn") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("voisin_NOM" "NOM" ((("v" "w" "a") 0) (("z" "ehn") 0))))
+
+(set! text "en clair, l'herbe est toujours plus verte dans le champ du voisin.") ; neut_parl_s02_0471
+(dSayText text)

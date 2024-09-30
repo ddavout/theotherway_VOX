@@ -1,0 +1,9 @@
+(lex.add.entry '("aujourd_hui_ADV" "ADV" (((o) 0) ((zh u rh) 0) ((d hw i) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("réaffirmons_VER" VER ((("rh" "e") 0) (("a") 0) (("f" "i" "rh") 0) (("m" "ohn") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("choix_NOM" "NOM" ((("sh" "w" "a") 0))))
+
+(set! text "aujourd'hui, nous réaffirmons ce choix.") ; 
+(dSayText text); neut_parl_s01_0295
+

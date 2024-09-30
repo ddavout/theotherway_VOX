@@ -1,0 +1,13 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("sommes_VER" VER ((("s" "oh" "m") 0))))
+(lex.add.entry '("contre_PRE" "PRE" ((("k" "ohn") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh) 0))))
+(lex.add.entry '("amendement_NOM" "NOM" (((t rh "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("parce_qu_CON" CON (((p a rh s) 0))))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("trop_ADV" "ADV" ((("t" "rh" "o") 0))))
+(lex.add.entry '("isolé_ADJ" "ADJ" (((p "i") 0) (("z" "oh") 0) (("l" "e") 0)))); LIA
+
+(set! text "Nous sommes contre votre amendement, parce qu'il est trop isolé.") ; neut_parl_s06_0758
+(dSayText text)

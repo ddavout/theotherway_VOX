@@ -1,0 +1,12 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o" "z") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((t ahn) 0)))); LIA
+(lex.add.entry '("train_NOM" "NOM" ((("t" "rh" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("s_organiser_VER" VER (((s "oh" "rh") 0) (("g" "a") 0) (("n" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("Lellouche_NAM" "NAM" (((l ae) 0) ((l u sh) 0))))
+
+(set! text "Les choses sont en train de s'organiser, monsieur Lellouche.") ; neut_parl_s02_0540
+(dSayText text)

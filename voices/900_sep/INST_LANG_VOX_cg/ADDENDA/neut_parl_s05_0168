@@ -1,0 +1,8 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("devon_VER" "VER" ((("d" "ae") 0) (("v" "ohn") 0))))
+(lex.add.entry '("évité_VER" VER ((("e") 0) (("v" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("tout_ADJ:ind" ADJ:ind ((("t" "u") 0))))
+(lex.add.entry '("amalgame_NOM" "NOM" ((("a") 0) (("m" "a" "l") 0) (("g" "a")0) (("m" ae) 0))))
+
+(set! never_exception_list (append (list "devons" ) never_exception_list_default))
+(dSayText "Nous devons éviter, tout amalgame.") ; neut_parl_s05_0168

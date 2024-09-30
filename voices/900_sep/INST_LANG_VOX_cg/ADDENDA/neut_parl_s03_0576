@@ -1,0 +1,12 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("plusieurs_ADJ:ind" ADJ:ind ((("p" "l" "y") 0) (("z" "j" "oe" "rh") 0))))
+(lex.add.entry '("démarches_NOM" NOM ((("d" "e") 0) (("m" "a" "rh") 0))))
+(lex.add.entry '("ont_AUX" "AUX" (((sh "ohn") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("entreprises_VER" VER ((("ahn") 0) (("t" "rh" "ae") 0) (("p" "rh" "i")0) (("z" ae) 0))))
+
+(set! never_exception_list (append (list "ont" ) never_exception_list_default))
+(set! list_exclus*-> (append (list "démarches" ) list_exclus*->_default))
+(dSayText "C'est pourquoi, plusieurs démarches ont été entreprises.") ; neut_parl_s03_0576

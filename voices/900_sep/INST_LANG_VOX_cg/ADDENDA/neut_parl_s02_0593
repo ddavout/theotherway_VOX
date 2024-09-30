@@ -1,0 +1,10 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
+(lex.add.entry '("grande_ADJ" "ADJ" ((("g" "rh" "ahn" "d") 0))))
+(lex.add.entry '("finesse_NOM" "NOM" ((("f" "i") 0) (("n" "eh" "s") 0))))
+(lex.add.entry '("d_approche_NOM" "NOM" (((d "a") 0) (("p" "rh" "oh") 0) (("sh" "ae") 0))))
+
+(set! text "il faut une plus grande finesse d'approche.") ; neut_parl_s02_0593
+(dSayText text)

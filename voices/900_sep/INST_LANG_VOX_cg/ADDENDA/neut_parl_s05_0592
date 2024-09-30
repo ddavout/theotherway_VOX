@@ -1,0 +1,20 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("voit_VER" "VER" ((("v" "w" "a") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("secrétaire_NOM" "NOM" ((("s" "ae") 0) (("k" "rh" "e") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("d_état" "NOM" (((d "e") 0) (("t" "a") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("droit_ADJ" "ADJ" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("fil_NOM" "NOM" ((("f" "i" "l") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("grand_ADJ" "ADJ" ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("ancêtre_NOM" "NOM" (((t "ahn") 0) (("s" "eh")0) (("t" "rh" ae) 0))))
+
+(set! text "On voit bien que le secrétaire d'état, est dans le droit fil de ce grand ancêtre.") ; neut_parl_s05_0592
+
+(dSayText text)

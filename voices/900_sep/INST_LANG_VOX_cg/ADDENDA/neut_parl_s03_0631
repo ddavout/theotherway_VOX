@@ -1,0 +1,15 @@
+(lex.add.entry '("souvent_ADV" "ADV" ((("s" "u") 0) (("v" "ahn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("collégialité_NOM" "NOM" ((("k" "oh") 0) (("l" "e") 0) (("zh" "j" "a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("censée_ADJ" "ADJ" ((("s" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("réglé_VER" VER ((("rh" "e") 0) (("g" "l" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("problèmes_NOM" NOM ((("p" "rh" "oh") 0) (("b" "l" "eh") 0) (("m" "ae") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("parfois_ADV" ADV ((("p" "a" "rh") 0) (("f" "w" "a") 0))))
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("crée_VER" "VER" ((("k" "rh" "eh") 0))))
+
+(dSayText "Souvent, la collégialité est censée régler les problèmes, mais, parfois, elle en crée.") ; neut_parl_s03_0631

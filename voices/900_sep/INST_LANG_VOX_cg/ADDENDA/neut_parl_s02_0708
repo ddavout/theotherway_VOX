@@ -1,0 +1,15 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("m_PRO:per" "PRO:per" nil))
+(lex.add.entry '("m_interroge_VER" "VER" (((m "ehn") 0) (("t" "eh") 0) (("rh" "oh")0) (("zh" ae) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("suis_VER" "VER" (((s hw i) 0))))
+(lex.add.entry '("circonspect_ADJ" "ADJ" ((("s" "i" "rh") 0) (("k" "ohn" "s") 0) (("p" "eh") 0))))
+(lex.add.entry '("quant_à" nil (((k ahn) 0) ((t a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("manière_NOM" "NOM" ((("m" "a") 0) (("n" "j" "eh" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("procédé_VER" VER ((("p" "rh" "oh") 0) (("s" "e") 0) (("d" "e") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+
+(dSayText "Je m'interroge, je suis circonspect, quant à la manière de procéder du Gouvernement.") ; neut_parl_s02_0708

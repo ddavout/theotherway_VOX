@@ -1,0 +1,11 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("français_ADJ" ADJ ((("f" "rh" "ahn") 0) (("s" "eh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("mots_NOM" NOM ((("m" "o") 0))))
+(lex.add.entry '("ont_VER" "VER" ((("ohn") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("sens_NOM" "NOM" ((("s" "ahn")0) (("s" ae) 0))))
+
+(set! never_exception_list (append (list "ont" ) never_exception_list_default))
+(set! list_exclus*-> (append (list "mots" ) list_exclus*->_default))
+(dSayText "En français, les mots ont un sens.") ; neut_parl_s04_0203

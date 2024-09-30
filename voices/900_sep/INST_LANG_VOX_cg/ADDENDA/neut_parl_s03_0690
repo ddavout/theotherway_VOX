@@ -1,0 +1,10 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("suis_VER" "VER" (((s hw i) 0))))
+(lex.add.entry '("prêt_ADJ" "ADJ" ((("p" "rh" "eh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0)))); no LIA
+(lex.add.entry '("rediscuter_VER" VER ((("rh" "ae") 0) (("d" "i" "s") 0) (("k" "y") 0) (("t" "e") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+
+(set! text "je suis prêt à rediscuter avec vous.") ; neut_parl_s03_0690
+(dSayText text)

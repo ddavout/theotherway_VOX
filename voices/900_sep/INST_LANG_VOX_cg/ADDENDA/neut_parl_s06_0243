@@ -1,0 +1,14 @@
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("argument_NOM" "NOM" (((t "a" "rh") 0) (("g" "y") 0) (("m" "ahn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("tient_VER" VER ((("t" "j" ehn) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("debout_ADV" "ADV" ((("d" "ae") 0) (("b" "u") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("hors_PRE" "PRE" ((("oh" "rh") 0))))
+(lex.add.entry '("sujet_NOM" "NOM" ((("s" "y") 0) (("zh" "eh") 0))))
+
+(set! never_exception_list (append (list "est") never_exception_list_default))
+(dSayText "Cet argument ne tient pas debout, et il est hors sujet.") ; neut_parl_s06_0243

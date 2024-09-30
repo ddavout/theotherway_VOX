@@ -1,0 +1,12 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_PRO:per" "PRO:per" nil))
+(lex.add.entry '("agit_VER" "VER" ((("a") 0) (("zh" "i") 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("un_ART:ind" ART:ind ((("oen") 0))))
+(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
+(lex.add.entry '("extrêmement_ADV" "ADV" ((("eh" "k" "s") 0) (("t" "rh" "eh") 0) (("m" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("important_ADJ" "ADJ" ((("ehn") 0) (("p" "oh" "rh") 0) (("t" "ahn") 0))))
+
+(set! list_exclus*-> (append (list "extrêmement") list_exclus*->_default))
+(dSayText "Il s'agit là d'un point extrêmement important.") ; neut_parl_s02_0489

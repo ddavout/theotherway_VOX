@@ -1,0 +1,11 @@
+(lex.add.entry '("l_objectif_ADJ" "ADJ" (((l oh b) 0) ((zh e k) 0) ((t i)0) ((f ae) 0)))); confusion
+
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("ailleurs_ADV" "ADV" ((("a") 0) (("j" "oe" "rh") 0))))
+(lex.add.entry '("trop_ADV" "ADV" ((("t" "rh" "o") 0))))
+(lex.add.entry '("d_objectifs_NOM" "NOM" (((d "oh" b) 0) (("zh" "eh" "k") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("tuent_VER" VER ((("t" "y") 0))))
+(lex.add.entry '("l_objectif_NOM" "NOM" (((loh b) 0) ((zh e k) 0) ((t i)0) ((f ae) 0))))
+
+(set! text "Par ailleurs, trop d'objectifs tuent, l'objectif.") ; neut_parl_s03_0017
+(dSayText text)

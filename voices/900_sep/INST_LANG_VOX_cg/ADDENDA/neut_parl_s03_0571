@@ -1,0 +1,12 @@
+(lex.add.entry '("Dès_PRE" PRE ((("d" "eh") 0))))
+(lex.add.entry '("vendredi_NOM" "NOM" ((("v" "ahn") 0) (("d" "rh" "ae") 0) (("d" "i") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("fera_VER" "VER" ((("f" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("objet_VER" VER ((("oh" b) 0) (("zh" "eh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("premières_ADJ" ADJ ((("p" "rh" "ae") 0) (("m" "j" "eh" "rh") 0))))
+(lex.add.entry '("saisines_NOM" NOM ((("s" "e") 0) (("z" "i")0) (("n" "ae") 0))))
+
+; POS objet VER !
+(dSayText "Dès vendredi, il fera l'objet des premières saisines.") ; neut_parl_s03_0571

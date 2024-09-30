@@ -1,0 +1,15 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("chemin_NOM" "NOM" ((("sh" "ae") 0) (("m" "ehn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("étroit_ADJ" "ADJ" (((t "e") 0) ((t "rh" "w" "a") 0)))); LIA
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("voie_NOM" "NOM" ((("v" "w" "a") 0))))
+(lex.add.entry '("européenne_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("eh" "n") 0))))
+(lex.add.entry '("est__VER" "VER" ((("e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("passage_NOM" "NOM" ((("p" "a") 0) (("s" "a" "zh") 0))))
+(lex.add.entry '("obligé_VER" "VER" ((("oh") 0) (("b" "l" "i") 0) (("zh" "e") 0))))
+
+(set! text "Le chemin est étroit et la voie européenne est_ le passage obligé.") ; neut_parl_s02_0300
+(dSayText text)

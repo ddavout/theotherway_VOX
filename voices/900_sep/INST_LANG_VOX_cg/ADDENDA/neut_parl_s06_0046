@@ -1,0 +1,15 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("puis_CON" CON ((("p" "hw" "i") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("y_a_VER" "VER" (((l "j" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("besoin_NOM" "NOM" ((("b" "ae") 0) (("z" "w" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("cohérence_NOM" "NOM" ((("k" "oh") 0) (("e") 0) (("rh" "ahn" "s") 0))))
+(lex.add.entry '("entre_PRE" PRE ((("ahn") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("tous_PRO:ind" "PRO:ind" (((t u s) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("différents_ADJ" ADJ ((("d" "i") 0) (("f" "e") 0) (("rh" "ahn") 0))))
+(lex.add.entry '("échelons_NOM" NOM (((z "e" sh) 0) (("l" "ohn") 0))))
+
+(dSayText "Et puis, il y a un besoin de cohérence entre tous ces différents échelons.") ; neut_parl_s06_0046

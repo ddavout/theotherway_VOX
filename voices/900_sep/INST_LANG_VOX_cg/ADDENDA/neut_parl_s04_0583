@@ -1,0 +1,14 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("assez_ADV" "ADV" ((("a") 0) (("s" "e") 0))))
+(lex.add.entry '("incroyable_ADJ" "ADJ" ((("ehn") 0) (("k" "rh" "w" "a") 0) (("j" "a")0) (("b" "l" ae) 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_estt_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("réalité_NOM" "NOM" ((("rh" "e") 0) (("a") 0) (("l" "i") 0) (("t" "e") 0))))
+
+(set! list_exclus*-> (append (list "assez") list_exclus*->_default))
+
+(set! never_exception_list (append (list "c_estt" "C_est" ) never_exception_list_default))
+(dSayText "C'est assez incroyable, mais c'est une réalité.") ; neut_parl_s04_0583

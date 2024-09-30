@@ -1,0 +1,9 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("chers_ADJ" ADJ ((("sh" "eh" "rh") 0))))
+(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh" "g") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("opposition_NOM" "NOM" ((("oh") 0) (("p" "o") 0) (("z" "i") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "Mais oui, chers collègues de l'opposition !") ; neut_parl_s03_0171

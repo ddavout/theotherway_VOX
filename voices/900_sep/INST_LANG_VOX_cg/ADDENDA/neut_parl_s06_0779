@@ -1,0 +1,17 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("lendemain_NOM" "NOM" ((("l" "ahn") 0) (("d" "ae") 0) (("m" "ehn") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("personnes_NOM" NOM ((("p" "eh" "rh") 0) (("s" "oh")0) (("n" "ae") 0))))
+(lex.add.entry '("agresse_VER" VER ((("a") 0) (("g" "rh" "eh" "s") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("membres_NOM" NOM ((("m" "ahn" "b" "rh") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("personnel_NOM" NOM ((("p" "eh" "rh") 0) (("s" "oh") 0) (("n" "eh" "l") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("hôpital_NOM" "NOM" ((("oh") 0) (("p" "i") 0) (("t" "a" "l") 0))))
+
+;(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(set! list_exclus*-> (append (list "personnes" ) list_exclus*->_default))
+
+(dSayText "Le lendemain, deux personnes agressent des membres du personnel de l'hôpital.") ; neut_parl_s06_0779

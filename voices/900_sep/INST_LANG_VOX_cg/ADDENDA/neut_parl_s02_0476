@@ -1,0 +1,14 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0)))); no LIA
+(lex.add.entry '("partir_VER" "VER" ((("p" "a" "rh") 0) (("t" "i" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("mille_ADJ:num" ADJ:num ((("m" "i" "l") 0))))
+(lex.add.entry '("quatorze_NOM" "NOM" (((k a) 0) ((t oh rh)0) ((z ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o")0) (("z" ae) 0))))
+(lex.add.entry '("s_inversent_VER" VER (((s "ehn") 0) (("v" "eh" "rh" "s") 0))))
+
+
+(set! text "Mais à partir de deux mille quatorze, les choses s'inversent.") ; neut_parl_s02_0476
+(dSayText text)

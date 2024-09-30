@@ -1,0 +1,12 @@
+(lex.add.entry '("selon_PRE" "PRE" ((("s" "ae") 0) (("l" "ohn") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("aurion_AUX" AUX ((("a") 0) (("rh" "j" "ohn") 0))))
+(lex.add.entry '("fè_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("raisons_NOM" NOM ((("rh" "eh") 0) (("z" "ohn") 0))))
+(lex.add.entry '("électorialistes_ADJ" ADJ ((("e") 0) (("l" "eh" "k") 0) (("t" "oh") 0) (("rh" j "a") 0) (("l" "i" "s")0) (("t" "ae") 0))))
+
+(dSayText "Selon vous, nous l'aurions fait pour des raisons électoralistes.") ; neut_parl_s03_0633

@@ -1,0 +1,11 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("borne_NOM" "NOM" (((b oh rh) 0) ((n ae) 0))))
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh") 0))))
+(lex.add.entry '("est_VER" "VER" ((("l" "eh") 0))))
+(lex.add.entry '("toujours_ADV" ADV ((("t" "u") 0) (("zh" "u" "rh") 0))))
+(lex.add.entry '("là_ADV" ADV ((("l" "a") 0))))
+
+(set! text "cette borne, elle est toujours là.") ; neut_parl_s01_0098
+(dSayText text)
+
+

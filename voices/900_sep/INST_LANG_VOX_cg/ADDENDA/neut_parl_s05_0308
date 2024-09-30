@@ -1,0 +1,9 @@
+(lex.add.entry '("selon_PRE" "PRE" ((("s" "ae") 0) (("l" "ohn") 0))))
+(lex.add.entry '("quel_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0))))
+(lex.add.entry '("principe_NOM" "NOM" ((("p" "rh" "ehn") 0) (("s" "i" "p") 0))))
+(lex.add.entry '("fait-on_VER" "VER" ((("f" "eh") 0)(("t" "ohn") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("carte_NOM" "NOM" ((("k" "a" "rh")0) (("t" ae) 0))))
+
+(set! text "Selon quel principe fait-on une carte ?") ; neut_parl_s05_0308
+(dSayText text)

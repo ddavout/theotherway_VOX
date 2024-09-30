@@ -1,0 +1,9 @@
+; vr de vrai moche
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("sommes_VER" VER ((("s" "oh" "m") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("vraie_ADJ" "ADJ" ((("v" "rh" "eh") 0))))
+(lex.add.entry '("intermittence_NOM" "NOM" ((("ehn") 0) (("t" "eh" "rh") 0) (("m" "i") 0) (("t" "ahn" "s") 0))))
+
+(dSayText "Nous sommes dans la vraie intermittence.") ; neut_parl_s05_0108

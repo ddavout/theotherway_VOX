@@ -1,0 +1,14 @@
+(lex.add.entry '("voilà_VER" "VER" ((("v" "w" "a") 0) (("l" "a") 0))))
+(lex.add.entry '("mesdames_NOM" NOM ((("m" "e") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("et_CON" "CON" ((( "e") 0))))
+(lex.add.entry '("messieurs_NOM" "NOM" (((m e) 0) ((s j eu) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("députés_NOM" NOM ((("d" "e") 0) (("p" "y") 0) (("t" "e") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("équipe_NOM" "NOM" ((("e") 0) (("k" "i" "p") 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("dirige_VER" "VER" ((("d" "i") 0) (("rh" "i")0) (("zh" ae) 0))))
+
+(set! never_exception_list (append (list "mesdames" ) never_exception_list_default))
+(dSayText "Voilà, mesdames et messieurs les députés, l'équipe que je dirige.") ; neut_parl_s03_0687

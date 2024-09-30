@@ -1,0 +1,12 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("veut_VER" "VER" ((("v" "eu") 0))))
+(lex.add.entry '("dire_VER" "VER" ((("d" "i" "rh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("avons_AUX" AUX (((z "a") 0) (("v" "ohn") 0))))
+(lex.add.entry '("réussi_VER" "VER" ((("rh" "e") 0) (("y") 0) (("s" "i") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("coordination_NOM" "NOM" ((("k" "oh") 0) (("oh" "rh") 0) (("d" "i") 0) (("n" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("européenne_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("eh" "n") 0))))
+
+(dSayText "Cela veut dire que nous avons réussi cette coordination européenne.") ; neut_parl_s04_0156

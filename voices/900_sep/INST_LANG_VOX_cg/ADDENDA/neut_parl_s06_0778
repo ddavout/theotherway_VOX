@@ -1,0 +1,12 @@
+(set! fileid "neut_parl_s06_0778")
+(lex.add.entry '("or_CON" CON ((("oh" "rh") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("avons_VER" "VER" (((z "a") 0) (("v" "ohn") 0)))); LIA
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("souci_NOM" NOM ((("s" "u") 0) (("s" "i") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_appareil_NOM" "NOM" (((l "a") 0) (("p" "a") 0) (("rh" "eh" "j") 0))))
+(lex.add.entry '("productif_ADJ" ADJ ((("p" "rh" "oh") 0) (("d" "y" "k") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("français_ADJ" ADJ ((("f" "rh" "ahn") 0) (("s" "eh") 0))))
+(set! text "or nous avons le souci de l'appareil productif français.") ; neut_parl_s06_0778
+(dSayText text)

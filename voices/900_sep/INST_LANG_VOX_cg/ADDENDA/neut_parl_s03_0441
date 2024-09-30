@@ -1,0 +1,15 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("ensuite_ADV" "ADV" ((("ahn") 0) (("s" "hw" i "t") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("occasion_NOM" "NOM" ((("oh") 0) (("k" "a") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("favorisé_VER" VER ((("f" "a") 0) (("v" "oh") 0) (("rh" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("actionnariat_NOM" "NOM" ((("a" "k") 0) (("s" "j" "oh") 0) (("n" "a") 0) (("rh" "j" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("long_ADJ" "ADJ" ((("l" "ohn") 0))))
+(lex.add.entry '("terme_NOM" "NOM" ((("t" "eh" "rh")0) (("m" ae) 0))))
+
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "C'est ensuite l'occasion de favoriser l'actionnariat de long terme.") ; neut_parl_s03_0441

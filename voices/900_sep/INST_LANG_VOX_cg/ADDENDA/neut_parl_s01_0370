@@ -1,0 +1,11 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("parait_VER" VER ((("p" "a") 0) (("rh" "eh") 0)))); sans tréma
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("d_une_ART:ind" "ART:ind" (((d "y" "n") 0))))
+(lex.add.entry '("grande_ADJ" "ADJ" ((("g" "rh" "ahn" "d") 0))))
+(lex.add.entry '("cohérence_NOM" "NOM" ((("k" "oh") 0) (("e") 0) (("rh" "ahn")0) (("s" "ae") 0))))
+
+(set! text "Cela ne nous paraît pas d'une grande cohérence.") ; 
+(dSayText text); neut_parl_s01_0370

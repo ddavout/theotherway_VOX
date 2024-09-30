@@ -1,0 +1,10 @@
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("peu_PRO:ind" PRO:ind ((("p" "eu") 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("feuille_NOM" "NOM" ((("f" "oe" "j") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("route_NOM" "NOM" ((("rh" "u" "t") 0))))
+
+(set! text "C'est un peu notre feuille de route.") ; neut_parl_s03_0086
+(dSayText text)

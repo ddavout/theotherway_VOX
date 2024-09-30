@@ -1,0 +1,19 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("eux_PRO:per" "PRO:per" (((t "eu") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("sont_AUX" AUX ((("s" "ohn") 0))))
+(lex.add.entry '("chargés_VER" VER ((("sh" "a" "rh") 0) (("zh" "e") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("aller_NOM" NOM ((("a") 0) (("l" "e") 0))))
+(lex.add.entry '("cherché_VER" VER ((("sh" "eh" "rh") 0) (("sh" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("crédits_NOM" NOM ((("k" "rh" "e") 0) (("d" "i") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("chercheurs_NOM" NOM ((("sh" "eh" "rh") 0) (("sh" "oe" "rh") 0))))
+
+; bug eux (set! never_exception_list (append (list "sont" "C_est" ) never_exception_list_default))
+; pos aller
+(dSayText "Ce sont eux qui sont chargés d'aller chercher les crédits, et non les chercheurs.") ; neut_parl_s05_0551

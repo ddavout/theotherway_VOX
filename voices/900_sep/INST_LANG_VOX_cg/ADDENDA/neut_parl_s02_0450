@@ -1,0 +1,12 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("pourrait_VER" VER ((("p" "u") 0) (("rh" "eh") 0))))
+(lex.add.entry '("dire_VER" "VER" ((("d" "i" "rh") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("d_autres_ADJ:ind" "ADJ:ind" (((d "o")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o") 0))))
+(lex.add.entry '("encore_ADV" "ADV" (((z "ahn") 0) (("k" "oh" "rh") 0)))) ; LIA
+(lex.add.entry '("mais_CON" "CON" (((m e) 0))))
+(lex.add.entry '("concluons_VER" VER ((("k" "ohn") 0) (("k" "l" "y")0) ((hw "ohn") 0))))
+
+(set! text "On pourrait dire bien d'autres choses encore, mais concluons.") ; neut_parl_s02_0450
+(dSayText text)

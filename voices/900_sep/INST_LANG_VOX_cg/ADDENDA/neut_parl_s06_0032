@@ -1,0 +1,12 @@
+(lex.add.entry '("Or_CON" CON ((("oh" "rh") 0))))(lex.add.entry '("Or_NOM" NOM ((("oh" "rh") 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh)0) ((t rh ae) 0))))
+(lex.add.entry '("seule_ADJ" "ADJ" ((("s" "oe" "l") 0))))
+(lex.add.entry '("vision_NOM" "NOM" ((("v" "i") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
+(lex.add.entry '("vision_NOM" "NOM" ((("v" "i") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("fiscale_ADJ" "ADJ" ((("f" "i" "s") 0) (("k" "a")0) (("l" ae) 0))))
+
+; triple t rh s 
+(set! text "Or, votre seule vision, est une vision fiscale.") ; neut_parl_s06_0032
+(dSayText text)

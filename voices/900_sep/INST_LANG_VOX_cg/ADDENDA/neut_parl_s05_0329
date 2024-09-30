@@ -1,0 +1,14 @@
+(lex.add.entry '("tous_ADJ" "ADJ" (((t u) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("choisi_VER" "VER" ((("sh" "w" "a") 0) (("z" "i") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("voie_NOM" "NOM" ((("v" "w" "a") 0))))
+(lex.add.entry '("s_en_PRO:per" PRO:per (((s ahn) 0))))
+(lex.add.entry '("félicitent_VER" VER ((("f" "e") 0) (("l" "i") 0) (("s" "i" "t") 0))))
+(lex.add.entry '("aujourd_hui_ADV" "ADV" (((o) 0) ((zh u rh) 0) ((d hw i) 0)))); no LIA
+
+(set! text "Tous les pays qui ont choisi cette voie, s'en félicitent aujourd'hui.") ; neut_parl_s05_0329
+(dSayText text)

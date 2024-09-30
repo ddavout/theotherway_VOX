@@ -1,0 +1,9 @@
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("points_NOM" NOM ((("p" "w" "ehn") 0))))
+(lex.add.entry '("m_ont_AUX" AUX (((m "ohn") 0))))
+(lex.add.entry '("paru_VER" "VER" ((("p" "a") 0) (("rh" "y") 0))))
+(lex.add.entry '("intéressants_ADJ" ADJ ((("ehn") 0) (("t" "eh") 0) (("rh" "e") 0) (("s" "ahn") 0))))
+
+
+(set! text "trois points m'ont paru intéressants.") ; 
+(dSayText text); neut_parl_s01_0128

@@ -1,0 +1,14 @@
+(lex.add.entry '("Conseil_NAM" "NAM" ((("k" "ohn") 0) (("s" "eh" "j") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+
+(lex.add.entry '("état_NOM" "NOM" ((("e") 0) (("t" "a") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("décision_NOM" "NOM" ((("d" "e") 0) (("s" "i") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("juge_NOM" "NOM" ((("zh" "y" "zh") 0))))
+(lex.add.entry '("constitutionnel_ADJ" "ADJ" ((("k" "ohn" "s") 0) (("t" "i") 0) (("t" "y") 0) (("s" "j" "oh") 0) (("n" "eh" "l") 0))))
+
+(dSayText "Conseil d'état, et non une décision du juge constitutionnel.") ; neut_parl_s03_0423
+

@@ -1,0 +1,13 @@
+; Je moche
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("formulerai_VER" "VER" ((("f" "oh" "rh") 0) (("m" "y" "l") 0) (("rh" "eh") 0))))
+(lex.add.entry '("malgré_PRE" "PRE" ((("m" "a" "l") 0) (("g" "rh" "e") 0))))
+(lex.add.entry '("tout_PRO:ind" "PRO:ind" ((("t" "u") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0)))); no LIA
+(lex.add.entry '("regret_NOM" "NOM" ((("rh" "ae") 0) (("g" "rh" "eh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("perspective_NOM" "NOM" ((("p" "eh" "rh") 0) ((s "p" "e" "k") 0) (("t" "i") 0) (("v" "ae") 0))))
+
+(set! text "je formulerai, malgré tout, un regret et une perspective.") ; 
+(dSayText text); neut_parl_s01_0299

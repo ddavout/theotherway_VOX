@@ -1,0 +1,16 @@
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("entreprises_NOM" NOM (((z "ahn") 0) (("t" "rh" "ae") 0) (("p" "rh" "i")0) (("z" ae) 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("collectivités_NOM" NOM ((("k" "oh") 0) (("l" "e" "k") 0) (("t" "i") 0) (("v" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("ont_VER" "VER" ((("ohn") 0)))); no LIA
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("moment_NOM" "NOM" ((("m" "oh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("besoin_NOM" "NOM" ((("b" "ae") 0) (("z" "w" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("stabilité_NOM" "NOM" ((("s" "t" "a") 0) (("b" "i") 0) (("l" "i") 0) (("t" "e") 0))))
+
+
+(set! text "Comme nos entreprises, nos collectivités ont, à un moment, besoin de stabilité.") ; neut_parl_s05_0584
+(dSayText text)

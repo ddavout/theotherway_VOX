@@ -1,0 +1,10 @@
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("accéléré_VER" VER ((("a" "k") 0) (("s" "e") 0) (("l" "e") 0) (("rh" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("décrochage_NOM" NOM ((("d" "e") 0) (("k" "rh" "oh") 0) (("sh" "a" "zh") 0))))
+(lex.add.entry '("industriel_ADJ" "ADJ" ((("ehn") 0) (("d" "y" "s") 0) (("t" "rh" "i") 0) (("j" "eh" "l") 0)))); Q?
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn")0) (("s" ae) 0))))
+
+(dSayText "à, accélérer le décrochage industriel de la France ?") ; neut_parl_s06_0307

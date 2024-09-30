@@ -1,0 +1,11 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("renoué_VER" VER ((("rh" "ae") 0) (("n" "u") 0) (("e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("dialogue_NOM" "NOM" ((("d" "j" "a") 0) (("l" "oh") 0))))
+(lex.add.entry '("avec_PRE" "PRE" (((g "a") 0) (("v" "eh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" (((k "l" "e") 0))))
+(lex.add.entry '("collectivités_NOM" NOM ((("k" "oh") 0) (("l" "eh" "k") 0) (("t" "i") 0) (("v" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("territoriales_ADJ" ADJ ((("t" "eh") 0) (("rh" "i") 0) (("t" "oh") 0) (("rh" "j" "a")0) (("l" ae) 0))))
+
+(dSayText "Il faut renouer le dialogue avec les collectivités territoriales.") ; neut_parl_s06_0472

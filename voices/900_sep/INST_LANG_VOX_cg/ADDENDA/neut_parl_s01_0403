@@ -1,0 +1,7 @@
+(lex.add.entry '("qu_allez-vous_VER" VER ((("k" "a") 0) (("l" "e") 0)((v u) 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("start_up_NOM" NOM ((("s" "t" "a" "rh") 0) (("t" "oe" "p") 0))))
+
+(set! text "Qu'allez-vous faire des start-up ?") ; 
+(dSayText text); neut_parl_s01_0403

@@ -1,0 +1,11 @@
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh" "rh") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("ouvrons_VER" VER (((z "u") 0) (("v" "rh" "ohn") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y") 0)))); no lia
+(lex.add.entry '("ère_NOM" "NOM" (((n "eh" "rh") 0))))
+(lex.add.entry '("nouvelle_NOM" NOM ((("n" "u") 0) (("v" "eh" "l") 0))))
+
+
+(set! text "Là encore, nous ouvrons une ère nouvelle.") ; 
+(dSayText text); neut_parl_s01_0561

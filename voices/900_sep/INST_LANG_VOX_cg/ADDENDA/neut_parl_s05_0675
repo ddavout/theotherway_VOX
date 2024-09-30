@@ -1,0 +1,12 @@
+(lex.add.entry '("j_ai_AUX" "AUX" (((zh e) 0))))
+(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
+(lex.add.entry '("donné_VER" "VER" ((("d" "oh") 0) (("n" "e") 0))))
+(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
+(lex.add.entry '("avis_NOM" NOM (((n "a") 0) (("v" "i") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("hutin_NAM" "NAM" ((("y") 0) (("t" "ehn") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("connait_NOM" NOM ((("k" "oh") 0) (("n" "eh") 0))))
+
+(dSayText "J'ai déjà donné mon avis, et Monsieur Hutin le connaît.") ; neut_parl_s05_0675

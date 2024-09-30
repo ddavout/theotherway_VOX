@@ -1,0 +1,9 @@
+(lex.add.entry '("celle_ci" nil ((("s" "eh" "l") 0) (("s" "i") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("être_VER" VER ((("eh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("haut_ADJ" "ADJ" ((("o") 0))))
+(lex.add.entry '("niveau_NOM" "NOM" ((("n" "i") 0) (("v" "o") 0))))
+
+(set! never_exception_list (append (list "doit" ) never_exception_list_default))
+(dSayText "Celle-ci doit être de haut niveau.") ; neut_parl_s04_0314

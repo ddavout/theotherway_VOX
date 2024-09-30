@@ -1,0 +1,10 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("sport_NOM" "NOM" ((("s" "p" "oh" "rh") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("facteur_NOM" "NOM" ((("f" "a" "k") 0) (("t" "oe" "rh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("épanouissement_NOM" "NOM" ((("e") 0) (("p" "a") 0) (("n" w "i") 0) ((s "m" "ahn") 0))))
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "Le sport est un facteur d'épanouissement.") ; neut_parl_s06_0187

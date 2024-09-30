@@ -1,0 +1,8 @@
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("telle_ADJ:ind" "ADJ:ind" ((("t" "eh" "l") 0))))
+(lex.add.entry '("attitude_NOM" "NOM" ((("a") 0) (("t" "i") 0) (("t" "y")0) (("d" ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n eh) 0)(("p" "a") 0))))
+(lex.add.entry '("raisonnable_ADJ" "ADJ" ((("rh" "eh") 0) (("z" "oh") 0) (("n" "a")0) (("b" "l" ae) 0))))
+
+(set! text "Une telle attitude, n'est pas raisonnable.") ; neut_parl_s03_0474
+(dSayText text)

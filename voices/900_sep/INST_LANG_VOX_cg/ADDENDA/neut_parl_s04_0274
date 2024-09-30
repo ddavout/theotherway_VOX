@@ -1,0 +1,10 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("dis_VER" "VER" (((d i) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("choses_NOM" NOM ((("sh" "o" "z") 0))))
+(lex.add.entry '("telles_ADJ:ind" ADJ:ind ((("t" "eh" "l") 0))))
+(lex.add.entry '("qu_PRO:rel" "PRO:rel" nil))
+(lex.add.entry '("qu_elles_PRO:per" PRO:per ((("k" "eh" "l") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+
+(dSayText "Je dis les choses telles qu'elles sont.") ; neut_parl_s04_0274

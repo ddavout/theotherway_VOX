@@ -1,0 +1,11 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("sont_VER" "VER" ((("s" "ohn") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("vraiment_ADV" "ADV" ((("v" "rh" "eh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" ((("d" "e") 0))))
+(lex.add.entry '("matériaux_NOM" "NOM" ((("m" "a") 0) (("t" "e") 0) (("rh" "j" "o") 0))))
+(lex.add.entry '("utiles_ADJ" "ADJ" ((("y") 0) (("t" "i")0) (("l" ae) 0))))
+
+
+(set! never_exception_list (append (list "matériaux" ) never_exception_list_default))
+(dSayText "Ce sont donc vraiment, des matériaux utiles.") ; neut_parl_s06_0523

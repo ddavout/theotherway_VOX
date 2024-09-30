@@ -1,0 +1,10 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("chômage_NOM" "NOM" ((("sh" "o") 0) (("m" "a") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("zh" "a") 0))))
+(lex.add.entry '("atteint_VER" "VER" ((("a") 0) (("t" "ehn") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("niveau_NOM" "NOM" ((("n" "i") 0) (("v" "o") 0))))
+(lex.add.entry '("record_NOM" "NOM" ((("rh" "ae") 0) (("k" "oh" "rh") 0))))
+
+(set! text "Le chômage a atteint un niveau record.") ; neut_parl_s01_0009
+(dSayText text)

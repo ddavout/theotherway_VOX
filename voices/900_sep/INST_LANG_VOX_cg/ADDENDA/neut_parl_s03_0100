@@ -1,0 +1,9 @@
+(lex.add.entry '("Revenons_VER" VER ((("rh" "ae") 0) (("v" "ae") 0) (("n" "ohn") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("instant_NOM" "NOM" ((("ehn" "s") 0) (("t" "ahn") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("leur_ADJ:pos" "ADJ:pos" ((("l" "oe" "rh") 0))))
+(lex.add.entry '("histoire_NOM" "NOM" ((("i" "s") 0) (("t" "w" "a" "rh") 0))))
+
+(set! never_exception_list (append (list "Revenons" ) never_exception_list_default))
+(dSayText "Revenons un instant sur leur histoire.") ; neut_parl_s03_0100

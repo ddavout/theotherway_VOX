@@ -1,0 +1,8 @@
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("t_elle_PRO:per" "PRO:per" (((t "eh") 0))))
+(lex.add.entry '("être_VER" VER (((l "e") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("juge_NOM" "NOM" ((("zh" "y")0) (("zh" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("partie_NOM" "NOM" ((("p" "a" "rh") 0) (("t" "i") 0))))
+
+(dSayText "Doit-elle être juge et partie ?") ; neut_parl_s04_0330

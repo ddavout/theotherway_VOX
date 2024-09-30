@@ -1,0 +1,18 @@
+(set! fileid "parl_s01_0008")
+
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("inclut_VER" "VER" ((("ehn") 0) (("k" "l" "y") 0))))
+(lex.add.entry '("notamment_ADV" "ADV" ((("n" "oh") 0) (("t" "a") 0) (("m" "ahn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("communes_NOM" NOM ((("k" "oh") 0) (("m" "y" "n") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("résidence_NOM" "NOM" ((("rh" "e") 0) (("z" "i") 0) (("d" "ahn" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_un_PRO:ind" "PRO:ind" (((l "oen") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("l_autre_PRO:ind" PRO:ind (((l "o")0) (("t" "rh" ae) 0)))); done
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("époux_NOM" "NOM" (((z "e") 0) (("p" "u") 0)))); LIA
+(set! text "cela inclut notamment les communes de résidence de l'un, ou l'autre des époux.") ; neut_parl_s01_0008
+
+(dSayText text)

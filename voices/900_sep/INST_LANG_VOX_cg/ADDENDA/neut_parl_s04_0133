@@ -1,0 +1,13 @@
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("faites_VER" VER ((("f" "eh")0) (("t" ae) 0))))
+(lex.add.entry '("parce_que_CON" CON (((p a rh) 0) ((s k ae) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("pensé_VER" VER
+ ((("p" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("y_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("gagné_VER" VER ((("g" "a") 0) (("jg" "e") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("points_NOM" NOM (((p w ehn) 0))))
+
+(dSayText "Vous le faites, parce que vous pensez y gagner des points.") ; neut_parl_s04_0133

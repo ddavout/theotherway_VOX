@@ -1,0 +1,13 @@
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0))))
+(lex.add.entry '("j_écoute_VER" VER ((("zh" "e") 0) (("k" "u" "t") 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("Lellouche_NAM" "NAM" (((l ae) 0) ((l u sh) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("aurait_AUX" "AUX" ((("oh") 0) (("rh" "eh") 0))))
+(lex.add.entry '("fallu_VER" "VER" ((("f" "a") 0) (("l" "y") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("tout_NOM" NOM ((("t" "u") 0))))
+(lex.add.entry '("autre_ADJ" "ADJ" (((t "o") 0))))
+(lex.add.entry '("attitude_NOM" "NOM" ((("t" "rh" "a") 0) (("t" "i") 0) (("t" "y")0) (("d" "ae") 0))))
+
+(dSayText "Si j'écoute Monsieur Lellouche, il aurait fallu une tout autre attitude.") ; neut_parl_s03_0661

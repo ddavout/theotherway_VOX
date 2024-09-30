@@ -1,0 +1,9 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("s_en_PRO:per" PRO:per (((s ahn) 0))))
+(lex.add.entry '("cache_VER" "VER" ((("k" "a" "sh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+(set! text "Le Gouvernement ne s'en cache pas.") ; neut_parl_s02_0546
+(dSayText text)

@@ -1,0 +1,11 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("veux_VER" "VER" ((("v" "eu") 0))))
+(lex.add.entry '("établir_VER" "VER" ((("e") 0) (("t" "a") 0) (("b" "l" "i" "rh") 0))))
+(lex.add.entry '("aucune_ADJ:ind" "ADJ:ind" ((("o") 0) (("k" "y" "n") 0))))
+(lex.add.entry '("hiérarchie_NOM" "NOM" ((("j" "e") 0) (("rh" "a" "rh") 0) (("sh" "i") 0))))
+(lex.add.entry '("entre_PRE" "PRE" ((("ahn")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("menaces_NOM" NOM ((("m" "ae") 0) (("n" "a" "s") 0))))
+
+(dSayText "Je ne veux établir aucune hiérarchie, entre les menaces.") ; neut_parl_s06_0346

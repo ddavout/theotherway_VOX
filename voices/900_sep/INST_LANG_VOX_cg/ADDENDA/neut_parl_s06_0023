@@ -1,0 +1,13 @@
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("crains_VER" VER ((("k" "rh" "ehn") 0))))
+(lex.add.entry '("suffisamment_ADV" "ADV" ((("s" "y") 0) (("f" "i") 0) (("z" "a") 0) (("m" "ahn") 0))))
+(lex.add.entry '("élevés_ADJ" ADJ ((("e" "l") 0) (("v" "e") 0))))
+
+(set! list_exclus*-> (append (list "suffisamment") list_exclus*->_default))
+;(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+    ;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
+(dSayText "Ils sont déjà je le crains, suffisamment élevés.") ; neut_parl_s06_0023

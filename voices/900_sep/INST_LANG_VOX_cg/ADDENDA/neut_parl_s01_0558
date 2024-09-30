@@ -1,0 +1,9 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("l_espèce_NOM" "NOM" (((l "e" "s") 0) (("p" "eh")0) (("s" ae) 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0))))
+(lex.add.entry '("approche_NOM" "NOM" ((("a") 0) (("p" "rh" "oh")0 ))))
+(lex.add.entry '("est_VER" "VER" (((sh "e") 0))))
+(lex.add.entry '("mauvaise_ADJ" "ADJ" ((("m" "oh") 0) (("v" "eh")0) (("z" ae) 0))))
+
+(set! text "En l'espèce, votre approche est mauvaise.") ; 
+(dSayText text); neut_parl_s01_0558

@@ -1,0 +1,10 @@
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y") 0))))
+(lex.add.entry '("avancée_NOM" "NOM" (((n "a") 0) (("v" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("saluons_VER" VER ((("s" "a") 0) (("l" "y") 0) (("hw" "ohn") 0))))
+
+(set! text "C'est là une avancée que nous saluons.") ; 
+(dSayText text); neut_parl_s01_0258

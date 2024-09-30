@@ -1,0 +1,9 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("approche_NOM" "NOM" ((("a") 0) (("p" "rh" "oh") 0) (("sh" "ae") 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("parè_VER" VER ((("p" "a") 0) (("rh" "eh") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("tout_à_fait_ADV" "ADV" ((("t" "u") 0) (("t" "a") 0) (("f" "eh") 0))))
+(lex.add.entry '("pertinente_ADJ" "ADJ" ((("p" "eh" "rh") 0) (("t" "i") 0) (("n" "ahn" "t") 0))))
+
+(dSayText "Cette approche me paraît donc tout à fait pertinente.") ; neut_parl_s05_0106

@@ -1,0 +1,18 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("vais_VER" "VER" ((("v" "eh") 0))))
+(lex.add.entry '("être_VER" "VER" ((("eh" "t" "rh") 0))))
+(lex.add.entry '("concret_ADJ" "ADJ" ((("k" "ohn") 0) (("k" "rh" "eh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("prendre_VER" "VER" ((("p" "rh" "ahn" "d" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("exemples_NOM" NOM ((("eh" "g") 0) (("z" "ahn" "p" "l") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("ma_ADJ:pos" "ADJ:pos" ((("m" "a") 0))))
+(lex.add.entry '("propre_ADJ" "ADJ" ((("p" "rh" "oh")0) (("p" "rh" ae) 0))))
+(lex.add.entry '("circonscription_NOM" "NOM" ((("s" "i" "rh") 0) (("k" "ohn" "s") 0) (("k" "rh" "i" "p") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("huitième_NOM" "NOM" ((("hw" i) 0) (("t" "j" "eh" "m") 0))))
+
+(set! list_exclus*-> (append (list "vais") list_exclus*->_default))
+; POS 8e
+(dSayText "Je vais être concret et prendre des exemples dans ma propre circonscription, la huitième.") ; neut_parl_s05_0128

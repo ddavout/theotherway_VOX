@@ -1,0 +1,17 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("concertations_NOM" NOM ((("k" "ohn") 0) (("s" "eh" "rh") 0) (("t" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("ont_VER" "VER" ((("ohn") 0))))
+(lex.add.entry '("vocation_NOM" "NOM" ((("v" "oh") 0) (("k" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("renouer_VER" VER ((("rh" "ae") 0) (("n" "w" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("dialogue_NOM" "NOM" ((("d" "j" "a") 0) (("l" "oh")0) (("g" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("rétablir_VER" "VER" ((("rh" "e") 0) (("t" "a") 0) (("b" "l" "i" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("confiance_NOM" "NOM" ((("k" "ohn") 0) (("f" "j" "ahn")0) (("s" ae) 0))))
+(set! list_exclus*-> (append (list "concertations") list_exclus*->_default))
+
+(set! text "Ces concertations ont vocation à renouer le dialogue et à rétablir la confiance.") ; neut_parl_s02_0302
+(dSayText text)

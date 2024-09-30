@@ -1,0 +1,15 @@
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("chapdelaine_NAM" "NAM" ((("sh" "a" "p") 0) (("d" "ae") 0) (("l" "eh" "n") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("a_AUX" "AUX" (((z "a") 0))))
+(lex.add.entry '("a_VER" "VER" (((z "a") 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("aurions_AUX" AUX (((z "oh") 0) (("rh" "j" "ohn") 0))))
+(lex.add.entry '("dû_VER" "VER" ((("d" "y") 0))))
+(lex.add.entry '("venir_VER" "VER" ((("v" "ae") 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("auditions_NOM" NOM (((z "o") 0) (("d" "i") 0) (("s" "j" "ohn") 0)))); LIA
+
+(dSayText "Madame Chapdelaine nous a dit que nous aurions dû venir aux auditions.") ; neut_parl_s03_0292

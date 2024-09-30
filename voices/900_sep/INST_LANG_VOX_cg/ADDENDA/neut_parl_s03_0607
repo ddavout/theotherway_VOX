@@ -1,0 +1,13 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("compagnies_NOM" NOM ((("k" "ohn") 0) (("p" "a") 0) (("n" "i") 0))))
+(lex.add.entry '("françaises_ADJ" ADJ ((("f" "rh" "ahn") 0) (("s" "eh")0) (("z" ae) 0))))
+(lex.add.entry '("seront_VER" VER ((("s" "ae") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("conséquence_NOM" "NOM" ((("k" "ohn") 0) (("s" "e") 0) (("k" "ahn" "s") 0))))
+(lex.add.entry '("soumises_ADJ" ADJ ((("s" "u") 0) (("m" "i" "z") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("contraintes_NOM" NOM ((("k" "ohn") 0) (("t" "rh" "ehn")0) (("t" ae) 0))))
+
+
+(dSayText "Les compagnies françaises seront en conséquence, soumises à ces contraintes.") ; neut_parl_s03_0607

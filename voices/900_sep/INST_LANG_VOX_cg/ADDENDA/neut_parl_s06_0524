@@ -1,0 +1,16 @@
+(lex.add.entry '("tout_NOM" "NOM" (((t u) 0)))); confusion
+
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("passe_VER" "VER" ((("p" "a" "s") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("s_il_PRO:per" PRO:per (((s i) 0))))
+(lex.add.entry '("y_avait_VER" VER (((l "j" "a") 0) (("v" "eh") 0)))); LIA
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("réalité_NOM" "NOM" ((("rh" "e") 0) (("a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("deux_NOM" NOM ((("d" "eu") 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("goasguen_NAM" "NAM" (((g o) 0) ((a s) 0) ((g eh n) 0))))
+
+(set! text "Tout se passe comme s'il y avait, en réalité, deux Monsieur Goasguen.") ; neut_parl_s06_0524
+(dSayText text)

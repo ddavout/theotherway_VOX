@@ -1,0 +1,11 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("créé_VER" "VER" ((("k" "rh" "e") 0) (("e") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("dynamique_NOM" NOM ((("d" "i") 0) (("n" "a") 0) (("m" "i" "k") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("espoir_NOM" "NOM" (((n "eh" "s") 0) (("p" "w" "a" "rh") 0)))); LIA
+(lex.add.entry '("incroyable_ADJ" "ADJ" ((("ehn") 0) (("k" "rh" "w" "a") 0) (("j" "a")0) (("b" "l" "ae") 0)))); no LIA
+
+(set! text "Cela a créé une dynamique, un espoir incroyable.") ; 
+(dSayText text); neut_parl_s01_0382

@@ -1,0 +1,7 @@
+(lex.add.entry '("merci_NOM" "NOM" ((("m" "eh" "rh") 0) (("s" "i") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("conclure_VER" "VER" ((("k" "ohn") 0) (("k" "l" "y" "rh") 0))))
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("girardin_NAM" "NAM" ((("zh" "i") 0) (("rh" "a" "rh") 0) (("d" "ehn") 0))))
+
+(dSayText "Merci de conclure madame Girardin.") ; neut_parl_s04_0738

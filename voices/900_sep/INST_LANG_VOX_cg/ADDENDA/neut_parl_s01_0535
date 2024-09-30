@@ -1,0 +1,11 @@
+(lex.add.entry '("notons_VER" VER ((("n" "oh") 0) (("t" "ohn") 0))))
+(lex.add.entry '("toutefois_ADV" ADV ((("t" "u" "t") 0) (("f" "w" "a") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("ratios_NOM" NOM ((("rh" "a") 0) (("s" "j" "o") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0)))); no LIA
+(lex.add.entry '("baissé_VER" "VER" ((("b" "e") 0) (("s" "e") 0))))
+
+(set! text "notons toutefois que ces ratios ont baissé.") ; 
+(dSayText text); neut_parl_s01_0535
+

@@ -1,0 +1,18 @@
+(lex.add.entry '("si_ONO" "ONO" ((("s" "i") 0))))
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0)))); confusion possible
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("liasse_NOM" "NOM" ((("l" "j" "a" "s") 0))))
+(lex.add.entry '("suivante_ADJ" "ADJ" ((("s" "hw" i) 0) (("v" "ahn" "t") 0))))
+(lex.add.entry '("deux_NOM" NOM ((("d" "eu") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("ont_AUX" "AUX" (((z "ohn") 0)))); LIA
+(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("distribuées_VER" VER ((("d" "i" "s") 0) (("t" "rh" "i") 0) (("b" "hw" "e") 0))))
+
+
+(set! text "si, ils sont dans la liasse suivante ; deux vous ont déjà été distribuées.") ; neut_parl_s01_0676
+(dSayText text)

@@ -1,0 +1,15 @@
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ont_VER" "VER" ((("ohn") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("besoin_NOM" "NOM" ((("b" "ae") 0) (("z" "w" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("formations_NOM" NOM ((("f" "oh" "rh") 0) (("m" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("afin_de" PRE (((a) 0) ((f ehn) 0) ((d ae) 0))))
+(lex.add.entry '("mieux_NOM" NOM ((("m" "j" "eu") 0))))
+(lex.add.entry '("utilisé_VER" VER ((("y") 0) (("t" "i") 0) (("l" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("numérique_ADJ" "ADJ" ((("n" "y") 0) (("m" "e") 0) (("rh" "i" "k") 0))))
+
+(set! never_exception_list (append (list "ont" ) never_exception_list_default))
+(set! list_exclus*-> (append (list "mieux" ) list_exclus*->_default))
+(dSayText "Ils ont aussi besoin de formations, afin de mieux utiliser le numérique.") ; neut_parl_s04_0234

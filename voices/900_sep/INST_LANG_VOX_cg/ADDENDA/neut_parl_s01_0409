@@ -1,0 +1,15 @@
+; liaison cette a TODO ?
+(lex.add.entry '("or_CON" CON ((("oh" "rh") 0))))
+(lex.add.entry '("l_on_PRO:per" "PRO:per" (((l "ohn") 0))))
+(lex.add.entry '("retrouve_VER" "VER" ((("rh" "ae") 0) (("t" "rh" "u" "v") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("nom_NOM" "NOM" ((("n" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("guéant_NAM" "NAM" (((g e) 0) ((ahn) 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("affaire_NOM" "NOM" (((t "a") 0) (("f" "eh" "rh") 0))))
+
+(set! text "Or, l'on retrouve le nom de monsieur Guéant dans cette affaire.") ; 
+(dSayText text); neut_parl_s01_0409

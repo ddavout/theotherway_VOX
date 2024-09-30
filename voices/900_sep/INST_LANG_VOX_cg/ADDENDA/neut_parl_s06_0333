@@ -1,0 +1,14 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("école_NOM" "NOM" ((("e") 0) (("k" "oh")0)(( "l" ae) 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("église_NOM" "NOM" ((("e") 0) (("g" "l" "i" "z") 0))))
+(lex.add.entry '("laïque_ADJ" "ADJ" ((("l" "a") 0) (("i" "k") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("tous_PRO:ind" "PRO:ind" (((t u s) 0))))
+(lex.add.entry '("écrivè_VER" VER ((("e") 0) (("k" "rh" "i") 0) (("v" "eh") 0))))
+(lex.add.entry '("paul_NAM" "NAM" ((("p" "oh" "l") 0))))
+(lex.add.entry '("bert_NAM" "NAM" (((b eh rh t) 0))))
+
+(dSayText "l'école, c'est notre église laïque à tous, écrivait Paul Bert.") ; neut_parl_s06_0333

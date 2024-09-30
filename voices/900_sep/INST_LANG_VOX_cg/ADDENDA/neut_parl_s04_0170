@@ -1,0 +1,14 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("n_y_a_VER" "VER"  ((("n" j a) 0))))
+(lex.add.entry '("aucune_ADJ:ind" "ADJ:ind" ((("o") 0) (("k" "y" "n") 0))))
+(lex.add.entry '("raison_NOM" "NOM" ((("rh" "e") 0) (("z" "ohn") 0))))
+(lex.add.entry '("d_être_VER" "VER" (((d "eh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((t rh ahn) 0))))
+(lex.add.entry '("contradiction_NOM" "NOM" ((("k" "ohn") 0) (("t" "rh" "a") 0) (("d" "i" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("règles_NOM" NOM ((("rh" "eh" "g" "l") 0))))
+(lex.add.entry '("européennes_ADJ" ADJ ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("eh")0) (("n" ae) 0)))); LIA
+
+(set! text "Il n'y a aucune raison, d'être en contradiction avec les règles européennes.") ; neut_parl_s04_0170
+(dSayText text)

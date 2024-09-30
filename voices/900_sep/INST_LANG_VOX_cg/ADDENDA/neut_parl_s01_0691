@@ -1,0 +1,14 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faudra_VER" "VER" ((("f" "o") 0) (("d" "rh" "a") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("taux_NOM" "NOM" ((("t" "o") 0))))
+(lex.add.entry '("moins_ADV" ADV ((("m" "w" "ehn") 0))))
+(lex.add.entry '("élevés_ADJ" ADJ (((z "e" "l") 0) (("v" "e") 0)))); LIA
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("assiettes_NOM" NOM (((z "a") 0) (("s" "j" "eh" "t") 0)))); LIA
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("larges_ADJ" "ADJ" ((("l" "a" "rh")0) (("zh" ae) 0))))
+
+(set! text "Il faudra des taux moins élevés, et des assiettes plus larges.") ; neut_parl_s01_0691
+(dSayText text)

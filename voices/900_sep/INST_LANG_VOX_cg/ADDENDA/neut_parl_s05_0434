@@ -1,0 +1,11 @@
+; TODO parlons-en
+(lex.add.entry '("parlon_VER" VER ((("p" "a" "rh") 0) (("l" "ohn") 0))))
+
+(lex.add.entry '("quant_aux_PRE" PRE (((k ahn) 0) ((t o) 0))))
+(lex.add.entry '("objectifs_NOM" NOM (((z "oh" b) 0) (("zh" "eh" "k") 0) (("t" "i")0) (("f" ae) 0)))); LIA
+(lex.add.entry '("parlons_VER" VER ((("p" "a" "rh") 0) (("l" "ohn") 0))))
+(lex.add.entry '("z_en_PRE" "PRE" (((z ahn) 0))))
+
+
+(set! text "Quant aux objectifs, parlons-en !") ; neut_parl_s05_0434
+(dSayText text)

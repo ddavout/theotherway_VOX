@@ -1,0 +1,23 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("souhaite_VER" "VER" ((("s" "w" "eh" "t") 0))))
+(lex.add.entry '("s_CON" "CON" nil))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i)0))))
+;(lex.add.entry '("s_il_PRO:per" "PRO:per" (((s i) 0)))); les 2 !
+(lex.add.entry '("y_a_VER" "VER" (((l "j" "a") 0)))); Q?
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("âge_NOM" "NOM" ((("a")0) (("zh" ae) 0))))
+(lex.add.entry '("planché_VER" VER ((("p" "l" "ahn") 0) (("sh" "e") 0))))
+(lex.add.entry '("qu_CON" "CON" nil))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i) 0))))
+(lex.add.entry '("y_ADV" "ADV" nil))
+(lex.add.entry '("è_VER" "VER" (((l j "eh") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+;(lex.add.entry '("âge_NOM" "NOM" ((("a" "zh") 0))))
+(lex.add.entry '("limite_VER" VER ((("l" "i") 0) (("m" "i")0) (("t" ae) 0))))
+
+(set! never_exception_list (append (list "ait" "C_est" ) never_exception_list_default))
+(dSayText "C'est pourquoi je souhaite, s'il y a un âge plancher, qu'il y ait aussi un âge limite.") ; neut_parl_s06_0334

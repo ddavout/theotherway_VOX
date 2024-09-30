@@ -1,0 +1,13 @@
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_annoncent_VER" VER (((s "a") 0) (("n" "ohn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((s a) 0))))
+(lex.add.entry '("peine_NOM" "NOM" ((("p" "eh" "n") 0))))
+(lex.add.entry '("mieux_ADV" "ADV" ((("m" "j" "eu") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("mille_ADJ:num" ADJ:num ((("m" "i" "l") 0))))
+(lex.add.entry '("quinze_ADJ:num" "ADJ:num" ((("k" "ehn")0) (("z" ae) 0))))
+
+
+(set! text "Ils s'annoncent à peine mieux en deux mille quinze.") ; neut_parl_s06_0030
+(dSayText text)

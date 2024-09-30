@@ -1,0 +1,13 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("réforme_NOM" "NOM" ((("rh" "e") 0) (("f" "oh" "rh" "m") 0)))); done
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("collège_NOM" "NOM" ((("k" "oh") 0) (("l" "eh")0) (("zh" ae) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("forceps_NOM" NOM ((("f" "oh" "rh") 0) (("s" "eh" "p" s) 0))))
+
+(set! text "La réforme du collège, ne peut se faire au forceps.") ; neut_parl_s02_0123
+(dSayText text)

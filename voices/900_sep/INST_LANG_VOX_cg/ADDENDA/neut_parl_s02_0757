@@ -1,0 +1,9 @@
+(lex.add.entry '("durant_PRE" "PRE" ((("d" "y") 0) (("rh" "ahn") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("période_NOM" "NOM" ((("p" "eh") 0) (("rh" "j" "oh")0) (("d" ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("peine_NOM" "NOM" ((("p" "eh") 0))))
+(lex.add.entry '("est_AUX" "AUX" (((n "e") 0))))
+(lex.add.entry '("suspendue_VER" "VER" ((("s" "y" "s") 0) (("p" "ahn") 0) (("d" "y") 0))))
+
+(dSayText "Durant cette période, la peine est suspendue.") ; neut_parl_s02_0757

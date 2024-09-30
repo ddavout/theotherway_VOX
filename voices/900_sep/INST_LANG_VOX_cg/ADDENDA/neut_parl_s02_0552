@@ -1,0 +1,17 @@
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("ceux_NOM" NOM ((("s" "eu") 0))))
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("resterè_VER" VER ((("rh" "eh" "s") 0) (("t" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("sans_PRE" PRE ((("s" "ahn") 0))))
+(lex.add.entry '("solution_NOM" NOM ((("s" "o") 0) (("l" "y") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("compte_VER" "VER" ((("k" "ohn" "t") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("autres_ADJ" ADJ (((z "o") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("banques_NOM" NOM ((("b" "ahn")0) (("k" "ae") 0))))
+
+
+(set! never_exception_list (append (list "les" ) never_exception_list_default)); todo SAFE les + ADJ !!
+(dSayText "Pour ceux, enfin, qui resteraient sans solution, on compte sur les autres banques.") ; neut_parl_s02_0552

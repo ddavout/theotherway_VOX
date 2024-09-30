@@ -1,0 +1,11 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("sécheresse_NOM" "NOM" ((("s" "e" sh) 0) (("rh" "eh") 0) (("s" ae) 0))))
+(lex.add.entry '("a_VER" "VER" (((a) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("conséquences_NOM" NOM ((("k" "ohn") 0) (("s" "e") 0) (("k" "ahn" "s") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_échelle_NOM" "NOM" (((l "e") 0) (("sh" "eh" "l") 0))))
+(lex.add.entry '("mondiale_ADJ" "ADJ" ((("m" "ohn") 0) (("d" "j" "a")0) (("l" ae) 0))))
+
+(set! text "La sécheresse a des conséquences à l'échelle mondiale.") ; 
+(dSayText text); neut_parl_s01_0729

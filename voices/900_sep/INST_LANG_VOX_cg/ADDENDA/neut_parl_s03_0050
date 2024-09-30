@@ -1,0 +1,16 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("y_a_VER" "VER" ((("j" "a") 0))))
+(lex.add.entry '("celui_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "hw" i) 0))))
+(lex.add.entry '("souvent_ADV" "ADV" ((("s" "u") 0) (("v" "ahn") 0))))
+(lex.add.entry '("lié_VER" "VER" ((("l" "j" "e") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("cumul_NOM" "NOM" ((("k" "y") 0) (("m" "y" "l") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("mandats_NOM" NOM ((("m" "ahn") 0) (("d" "a") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("contrats_NOM" NOM ((("k" "ohn") 0) (("t" "rh" "a") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("collectivités_NOM" NOM ((("k" "oh") 0) (("l" "eh" "k") 0) (("t" "i") 0) (("v" "i") 0) (("t" "e") 0))))
+
+(dSayText "Il y a celui, souvent lié au cumul des mandats, des contrats dans des collectivités.") ; neut_parl_s03_0050

@@ -1,0 +1,17 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("budget_NOM" "NOM" ((("b" "y" d) 0) (("zh" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("via_NOM" "NOM" ((("v" "j" "a") 0))))
+(lex.add.entry '("stella_NAM" "NAM" (((s t e) 0) ((l a) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("quant_à" nil (((k ahn) 0) ((t a) 0))))
+(lex.add.entry '("lui_PRO:per" "PRO:per" ((("l" "hw" i) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("vingt_ADJ:num" "ADJ:num" ((("v" "ehn" t) 0))))
+(lex.add.entry '("quatre_ADJ:num" "ADJ:num" ((("k" "a")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("millions_NOM" NOM ((("m" "i" l) 0) (("j" "ohn") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("euros_NOM" "NOM" ((("oe") 0) (("rh" "o") 0))))
+
+; todo triple t rh m
+(dSayText "Le budget de Via Stella est, quant à lui, de vingt quatre millions d'euros.") ; neut_parl_s03_0057

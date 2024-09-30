@@ -1,0 +1,10 @@
+(lex.add.entry '("laurent_NAM" "NAM" (((l oh) 0) ((rh ahn) 0))))
+(lex.add.entry '("fabius_NAM" "NAM" (((f a) 0) ((b j y s) 0))))
+(lex.add.entry '("s_PRO:per" "PRO:per" nil))
+(lex.add.entry '("est_VER" "VER" (((eh) 0))))
+(lex.add.entry '("rendu_VER" "VER" ((("rh" "ahn") 0) (("d" "y") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("place_NOM" "NOM" ((("p" "l" "a" "s") 0))))
+(lex.add.entry '("vendredi_NOM" "NOM" ((("v" "ahn") 0) (("d" "rh" "ae") 0) (("d" "i") 0))))
+
+(dSayText "Laurent Fabius s'est rendu sur place vendredi.") ; neut_parl_s03_0745

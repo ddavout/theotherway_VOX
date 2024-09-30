@@ -1,0 +1,9 @@
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("parviendrez_VER" VER ((("p" "a" "rh") 0) (("v" "j" "ehn") 0) (("d" "rh" "e") 0))))
+(lex.add.entry '("ainsi_ADV" "ADV" ((("ehn") 0) (("s" "i") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("vos_ADJ:pos" "ADJ:pos" ((("v" "o") 0))))
+(lex.add.entry '("fins_NOM" NOM ((("f" "ehn") 0))))
+
+(set! text "vous parviendrez ainsi à vos fins.") ; neut_parl_s06_0768
+(dSayText text)

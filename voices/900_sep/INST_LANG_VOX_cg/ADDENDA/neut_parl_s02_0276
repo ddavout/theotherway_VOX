@@ -1,0 +1,11 @@
+(lex.add.entry '("chacun_PRO:ind" "PRO:ind" ((("sh" "a") 0) (("k" "oen") 0))))
+(lex.add.entry '("aura_AUX" AUX ((("oh") 0) (("rh" "a") 0)))); LIA
+(lex.add.entry '("compris_VER" VER ((("k" "ohn") 0) (("p" "rh" "i") 0))))
+(lex.add.entry '("de_quoi_PRO:ind" PRO:ind (((d ae)0)(("k" "w" "a") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_agit_VER" "VER" (((s "a") 0) (("zh" "i") 0))))
+
+
+
+(set! text "Chacun aura compris de quoi il s'agit.") ; neut_parl_s02_0276
+(dSayText text)

@@ -1,0 +1,9 @@
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("êtes_VER" "VER" ((("eh" t) 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((z "o") 0)))); LIA
+(lex.add.entry '("milieu_NOM" "NOM" ((("m" "i") 0) (("l" "j" "eu") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("gué_NOM" "NOM" ((("g" "e") 0))))
+
+(set! text "Vous êtes au milieu du gué.") ; neut_parl_s02_0077
+(dSayText text)

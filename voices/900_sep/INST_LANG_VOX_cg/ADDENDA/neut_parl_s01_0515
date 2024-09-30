@@ -1,0 +1,17 @@
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s)0) ((t rh ae) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("y_a_VER" "VER" (((l "j" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("gauche_NOM" "NOM" ((("g" "o")0) (("sh" ae) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("vraie_ADJ" "ADJ" ((("v" "rh" "eh") 0))))
+(lex.add.entry '("fierté_NOM" "NOM" ((("f" "j" "eh" "rh") 0) (("t" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("voter_VER" VER ((("v" "oh") 0) (("t" "e") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("loi_NOM" "NOM" ((("l" "w" "a") 0))))
+
+(set! text "Monsieur le ministre, il y a à gauche une vraie fierté à voter cette loi.") ; 
+(dSayText text); neut_parl_s01_0515

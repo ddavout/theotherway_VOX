@@ -1,0 +1,8 @@
+(lex.add.entry '("quelles_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0))))
+(lex.add.entry '("preuves_NOM" NOM ((("p" "rh" "oe" "v") 0))))
+(lex.add.entry '("devront-elles_VER" VER ((("d" "ae") 0) (("v" "rh" "ohn") 0)(("t" "eh" "l") 0))))
+(lex.add.entry '("fournir_VER" "VER" ((("f" "u" "rh") 0) (("n" "i" "rh") 0))))
+
+
+(set! text "Quelles preuves devront-elles fournir ?") ; neut_parl_s02_0212
+(dSayText text)

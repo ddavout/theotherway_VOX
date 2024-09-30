@@ -1,0 +1,10 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("fonctionnera_VER" "VER" ((("f" "ohn" "k") 0) (("s" "j" "oh" n) 0) (("rh" "a") 0))))
+(lex.add.entry '("si_ADV" "ADV" ((("s" "i") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("proximité_NOM" "NOM" ((("p" "rh" "oh" "k") 0) (("s" "i") 0) (("m" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("respectée_VER" "VER" ((("rh" "eh" "s") 0) (("p" "e" "k") 0) (("t" "e") 0))))
+
+(dSayText "Ce dispositif fonctionnera, si la proximité est respectée.") ; neut_parl_s06_0570

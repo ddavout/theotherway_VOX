@@ -1,0 +1,16 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("s_PRO:per" "PRO:per" nil))
+(lex.add.entry '("agit_VER" "VER" ((("a") 0) (("zh" "i") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("sacrifié_VER" VER ((("s" "a") 0) (("k" "rh" "i") 0) (("f" "j" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("sais_VER" "VER" ((("s" "e") 0))))
+(lex.add.entry '("quelle_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0))))
+(lex.add.entry '("vieille_ADJ" "ADJ" ((("v" "j" "eh" "j") 0))))
+(lex.add.entry '("lune_NOM" "NOM" ((("l" "y")0) (("n" "ae") 0))))
+
+(dSayText "Il ne s'agit pas de sacrifier, à je ne sais quelle vieille lune.") ; neut_parl_s06_0318

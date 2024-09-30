@@ -1,0 +1,14 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("voulions_VER" VER ((("v" "u") 0) (("l" "j" "ohn") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+(lex.add.entry '("ait_VER" "VER" ((("e") 0))))
+(lex.add.entry '("lieu_NOM" "NOM" ((("l" "j" "eu") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("t" "o") 0)))) ; !
+(lex.add.entry '("grand_ADJ" "ADJ" ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("jour_NOM" "NOM" ((("zh" "u" "rh") 0))))
+
+
+(set! text "Nous voulions que ce débat, ait lieu au grand jour.") ; neut_parl_s02_0139
+(dSayText text)

@@ -1,0 +1,11 @@
+
+(lex.add.entry '("où_PRO:rel" "PRO:int" ((("u") 0))))
+(lex.add.entry '("en_PRO:ind" "PRO:ind" (((ahn) 0)))); confusion
+
+(lex.add.entry '("où" nil ((("u") 0))))
+(lex.add.entry '("sommes-nous_VER" VER ((("s" "oh" "m") 0)(("n" "u") 0))))
+(lex.add.entry '("en" nil (((ahn) 0)))); no LIA
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn")0) (("s" "ae") 0))))
+
+(set! text "où en sommes-nous en France ?") ; neut_parl_s01_0677
+(dSayText text)

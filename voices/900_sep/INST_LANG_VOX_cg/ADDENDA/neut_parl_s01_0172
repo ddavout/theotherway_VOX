@@ -1,0 +1,10 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("reviens_VER" VER ((("rh" "ae") 0) (("v" "j" "ehn") 0)))); no LIA
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("sujet_NOM" "NOM" ((("s" "y") 0) (("zh" "eh") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("occupe_VER" "VER" (((z "oh") 0) (("k" "y")0) (("p" ae) 0)))); LIA
+
+(set! text "je reviens au sujet qui nous occupe.") ; 
+(dSayText text); neut_parl_s01_0172

@@ -1,0 +1,6 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("anodin_ADJ" "ADJ" (((z "a") 0) (("n" "oh") 0) (("d" "ehn") 0)))); LIA
+
+(set! text "Ce n'est pas anodin.") ; neut_parl_s03_0368
+(dSayText text)

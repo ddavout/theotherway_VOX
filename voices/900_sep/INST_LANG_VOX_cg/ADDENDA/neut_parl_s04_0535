@@ -1,0 +1,14 @@
+(lex.add.entry '("parce_que_CON" CON (((p a rh s) 0) ((k ae) 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("impôt_NOM" "NOM" ((("ehn") 0) (("p" "o") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("complètement_ADV" "ADV" ((("k" "ohn") 0) (("p" "l" "eh" "t") 0) (("m" "ahn") 0))))
+(lex.add.entry '("mité_ADJ" ADJ ((("m" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("niches_NOM" NOM ((("n" "i" "sh") 0))))
+(lex.add.entry '("fiscales_ADJ" ADJ ((("f" "i" "s") 0) (("k" "a" "l") 0))))
+
+(dSayText "Parce que, là aussi, l'impôt est complètement mité par des niches fiscales.") ; neut_parl_s04_0535

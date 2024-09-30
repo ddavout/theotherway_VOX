@@ -1,0 +1,10 @@
+(lex.add.entry '("actuellement_ADV" "ADV" ((("a" "k") 0) (("t" "hw" "eh" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("priorité_NOM" "NOM" ((("p" "rh" "i") 0) (("j" "oh") 0) (("rh" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("donnée_VER" VER ((("d" "oh") 0) (("n" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("mère_NOM" "NOM" ((("m" "eh" "rh") 0))))
+
+
+(dSayText "Actuellement, priorité est donnée à la mère.") ; neut_parl_s06_0256

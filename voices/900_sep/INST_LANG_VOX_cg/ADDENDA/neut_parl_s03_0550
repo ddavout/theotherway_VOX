@@ -1,0 +1,14 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("aucun_ADJ:ind" "ADJ:ind" ((("o") 0) (("k" "oen") 0))))
+(lex.add.entry '("cas_NOM" NOM ((("k" "a") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("holding_NOM" NOM (((oh l) 0) ((d i n g) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("pourrè_VER" VER ((("p" "u") 0) (("rh" "eh") 0))))
+(lex.add.entry '("procédé_VER" VER ((("p" "rh" "oh") 0) (("s" "e") 0) (("d" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("contournement_NOM" "NOM" ((("k" "ohn") 0) (("t" "u" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+
+(set! never_exception_list (append (list "En" ) never_exception_list_default))
+(dSayText "En aucun cas, la holding ne pourrait procéder à un contournement.") ; neut_parl_s03_0550

@@ -1,0 +1,9 @@
+(lex.add.entry '("leur_ADJ:pos" "ADJ:pos" ((("l" "oe" "rh") 0))))
+(lex.add.entry '("niveau_NOM" "NOM" ((("n" "i") 0) (("v" "o") 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("être_VER" VER ((("eh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("variable_ADJ" ADJ ((("v" "a") 0) (("rh" "j" "a") 0) (("b" "l" ae) 0))))
+
+(set! never_exception_list (append (list "peut" ) never_exception_list_default))
+(dSayText "Leur niveau peut être très variable.") ; neut_parl_s05_0096

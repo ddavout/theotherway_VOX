@@ -1,0 +1,17 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("serai_VER" VER ((("s" "ae") 0) (("rh" "e") 0))))
+(lex.add.entry '("attentif_ADJ" "ADJ" ((("a") 0) (("t" "ahn") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((s k ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("pêcheurs_NOM" NOM ((("p" "eh") 0) (("sh" "oe" "rh") 0))))
+(lex.add.entry '("soient_AUX" AUX ((("s" "w" "a") 0))))
+(lex.add.entry '("pleinement_ADV" "ADV" ((("p" "l" "eh" "n") 0) (("m" "ahn") 0))))
+(lex.add.entry '("associés_VER" VER ((("a") 0) (("s" "oh") 0) (("s" "j" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("leur_ADJ:pos" "ADJ:pos" ((("l" "oe" "rh") 0))))
+(lex.add.entry '("élaboration_NOM" "NOM" ((("e") 0) (("l" "a") 0) (("b" "oh") 0) (("rh" "a") 0) (("s" "j" "ohn") 0))))
+
+(set! text "Je serai attentif à ce que les pêcheurs soient pleinement associés, à leur élaboration.") ; neut_parl_s02_0316
+(dSayText text)

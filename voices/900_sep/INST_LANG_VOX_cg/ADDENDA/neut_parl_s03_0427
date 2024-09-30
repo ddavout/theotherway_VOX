@@ -1,0 +1,8 @@
+(lex.add.entry '("Quels_ADJ:int" ADJ:int ((("k" "eh" "l") 0))))
+(lex.add.entry '("effets_NOM" NOM (((z "e") 0) (("f" "eh") 0)))); LIA
+(lex.add.entry '("doit-on_VER" "VER" ((("d" "w" "a") 0)(("t" "ohn") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0)))); no LIA
+(lex.add.entry '("attendre_VER" "VER" (((n "a") 0) (("t" "ahn")0) (("d" "rh" "ae") 0)))); LIA
+
+(set! text "Quels effets doit-on en attendre ?") ; neut_parl_s03_0427
+(dSayText text)

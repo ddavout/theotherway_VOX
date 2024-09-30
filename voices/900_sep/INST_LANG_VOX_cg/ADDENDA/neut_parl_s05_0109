@@ -1,0 +1,8 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("verbeux_ADJ" "ADJ" ((("v" "eh" "rh") 0) (("b" "eu") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_esthh_VER" VER ((("s" "e") 0))))
+(lex.add.entry '("nul_ADJ" "ADJ" ((("n" "y" "l") 0))))
+
+(dSayText "C'est verbeux, c'est nul !") ; neut_parl_s05_0109

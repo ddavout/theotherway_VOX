@@ -1,0 +1,12 @@
+(set! fileid "neut_book_s01_0085")
+(lex.add.entry '("elles_PRO:per" PRO:per ((("eh" "l") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("poussent_VER" VER ((("p" "u" "s") 0))))
+(lex.add.entry '("que_ADV" ADV (((k ae) 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+(lex.add.entry '("seul_ADJ" "ADJ" ((("s" "oe" "l") 0))))
+
+(set! text "elles ne poussent que pour moi seul.") ; neut_book_s01_0085
+(dSayText text)
+

@@ -1,0 +1,13 @@
+(lex.add.entry '("leurs_ADJ:pos" ADJ:pos ((("l" "oe" "rh") 0))))
+(lex.add.entry '("initiatives_NOM" NOM (((z "i") 0) (("n" "i") 0) (("s" "j" "a") 0) (("t" "i" "v") 0)))); LIA
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("terrain_NOM" NOM ((("t" "e") 0) (("rh" "ehn") 0))))
+(lex.add.entry '("seront_AUX" "AUX" ((("s" "ae") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("soutenues_VER" VER ((("s" "u" t) 0) (("n" "y") 0))))
+
+
+(set! text "leurs initiatives sur le terrain seront soutenues.") ; 
+(dSayText text); neut_parl_s01_0218
+
+

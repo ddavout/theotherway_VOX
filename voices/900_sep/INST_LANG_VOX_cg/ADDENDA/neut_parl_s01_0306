@@ -1,0 +1,16 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("trouve_VER" "VER" ((("t" "rh" "u" "v") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("j_ai_AUX" "AUX" (((zh eh) 0))))
+(lex.add.entry '("récemment_ADV" "ADV" ((("rh" "e") 0) (("s" "a") 0) (("m" "ahn") 0))))
+(lex.add.entry '("participé_VER" "VER" ((("p" "a" "rh") 0) (("t" "i") 0) (("s" "i") 0) (("p" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("voyage_NOM" "NOM" ((("v" "w" "a") 0) (("j" "a" "zh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("israël_NAM" NAM (((n "i" "s") 0) (("rh" "a") 0) (("eh" "l") 0)))); LIA
+
+(set! text "il se trouve que j'ai récemment participé à un voyage en israël.") ; 
+(dSayText text); neut_parl_s01_0306
+

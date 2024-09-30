@@ -1,0 +1,9 @@
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("êtes_VER" "VER" ((("eh" t) 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("un_ART:ind" ART:ind ((("oen") 0))))
+(lex.add.entry '("immobilisme_NOM" "NOM" ((("i") 0) (("m" "oh") 0) (("b" "i") 0) (("l" "i" "s")0) (("m" ae) 0))))
+(lex.add.entry '("incroyable_ADJ" "ADJ" ((("ehn") 0) (("k" "rh" "w" "a") 0) (("j" "a")0) (("b" "l" ae) 0))))
+
+(dSayText "Vous, vous êtes d'un immobilisme incroyable.") ; neut_parl_s04_0669

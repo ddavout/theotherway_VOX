@@ -1,0 +1,20 @@
+; Je moche
+; TODO n'y a n_y_a marche pas
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("partage_VER" "VER" ((("p" "a" "rh") 0) (("t" "a" "zh") 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh) 0))))
+(lex.add.entry '("avis_NOM" NOM ((("t" "rh" "a") 0) (("v" "i") 0))))
+(lex.add.entry '("selon_PRE" "PRE" ((("s" "ae") 0) (("l" "ohn") 0))))
+(lex.add.entry '("lequel_PRO:rel" "PRO:rel" ((("l" "ae") 0) (("k" "eh" "l") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("n_y_a_VER" "VER" (((n j a) 0))))
+(lex.add.entry '("n_y_a_AUX" "AUX" (((n j a) 0)))); confusion possible VER AUX
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m eh) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("certitude_NOM" "NOM" ((("s" "eh" "rh") 0) (("t" "i") 0) (("t" "y" "d") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("matière_NOM" "NOM" ((("m" "a") 0) (("t" "j" "eh" "rh") 0))))
+
+(set! text "je partage votre avis, selon lequel il n'y a jamais de certitude en la matière.") ; neut_parl_s01_0066
+(dSayText text)

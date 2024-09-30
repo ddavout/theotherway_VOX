@@ -1,0 +1,14 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("commission_NOM" "NOM" ((("k" "oh") 0) (("m" "i") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("maintenu_VER" "VER" (((m ehn t) 0) ((n y) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("suppression_NOM" "NOM" ((("s" "y") 0) (("p" "rh" "e") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("article_NOM" "NOM" ((("a" "rh") 0) (("t" "i") 0) (("k" "l" "ae") 0))))
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("bis_NOM" "NOM" (((b i s) 0))))
+
+
+(dSayText "La commission a maintenu la suppression de l'article trois bis.") ; neut_parl_s03_0672

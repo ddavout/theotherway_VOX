@@ -1,0 +1,11 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("enjeu_NOM" "NOM" ((("ahn") 0) (("zh" "eu") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("autant_ADV" "ADV" ((("o") 0) (("t" "ahn") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("national_ADJ" "ADJ" ((("n" "a") 0) (("s" "j" "oh") 0) (("n" "a")0) (("l" ae) 0))))
+
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "C'est un enjeu européen, autant que national.") ; neut_parl_s05_0486

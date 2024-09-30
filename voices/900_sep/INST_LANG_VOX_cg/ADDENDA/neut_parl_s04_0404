@@ -1,0 +1,8 @@
+(lex.add.entry '("qu_est_ce_VER" "VER" (((k eh s) 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("va_VER" "VER" ((("v" "a") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("changer_VER" VER ((("sh" "ahn") 0) (("zh" "e") 0))))
+
+(set! text "Qu'est-ce qui va donc changer ?") ; neut_parl_s04_0404
+(dSayText text)

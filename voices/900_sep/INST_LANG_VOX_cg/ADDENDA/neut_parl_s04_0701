@@ -1,0 +1,10 @@
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn" "s") 0))))
+(lex.add.entry '("sans_PRE" PRE ((("s" "ahn") 0))))
+(lex.add.entry '("industrie_NOM" "NOM" ((("ehn") 0) (("d" "y" "s") 0) (("t" "rh" "i") 0))))
+(lex.add.entry '("serè_VER" "VER" ((("s" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("catastrophe_NOM" "NOM" ((("k" "a") 0) (("t" "a" "s") 0) (("t" "rh" "oh" "f") 0))))
+
+(set! never_exception_list (append (list "serait" ) never_exception_list_default))
+(dSayText "Une France sans industrie serait une catastrophe.") ; neut_parl_s04_0701

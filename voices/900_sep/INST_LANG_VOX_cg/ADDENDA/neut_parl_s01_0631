@@ -1,0 +1,9 @@
+(lex.add.entry '("partout_ADV" "ADV" ((("p" "a" "rh") 0) (("t" "u") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("s_améliorer_VER" VER (((s "a") 0) (("m" "e") 0) (("l" "j" "oh") 0) (("rh" "e") 0))))
+
+
+
+(set! text "Partout, il doit s'améliorer.") ; 
+(dSayText text); neut_parl_s01_0631

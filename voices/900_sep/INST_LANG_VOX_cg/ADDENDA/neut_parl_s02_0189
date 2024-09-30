@@ -1,0 +1,8 @@
+(lex.add.entry '("cinquième_ADJ" "ADJ" ((("s" "ehn") 0) (("k" "j" "eh" "m") 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("fait-on_VER" "VER" ((("f" "e") 0)(("t" "ohn") 0))))
+
+
+(set! text "Cinquième question, que fait-on ?") ; neut_parl_s02_0189
+(dSayText text)

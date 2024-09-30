@@ -1,0 +1,6 @@
+(lex.add.entry '("j_en_PRO:per" "PRO:per" (((zh ahn) 0))))
+(lex.add.entry '("doute_VER" "VER" ((("d" "u" "t") 0))))
+(lex.add.entry '("croyez-le_VER" VER ((("k" "rh" "w" "a") 0) (("j" "e") 0)(("l" "ae") 0))))
+
+(set! text "J'en doute croyez-le.") ; neut_parl_s04_0648
+(dSayText text)

@@ -1,0 +1,15 @@
+; TODO au_moins ?
+
+(lex.add.entry '("qu_elle_PRO:per" "PRO:per" (((k eh l) 0))))
+(lex.add.entry '("soit_VER" "VER" ((("s" "w" "a") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("moins_NOM" NOM ((("m" "w" "ehn") 0))))
+(lex.add.entry '("ouverte_VER" "VER" ((("u") 0) (("v" "eh" "rh")0) (("t" ae) 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("acquis_NOM" NOM ((("a") 0) (("k" "i") 0))))
+(lex.add.entry '("ancien_ADJ" "ADJ" ((("ahn") 0) (("s" "j" "ehn") 0)))); no LIA
+
+
+(set! text "Qu'elle soit au moins ouverte : c'est un acquis ancien.") ; neut_parl_s03_0311
+(dSayText text)

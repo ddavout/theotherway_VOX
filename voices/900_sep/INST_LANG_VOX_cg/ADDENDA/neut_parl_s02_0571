@@ -1,0 +1,16 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("budgethh_NOM" "NOM" ((("b" "y" d) 0) (("zh" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("combat_NOM" "NOM" ((("k" "ohn") 0) (("b" "a") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("budget_NOM" "NOM" ((("b" "y" d) 0) (("zh" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("gauche_NOM" "NOM" ((("g" "o" "sh") 0))))
+(lex.add.entry '("solidaire_ADJ" "ADJ" ((("s" "oh") 0) (("l" "i") 0) (("d" "eh" "rh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("responsable_ADJ" "ADJ" ((("rh" "eh" "s") 0) (("p" "ohn") 0) (("s" "a")0) (("b" "l" ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("assumon_VER" "VER" ((("a") 0) (("s" "y") 0) (("m" "ohn") 0))))
+
+(dSayText "Ce budget de combat, ce budget de gauche, solidaire et responsable, nous l'assumons.") ; neut_parl_s02_0571

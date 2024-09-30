@@ -1,0 +1,15 @@
+(lex.add.entry '("même_ADJ" "ADJ" ((("m" "eh" "m") 0)))); confusion ?
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh" "m") 0))))
+
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("vérité_NOM" "NOM" ((("v" "e") 0) (("rh" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("importe_VER" "VER" ((("ehn") 0) (("p" "oh" "rh" "t") 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("revient_VER" VER ((("rh" "ae") 0) (("v" "j"  "ehn") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((t "o") 0)))); LIA
+(lex.add.entry '("même" nil ((("m" "eh" "m") 0))))
+
+
+(set! text "En vérité, peu importe, cela revient au même.") ; neut_parl_s02_0293
+(dSayText text)

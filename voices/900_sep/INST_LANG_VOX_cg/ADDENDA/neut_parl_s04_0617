@@ -1,0 +1,15 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("oublié_VER" VER ((("u") 0) (("b" "l" "i") 0) (("j" "e") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("objectif_NOM" "NOM" (((oh b) 0) ((zh eh k) 0) ((t i f) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("santé_NOM" "NOM" ((("s" "ahn") 0) (("t" "e") 0))))
+(lex.add.entry '("publique_ADJ" "ADJ" ((("p" "y") 0) (("b" "l" "i" "k") 0))))
+
+(set! list_exclus*-> (append (list "plus") list_exclus*->_default))
+
+(dSayText "On ne peut non plus oublier l'objectif de santé publique.") ; neut_parl_s04_0617

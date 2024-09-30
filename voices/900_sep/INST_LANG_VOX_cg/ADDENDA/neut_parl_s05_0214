@@ -1,0 +1,10 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("manque_VER" "VER" ((("m" "ahn" "k") 0))))
+(lex.add.entry '("deux_NOM" NOM ((("d" "eu") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("moindres_ADJ" ADJ ((("m" "w" "ehn")0) (("d" "rh" ae) 0))))
+
+(dSayText "Il en manque deux, et non des moindres.") ; neut_parl_s05_0214

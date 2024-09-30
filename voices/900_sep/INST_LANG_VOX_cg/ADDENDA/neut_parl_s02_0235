@@ -1,0 +1,12 @@
+(lex.add.entry '("est_ce_VER" "VER" (((t rh eh) 0))))
+(lex.add.entry '("est_ce_PRE" "PRE" (((t rh eh) 0)))); confusion
+
+(lex.add.entry '("peut_être_ADV" "ADV" ((("p" "eu") 0) (("t" "eh" t) 0))))
+(lex.add.entry '("est_ce" "nil" (((t rh eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((s "oen") 0))))
+(lex.add.entry '("phénomène_NOM" "NOM" ((("f" "e") 0) (("n" "oh") 0) (("m" "eh" "n") 0))))
+(lex.add.entry '("breton_ADJ" "ADJ" ((("b" "rh" "ae") 0) (("t" "ohn") 0))))
+
+
+(set! text "peut-être est-ce un phénomène breton.") ; neut_parl_s02_0235
+(dSayText text)

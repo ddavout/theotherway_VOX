@@ -1,0 +1,20 @@
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("logement_NOM" "NOM" ((("l" "oh" "zh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("fondamental_ADJ" "ADJ" ((("f" "ohn") 0) (("d" "a") 0) (("m" "ahn") 0) (("t" "a" "l") 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("individus_NOM" "NOM" ((("ehn") 0) (("d" "i") 0) (("v" "i") 0) (("d" "y") 0))))
+(lex.add.entry '("en_PRO:per" "PRO:per" (((ahn) 0))))
+(lex.add.entry '("sont_AUX" AUX ((("s" "ohn") 0))))
+(lex.add.entry '("privés_VER" VER ((("p" "rh" "i") 0) (("v" "e") 0))))
+
+(set! list_exclus*-> (append (list "individus") list_exclus*->_default))
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "Si le droit au logement est un droit fondamental, beaucoup d'individus en sont privés.") ; neut_parl_s04_0197

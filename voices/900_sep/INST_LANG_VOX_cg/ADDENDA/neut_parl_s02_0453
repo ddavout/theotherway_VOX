@@ -1,0 +1,10 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("faisons_VER" VER ((("f" "ae") 0) (("z" "ohn") 0))))
+(lex.add.entry '("couple_VER" "VER" ((("k" "u")0) (("p" "l" ae) 0))))
+(lex.add.entry '("de_plus_ADV" "ADV" (((d ae) 0) (("p" "l" "y") 0))))
+(lex.add.entry '("en_plus_ADV" "ADV" (((ahn) 0) (("p" "l" "y" s) 0))))
+(lex.add.entry '("hors_PRE" "PRE" ((("oh" "rh") 0))))
+(lex.add.entry '("mariage_NOM" "NOM" ((("m" "a") 0) (("rh" "j" "a")0) (("zh" ae) 0))))
+
+(set! never_exception_list (append (list "de_plus" ) never_exception_list_default))
+(dSayText "Nous faisons couple de plus en plus hors mariage.") ; neut_parl_s02_0453

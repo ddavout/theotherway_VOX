@@ -1,0 +1,11 @@
+(lex.add.entry '("deux_NOM" NOM ((("d" "eu") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("hypothèses_NOM" NOM (((z "i") 0) (("p" "oh") 0) (("t" "eh" "z") 0)))); LIA
+(lex.add.entry '("risquées_VER" VER ((("rh" "i" "s") 0) (("k" "e") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("évacuées_VER" VER ((("e") 0) (("v" "a") 0) (("k" "hw" "e") 0))))
+
+(set! text "deux de ces hypothèses risquées sont donc évacuées.") ; neut_parl_s01_0097
+(dSayText text)

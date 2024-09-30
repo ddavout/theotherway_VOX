@@ -1,0 +1,8 @@
+(lex.add.entry '("qu_a_AUX" "AUX" (((k a) 0))))
+(lex.add.entry '("fait_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("Conseil_NAM" "NAM" ((("k" "ohn") 0) (("s" "eh" "j") 0))))
+(lex.add.entry '("constitutionnel_ADJ" "ADJ" ((("k" "ohn" "s") 0) (("t" "i") 0) (("t" "y") 0) (("s" "j" "oh") 0) (("n" "eh")0) (("l" ae) 0))))
+
+(set! text "Qu'a fait le Conseil constitutionnel ?") ; neut_parl_s02_0165
+(dSayText text)

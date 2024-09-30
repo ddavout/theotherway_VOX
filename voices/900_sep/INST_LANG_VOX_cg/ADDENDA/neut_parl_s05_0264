@@ -1,0 +1,18 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("estime_VER" VER ((("eh" "s") 0) (("t" "i")0) (("m" ae) 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0))))
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("va_VER" "VER" ((("v" "a") 0))))
+(lex.add.entry '("lui_PRO:per" "PRO:per" ((("l" "hw" i) 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("perdre_VER" "VER" ((("p" "eh" "rh") 0) (("d" "rh" ae) 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("cents_ADJ:num" ADJ:num ((("s" "ahn") 0))))
+(lex.add.entry '("euros_NOM" NOM ((("oe") 0) (("rh" "o") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("mois_NOM" NOM ((("m" "w" "a") 0))))
+
+
+(set! list_exclus*-> (append (list "cents") list_exclus*->_default))
+(dSayText "Il estime que votre dispositif va lui faire perdre deux cents euros par mois.") ; neut_parl_s05_0264

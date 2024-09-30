@@ -1,0 +1,16 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("bon_ADJ" "ADJ" ((("b" "ohn") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("croissance_NOM" "NOM" ((("k" "rh" "w" "a") 0) (("s" "ahn" "s") 0))))
+(lex.add.entry '("bon_ADJ" "ADJ" ((("b" "ohn") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("emploi_NOM" "NOM" ((("ahn") 0) (("p" "l" "w" "a") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("compétitivité_NOM" "NOM" ((("k" "ohn") 0) (("p" "e") 0) (("t" "i") 0) (("t" "i") 0) (("v" "i") 0) (("t" "e") 0))))
+
+(dSayText "C'est bon pour la croissance, bon pour l'emploi, et pour la compétitivité.") ; neut_parl_s03_0071

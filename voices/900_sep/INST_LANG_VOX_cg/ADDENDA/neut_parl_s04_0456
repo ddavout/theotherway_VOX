@@ -1,0 +1,11 @@
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("refusé_VER" VER
+ ((("rh" "ae") 0) (("f" "y") 0) (("z" "e") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("collectif_NOM" NOM ((("k" "oh") 0) (("l" "eh" "k") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("budgétaire_ADJ" "ADJ" ((("b" "y" d) 0) (("zh" "e") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("pourtant_ADV" "ADV" ((("p" "u" "rh") 0) (("t" "ahn") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("nécessaire_ADJ" "ADJ" ((("n" "e") 0) (("s" "e") 0) (("s" "eh" "rh") 0))))
+
+(dSayText "Vous refusez un collectif budgétaire pourtant bien nécessaire.") ; neut_parl_s04_0456

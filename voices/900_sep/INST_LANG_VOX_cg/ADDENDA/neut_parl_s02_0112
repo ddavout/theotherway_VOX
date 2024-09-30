@@ -1,0 +1,8 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("vie_NOM" "NOM" ((("v" "i") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("tranchera_VER" "VER" ((("t" "rh" "ahn") 0) (("sh" "rh" "a") 0))))
+
+(set! text "C'est la vie qui tranchera.") ; neut_parl_s02_0112
+(dSayText text)

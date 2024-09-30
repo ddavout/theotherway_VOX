@@ -1,0 +1,16 @@
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh" "rh") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("pensons_VER" VER ((("p" "ahn") 0) (("s" "ohn") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn" "s") 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("joué_VER" VER ((("zh" "u") 0) (("e") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("rôle_NOM" "NOM" ((("rh" "o" "l") 0))))
+(lex.add.entry '("pionnier_NOM" "NOM" ((("p" "j" "oh") 0) ((n "j" "e") 0))))
+
+
+(dSayText "Là encore, nous pensons que la France peut, doit, jouer un rôle pionnier.") ; neut_parl_s04_0101

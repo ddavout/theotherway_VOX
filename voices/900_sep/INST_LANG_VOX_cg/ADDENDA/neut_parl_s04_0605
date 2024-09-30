@@ -1,0 +1,13 @@
+(lex.add.entry '("j_admets_VER" VER ((("zh" "a" "d") 0) (("m" "eh") 0))))
+(lex.add.entry '("volontiers_ADV" ADV ((("v" "oh") 0) (("l" "ohn") 0) (("t" "j" "e") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("contexte_NOM" NOM ((("k" "ohn") 0) (("t" "eh" "k") 0) (("s" "t" ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("non_ADJ" ADJ ((("n" "ohn") 0))))
+(lex.add.entry '("croissance_NOM" "NOM" ((("k" "rh" "w" "a") 0) (("s" "ahn")0) (("s" ae) 0))))
+(lex.add.entry '("joue_VER" "VER" ((("zh" "u") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("rôle_NOM" "NOM" ((("rh" "o")0) (("l" ae) 0))))
+
+(dSayText "J'admets volontiers que le contexte de non croissance joue un rôle.") ; neut_parl_s04_0605

@@ -1,0 +1,10 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("leur_PRO:per" "PRO:per" ((("l" "oe" "rh") 0))))
+(lex.add.entry '("refusons_VER" VER ((("rh" "ae") 0) (("f" "y") 0) (("z" "ohn") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("aujourd_hui_ADV" "ADV" (((o) 0) ((zh u rh) 0) ((d hw i) 0))))
+
+(set! list_exclus*-> (append (list "droit") list_exclus*->_default)) 
+
+(dSayText "Nous leur refusons ce droit aujourd'hui.") ; neut_parl_s06_0631

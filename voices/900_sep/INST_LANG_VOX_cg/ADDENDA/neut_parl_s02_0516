@@ -1,0 +1,16 @@
+(lex.add.entry '("Mais_ADV" ADV ((("m" "eh") 0))))
+(lex.add.entry '("laissons_VER" VER ((("l" "e") 0) (("s" "ohn") 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("exemples_NOM" NOM ((("eh" "g") 0) (("z" "ahn")0) (("p" "l" ae) 0))))
+(lex.add.entry '("car_CON" "CON" ((("k" "a" "rh") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("parlons_VER" VER ((("p" "a" "rh") 0) (("l" "ohn") 0))))
+(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("questions_NOM" NOM ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("principes_NOM" NOM ((("p" "rh" "ehn") 0) (("s" "i")0) (("p" ae) 0))))
+
+(set! list_exclus*-> (append (list "parlons") list_exclus*->_default))
+(dSayText "Mais laissons là les exemples, car nous parlons ici de questions de principes.") ; neut_parl_s02_0516

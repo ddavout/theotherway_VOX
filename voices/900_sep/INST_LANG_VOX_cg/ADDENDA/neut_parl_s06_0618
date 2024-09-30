@@ -1,0 +1,12 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("haut_NOM" "NOM" ((("o") 0))))
+(lex.add.entry '("Conseil_NAM" "NAM" ((("k" "ohn") 0) (("s" "eh")0) (("j" "ae") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("s_imposer_VER" VER (((s "ehn") 0) (("p" "o") 0) (("z" "e") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+(lex.add.entry '("public_ADJ" "ADJ" ((("p" "y") 0) (("b" "l" "i" "k") 0))))
+
+(set! text "Ce Haut Conseil doit s'imposer dans le débat public.") ; neut_parl_s06_0618
+(dSayText text)

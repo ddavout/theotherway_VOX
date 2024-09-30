@@ -1,0 +1,14 @@
+(set! fileid "neut_book_s01_0144")
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("traverseront_VER" "VER" ((("t" "rh" "a") 0) (("v" "eh" "rh") 0) (("s" ae)0) (("rh" "ohn") 0))))
+(lex.add.entry '("toujours_ADV" ADV (((t u) 0) ((zh u rh) 0))))
+(lex.add.entry '("pas_ADV" "ADV" ((("p" "a") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("canal_NOM" "NOM" ((("k" "a") 0) (("n" "a")0) (("l" ae) 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("marin_NOM" "NOM" ((("m" "a") 0) (("rh" "ehn") 0))))
+
+(set! text "ils ne traverseront toujours pas le canal, dit le marin.") ; neut_book_s01_0144
+(dSayText text)

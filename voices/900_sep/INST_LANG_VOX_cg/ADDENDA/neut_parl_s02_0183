@@ -1,0 +1,11 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("voit_VER" "VER" ((("v" "w" "a") 0))))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i) 0))))
+(lex.add.entry '("y_a_VER" "VER" ((("l" "j" "a") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("chemin_NOM" NOM ((("sh" "m" "ehn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+
+(set! text "on voit qu'il y a du chemin à faire.") ; neut_parl_s02_0183
+(dSayText text)

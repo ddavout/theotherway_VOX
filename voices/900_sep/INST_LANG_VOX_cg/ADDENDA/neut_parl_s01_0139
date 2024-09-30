@@ -1,0 +1,17 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("projets_NOM" NOM ((("p" "rh" "oh") 0) (("zh" "eh") 0))))
+(lex.add.entry '("figurent_VER" VER ((("f" "i") 0) (("g" "y" "rh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((t ahn) 0)))); LIA
+(lex.add.entry '("bonne_ADJ" "ADJ" ((("b" "oh" "n") 0))))
+(lex.add.entry '("place_NOM" "NOM" ((("p" "l" "a" "s") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("listing_NOM" "NOM" (((l i s) 0) ((t i n g) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("loi_NOM" "NOM" ((("l" "w" "a") 0))))
+(lex.add.entry '("grenelle_NAM" "NAM" (((g rh ae) 0) ((n eh) 0) ((l ae) 0))))
+
+(set! text "ces projets figurent en bonne place dans le listing de la loi grenelle.") ; 
+(dSayText text); neut_parl_s01_0139
+

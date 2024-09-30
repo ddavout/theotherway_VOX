@@ -1,0 +1,11 @@
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("élus_NOM" NOM ((("e") 0) (("l" "y") 0))))
+(lex.add.entry '("éminents_ADJ" ADJ ((("e") 0) (("m" "i") 0) (("n" "ahn") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("travaillé_VER" "VER" ((("t" "rh" "a") 0) (("v" "a") 0) (("j" "e") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("leur_ADJ:pos" "ADJ:pos" ((("l" "oe" "rh") 0))))
+(lex.add.entry '("coin_NOM" "NOM" ((("k" "w" "ehn") 0))))
+(lex.add.entry '("soit_VER" "VER" ((("s" "w" "a" t) 0))))
+
+(dSayText "Deux élus éminents ont travaillé dans leur coin, soit.") ; neut_parl_s05_0530

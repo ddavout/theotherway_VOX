@@ -1,0 +1,8 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("trouve_VER" "VER" ((("t" "rh" "u" "v") 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("dangereux_ADJ" "ADJ" ((("d" "ahn") 0) (("zh" "rh" "eu") 0))))
+
+(set! text "Je trouve cela, très dangereux.") ; neut_parl_s02_0409
+(dSayText text)

@@ -1,0 +1,11 @@
+(lex.add.entry '("Elles_PRO:per" PRO:per ((("eh" "l") 0))))
+(lex.add.entry '("forment_VER" VER ((("f" "oh" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((m "oen") 0))))
+(lex.add.entry '("volet_NOM" "NOM" ((("v" "oh") 0) (("l" "eh") 0))))
+(lex.add.entry '("important_ADJ" "ADJ" ((("ehn") 0) (("p" "oh" "rh") 0) (("t" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("texte_NOM" "NOM" ((("t" "eh" "k" "s") 0) ((t ae) 0))))
+
+
+(dSayText "Elles forment un volet important de ce texte.") ; neut_parl_s03_0439

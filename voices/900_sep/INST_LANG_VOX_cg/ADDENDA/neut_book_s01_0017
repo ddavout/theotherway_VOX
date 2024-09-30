@@ -1,0 +1,34 @@
+(set! fileid "neut_book_s01_0017")
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("puis_CON" CON ((("p" "hw" "i") 0))))
+(lex.add.entry '("ajouta_VER" "VER" ((("a") 0) (("zh" "u") 0) (("t" "a") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("marin_NOM" "NOM" ((("m" "a") 0) (("rh" "ehn") 0))))
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("document_NOM" "NOM" ((("d" "oh") 0) (("k" "y") 0) (("m" "ahn") 0))))
+(lex.add.entry '("avait_VER" "VER" ((("a") 0) (("v" "eh") 0))))
+(lex.add.entry '("plusieurs_ADJ:ind" ADJ:ind ((("p" "l" "y") 0) (("z" "j" "oe" "rh") 0))))
+(lex.add.entry '("années_NOM" NOM (((z "a") 0) (("n" "e") 0)))); LIA
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("date_NOM" "NOM" ((("d" "a")0) (("t" ae) 0))))
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0))))
+(lex.add.entry '("depuis_PRE" "PRE" (((d ae) 0) ((p hw i) 0))))
+(lex.add.entry '("plusieurs_ADJ:ind" ADJ:ind ((("p" "l" "y") 0) (("z" "j" "oe" "rh") 0))))
+(lex.add.entry '("années_NOM" NOM (((z "a") 0) (("n" "e") 0)))); LIA
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("était_AUX" "AUX" ((("e") 0) (("t" "eh") 0))))
+(lex.add.entry '("enfermé_VER" VER (((t "ahn") 0) (("f" "eh" "rh") 0) (("m" "e") 0)))); LIA
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("bouteille_NOM" "NOM" ((("b" "u") 0) (("t" "eh")0) (("j" ae) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("eût_AUX" "AUX" ((("y") 0))))
+(lex.add.entry '("été_VER" "VER" (((t "e") 0) (("t" "e") 0))))
+(lex.add.entry '("avarié_VER" "VER" ((("a") 0) (("v" "a") 0) (("rh" "j" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("l_humidité_NOM" NOM (((l "y") 0) (("m" "i") 0) (("d" "i") 0) (("t" "e") 0))))
+
+(set! text "et puis, ajouta le marin, si le document, avait plusieurs années de date, si depuis plusieurs années, il était enfermé dans cette bouteille, il eût été avarié par l'humidité.") ; neut_book_s01_0017
+(dSayText text)
+

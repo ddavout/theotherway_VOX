@@ -1,0 +1,8 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("simple_ADJ" "ADJ" ((("s" "ehn")0) (("p" "l" ae) 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("lefebvre_NAM" "NAM" (((l ae) 0) ((f eh)0) ((v rh ae) 0))))
+
+(set! text "C'est très simple, monsieur Lefebvre.") ; neut_parl_s02_0422
+(dSayText text)

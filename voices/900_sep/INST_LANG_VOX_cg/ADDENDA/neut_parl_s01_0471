@@ -1,0 +1,13 @@
+; TODO de_rien
+(lex.add.entry '("fanatiques_ADJ" ADJ ((("f" "a") 0) (("n" "a") 0) (("t" "i" "k") 0))))
+(lex.add.entry '("fanatiques_NOM" NOM ((("f" "a") 0) (("n" "a") 0) (("t" "i" "k") 0))))
+
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("sommes_VER" VER ((("s" "oh" "m") 0))))
+(lex.add.entry '("fanatiques" nil ((("f" "a") 0) (("n" "a") 0) (("t" "i" "k") 0))))
+(lex.add.entry '("de_rien" nil ((("d" "ae") 0) (("rh" "j" "ehn") 0))))
+
+
+(set! text "Nous ne sommes fanatiques de rien !") ; 
+(dSayText text); neut_parl_s01_0471

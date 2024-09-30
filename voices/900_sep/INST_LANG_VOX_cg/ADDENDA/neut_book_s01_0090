@@ -1,0 +1,10 @@
+(set! fileid "neut_book_s01_0090")
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("la_PRO:per" PRO:per ((("l" "a") 0))))
+(lex.add.entry '("montrai_VER" VER ((("m" "ohn") 0) (("t" "rh" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
+(lex.add.entry '("oncle_NOM" "NOM" (((n "ohn")0) (("k" "l" ae) 0)))); LIA
+
+(set! text "je la montrai à mon oncle.") ; neut_book_s01_0090
+(dSayText text)

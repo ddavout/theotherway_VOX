@@ -1,0 +1,13 @@
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("objectifs_NOM" NOM (((z "oh" b) 0) (("zh" "e" "k") 0) (("t" "i" "f") 0)))); LIA
+(lex.add.entry '("budgétaires_ADJ" ADJ ((("b" "y") 0) (("d" "zh" "e") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("objectifs_NOM" NOM (((z "oh" b) 0) (("zh" "e" "k") 0) (("t" "i" "f") 0)))); LIA
+(lex.add.entry '("secondaires_ADJ" ADJ ((("s" "ae") 0) (("g" "ohn") 0) (("d" "eh" "rh") 0))))
+
+(set! text "Non, les objectifs budgétaires, ne sont pas des objectifs secondaires.") ; neut_parl_s02_0401
+(dSayText text)

@@ -1,0 +1,13 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("accentue_VER" "VER" ((("a" "k") 0) (("s" "ahn") 0) (("t" "y") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("ailleurs_ADV" "ADV" ((("a") 0) (("j" "oe" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("risque_NOM" NOM ((("rh" "i" "s") 0) (("k" ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("fraude_NOM" "NOM" ((("f" "rh" "o") 0) (("d" ae) 0))))
+
+(set! text "Cela accentue aussi par ailleurs le risque de fraude.") ; 
+(dSayText text); neut_parl_s01_0267
+

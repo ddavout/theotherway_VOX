@@ -1,0 +1,12 @@
+; TODO en_cas_d PRE plutot évite PRE PRE
+(lex.add.entry '("en_cas_PRE" "PRE" (((ahn) 0)(("k" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("maladie_NOM" "NOM" ((("m" "a") 0) (("l" "a") 0) (("d" "i") 0))))
+(lex.add.entry '("psychiatrique_ADJ" "ADJ" ((("p" "s" "i") 0) (("k" "j" "a") 0) (("t" "rh" "i") 0) (("k" ae) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((z ahn) 0)))); LIA
+(lex.add.entry '("capacité_NOM" "NOM" ((("k" "a") 0) (("p" "a") 0) (("s" "i") 0) (("t" "e") 0))))
+
+(set! text "en cas de maladie psychiatrique, il n'est pas en capacité.") ; 
+(dSayText text); neut_parl_s01_0261

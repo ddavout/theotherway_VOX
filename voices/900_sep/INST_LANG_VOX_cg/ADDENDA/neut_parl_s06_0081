@@ -1,0 +1,13 @@
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("muet_NAM" "NAM" ((("m" "y") 0) (("eh") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("donne_VER" "VER" ((("d" "oh")0) (("n" ae) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("leçons_NOM" NOM ((("l" "ae") 0) (("s" "ohn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("grand_ADJ" "ADJ" ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("renfort_NOM" "NOM" ((("rh" "ahn") 0) (("f" "oh" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("principes_NOM" NOM ((("p" "rh" "ehn") 0) (("s" "i")0) (("p" ae) 0))))
+
+(dSayText "Monsieur Muet nous donne des leçons à grand renfort de principes.") ; neut_parl_s06_0081

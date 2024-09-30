@@ -1,0 +1,13 @@
+(lex.add.entry '("écarté_ADJ" "ADJ" ((("e") 0) (("k" "a" "rh") 0) (("t" "e") 0))))
+
+
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("trading_NOM" "NOM" ((("t" "rh" "e") 0) (("d" "i" n g) 0))))
+(lex.add.entry '("haute_ADJ" "ADJ" ((("o" "t") 0))))
+(lex.add.entry '("fréquence_NOM" "NOM" ((("f" "rh" "e") 0) (("k" "ahn" "s") 0))))
+(lex.add.entry '("est-il_VER" "VER" ((("eh") 0)(("t" "i" l) 0))))
+(lex.add.entry '("écarté_VER" "VER" ((("e") 0) (("k" "a" "rh") 0) (("t" "e") 0))))
+
+; pour faire du poids
+(set! text "Le trading, haute fréquence, est-il écarté ?") ; neut_parl_s04_0487
+(dSayText text)

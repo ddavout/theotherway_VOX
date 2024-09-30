@@ -1,0 +1,9 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((z ahn) 0)))); done
+(lex.add.entry '("revenons_VER" VER ((("rh" "ae") 0) (("v" "ae") 0) (("n" "ohn") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("amendements_NOM" NOM (((z "a") 0) (("m" "ahn") 0) (("d" "ae") 0) (("m" "ahn") 0))))
+
+(set! list_exclus*-> (append (list "revenons") list_exclus*->_default))
+(set! text "Nous en revenons aux amendements.") ; neut_parl_s03_0040
+(dSayText text)

@@ -1,0 +1,13 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("finance_NOM" "NOM" ((("f" "i") 0) (("n" "ahn" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ombre_NOM" "NOM" (((l "ohn") 0) (("b" "rh" ae) 0))))
+(lex.add.entry '("prospère_ADJ" "ADJ" ((("p" "rh" "oh" "s") 0) (("p" "eh" "rh") 0))))
+(lex.add.entry '("hors_PRE" "PRE" ((("oh" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("toute_ADJ" "ADJ" ((("t" "u" "t") 0))))
+(lex.add.entry '("contrainte_NOM" "NOM" ((("k" "ohn") 0) (("t" "rh" "ehn")0) (("t" "ae") 0))))
+
+
+(set! text "La finance de l'ombre prospère hors de toute contrainte.") ; neut_parl_s02_0133
+(dSayText text)

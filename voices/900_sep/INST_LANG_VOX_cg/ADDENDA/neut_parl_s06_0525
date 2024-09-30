@@ -1,0 +1,16 @@
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("reste_VER" "VER" ((("rh" "eh" "s")0) (("t" "ae") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("entendu_ADJ" ADJ (((n "ahn") 0) (("t" "ahn") 0) (("d" "y") 0)))); LIA
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("améliorations_NOM" NOM (((z "a") 0) (("m" "e") 0) (("l" "j" "oh") 0) (("rh" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("encore_ADV" "ADV" (((t "ahn") 0) (("k" "oh" "rh") 0)))); LIA
+(lex.add.entry '("possibles_ADJ" ADJ ((("p" "oh") 0) (("s" "i")0) (("b" "l" "ae") 0))))
+
+(set! text "Du travail reste bien entendu à faire et des améliorations sont encore possibles.") ; neut_parl_s06_0525
+(dSayText text)

@@ -1,0 +1,11 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("mécanisme_NOM" "NOM" ((("m" "e") 0) (("k" "a") 0) (("n" "i" "s") 0))))
+(lex.add.entry '("est_VER" "VER" (((m "eh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("heure_NOM" "NOM" ((("oe" "rh") 0))))
+(lex.add.entry '("actuelle_ADJ" "ADJ" ((("a" "k") 0) (("t" "hw" "eh" "l") 0))))
+(lex.add.entry '("verrouillé_VER" "VER" ((("v" "eh") 0) (("rh" "u") 0) (("j" "e") 0))))
+
+(set! never_exception_list (append (list "est" "C_est" ) never_exception_list_default))
+(dSayText "Le mécanisme est à l'heure actuelle verrouillé.") ; neut_parl_s03_0267

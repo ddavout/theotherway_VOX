@@ -1,0 +1,15 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("établissement_NOM" "NOM" ((("e") 0) (("t" "a") 0) (("b" "l" "i" s) 0) (("m" "ahn") 0))))
+(lex.add.entry '("a_VER" "VER" (((a) 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("besoin_NOM" "NOM" ((("b" "ae") 0) (("z" "w" "ehn") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("mise_NOM" NOM ((("m" "i") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" (((z "o") 0))))
+(lex.add.entry '("normes_NOM" NOM ((("n" "oh" "rh" "m") 0))))
+(lex.add.entry '("électriques_ADJ" ADJ ((("e") 0) (("l" "e" "k") 0) (("t" "rh" "i" "k") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("circuits_NOM" NOM ((("s" "i" "rh") 0) (("k" "hw" "i") 0))))
+
+(dSayText "l'établissement, a aussi besoin d'une mise aux normes électriques des circuits.") ; neut_parl_s04_0051

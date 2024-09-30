@@ -1,0 +1,7 @@
+(lex.add.entry '("Explications_NOM" NOM ((("eh" "k" "s") 0) (("p" "l" "i") 0) (("k" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("vote_NOM" "NOM" ((("v" "oh" "t") 0))))
+(lex.add.entry '("groupe_VER" "VER" ((("g" "rh" "u" "p") 0))))
+(lex.add.entry '("écologiste_ADJ" "ADJ" ((("e") 0) (("k" "oh") 0) (("l" "oh") 0) (("zh" "i" "s")0) (("t" ae) 0))))
+
+(dSayText "Explications de vote groupe écologiste.") ; neut_parl_s04_0010

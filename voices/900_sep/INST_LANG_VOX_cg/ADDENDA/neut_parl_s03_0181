@@ -1,0 +1,10 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("s_en_PRO:per" PRO:per (((s ahn) 0))))
+(lex.add.entry '("plaindre_VER" "VER" ((("p" "l" "ehn")0) (("d" "rh" ae) 0))))
+
+
+(set! text "Il ne faut pas s'en plaindre.") ; neut_parl_s03_0181
+(dSayText text)

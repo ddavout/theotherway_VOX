@@ -1,0 +1,10 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("parole_NOM" "NOM" ((("p" "a") 0) (("rh" "oh") 0))))
+(lex.add.entry '("est_VER" "VER" (((l e ) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("Pierre_NAM" NAM ((("p" "j" "eh" "rh") 0))))
+(lex.add.entry '("Lellouche_NAM" "NAM" (((l ae) 0) ((l u sh) 0))))
+
+(set! never_exception_list (append (list "est" "C_est" ) never_exception_list_default))
+(dSayText "La parole est à Monsieur, Pierre Lellouche.") ; neut_parl_s05_0537

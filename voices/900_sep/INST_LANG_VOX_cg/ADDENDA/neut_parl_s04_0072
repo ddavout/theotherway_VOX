@@ -1,0 +1,18 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("réforme_NOM" "NOM" ((("rh" "e") 0) (("f" "oh" "rh")0) (("m" "ae") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("collège_NOM" "NOM" ((("k" "oh") 0) (("l" "eh")0) (("zh" "ae") 0))))
+(lex.add.entry '("fè_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("part_NOM" "NOM" ((("p" "a" "rh") 0))))
+(lex.add.entry '("belle_ADJ" "ADJ" ((("b" "eh")0) (("l" "ae") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("fondamentaux_ADJ" "ADJ" ((("f" "ohn") 0) (("d" "a") 0) (("m" "ahn") 0) (("t" "o") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("français_NOM" NOM ((("f" "rh" "ahn") 0) (("s" "eh") 0))))
+
+
+(dSayText "La réforme du collège fait aussi la part belle à ces fondamentaux et au français.") ; neut_parl_s04_0072

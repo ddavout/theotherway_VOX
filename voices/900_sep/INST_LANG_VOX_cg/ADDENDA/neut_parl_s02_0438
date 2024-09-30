@@ -1,0 +1,8 @@
+(lex.add.entry '("belle_ADJ" "ADJ" ((("b" "eh" "l") 0))))
+(lex.add.entry '("preuve_NOM" "NOM" ((("p" "rh" "oe" "v") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("courage_NOM" "NOM" ((("k" "u") 0) (("rh" "a" "zh") 0))))
+(lex.add.entry '("politique_ADJ" "ADJ" ((("p" "o") 0) (("l" "i") 0) (("t" "i")0) (("k" ae) 0))))
+
+(set! text "Belle preuve de courage politique !") ; neut_parl_s02_0438
+(dSayText text)

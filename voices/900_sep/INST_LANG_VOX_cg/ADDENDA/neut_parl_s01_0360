@@ -1,0 +1,9 @@
+(netlex::reset_lexicon)
+(set! never_exception_list (append (list "xx") never_exception_list_default))
+(set! list_exclus*-> (append (list "couples") list_exclus*->_default))
+(lex.add.entry '("reconnaitre_VER" VER ((("rh" "ae") 0) (("k" "oh") 0) (("n" "eh")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("homosexuels_ADJ" "ADJ" ((("oh") 0) (("m" "o") 0) (("s" "eh" "k") 0) (("s" "hw" "eh")0) (("l" "ae") 0))))
+
+(lex.add.entry '("couples_NOM" NOM ((("k" "u")0) (("p" "l" ae) 0))))
+
+(dSayText "Ouvrir le mariage aux couples homosexuels, c'est leur reconnaître la pleine citoyenneté.") ; neut_parl_s01_0360

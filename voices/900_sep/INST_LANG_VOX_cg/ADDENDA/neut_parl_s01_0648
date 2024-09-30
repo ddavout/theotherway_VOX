@@ -1,0 +1,8 @@
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("d_un_ART:ind" ART:ind (((d "oen") 0))))
+(lex.add.entry '("ridicule_NOM" "NOM" ((("rh" "i") 0) (("d" "i") 0) (("k" "y" "l") 0))))
+(lex.add.entry '("achevé_ADJ" "ADJ" ((("a" sh) 0) (("v" "e") 0))))
+
+
+(set! text "C'est d'un ridicule achevé !") ; 
+(dSayText text); neut_parl_s01_0648

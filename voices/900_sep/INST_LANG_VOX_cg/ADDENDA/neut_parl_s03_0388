@@ -1,0 +1,16 @@
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("laboratoire_NOM" NOM ((("l" "a") 0) (("b" "oh") 0) (("rh" "a") 0) (("t" "w" "a" "rh") 0))))
+(lex.add.entry '("parisien_ADJ" "ADJ" ((("p" "a") 0) (("rh" "i") 0) (("z" "j" "ehn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("pourra_VER" "VER" ((("p" "u") 0) (("rh" "a") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("ainsi_ADV" "ADV" ((("ehn") 0) (("s" "i") 0))))
+(lex.add.entry '("installé_VER" VER ((("ehn" "s") 0) (("t" "a") 0) (("l" "e") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("sites_NOM" NOM ((("s" "i" "t") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("toute_ADJ" "ADJ" ((("t" "u" "t") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn")0) (("s" ae) 0))))
+
+(dSayText "Un laboratoire parisien ne pourra pas, ainsi, installer des sites dans toute la France.") ; neut_parl_s03_0388

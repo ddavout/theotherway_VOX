@@ -1,0 +1,14 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("voudrais_VER" VER ((("v" "u") 0) (("d" "rh" "eh") 0))))
+(lex.add.entry '("revenir_VER" "VER" ((("rh" "ae" v) 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("incident_NOM" "NOM" ((("ehn") 0) (("s" "i") 0) (("d" "ahn") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" nil))
+(lex.add.entry '("a_AUX" "AUX" (((k j "a") 0))))
+(lex.add.entry '("eu_VER" "VER" (((y) 0))))
+(lex.add.entry '("lieu_NOM" "NOM" ((("l" "j" "eu") 0))))
+(lex.add.entry '("hier_ADV" "ADV" (((i)0) ((j "eh" rh) 0))))
+
+
+(dSayText "Je voudrais revenir à l'incident qui a eu lieu hier.") ; neut_parl_s04_0006

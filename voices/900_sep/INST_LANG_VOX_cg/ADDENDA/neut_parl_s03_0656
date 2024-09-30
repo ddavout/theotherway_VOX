@@ -1,0 +1,18 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((z "y" "n") 0)))); LIA
+(lex.add.entry '("décision_NOM" "NOM" ((("d" "e") 0) (("s" "i") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("prise_ADJ" ADJ ((("p" "rh" "i" "z") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("fantaisie_NOM" "NOM" ((("f" "ahn") 0) (("t" "e") 0) (("z" "i") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("prise_VER" "VER" ((("p" "rh" "i" "z") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("juge_NOM" "NOM" ((("zh" "y")0) (("zh" ae) 0))))
+
+
+(set! text "Ce n'est pas une décision prise par fantaisie, et elle est prise par un juge.") ; neut_parl_s03_0656
+(dSayText text)

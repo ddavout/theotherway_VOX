@@ -1,0 +1,15 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("groupe_NOM" "NOM" ((("g" "rh" "u" "p") 0))))
+(lex.add.entry '("public_ADJ" "ADJ" ((("p" "y") 0) (("b" "l" "i" "k") 0))))
+(lex.add.entry '("ferroviaire_ADJ" "ADJ" ((("f" "eh") 0) (("rh" "oh") 0) (("v" "j" "eh" "rh") 0))))
+(lex.add.entry '("comprendra_VER" "VER" ((("k" "ohn") 0) (("p" "rh" "ahn") 0) (("d" "rh" "a") 0))))
+(lex.add.entry '("près_ADV" ADV ((("p" "rh" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("cent_ADJ:num" "ADJ:num" ((("s" "ahn") 0))))
+(lex.add.entry '("cinquante_ADJ:num" "ADJ:num" (((s ehn) 0) ((k ahn t) 0))))
+(lex.add.entry '("cinq_ADJ:num" ADJ:num ((("s" "ehn" "k") 0))))
+(lex.add.entry '("mille_ADJ:num" ADJ:num ((("m" "i" "l") 0))))
+(lex.add.entry '("cheminots_NOM" NOM ((("sh" "ae") 0) (("m" "i") 0) (("n" "o") 0))))
+
+(set! text "Ce groupe public ferroviaire, comprendra près de cent cinquante cinq mille cheminots.") ; 
+(dSayText text); neut_parl_s01_0616

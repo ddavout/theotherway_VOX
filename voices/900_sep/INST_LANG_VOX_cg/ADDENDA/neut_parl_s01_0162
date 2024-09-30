@@ -1,0 +1,17 @@
+(set! fiieid "neut_parl_s01_0162")
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("trois_NOM" NOM ((("t" "rh" "w" "a") 0)))); confusion TODO homo
+
+(lex.add.entry '("trois" "nil" ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("grands_ADJ" ADJ ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("problèmes_NOM" NOM ((("p" "rh" "oh") 0) (("b" "l" "eh" "m") 0))))
+(lex.add.entry '("s_entremêlent_VER" "VER" (((s "ahn") 0) (("t" "rh" "ae") 0) (("m" "eh" "l") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nature_ADJ" ADJ ((("n" "a") 0) (("t" "y" "rh") 0))))
+(lex.add.entry '("politique_NOM" "NOM" ((("p" "oh") 0) (("l" "i") 0) (("t" "i" "k") 0))))
+(lex.add.entry '("sécuritaire_ADJ" "ADJ" ((("s" "e") 0) (("k" "y") 0) (("rh" "i") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("humanitaire_ADJ" "ADJ" ((("y") 0) (("m" "a") 0) (("n" "i") 0) (("t" "eh" "rh") 0))))
+
+(set! text "trois grands problèmes s'entremêlent, de nature politique, sécuritaire et humanitaire.") ; neut_parl_s01_0162
+(dSayText text)

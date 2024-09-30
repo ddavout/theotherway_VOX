@@ -1,0 +1,12 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_PRO:per" "PRO:per" nil))
+(lex.add.entry '("agit_VER" "VER" ((("a") 0) (("zh" "i") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("un_ART:ind" ART:ind ((("oen") 0))))
+(lex.add.entry '("alignement_NOM" "NOM" ((("a") 0) (("l" "i")0) (("jg" "ae") 0) (("m" "ahn") 0)))) ; Q
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("général_ADJ" "ADJ" ((("zh" "e") 0) (("n" "e") 0) (("rh" "a" "l") 0))))
+
+(dSayText "Il s'agit d'un alignement sur le droit général.") ; neut_parl_s06_0118

@@ -1,0 +1,12 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("est_VER" "VER" (((l "e") 0))))
+(lex.add.entry '("temps_NOM" "NOM" (((t ahn) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("passer_VER" VER ((("p" "a") 0) (("s" "e") 0))))
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0)))); no LIA
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("actes_NOM" NOM (((z "a" "k")0) (("t" "ae") 0)))); LIA
+
+(set! text "Il est temps de passer enfin aux actes !") ; 
+(dSayText text); neut_parl_s01_0339
+

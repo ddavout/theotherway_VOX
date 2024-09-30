@@ -1,0 +1,15 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("fois_NOM" NOM ((("f" "w" "a") 0))))
+(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh" "rh") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("communauté_NOM" NOM ((("k" "oh") 0) (("m" "y") 0) (("n" "o") 0) (("t" "e") 0))))
+(lex.add.entry '("israélite_ADJ" ADJ ((("i") 0) (("s" "rh" "a") 0) (("e") 0) (("l" "i" "t") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("visée_VER" VER ((("v" "i") 0) (("z" "e") 0))))
+
+(dSayText "Et une fois encore, c'est la communauté israélite qui a été visée.") ; neut_parl_s06_0446

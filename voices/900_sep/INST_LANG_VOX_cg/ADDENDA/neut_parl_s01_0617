@@ -1,0 +1,11 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("parole_NOM" "NOM" ((("p" "a") 0) (("rh" "oh") 0))))
+(lex.add.entry '("est_VER" "VER" (((l "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0)))); LIA
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("philippe_NAM" "NAM" ((("f" "i") 0) (("l" "i" "p") 0))))
+(lex.add.entry '("baumel_NAM" "NAM" ((("b" "oh") 0) (("m" "eh")0) (("l" ae) 0))))
+
+
+(set! text "La parole est à Monsieur Philippe Baumel.") ; 
+(dSayText text); neut_parl_s01_0617

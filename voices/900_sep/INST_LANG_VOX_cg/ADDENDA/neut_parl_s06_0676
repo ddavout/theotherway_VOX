@@ -1,0 +1,12 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("qu_PRO:rel" "PRO:rel" nil))
+(lex.add.entry '("qu_a_VER" "VER" (((k a) 0))))
+(lex.add.entry '("fè_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("collègue_NOM" "NOM" ((("k" "oh") 0) (("l" "eh")0) (("g" "ae") 0))))
+(lex.add.entry '("philippe_NAM" "NAM" ((("f" "i") 0) (("l" "i" "p") 0))))
+(lex.add.entry '("vigier_NAM" "NAM" (((v i) 0) ((zh j e) 0))))
+
+(dSayText "C'est ce qu'a fait notre collègue Philippe Vigier.") ; neut_parl_s06_0676

@@ -1,0 +1,11 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("groupe_NOM" "NOM" ((("g" "rh" "u")0) (("p" ae) 0))))
+(lex.add.entry '("va_VER" "VER" ((("v" "a") 0))))
+(lex.add.entry '("rejeté_VER" VER ((("rh" "ae") 0) (("zh" "ae") 0) (("t" "e") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("motion_NOM" "NOM" ((("m" "oh") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "C'est pourquoi notre groupe va rejeter cette motion.") ; neut_parl_s05_0078

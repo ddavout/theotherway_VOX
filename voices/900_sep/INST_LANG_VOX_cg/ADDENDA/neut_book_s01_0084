@@ -1,0 +1,39 @@
+(set! fileid "neut_book_s01_0084")
+; (lex.add.entry '("qu_on_PRO:per" "PRO:per" (((k ohn) 0))))
+; (lex.add.entry '("qu_on_PRE" "PRE" (((k ohn) 0)))); confusion TODO
+; CON ?
+
+
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_était_VER" "VER" (((n "e") 0) (("t" "e") 0))))
+(lex.add.entry '("qu_à_PRE" "PRE" (((k a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("lueur_NOM" "NOM" ((("l" "y") 0) (("oe" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("décharges_NOM" NOM ((("d" "e") 0) (("sh" "a" "rh")0) (("zh" ae) 0))))
+(lex.add.entry '("dont_PRO:rel" "PRO:rel" ((("d" "ohn") 0))))
+(lex.add.entry '("chacune_PRO:ind" "PRO:ind" ((("sh" "a") 0) (("k" "y" "n") 0))))
+(lex.add.entry '("devait_VER" VER ((("d" "ae") 0) (("v" "eh") 0))))
+(lex.add.entry '("porter_VER" VER ((("p" "oh" "rh") 0) (("t" "e") 0))))
+(lex.add.entry '("qu_on" nil (((k ohn) 0))))
+(lex.add.entry '("apercevait_VER" VER (((n "a") 0) (("p" "eh" "rh") 0) (("s" "ae") 0) (("v" "eh") 0)))); LIA
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("assaillants_NOM" NOM (((z "a") 0) (("s" "a") 0) (("j" "ahn") 0)))); LIA
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("devaient_VER" VER ((("d" "ae") 0) (("v" "eh") 0))))
+(lex.add.entry '("être_VER" "VER" (((t "eh" "t" "rh") 0)))); LIA
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("moins_NOM" NOM ((("m" "w" "ehn") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("centaine_NOM" "NOM" ((("s" "ahn") 0) (("t" "eh")0) (("n" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("dont_PRO:rel" "PRO:rel" ((("d" "ohn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("yeux_NOM" "NOM" (((z "j" "eu") 0)))); LIA
+(lex.add.entry '("brillaient_VER" VER ((("b" "rh" "i") 0) (("j" "eh") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("braises_NOM" NOM ((("b" "rh" "eh")0) (("z" ae) 0))))
+
+(set! text "ce n'était qu'à la lueur des décharges, dont chacune devait porter, qu'on apercevait les assaillants, qui devaient être au moins une centaine, et dont les yeux brillaient comme des braises.") ; neut_book_s01_0084
+(dSayText text)

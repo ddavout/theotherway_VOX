@@ -1,0 +1,10 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("monte_VER" "VER" ((("m" "ohn") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((t ahn) 0))))
+(lex.add.entry '("puissance_NOM" "NOM" ((("p" "hw" i) 0) (("s" "ahn")0) (("s" "ae") 0))))
+
+
+
+(set! text "Le dispositif monte en puissance.") ; neut_parl_s02_0082
+(dSayText text)

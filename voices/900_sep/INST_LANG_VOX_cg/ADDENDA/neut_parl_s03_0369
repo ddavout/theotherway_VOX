@@ -1,0 +1,13 @@
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("surcroit_CON" CON ((("s" "y" "rh") 0) (("k" "rh" "w" "a") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("traitons_VER" VER ((("t" "rh" "eh") 0) (("t" "ohn") 0))))
+(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("un_ART:ind" ART:ind ((("oen") 0))))
+(lex.add.entry '("urbanisme_NOM" "NOM" ((("y" "rh") 0) (("b" "a") 0) (("n" "i" "s")0) (("m" ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("projets_NOM" NOM ((("p" "rh" "oh") 0) (("zh" "eh") 0))))
+
+(set! never_exception_list (append (list "traitons" ) never_exception_list_default))
+(dSayText "De surcroît nous traitons ici d'un urbanisme de projets.") ; neut_parl_s03_0369

@@ -1,0 +1,8 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("d_option_ADJ" "ADJ" (((d "oh" "p") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("simple_ADJ" "ADJ" ((("s" "ehn")0) (("p" "l" ae) 0))))
+
+(set! text "Le droit d'option, c'est simple.") ; neut_parl_s02_0322
+(dSayText text)

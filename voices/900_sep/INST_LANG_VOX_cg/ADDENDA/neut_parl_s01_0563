@@ -1,0 +1,10 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((t ahn) 0)))); LIA
+(lex.add.entry '("somme_NOM" "NOM" ((("s" "oh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((m "oen") 0))))
+(lex.add.entry '("amendement_NOM" "NOM" (((n "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0)))); LIA
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("coordination_NOM" "NOM" ((("k" "oh") 0) (("oh" "rh") 0) (("d" "i") 0) (("n" "a") 0) (("s" "j" "ohn") 0))))
+
+(set! text "C'est en somme un amendement de coordination.") ; 
+(dSayText text); neut_parl_s01_0563

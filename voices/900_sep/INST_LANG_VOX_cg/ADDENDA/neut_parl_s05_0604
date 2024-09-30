@@ -1,0 +1,14 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("celles_PRO:dem" PRO:dem ((("s" "eh" "l") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("démocratie_NOM" "NOM" ((("d" "e") 0) (("m" "oh") 0) (("k" "rh" "a") 0) (("s" "i") 0))))
+(lex.add.entry '("respectueuse_ADJ" ADJ ((("rh" "eh" "s") 0) (("p" "e" "k") 0) (("t" "hw" "eu" "z") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("parlementaire_ADJ" "ADJ" ((("p" "a" "rh") 0) (("l" "ae") 0) (("m" "ahn") 0) (("t" "eh" "rh") 0))))
+
+(dSayText "Ce ne sont pas celles d'une démocratie respectueuse du travail parlementaire.") ; neut_parl_s05_0604

@@ -1,0 +1,15 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("grandes_ADJ" ADJ ((("g" "rh" "ahn" "d") 0))))
+(lex.add.entry '("évolutions_NOM" NOM (((z "e") 0) (("v" "oh") 0) (("l" "y") 0) (("s" "j" "ohn") 0)))); LIA
+(lex.add.entry '("ont_VER" "VER" ((("ohn") 0)))); no LIA
+(lex.add.entry '("bel_ADJ" "ADJ" ((("b" "eh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("l" "e") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("existé_VER" "VER" (((n "e" "g") 0) (("z" "i" "s") 0) (("t" "e") 0)))); LIA
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("l_histoire_NOM" "NOM" (((l "i" "s") 0) (("t" "w" "a" "rh") 0))))
+
+
+(set! text  "Ces grandes évolutions ont bel et bien existé dans l'histoire.") ; neut_parl_s06_0647
+
+(dSayText text)

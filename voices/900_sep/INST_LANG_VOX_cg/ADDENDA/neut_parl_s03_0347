@@ -1,0 +1,12 @@
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("aspect_NOM" "NOM" (((t "a" "s") 0) (("p" "eh") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("points_NOM" NOM (((p w ehn) 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("moins_NOM" NOM ((("m" "w" "ehn") 0))))
+(lex.add.entry '("posent_VER" VER ((("p" "o" "z") 0))))
+(lex.add.entry '("problème_NOM" "NOM" ((("p" "rh" "oh") 0) (("b" "l" "eh" "m") 0))))
+
+
+(dSayText "Sur cet aspect, deux points au moins posent problème.") ; neut_parl_s03_0347

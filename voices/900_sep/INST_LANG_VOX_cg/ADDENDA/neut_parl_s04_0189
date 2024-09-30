@@ -1,0 +1,13 @@
+(lex.add.entry '("peut_être_ADV" "ADV" ((("p" "eu") 0) (("t" "eh") 0))))
+(lex.add.entry '("est-il_VER" "VER" (((t rh "eh") 0)(("t" "i" l) 0))))
+(lex.add.entry '("désuet_ADJ" "ADJ" ((("d" "e") 0) (("z" "y") 0) (("eh") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m e) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((z i l) 0))))
+(lex.add.entry '("correspond_VER" "VER" ((("k" "oh") 0) (("rh" "eh" "s") 0) (("p" "ohn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("réalité_NOM" "NOM" ((("rh" "e") 0) (("a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("locale_ADJ" "ADJ" ((("l" "oh") 0) (("k" "a")0) (("l" ae) 0))))
+
+(set! text "Peut-être est-il désuet, mais il correspond à une réalité locale.") ; neut_parl_s04_0189
+(dSayText text)

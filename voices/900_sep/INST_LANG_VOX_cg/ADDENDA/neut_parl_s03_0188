@@ -1,0 +1,8 @@
+(lex.add.entry '("Prenons_VER" VER ((("p" "rh" "ae") 0) (("n" "ohn") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("exemple_NOM" "NOM" ((("eh" "g") 0) (("z" "ahn")0) (("p" "l" ae) 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("bois_NOM" NOM ((("b" "w" "a") 0))))
+
+
+(dSayText "Prenons l'exemple du bois.") ; neut_parl_s03_0188

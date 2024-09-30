@@ -1,0 +1,14 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("vois_VER" VER ((("v" "w" "a") 0))))
+(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("opposerè_VER" VER ((("o") 0) (("p" "o") 0) (("z" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("fermeté_NOM" "NOM" ((("f" "eh" "rh") 0) (("m" "ae") 0) (("t" "e") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("ouverture_NOM" "NOM" ((("u") 0) (("v" "eh" "rh") 0) (("t" "y" "rh") 0))))
+
+(dSayText "Je vois ici ou là que l'on opposerait fermeté et ouverture.") ; neut_parl_s05_0545

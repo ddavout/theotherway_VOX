@@ -1,0 +1,9 @@
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("ça_PRO:dem" "PRO:dem" ((("s" "a") 0))))
+(lex.add.entry '("sarkozy_NAM" "NAM" (((s a rh) 0) ((k oh) 0) ((z i) 0))))
+(lex.add.entry '("rassemblè_VER" VER ((("rh" "a") 0) (("s" "ahn") 0) (("b" "l" "eh") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+
+(dSayText "Oui c'est ça, Sarkozy rassemblait bien !") ; neut_parl_s04_0129

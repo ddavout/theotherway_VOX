@@ -1,0 +1,14 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("vrai_ADJ" "ADJ" ((("v" "rh" "eh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("combat_NOM" "NOM" ((("k" "ohn") 0) (("b" "a") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("heurte_VER" "VER" ((("oe" "rh") 0))))
+(lex.add.entry '("aujourd_hui_ADV" "ADV" (((t o) 0) ((zh u rh) 0) ((d hw i) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("difficultés_NOM" NOM ((("d" "i") 0) (("f" "i") 0) (("k" "y" "l") 0) (("t" "e") 0))))
+
+(dSayText "Il est vrai que ce combat se heurte aujourd'hui à des difficultés.") ; neut_parl_s05_0082

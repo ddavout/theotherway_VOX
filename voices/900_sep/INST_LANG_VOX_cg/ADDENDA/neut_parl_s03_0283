@@ -1,0 +1,13 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("chemin_NOM" "NOM" ((("sh" "ae") 0) (("m" "ehn") 0))))
+(lex.add.entry '("difficile_ADJ" "ADJ" ((("d" "i") 0) (("f" "i") 0) (("s" "i")0) (("l" ae) 0))))
+(lex.add.entry '("mais_CON" "CON" (((m e) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((z i l) 0)))); LIA
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("tenir_VER" "VER" ((("t" "ae") 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("bon_ADV" "ADV" ((("b" "ohn") 0))))
+(lex.add.entry '("bon_ADJ" "ADJ" ((("b" "ohn") 0)))); confusio 
+
+(set! text "C'est un chemin difficile, mais il faut tenir bon.") ; neut_parl_s03_0283
+(dSayText text)

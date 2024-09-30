@@ -1,0 +1,12 @@
+(lex.add.entry '("lui-mêmeçPRO:per" "PRO:per" ((("l" "hw" i) 0)(("m" "eh" "m") 0))))
+(lex.add.entry '("les_PRO:per" "PRO:per" ((("l" "e") 0))))
+(lex.add.entry '("reçoit_VER" VER ((("rh" "ae") 0) (("s" "w" "a") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("lui_PRO:per" "PRO:per" ((("l" "hw" i) 0))))
+(lex.add.entry '("reproche_VER" VER ((("rh" "ae") 0) (("p" "rh" "oh" "sh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+(dSayText "Lui-même les reçoit, et je ne le lui reproche pas.") ; neut_parl_s04_0452

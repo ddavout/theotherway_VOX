@@ -1,0 +1,14 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("monde_NOM" "NOM" ((("m" "ohn" "d") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("sera_VER" "VER" ((("s" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("vertueux_ADJ" "ADJ" ((("v" "eh" "rh") 0) (("t" "y") 0) (("eu") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+
+(set! never_exception_list (append (list "pas" ) never_exception_list_default))
+(dSayText "Mais tout le monde ne sera pas aussi vertueux que vous.") ; neut_parl_s05_0170

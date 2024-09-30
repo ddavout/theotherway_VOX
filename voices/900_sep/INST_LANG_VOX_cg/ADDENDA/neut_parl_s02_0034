@@ -1,0 +1,17 @@
+; (lex.add.entry '("ont_VER" "VER" (((z "ohn") 0)))); LIA ; confusion
+; (lex.add.entry '("ont_AUX" "AUX" (((z "ohn") 0)))); LIA
+; (lex.add.entry '("inquiètes_VER" VER (((t rh "ehn") 0) (("k" "j" "eh" "t") 0)))); confusion
+; (lex.add.entry '("inquiètes_ADJ" ADJ (((t rh "ehn") 0) (("k" "j" "eh" "t") 0))))
+
+(lex.add.entry '("Elles_PRO:per" PRO:per ((("eh" "l") 0))))
+(lex.add.entry '("ont_AUX" "AUX" (((z "ohn") 0)))); LIA
+(lex.add.entry '("de_quoi_PRO:ind" PRO:ind (((d ae)0)(("k" "w" "a") 0))))
+(lex.add.entry '("être_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("inquiètes_VER" VER (((t rh "ehn") 0) (("k" "j" "eh" "t") 0))))
+(lex.add.entry '("car_CON" "CON" ((("k" "a" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("confusion_NOM" "NOM" ((("k" "ohn") 0) (("f" "y") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("demeure_VER" "VER" ((("d" "ae") 0) (("m" "oe" "rh") 0))))
+
+(set! text "Elles ont de quoi être inquiètes, car la confusion demeure.") ; neut_parl_s02_0034
+(dSayText text)

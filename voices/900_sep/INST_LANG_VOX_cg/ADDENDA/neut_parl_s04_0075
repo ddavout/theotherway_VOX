@@ -1,0 +1,15 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("dumping_NOM" NOM (((d oe m) 0) ((p i n g) 0))))
+(lex.add.entry '("opéré_VER" "VER" ((("oh") 0) (("p" "e") 0) (("rh" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("principale_ADJ" "ADJ" ((("p" "rh" "ehn") 0) (("s" "i") 0) (("p" "a" "l") 0))))
+(lex.add.entry '("compagnie_NOM" "NOM" ((("k" "ohn") 0) (("p" "a") 0) (("n" "i") 0))))
+(lex.add.entry '("maritime_ADJ" "ADJ" ((("m" "a") 0) (("rh" "i") 0) (("t" "i" "m") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("Antilles_NAM" NAM (((z "ahn") 0) (("t" "i")0) (("j" "ae") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("cesser_VER" VER ((("s" "e") 0) (("s" "e") 0))))
+
+
+(dSayText "Le dumping opéré par la principale compagnie maritime aux Antilles, doit cesser.") ; neut_parl_s04_0075

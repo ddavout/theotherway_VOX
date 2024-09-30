@@ -1,0 +1,11 @@
+; bug y a t'il chgt de texte
+(lex.add.entry '("pourquoi_PRO:int" PRO:int ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("pourquoi_PRO:ind" PRO:ind ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+
+(lex.add.entry '("pourquoi_nil" nil ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("a-t-il_VER" "VER" (((j a) 0)(("t" "i" l) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("dérive_NOM" "NOM" ((("d" "e") 0) (("rh" "i")0) (("v" ae) 0))))
+
+(set! text "Pourquoi a-t-il une dérive ?") ; neut_parl_s06_0565
+(dSayText text)

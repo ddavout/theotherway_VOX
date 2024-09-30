@@ -1,0 +1,13 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("première_ADJ" "ADJ" ((("p" "rh" "ae") 0) (("m" "j" "eh" "rh") 0))))
+(lex.add.entry '("heure_NOM" "NOM" ((("oe" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("devrè_VER" VER ((("d" "ae") 0) (("v" "rh" "eh") 0))))
+(lex.add.entry '("être_VER" "VER" ((("eh")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("subventionnée_ADJ" ADJ ((("s" "y" "b") 0) (("v" "ahn") 0) (("s" "j" "oh" "n") 0) (("n" "e") 0))))
+
+(dSayText "C'est la première heure de travail qui devrait être subventionnée.") ; neut_parl_s05_0520

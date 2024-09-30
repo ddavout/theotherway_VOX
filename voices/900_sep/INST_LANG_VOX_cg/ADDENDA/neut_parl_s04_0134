@@ -1,0 +1,12 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("a_AUX" "AUX" (((n "a") 0))))
+(lex.add.entry '("rarement_ADV" "ADV" ((("rh" "a" "rh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("vu_VER" "VER" ((("v" "y") 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((ahn) 0) ((n e) 0) ((f eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("tel_ADJ:ind" ADJ:ind ((("t" "eh" "l") 0))))
+(lex.add.entry '("mutisme_NOM" "NOM" ((("m" "y") 0) (("t" "i" "s")0) (("m" "ae") 0))))
+
+
+(set! text "On a rarement vu en effet un tel mutisme.") ; neut_parl_s04_0134
+(dSayText text)

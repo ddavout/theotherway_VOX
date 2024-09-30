@@ -1,0 +1,15 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("gauche_NOM" "NOM" ((("g" "o" "sh") 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_a_VER" VER ((("n" a) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("prévaloir_VER" "VER" ((("p" "rh" "e") 0) (("v" "a") 0) (("l" "w" "a" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("jurisprudence_NOM" "NOM" ((("zh" "y") 0) (("rh" "i" "s") 0) (("p" "rh" "y") 0) (("d" "ahn" "s") 0))))
+(lex.add.entry '("sarkozy_NAM" "NAM" (((s a rh) 0) ((k oh) 0) ((z i) 0))))
+
+(set! never_exception_list (append (list "pas" ) never_exception_list_default))
+(dSayText "La gauche n'a pas à se prévaloir, de cette jurisprudence Sarkozy.") ; neut_parl_s05_0238

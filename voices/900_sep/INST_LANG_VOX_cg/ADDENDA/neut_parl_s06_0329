@@ -1,0 +1,10 @@
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("leurs_ADJ:pos" ADJ:pos ((("l" "oe" "rh") 0))))
+(lex.add.entry '("familles_NOM" NOM ((("f" "a") 0) (("m" "i")0) (("j" ae) 0))))
+
+
+(dSayText "Elle le doit enfin, à leurs familles.") ; neut_parl_s06_0329

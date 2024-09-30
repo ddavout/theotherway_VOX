@@ -1,0 +1,6 @@
+(lex.add.entry '("stabilise_t_on_VER" "VER" ((("s" "t" "a") 0) (("b" "i") 0) (("l" "i" "z") 0)(("t" "ohn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("impôts_NOM" NOM (((z "ehn") 0) (("p" "o") 0))))
+(lex.add.entry '("locaux_ADJ" ADJ ((("l" "o") 0) (("k" "o") 0))))
+
+(dSayText "Stabilise-t-on les impôts locaux ?") ; neut_parl_s06_0109

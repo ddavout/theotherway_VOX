@@ -1,0 +1,18 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("comité_NOM" "NOM" ((("k" "oh") 0) (("m" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
+(lex.add.entry '("rendu_VER" "VER" ((("rh" "ahn") 0) (("d" "y") 0))))
+(lex.add.entry '("quatre_ADJ:num" "ADJ:num" ((("k" "a") 0))))
+(lex.add.entry '("avis_NOM" NOM (((t rh "a") 0) (("v" "i") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("réunion_NOM" "NOM" ((("rh" "e") 0) (("y") 0) (("n" "j" "ohn") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("prévue_VER" "VER" ((("p" "rh" "e") 0) (("v" "y") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("treize_ADJ:num" "ADJ:num" (((t rh eh z) 0))))
+(lex.add.entry '("juin_NOM" "NOM" ((("zh" "hw" "ehn") 0))))
+(lex.add.entry '("prochain_ADJ" "ADJ" ((("p" "rh" "oh") 0) (("sh" "ehn") 0))))
+
+(dSayText "Ce comité a déjà rendu quatre avis et une réunion est prévue le treize juin prochain.") ; neut_parl_s03_0616

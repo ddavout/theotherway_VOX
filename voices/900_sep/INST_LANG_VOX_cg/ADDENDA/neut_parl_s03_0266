@@ -1,0 +1,12 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_est_VER" "VER" (((n e) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("trop_ADV" "ADV" ((("t" "rh" "o") 0))))
+(lex.add.entry '("tard_ADV" "ADV" ((("t" "a" "rh") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("réussir_VER" "VER" ((("rh" "e") 0) (("y") 0) (("s" "i" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("quinquennat_NOM" "NOM" ((("k" "ehn") 0) (("k" "eh") 0) (("n" "a") 0))))
+
+(dSayText "Il n'est, pas trop tard pour réussir le quinquennat.") ; neut_parl_s03_0266

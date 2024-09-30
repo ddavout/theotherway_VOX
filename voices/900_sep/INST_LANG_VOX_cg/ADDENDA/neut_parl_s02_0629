@@ -1,0 +1,9 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("harcèlement_NOM" "NOM" ((("a" "rh") 0) (("s" "eh" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("sexuel_ADJ" "ADJ" ((("s" "eh" "k") 0) (("s" "hw" "eh" "l") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("trop_ADV" "ADV" ((("t" "rh" "o") 0))))
+(lex.add.entry '("souvent_ADV" "ADV" ((("s" "u") 0) (("v" "ahn") 0))))
+(lex.add.entry '("banalisé_VER" "VER" ((("b" "a") 0) (("n" "a") 0) (("l" "i") 0) (("z" "e") 0))))
+
+(dSayText "Le harcèlement sexuel est trop souvent banalisé.") ; neut_parl_s02_0629

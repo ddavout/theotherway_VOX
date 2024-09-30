@@ -1,0 +1,16 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("fè_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("partie_VER" "VER" ((("p" "a" "rh") 0) (("t" "i") 0))))
+(lex.add.entry '("intégrante_ADJ" ADJ ((("ehn") 0) (("t" "e") 0) (("g" "rh" "ahn" "t") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("visant_VER" "VER" ((("v" "i") 0) (("z" "ahn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("face_NOM" "NOM" ((("f" "a" "s") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("charges_NOM" NOM ((("sh" "a" "rh")0) (("zh" ae) 0))))
+(lex.add.entry '("budgétaires_ADJ" ADJ ((("b" "y" d ) 0) (("zh" "e") 0) (("t" "eh" "rh") 0))))
+
+(set! never_exception_list (append (list "visant" ) never_exception_list_default))
+(dSayText "Il fait partie intégrante du dispositif, visant à faire face aux charges budgétaires.") ; neut_parl_s04_0421

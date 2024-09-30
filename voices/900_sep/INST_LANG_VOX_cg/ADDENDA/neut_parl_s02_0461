@@ -1,0 +1,7 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("euro_NOM" "NOM" ((("eu") 0) (("rh" "o") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("sauvé_VER" "VER" ((("s" "o") 0) (("v" "e") 0))))
+
+(dSayText "l'euro, a été sauvé.") ; neut_parl_s02_0461

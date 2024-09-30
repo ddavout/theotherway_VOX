@@ -1,0 +1,16 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("y_a_VER" "VER" (((l "j" "a") 0))))
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("semaines_NOM" NOM ((("s" "ae") 0) (("m" "eh")0) (("n" ae) 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("cinquante_ADJ:num" "ADJ:num" (((s ehn) 0) ((k ahn) 0))))
+(lex.add.entry '("entreprises_NOM" NOM (((t "ahn") 0) (("t" "rh" "ae") 0) (("p" "rh" "i")0) (("z" ae) 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("liquidées_VER" VER ((("l" "i") 0) (("k" "i") 0) (("d" "e") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("guadeloupe_NAM" "NAM" (((g w a d) 0) ((l u "p") 0)))) ; Q
+
+(set! list_exclus*-> (append (list "liquidées" "entreprises") list_exclus*->_default))
+(dSayText "Il y a trois semaines, plus de cinquante entreprises ont été liquidées en Guadeloupe.") ; neut_parl_s04_0292

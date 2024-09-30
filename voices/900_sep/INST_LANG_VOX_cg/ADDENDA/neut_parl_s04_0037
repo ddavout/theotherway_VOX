@@ -1,0 +1,15 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("agir_VER" "VER" (((t "a") 0) (("zh" "i" "rh") 0)))); LIA
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("répondre_VER" "VER" ((("rh" "e") 0) (("p" "ohn") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" (((d rh "o") 0))))
+(lex.add.entry '("besoins_NOM" NOM ((("b" "ae") 0) (("z" "w" "ehn") 0))))
+(lex.add.entry '("urgents_ADJ" ADJ ((("y" "rh") 0) (("zh" "ahn") 0)))); no LIA
+(lex.add.entry '("nés_VER" VER ((("n" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("pauvreté_NOM" "NOM" ((("p" "o") 0) (("v" "rh" "ae") 0) (("t" "e") 0))))
+
+(set! text "Il faut agir et répondre aux besoins urgents nés de la pauvreté.") ; neut_parl_s04_0037
+(dSayText text)

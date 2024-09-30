@@ -1,0 +1,7 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh" "m") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("lourd_ADJ" "ADJ" ((("l" "u" "rh") 0))))
+
+(dSayText "Il est même très lourd.") ; neut_parl_s06_0209

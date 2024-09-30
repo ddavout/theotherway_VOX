@@ -1,0 +1,10 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("relie_VER" "VER" ((("rh" "ae") 0) (("l" "i") 0))))
+(lex.add.entry '("abord_ADV" "ADV" ((("a") 0) (("b" "oh" "rh") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("langue_NOM" "NOM" ((("l" "ahn")0) (("g" ae) 0))))
+
+(dSayText "Ce qui relie d'abord, c'est la langue.") ; neut_parl_s02_0464

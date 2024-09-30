@@ -1,0 +1,15 @@
+(lex.add.entry '("j_invite_VER" VER ((("zh" "ehn") 0) (("v" "i" "t") 0))))
+(lex.add.entry '("tout_PRO:ind" "PRO:ind" ((("t" "u") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("chacun_PRO:ind" "PRO:ind" ((("sh" "a") 0) (("k" "oen") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("essayer_VER" VER ((("e") 0) (("s" "e") 0) (("j" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("tenir_VER" "VER" ((("t" "ae") 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("temps_NOM" "NOM" (((t ahn) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("parole_NOM" "NOM" ((("p" "a") 0) (("rh" "oh" "l") 0))))
+
+(set! list_exclus*-> (append (list "chacun" ) list_exclus*->_default)); todo chacun à
+(dSayText "J'invite tout un chacun, à essayer de tenir son temps de parole.") ; neut_parl_s03_0501

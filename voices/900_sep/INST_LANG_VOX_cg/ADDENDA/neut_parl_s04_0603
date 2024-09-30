@@ -1,0 +1,9 @@
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("qu_CON" "CON" nil))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i) 0))))
+(lex.add.entry '("est_VER" "VER" (((l "eh") 0))))
+(lex.add.entry '("long_ADJ" "ADJ" ((("l" "ohn") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("chemin_NOM" "NOM" ((("sh" "ae") 0) (("m" "ehn") 0))))
+
+(dSayText "Oui, qu'il est long, le chemin !") ; neut_parl_s04_0603

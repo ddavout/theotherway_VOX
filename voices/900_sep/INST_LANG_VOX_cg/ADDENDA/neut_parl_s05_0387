@@ -1,0 +1,13 @@
+(lex.add.entry '("évidemment_ADV" "ADV" ((("e") 0) (("v" "i") 0) (("d" "a") 0) (("m" "ahn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("moyens_NOM" NOM ((("m" "w" "a") 0) (("j" "ehn") 0))))
+(lex.add.entry '("humains_ADJ" ADJ ((("y") 0) (("m" "ehn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("matériels_ADJ" ADJ ((("m" "a") 0) (("t" "e") 0) (("rh" "j" "j" "eh" "l") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("posée_VER" "VER" ((("p" "o") 0) (("z" "e") 0))))
+
+(set! list_exclus*-> (append (list "matériels") list_exclus*->_default))
+(dSayText "évidemment, la question des moyens humains et matériels est posée.") ; neut_parl_s05_0387

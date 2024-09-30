@@ -1,0 +1,16 @@
+; final mauvais m ponctuattion
+(lex.add.entry '("neuf_ADJ:num" "ADJ:num" ((("n" "oe" f) 0))))
+(lex.add.entry '("neuf_ADJ" "ADJ" ((("n" "oe" f) 0)))); confusion
+(lex.add.entry '("millions_NOM" NOM ((("m" "i" l) 0) (("j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("personnes_NOM" NOM ((("p" "eh" "rh") 0) (("s" "oh" "n") 0))))
+(lex.add.entry '("bénéficient_VER" VER ((("b" "e") 0) (("n" "e") 0) (("f" "i") 0) (("s" "i") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("heures_NOM" NOM (((z "oe" "rh") 0))))
+(lex.add.entry '("supplémentaires_ADJ" ADJ ((("s" "y") 0) (("p" "l" "e") 0) (("m" "ahn") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("dites-vous_VER" VER ((("d" "i" "t") 0)((v u) 0))))
+
+(set! text "neuf millions de personnes bénéficient de ces heures supplémentaires dites-vous.") ; 
+(dSayText text); neut_parl_s01_0529
+

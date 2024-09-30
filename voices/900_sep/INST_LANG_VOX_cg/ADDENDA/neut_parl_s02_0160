@@ -1,0 +1,8 @@
+(lex.add.entry '("l_outrage_NOM" "NOM" (((l "u") 0) (("t" "rh" "a")0) (("zh" "ae") 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((z "y" "n") 0)))); LIA
+(lex.add.entry '("infraction_NOM" "NOM" ((("ehn") 0) (("f" "rh" "a" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("exceptionnelle_ADJ" "ADJ" ((("eh" "k") 0) (("s" "eh" "p") 0) (("s" "j" "oh") 0) (("n" "eh" "l") 0))))
+
+(set! text "l'outrage, n'est pas une infraction exceptionnelle.") ; neut_parl_s02_0160
+(dSayText text)

@@ -1,0 +1,12 @@
+(lex.add.entry '("trêve_NOM" "NOM" ((("t" "rh" "eh" "v") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("arguties_NOM" "NOM" ((("a" "rh") 0) (("g" "y") 0) (("s" "i") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("vies_NOM" NOM ((("v" "i") 0))))
+(lex.add.entry '("humaines_ADJ" ADJ ((("y") 0) (("m" "eh")0) (("n" ae) 0))))
+
+(set! list_exclus*-> (append (list "vies") list_exclus*->_default))
+(dSayText "Trêve d'arguties : il est question de vies humaines.") ; neut_parl_s04_0121

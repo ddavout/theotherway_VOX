@@ -1,0 +1,14 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("enfants_NOM" NOM (((z "ahn") 0) (("f" "ahn") 0))))
+(lex.add.entry '("naissent_VER" VER ((("n" "eh" "s") 0))))
+(lex.add.entry '("avec_PRE" "PRE" (((t "a") 0) (("v" "eh") 0)))); LIA
+(lex.add.entry '("un_ART:ind" "ART:ind" (((k "oen") 0))))
+(lex.add.entry '("handicap_NOM" NOM ((("ahn") 0) (("d" "i") 0) (("k" "a" p) 0)))); LIA
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0)))); no LIA
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("vie_NOM" "NOM" ((("v" "i") 0))))
+
+
+
+(set! text "Ces enfants naissent avec un handicap pour la vie.") ; neut_parl_s02_0168
+(dSayText text)

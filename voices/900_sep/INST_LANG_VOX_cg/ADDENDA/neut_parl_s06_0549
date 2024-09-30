@@ -1,0 +1,18 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("liste_NOM" "NOM" ((("l" "i" "s")0) (("t" ae) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("heureux_ADJ" ADJ (((z "oe") 0) (("rh" "eu") 0)))); LIA
+(lex.add.entry '("gagnants_NOM" NOM ((("g" "a") 0) (("jg" "ahn") 0))))
+(lex.add.entry '("serait_AUX" "AUX" ((("s" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("connue_VER" VER ((("k" "oh") 0) (("n" "y") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("juin_NOM" "NOM" ((("zh" "hw" "ehn") 0))))
+
+; triple s t d
+
+(set! text "on nous dit que la liste des heureux gagnants serait connue en juin.") ; neut_parl_s06_0549
+(dSayText text)

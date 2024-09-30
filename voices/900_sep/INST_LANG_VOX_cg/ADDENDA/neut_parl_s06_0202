@@ -1,0 +1,13 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_est_VER" "VER" (((n eh) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("réalité_NOM" "NOM" ((("rh" "e") 0) (("a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("qu_CON" "CON" nil))
+(lex.add.entry '("qu_un_ART:ind" "ART:ind" (((k oen) 0))))
+(lex.add.entry '("amendement_NOM" "NOM" ((("a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("coordination_NOM" "NOM" ((("k" "oh") 0) (("oh" "rh") 0) (("d" "i") 0) (("n" "a") 0) (("s" "j" "ohn") 0))))
+
+(set! never_exception_list (append (list "n_est" ) never_exception_list_default))
+(dSayText "Ce n'est en réalité, qu'un amendement de coordination.") ; neut_parl_s06_0202

@@ -1,0 +1,18 @@
+(lex.add.entry '("Or_CON" CON ((("oh" "rh") 0))))(lex.add.entry '("Or_NOM" NOM ((("oh" "rh") 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("faites_VER" VER ((("f" "eh" "t") 0))))
+(lex.add.entry '("ici_ADV" "ADV" (((z "i") 0) (("s" "i") 0)))); LIA
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("électoral_ADJ" "ADJ" ((("e") 0) (("l" "eh" "k") 0) (("t" "oh") 0) (("rh" "a" "l") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("vente_NOM" "NOM" ((("v" "ahn" "t") 0))))
+(lex.add.entry '("groupée_ADJ" "ADJ" ((("g" "rh" "u") 0) (("p" "e") 0))))
+
+
+(set! text "Or, c'est ce que vous faites ici, en droit électoral : de la vente groupée.") ; neut_parl_s06_0050
+(dSayText text)

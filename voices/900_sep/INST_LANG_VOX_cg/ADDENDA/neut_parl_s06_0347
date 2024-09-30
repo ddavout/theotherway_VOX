@@ -1,0 +1,9 @@
+(lex.add.entry '("Pascal_NAM" NAM ((("p" "a" "s") 0) (("k" "a" "l") 0))))
+(lex.add.entry '("cherki_NAM" "NAM" ((("sh" "eh" "rh") 0) (("k" "i") 0))))
+(lex.add.entry '("a_VER" "VER" (((a) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("pouvoirs_NOM" NOM ((("p" "u") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("j_ignore_VER" VER ((("zh" "i") 0) (("jg" "oh" "rh") 0))))
+
+(dSayText "Pascal Cherki, a des pouvoirs que j'ignore.") ; neut_parl_s06_0347

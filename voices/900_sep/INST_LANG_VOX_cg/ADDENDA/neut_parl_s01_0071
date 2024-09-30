@@ -1,0 +1,11 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("seconde_ADJ" ADJ ((("s" "ae") 0) (("g" "ohn" "d") 0))))
+(lex.add.entry '("moitié_NOM" "NOM" ((("m" "w" "a") 0) (("t" "j" "e") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("chemin_NOM" "NOM" ((("sh" "ae") 0) (("m" "ehn") 0))))
+(lex.add.entry '("reste_VER" "VER" ((("rh" "eh" "s") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0))))
+(lex.add.entry '("parcourir_VER" "VER" ((("p" "a" "rh") 0) (("k" "u") 0) (("rh" "i" "rh") 0))))
+
+(set! text "La seconde moitié du chemin reste à parcourir.") ; neut_parl_s01_0071
+(dSayText text)

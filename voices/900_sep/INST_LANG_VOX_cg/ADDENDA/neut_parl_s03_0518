@@ -1,0 +1,15 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn") 0))))
+(lex.add.entry '("est_VER" "VER" (((s "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("côté_NOM" "NOM" ((("k" "o") 0) (("t" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("deuxième_ADJ" "ADJ" ((("d" "eu") 0) (("z" "j" "eh" "m") 0))))
+(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
+(lex.add.entry '("détacheur_NOM" "NOM" ((("d" "e") 0) (("t" "a") 0) (("sh" "oe" "rh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("Europe_NOM" NOM ((("oe") 0) (("rh" "oh")0) (("p" ae) 0))))
+(lex.add.entry '("Europe_NOM" "NOM" ((("oe") 0) (("rh" "oh")0) (("p" ae) 0))))
+
+(dSayText "La France est, de son côté, le deuxième pays détacheur d'Europe.") ; neut_parl_s03_0518

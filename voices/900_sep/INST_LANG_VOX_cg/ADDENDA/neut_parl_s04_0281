@@ -1,0 +1,10 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("en_PRO:per" "PRO:per" (((z ahn) 0))))
+(lex.add.entry '("sommes_AUX" AUX ((("s" "oh" "m") 0))))
+(lex.add.entry '("revenus_VER" VER ((("rh" "ae" v) 0) (("n" "y") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("premier_ADJ" "ADJ" ((("p" "rh" "ae") 0) (("m" "j" "e") 0))))
+(lex.add.entry '("mars_NOM" "NOM" (((m a rh)0) ((s ae) 0))))
+
+(set! text "Nous en sommes revenus au premier mars.") ; neut_parl_s04_0281
+(dSayText text)

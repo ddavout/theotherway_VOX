@@ -1,0 +1,12 @@
+(lex.add.entry '("venon_VER" VER ((("v" "ae") 0) (("n" "ohn") 0))))
+
+(lex.add.entry '("après_PRE" "PRE" ((("a") 0) ((p rh eh) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("forme_NOM" "NOM" ((("f" "oh" "rh")0) (("m" ae) 0))))
+(lex.add.entry '("venons_VER" VER ((("v" "ae") 0) (("n" "ohn") 0))))
+(lex.add.entry '("z_en_PRE" "PRE" (((z ahn) 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("fond_NOM" "NOM" ((("f" "ohn") 0))))
+
+(set! text "Après la forme, venons-en au fond.") ; neut_parl_s04_0730
+(dSayText text)

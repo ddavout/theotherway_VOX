@@ -1,0 +1,9 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("fonctionne_VER" "VER" ((("f" "ohn" "k") 0) (("s" "j" "oh" "n") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+
+(set! text "le dispositif ne fonctionne pas.") ; 
+(dSayText text); neut_parl_s01_0524

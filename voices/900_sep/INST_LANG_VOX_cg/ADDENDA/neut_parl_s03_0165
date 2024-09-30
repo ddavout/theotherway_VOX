@@ -1,0 +1,13 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("ligue_NOM" "NOM" ((("l" "i" "g") 0))))
+(lex.add.entry '("deux_NOM" NOM ((("d" "eu") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("parle_VER" "VER" ((("p" "a" "rh")0) (("l" ae) 0))))
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh" "m") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("championnat_NOM" "NOM" ((("sh" "ahn") 0) (("p" "j" "oh") 0) (("n" "a") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("joueurs_NOM" NOM ((("zh" "w" "oe") 0) (("oe" "rh") 0))))
+(lex.add.entry '("prêtés_ADJ" ADJ ((("p" "rh" "e") 0) (("t" "e") 0))))
+
+(dSayText "En ligue deux, on parle même de championnat des joueurs prêtés.") ; neut_parl_s03_0165

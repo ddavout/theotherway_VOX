@@ -1,0 +1,7 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("convaincre_VER" "VER" ((("k" "ohn") 0) (("v" "ehn")0) (("k" "rh" ae) 0))))
+
+(dSayText "Il nous faut donc convaincre.") ; neut_parl_s06_0321

@@ -1,0 +1,19 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("salariés_NOM" NOM ((("s" "a") 0) (("l" "a") 0) (("rh" "j" "e") 0))))
+(lex.add.entry '("reçoivent_VER" VER ((("rh" "ae") 0) (("s" "w" "a" "v") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("second_ADJ" "ADJ" ((("s" "ae") 0) (("g" "ohn") 0))))
+(lex.add.entry '("chèque_NOM" "NOM" ((("sh" "eh" "k") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("part_NOM" "NOM" ((("p" "a" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("assurance_ADJ" ADJ ((("a") 0) (("s" "y") 0) (("rh" "ahn" "s") 0)))); <- POS
+(lex.add.entry '("assurance_NOM" NOM ((("a") 0) (("s" "y") 0) (("rh" "ahn" "s") 0))))
+(lex.add.entry '("chômage_NOM" "NOM" ((("sh" "o") 0) (("m" "a")0) (("zh" ae) 0))))
+
+; POS de +
+(set! never_exception_list (append (list "reçoivent" ) never_exception_list_default))
+(dSayText "Mais les salariés reçoivent un second chèque, de la part de l'assurance chômage.") ; neut_parl_s06_0088

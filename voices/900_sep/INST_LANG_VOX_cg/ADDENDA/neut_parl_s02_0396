@@ -1,0 +1,10 @@
+(lex.add.entry '("voilà_VER" "VER" ((("v" "w" "a") 0) (("l" "a") 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((s k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("essayons_VER" VER ((("e") 0) (("s" "eh") 0) (("j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+
+(set! text "Voilà ce que nous essayons de faire.") ; neut_parl_s02_0396
+(dSayText text)

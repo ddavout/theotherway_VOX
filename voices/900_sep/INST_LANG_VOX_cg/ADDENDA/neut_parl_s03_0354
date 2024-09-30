@@ -1,0 +1,17 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("avons_VER" "VER" (((z "a") 0) (("v" "ohn") 0))))
+(lex.add.entry '("dès_PRE" PRE ((("d" "eh") 0))))
+(lex.add.entry '("lors_ADV" ADV ((("l" "oh" "rh") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("solutions_NOM" NOM ((("s" "oh") 0) (("l" "y") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("tournez_VER" VER ((("t" "u" "rh") 0) (("n" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("dos_NOM" NOM ((("d" "o") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("tendre_VER" VER ((("t" "ahn")0) (("d" "rh" ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("main_NOM" "NOM" ((("m" "ehn") 0))))
+
+(dSayText "Nous avons, dès lors, deux solutions : nous tourner le dos, ou nous tendre la main.") ; neut_parl_s03_0354

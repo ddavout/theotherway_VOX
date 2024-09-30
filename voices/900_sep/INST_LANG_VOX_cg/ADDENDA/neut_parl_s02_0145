@@ -1,0 +1,8 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("combat_NOM" "NOM" ((("k" "ohn") 0) (("b" "a") 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("achevé_ADJ" "ADJ" (((z "a" sh) 0) (("v" "e") 0)))); LIA
+
+
+(set! text "Ce combat n'est pas achevé !") ; neut_parl_s02_0145
+(dSayText text)

@@ -1,0 +1,7 @@
+(lex.add.entry '("Claires_ADJ" ADJ ((("k" "l" "eh" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("coupes_NOM" NOM ((("k" "u")0) (("p" ae) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("sombres_ADJ" ADJ ((("s" "ohn")0) (("b" "rh" ae) 0))))
+
+(dSayText "Claires, les coupes, pas sombres !") ; neut_parl_s03_0646

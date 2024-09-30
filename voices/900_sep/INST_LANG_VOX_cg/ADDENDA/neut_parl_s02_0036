@@ -1,0 +1,19 @@
+(lex.add.entry '("j_en_PRO:per" "PRO:per" (((zh ahn) 0))))
+(lex.add.entry '("viens_VER" VER ((("v" "j" "ehn") 0))))
+;(lex.add.entry '("maintenant_ADV" "ADV" ((("m" "ehn" t) 0) (("n" "ahn") 0))))
+;(lex.add.entry '("maintenant_VER" "VER" ((("m" "ehn" t) 0) (("n" "ahn") 0)))); confusion
+(lex.add.entry '("maintenant" nil ((("m" "ehn" t) 0) (("n" "ahn") 0)))); confusion
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("recettes_NOM" NOM ((("rh" "ae") 0) (("s" "eh" "t") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("forte_ADJ" "ADJ" ((("f" "oh" "rh") 0) (("t" "ae") 0))))
+(lex.add.entry '("hausse_NOM" "NOM" ((("o")0) (("s" "ae") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_année_NOM" "NOM" (((l "a") 0) (("n" "e") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("mille_ADJ:num" ADJ:num ((("m" "i" "l") 0))))
+(lex.add.entry '("treize_ADJ:num" "ADJ:num" (((t rh eh)0) ((z ae) 0))))
+
+
+(set! text "J'en viens maintenant aux recettes, en forte hausse, de l'année deux mille treize.") ; neut_parl_s02_0036
+(dSayText text)

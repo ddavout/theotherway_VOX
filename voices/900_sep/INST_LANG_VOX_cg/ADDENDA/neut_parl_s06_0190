@@ -1,0 +1,10 @@
+(lex.add.entry '("c_était_VER" "VER" (((s e) 0) ((t eh) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0)))); LIA
+(lex.add.entry '("Alfortville_NAM" NAM (((a l) 0) ((f oh rh t) 0) ((v i) 0) ((l e) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("y_a_VER" "VER" ((("l" "j" "a") 0))))
+(lex.add.entry '("quelques_ADJ:ind" ADJ:ind ((("k" "eh" "l") 0) (("k" "ae") 0))))
+(lex.add.entry '("heures_NOM" NOM (((z "oe" "rh") 0))))
+
+(set! text "C'était à Alfortville, il y a quelques heures.") ; neut_parl_s06_0190
+(dSayText text)

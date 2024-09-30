@@ -1,0 +1,14 @@
+(lex.add.entry '("Néanmoins_ADV" ADV ((("n" "e") 0) (("ahn") 0) (("m" "w" "ehn") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("tôt_ADV" "ADV" ((("t" "o") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("parlement_NOM" "NOM" ((("p" "a" "rh") 0) (("l" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("informé_VER" "VER" ((("ehn") 0) (("f" "oh" "rh") 0) (("m" "e") 0))))
+(lex.add.entry '("mieux_ADV" "ADV" ((("m" "j" "eu") 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "l" "a") 0))))
+(lex.add.entry '("vaut_VER" "VER" (((v o) 0))))
+
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "Néanmoins, plus tôt le Parlement est informé, mieux cela vaut.") ; neut_parl_s03_0020

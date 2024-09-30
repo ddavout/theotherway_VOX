@@ -1,0 +1,7 @@
+(lex.add.entry '("j_en_PRO:per" "PRO:per" (((zh ahn) 0))))
+(lex.add.entry '("donne_VER" "VER" ((("d" "oh")0) (("n" ae) 0))))
+(lex.add.entry '("plusieurs_ADJ:ind" ADJ:ind ((("p" "l" "y") 0) (("z" "j" "oe" "rh") 0))))
+(lex.add.entry '("exemples_NOM" NOM (((z "eh" "g") 0) (("z" "ahn")0) (("p" "l" ae) 0)))); LIA
+
+(set! text "J'en donne plusieurs exemples.") ; neut_parl_s03_0141
+(dSayText  text)

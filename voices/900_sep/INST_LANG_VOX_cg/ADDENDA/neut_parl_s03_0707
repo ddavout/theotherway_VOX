@@ -1,0 +1,13 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("étant_AUX" "AUX" ((("e") 0) (("t" "ahn") 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("reviens_VER" VER ((("rh" "ae") 0) (("v" "j" "ehn") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("articles_NOM" NOM ((("a" "rh") 0) (("t" "i")0) (("k" "l" ae) 0))))
+(lex.add.entry '("onze_ADJ:num" "ADJ:num" ((("ohn")0) (("z" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("douze_ADJ:num" "ADJ:num" (((d u)0) ((z ae) 0))))
+
+(set! list_exclus*-> (append (list "reviens" "articles") list_exclus*->_default))
+(dSayText "Cela étant dit, je reviens aux articles onze et douze.") ; neut_parl_s03_0707

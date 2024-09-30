@@ -1,0 +1,20 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn")0) (("s" ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("juges_NOM" NOM ((("zh" "y" "zh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("experts_NOM" NOM (((z "eh" "k" s) 0) (("p" "eh" "rh") 0)))); LIA
+(lex.add.entry '("adviendra_VER" "VER" ((("a" "d") 0) (("v" "j" "ehn") 0) (("d" "rh" "a") 0)))); no LIA
+(lex.add.entry '("si_ADV" "ADV" ((("s" "i") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("traité_NOM" "NOM" ((("t" "rh" "e") 0) (("t" "e") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("adopté_VER" VER (((t "a") 0) (("d" "oh" p) 0) (("t" "e") 0)))); LIA
+
+
+
+(set! text "En France, ce gouvernement des juges et des experts, adviendra si ce traité est adopté.") ; 
+(dSayText text); neut_parl_s01_0623

@@ -1,0 +1,12 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("mots_NOM" NOM ((("m" "o") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("slogans_NOM" NOM ((("s" "l" "oh") 0) (("g" "ahn") 0))))
+(lex.add.entry '("entendus_ADJ" ADJ ((("ahn") 0) (("t" "ahn") 0) (("d" "y") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("fè_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("mal_ADV" "ADV" ((("m" "a" "l") 0))))
+
+(set! list_exclus*-> (append (list "entendus") list_exclus*->_default))
+(set! never_exception_list (append (list "slogans" ) never_exception_list_default))
+(dSayText "Ces mots, les slogans entendus, ont fait mal.") ; neut_parl_s04_0718

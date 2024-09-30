@@ -1,0 +1,15 @@
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("faits_NOM" NOM ((("f" "eh") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("attestés_VER" VER ((("a") 0) (("t" "eh" "s") 0) (("t" "e") 0))))
+(lex.add.entry '("lors_ADV" ADV ((("l" "oh" "rh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("un_ART:ind" ART:ind ((("oen") 0))))
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+(lex.add.entry '("précédent_ADJ" "ADJ" ((("p" "rh" "e") 0) (("s" "e") 0) (("d" "ahn") 0))))
+
+(set! list_exclus*-> (append (list "faits") list_exclus*->_default))
+
+(set! never_exception_list (append (list "ont") never_exception_list_default))
+(dSayText "Des faits ont été attestés lors d'un débat précédent.") ; neut_parl_s06_0063

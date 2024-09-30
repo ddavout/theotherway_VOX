@@ -1,0 +1,7 @@
+(lex.add.entry '("alors_ADV" "ADV" (((a) 0) ((l oh rh) 0))))
+(lex.add.entry '("simplifions_VER" VER ((("s" "ehn") 0) (("p" "l" "i") 0) (("f" "j" "ohn") 0))))
+(lex.add.entry '("lui_PRO:per" "PRO:per" ((("l" "hw" i) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("vie_NOM" "NOM" ((("v" "i") 0))))
+
+(dSayText "Alors simplifions-lui la vie !") ; neut_parl_s06_0189

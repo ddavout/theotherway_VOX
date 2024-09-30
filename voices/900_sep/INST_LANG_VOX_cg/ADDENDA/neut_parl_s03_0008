@@ -1,0 +1,9 @@
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("changement_NOM" "NOM" ((("sh" "ahn" "zh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("mentalités_NOM" NOM ((("m" "ahn") 0) (("t" "a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("s_impose_VER" VER (((s "ehn") 0) (("p" "o" "z") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn")0) (("k" ae) 0))))
+
+(set! text "Un changement des mentalités s'impose donc.") ; neut_parl_s03_0008
+(dSayText text)

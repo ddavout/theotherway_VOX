@@ -1,0 +1,13 @@
+(lex.add.entry '("mes_ADJ:pos" "ADJ:pos" ((("m" "e") 0))))
+(lex.add.entry '("chers_ADJ" ADJ ((("sh" "eh" "rh") 0))))
+(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh")0) (("g" ae) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("souhaite_VER" "VER" ((("s" "w" "eh" "t") 0))))
+(lex.add.entry '("d_abord_ADV" "ADV" (((d "a") 0) (("b" "oh" "rh") 0))))
+(lex.add.entry '("m_adresser_VER" VER ((("m" "a") 0) (("d" "rh" "e") 0) (("s" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("goasguen_NAM" "NAM" (((g o) 0) ((a s) 0) ((g eh n) 0))))
+
+(set! text "Mes chers collègues, je souhaite d'abord m'adresser à Monsieur Goasguen.") ; neut_parl_s04_0166
+(dSayText text)

@@ -1,0 +1,10 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n eh) 0)(("p" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((z a) 0)))); LIA
+(lex.add.entry '("l_honneur_NOM" "NOM" (((l "oh") 0) (("n" "oe" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+
+(set! text "Ce n'est pas à l'honneur de ce Gouvernement.") ; 
+(dSayText text); neut_parl_s01_0621

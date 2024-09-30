@@ -1,0 +1,8 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+(lex.add.entry '("essentiel_ADJ" "ADJ" ((("eh") 0) (("s" "ahn") 0) (("s" "j" "eh" "l") 0))))
+
+(dSayText "Ce point est pour moi essentiel.") ; neut_parl_s06_0725

@@ -1,0 +1,13 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("mariage_NOM" "NOM" ((("m" "a") 0) (("rh" "j" "a" "zh") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("tous_PRO:ind" "PRO:ind" (((t u)0) ((s ae) 0))))
+(lex.add.entry '("s_inscrit_VER" VER ((("ehn" "s") 0) (("k" "rh" "i") 0))))
+
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("prestigieuse_ADJ" "ADJ" ((("p" "rh" "eh" "s") 0) (("t" "i") 0) (("zh" "j" "eu" "z") 0))))
+(lex.add.entry '("lignée_NOM" "NOM" ((("l" "i") 0) (("jg" "e") 0))))
+
+(set! text "Le mariage pour tous, s'inscrit dans cette prestigieuse lignée.") ; neut_parl_s04_0110
+(dSayText text)

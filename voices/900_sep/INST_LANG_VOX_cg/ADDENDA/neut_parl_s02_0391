@@ -1,0 +1,17 @@
+; bad final
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("problème_NOM" "NOM" ((("p" "rh" "oh") 0) (("b" "l" "eh")0) (("m" ae) 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("proposition_NOM" "NOM" ((("p" "rh" "oh") 0) (("p" "o") 0) (("z" "i") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("heurte_VER" "VER" ((("oe" "rh" "t") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("code_NOM" "NOM" (((k oh)0)((d ae)0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("marchés_NOM" NOM ((("m" "a" "rh") 0) (("sh" "e") 0))))
+(lex.add.entry '("publics_ADJ" ADJ ((("p" "y") 0) (("b" "l" "i")0) (("k" "ae") 0))))
+
+(set! text "Le problème, c'est que cette proposition se heurte au code des marchés publics.") ; neut_parl_s02_0391
+(dSayText text)

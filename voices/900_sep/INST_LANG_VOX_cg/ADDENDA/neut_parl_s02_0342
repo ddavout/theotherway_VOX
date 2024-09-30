@@ -1,0 +1,15 @@
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("prévoit_VER" "VER" ((("p" "rh" "e") 0) (("v" "w" "a") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("lancement_NOM" "NOM" ((("l" "ahn" "s") 0) (("m" "ahn") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("programme_NOM" "NOM" ((("p" "rh" "oh") 0) (("g" "rh" "a" "m") 0))))
+(lex.add.entry '("scorpion_NOM" "NOM" ((("s" "k" "oh" "rh") 0) (("p" "j" "ohn") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("l_armée_NOM" "NOM" (((l "a" "rh") 0) (("m" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("terre_NOM" "NOM" ((("t" "eh" "rh") 0))))
+
+(set! text "Enfin, il prévoit le lancement du programme Scorpion dans l'armée de terre.") ; neut_parl_s02_0342
+(dSayText text)

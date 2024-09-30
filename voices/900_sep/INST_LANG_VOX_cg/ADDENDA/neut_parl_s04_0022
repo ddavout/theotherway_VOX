@@ -1,0 +1,10 @@
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("député_NOM" "NOM" ((("d" "e") 0) (("p" "y") 0) (("t" "e") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("partage_VER" "VER" ((("p" "a" "rh") 0) (("t" "a")0) (("zh" ae) 0))))
+(lex.add.entry '("totalement_ADV" "ADV" ((("t" "oh") 0) (("t" "a" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0))))
+(lex.add.entry '("enthousiasme_NOM" "NOM" ((("ahn") 0) (("t" "u") 0) (("z" "j" "a" "s")0) (("m" ae) 0))))
+
+(dSayText "Monsieur le député, je partage totalement votre enthousiasme.") ; neut_parl_s04_0022

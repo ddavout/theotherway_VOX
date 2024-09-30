@@ -1,0 +1,18 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("réunira_VER" VER ((("rh" "e") 0) (("y") 0) (("n" "i") 0) (("rh" "a") 0))))
+(lex.add.entry '("demain_ADV" "ADV" ((("d" "ae") 0) (("m" "ehn") 0))))
+(lex.add.entry '("jeudi_NOM" "NOM" ((("zh" "eu") 0) (("d" "i") 0))))
+(lex.add.entry '("vingt_ADJ:num" "ADJ:num" ((("v" "ehn") 0))))
+(lex.add.entry '("huit_ADJ:num" "ADJ:num" (((t "hw" i) 0))))
+(lex.add.entry '("juin_NOM" "NOM" ((("zh" "hw" "ehn") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("mille_ADJ:num" ADJ:num ((("m" "i" "l") 0))))
+(lex.add.entry '("douze_ADJ:num" "ADJ:num" (((d u)0) ((z ae) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("quinze_ADJ:num" "ADJ:num" ((("k" "ehn" "z") 0))))
+(lex.add.entry '("heures_NOM" NOM ((("oe" "rh") 0))))
+(lex.add.entry '("trente_ADJ:num" "ADJ:num" ((("t" "rh" "ahn")0) (("t" ae) 0))))
+
+;;(set! never_exception_list (append (list "vingt" ) never_exception_list_default))
+(dSayText "Il se réunira demain, jeudi vingt huit juin deux mille douze, à quinze heures trente.") ; neut_parl_s05_0403

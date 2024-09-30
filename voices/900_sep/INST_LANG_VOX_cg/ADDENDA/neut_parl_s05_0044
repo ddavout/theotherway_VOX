@@ -1,0 +1,11 @@
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("suis_VER" "VER" (((s hw i) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("premier_ADJ" "ADJ" ((("p" "rh" "ae") 0) (("m" "j" "e") 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s) 0) ((t rh ae) 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("hasard_NOM" "NOM" ((("a") 0) (("z" "a" "rh") 0))))
+
+(dSayText "Moi, je ne suis pas Premier ministre par hasard.") ; neut_parl_s05_0044

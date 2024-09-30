@@ -1,0 +1,11 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("parole_NOM" "NOM" ((("p" "a") 0) (("rh" "oh" "l") 0))))
+(lex.add.entry '("est_VER" "VER" ((("e") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((k a) 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("Guy_NAM" "NAM" ((("g" "i") 0))))
+(lex.add.entry '("Geoffroy_NAM" "NAM" (((zh oh) 0) ((f rh w a) 0))))
+
+
+(dSayText "La parole est donc à Monsieur Guy Geoffroy.") ; neut_parl_s03_0216

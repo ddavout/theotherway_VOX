@@ -1,0 +1,18 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("n_empêche_VER" "VER" (((n "ahn") 0) (("p" "eh" "sh") 0))))
+(lex.add.entry '("que_ADV" ADV (((k ae) 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("fond_NOM" "NOM" ((("f" "ohn") 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("députés_NOM" NOM ((("d" "e") 0) (("p" "y") 0) (("t" "e") 0))))
+(lex.add.entry '("doivent_VER" VER ((("d" "w" "a" "v") 0))))
+(lex.add.entry '("être_AUX" "AUX" (((t "eh") 0)))); LIA
+(lex.add.entry '("être_VER" "VER" (((t "eh") 0)))); LIA; confusion
+(lex.add.entry '("inscrits_VER" VER ((("t" "rh" "ehn" "s") 0) (("k" "rh" "i") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((z "oen") 0)))); LIA
+(lex.add.entry '("territoire_NOM" "NOM" ((("t" "eh") 0) (("rh" "i") 0) (("t" "w" "a" "rh") 0))))
+
+(set! text "Il n'empêche que, sur le fond, nos députés doivent être inscrits dans un territoire.") ; 
+(dSayText text); neut_parl_s01_0127

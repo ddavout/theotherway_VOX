@@ -1,0 +1,11 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("saluons_VER" VER ((("s" "a") 0) (("l" "y") 0) (("ohn") 0))))
+(lex.add.entry '("également_ADV" "ADV" ((("e") 0) (("g" "a" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("adoption_NOM" "NOM" ((("a") 0) (("d" "oh" "p") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("mesure_NOM" "NOM" ((("m" "ae") 0) (("z" "y" "rh") 0))))
+
+(set! never_exception_list (append (list "saluons" ) never_exception_list_default))
+(dSayText "Nous saluons également, l'adoption de cette mesure.") ; neut_parl_s05_0178

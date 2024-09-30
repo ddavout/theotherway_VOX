@@ -1,0 +1,11 @@
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ont_VER" "VER" (((z "ohn") 0))))
+(lex.add.entry '("en_effet_PRE" "PRE" (((t "ahn") 0) ((n "e") 0) (("f" "eh") 0)))); LIA
+(lex.add.entry '("besoin_NOM" "NOM" ((("b" "ae") 0) (("z" "w" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("socle_NOM" "NOM" ((("s" "oh")0) (("k" "l" "ae") 0))))
+
+
+(set! text "Ils ont en effet besoin de ce socle.") ; neut_parl_s06_0441
+(dSayText text)

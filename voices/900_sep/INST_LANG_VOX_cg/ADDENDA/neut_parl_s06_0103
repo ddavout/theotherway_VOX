@@ -1,0 +1,19 @@
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("autant_ADV" "ADV" ((("o") 0) (("t" "ahn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("loi_NOM" "NOM" ((("l" "w" "a") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("écrire_VER" "VER" (((z "e") 0) (("k" "rh" "i" "rh") 0)))); LIA
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("décrets_NOM" NOM ((("d" "e") 0) (("k" "rh" "eh") 0))))
+(lex.add.entry '("sinon_CON" "CON" ((("s" "i") 0) (("n" "ohn") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0)))); no LIA
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("s_en_PRO:per" "PRO:per" (((s ahn) 0)))); Q
+(lex.add.entry '("sort_VER" "VER" ((("s" "oh" "rh") 0))))
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
+
+(set! text "pour autant, la loi ne doit pas écrire les décrets, sinon, on ne s'en sort plus.") ; neut_parl_s06_0103
+(dSayText text)

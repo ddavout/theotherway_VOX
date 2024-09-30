@@ -1,0 +1,21 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("sais_VER" "VER" ((("s" "eh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("fatigue_NOM" "NOM" ((("f" "a") 0) (("t" "i")0)(( "g" ae) 0))))
+(lex.add.entry '("touche_VER" "VER" ((("t" "u" "sh") 0))))
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" nil))
+(lex.add.entry '("monde_NOM" "NOM" (((l "m" "ohn" "d") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("malgré_PRE" "PRE" ((("m" "a" "l") 0) (("g" "rh" "e") 0))))
+(lex.add.entry '("tout_NOM" NOM ((("t" "u") 0))))
+(lex.add.entry '("lehh_ART:def" ART:def ((("l" ae) 0))))
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("avoir_VER" "VER" ((("a") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("lieu_NOM" "NOM" ((("l" "j" "eu") 0))))
+
+(set! never_exception_list (append (list "doit" ) never_exception_list_default))
+(dSayText "Je sais que la fatigue touche tout le monde mais malgré tout, le débat doit avoir lieu.") ; neut_parl_s06_0392
+

@@ -1,0 +1,9 @@
+(lex.add.entry '("Certains_ADJ:ind" ADJ:ind ((("s" "eh" "rh") 0) (("t" "ehn") 0))))
+(lex.add.entry '("témoignages_NOM" NOM ((("t" "e") 0) (("m" "w" "a") 0) (("jg" "a") 0))))
+(lex.add.entry '("ont_AUX" "AUX" (((zh "ohn") 0)))); no LIA
+(lex.add.entry '("été_VER" "VER" (((t "e") 0) (("t" "e") 0)))); LIA
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("forts_ADJ" ADJ ((("f" "oh" "rh") 0))))
+
+(set! text "Certains témoignages ont été très forts.") ; neut_parl_s02_0186
+(dSayText text)

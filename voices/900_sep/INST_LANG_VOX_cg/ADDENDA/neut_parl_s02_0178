@@ -1,0 +1,8 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("avons_VER" "VER" (((z "a") 0) (("v" "ohn") 0)))); LIA
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("choisi_VER" "VER" ((("sh" "w" "a") 0) (("z" "i") 0))))
+(lex.add.entry '("l_action_NOM" "NOM" (((l "a" "k") 0) (("s" "j" "ohn") 0))))
+
+(set! text "Nous avons nous, choisi l'action.") ; neut_parl_s02_0178
+(dSayText text)

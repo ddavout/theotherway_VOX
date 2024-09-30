@@ -1,0 +1,19 @@
+(lex.add.entry '("Rayé_VER" VER ((("rh" "eh") 0) (("j" "e") 0))))
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("milliards_NOM" NOM ((("m" "i") 0) (("l" j "a" "rh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("euros_NOM" "NOM" ((("eu") 0) (("rh" "o") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("crédits_NOM" NOM ((("k" "rh" "e") 0) (("d" "i") 0))))
+(lex.add.entry '("mérite_VER" VER ((("m" "e") 0) (("rh" "i" "t") 0))))
+(lex.add.entry '("qu_CON" "CON" nil))
+(lex.add.entry '("qu_on_PRO:per" "PRO:per" (((k ohn) 0))))
+(lex.add.entry '("y_ADV" "ADV" (((i) 0))))
+(lex.add.entry '("consacre_VER" "VER" ((("k" "ohn") 0) (("s" "a") 0) (("k" "rh" "ae") 0)))) ; done
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("plus_ADV" ADV (((p l y s) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("temps_NOM" "NOM" (((t ahn) 0))))
+
+(set! never_exception_list (append (list "on") never_exception_list_default)) ; todo liaison on + y
+(dSayText "Rayer trois milliards d'euros de crédits mérite qu'on y consacre beaucoup plus de temps.") ; neut_parl_s02_0744

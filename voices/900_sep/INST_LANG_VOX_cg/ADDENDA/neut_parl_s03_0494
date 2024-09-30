@@ -1,0 +1,10 @@
+(lex.add.entry '("depuis_PRE" "PRE" (((d ae) 0) ((p hw i) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("véhicule_NOM" "NOM" ((("v" "e") 0) (("i") 0) (("k" "y" "l") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("parcouru_VER" "VER" ((("p" "a" "rh") 0) (("k" "u") 0) (("rh" "y") 0))))
+(lex.add.entry '("trente_ADJ:num" "ADJ:num" ((("t" "rh" "ahn" "t") 0))))
+(lex.add.entry '("mille_ADJ:num" ADJ:num ((("m" "i" "l") 0))))
+(lex.add.entry '("kilomètres_NOM" NOM ((("k" "i") 0) (("l" "oh") 0) (("m" "eh") 0) (("t" "rh" "ae") 0))))
+
+(dSayText "Depuis, ce véhicule a parcouru, trente mille kilomètres.") ; neut_parl_s03_0494

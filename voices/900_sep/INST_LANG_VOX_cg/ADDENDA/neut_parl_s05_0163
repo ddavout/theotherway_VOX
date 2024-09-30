@@ -1,0 +1,8 @@
+(lex.add.entry '("voyez_VER" VER ((("v" "w" "a") 0) (("j" "e") 0))))
+(lex.add.entry '("où_PRO:rel" "PRO:rel" ((("u") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("en_PRO:per" "PRO:per" (((z ahn) 0))))
+(lex.add.entry '("sommes_VER" VER ((("s" "oh" "m") 0))))
+
+(set! text "Voyez où nous en sommes !") ; neut_parl_s05_0163
+(dSayText text)

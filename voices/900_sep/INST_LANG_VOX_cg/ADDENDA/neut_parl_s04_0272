@@ -1,0 +1,9 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("long_ADJ" "ADJ" ((("l" "ohn") 0))))
+(lex.add.entry '("cinq_ADJ:num" "ADJ:num" ((("s" "ehn") 0))))
+(lex.add.entry '("ans_NOM" NOM ((("ahn") 0))))
+
+
+
+(dSayText "C'est long, cinq ans !") ; neut_parl_s04_0272

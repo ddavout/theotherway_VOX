@@ -1,0 +1,17 @@
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("enseigne_VER" VER ((("ahn") 0) (("s" "eh" "jg") 0))))
+(lex.add.entry '("austin_NAM" "NAM" (((o) 0) ((s t i n) 0))))
+(lex.add.entry '("philosophe_NOM" "NOM" ((("f" "i") 0) (("l" "oh") 0) (("z" "oh" "f") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("nommé_VER" VER ((("n" "oh") 0) (("m" "e") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("dire_VER" "VER" ((("d" "i" "rh") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+
+(dSayText "Comme nous l'enseigne Austin, philosophe du droit, nommer et dire, c'est déjà faire.") ; neut_parl_s06_0150

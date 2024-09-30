@@ -1,0 +1,6 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("raison_NOM" "NOM" ((("rh" "eh") 0) (("z" "ohn") 0))))
+(lex.add.entry '("en_PRO:per" "PRO:per" (((ahn) 0))))
+(lex.add.entry '("est_VER" "VER" ((("e") 0))))
+(lex.add.entry '("simple_ADJ" "ADJ" ((("s" "ehn")0)(("p" "l" "ae") 0))))
+(dSayText "La raison en est simple.") ; neut_parl_s06_0771

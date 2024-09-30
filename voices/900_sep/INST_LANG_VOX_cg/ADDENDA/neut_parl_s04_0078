@@ -1,0 +1,9 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("enjeu_VER" VER ((("ahn") 0) (("zh" "eu") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("taille_NOM" "NOM" ((("t" "a")0) (("j" ae) 0))))
+
+; POS enjeu VER !
+(dSayText "Et l'enjeu est de taille !") ; neut_parl_s04_0078

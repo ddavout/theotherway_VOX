@@ -1,0 +1,14 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("mariage_NOM" "NOM" ((("m" "a") 0) (("rh" "j" "a")0) (("zh" "ae") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("bel_ADJ" "ADJ" ((("b" "eh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("l" "e") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("ouvert_ADJ" "ADJ" (((n"u") 0) (("v" "eh" "rh") 0)))); LIA
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("tous_PRO:ind" PRO:ind (((t u s) 0))))
+
+
+(set! text "Le mariage est donc bel et bien ouvert à tous.") ; 
+(dSayText text); neut_parl_s01_0655

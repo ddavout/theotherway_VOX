@@ -1,0 +1,7 @@
+(lex.add.entry '("qu_est_ce_VER" "VER" (((k eh s) 0))))
+(lex.add.entry '("qu_une_ART:ind" "ART:ind" (((k y) 0))))
+(lex.add.entry '("approche_NOM" "NOM" (((n "a") 0) (("p" "rh" "oh") 0) (("sh" "ae") 0))))
+(lex.add.entry '("sécuritaire_ADJ" "ADJ" ((("s" "e") 0) (("k" "y") 0) (("rh" "i") 0) (("t" "eh" "rh") 0))))
+
+(set! text "Qu'est-ce qu'une approche sécuritaire ?") ; neut_parl_s05_0564
+(dSayText text)

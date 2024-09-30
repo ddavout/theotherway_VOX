@@ -1,0 +1,8 @@
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("tel_ADJ:ind" ADJ:ind ((("t" "eh" "l") 0))))
+(lex.add.entry '("raisonnement_NOM" "NOM" ((("rh" "e") 0) (("z" "oh" "n") 0) (("m" "ahn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("indigne_ADJ" ADJ ((("ehn") 0) (("d" "i")0) (("jg" ae) 0))))
+
+(set! never_exception_list (append (list "est" "C_est" ) never_exception_list_default))
+(dSayText "Un tel raisonnement est indigne !") ; neut_parl_s04_0607

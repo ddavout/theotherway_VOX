@@ -1,0 +1,30 @@
+(set! fileid "neut_book_s01_0073")
+; (lex.add.entry '("quatre_ADJ:num" "ADJ:num" ((("k" "a")0) (("t" "rh" ae) 0)))) ; confusion
+
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("étables_NOM" NOM (((z "e") 0) (("t" "a")0) (("b" "l" ae) 0)))); done
+(lex.add.entry '("contenaient_VER" VER ((("k" "ohn" t) 0) (("n" "eh") 0))))
+(lex.add.entry '("maintenant_ADV" ADV ((("m" "ehn" t) 0) (("n" "ahn") 0))))
+(lex.add.entry '("cinq_ADJ:num" "ADJ:num" ((("s" "ehn") 0))))
+(lex.add.entry '("onaggas_NOM" NOM ((("oh") 0) (("n" "a") 0) (("g" "a") 0))))
+(lex.add.entry '("dont_PRO:rel" "PRO:rel" ((("d" "ohn") 0))))
+(lex.add.entry '("quatre" nil ((("k" "a")0) (("t" "rh" ae) 0)))) ; todo ? triple t rh v
+(lex.add.entry '("vigoureux_ADJ" "ADJ" ((("v" "i") 0) (("g" "u") 0) (("rh" "eu") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("dressés_VER" VER ((("d" "rh" "e") 0) (("s" "e") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("laissant_VER" "VER" ((("l" "eh") 0) (("s" "ahn") 0))))
+(lex.add.entry '("atteler_VER" "VER" ((("a") 0) (("t" l "e") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("monter_VER" VER ((("m" "ohn") 0) (("t" "e") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("petit_NOM" "NOM" ((("p" "ae") 0) (("t" "i") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("venait_VER" VER ((("v" "ae") 0) (("n" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0)))); hmm pourquoi pas CON +infinitif venait de pousser un cri
+
+(lex.add.entry '("naitre_VER" VER ((("n" "eh") 0) (("t" "rh" "ae") 0))))
+
+(set! text "les étables contenaient maintenant cinq onaggas, dont quatre vigoureux, bien dressés, se laissant atteler ou monter, et un petit qui venait de naître.") ; neut_book_s01_0073
+(dSayText text)

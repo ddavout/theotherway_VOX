@@ -1,0 +1,12 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("veux_VER" "VER" ((("v" "eu") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("conclure_VER" "VER" ((("k" "ohn") 0) (("k" "l" "y" "rh") 0))))
+(lex.add.entry '("tirer_VER" VER ((("t" "i") 0) (("rh" "e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("sonnette_NOM" "NOM" ((("s" "oh") 0) (("n" "eh" "t") 0))))
+(lex.add.entry '("d_alarme_NOM" NOM (((d "a") 0) (("l" "a" "rh")0) (("m" ae) 0))))
+
+
+(set! text "Je veux, pour conclure, tirer la sonnette d'alarme.") ; 
+(dSayText text); neut_parl_s01_0446

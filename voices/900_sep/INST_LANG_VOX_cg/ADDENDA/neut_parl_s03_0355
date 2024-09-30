@@ -1,0 +1,11 @@
+(lex.add.entry '("d_être_AUX" "AUX" (((d "eh" "t" "rh") 0)))); confusion possble ?
+(lex.add.entry '("court_VER" VER ((("k" "u" "rh") 0))))
+
+
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("tâcherai_VER" VER ((("t" "a" "sh") 0) (("rh" "eh") 0))))
+(lex.add.entry '("d_être_VER" "VER" (((d "eh" "t" "rh") 0))))
+(lex.add.entry '("court_ADJ" ADJ ((("k" "u" "rh") 0))))
+
+(set! text "je tâcherai d'être court.") ; neut_parl_s03_0355
+(dSayText text)

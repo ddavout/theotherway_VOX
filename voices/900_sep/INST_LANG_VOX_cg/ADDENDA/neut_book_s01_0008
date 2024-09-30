@@ -1,0 +1,28 @@
+(set! fileid "neut_book_s01_0008")
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("précisément_ADV" "ADV" ((("p" "rh" "e") 0) (("s" "i") 0) (("z" "e") 0) (("m" "ahn") 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_était_VER" "VER" (((n "e") 0) (("t" "eh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((z "oen") 0)))); LIA
+(lex.add.entry '("honnête_ADJ" "ADJ" (((n "oh") 0) (("n" "eh" "t") 0))))
+(lex.add.entry '("navire_NOM" "NOM" ((("n" "a") 0) (("v" "i" "rh") 0))))
+(lex.add.entry '("répondit_VER" "VER" ((("rh" "e") 0) (("p" "ohn") 0) (("d" "i") 0))))
+(lex.add.entry '("nab_NAM" "NAM" (((n a)0) ((b ae) 0))))
+
+(set! text "c'est que précisément, ce n'était pas un honnête navire ! répondit nab.") ; neut_book_s01_0008
+
+(set! flat_expected "<{(0 s  e )}{(0 k  ae )}{(0 p  rh  e )(0 s  i )(0 z  e )(0 m  ahn )}> _B <{(0 s  ae )}{(0 n  e )(0 t  eh )}{(0 p  a )}{(0 z  oen )}{(0 n  oh )(0 n  eh  t )}{(0 n  a )(0 v  i  rh )}> _BB <{(0 rh  e )(0 p  ohn )(0 d  i )}{(0 n  a )(0 b  ae )}> _BB ")
+;()
+;id _12 ; name c_est ; pos_index 22 ; pos_index_score 0 ; pos VER ; pbreak NB ; 
+;id _13 ; name que ; pos_index 10 ; pos_index_score 0 ; pos CON ; pbreak NB ; 
+;id _14 ; name précisément ; pos_index 6 ; pos_index_score 0 ; pos ADV ; pbreak B ; 
+;id _15 ; name ce ; pos_index 16 ; pos_index_score 0 ; pos PRO:dem ; pbreak NB ; 
+;id _16 ; name n_était ; pos_index 22 ; pos_index_score 0 ; pos VER ; pbreak NB ; 
+;id _17 ; name pas ; pos_index 6 ; pos_index_score 0 ; pos ADV ; pbreak NB ; 
+;id _18 ; name un ; pos_index 8 ; pos_index_score 0 ; pos ART:ind ; pbreak NB ; 
+;id _19 ; name honnête ; pos_index 0 ; pos_index_score 0 ; pos ADJ ; pbreak NB ; 
+;id _20 ; name navire ; pos_index 13 ; pos_index_score 0 ; pos NOM ; pbreak BB ; 
+;id _21 ; name répondit ; pos_index 22 ; pos_index_score 0 ; pos VER ; pbreak NB ; 
+;id _22 ; name nab ; pos_index 12 ; pos_index_score 0 ; pos NAM ; pbreak BB ; 

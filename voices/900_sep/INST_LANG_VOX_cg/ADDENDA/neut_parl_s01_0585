@@ -1,0 +1,11 @@
+(lex.add.entry '("celui_là" nil ((("s" "ae") 0) (("l" "hw" "i") 0) (("l" "a") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("déroge_VER" "VER" ((("d" "e") 0) (("rh" "oh" "zh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((z a) 0)))); LIA
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("règle_NOM" "NOM" ((("rh" "eh" "g" "l") 0))))
+
+
+(set! text "Celui-là ne déroge pas à la règle.") ; 
+(dSayText text); neut_parl_s01_0585

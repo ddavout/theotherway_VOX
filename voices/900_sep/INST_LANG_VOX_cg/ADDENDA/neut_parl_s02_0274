@@ -1,0 +1,8 @@
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("n_êtes_VER" VER ((("n" "eh" t) 0))))
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m e) 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+
+
+(set! text "Vous n'êtes jamais là !") ; neut_parl_s02_0274
+(dSayText text)

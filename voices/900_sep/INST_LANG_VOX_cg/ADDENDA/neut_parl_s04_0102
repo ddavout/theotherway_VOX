@@ -1,0 +1,9 @@
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("benoit_NAM" "NAM" ((("b" "ae") 0) (("n" "w" "a") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("compris_VER" VER ((("k" "ohn") 0) (("p" "rh" "i") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("texte_NOM" "NOM" ((("t" "eh" "k" "s")0) (("t" ae) 0))))
+(lex.add.entry '("lui_PRO:per" "PRO:per" ((("l" "hw" i) 0))))
+
+(dSayText "Monsieur Benoit a compris le texte, lui !") ; neut_parl_s04_0102

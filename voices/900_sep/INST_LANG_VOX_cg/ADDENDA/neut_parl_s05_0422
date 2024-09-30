@@ -1,0 +1,16 @@
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh" "m") 0))))
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0))))
+(lex.add.entry '("aucune_ADJ:ind" "ADJ:ind" ((("o") 0) (("k" "y" "n") 0))))
+(lex.add.entry '("situation_NOM" "NOM" ((("s" "i") 0) (("t" "hw" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("n_est_VER" "VER" (((n eh) 0))))
+(lex.add.entry '("comparable_ADJ" "ADJ" ((("k" "ohn") 0) (("p" "a") 0) (("rh" "a")0) (("b" "l" "ae") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("mêmes_ADJ" ADJ ((("m" "eh" "m") 0))))
+(lex.add.entry '("choix_NOM" "NOM" ((("sh" "w" "a") 0))))
+(lex.add.entry '("produisent_VER" VER ((("p" "rh" "oh") 0) (("d" "hw" i "z") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("mêmes_ADJ" ADJ ((("m" "eh" "m") 0))))
+(lex.add.entry '("effets_NOM" NOM (((z "e") 0) (("f" "eh") 0)))); LIA
+
+(set! text "Même si aucune situation n'est comparable, les mêmes choix produisent les mêmes effets.") ; neut_parl_s05_0422
+(dSayText text)

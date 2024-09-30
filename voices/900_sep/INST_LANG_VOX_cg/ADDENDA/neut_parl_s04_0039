@@ -1,0 +1,12 @@
+(lex.add.entry '("tu_PRO:per" "PRO:per" ((("t" "y") 0))))
+(lex.add.entry '("gères_VER" VER ((("zh" "eh" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn" "s") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("Conseil_NAM" "NAM" ((("k" "ohn") 0) (("s" "eh" "j") 0))))
+(lex.add.entry '("municipal_ADJ" "ADJ" ((("m" "y") 0) (("n" "i") 0) (("s" "i") 0) (("p" "a" "l") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nantes_NAM" "NAM" (((n ahn)0) ((t ae) 0))))
+
+(dSayText "Tu gères la France, comme le conseil municipal de Nantes.") ; neut_parl_s04_0039

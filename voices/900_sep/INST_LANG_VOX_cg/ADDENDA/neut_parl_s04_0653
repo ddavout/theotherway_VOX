@@ -1,0 +1,11 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("partage_VER" "VER" ((("p" "a" "rh") 0) (("t" "a" "zh") 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh)0) ((t rh ae) 0))))
+(lex.add.entry '("constat_NOM" "NOM" ((("k" "ohn" "s") 0) (("t" "a") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("la_plupart_PRO:ind" "PRO:ind" ((("l" "a") 0) (("p" "l" "y") 0) (("p" "a" "rh") 0))))
+(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0))))
+(lex.add.entry '("sans_PRE" PRE ((("s" "ahn") 0))))
+(lex.add.entry '("doute_NOM" "NOM" ((("d" "u" "t") 0))))
+
+(dSayText "Je partage votre constat, comme la plupart ici, sans doute.") ; neut_parl_s04_0653

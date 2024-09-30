@@ -1,0 +1,14 @@
+(lex.add.entry '("neuf_ADJ:num" "ADJ:num" ((("n" "oe" f) 0))))
+(lex.add.entry '("neuf_ADJ" "ADJ" ((("n" "oe" f) 0)))) ; confusion
+
+(lex.add.entry '("neuf" nil ((("n" "oe" f) 0))))
+(lex.add.entry '("millions_NOM" NOM ((("m" "i") 0) (("l" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("personnes_NOM" NOM ((("p" "eh" "rh") 0) (("s" "oh" "n") 0))))
+(lex.add.entry '("sont_AUX" AUX ((("s" "ohn") 0))))
+(lex.add.entry '("concernées_VER" VER ((("k" "ohn") 0) (("s" "eh" "rh") 0) (("n" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("cela_PRO:dem" PRO:dem ((("s" "l" "a") 0))))
+
+(set! text "neuf millions de personnes sont concernées par cela.") ; neut_parl_s01_0081
+(dSayText text)

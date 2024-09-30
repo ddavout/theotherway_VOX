@@ -1,0 +1,17 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("revanche_NOM" "NOM" ((("rh" "ae") 0) (("v" "ahn")0) (("sh" ae) 0))))
+(lex.add.entry '("lorsque_CON" "CON" ((("l" "oh" "rh") 0) (("s" "k" ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("activité_NOM" "NOM" ((("a" "k") 0) (("t" "i") 0) (("v" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("liée_VER" "VER" ((("l" "j" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("coopérative_NOM" "NOM" ((("k" "oh") 0) (("p" "e") 0) (("rh" "a") 0) (("t" "i")0) (("v" ae) 0))))
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("touchent_VER" VER ((("t" "u" "sh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+(dSayText "En revanche, lorsque l'activité est liée à la coopérative, ils ne le touchent pas.") ; neut_parl_s02_0626

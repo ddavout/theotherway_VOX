@@ -1,0 +1,12 @@
+(lex.add.entry '("d_une_ART:ind" "ART:ind" (((d "y" "n") 0))))
+(lex.add.entry '("façon_NOM" "NOM" ((("f" "a") 0) (("s" "ohn") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("d_une_ART:ind" "ART:ind" (((d "y" "n") 0)))) ; Q
+(lex.add.entry '("autre_PRO:ind" "PRO:ind" (((n "o")0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("y_PRO:per" "PRO:per" (((z i) 0))))
+(lex.add.entry '("viendrez_VER" VER ((("v" "j" "ehn") 0) (("d" "rh" "e") 0))))
+
+
+(set! text "d'une façon ou d'une autre, vous y viendrez.") ; neut_parl_s02_0361
+(dSayText text)

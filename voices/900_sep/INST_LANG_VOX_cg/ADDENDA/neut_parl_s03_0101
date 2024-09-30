@@ -1,0 +1,12 @@
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("an_VER" VER ((("ahn") 0))))
+(lex.add.entry '("dernier_ADJ" "ADJ" ((("d" "eh" "rh") 0) (("n" "j" "e") 0))))
+(lex.add.entry '("cinquante_ADJ:num" "ADJ:num" (((s ehn) 0) ((k ahn t) 0))))
+(lex.add.entry '("millions_NOM" NOM ((("m" "i") 0) (("l" "j" "ohn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("suffiront_VER" VER ((("s" "y") 0) (("f" "i") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+; POS an
+(dSayText "Comme l'an dernier, cinquante millions ne suffiront pas.") ; neut_parl_s03_0101

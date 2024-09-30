@@ -1,0 +1,17 @@
+
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("avoir_VER" "VER" ((("a") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("approche_NOM" "NOM" ((("a") 0) (("p" "rh" "oh") 0) (("sh" "ae") 0))))
+(lex.add.entry '("complémentaire_ADJ" "ADJ" ((("k" "ohn") 0) (("p" "l" "e") 0) (("m" "ahn") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("n") 0))))
+(lex.add.entry '("approche_NOM" "NOM" (((n "a") 0) (("p" "rh" "oh") 0) (("sh" "ae") 0))))
+(lex.add.entry '("sanitaire_ADJ" "ADJ" ((("s" "a") 0) (("n" "i") 0) (("t" "eh" "rh") 0))))
+
+
+(set! never_exception_list (append (list "faut" "est" ) never_exception_list_default))
+(dSayText "Il faut aussi avoir une approche complémentaire, qui est une approche sanitaire.") ; neut_parl_s06_0181

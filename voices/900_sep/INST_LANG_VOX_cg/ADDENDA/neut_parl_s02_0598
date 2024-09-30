@@ -1,0 +1,8 @@
+(lex.add.entry '("serait_ce_VER" "VER" ((("s" "ae") 0) (("rh" "eh" s) 0))))
+(lex.add.entry '("dû_VER" "VER" ((("d" "y") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("cumul_NOM" "NOM" ((("k" "y") 0) (("m" "y")0) (("l" ae) 0))))
+
+
+
+(dSayText "Serait-ce dû au cumul ?") ; neut_parl_s02_0598

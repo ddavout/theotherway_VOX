@@ -1,0 +1,13 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("caisses_NOM" NOM ((("k" "eh" "s") 0))))
+(lex.add.entry '("régionales_ADJ" ADJ ((("rh" "e") 0) (("zh" "oe") 0) (("n" "a" "l") 0)))) ; !
+(lex.add.entry '("d_épargne_NOM" "NOM" (((d "e") 0) (("p" "a" "rh")0) ((jg ae) 0))))
+(lex.add.entry '("organisent_VER" VER ((("oh" "rh") 0) (("g" "a") 0) (("n" "i") 0) (("z" ae) 0))))
+(lex.add.entry '("quant_à" nil (((k ahn) 0) ((t a) 0))))
+(lex.add.entry '("elles_PRO:per" PRO:per ((("eh" "l") 0))))
+(lex.add.entry '("l_épargne_NOM" "NOM" (((l "e") 0) (("p" "a" "rh")0) ((jg ae) 0))))
+(lex.add.entry '("l_épargne_VER" "VER" (((l "e") 0) (("p" "a" "rh")0) ((jg ae) 0)))); confusion
+
+; POS épargne VER
+(set! text "les caisses régionales d'épargne organisent quant à elles, l'épargne.") ; 
+(dSayText text); neut_parl_s01_0112

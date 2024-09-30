@@ -1,0 +1,22 @@
+(lex.add.entry '("d_état_NOM" "NOM" (((d "e") 0) (("t" "a") 0))))
+
+
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("hollande_NAM" "NAM" (((oh) 0) ((l ahn)0) ((d ae) 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("a_AUX" "AUX" (((z "a") 0))))
+(lex.add.entry '("nommé_VER" "VER" ((("n" "oh") 0) (("m" "e") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("rang_NOM" "NOM" ((("rh" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s) 0) ((t rh ae) 0))))
+(lex.add.entry '("délégué_VER" VER ((("d" "e") 0) (("l" "e") 0) (("g" "e") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("lieu_NOM" "NOM" ((("l" "j" "eu") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("secrétaire_NOM" "NOM" ((("s" "ae") 0) (("k" "rh" "e") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("d_état_ADJ" "ADJ" (((d "e") 0) (("t" "a") 0))))
+
+(set! text "Monsieur Hollande : il vous a nommé avec rang de ministre délégué au lieu de secrétaire d'état.") ; neut_parl_s02_0106
+(dSayText text)

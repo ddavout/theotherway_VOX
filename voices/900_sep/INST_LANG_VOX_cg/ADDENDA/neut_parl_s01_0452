@@ -1,0 +1,11 @@
+(lex.add.entry '("preuve_NOM" "NOM" ((("p" "rh" "oe" "v") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("mal_être_NOM" NOM ((("m" "a") 0) (("l" "eh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("drames_NOM" NOM ((("d" "rh" "a" "m") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("produisent_VER" "VER" ((("p" "rh" "oh") 0) (("d" "hw") 0) (("z" "ae") 0))))
+
+(set! text "Preuve de ce mal-être, des drames se produisent.") ; 
+(dSayText text); neut_parl_s01_0452

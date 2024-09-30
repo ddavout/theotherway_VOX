@@ -1,0 +1,9 @@
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("d_ailleurs_ADV" "ADV" (((d "a") 0) (("j" "oe" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("existant_ADJ" "ADJ" ((("eh" "g") 0) (("z" "i" "s") 0) (("t" "ahn") 0)))); no LIA
+
+(set! text "Oui : c'est d'ailleurs, le droit existant.") ; neut_parl_s04_0046
+(dSayText text)

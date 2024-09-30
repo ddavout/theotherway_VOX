@@ -1,0 +1,9 @@
+(lex.add.entry '("aujourd_hui_NOM" "NOM" (((o) 0) ((zh oh rh) 0) ((d hw i) 0)))) !
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("mariage_NOM" "NOM" ((("m" "a") 0) (("rh" "j" "a" "zh") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("évolué_VER" VER ((("e") 0) (("v" "oh") 0) (("l" "y")0) (("e") 0))))
+
+
+(set! never_exception_list (append (list "doit" "C_est" ) never_exception_list_default))
+(dSayText "Aujourd'hui, le mariage doit évoluer.") ; neut_parl_s06_0515

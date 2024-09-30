@@ -1,0 +1,9 @@
+(lex.add.entry '("Elles_PRO:per" PRO:per ((("eh" "l") 0))))
+(lex.add.entry '("y_ADV" "ADV" (((i) 0))))
+(lex.add.entry '("seront_VER" VER ((("s" "ae") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((m "o") 0))))
+(lex.add.entry '("coeur_NOM" "NOM" ((("k" "oe" "rh") 0))))
+
+(set! never_exception_list (append (list "Elles" ) never_exception_list_default))
+(dSayText "Elles y seront même au cœur.") ; neut_parl_s04_0379

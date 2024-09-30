@@ -1,0 +1,11 @@
+(lex.add.entry '("tu_PRO:per" PRO:per (((t y n) 0))))
+(lex.add.entry '("ne_ADV" ADV nil))
+(lex.add.entry '("peux_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "l" "a") 0))))
+
+
+
+(set! text "Tu ne peux pas faire cela !") ; 
+(dSayText text); neut_parl_s01_0588

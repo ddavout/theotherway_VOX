@@ -1,0 +1,10 @@
+(lex.add.entry '("oh_NOM" "NOM" ((("oh") 0))))
+
+(lex.add.entry '("oh_ONO" "ONO" ((("oh") 0))))
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("m_en_PRO:per" PRO:per ((("m" ahn) 0))))
+(lex.add.entry '("souviens_VER" VER ((("s" "u") 0) (("v" "j" "ehn") 0))))
+
+(set! text "oh oui, je m'en souviens !") ; neut_parl_s05_0201
+(dSayText text)

@@ -1,0 +1,8 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("y_a_VER" "VER" (((l "j" "a") 0))))
+(lex.add.entry '("plusieurs_ADJ:ind" ADJ:ind ((("p" "l" "y") 0) (("z" "j" "oe" "rh") 0))))
+(lex.add.entry '("maladies_NOM" NOM ((("m" "a") 0) (("l" "a") 0) (("d" "i") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("bois_NOM" NOM ((("b" "w" "a") 0))))
+
+(dSayText "Il y a, plusieurs maladies du bois.") ; neut_parl_s03_0522

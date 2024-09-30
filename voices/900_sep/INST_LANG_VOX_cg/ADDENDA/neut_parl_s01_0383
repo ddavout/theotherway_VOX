@@ -1,0 +1,16 @@
+(lex.add.entry '("vols_NOM" NOM ((("v" "oh" "l") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("violence_NOM" "NOM" ((("v" "j" "oh") 0) (("l" "ahn")0)(("s" ae) 0))))
+(lex.add.entry '("de_plus_ADV" ADV (((d ae) 0) ((p l y s) 0))))
+(lex.add.entry '("trois_NOM" NOM ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("cent_NOM" "NOM" (((s ahn) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("plus_ADV" ADV (((p l y s) 0))))
+(lex.add.entry '("cinq_NOM" "NOM" (((s ehn k) 0)))); hmm
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("cent_NOM" "NOM" (((s ahn) 0))))
+
+(set! text "vols avec violence : de plus trois pour cent, à plus cinq pour cent.") ; 
+(dSayText text); neut_parl_s01_0383
+

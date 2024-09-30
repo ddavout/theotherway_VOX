@@ -1,0 +1,12 @@
+(lex.add.entry '("seul_ADJ" "ADJ" ((("s" "oe" "l") 0))))
+(lex.add.entry '("seul_NOM" "NOM" ((("s" "oe" "l") 0)))); confusion
+
+(lex.add.entry '("seul" "nil" ((("s" "oe" "l") 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("braillard_NAM" "NAM" ((("b" "rh" "a") 0) (("j" "a" "rh") 0))))
+(lex.add.entry '("a_VER" "VER" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("parole_NOM" "NOM" ((("p" "a") 0) (("rh" "oh")0) (("l" "ae") 0))))
+
+(set! text "seul Monsieur Braillard a la parole.") ; neut_parl_s02_0258
+(dSayText text)

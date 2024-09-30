@@ -1,0 +1,11 @@
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("chose_NOM" "NOM" (((sh o) 0))))
+(lex.add.entry '("est_VER" "VER" (((z e) 0))))
+(lex.add.entry '("certaine_ADJ" "ADJ" ((("s" "eh" "rh") 0) (("t" "eh")0) (("n" ae) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("propos_NOM" NOM ((("p" "rh" "o") 0) (("p" "o") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("inqualifiables_ADJ" ADJ ((("ehn") 0) (("k" "a") 0) (("l" "i") 0) (("f" "j" "a")0) (("b" "l" ae) 0)))); no LIA
+
+(set! text "Une chose est certaine : ces propos sont inqualifiables.") ; neut_parl_s02_0031
+(dSayText text)

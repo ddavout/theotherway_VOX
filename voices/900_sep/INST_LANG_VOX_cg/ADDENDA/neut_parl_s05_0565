@@ -1,0 +1,11 @@
+(lex.add.entry '("j_espère_VER" VER ((("zh" "eh" "s") 0) (("p" "eh" "rh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("toucherez_VER" VER ((("t" "u" sh) 0)(("rh" "e") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((z a) 0)))); LIA
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("mesure_NOM" "NOM" ((("m" "ae") 0) (("z" "y" "rh") 0))))
+
+(dSayText "J'espère que vous ne toucherez pas à cette mesure.") ; neut_parl_s05_0565

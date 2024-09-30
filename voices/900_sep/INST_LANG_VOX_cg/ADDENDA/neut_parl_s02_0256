@@ -1,0 +1,16 @@
+(lex.add.entry '("mais_CON" "CON" (((m e) 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" (((z "ohn") 0)))); LIA
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("regarder_VER" VER ((("rh" "ae") 0) (("g" "a" "rh") 0) (("d" "e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("réalité_NOM" "NOM" ((("rh" "e") 0) (("a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_Europe_NAM" "NAM" (((l oe) 0) ((rh oh "p") 0))))
+(lex.add.entry '("d_aujourd_hui_ADJ" "ADJ" (((d o) 0) ((zh u rh) 0)((d "hw" i) 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("rétroviseur_NOM" "NOM" ((("rh" "e") 0) (("t" "rh" "o") 0) (("v" "i") 0) (("z" "oe" "rh") 0))))
+
+(set! text "Mais on ne peut regarder la réalité de l'Europe d'aujourd'hui, dans un rétroviseur.") ; neut_parl_s02_0256
+(dSayText text)

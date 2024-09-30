@@ -1,0 +1,12 @@
+(lex.add.entry '("en_effet_ADV" "ADV" (((ahn) 0) ((n e) 0) ((f eh) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("fraude_NOM" "NOM" ((("f" "rh" "o" "d") 0))))
+(lex.add.entry '("fiscale_ADJ" "ADJ" ((("f" "i" "s") 0) (("k" "a" "l") 0))))
+(lex.add.entry '("n_a_VER" VER ((("n" a) 0))))
+(lex.add.entry '("qu_un_ART:ind" "ART:ind" (((k oen) 0))))
+(lex.add.entry '("but_NOM" "NOM" ((("b" "y"t ) 0))))
+(lex.add.entry '("disparaitre_VER" VER ((("d" "i" "s") 0) (("p" "a") 0) (("rh" "eh") 0) (("t" "rh" "ae") 0))))
+
+
+(set! text "En effet, la fraude fiscale n'a qu'un but : disparaître.") ; neut_parl_s06_0068
+(dSayText text)

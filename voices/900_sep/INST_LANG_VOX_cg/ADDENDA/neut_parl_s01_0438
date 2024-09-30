@@ -1,0 +1,17 @@
+; bug is_in_poslex j_espère
+(lex.add.entry '("j_espère_VER" VER ((("zh" "eh" "s") 0) (("p" "eh" "rh") 0))))
+
+(lex.add.entry '("j_espère" nil ((("zh" "eh" "s") 0) (("p" "eh" "rh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("pourrons_VER" VER ((("p" "u") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("y_ADV" "ADV" (((z i) 0)))); LIA
+(lex.add.entry '("revenir_VER" "VER" ((("rh" "ae" v) 0) (("n" "i" "rh") 0))))
+(lex.add.entry '("lors_ADV" ADV ((("l" "oh" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("navette_NOM" "NOM" ((("n" "a") 0) (("v" "eh" "t") 0))))
+
+(set! text "j'espère que nous pourrons y revenir lors de la navette.") ; 
+(dSayText text); neut_parl_s01_0438
+

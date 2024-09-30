@@ -1,0 +1,10 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("question_NOM" NOM ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("pose_VER" "VER" ((("p" "o" "z") 0))))
+(lex.add.entry '("véritablement_ADV" "ADV" ((("v" "e") 0) (("rh" "i") 0) (("t" "a") 0) (("b" "l" "ae") 0) (("m" "ahn") 0))))
+
+
+(set! text "La question se pose véritablement.") ; 
+(dSayText text); neut_parl_s01_0454
+

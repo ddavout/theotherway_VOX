@@ -1,0 +1,24 @@
+(set! fileid "neut_book_s01_0266")
+(lex.add.entry '("tous_ADJ" ADJ ((("t" "u") 0))))
+(lex.add.entry '("tous_PRO:ind" PRO:ind ((("t" "u") 0)))); confusion
+
+
+(lex.add.entry '("on_PRO:per" PRO:per ((("ohn") 0))))
+(lex.add.entry '("le_PRO:per" PRO:per ((("l" "ae") 0))))
+(lex.add.entry '("dépeça_VER" VER (((d e) 0) ((p ae) 0) ((s a) 0))))
+(lex.add.entry '("sous_PRE" PRE ((("s" "u") 0))))
+(lex.add.entry '("les_ART:def" ART:def ((("l" "e") 0))))
+(lex.add.entry '("yeux_NOM" NOM (((z "j" "eu") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("canadien_NAM" NAM ((("k" "a") 0) (("n" "a") 0) (("d" "j" "ehn") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("tenait_VER" VER (((t ae) 0) ((n eh) 0))))
+(lex.add.entry '("à_PRE" PRE (((t "a") 0)))); LIA
+(lex.add.entry '("suivre_VER" VER ((("s" "hw" i)0) (("v" "rh" ae) 0))))
+(lex.add.entry '("tous_les_ART:def" ART:def ((("t" "u") 0)(("l" "e") 0))))
+(lex.add.entry '("détails_NOM" NOM ((("d" "e") 0) (("t" "a" "j") 0))))
+(lex.add.entry '("de_PRE" PRE (((d ae) 0))))
+(lex.add.entry '("l_opération_NOM" NOM (((l "oh") 0) (("p" "e") 0) (("rh" "a") 0) (("s" "j" "ohn") 0))))
+
+(set! text  "on le dépeça sous les yeux du canadien, qui tenait à suivre, tous les détails de l'opération.") ; neut_book_s01_0266
+(dSayText text)

@@ -1,0 +1,10 @@
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_oublions_VER" "VER" (((n "u") 0) (("b" "l" "i") 0) (("j" "ohn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("homophobie_VER" VER ((("o") 0) (("m" "o") 0) (("f" "oh") 0) (("b" "i") 0))))
+(lex.add.entry '("tue_VER" "VER" ((("t" "y") 0))))
+
+; POS homophobie VER !
+(dSayText "N'oublions pas, que l'homophobie, tue !") ; neut_parl_s04_0635

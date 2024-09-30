@@ -1,0 +1,8 @@
+(lex.add.entry '("Pire_NOM" NOM ((("p" "i" "rh") 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0))))
+(lex.add.entry '("mensonge_NOM" "NOM" ((("m" "ahn") 0) (("s" "ohn")0) (("zh" ae) 0))))
+
+
+(set! text "Pire : c'est un mensonge !") ; neut_parl_s02_0064
+(dSayText text)

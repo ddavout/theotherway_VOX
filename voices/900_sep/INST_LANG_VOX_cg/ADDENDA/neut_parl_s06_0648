@@ -1,0 +1,16 @@
+; boers moche
+(lex.add.entry '("dernier_ADJ" "ADJ" ((("d" "eh" "rh") 0) (("n" "j" "e") 0))))
+(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s)0) ((t rh ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("boers_NAM" "NAM" (((b oh) 0) ((oe rh s) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("police_NOM" "NOM" ((("p" "oh") 0) (("l" "i" "s") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("taxis_NOM" NOM ((("t" "a" "k") 0) (("s" "i") 0))))
+
+(dSayText "Dernier point, monsieur le ministre : la question des Boers, la police des taxis.") ; neut_parl_s06_0648

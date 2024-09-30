@@ -1,0 +1,17 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("groupe_NOM" "NOM" ((("g" "rh" "u" "p") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a")0) (("j" ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("rendra_VER" "VER" ((("rh" "ahn") 0) (("d" "rh" "a") 0))))
+(lex.add.entry '("ses_ADJ:pos" "ADJ:pos" (((s e) 0))))
+(lex.add.entry '("conclusions_NOM" NOM ((("k" "ohn") 0) (("k" "l" "y") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("début_NOM" "NOM" ((("d" "e") 0) (("b" "y") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("mois_NOM" NOM ((("m" "w" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("mars_NOM" "NOM" (((m a rh s) 0))))
+(lex.add.entry '("prochain_ADJ" "ADJ" ((("p" "rh" "oh") 0) (("sh" "ehn") 0))))
+
+(dSayText "Ce groupe de travail, nous rendra ses conclusions au début du mois de mars prochain.") ; neut_parl_s06_0370

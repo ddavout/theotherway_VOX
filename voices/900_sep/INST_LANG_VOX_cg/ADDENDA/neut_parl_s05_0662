@@ -1,0 +1,7 @@
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("plus_ou_moins_ADV" "ADV" ((("p" "l" "y") 0) ((z u) 0) ((m w ehn) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("sommeil_NOM" "NOM" ((("s" "oh") 0) (("m" "eh" "j") 0))))
+
+(dSayText "Ils sont plus ou moins en sommeil.") ; neut_parl_s05_0662

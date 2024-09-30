@@ -1,0 +1,14 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("ajouté_VER" "VER" ((("a") 0) (("zh" "u") 0) (("t" "e") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("soutiens_VER" VER ((("s" "u") 0) (("t" "j" "ehn") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("mariage_NOM" "NOM" ((("m" "a") 0) (("rh" "j" "a" "zh") 0))))
+(lex.add.entry '("gay_ADJ" "ADJ" (((g e) 0))))
+(lex.add.entry '("parce_que_CON" CON (((p a rh s) 0)((k ae) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("suis_VER" "VER" (((s hw i) 0))))
+(lex.add.entry '("conservateur_ADJ" ADJ ((("k" "ohn") 0) (("s" "eh" "rh") 0) (("v" "a") 0) (("t" "oe" "rh") 0))))
+
+(dSayText "Et d'ajouter : Je soutiens le mariage gay parce que je suis conservateur.") ; neut_parl_s05_0413

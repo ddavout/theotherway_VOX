@@ -1,0 +1,10 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("essayons_VER" VER (((z "e") 0) (("s" "eh") 0) (("j" "ohn") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("moins_NOM" NOM ((("m" "w" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("les_PRO:per" "PRO:per" ((("l" "e") 0))))
+(lex.add.entry '("encadrer_VER" VER ((("ahn") 0) (("k" "a") 0) (("d" "rh" "e") 0))))
+
+(set! text "Nous essayons au moins de les encadrer.") ; neut_parl_s06_0021
+(dSayText text)

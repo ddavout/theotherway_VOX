@@ -1,0 +1,6 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("où_PRO:rel" "PRO:rel" ((("u") 0)))); no LIA
+(lex.add.entry '("va-t-on_VER" "VER" ((("v" "a") 0)(("t" "ohn") 0))))
+
+(set! text "Mais, où va-t-on ?") ; neut_parl_s03_0251
+(dSayText text)

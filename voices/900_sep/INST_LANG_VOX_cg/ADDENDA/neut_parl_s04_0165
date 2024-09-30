@@ -1,0 +1,7 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((z "oen") 0)))); LIA
+(lex.add.entry '("ragoût_NOM" "NOM" ((("rh" "a") 0) (("g" "u") 0))))
+
+(set! text "Ce n'est pas un ragoût !") ; neut_parl_s04_0165
+(dSayText text)

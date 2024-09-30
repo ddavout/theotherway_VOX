@@ -1,0 +1,17 @@
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0))))
+(lex.add.entry '("l_on_PRO:per" "PRO:per" (((l "ohn") 0))))
+(lex.add.entry '("suit_VER" "VER" ((("s" "hw" i) 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh)0) ((t rh ae) 0))))
+(lex.add.entry '("logique_NOM" NOM ((("l" "oh") 0) (("zh" "i")0) (("k" "ae") 0))))
+(lex.add.entry '("autant_ADV" "ADV" ((("o") 0) (("t" "ahn") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("document_NOM" "NOM" ((("d" "oh") 0) (("k" "y") 0) (("m" "ahn") 0))))
+(lex.add.entry '("soit_VER" "VER" ((("s" "w" "a") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
+(lex.add.entry '("fiable_ADJ" "ADJ" ((("f" "j" "a" "b" "l") 0))))
+(lex.add.entry '("possible_NOM" NOM ((("p" "oh") 0) (("s" "i")0) (("b" "l" "ae") 0))))
+
+(set! text "si l'on suit votre logique, autant que ce document soit le plus fiable possible.") ; neut_parl_s06_0449
+(dSayText text)

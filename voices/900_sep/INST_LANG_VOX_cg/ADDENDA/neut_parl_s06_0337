@@ -1,0 +1,10 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("issu_ADJ" ADJ ((("i") 0) (("s" "y") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("un_ART:ind" ART:ind ((("oen") 0))))
+(lex.add.entry '("territoire_NOM" "NOM" ((("t" "eh") 0) (("rh" "i") 0) (("t" "w" "a" "rh") 0))))
+(lex.add.entry '("urbain_ADJ" "ADJ" ((("y" "rh") 0) (("b" "ehn") 0))))
+
+(set! never_exception_list (append (list "est" "C_est" ) never_exception_list_default))
+(dSayText "Il est issu d'un territoire urbain.") ; neut_parl_s06_0337

@@ -1,0 +1,10 @@
+(lex.add.entry '("où_PRO:rel" "PRO:rel" ((("u") 0))))
+(lex.add.entry '("en" nil (((ahn) 0)))); confusion
+(lex.add.entry '("sommes-nous_VER" VER ((("s" "oh" "m") 0)(("n" "u") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
+
+
+(set! text "Où en sommes-nous sur cette question ?") ; neut_parl_s03_0215
+(dSayText text)

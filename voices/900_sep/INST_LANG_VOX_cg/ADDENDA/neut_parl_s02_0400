@@ -1,0 +1,14 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("temps_NOM" "NOM" (((t ahn) 0))))
+(lex.add.entry '("difficiles_ADJ" ADJ ((("d" "i") 0) (("f" "i") 0) (("s" "i")0) (("l" ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("joie_NOM" "NOM" ((("zh" "w" "a") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("fait_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("humble_ADJ" "ADJ" ((("oen" m)0) (("b" "l" ae) 0)))); no LIA
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("discrète_ADJ" "ADJ" ((("d" "i" "s") 0) (("k" "rh" "eh")0) (("t" ae) 0))))
+
+(set! text "En ces temps difficiles, la joie se fait humble, et discrète.") ; neut_parl_s02_0400
+(dSayText text)

@@ -1,0 +1,15 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("rapport_NOM" "NOM" ((("rh" "a") 0) (("p" "oh" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("cour_NOM" "NOM" ((("k" "u" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("comptes_NOM" NOM ((("k" "ohn")0) (("t" "ae") 0))))
+(lex.add.entry '("constitue_VER" "VER" ((("k" "ohn" "s") 0) (("t" "i") 0) (("t" "y") 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((ahn) 0) ((n e) 0) ((f eh) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("donnée_NOM" "NOM" ((("d" "oh") 0) (("n" "e") 0))))
+(lex.add.entry '("nouvelle_NAM" NAM ((("n" "u") 0) (("v" "eh" "l") 0))))
+
+(set! text "Ce rapport de la Cour des comptes constitue en effet une donnée nouvelle.") ; neut_parl_s03_0617
+(dSayText text)

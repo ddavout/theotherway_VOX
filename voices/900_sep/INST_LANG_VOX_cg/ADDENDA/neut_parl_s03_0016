@@ -1,0 +1,11 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("elle_PRO:per" "PRO:per" (((z "eh" "l") 0)))); LIA
+(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
+(lex.add.entry '("a_AUX" "AUX" (((n "a") 0))))
+(lex.add.entry '("rien_PRO:ind" "PRO:ind" ((("rh" "j" "ehn") 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("presque_ADV" ADV ((("p" "rh" "eh" "s") 0) (("k" "ae") 0))))
+
+(set! text "Mais elle n'en a rien dit, ou presque.") ; neut_parl_s03_0016
+(dSayText text)

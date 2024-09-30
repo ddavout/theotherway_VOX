@@ -1,0 +1,9 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("réveil_NOM" "NOM" ((("rh" "e") 0) (("v" "eh" "j") 0))))
+(lex.add.entry '("sera_VER" "VER" ((("s" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("douloureux_ADJ" "ADJ" ((("d" "u") 0) (("l" "u") 0) (("rh" "eu") 0))))
+
+;(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+    ;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
+(dSayText "Le réveil sera très douloureux.") ; neut_parl_s03_0152

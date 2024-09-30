@@ -1,0 +1,7 @@
+(lex.add.entry '("écouté_VER" VER ((("e") 0) (("k" "u") 0) (("t" "e") 0))))
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("instant_NOM" "NOM" ((("ehn" "s") 0) (("t" "ahn") 0))))
+
+
+(dSayText "écoutez-moi un instant !") ; neut_parl_s03_0650

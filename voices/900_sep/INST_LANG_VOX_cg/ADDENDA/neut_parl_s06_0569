@@ -1,0 +1,8 @@
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
+(lex.add.entry '("demi_ADJ" "ADJ" ((("d" "ae") 0) (("m" "i") 0))))
+(lex.add.entry '("seconde_NOM" "NOM" ((("s" "ae") 0) (("g" "ohn")0) (("d" ae) 0))))
+
+(set! text "si c'est une demi-seconde.") ; neut_parl_s06_0569
+(dSayText text)

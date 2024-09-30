@@ -1,0 +1,8 @@
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("goldberg_NAM" "NAM" (((g oh l d) 0) ((b eh rh)0)((g ae) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("m_avez_AUX" AUX ((("m" "a") 0) (("v" "e") 0))))
+(lex.add.entry '("convaincu_VER" "VER" ((("k" "ohn") 0) (("v" "ehn") 0) (("k" "y") 0))))
+
+(set! text "Monsieur Goldberg, vous m'avez convaincu.") ; neut_parl_s02_0740
+(dSayText text)

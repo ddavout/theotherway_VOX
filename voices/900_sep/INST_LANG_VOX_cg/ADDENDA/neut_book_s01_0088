@@ -1,0 +1,17 @@
+(set! fileid "neut_book_s01_0088")
+; (lex.add.entry '("bon_ADJ" "ADJ" ((("b" "ohn") 0))))
+; (lex.add.entry '("bon_NOM" "NOM" ((("b" "ohn") 0)))) ; confusion
+
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("firent_VER" VER (((f i rh) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0))))
+(lex.add.entry '("irruption_NOM" "NOM" ((("i") 0) (("rh" "y" p) 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("états_NOM" "NOM" (((z "e") 0) (("t" "a") 0)))); LIA
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("bon" nil ((("b" "ohn") 0))))
+(lex.add.entry '("nabussan_NAM" NAM ((("n" "a") 0) (("b" "y") 0) (("s" "ahn") 0))))
+
+(set! text "ils firent une irruption, dans les états du bon Nabussan.") ; neut_book_s01_0088
+(dSayText text)

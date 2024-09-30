@@ -1,0 +1,8 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_est_VER" "VER" (((n e) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("insignifiant_ADJ" "ADJ" ((("ehn") 0) (("s" "i") 0) (("n" "i") 0) (("f" "j" "ahn") 0))))
+
+(set! never_exception_list (append (list "pas" ) never_exception_list_default))
+(dSayText "Ce n'est, pas insignifiant.") ; neut_parl_s04_0463

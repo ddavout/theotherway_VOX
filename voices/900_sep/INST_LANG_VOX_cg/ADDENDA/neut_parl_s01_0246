@@ -1,0 +1,18 @@
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("sujet_NOM" "NOM" ((("s" "y") 0) (("zh" "eh") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("saluons_VER" VER ((("s" "a") 0) (("l" "y") 0) (("ohn") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("plan_NOM" "NOM" ((("p" "l" "ahn") 0))))
+(lex.add.entry '("présenté_VER" "VER" ((("p" "rh" "e") 0) (("z" "ahn") 0) (("t" "e") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("y_a_VER" "VER" (((l "j" "a") 0))))
+(lex.add.entry '("quinze_ADJ:num" "ADJ:num" ((("k" "ehn")0) (("z" "ae") 0))))
+(lex.add.entry '("jours_NOM" NOM ((("zh" "u" "rh") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("gouvernement_NOM" "NOM" ((("g" "u") 0) (("v" "eh" "rh") 0) (("n" "ae") 0) (("m" "ahn") 0))))
+
+(set! text "à ce sujet, nous saluons le plan présenté il y a quinze jours par le gouvernement.") ; 
+(dSayText text); neut_parl_s01_0246

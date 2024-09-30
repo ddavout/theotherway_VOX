@@ -1,0 +1,15 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("mots_NOM" NOM ((("m" "o") 0))))
+(lex.add.entry '("ont_VER" "VER" ((("ohn") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("sens_NOM" "NOM" ((("s" "ahn")0) (("s" "ae") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("validé_VER" VER ((("v" "a") 0) (("l" "i") 0) (("d" "e") 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_est_VER" "VER" (((n e) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("décidé_VER" VER ((("d" "e") 0) (("s" "i") 0) (("d" "e") 0))))
+
+(set! never_exception_list (append (list "ont" ) never_exception_list_default))
+(set! list_exclus*-> (append (list "mots" ) list_exclus*->_default))
+(dSayText "Les mots ont un sens, et valider n'est pas décider.") ; neut_parl_s06_0309

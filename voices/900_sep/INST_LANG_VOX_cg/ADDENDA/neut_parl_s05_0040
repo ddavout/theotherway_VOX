@@ -1,0 +1,13 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("qu_un_ART:ind" "ART:ind" (((k oen) 0))))
+(lex.add.entry '("enjeu_NOM" "NOM" ((("ahn") 0) (("zh" "eu") 0))))
+(lex.add.entry '("patrimonial_ADJ" ADJ ((("p" "a") 0) (("t" "rh" "i") 0) (("m" "oh") 0) (("n" "j" "a")0) (("l" ae) 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0)))); no S
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+
+(set! text "ce n'est pas qu'un enjeu patrimonial, c'est bien plus que cela.") ; neut_parl_s05_0040
+(dSayText text)

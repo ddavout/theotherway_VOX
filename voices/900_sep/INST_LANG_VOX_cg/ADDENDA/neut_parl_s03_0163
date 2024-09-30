@@ -1,0 +1,16 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("considère_VER" "VER" ((("k" "ohn") 0) (("s" "i") 0) (("d" "eh" "rh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("Français_NOM" NOM ((("f" "rh" "ahn") 0) (("s" "eh") 0))))
+(lex.add.entry '("ont_VER" "VER" ((("ohn") 0))))
+(lex.add.entry '("droit_ADJ" "ADJ" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("service_NOM" "NOM" ((("s" "eh" "rh") 0) (("v" "i" "s") 0))))
+(lex.add.entry '("public_ADJ" "ADJ" ((("p" "y") 0) (("b" "l" "i" "k") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("fonctionne_VER" "VER" ((("f" "ohn" "k") 0) (("s" "j" "oh")0) (("n" ae) 0))))
+
+(set! list_exclus*-> (append (list "français") list_exclus*->_default)); todo SAFE
+(dSayText "Il considère que les Français ont droit à un service public qui fonctionne.") ; neut_parl_s03_0163

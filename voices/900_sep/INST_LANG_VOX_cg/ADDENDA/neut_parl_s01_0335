@@ -1,0 +1,14 @@
+; /§\ J'en moche approche moche
+
+(lex.add.entry '("j_en_PRO:per" "PRO:per" (((zh ahn) 0))))
+(lex.add.entry '("viens_VER" VER ((("v" "j" "ehn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("ma_ADJ:pos" "ADJ:pos" ((("m" "a") 0))))
+(lex.add.entry '("seconde_NOM" "NOM" ((("s" "ae") 0) (("g" "ohn") 0))))
+(lex.add.entry '("approche_VER" VER (((d "a") 0) (("p" "rh" "oh" "sh") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("sujet_NOM" "NOM" ((("s" "y") 0) (("zh" "eh") 0))))
+
+; TODO POS  seconde NOM, approche VER à + ma + NOM + VER ? à ma fête vinrent du village ...
+(set! text "J'en viens à ma seconde approche du sujet.") ; 
+(dSayText text); neut_parl_s01_0335

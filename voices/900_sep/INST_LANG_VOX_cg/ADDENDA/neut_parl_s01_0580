@@ -1,0 +1,14 @@
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("revanche_NOM" "NOM" ((("rh" "ae") 0) (("v" "ahn" "sh") 0))))
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("refuse_VER" "VER" ((("rh" "ae") 0) (("f" "y" "z") 0))))
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("hébergement_NOM" "NOM" (((t "e") 0) (("b" "eh" "rh") 0) (("zh" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("refuse_VER" "VER" ((("rh" "ae") 0) (("f" "y" "z") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("l_accompagnement_NOM" "NOM" (((l "a") 0) (("k" "ohn") 0) (("p" "a") 0) (("n" "j" "ae") 0) (("m" "ahn") 0))))
+
+(set! text "En revanche, si on refuse cet hébergement, on refuse donc l'accompagnement.") ; 
+(dSayText text); neut_parl_s01_0580

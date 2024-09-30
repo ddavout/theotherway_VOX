@@ -1,0 +1,12 @@
+(lex.add.entry '("Elles_PRO:per" PRO:per ((("eh" "l") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("reçu_VER" "VER" ((("rh" "ae") 0) (("s" "y") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("avé_VER" VER ((("a") 0) (("v" "e") 0))))
+(lex.add.entry '("vu_VER" "VER" ((("v" "y") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("accueil_NOM" "NOM" ((("a") 0) (("k" "oe" "j") 0))))
+(lex.add.entry '("chaleureux_ADJ" "ADJ" ((("sh" "a") 0) (("l" "oe") 0) (("rh" "eu") 0))))
+
+(dSayText "Elles ont reçu vous l'avez vu, un accueil chaleureux.") ; neut_parl_s04_0461

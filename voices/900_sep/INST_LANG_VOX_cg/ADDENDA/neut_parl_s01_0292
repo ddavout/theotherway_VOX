@@ -1,0 +1,8 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+;(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("pourquoi_PRO:ind" "PRO:ind" ((("p" "u" "rh") 0) (("k" "w" "a") 0))));; confusion
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("m_interroge_VER" "VER" (((m "ehn") 0) (("t" "eh") 0) (("rh" "oh") 0) (("zh" "ae") 0))))
+
+(set! text "c'est pourquoi je m'interroge.") ; 
+(dSayText text); neut_parl_s01_0292

@@ -1,0 +1,17 @@
+(lex.add.entry '("autrement_ADV" "ADV" ((("o") 0) (("t" "rh" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("hausses_NOM" NOM ((("o" "s") 0)))); no LIA
+(lex.add.entry '("d_impôts_NOM" "NOM" (((d "ehn") 0) (("p" "o") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("rapporté_VER" "VER" ((("rh" "a") 0) (("p" "oh" "rh") 0) (("t" "e") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("fois_NOM" NOM ((("f" "w" "a") 0))))
+(lex.add.entry '("moins_ADV" ADV ((("m" "w" "ehn") 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("prévu_VER" "VER" ((("p" "rh" "e") 0) (("v" "y") 0))))
+
+
+(set! list_exclus*-> (append (list "les" ) list_exclus*->_default)) ; todo hausses
+(set! text "Autrement dit, les hausses d'impôts, ont rapporté deux fois moins que prévu.") ; neut_parl_s03_0467
+(dSayText text)

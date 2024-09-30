@@ -1,0 +1,15 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("projet_NOM" "NOM" ((("p" "rh" "oh") 0) (("zh" "eh") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((t ahn) 0) ((n e) 0) ((f eh) 0)))); LIA
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("rupture_NOM" "NOM" ((("rh" "y" "p") 0) (("t" "y" "rh") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((z ahn) 0)))); LIA
+(lex.add.entry '("faveur_NOM" "NOM" ((("f" "a") 0) (("v" "oe" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("parité_NOM" "NOM" ((("p" "a") 0) (("rh" "i") 0) (("t" "e") 0))))
+
+(set! text "Ce projet est en effet une rupture, mais en faveur de la parité.") ; neut_parl_s02_0418
+(dSayText text)

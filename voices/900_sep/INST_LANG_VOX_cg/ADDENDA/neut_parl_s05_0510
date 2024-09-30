@@ -1,0 +1,12 @@
+(lex.add.entry '("premièrement_ADV" "ADV" ((("p" "rh" "ae") 0) (("m" "j" "eh" "rh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("texte_NOM" NOM ((("t" "eh" "k" s) 0) (("t" ae) 0))))
+(lex.add.entry '("laisse_VER" "VER" ((("l" "eh" "s") 0))))
+(lex.add.entry '("plané_VER" VER ((("p" "l" "a") 0) (("n" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nombreuses_ADJ" ADJ ((("n" "ohn") 0) (("b" "rh" "eu") 0))))
+(lex.add.entry '("incertitudes_NOM" NOM (((z "ehn") 0) (("s" "eh" "rh") 0) (("t" "i") 0) (("t" "y")0) (("d" ae) 0))))
+
+
+(set! list_exclus*-> (append (list "nombreuses" ) list_exclus*->_default))
+(dSayText "Premièrement, ce texte laisse planer de nombreuses incertitudes.") ; neut_parl_s05_0510

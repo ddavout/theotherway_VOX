@@ -1,0 +1,10 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("cabinet_NOM" "NOM" ((("k" "a") 0) (("b" "i") 0) (("n" "eh") 0))))
+(lex.add.entry '("israélien_ADJ" ADJ ((("i") 0) (("s" "rh" "a") 0) (("e") 0) (("l" "j" "ehn") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("annoncé_VER" "VER" ((("a") 0) (("n" "ohn") 0) (("s" "e") 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("accord_NOM" "NOM" ((("a") 0) (("k" "oh" "rh") 0))))
+
+
+(dSayText "Le cabinet israélien, a annoncé son accord.") ; neut_parl_s06_0304

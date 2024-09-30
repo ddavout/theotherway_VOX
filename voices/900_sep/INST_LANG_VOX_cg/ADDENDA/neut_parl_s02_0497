@@ -1,0 +1,10 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("commune_NOM" "NOM" ((("k" "oh") 0) (("m" "y" "n") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("laguiole_NAM" "NAM" (((l a) 0) ((g j o)0) ((l ae) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("ma_ADJ:pos" "ADJ:pos" ((("m" "a") 0))))
+(lex.add.entry '("circonscription_NOM" "NOM" ((("s" "i" "rh") 0) (("k" "ohn" "s") 0) (("k" "rh" "i" "p") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "La commune de Laguiole est dans ma circonscription.") ; neut_parl_s02_0497

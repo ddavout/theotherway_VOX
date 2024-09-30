@@ -1,0 +1,10 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("danger_NOM" "NOM" ((("d" "ahn") 0) (("zh" "e") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("cache_VER" "VER" ((("k" "a" "sh") 0))))
+(lex.add.entry '("souvent_ADV" "ADV" ((("s" "u") 0) (("v" "ahn") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("détails_NOM" NOM ((("d" "e") 0) (("t" "a" "j") 0))))
+
+(dSayText "Le danger se cache souvent dans les détails.") ; neut_parl_s02_0680

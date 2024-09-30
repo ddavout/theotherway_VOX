@@ -1,0 +1,10 @@
+(lex.add.entry '("Veillons_VER" VER ((("v" "eh") 0) (("j" "ohn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("adopté_VER" VER ((("a") 0) (("d" "oh" "p") 0) (("t" "e") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("textes_NOM" NOM ((("t" "eh" "k" "s")0) (("t" "ae") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("équilibre_NOM" "NOM" ((("e") 0) (("k" "i") 0) (("l" "i")0) (("b" "rh" "ae") 0))))
+
+(set! never_exception_list (append (list "Veillons" ) never_exception_list_default))
+(dSayText "Veillons à adopter des textes d'équilibre.") ; neut_parl_s06_0215

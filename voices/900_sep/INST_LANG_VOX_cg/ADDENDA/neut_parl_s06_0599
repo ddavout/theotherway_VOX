@@ -1,0 +1,14 @@
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("passerai_VER" VER ((("p" "a" s) 0) (("rh" "eh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("quatorze_ADJ:num" ADJ:num ((("k" "a") 0) (("t" "oh" "rh") 0) (("z" ae) 0))))
+(lex.add.entry '("juillet_NOM" "NOM" ((("zh" "hw" i) 0) (("j" "eh") 0))))
+(lex.add.entry '("chez_PRE" "PRE" ((("sh" "e") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("réunion_NOM" "NOM" ((("rh" "e") 0) (("y") 0) (("n" "j" "ohn") 0))))
+(lex.add.entry '("quatorze_ADJ:num" ADJ:num ((("k" "a") 0) (("t" "oh" "rh")0) (("z" ae) 0))))
+
+(dSayText "Enfin je passerai le quatorze juillet chez vous, à la Réunion.") ; neut_parl_s06_0599

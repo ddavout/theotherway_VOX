@@ -1,0 +1,10 @@
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("étions_VER" VER ((("e") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("vraiment_ADV" "ADV" ((("v" "rh" "eh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("essentiel_NOM" NOM ((("e") 0) (("s" "ahn") 0) (("s" "j" "eh" "l") 0))))
+
+(set! list_exclus*-> (append (list "vraiment") list_exclus*->_default))
+(dSayText "Là, nous étions vraiment à l'essentiel.") ; neut_parl_s05_0147

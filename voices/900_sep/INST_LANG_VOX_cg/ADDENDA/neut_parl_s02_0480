@@ -1,0 +1,16 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("y_PRO:per" "PRO:per" nil))
+(lex.add.entry '("est_VER" "VER" (((l j e) 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "e" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("époux_NOM" "NOM" ((("e") 0) (("p" "u") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_a_AUX" AUX ((("n" "a") 0))))
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m e) 0))))
+(lex.add.entry '("créé_VER" "VER" ((("k" "rh" "e") 0) (("e") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("incident_NOM" "NOM" ((("ehn") 0) (("s" "i") 0) (("d" "ahn") 0))))
+
+(dSayText "Il y est question des époux, et cela n'a jamais créé d'incident.") ; neut_parl_s02_0480

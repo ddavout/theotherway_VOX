@@ -1,0 +1,10 @@
+(lex.add.entry '("vos_ADJ:pos" "ADJ:pos" ((("v" "o") 0))))
+(lex.add.entry '("arrière_pensée" nil (((z "a") 0) (("rh" "j" "eh" "rh") 0) (("p" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh" "m") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("avouables_ADJ" ADJ ((("a") 0) (("v" "w" "a")0) (("b" "l" ae) 0))))
+
+(set! text "Vos arrière-pensées, sont même bien peu avouables.") ; neut_parl_s05_0011
+(dSayText text)

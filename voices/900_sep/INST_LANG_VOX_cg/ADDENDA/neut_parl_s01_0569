@@ -1,0 +1,9 @@
+(lex.add.entry '("Toutefois_ADV" ADV ((("t" "u" t) 0) (("f" "w" "a") 0))))
+(lex.add.entry '("chat_NOM" NOM ((("sh" "a") 0))))
+(lex.add.entry '("échaudé_ADJ" "ADJ" ((("e") 0) (("sh" "o") 0) (("d" "e") 0)))); no LIA
+(lex.add.entry '("craint_VER" "VER" ((("k" "rh" "ehn") 0))))
+(lex.add.entry '("l_eau_NOM" "NOM" (((l "o") 0))))
+(lex.add.entry '("froide_ADJ" "ADJ" ((("f" "rh" "w" "a") 0) (("d" "ae") 0))))
+
+(set! text "Toutefois, chat échaudé craint l'eau froide.") ; 
+(dSayText text); neut_parl_s01_0569

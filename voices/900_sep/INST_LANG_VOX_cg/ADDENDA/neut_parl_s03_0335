@@ -1,0 +1,8 @@
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("vie_NOM" "NOM" ((("v" "i") 0))))
+(lex.add.entry '("humaine_ADJ" "ADJ" ((("y") 0) (("m" "eh")0) (("n" ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("quantifiable_ADJ" "ADJ" ((("k" "ahn") 0) (("t" "i") 0) (("f" "j" "a")0) (("b" "l" ae) 0))))
+
+(set! text "Une vie humaine, n'est pas quantifiable.") ; neut_parl_s03_0335
+(dSayText text)

@@ -1,0 +1,11 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("parlement_NOM" "NOM" ((("p" "a" "rh") 0) (("l" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("a_VER" "VER" (((a) 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("joué_VER" "VER" ((("zh" w "e") 0))))
+(lex.add.entry '("pleinement_ADV" "ADV" ((("p" "l" "eh" "n") 0) (("m" "ahn") 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("rôle_NOM" "NOM" ((("rh" "o")0) (("l" ae) 0))))
+
+(set! text "Le Parlement a donc joué pleinement son rôle.") ; 
+(dSayText text); neut_parl_s01_0636

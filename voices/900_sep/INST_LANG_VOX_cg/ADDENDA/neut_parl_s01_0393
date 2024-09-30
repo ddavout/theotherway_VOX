@@ -1,0 +1,12 @@
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y") 0)))); LIA
+(lex.add.entry '("approche_NOM" "NOM" (((n "a") 0) (("p" "rh" "oh") 0) (("sh" "ae") 0))))
+(lex.add.entry '("quelque_ADV" ADV ((("k" "eh" "l") 0) (("k" "ae") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("déconcertante_ADJ" "ADJ" ((("d" "e") 0) (("k" "ohn") 0) (("s" "eh" "rh") 0) (("t" "ahn" "t") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("législatif_ADJ" "ADJ" ((("l" "e") 0) (("zh" "i" s) 0) (("l" "a") 0) (("t" "i" "f") 0))))
+
+(set! text "c'est une approche quelque peu déconcertante du travail législatif.") ; neut_parl_s01_0393
+(dSayText text)

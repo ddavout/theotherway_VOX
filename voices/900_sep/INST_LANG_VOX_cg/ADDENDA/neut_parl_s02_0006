@@ -1,0 +1,13 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("était_AUX" "AUX" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("devenu_VER" "VER" ((("d" "ae") 0) (("v" "ae") 0) (("n" "y") 0))))
+(lex.add.entry '("urgent_ADJ" "ADJ" ((("y" "rh") 0) (("zh" "ahn") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("notre_ADJ:pos" ADJ:pos ((("n" "oh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("intègre_VER" VER ((("ehn") 0) (("t" "eh") 0) (("g" "rh" ae) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("évolutions_NOM" NOM (((z "e") 0) (("v" "oh") 0) (("l" "y") 0) (("s" "j" "ohn") 0)))); LIA
+
+(set! text "Il était devenu, urgent que notre droit, intègre ces évolutions.") ; neut_parl_s02_0006
+(dSayText text)

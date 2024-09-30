@@ -1,0 +1,18 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("sommes_AUX" AUX ((("s" "oh" "m") 0))))
+(lex.add.entry '("chassés_VER" VER ((("sh" "a") 0) (("s" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("états_unis_NAM" "NAM" (((e) 0) ((t a) 0) ((z y) 0) ((n i) 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("Amérique_NOM" NOM ((("a") 0) (("m" "e") 0) (("rh" "i")0) (("k" ae) 0))))
+(lex.add.entry '("Amérique_NOM" "NOM" ((("a") 0) (("m" "e") 0) (("rh" "i")0) (("k" ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("partie_NOM" "NOM" ((("p" "a" "rh") 0) (("t" "i") 0))))
+(lex.add.entry '("ouest_ADJ" ADJ ((("w" "eh" "s" "t") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("Afrique_NOM" "NOM" ((("a") 0) (("f" "rh" "i" "k") 0))))
+
+(dSayText "Nous sommes chassés par les états-Unis d'Amérique, de la partie ouest de l'Afrique.") ; neut_parl_s04_0543

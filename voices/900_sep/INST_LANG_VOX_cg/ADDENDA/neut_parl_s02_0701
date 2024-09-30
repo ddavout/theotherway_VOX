@@ -1,0 +1,19 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("lui_PRO:per" "PRO:per" ((("l" "hw" i) 0))))
+(lex.add.entry '("avon_AUX" AUX ((("a") 0) (("v" "ohn") 0))))
+(lex.add.entry '("donné_VER" "VER" ((("d" "oh") 0) (("n" "e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("pleine_ADJ" "ADJ" ((("p" "l" "eh" "n") 0))))
+(lex.add.entry '("propriété_NOM" "NOM" ((("p" "rh" "oh") 0) (("p" "rh" "i") 0) (("j" "e") 0) (("t" "e") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("sectional_ADJ" "ADJ" ((("s" "eh" "k") 0) (("s" "j" "oh") 0) (("n" "a")0)(("l" ae) 0))))
+(lex.add.entry '("qu_CON" "CON" nil))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("souhaitè_VER" VER ((("s" "w" "e") 0) (("t" "eh") 0))))
+(lex.add.entry '("acquérir_VER" VER ((("a") 0) (("k" "e") 0) (("rh" "i" "rh") 0))))
+
+
+(set! never_exception_list (append (list "souhaitait" ) never_exception_list_default))
+;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
+(dSayText "Nous lui avons donné la ,pleine propriété du bien sectional, qu'il souhaitait acquérir.") ; neut_parl_s02_0701

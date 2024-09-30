@@ -1,0 +1,16 @@
+(lex.add.entry '("pourquoi_PRO:int" PRO:int ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("pourquoi_PRO:ind" PRO:ind ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+
+(lex.add.entry '("pourquoi" nil ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("Conseil_NAM" "NAM" ((("k" "ohn") 0) (("s" "eh" "j") 0))))
+(lex.add.entry '("supérieur_ADJ" "ADJ" ((("s" "y") 0) (("p" "e") 0) (("rh" "j" "oe" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("programmes_NOM" NOM ((("p" "rh" "oh") 0) (("g" "rh" "a" "m") 0))))
+(lex.add.entry '("pourquoi" nil ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("public_ADJ" "ADJ" ((("p" "y") 0) (("b" "l" "i")0) (("k" ae) 0))))
+
+(set! text "Pourquoi un Conseil supérieur des programmes ? Pourquoi un dispositif public ?") ; neut_parl_s02_0677
+(dSayText text)

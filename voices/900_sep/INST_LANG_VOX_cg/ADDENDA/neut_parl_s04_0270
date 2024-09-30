@@ -1,0 +1,9 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("slogans_NOM" NOM ((("s" "l" "oh") 0) (("g" "ahn") 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_y_PRO:per" PRO:per ((("n" i) 0))))
+(lex.add.entry '("changent_VER" VER ((("sh" "ahn" "zh") 0))))
+(lex.add.entry '("rien_PRO:ind" "PRO:ind" ((("rh" "j" "ehn") 0))))
+
+(dSayText "Et les slogans n'y changent rien.") ; neut_parl_s04_0270

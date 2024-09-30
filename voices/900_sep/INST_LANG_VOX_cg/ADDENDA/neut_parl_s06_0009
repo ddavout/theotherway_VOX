@@ -1,0 +1,12 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("reste_VER" "VER" ((("rh" "eh" "s") 0))))
+(lex.add.entry '("une__ART:ind" "ART:ind" (((t "y" "n") 0))))
+(lex.add.entry '("possibilité_NOM" "NOM" ((("p" "oh") 0) (("s" "i") 0) (("b" "i") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y") 0)))); no LIA
+(lex.add.entry '("obligation_NOM" "NOM" (((n "oh") 0) (("b" "l" "i") 0) (("g" "a") 0) (("s" "j" "ohn") 0))))
+
+
+(set! text "Cela reste une_ possibilité, et non une obligation.") ; neut_parl_s06_0009
+(dSayText text)

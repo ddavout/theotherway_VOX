@@ -1,0 +1,8 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("relève_VER" "VER" ((("rh" "ae") 0) (("l" "eh" "v") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("imposture_NOM" "NOM" ((("ehn") 0) (("p" "oh" "s") 0) (("t" "y" "rh") 0))))
+(lex.add.entry '("intellectuelle_ADJ" "ADJ" (((rh "ehn") 0) (("t" "e") 0) (("l" "e" "k") 0) (("t" "hw" "eh" "l") 0))))
+
+(dSayText "Il relève d'une imposture intellectuelle.") ; neut_parl_s04_0347

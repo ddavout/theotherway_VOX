@@ -1,0 +1,13 @@
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh" "rh") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("sommes_AUX" AUX ((("s" "oh" "m") 0))))
+(lex.add.entry '("guère_ADV" "ADV" ((("g" "eh" "rh") 0))))
+(lex.add.entry '("convaincus_VER" VER ((("k" "ohn") 0) (("v" "ehn") 0) (("k" "y") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("argument_NOM" "NOM" (((t "a" "rh") 0) (("g" "y") 0) (("m" "ahn") 0))))
+
+(set! text "Là encore, nous ne sommes guère convaincus par cet argument.") ; neut_parl_s02_0118
+(dSayText text)

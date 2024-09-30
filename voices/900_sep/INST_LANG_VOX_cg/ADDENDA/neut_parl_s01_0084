@@ -1,0 +1,16 @@
+(set! fileid "parl_s01_0084")
+
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_agit_VER" "VER" (((s "a") 0) (("zh" "i") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("sécurité_NOM" "NOM" ((("s" "e") 0) (("k" "y") 0) (("rh" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_approvisionnement_NOM" "NOM" (((l "a") 0) (("p" "rh" "oh") 0) (("v" "i") 0) (("z" "j" "oh" n) 0) (("m" "ahn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("pavillon_NOM" "NOM" ((("p" "a") 0) (("v" "i") 0) (("j" "ohn") 0))))
+(lex.add.entry '("français_ADJ" ADJ ((("f" "rh" "ahn") 0) (("s" "eh") 0))))
+
+(set! text "il s'agit de la sécurité de l'approvisionnement et du pavillon français.") ; neut_parl_s01_0084
+(dSayText text)

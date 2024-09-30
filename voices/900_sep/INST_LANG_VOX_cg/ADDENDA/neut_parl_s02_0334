@@ -1,0 +1,10 @@
+(lex.add.entry '("en_fait_ADV" "ADV" ((("ahn") 0) (("f" "eh" t) 0))))
+(lex.add.entry '("grandes_ADJ" ADJ ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("et_CON" "CON" (((d "e") 0))))
+(lex.add.entry '("petites_ADJ" ADJ ((("p" "ae") 0) (("t" "i" "t") 0))))
+(lex.add.entry '("entreprises_NOM" NOM (((z "ahn") 0) (("t" "rh" "ae") 0) (("p" "rh" "i" "z") 0)))); LIA
+(lex.add.entry '("sont_AUX" AUX ((("s" "ohn") 0))))
+(lex.add.entry '("liées_VER" VER ((("l" i)0) (("j" "e") 0))))
+
+(set! text "En fait, grandes et petites entreprises sont liées.") ; neut_parl_s02_0334
+(dSayText text)

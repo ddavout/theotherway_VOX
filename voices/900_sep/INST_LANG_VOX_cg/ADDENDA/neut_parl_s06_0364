@@ -1,0 +1,14 @@
+(lex.add.entry '("In_ADJ" ADJ (((i n) 0))))
+(lex.add.entry '("fine_NOM" "NOM" ((("f" "i") 0) (("n" e) 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("valeurs_NOM" NOM ((("v" "a") 0) (("l" "oe" "rh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("intérêt_NOM" "NOM" ((("ehn") 0) (("t" "eh") 0) (("rh" "eh") 0))))
+(lex.add.entry '("général_ADJ" "ADJ" ((("zh" "e") 0) (("n" "e") 0) (("rh" "a" "l") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("triomphent_VER" VER ((("t" "rh" "i") 0) (("j" "ohn" "f") 0))))
+
+(dSayText "In fine, ce sont nos valeurs, et l'intérêt général qui triomphent.") ; neut_parl_s06_0364

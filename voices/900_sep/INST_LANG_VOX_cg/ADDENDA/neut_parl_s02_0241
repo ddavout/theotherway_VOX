@@ -1,0 +1,13 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("a_AUX" "AUX" (((l "a") 0))))
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh" "m") 0))))
+(lex.add.entry '("voté_VER" "VER" ((("v" "oh") 0) (("t" "e") 0))))
+(lex.add.entry '("contre_PRE" "PRE" ((("k" "ohn") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("Bretagne_NAM" NAM ((("b" "rh" "ae") 0) (("t" "a")0) (("jg" ae) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("cinq_NOM" "NOM" (((s ehn k) 0)))); LIA
+
+; triple t rh l todo
+(set! text "Il a même voté, contre la Bretagne, à cinq.") ; neut_parl_s02_0241
+(dSayText text)

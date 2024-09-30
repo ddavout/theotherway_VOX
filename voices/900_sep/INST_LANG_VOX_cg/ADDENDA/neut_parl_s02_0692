@@ -1,0 +1,17 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("textes_NOM" NOM ((("t" "eh" "k") 0) ((s "t" ae) 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("examinons_VER" VER (((z "eh" "g") 0) (("z" "a") 0) (("m" "i") 0) (("n" "ohn") 0))))
+(lex.add.entry '("aujourd_hui_ADV" "ADV" (((o) 0) ((zh u rh) 0) ((d hw i) 0)))); no LIA
+(lex.add.entry '("en_PRO:per" "PRO:per" (((ahn) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("vraiment_ADV" "ADV" ((("v" "rh" "eh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("feuille_NOM" "NOM" ((("f" "oe" "j") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("route_NOM" "NOM" ((("rh" "u" "t") 0))))
+
+
+(set! text "Les textes que nous examinons aujourd'hui en sont vraiment la feuille de route.") ; neut_parl_s02_0692
+(dSayText text)

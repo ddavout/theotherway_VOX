@@ -1,0 +1,9 @@
+(lex.add.entry '("eh_bien" ONO (((eh) 0) ((b j ehn) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("Français_NOM" NOM ((("f" "rh" "ahn") 0) (("s" "eh") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("vu_VER" "VER" ((("v" "y") 0))))
+
+(set! list_exclus*-> (append (list "français") list_exclus*->_default))
+
+(dSayText "Eh bien, les Français ont vu !") ; neut_parl_s05_0111

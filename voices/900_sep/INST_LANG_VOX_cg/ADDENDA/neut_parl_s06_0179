@@ -1,0 +1,9 @@
+(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
+(lex.add.entry '("raisonnement_NOM" "NOM" ((("rh" "eh") 0) (("z" "oh" "n") 0) (("m" "ahn") 0))))
+(lex.add.entry '("vaut_VER" "VER" (((v o) 0))))
+(lex.add.entry '("si_ADV" "ADV" ((("s" "i") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("somme_NOM" "NOM" ((("s" "oh" "m") 0))))
+(lex.add.entry '("baisse_VER" "VER" ((("b" "eh" "s") 0))))
+
+(dSayText "Mon raisonnement vaut si la somme baisse.") ; neut_parl_s06_0179

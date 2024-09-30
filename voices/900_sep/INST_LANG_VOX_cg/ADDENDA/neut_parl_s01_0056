@@ -1,0 +1,12 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("textes_NOM" "NOM" ((("t" "eh" "k" s) 0))))
+(lex.add.entry '("en_PRE" "PRE" ((("t" "ahn") 0)))); no LIA
+(lex.add.entry '("vigueur_NOM" "NOM" ((("v" "i") 0) (("g" "oe" "rh") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("disent_VER" VER ((("d" "i") 0) (("z" "ae") 0))))
+
+(set! text "ce sont les textes en vigueur qui le disent.") ; neut_parl_s01_0056
+(dSayText text)

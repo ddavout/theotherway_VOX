@@ -1,0 +1,16 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("séance_NOM" "NOM" ((("s" "e") 0) (("ahn" "s") 0))))
+(lex.add.entry '("suspendue_VER" "VER" ((("s" "y" "s") 0) (("p" "ahn") 0) (("d" "y") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("onze_ADJ:num" ADJ:num ((("ohn") 0))))
+(lex.add.entry '("heures_NOM" NOM ((("z" "oe" "rh") 0)))); !
+(lex.add.entry '("dix_ADJ:num" "ADJ:num" (((d i) 0) ((s ae)0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("reprise_VER" VER ((("rh" "ae") 0) (("p" "rh" "i") 0))))
+(lex.add.entry '("àhh_PRE" "PRE" (((z a) 0))))
+; bis (lex.add.entry '("onze_ADJ:num" ADJ:num ((("ohn") 0))))
+; bis (lex.add.entry '("heures_NOM" NOM ((("z" "oe" "rh") 0))))
+(lex.add.entry '("quinze_ADJ:num" "ADJ:num" ((("k" "ehn")0) (("z" "ae") 0))))
+
+
+(dSayText "La séance, suspendue à onze heures dix, est reprise àhh onze heures quinze.") ; neut_parl_s06_0292

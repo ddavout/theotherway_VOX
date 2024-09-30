@@ -1,0 +1,20 @@
+(lex.add.entry '("sont_AUX" AUX ((("s" "ohn") 0)))); confusion
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+
+
+
+(lex.add.entry '("certains_NOM" NOM ((("s" "eh" "rh") 0) (("t" "ehn") 0))))
+(lex.add.entry '("d_entre_PRE" "PRE" (((d "ahn" "t" "rh") 0))))
+(lex.add.entry '("eux_PRO:per" "PRO:per" ((("eu") 0))))
+(lex.add.entry '("sont" nil ((("s" "ohn") 0))))
+(lex.add.entry '("passés_VER" VER ((("p" "a") 0) (("s" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y") 0))))
+(lex.add.entry '("grandes_ADJ" ADJ ((("g" "rh" "ahn" "d") 0))))
+(lex.add.entry '("écoles_NOM" NOM (((z "e") 0) (("k" "oh" "l") 0)))); LIA
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("États_Unis_NAM" "NAM" (((z "e") 0) (("t" "a") 0) (("z" "y") 0) (("n" "i") 0)))); LIA
+
+(set! text "certains d'entre eux sont passés par les plus grandes écoles aux États-Unis.") ; neut_parl_s05_0056
+(dSayText text)

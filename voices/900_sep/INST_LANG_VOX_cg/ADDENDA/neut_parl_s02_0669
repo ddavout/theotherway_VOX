@@ -1,0 +1,11 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("compte_VER" "VER" ((("k" "ohn" "t") 0))))
+(lex.add.entry '("sept_ADJ:num" "ADJ:num" (((s eh t) 0))))
+(lex.add.entry '("cents_ADJ:num" ADJ:num ((("s" "ahn") 0))))
+(lex.add.entry '("cinquante_ADJ:num" "ADJ:num" (((s ehn) 0) ((k ahn t) 0))))
+(lex.add.entry '("branches_NOM" NOM ((("b" "rh" "ahn" "sh") 0))))
+(lex.add.entry '("professionnelles_ADJ" ADJ ((("p" "rh" "oh") 0) (("f" "e") 0) (("s" "j" "oh") 0) (("n" "eh" "l") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn")0) (("s" ae) 0))))
+
+(dSayText "On compte, sept cents cinquante branches professionnelles, en France.") ; neut_parl_s02_0669

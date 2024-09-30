@@ -1,0 +1,10 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("avons_AUX" AUX (((z "a") 0) (("v" "ohn") 0))))
+(lex.add.entry '("créé_VER" "VER" ((("k" "rh" "e") 0) (("e") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("conseils_NOM" NOM ((("k" "ohn") 0) (("s" "eh" "j") 0))))
+(lex.add.entry '("consulaires_ADJ" ADJ ((("k" "ohn") 0) (("s" "y") 0) (("l" "eh" "rh") 0))))
+
+
+(set! text "Nous avons créé des conseils consulaires.") ; neut_parl_s03_0247
+(dSayText text)

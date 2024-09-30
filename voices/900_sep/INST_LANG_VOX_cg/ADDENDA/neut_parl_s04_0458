@@ -1,0 +1,14 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("taux_NOM" "NOM" ((("t" "o") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("effort_NOM" "NOM" ((("e") 0) (("f" "oh" "rh") 0))))
+(lex.add.entry '("actuel_ADJ" "ADJ" ((("a" "k") 0) (("t" "hw" "eh" "l") 0))))
+(lex.add.entry '("sera_VER" "VER" ((("s" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("maintenu_VER" "VER" (((m ehn) 0) ((t ae) 0) ((n y) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("niveau_NOM" "NOM" ((("n" "i") 0) (("v" "o") 0))))
+(lex.add.entry '("identique_ADJ" "ADJ" ((("i") 0) (("d" "ahn") 0) (("t" "i")0) (("k" ae) 0))))
+
+(dSayText "Le taux d'effort actuel sera donc maintenu, à un niveau identique.") ; neut_parl_s04_0458

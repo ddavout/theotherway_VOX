@@ -1,0 +1,9 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n eh) 0)(("p" "a") 0))))
+(lex.add.entry '("ce__PRO:dem" PRO:dem nil))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((s k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("attendions_VER" VER (((z "a") 0) (("t" "ahn") 0) (("d" "j" "ohn") 0)))); LIA
+
+(set! text "ce n'est pas ce que nous attendions.") ; neut_parl_s02_0569
+(dSayText text)

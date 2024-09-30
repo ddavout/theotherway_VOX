@@ -1,0 +1,15 @@
+(lex.add.entry '("Bridgestone_NAM" "NAM" (((b rh i d) 0) ((zh ae) 0) ((s t o n) 0))))
+(lex.add.entry '("possède_VER" "VER" ((("p" "oh") 0) (("s" "eh" "d") 0))))
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("usines_NOM" NOM (((z "y") 0) (("z" "i")0) (("n" "ae") 0)))); LIA
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("france_NAM" "NAM" (((f rh ahn) 0) ((s ae) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("Italie_NAM" "NAM" ((("i") 0) (("t" "a") 0) (("l" "i") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("espagne_NAM" "NAM" (((eh s) 0) ((p a) 0) (("jg" "ae") 0))))
+
+(set! text "Bridgestone possède trois usines : en France, en Italie, et en Espagne.") ; 
+(dSayText text); neut_parl_s01_0359
+

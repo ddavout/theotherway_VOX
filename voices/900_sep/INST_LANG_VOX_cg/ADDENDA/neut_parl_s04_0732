@@ -1,0 +1,16 @@
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("rendent_VER" VER ((("rh" "ahn" "d") 0))))
+(lex.add.entry '("ainsi_ADV" "ADV" ((("ehn") 0) (("s" "i") 0))))
+(lex.add.entry '("coupables_ADJ" ADJ ((("k" "u") 0) (("p" "a" "b" "l") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("véritable_ADJ" "ADJ" ((("v" "e") 0) (("rh" "i") 0) (("t" "a" "b" "l") 0))))
+(lex.add.entry '("traite_NOM" "NOM" ((("t" "rh" "eh" "t") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("êtres_NOM" "NOM" ((("eh")0)(( "t" "rh" ae) 0))))
+(lex.add.entry '("êtres_NOM" "NOM" ((("eh") 0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("humains_ADJ" ADJ ((("y") 0) (("m" "ehn") 0))))
+
+(set! never_exception_list (append (list "ainsi" "d_êtres" ) never_exception_list_default))
+(dSayText "Ils se rendent ainsi coupables, d'une véritable traite d'êtres humains.") ; neut_parl_s04_0732

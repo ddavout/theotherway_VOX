@@ -1,0 +1,9 @@
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" (((s "k" "i") 0))))
+(lex.add.entry '("s_appelle_VER" VER (((s "a") 0) (("p" "eh" "l") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("amalgame_NOM" "NOM" (((n "a") 0) (("m" "a" "l") 0) (("g" "a")0) (("m" ae) 0))))
+
+(set! text "C'est ce qui s'appelle, un amalgame !") ; neut_parl_s05_0231
+(dSayText text)

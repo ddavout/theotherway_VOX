@@ -1,0 +1,16 @@
+(lex.add.entry '("Plusieurs_ADJ:ind" ADJ:ind ((("p" "l" "y") 0) (("z" "j" "oe" "rh") 0))))
+(lex.add.entry '("états_NOM" "NOM" (((z"e") 0) (("t" "a") 0)))); LIA
+(lex.add.entry '("européens_ADJ" ADJ ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("dont_PRO:rel" "PRO:rel" ((("d" "ohn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("france_NAM" "NAM" ((("f" "rh" "ahn") 0) (("s" "ae") 0))))
+(lex.add.entry '("sont_AUX" AUX ((("s" "ohn") 0))))
+(lex.add.entry '("confrontés_VER" VER ((("k" "ohn") 0) (("f" "rh" "ohn") 0) (("t" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("grave_ADJ" "ADJ" ((("g" "rh" "a" "v") 0))))
+(lex.add.entry '("problème_NOM" "NOM" ((("p" "rh" "oh") 0) (("b" "l" "eh")0) (("m" "ae") 0))))
+
+
+(set! text "Plusieurs états européens, dont la France, sont confrontés à ce grave problème.") ; 
+(dSayText text); neut_parl_s01_0551

@@ -1,0 +1,16 @@
+(lex.add.entry '("garde_VER" VER ((("g" "a" "rh") 0) (("d" ae) 0)))); confusion possible
+
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("mets_VER" "VER" (((m eh) 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("mes_ADJ:pos" "ADJ:pos" ((("m" "e") 0))))
+(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((g ahn) 0)))); no LIA
+(lex.add.entry '("garde_NOM" NOM ((("g" "a" "rh") 0) (("d" ae) 0))))
+(lex.add.entry '("contre_PRE" "PRE" ((("k" "ohn") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((t rh "y" "n") 0))))
+(lex.add.entry '("telle_ADJ:ind" "ADJ:ind" ((("t" "eh" "l") 0))))
+(lex.add.entry '("dérive_NOM" "NOM" ((("d" "e") 0) (("rh" "i")0) (("v" "ae") 0))))
+
+(set! text "Je mets donc mes collègues en garde contre une telle dérive.") ; neut_parl_s02_0428
+(dSayText text)

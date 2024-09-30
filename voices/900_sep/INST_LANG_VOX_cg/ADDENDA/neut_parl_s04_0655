@@ -1,0 +1,10 @@
+(lex.add.entry '("voilà_VER" "VER" ((("v" "w" "a") 0) (("l" "a") 0))))
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("mesure_NOM" "NOM" ((("m" "ae") 0) (("z" "y" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("bon_ADJ" "ADJ" ((("b" "ohn") 0))))
+(lex.add.entry '("sens_NOM" "NOM" ((("s" "ahn")0) (("s" ae) 0))))
+
+(set! list_exclus*-> (append (list "enfin") list_exclus*->_default))
+(dSayText "Voilà enfin une mesure de bon sens !") ; neut_parl_s04_0655

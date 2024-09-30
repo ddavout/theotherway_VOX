@@ -1,0 +1,7 @@
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("tâches_NOM" "NOM" ((("t" "a" "sh") 0))))
+(lex.add.entry '("importantes_ADJ" ADJ (((z "ehn") 0) (("p" "oh" "rh") 0) (("t" "ahn" "t") 0)))); LIA
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("attendent_VER" "VER" (((z "a") 0) (("t" "ahn") 0) (("d" "ae") 0))))
+
+(dSayText "Des tâches importantes nous attendent.") ; neut_parl_s06_0723

@@ -1,0 +1,9 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("chose_NOM" "NOM" (((sh o z) 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("vérifie_VER" VER ((("v" "e") 0) (("rh" "i") 0) (("f" "i") 0))))
+(lex.add.entry '("historiquement_ADV" "ADV" ((("i" "s") 0) (("t" "oh") 0) (("rh" "i" k) 0) (("m" "ahn") 0))))
+
+
+
+(dSayText "La chose se vérifie, historiquement.") ; neut_parl_s03_0035

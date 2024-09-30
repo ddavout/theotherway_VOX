@@ -1,0 +1,16 @@
+(lex.add.entry '("selon_PRE" "PRE" ((("s" "ae") 0) (("l" "ohn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("cas_NOM" NOM ((("k" "a") 0))))
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("avoir_VER" "VER" ((("a") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("intérêt_NOM" "NOM" ((("ehn") 0) (("t" "eh") 0) (("rh" "eh") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("contraire_NOM" "NOM" ((("k" "ohn") 0) (("t" "rh" "eh" "rh") 0))))
+(lex.add.entry '("être_VER" VER ((("eh") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("préoccupante_ADJ" "ADJ" ((("p" "rh" "e") 0) (("oh") 0) (("k" "y") 0) (("p" "ahn")0) (("t" "ae") 0))))
+
+(set! never_exception_list (append (list "peut" ) never_exception_list_default))
+(dSayText "Selon les cas elle peut avoir un intérêt ou, au contraire, être préoccupante.") ; neut_parl_s04_0277

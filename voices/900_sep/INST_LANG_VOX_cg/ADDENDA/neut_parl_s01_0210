@@ -1,0 +1,12 @@
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("outre_mer" nil (((t "u") 0) (("t" "rh" "ae") 0) (("m" "eh" "rh") 0)))); LIA
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("riche_ADJ" ADJ ((("rh" "i" "sh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ressources_NOM" NOM ((("rh" "ae") 0) (("s" "u" "rh" "s") 0))))
+(lex.add.entry '("énergétiques_ADJ" ADJ ((("e") 0) (("n" "eh" "rh") 0) (("zh" "e") 0) (("t" "i" "k") 0)))); no LIA
+(lex.add.entry '("douces_ADJ" ADJ ((("d" "u")0) (("s" "ae") 0))))
+
+(set! text "cet outre-mer est riche de ressources énergétiques douces.") ; 
+(dSayText text); neut_parl_s01_0210
+

@@ -1,0 +1,12 @@
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("groupe_NOM" "NOM" ((("g" "rh" "u" "p") 0))))
+(lex.add.entry '("votera_VER" "VER" ((("v" "oh") 0) (("t" "rh" "a") 0))))
+(lex.add.entry '("contre_PRE" "PRE" ((("k" "ohn") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("projet_NOM" "NOM" ((("p" "rh" "oh") 0) (("zh" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("loi_NOM" "NOM" ((("l" "w" "a") 0))))
+
+; triple t rh s
+(dSayText "Aussi, notre groupe votera, contre ce projet de loi.") ; neut_parl_s05_0445

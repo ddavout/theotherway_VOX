@@ -1,0 +1,13 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("crois_VER" VER ((("k" "rh" "w" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_amour_NOM" "NOM" (((l "a") 0) (("m" "u" "rh") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("lien_NOM" "NOM" ((("l" "j" "ehn") 0))))
+(lex.add.entry '("magique_ADJ" "ADJ" ((("m" "a") 0) (("zh" "i") 0))))
+(lex.add.entry '("entre_PRE" PRE (((k "ahn") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("êtres_NOM" NOM (((z "eh") 0) (("t" "rh" "ae") 0)))); LIA
+
+(set! text "je crois à l'amour, ce lien magique entre deux êtres.") ; neut_parl_s03_0177
+(dSayText text)

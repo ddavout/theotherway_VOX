@@ -1,0 +1,18 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("a_VER" "VER" (((a) 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("entendu_VER" "VER" ((("ahn") 0) (("t" "ahn") 0) (("d" "y") 0))))
+(lex.add.entry '("parlé_VER" VER ((("p" "a" "rh") 0) (("l" "e") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("redécoupage_NOM" "NOM" ((("rh" "ae") 0) (("d" "e") 0) (("k" "u") 0) (("p" "a")0) (("zh" ae) 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("un_ART:ind" ART:ind ((("oen") 0))))
+(lex.add.entry '("viol_NOM" "NOM" ((("v" "j" "oh" "l") 0))))
+(lex.add.entry '("fè_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("Alsace_NOM" "NOM" ((("a" "l") 0) (("z" "a" "s") 0))))
+
+(dSayText "l'on a aussi entendu parler du redécoupage, comme d'un viol fait à l'Alsace.") ; neut_parl_s04_0048

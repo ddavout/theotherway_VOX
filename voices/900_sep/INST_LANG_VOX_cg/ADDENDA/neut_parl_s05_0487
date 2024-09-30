@@ -1,0 +1,13 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("subvention_NOM" "NOM" ((("s" "y" "b") 0) (("v" "ahn") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("heures_NOM" NOM (((z "oe" "rh") 0)))); LIA
+(lex.add.entry '("supplémentaires_ADJ" ADJ ((("s" "y") 0) (("p" "l" "e") 0) (("m" "ahn") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("absurde_ADJ" "ADJ" (((t "a" p) 0) (("s" "y" "rh")0) (("d" ae) 0)))); LIA
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("chômage_NOM" "NOM" ((("sh" "o") 0) (("m" "a" "zh") 0))))
+(lex.add.entry '("massif_ADJ" ADJ ((("m" "a") 0) (("s" "i" "f") 0))))
+
+(dSayText "La subvention des heures supplémentaires, est absurde, en période de chômage massif.") ; neut_parl_s05_0487

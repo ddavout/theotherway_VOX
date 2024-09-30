@@ -1,0 +1,12 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_agit_VER" "VER" (((s "a") 0) (("zh" "i") 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("d_un_ART:ind" ART:ind (((d "oen") 0))))
+(lex.add.entry '("enjeu_NOM" "NOM" (((n "ahn") 0) (("zh" "eu") 0)))); LIA
+(lex.add.entry '("important_ADJ" "ADJ" ((("ehn") 0) (("p" "oh" "rh") 0) (("t" "ahn") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("termes_NOM" NOM ((("t" "eh" "rh" "m") 0))))
+(lex.add.entry '("d_organisation_NOM" "NOM" (((d "oh" "rh") 0) (("g" "a") 0) (("n" "i") 0) (("z" "a") 0) (("s" "j" "ohn") 0))))
+
+(set! text "Il s'agit là d'un enjeu, important en termes d'organisation.") ; neut_parl_s02_0301
+(dSayText text)

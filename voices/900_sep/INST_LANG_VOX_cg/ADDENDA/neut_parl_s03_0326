@@ -1,0 +1,11 @@
+(lex.add.entry '("Prenons_VER" VER ((("p" "rh" "ae") 0) (("n" "ohn") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("exemple_NOM" "NOM" ((("e" "g") 0) (("z" "ahn" "p" "l") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("réseau_NOM" "NOM" ((("rh" "e") 0) (("z" "o") 0))))
+(lex.add.entry '("social_ADJ" "ADJ" ((("s" "oh") 0) (("s" "j" "a" "l") 0))))
+(lex.add.entry '("facebook_NAM" "NAM" (((f e s) 0) ((b u k) 0))))
+
+
+
+(dSayText "Prenons l'exemple du réseau social Facebook.") ; neut_parl_s03_0326

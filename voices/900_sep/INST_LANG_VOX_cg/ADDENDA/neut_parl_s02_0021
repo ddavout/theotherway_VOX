@@ -1,0 +1,12 @@
+(lex.add.entry '("Pas_NOM" NOM ((("p" "a") 0)))); confusion
+(lex.add.entry '("Pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("tout_à_fait_ADV" "ADV" ((("t" "u") 0) (("t" "a") 0) (("f" "eh") 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("encore_ADV" "ADV" (((t "ahn") 0) (("k" "oh" "rh") 0)))); LIA
+(lex.add.entry '("travailler_VER" VER ((("t" "rh" "a") 0) (("v" "a") 0) (("j" "e") 0))))
+
+(set! text "Pas tout à fait, c'est pourquoi il faut encore travailler.") ; neut_parl_s02_0021
+(dSayText text)

@@ -1,0 +1,14 @@
+(lex.add.entry '("vos_ADJ:pos" "ADJ:pos" ((("v" "o") 0))))
+(lex.add.entry '("efforts_NOM" NOM (((z "eh") 0) (("f" "oh" "rh") 0)))); LIA
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("qualifiez_VER" VER ((("k" "a") 0) (("l" "i") 0) (("f" "j" "e") 0))))
+(lex.add.entry '("d_historiques_ADJ" ADJ (((d "i" "s") 0) (("t" "oh") 0) (("rh" "i")0) (("k" ae) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((t ahn) 0)))); LIA
+(lex.add.entry '("rien_NOM" NOM ((("rh" "j" "ehn") 0))))
+(lex.add.entry '("historiques_ADJ" ADJ ((("i" "s") 0) (("t" "oh") 0) (("rh" "i")0) (("k" ae) 0))))
+
+(set! text "Vos efforts que vous qualifiez d'historiques ne sont en rien historiques.") ; neut_parl_s02_0121
+(dSayText text)

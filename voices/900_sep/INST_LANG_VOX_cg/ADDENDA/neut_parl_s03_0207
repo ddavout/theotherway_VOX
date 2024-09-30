@@ -1,0 +1,15 @@
+(lex.add.entry '("Payé_VER" VER ((("p" "e") 0) (("j" "e") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("service_NOM" "NOM" ((("s" "eh" "rh") 0) (("v" "i" "s") 0))))
+(lex.add.entry '("public_ADJ" "ADJ" ((("p" "y") 0) (("b" "l" "i" "k") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("transport_NOM" "NOM" ((("t" "rh" "ahn") 0) ((s "p" "oh" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("qualité_NOM" "NOM" ((("k" "a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("naturel_ADJ" "ADJ" ((("n" "a") 0) (("t" "y") 0) (("rh" "eh" "l") 0))))
+
+(set! list_exclus*-> (append (list "pour") list_exclus*->_default))
+(dSayText "Payer pour un service public de transport de qualité, c'est naturel.") ; neut_parl_s03_0207

@@ -1,0 +1,10 @@
+(lex.add.entry '("chacun_PRO:ind" "PRO:ind" ((("sh" "a") 0) (("k" "oen") 0))))
+(lex.add.entry '("y_a_VER" "VER" ((("j" "a") 0)))); no LIA
+(lex.add.entry '("sa_ADJ:pos" "ADJ:pos" ((("s" "a") 0))))
+(lex.add.entry '("part_NOM" "NOM" ((("p" "a" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("responsabilité_NOM" "NOM" ((("rh" "eh" "s") 0) (("p" "ohn") 0) (("s" "a") 0) (("b" "i") 0) (("l" "i") 0) (("t" "e") 0))))
+
+
+(set! text "Chacun y a sa part de responsabilité !") ; 
+(dSayText text); neut_parl_s01_0717

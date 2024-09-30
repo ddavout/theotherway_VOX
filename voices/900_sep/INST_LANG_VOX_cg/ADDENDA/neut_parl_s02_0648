@@ -1,0 +1,8 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("vote_VER" "VER" ((("v" "oh" "t") 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh) 0))))
+(lex.add.entry '("amendement_NOM" "NOM" (((t rh "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("enthousiasme_NOM" "NOM" ((("ahn") 0) (("t" "u") 0) (("z" "j" "a" "s")0) (("m" ae) 0))))
+
+(dSayText "Je vote votre amendement, avec enthousiasme.") ; neut_parl_s02_0648

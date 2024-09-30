@@ -1,0 +1,12 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("wagons_NOM" NOM ((("v" "a") 0) (("g" "ohn") 0))))
+(lex.add.entry '("automoteurs_ADJ" ADJ ((("o") 0) (("t" "oh") 0) (("m" "oh") 0) (("t" "oe" "rh") 0))))
+(lex.add.entry '("doivent_VER" VER ((("d" "w" "a" "v") 0))))
+(lex.add.entry '("être_AUX" "AUX" ((("eh")0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("mis_VER" "VER" (((m i) 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("service_NOM" "NOM" ((("s" "eh" "rh") 0) (("v" "i" "s") 0))))
+
+(set! list_exclus*-> (append (list "mis") list_exclus*->_default))
+(set! never_exception_list (append (list "wagons" "doivent" ) never_exception_list_default))
+(dSayText "Les wagons automoteurs doivent être mis en service.") ; neut_parl_s05_0063

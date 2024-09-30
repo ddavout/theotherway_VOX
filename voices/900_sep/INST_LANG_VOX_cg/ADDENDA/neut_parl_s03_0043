@@ -1,0 +1,13 @@
+(lex.add.entry '("Certains_ADJ:ind" ADJ:ind ((("s" "eh" "rh") 0) (("t" "ehn") 0))))
+(lex.add.entry '("lieux_NOM" "NOM" ((("l" "j" "eu") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("conservé_VER" VER ((("k" "ohn") 0) (("s" "eh" "rh") 0) (("v" "e") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("appellation_NOM" "NOM" ((("a") 0) (("p" "eh") 0) (("l" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("vont_VER" VER ((("v" "ohn") 0))))
+(lex.add.entry '("embauché_VER" VER ((("ahn") 0) (("b" "o") 0) (("sh" "e") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("personnel_NOM" NOM ((("p" "eh" "rh") 0) (("s" "oh") 0) (("n" "eh" "l") 0))))
+
+(set! never_exception_list (append (list "vont" ) never_exception_list_default))
+(dSayText "Certains lieux, pour conserver cette appellation, vont embaucher du personnel.") ; neut_parl_s03_0043

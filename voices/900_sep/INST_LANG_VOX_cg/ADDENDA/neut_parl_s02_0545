@@ -1,0 +1,16 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("leur_PRO:per" "PRO:per" ((("l" "oe" "rh") 0))))
+(lex.add.entry '("ai_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("probablement_ADV" "ADV" ((("p" "rh" "oh") 0) (("b" "a") 0) (("b" "l" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("fè_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("mangé_VER" VER ((("m" "ahn") 0) (("zh" "e") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("boeuf_NOM" "NOM" ((("b" "oe" "f") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("cheval_NOM" NOM ((("sh" "v" "a")0) (("l" "ae") 0))))
+
+(dSayText "Je leur ai donc probablement fait manger non pas du bœuf, mais du cheval.") ; neut_parl_s02_0545

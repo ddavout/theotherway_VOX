@@ -1,0 +1,12 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("poids_NOM" NOM ((("p" "w" "a") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("mesures_NOM" NOM ((("m" "ae") 0) (("z" "y" "rh") 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("n_est_VER" "VER" (((s n e) 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("possible_ADJ" "ADJ" ((("p" "oh") 0) (("s" "i") 0) (("b" "l" "ae") 0))))
+
+(set! text "Le deux poids, deux mesures, ce n'est plus possible.") ; neut_parl_s01_0055
+(dSayText text)

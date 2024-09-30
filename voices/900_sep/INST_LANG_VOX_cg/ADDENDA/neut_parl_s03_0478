@@ -1,0 +1,19 @@
+(lex.add.entry '("j_espère_VER" VER (((zh "eh" "s") 0) (("p" "eh" "rh") 0)))); CHK
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("rappel_NOM" "NOM" ((("rh" "a") 0) (("p" "eh")0) (("l" ae) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("défaut_NOM" "NOM" ((("d" "e") 0) (("f" "o") 0))))
+(lex.add.entry '("d_être_VER" "VER" (((d "eh")0) (("t" "rh" ae) 0)))) ; ae erreur POS
+(lex.add.entry '("doux_ADJ" "ADJ" ((("d" "u") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0)))); no LIA
+(lex.add.entry '("vos_ADJ:pos" "ADJ:pos" ((("v" "o") 0))))
+(lex.add.entry '("oreilles_NOM" NOM (((z "oh") 0) (("rh" "eh" "j") 0))))
+(lex.add.entry '("apaisera_VER" VER ((("a") 0) (("p" "eh") 0) (("z" "rh" "a") 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0))))
+(lex.add.entry '("angoisse_NOM" "NOM" ((("ahn") 0) (("g" "w" "a" s) 0))))
+
+
+
+(set! text "j'espère que ce rappel, à défaut d'être doux à vos oreilles, apaisera votre angoisse.") ; neut_parl_s03_0478
+(dSayText text)

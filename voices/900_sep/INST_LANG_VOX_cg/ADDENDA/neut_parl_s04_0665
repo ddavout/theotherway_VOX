@@ -1,0 +1,15 @@
+(lex.add.entry '("venon_VER" VER ((("v" "ae") 0) (("n" "ohn") 0))))
+(lex.add.entry '("venons_VER" VER ((("v" "ae") 0) (("n" "ohn") 0))))
+(lex.add.entry '("z_en_PRE" "PRE" (((z ahn) 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("financement_NOM" "NOM" ((("f" "i") 0) (("n" "ahn" s) 0) (("m" "ahn") 0))))
+(lex.add.entry '("incroyable_ADJ" "ADJ" ((("ehn") 0) (("k" "rh" "w" "a") 0) (("j" "a")0) (("b" "l" ae) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("vingt_ADJ:num" "ADJ:num" ((("v" "ehn") 0))))
+(lex.add.entry '("milliards_NOM" NOM ((("m" "i" l) 0) (("j" "a" "rh") 0))))
+(lex.add.entry '("d_euros_NOM" "NOM" (((d "oe") 0) (("rh" "o") 0))))
+
+(set! text "venons-en au mode de financement incroyable de ces vingt milliards d'euros.") ; neut_parl_s04_0665
+(dSayText text)

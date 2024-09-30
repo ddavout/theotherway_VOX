@@ -1,0 +1,19 @@
+(lex.add.entry '("chez_PRE" "PRE" ((("sh" "e") 0))))
+(lex.add.entry '("eux_PRO:per" "PRO:per" ((("eu") 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n eh) 0)(("p" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("rêvee_NOM" "NOM" ((("rh" "eh")0) (("v" "ae") 0))))
+(lex.add.entry '("ni_CON" "CON" ((("n" "i") 0))))
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh" "m") 0))))
+(lex.add.entry '("unhh_ART:ind" "ART:ind" (((m "oen") 0))))
+(lex.add.entry '("rêve_NOM" "NOM" ((("rh" "eh" "v") 0))));  pas sûr
+(lex.add.entry '("réenchanté_CON" CON ((("rh" "e") 0) (("ahn") 0) (("sh" "ahn") 0) (("t" "e") 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("réalité_NOM" "NOM" ((("rh" "e") 0) (("a") 0) (("l" "i") 0) (("t" "e") 0))))
+
+(dSayText "Chez eux ce n'est pas un rêvee, ni même unhh rêve réenchanté, c'est la réalité.") ; neut_parl_s03_0547
+
+
+

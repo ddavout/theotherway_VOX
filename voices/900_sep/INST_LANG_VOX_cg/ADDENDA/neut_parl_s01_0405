@@ -1,0 +1,15 @@
+(lex.add.entry '("soyons_VER" VER ((("s" "w" "a") 0) (("j" "ohn") 0))))
+(lex.add.entry '("soyons_NOM" NOM ((("s" "w" "a") 0) (("j" "ohn") 0)))); confusion homo rare
+
+(lex.add.entry '("soyons" nil ((("s" "w" "a") 0) (("j" "ohn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0)))); no LIA
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("hauteur_NOM" "NOM" ((("o") 0) (("t" "oe" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("attentes_NOM" NOM (((z "a") 0) (("t" "ahn" "t") 0)))); LIA
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("Français_NOM" NOM ((("f" "rh" "ahn") 0) (("s" "eh") 0))))
+
+(set! text "soyons à la hauteur des attentes des Français.") ; 
+(dSayText text); neut_parl_s01_0405
+

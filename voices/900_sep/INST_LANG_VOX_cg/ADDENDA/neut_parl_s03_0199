@@ -1,0 +1,6 @@
+(lex.add.entry '("j_y_PRO:per" "PRO:per" ((("zh" "i") 0))))
+(lex.add.entry '("vois_VER" VER ((("v" "w" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0)))); no LIA
+(lex.add.entry '("risque_NOM" "NOM" ((("rh" "i" "s")0) (("k" ae) 0))))
+
+(dSayText "J'y vois un risque.") ; neut_parl_s03_0199

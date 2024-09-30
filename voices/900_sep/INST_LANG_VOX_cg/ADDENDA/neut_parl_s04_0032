@@ -1,0 +1,10 @@
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("Français_NOM" NOM ((("f" "rh" "ahn") 0) (("s" "eh") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("dix_NOM" "NOM" (((d i s) 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("engagé_VER" "VER" ((("ahn") 0) (("g" "a") 0) (("zh" "e") 0))))
+(lex.add.entry '("bénévolement_ADV" "ADV" ((("b" "e") 0) (("n" "e") 0) (("v" "oh" l) 0) (("m" "ahn") 0))))
+
+(set! never_exception_list (append (list "est" "C_est" ) never_exception_list_default))
+(dSayText "Un Français sur dix est engagé bénévolement.") ; neut_parl_s04_0032

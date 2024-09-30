@@ -1,0 +1,9 @@
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y") 0))))
+(lex.add.entry '("europe_NAM" "NAM" (((n oe) 0) ((rh oh "p") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("espoir_NOM" "NOM" ((("e" "s") 0) (("p" "w" "a" "rh")0)))) ; Q  (("rh" "ae") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("sa_ADJ:pos" "ADJ:pos" ((("s" "a") 0))))
+(lex.add.entry '("jeunesse_NOM" "NOM" ((("zh" "oe") 0) (("n" "eh" "s") 0))))
+
+(dSayText "Une Europe d'espoir pour sa jeunesse.") ; neut_parl_s03_0148

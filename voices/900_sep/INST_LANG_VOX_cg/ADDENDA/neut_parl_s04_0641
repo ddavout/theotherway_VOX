@@ -1,0 +1,10 @@
+(lex.add.entry '("depuis_PRE" "PRE" (((d ae) 0) ((p hw i) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("scrutin_NOM" "NOM" ((("s" "k" "rh" "y") 0) (("t" "ehn") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("confirmé_VER" "VER" ((("k" "ohn") 0) (("f" "i" "rh") 0) (("m" "e") 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("résultats_NOM" NOM ((("rh" "e") 0) (("z" "y" "l") 0) (("t" "a") 0))))
+
+(dSayText "Depuis, le scrutin européen a confirmé ces résultats.") ; neut_parl_s04_0641

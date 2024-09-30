@@ -1,0 +1,15 @@
+(lex.add.entry '("Chers_ADJ" ADJ ((("sh" "eh" "rh") 0))))
+(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh" "g") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("droite_NOM" "NOM" ((("d" "rh" "w" "a" "t") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh t rh) 0))))
+(lex.add.entry '("bilan_NOM" NOM ((("b" "i") 0) (("l" "ahn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("question_NOM" "NOM" ((("k" "eh" "s") 0) (("t" "j" "ohn") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("pose_VER" "VER" ((("p" "o" "z") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+(dSayText "Chers collègues de droite, avec votre bilan, la question ne se pose pas.") ; neut_parl_s02_0503

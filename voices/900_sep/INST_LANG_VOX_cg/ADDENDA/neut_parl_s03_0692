@@ -1,0 +1,15 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("rappelhh_NOM" NOM ((("rh" "a") 0) (("p" "ae" "l") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("philippe_NAM" "NAM" ((("f" "i") 0) (("l" "i" "p") 0))))
+(lex.add.entry '("martin_NAM" "NAM" ((("m" "a" "rh") 0) (("t" "ehn") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("rappel_NOM" "NOM" ((("rh" "a") 0) (("p" "eh" "l") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("règlement_NOM" "NOM" ((("rh" "eh") 0) (("g" "l" "ae") 0) (("m" "ahn") 0))))
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "Le rappelhh  est à Monsieur Philippe Martin, pour un rappel au règlement.") ; neut_parl_s03_0692

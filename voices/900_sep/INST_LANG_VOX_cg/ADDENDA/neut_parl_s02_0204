@@ -1,0 +1,9 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("regrette_VER" "VER" ((("rh" "ae") 0) (("g" "rh" "eh" "t") 0))))
+(lex.add.entry '("vivement_ADV" "ADV" ((("v" "i" "v") 0) (("m" "ahn") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("retard_NOM" "NOM" ((("rh" "ae") 0) (("t" "a" "rh") 0))))
+
+
+(set! text "Je regrette, vivement ce retard.") ; neut_parl_s02_0204
+(dSayText text)

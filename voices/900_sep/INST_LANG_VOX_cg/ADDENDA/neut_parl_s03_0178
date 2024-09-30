@@ -1,0 +1,11 @@
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("permet_VER" "VER" ((("p" "eh" "rh") 0) (("m" "eh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("aller_NOM" "NOM" ((("a") 0) (("l" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("bordeaux_NAM" "NAM" (((b oh rh) 0) ((d o) 0))))
+(lex.add.entry '("jusqu_PRE" "PRE" nil))
+(lex.add.entry '("jusqu_à_PRE" "PRE" (((zh y s) 0) ((k a) 0))))
+(lex.add.entry '("arcachon_NAM" "NAM" ((("a" "rh") 0) (("k" "a") 0) (("sh" "ohn") 0))))
+
+(dSayText "Elle permet d'aller de Bordeaux, jusqu'à Arcachon.") ; neut_parl_s03_0178

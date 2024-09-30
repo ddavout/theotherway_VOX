@@ -1,0 +1,11 @@
+(lex.add.entry '("j_ai_AUX" "AUX" (((zh e) 0))))
+(lex.add.entry '("fait_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("étudier_VER" VER ((("e") 0) (("t" "y") 0) (("d" "j" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("systèmes_NOM" NOM ((("s" "i" "s") 0) (("t" "eh" "m") 0))))
+(lex.add.entry '("judiciaires_ADJ" ADJ ((("zh" "y") 0) (("d" "i") 0) (("s" "j" "eh" "rh") 0))))
+(lex.add.entry '("d_autres_ADJ:ind" "ADJ:ind" (((d  "o")0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
+(lex.add.entry '("européens_ADJ" ADJ (((z "oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0)))); LIA
+
+(dSayText "J'ai fait étudier les systèmes judiciaires d'autres pays européens.") ; neut_parl_s05_0500

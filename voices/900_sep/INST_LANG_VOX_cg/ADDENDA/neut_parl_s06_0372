@@ -1,0 +1,10 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("inégalité_NOM" "NOM" ((("i") 0) (("n" "e") 0) (("g" "a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("joue_VER" "VER" ((("zh" "u") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("sens_NOM" "NOM" ((("s" "ahn")0) (("s" ae) 0))))
+
+
+(dSayText "l'inégalité joue aussi, en ce sens.") ; neut_parl_s06_0372

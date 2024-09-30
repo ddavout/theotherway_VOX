@@ -1,0 +1,12 @@
+(lex.add.entry '("arrive_VER" "VER" ((("a") 0) (("rh" "i" "v") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("moment_NOM" "NOM" ((("m" "oh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("où_PRO:rel" "PRO:rel" ((("u") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("personne_PRO:ind" PRO:ind ((("p" "eh" "rh") 0) (("s" "oh" "n") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("peut_VER" "VER" ((("p" "eu") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("suivre_VER" "VER" ((("s" "hw" i)0) (("v" "rh" ae) 0))))
+
+(dSayText "Arrive un moment où, plus personne ne peut vous suivre.") ; neut_parl_s03_0403

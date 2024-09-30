@@ -1,0 +1,9 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("délai_NOM" "NOM" ((("d" "e") 0) (("l" "eh") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((t ahn) 0) ((n e) 0) ((f eh) 0))))
+(lex.add.entry '("extrêmement_ADV" "ADV" ((("eh" "k" "s") 0) (("t" "rh" "eh") 0) (("m" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("court_ADJ" "ADJ" ((("k" "u" "rh") 0))))
+
+(set! text "Le délai est en effet extrêmement court.") ; neut_parl_s02_0524
+(dSayText text)

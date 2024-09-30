@@ -1,0 +1,12 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("délai_NOM" "NOM" ((("d" "e") 0) (("l" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("ans_NOM" NOM ((("ahn") 0))))
+(lex.add.entry '("permet_VER" "VER" ((("p" "eh" "rh") 0) (("m" "eh") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("genre_NOM" "NOM" ((("zh" "ahn" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("fraudes_NOM" NOM ((("f" "rh" "o")0) (("d" ae) 0))))
+
+(dSayText "Le délai de deux ans, permet ce genre de fraudes.") ; neut_parl_s05_0397

@@ -1,0 +1,12 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("parlons_VER" VER ((("p" "a" "rh") 0) (("l" "ohn") 0))))
+(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("un_ART:ind" ART:ind ((("oen") 0))))
+(lex.add.entry '("enjeu_NOM" "NOM" ((("ahn") 0) (("zh" "eu") 0))))
+(lex.add.entry '("humain_ADJ" "ADJ" ((("y") 0) (("m" "ehn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("économique_ADJ" "ADJ" ((("e") 0) (("k" "oh") 0) (("n" "oh") 0) (("m" "i")0) (("k" ae) 0))))
+
+(set! never_exception_list (append (list "parlons" ) never_exception_list_default))
+(dSayText "Nous parlons ici d'un enjeu, humain, et économique.") ; neut_parl_s03_0076

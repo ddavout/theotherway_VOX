@@ -1,0 +1,12 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("procédé_NOM" "NOM" ((("p" "rh" "oh") 0) (("s" "e") 0) (("d" "e") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh" "m") 0))))
+(lex.add.entry '("devenu_VER" VER ((("d" "ae" v) 0) (("n" "y") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("business_NOM" NOM ((("b" "i" "z")0) (("n" eh s) 0))))
+(lex.add.entry '("franchement_ADV" ADV ((("f" "rh" "ahn" "sh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("insupportable_ADJ" "ADJ" ((("ehn") 0) (("s" "y") 0) (("p" "oh" "rh") 0) (("t" "a")0)(("b" "l" "ae") 0)))); no LIA
+
+(set! text "Ce procédé est même devenu un business, franchement insupportable.") ; neut_parl_s02_0394
+(dSayText text)

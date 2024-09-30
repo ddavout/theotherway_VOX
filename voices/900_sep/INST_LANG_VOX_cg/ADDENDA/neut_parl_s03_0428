@@ -1,0 +1,15 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("serait_AUX" "AUX" ((("s" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("allé_VER" VER ((("a") 0) (("l" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nouveau_ADJ" "ADJ" ((("n" "u") 0) (("v" "o") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("devant_NOM" NOM ((("d" "ae") 0) (("v" "ahn") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("crise_NOM" "NOM" ((("k" "rh" "i" "z") 0))))
+(lex.add.entry '("grave_ADJ" "ADJ" ((("g" "rh" "a")0) (("v" ae) 0))))
+
+
+(set! never_exception_list (append (list "serait" ) never_exception_list_default))
+(dSayText "Ce serait aller de nouveau au devant d'une crise grave.") ; neut_parl_s03_0428

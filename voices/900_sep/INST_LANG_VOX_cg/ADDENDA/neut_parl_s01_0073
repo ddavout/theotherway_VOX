@@ -1,0 +1,17 @@
+; transparencE moche
+(lex.add.entry '("eh_bien" ONO (((eh) 0) ((b j ehn) 0))))
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("l_ai_AUX" "AUX" (((l eh) 0))))
+(lex.add.entry '("l_ai_VER" "VER" (((l eh) 0)))); confusion posible VER AUX
+(lex.add.entry '("sorti_VER" "VER" ((("s" "oh" "rh") 0) (("t" "i") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("jouerons_VER" VER ((("zh" "u")0) ((rh "ohn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("transparence_NOM" "NOM" ((("t" "rh" "ahn" "s") 0) (("p" "a") 0) (("rh" "ahn") 0) (("s" "ae") 0))))
+
+(set! text "Eh bien moi je l'ai sorti, et là aussi, nous jouerons la transparence.") ; neut_parl_s01_0073
+(dSayText text)

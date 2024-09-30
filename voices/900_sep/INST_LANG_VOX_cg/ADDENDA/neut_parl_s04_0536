@@ -1,0 +1,14 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("intérêt_NOM" "NOM" ((("ehn") 0) (("t" "eh") 0) (("rh" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("amendement_NOM" "NOM" ((("a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("numéro_NOM" "NOM" ((("n" "y") 0) (("m" "e") 0) (("rh" "o") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("cent_ADJ:num" ADJ:num ((("s" "ahn") 0))))
+(lex.add.entry '("douze_NOM" "NOM" (((d u)0) ((z ae) 0))))
+(lex.add.entry '("réside_VER" "VER" ((("rh" "e") 0) (("z" "i" "d") 0))))
+(lex.add.entry '("vraiment_ADV" "ADV" ((("v" "rh" "eh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+
+(dSayText "l'intérêt de l'amendement numéro deux cents douze réside vraiment là.") ; neut_parl_s04_0536

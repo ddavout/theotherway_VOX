@@ -1,0 +1,9 @@
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh" "l") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("semble_VER" "VER" ((("s" "ahn")0) (("b" "l" ae) 0))))
+(lex.add.entry '("surtout_ADV" "ADV" ((("s" "y" "rh") 0) (("t" "u") 0))))
+(lex.add.entry '("excessive_ADJ" "ADJ" ((("eh" "k") 0) (("s" "e") 0) (("s" "i")0) (("v" ae) 0)))); no LIA
+
+
+(set! text "Elle nous semble surtout excessive !") ; neut_parl_s02_0326
+(dSayText text)

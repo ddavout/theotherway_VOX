@@ -1,0 +1,10 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("deuxième_ADJ" "ADJ" ((("d" "eu") 0) (("z" "j" "eh" "m") 0))))
+(lex.add.entry '("volet_NOM" "NOM" ((("v" "oh") 0) (("l" "eh") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("soutien_NOM" "NOM" ((("s" "u") 0) (("t" "j" "ehn") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("ménages_NOM" NOM ((("m" "e") 0) (("n" "a")0) (("zh" ae) 0))))
+
+(dSayText "Le deuxième volet, est le soutien aux ménages.") ; neut_parl_s04_0595

@@ -1,0 +1,12 @@
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("apparu_NAM" "NAM" ((("a") 0) (("p" "a") 0) (("rh" "y") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("parlé_VER" "VER" ((("p" "a" "rh") 0) (("l" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("diminution_NOM" "NOM" ((("d" "i") 0) (("m" "i") 0) (("n" "y") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("volume_NOM" "NOM" ((("v" "o") 0) (("l" "y")0) (("m" ae) 0))))
+
+(set! text "Monsieur Apparu, a parlé de la diminution du volume.") ; neut_parl_s02_0057
+(dSayText text)

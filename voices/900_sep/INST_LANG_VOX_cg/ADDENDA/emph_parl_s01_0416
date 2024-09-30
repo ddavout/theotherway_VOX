@@ -1,0 +1,9 @@
+; TODO POS ?
+(lex.add.entry '("peut-on_VER" "VER" ((("p" "eu") 0)(("t" "ohn") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("fond_NOM" "NOM" ((("f" "ohn") 0))))
+(lex.add.entry '("banaliser_VER" VER ((("b" "a") 0) (("n" "a") 0) (("l" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("l_amnistie_NOM" "NOM" (((l "a" "m") 0) (("n" "i") 0) ((s "t" "i") 0))))
+
+
+(dSayText "peut-on, au fond, banaliser l'amnistie ?") ; emph_parl_s01_0416

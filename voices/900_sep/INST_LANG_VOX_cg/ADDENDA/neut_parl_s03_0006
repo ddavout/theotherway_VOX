@@ -1,0 +1,15 @@
+(lex.add.entry '("sauf_ADJ" "ADJ" ((("s" "oh" "f") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh" "rh") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("metté_VER" VER ((("m" "e") 0) (("t" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("pied_NOM" "NOM" (((p j e) 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("frein_NOM" "NOM" ((("f" "rh" "ehn") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("permanence_NOM" "NOM" ((("p" "eh" "rh") 0) (("m" "a") 0) (("n" "ahn" "s") 0))))
+
+(dSayText "Sauf que là encore, vous mettez le pied sur le frein en permanence.") ; neut_parl_s03_0006

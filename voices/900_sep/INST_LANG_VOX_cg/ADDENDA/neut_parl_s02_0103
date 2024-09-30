@@ -1,0 +1,10 @@
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("l_amendement_NOM" "NOM" (((l "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("intégrons_VER" VER (((z "ehn") 0) (("t" "e") 0) (("g" "rh" "ohn") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn")0) (("k" ae) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("jurisprudence_NOM" "NOM" ((("zh" "y") 0) (("rh" "i" "s") 0) (("p" "rh" "y") 0) (("d" "ahn")0) (("s" ae) 0))))
+
+(set! text "Dans l'amendement, nous intégrons donc, cette jurisprudence.") ; neut_parl_s02_0103
+(dSayText text)

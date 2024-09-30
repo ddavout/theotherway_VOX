@@ -1,0 +1,15 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("actuellement_ADV" "ADV" ((("a" "k") 0) (("t" "hw" "eh" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("la_ART:def" ART:def ((("l" "a") 0))))
+(lex.add.entry '("chute_NOM" NOM ((("sh" "y" "t") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("devises_NOM" NOM ((("d" "ae") 0) (("v" "i" "z") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
+(lex.add.entry '("émergents_ADJ" ADJ ((("e") 0) (("m" "eh" "rh") 0) (("zh" "ahn") 0)))); no LIA
+(lex.add.entry '("est_VER" "VER" ((("eh") 0)))); no LIA
+(lex.add.entry '("tout_à_fait_ADV" "ADV" ((("t" "u") 0) (("t" "a") 0) (("f" "eh") 0))))
+(lex.add.entry '("préoccupante_ADJ" ADJ ((("p" "rh" "eh") 0) (("oh") 0) (("k" "y") 0) (("p" "ahn")0) (("t" "ae") 0))))
+
+(set! text "Et actuellement, la chute des devises des pays émergents est tout à fait préoccupante.") ; neut_parl_s06_0269
+(dSayText text)

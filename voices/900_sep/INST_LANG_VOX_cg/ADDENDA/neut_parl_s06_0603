@@ -1,0 +1,10 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("données_NOM" NOM ((("d" "oh") 0) (("n" "e") 0))))
+(lex.add.entry '("sont_AUX" AUX ((("s" "ohn") 0))))
+(lex.add.entry '("conservées_VER" VER ((("k" "ohn") 0) (("s" "eh" "rh") 0) (("v" "e") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("longues_ADJ" ADJ ((("l" "ohn" "g") 0))))
+(lex.add.entry '("périodes_NOM" NOM ((("p" "eh") 0) (("rh" "j" "oh" "d") 0))))
+
+(dSayText "Ces données sont conservées sur de longues périodes.") ; neut_parl_s06_0603

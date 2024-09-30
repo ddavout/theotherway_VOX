@@ -1,0 +1,15 @@
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("louis_carabin" nil ((("l" "w" "i") 0) (("k" "a") 0) (("rh" "a") 0) (("b" "ehn") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("également_ADV" "ADV" ((("e") 0) (("g" "a" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("évoqué_VER" "VER" ((("e") 0) (("v" "oh") 0) (("k" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("caractère_NOM" "NOM" ((("k" "a") 0) (("rh" "a" "k") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("archipel_NOM" "NOM" ((("a" "rh") 0) (("sh" "i") 0) (("p" "eh" "l") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("guadeloupe_NAM" "NAM" (((g w a d) 0) ((l u)0) (("p" ae) 0))))
+
+(set! list_exclus*-> (append (list "également") list_exclus*->_default))
+(dSayText "Madame Louis-Carabin a également évoqué le caractère d'archipel de la Guadeloupe.") ; neut_parl_s03_0176

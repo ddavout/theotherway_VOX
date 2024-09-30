@@ -1,0 +1,7 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("tombe_VER" VER ((("t" "ohn" "b") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" (((z "o") 0) (("s" "i") 0))))
+
+(dSayText "Cela tombe bien : nous aussi.") ; neut_parl_s02_0657

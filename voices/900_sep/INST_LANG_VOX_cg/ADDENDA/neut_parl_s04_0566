@@ -1,0 +1,7 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("pourquoi_PRO:rel" PRO:rel ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("t_elle_PRO:per" "PRO:per" (((t "eh" "l") 0))))
+(lex.add.entry '("limitée_VER" "VER" ((("l" "i") 0) (("m" "i") 0) (("t" "e") 0))))
+
+(dSayText "Et pourquoi est-elle limitée ?") ; neut_parl_s04_0566

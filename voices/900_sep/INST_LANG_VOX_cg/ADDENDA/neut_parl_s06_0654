@@ -1,0 +1,12 @@
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("fonds_NOM" NOM ((("f" "ohn") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("d_ailleurs_ADV" "ADV" (((d "a") 0) (("j" "oe" "rh") 0))))
+(lex.add.entry '("été_VER" VER ((("rh" "e") 0) (("t" "e") 0)))); no LIA
+(lex.add.entry '("débloqués_VER" VER ((("d" "e") 0) (("b" "l" "oh") 0) (("k" "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("fin_NOM" "NOM" ((("f" "ehn") 0))))
+
+(set! text "Des fonds ont d'ailleurs été débloqués à cette fin.") ; neut_parl_s06_0654
+(dSayText text)

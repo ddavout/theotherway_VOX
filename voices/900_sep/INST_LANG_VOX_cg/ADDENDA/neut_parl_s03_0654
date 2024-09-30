@@ -1,0 +1,8 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("avons_AUX" AUX (((z "a") 0) (("v" "ohn") 0))))
+(lex.add.entry '("choisi_VER" "VER" ((("sh" "w" "a") 0) (("z" "i") 0))))
+(lex.add.entry '("une_autre_ADJ" "ADJ" ((("y") 0)((n "o")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("méthode_NOM" "NOM" ((("m" "e") 0) (("t" "oh" )0) (("d" ae) 0))))
+
+(set! text "Nous avons choisi une autre méthode.") ; neut_parl_s03_0654
+(dSayText text)

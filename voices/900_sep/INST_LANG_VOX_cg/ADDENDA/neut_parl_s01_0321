@@ -1,0 +1,9 @@
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("rapport_NOM" "NOM" ((("rh" "a") 0) (("p" "oh" "rh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("rien_PRO:ind" "PRO:ind" ((("rh" "j" "ehn") 0))))
+(lex.add.entry '("d_autre_PRO:ind" "PRO:ind" (((d "o") 0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("d_autre_ADJ:ind" "ADJ:ind" (((d "o") 0) (("t" "rh" "ae") 0))))
+
+(set! text "un rapport, et rien d'autre.") ; 
+(dSayText text); neut_parl_s01_0321

@@ -1,0 +1,16 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("territoire_NOM" "NOM" ((("t" "eh") 0) (("rh" "i") 0) (("t" "w" "a" "rh") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("conséquent_ADJ" "ADJ" ((("k" "ohn") 0) (("s" "e") 0) (("k" "ahn") 0))))
+(lex.add.entry '("soumis_VER" VER ((("s" "u") 0) (("m" "i") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0)))); no LIA
+(lex.add.entry '("règles_NOM" NOM ((("rh" "eh")0) (("g" "l" ae) 0))))
+(lex.add.entry '("européennes_ADJ" ADJ ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("eh" "n") 0)))); no LIA
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("matière_NOM" "NOM" ((("m" "a") 0) (("t" "j" "eh" "rh") 0))))
+(lex.add.entry '("d_aides_NOM" "NOM" (((d "eh" d)0)))); Q
+(lex.add.entry '("d_état" "NOM" (((d "e") 0) (("t" "a") 0))))
+
+(set! text "Ce territoire est par conséquent soumis aux règles européennes en matière d'aides d'état.") ; neut_parl_s04_0080
+(dSayText text)

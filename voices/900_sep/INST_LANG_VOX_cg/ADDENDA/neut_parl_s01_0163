@@ -1,0 +1,12 @@
+(lex.add.entry '("alors_ADV" "ADV" (((a) 0) ((l oh rh) 0))))
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("paquet_NOM" "NOM" ((("p" "a") 0) (("k" "eh") 0))))
+(lex.add.entry '("neutre_ADJ" "ADJ" ((("n" "eu") 0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
+(lex.add.entry '("innovation_NOM" "NOM" ((("i") 0) (("n" "oh") 0) (("v" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("nécessaire_ADJ" "ADJ" ((("n" "e") 0) (("s" "e") 0) (("s" "eh" "rh") 0))))
+
+(set! text "alors oui, le paquet neutre est une innovation nécessaire..") ; 
+(dSayText text); neut_parl_s01_0163

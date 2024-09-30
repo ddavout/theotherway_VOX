@@ -1,0 +1,11 @@
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("après-midi_NOM" "NOM" (((t "a") 0) (("p" rh "eh") 0) ((m i) 0) ((d i) 0))))
+(lex.add.entry '("j_aurai_VER" VER ((("zh" "oh") 0) (("rh" "e") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("réunion_NOM" "NOM" ((("rh" "e") 0) (("y") 0) (("n" "j" "ohn") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("médiateur_NOM" "NOM" ((("m" "eh") 0) (("d" "j" "a") 0) (("t" "oe" "rh") 0))))
+
+
+(dSayText "Cet après-midi, j'aurai une réunion avec le médiateur.") ; neut_parl_s05_0402

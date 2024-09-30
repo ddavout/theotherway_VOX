@@ -1,0 +1,12 @@
+; bug de y-a-t'il -> changement de texte
+
+(lex.add.entry '("a_t-il_VER" "VER" (((j a)0) (("t" "i")0) ((l ae) 0))))
+
+; (lex.add.entry '("y_a-t-il_VER" "VER" (((j a)0) (("t" "i")0) ((l ae) 0))))
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("convergence_NOM" "NOM" ((("k" "ohn") 0) (("v" "eh" "rh") 0) (("zh" "ahn")0) (("s" ae) 0))))
+
+(set! text "a-t'il, oui ou non, convergence ?")
+(dSayText text) 

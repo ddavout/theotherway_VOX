@@ -1,0 +1,13 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("pensons_VER" VER ((("p" "ahn") 0) (("s" "ohn") 0))))
+(lex.add.entry '("que_CON" "CON" (((k oe) 0)))); Q
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("enfants_NOM" NOM (((z "ahn") 0) (("f" "ahn") 0))))
+(lex.add.entry '("ont_VER" "VER" ((("ohn") 0)))); no LIA
+(lex.add.entry '("droit_ADJ" "ADJ" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("protections_NOM" NOM ((("p" "rh" "oh") 0) (("t" "eh" "k") 0) (("s" "j" "ohn") 0))))
+
+(set! text "Nous pensons que ces enfants ont droit à des protections.") ; neut_parl_s04_0666
+(dSayText text)

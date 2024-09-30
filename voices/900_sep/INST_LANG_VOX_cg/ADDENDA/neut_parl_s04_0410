@@ -1,0 +1,9 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("veux_VER" "VER" ((("v" "eu") 0))))
+(lex.add.entry '("salué_VER" VER ((("s" "a") 0) (("l" "y") 0) (("e") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("commun_ADJ" "ADJ" ((("k" "oh") 0) (("m" "oen") 0))))
+
+
+(dSayText "Je veux saluer ce travail commun.") ; neut_parl_s04_0410

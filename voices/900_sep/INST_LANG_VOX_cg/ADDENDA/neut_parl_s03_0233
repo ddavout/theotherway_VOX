@@ -1,0 +1,9 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("surtout_ADV" "ADV" ((("s" "y" "rh") 0) (("t" "u") 0))))
+(lex.add.entry '("engageons_VER" VER ((("ahn") 0) (("g" "a") 0) (("zh" "ohn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("étapes_NOM" NOM ((("e") 0) (("t" "a" "p") 0))))
+(lex.add.entry '("suivantes_ADJ" ADJ ((("s" "hw" "i") 0) (("v" "ahn")0) (("t" ae) 0))))
+
+
+(dSayText "Et surtout, engageons les étapes suivantes.") ; neut_parl_s03_0233

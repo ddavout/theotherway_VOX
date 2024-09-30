@@ -1,0 +1,14 @@
+; TODO profitez_en
+(lex.add.entry '("profité_VER" VER ((("p" "rh" "oh") 0) (("f" "i") 0) (("t" "e") 0))))
+
+
+(lex.add.entry '("si_CON" "CON" ((("s" "i") 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("amuse_VER" "VER" (((z "a") 0) (("m" "y")0) (("z" ae) 0))))
+(lex.add.entry '("profitez_VER" VER ((("p" "rh" "oh") 0) (("f" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((z ahn) 0)))); LIA
+
+; todo VER ez-en
+(set! text "Si cela vous amuse, profitez-en !") ; neut_parl_s04_0047
+(dSayText text)

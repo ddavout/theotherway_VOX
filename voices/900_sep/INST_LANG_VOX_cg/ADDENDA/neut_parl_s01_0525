@@ -1,0 +1,9 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((t "y" "n") 0)))); LIA
+(lex.add.entry '("vision_NOM" "NOM" ((("v" "i") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("totalement_ADV" "ADV" ((("t" "oh") 0) (("t" "a" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("utopique_ADJ" "ADJ" ((("y") 0) (("t" "oh") 0) (("p" "i" "k") 0)))); no LIA
+
+(set! text "C'est une vision totalement utopique.") ; 
+(dSayText text); neut_parl_s01_0525
+

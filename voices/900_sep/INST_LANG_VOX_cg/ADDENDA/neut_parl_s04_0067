@@ -1,0 +1,7 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("crée_VER" "VER" ((("k" "rh" "eh") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("véritable_ADJ" "ADJ" ((("v" "e") 0) (("rh" "i") 0) (("t" "a") 0))))
+(lex.add.entry '("angoisse_NOM" "NOM" (((b l "ahn") 0) (("g" "w" "a")0) ((s ae) 0))))
+
+(dSayText "Cela crée une véritable angoisse.") ; neut_parl_s04_0067

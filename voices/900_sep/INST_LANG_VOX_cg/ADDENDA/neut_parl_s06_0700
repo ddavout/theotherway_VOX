@@ -1,0 +1,12 @@
+(lex.add.entry '("Ceux-ci_PRO:dem" PRO:dem ((("s" "eu") 0) (("s" "i") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("savon_VER" "VER" ((("s" "a") 0) (("v" "ohn") 0))))
+(lex.add.entry '("tous_PRO:ind" "PRO:ind" (((t u)0) ((s ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("réglementés_VER" VER ((("rh" "eh") 0) (("g" "l" "ae") 0) (("m" "ahn") 0) (("t" "e") 0))))
+
+(dSayText "Ceux-ci, nous le savons tous, sont peu ou pas réglementés.") ; neut_parl_s06_0700

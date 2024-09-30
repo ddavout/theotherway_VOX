@@ -1,0 +1,14 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("y_avait_VER" VER (((l "j" "a") 0) (("v" "eh") 0))))
+(lex.add.entry '("cinq_ADJ:num" "ADJ:num" ((("s" "ehn") 0))))
+(lex.add.entry '("cent_ADJ:num" ADJ:num ((("s" "ahn") 0))))
+(lex.add.entry '("seize_ADJ:num" "ADJ:num" ((("s" "eh" "z") 0))))
+(lex.add.entry '("gendarmes_NOM" NOM ((("zh" "ahn") 0) (("d" "a" "rh" "m") 0))))
+(lex.add.entry '("départementaux_ADJ" ADJ ((("d" "e") 0) (("p" "a" "rh") 0) (("t" "ae") 0) (("m" "ahn") 0) (("t" "o") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("mille_ADJ:num" ADJ:num ((("m" "i" "l") 0))))
+(lex.add.entry '("douze_ADJ:num" "ADJ:num" (((d u)0) ((z ae) 0))))
+
+(set! text "Il y avait cinq cent seize gendarmes départementaux, en deux mille douze.") ; neut_parl_s04_0472
+(dSayText text)

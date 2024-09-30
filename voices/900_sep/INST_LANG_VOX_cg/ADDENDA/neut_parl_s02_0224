@@ -1,0 +1,20 @@
+(lex.add.entry '("tel_PRO:ind" "PRO:ind" ((("t" "eh") 0))))
+(lex.add.entry '("tel_ADJ:ind" "ADJ:ind" ((("t" "eh") 0))));  confusion
+(lex.add.entry '("est_VER" "VER" (((l "e") 0))))
+(lex.add.entry '("est_NOM" "NOM" (((l "e") 0)))); confusion
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("sens_NOM" "NOM" ((("s" "ahn" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("résolution_NOM" "NOM" ((("rh" "e") 0) (("z" "oh") 0) (("l" "y") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
+(lex.add.entry '("questionnement_NOM" NOM ((("k" "eh" "s") 0) (("t" "j" "oh" n) 0) (("m" "ahn") 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s) 0) ((t rh ae) 0))))
+
+
+(set! text "tel est le sens de cette résolution et de mon questionnement, monsieur le ministre.") ; neut_parl_s02_0224
+(dSayText text)

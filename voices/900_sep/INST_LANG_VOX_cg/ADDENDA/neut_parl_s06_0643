@@ -1,0 +1,14 @@
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("Buffet_NOM" NOM ((("b" "y") 0) (("f" "eh") 0))))
+(lex.add.entry '("j_ai_AUX" "AUX" (((zh e) 0))))
+(lex.add.entry '("écouté_VER" "VER" ((("e") 0) (("k" "u") 0) (("t" "e") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("d_habitude_VER" VER (((d  "a") 0) (("b" "i") 0) (("t" "y" "d") 0))))
+(lex.add.entry '("vos_ADJ:pos" "ADJ:pos" ((("v" "o") 0))))
+(lex.add.entry '("propos_NOM" NOM ((("p" "rh" "oh") 0) (("p" "o") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("d_intérêt_NOM" "NOM" (((d "ehn") 0) (("t" "eh") 0) (("rh" "eh") 0))))
+
+(set! list_exclus*-> (append (list "j_ai" ) list_exclus*->_default)); BUG e e
+(dSayText "Madame Buffet, j'ai écouté comme d'habitude vos propos avec beaucoup d'intérêt.") ; neut_parl_s06_0643

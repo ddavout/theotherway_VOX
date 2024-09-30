@@ -1,0 +1,11 @@
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("état_NOM" "NOM" ((("e") 0) (("t" "a") 0))))
+(lex.add.entry '("sera_VER" "VER" ((("s" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("recours_NOM" NOM ((("rh" "ae") 0) (("k" "u" "rh") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("garant_VER" VER ((("g" "a") 0) (("rh" "ahn") 0))))
+
+(dSayText "l'état sera là comme recours, et comme garant.") ; neut_parl_s04_0431

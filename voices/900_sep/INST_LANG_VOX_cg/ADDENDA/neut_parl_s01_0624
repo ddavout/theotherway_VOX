@@ -1,0 +1,8 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("encore_ADV" "ADV" (((z "ahn") 0) (("k" "oh" "rh") 0)))); LIA
+(lex.add.entry '("faut-il_VER" "VER" ((("f" "o") 0)(("t" "i" l) 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("justifier_VER" VER ((("zh" "y" "s") 0) (("t" "i") 0) (("f" "j" "e") 0))))
+
+(set! text "Mais encore faut-il le justifier.") ; 
+(dSayText text); neut_parl_s01_0624

@@ -1,0 +1,15 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("va_VER" "VER" ((("v" "a") 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("dire_VER" "VER" ((("d" "i" "rh") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("situation_NOM" "NOM" ((("s" "i") 0) (("t" "hw" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("s_améliore_VER" VER (((s "a") 0) (("m" "e") 0) (("l" "j" "oh" "rh") 0))))
+(lex.add.entry '("alors_qu_CON" CON (((a) 0) ((l oh rh) 0))))
+(lex.add.entry '("qu_elle_PRO:per" "PRO:per" (((k eh l) 0))))
+(lex.add.entry '("s_aggrave_VER" VER (((s "a") 0) (("g" "rh" "a")0) (("v" ae) 0))))
+
+(set! text "Et on va me dire que la situation s'améliore, alors qu'elle s'aggrave.") ; neut_parl_s02_0426
+(dSayText text)

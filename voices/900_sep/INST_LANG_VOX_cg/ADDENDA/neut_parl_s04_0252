@@ -1,0 +1,10 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("suggère_VER" "VER" ((("s" "y" g) 0) (("zh" "eh" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("retrait_NOM" "NOM" ((("rh" "ae") 0) (("t" "rh" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("amendements_NOM" NOM (((z "a") 0) (("m" "ahn") 0) (("d" "ae") 0) (("m" "ahn") 0)))); LIA
+
+(set! text "Je suggère le retrait de ces amendements.") ; neut_parl_s04_0252
+(dSayText text)

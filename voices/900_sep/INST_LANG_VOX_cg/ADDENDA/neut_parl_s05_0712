@@ -1,0 +1,10 @@
+(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
+(lex.add.entry '("faisons_VER" VER ((("f" "ae") 0) (("z" "ohn") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((z "oen") 0)))); LIA
+(lex.add.entry '("élément_NOM" "NOM" (((n "e") 0) (("l" "e") 0) (("m" "ahn") 0))))
+(lex.add.entry '("vexatoire_ADJ" "ADJ" ((("v" e k) 0) ((s "a") 0) (("t" "w" "a" "rh") 0))))
+
+(set! text "N'en faisons donc pas un élément vexatoire.") ; neut_parl_s05_0712
+(dSayText text)

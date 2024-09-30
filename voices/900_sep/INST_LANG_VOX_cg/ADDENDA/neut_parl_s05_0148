@@ -1,0 +1,17 @@
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("entendu_VER" "VER" ((("ahn") 0) (("t" "ahn") 0) (("d" "y") 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("gosselin_NAM" "NAM" (((g oh s) 0) ((l ehn) 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
+(lex.add.entry '("qu_PRO:rel" "PRO:rel" nil))
+(lex.add.entry '("qu_avè_VER" VER ((("k" "a") 0) (("v" "eh") 0))))
+(lex.add.entry '("porté_VER" "VER" ((("p" "oh" "rh") 0) (("t" "e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("discussion_NOM" "NOM" ((("d" "i" "s") 0) (("k" "y") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "Bien entendu, monsieur Gosselin, mais c'est sur ce point, qu'avait porté la discussion.") ; neut_parl_s05_0148

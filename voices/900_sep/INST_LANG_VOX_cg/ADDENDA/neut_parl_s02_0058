@@ -1,0 +1,16 @@
+(lex.add.entry '("au_delà_NOM" "NOM" ((("o") 0) (("d" "ae") 0) (("l" "a") 0)))); confusion
+
+(lex.add.entry '("au_delà_PRE" "PRE" ((("o") 0) (("d" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("chiffres_NOM" NOM ((("sh" "i") 0) (("f" "rh" ae) 0))))
+(lex.add.entry '("l_accès_NOM" "NOM" (((l "a" "k") 0) (("s" "eh") 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("armes_NOM" NOM (((z "a" "rh" "m") 0))))
+(lex.add.entry '("progresse_VER" "VER" ((("p" "rh" "oh") 0) (("g" "rh" "eh" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("façon_NOM" "NOM" ((("f" "a") 0) (("s" "ohn") 0))))
+(lex.add.entry '("inquiétante_ADJ" "ADJ" ((("ehn") 0) (("k" "j" "e") 0) (("t" "ahn") 0) (("t" "ae") 0))))
+
+(set! text "au-delà des chiffres, l'accès aux armes progresse de façon inquiétante.") ; neut_parl_s02_0058
+(dSayText text)
+

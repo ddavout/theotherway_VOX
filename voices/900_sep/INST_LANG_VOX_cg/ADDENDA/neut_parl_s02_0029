@@ -1,0 +1,13 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0))))
+(lex.add.entry '("sujet_NOM" "NOM" ((("s" "y") 0) (("zh" "eh") 0))))
+(lex.add.entry '("extrêmement_ADV" "ADV" ((("eh" "k" "s") 0) (("t" "rh" "eh") 0) (("m" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("important_ADJ" "ADJ" ((("ehn") 0) (("p" "oh" "rh") 0) (("t" "ahn") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m e) 0))))
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("délicat_ADJ" "ADJ" ((("d" "e") 0) (("l" "i") 0) (("k" "a") 0))))
+
+
+(set! text "C'est un sujet extrêmement important, mais tout aussi délicat.") ; neut_parl_s02_0029
+(dSayText text)

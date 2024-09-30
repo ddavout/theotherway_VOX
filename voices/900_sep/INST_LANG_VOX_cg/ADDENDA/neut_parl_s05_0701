@@ -1,0 +1,15 @@
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("collègues_NOM" NOM ((("k" "oh") 0) (("l" "eh" "g") 0))))
+(lex.add.entry '("belges_ADJ" ADJ ((("b" "eh" "l") 0) (("zh" ae) 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("adopté_VER" "VER" ((("a") 0) (("d" "oh" "p") 0) (("t" "e") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("telle_ADJ:ind" "ADJ:ind" ((("t" "eh" "l") 0))))
+(lex.add.entry '("réglementation_NOM" "NOM" ((("rh" "eh") 0) (("g" "l" "ae") 0) (("m" "ahn") 0) (("t" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("concernant_PRE" "PRE" ((("k" "ohn") 0) (("s" "eh" "rh") 0) (("n" "ahn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("coffres-forts_NOM" NOM ((("k" oh) 0) ((f "rh" "ae")0) (("f" "oh" "rh") 0))))
+
+(set! list_exclus*-> (append (list "belges") list_exclus*->_default)); todo
+
+(dSayText "Nos collègues belges, ont adopté une telle réglementation concernant les coffres-forts.") ; neut_parl_s05_0701

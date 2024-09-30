@@ -1,0 +1,8 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("effets_NOM" NOM (((z "e") 0) (("f" "eh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("seront_VER" VER ((("s" "ae") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("concrets_ADJ" ADJ ((("k" "ohn") 0) (("k" "rh" "eh") 0))))
+
+(dSayText "Les effets en seront très concrets.") ; neut_parl_s06_0667

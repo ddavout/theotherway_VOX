@@ -1,0 +1,16 @@
+(lex.add.entry '("preuve_NOM" "NOM" ((("p" "rh" "oe") 0))))
+(lex.add.entry '("en_PRO:per" "PRO:per" (((v ahn) 0))))
+(lex.add.entry '("est_VER" "VER" (((n "eh") 0)))); LIA
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("proportions_NOM" NOM ((("p" "rh" "oh") 0) (("p" "oh" "rh") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("d_amendements_NOM" "NOM" (((d "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("sont_AUX" AUX ((("s" "ohn") 0))))
+(lex.add.entry '("faites_VER" VER ((("f" "eh" "t") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("sujet_NOM" "NOM" ((("s" "y") 0) (("zh" "eh") 0))))
+
+(set! text "Preuve en est les proportions d'amendements qui vous sont faites sur le sujet.") ; 
+(dSayText text); neut_parl_s01_0596

@@ -1,0 +1,17 @@
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("appel_NOM" "NOM" ((("a") 0) (("p" "eh") 0))))
+(lex.add.entry '("àhh_PRE" "PRE" (((l a) 0))))
+(lex.add.entry '("projets_NOM" NOM ((("p" "rh" "oh") 0) (("zh" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("recherches_NOM" NOM ((("rh" "ae") 0) (("sh" "eh" "rh")0) (("sh" ae) 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("radiofréquences_NOM" NOM ((("rh" "a") 0) (("d" "j" "oh") 0) (("f" "rh" "e") 0) (("k" "ahn" "s") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("lancé_VER" "VER" ((("l" "ahn") 0) (("s" "e") 0))))
+
+(set! list_exclus*-> (append (list "radiofréquences") list_exclus*->_default))
+(dSayText "Un appel à projets de recherches, sur les radiofréquences, a été lancé.") ; neut_parl_s05_0190
+
+

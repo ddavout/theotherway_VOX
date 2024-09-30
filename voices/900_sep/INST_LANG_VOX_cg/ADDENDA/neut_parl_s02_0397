@@ -1,0 +1,9 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("est_VER" "VER" (((l "e") 0))))
+(lex.add.entry '("ambitieux_ADJ" "ADJ" (((t "ahn") 0) (("b" "i") 0) (("s" "j" "eu") 0)))); LIA
+(lex.add.entry '("courageux_ADJ" "ADJ" ((("k" "u") 0) (("rh" "a") 0) (("zh" "eu") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("réaliste_ADJ" "ADJ" ((("rh" "e") 0) (("a") 0) (("l" "i" "s")0) (("t" ae) 0))))
+
+(set! text "Il est ambitieux, courageux et réaliste.") ; neut_parl_s02_0397
+(dSayText text)

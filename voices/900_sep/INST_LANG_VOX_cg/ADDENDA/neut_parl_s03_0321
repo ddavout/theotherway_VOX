@@ -1,0 +1,9 @@
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("juges_NOM" NOM ((("zh" "y")0)(("zh" ae) 0))))
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("avocats_NOM" NOM (((z "a") 0) (("v" "oh") 0) (("k" "a") 0)))); LIA
+(lex.add.entry '("aux_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("greffiers_NOM" NOM ((("g" "rh" "e") 0) (("f" "j" "e") 0))))
+
+
+(dSayText "Aux juges, aux avocats, aux greffiers ?") ; neut_parl_s03_0321

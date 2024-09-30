@@ -1,0 +1,11 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("changement_NOM" "NOM" ((("sh" "ahn" "zh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("climatique_ADJ" "ADJ" ((("k" "l" "i") 0) (("m" "a") 0) ((t i k) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("mesure_NOM" "NOM" ((("m" "ae") 0) (("z" "y" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("identifiée_VER" VER ((("z" "i") 0) (("d" "ahn") 0) (("t" "i") 0) (("f" "j" "e") 0))))
+
+(dSayText "Le changement climatique est la mesure la plus identifiée.") ; neut_parl_s03_0533

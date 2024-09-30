@@ -1,0 +1,9 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("amendements_NOM" "NOM" (((z "a") 0) (("m" "ahn" d) 0) (("m" "ahn") 0)))); LIA
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0)))); no LIA
+(lex.add.entry '("été_VER" "VER" (((t "e") 0) (("t" "e") 0)))); LIA
+(lex.add.entry '("malheureusement_ADV" "ADV" ((("m" "a") 0) (("l" "eu") 0) (("rh" "eu" "z") 0) (("m" "ahn") 0))))
+(lex.add.entry '("rejetés_ADJ" "ADJ" ((("rh" "ae" zh) 0) (("t" "e") 0))))
+(set! text "ces amendements ont été malheureusement rejetés.") ; 
+
+(dSayText text); neut_parl_s01_0215

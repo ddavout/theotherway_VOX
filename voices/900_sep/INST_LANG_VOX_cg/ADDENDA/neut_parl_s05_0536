@@ -1,0 +1,12 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("indéniable_ADJ" "ADJ" ((("ehn") 0) (("d" "e") 0) (("n" "j" "a")0) (("b" "l" ae) 0))))
+(lex.add.entry '("sinon_CON" "CON" ((("s" "i") 0) (("n" "ohn") 0))))
+(lex.add.entry '("toutes_ADJ" ADJ ((("t" "u" "t") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("dérives_NOM" NOM ((("d" "e") 0) (("rh" "i" "v") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("possibles_ADJ" ADJ ((("p" "oh") 0) (("s" "i")0) (("b" "l" ae) 0))))
+
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "C'est indéniable, sinon, toutes les dérives sont possibles.") ; neut_parl_s05_0536

@@ -1,0 +1,8 @@
+(lex.add.entry '("même_ADV" "ADV" ((("m" "eh" "m") 0))))
+(lex.add.entry '("chassaigne_NAM" "NAM" (((sh a) 0) ((s eh jg) 0))))
+(lex.add.entry '("n_aurait_AUX" AUX ((("n" "oh") 0) (("rh" "eh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("osé_VER" VER ((("o") 0) (("z" "e") 0)))); no LIA
+
+(set! text "Même Chassaigne n'aurait pas osé !") ; 
+(dSayText text); neut_parl_s01_0425

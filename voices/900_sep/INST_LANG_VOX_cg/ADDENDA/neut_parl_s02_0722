@@ -1,0 +1,11 @@
+(lex.add.entry '("Aucun_PRO:ind" PRO:ind ((("o") 0) (("k" "oen") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("handicaps_NOM" NOM ((("ahn") 0) (("d" "i") 0) (("k" "a" p) 0)))); no LIA
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("manquait_VER" VER ((("m" "ahn") 0) (("k" "eh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0)))); LIA
+(lex.add.entry '("l_appel_NOM" "NOM" (((l "a") 0) (("p" "eh" "l") 0))))
+
+(set! text "Aucun de ces handicaps ne manquait à l'appel !") ; neut_parl_s02_0722
+(dSayText text)

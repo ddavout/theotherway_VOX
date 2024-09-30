@@ -1,0 +1,14 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("souhaite_VER" "VER" ((("s" "w" "eh" "t") 0))))
+(lex.add.entry '("vraiment_ADV" "ADV" ((("v" "rh" "eh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0)))); no LIA
+(lex.add.entry '("réponse_NOM" "NOM" ((("rh" "e") 0) (("p" "ohn" "s") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("moment_NOM" "NOM" ((("m" "oh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0) ((a) 0 )))); BUG
+(lex.add.entry '("un_autre_ADJ" "ADJ" ((("oen")0)((n "o")0) (("t" "rh" ae) 0))))
+
+
+(set! text "Je souhaite vraiment une réponse à un moment ou un autre.") ; neut_parl_s02_0215
+(dSayText text)

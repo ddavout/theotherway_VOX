@@ -1,0 +1,11 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("enfants_NOM" NOM (((z "ahn") 0) (("f" "ahn") 0)))); LIA
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0)))); no LIA
+(lex.add.entry '("souvent_ADV" "ADV" ((("s" "u") 0) (("v" "ahn") 0))))
+(lex.add.entry '("fait_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("guerre_NOM" "NOM" ((("g" "eh" "rh") 0))))
+(lex.add.entry '("d_Algérie_NAM" NAM (((d "a" "l") 0) (("zh" "e") 0) (("rh" "i") 0))))
+
+(set! text "Ces enfants ont souvent fait la guerre d'Algérie.") ; neut_parl_s03_0456
+(dSayText text)

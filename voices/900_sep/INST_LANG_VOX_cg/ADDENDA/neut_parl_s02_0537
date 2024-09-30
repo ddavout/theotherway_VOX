@@ -1,0 +1,10 @@
+(lex.add.entry '("Or_CON" CON ((("oh" "rh") 0))))(lex.add.entry '("Or_NOM" NOM ((("oh" "rh") 0)))) ; bruit
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("voudrions_VER" VER ((("v" "u") 0) (("d" "rh" "i") 0) (("j" "ohn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("réponses_NOM" NOM ((("rh" "e") 0) (("p" "ohn") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((s "o") 0)))); no LIA
+(lex.add.entry '("fond_NOM" "NOM" ((("f" "ohn") 0))))
+
+(set! text "Or, nous voudrions des réponses au fond.") ; neut_parl_s02_0537
+(dSayText text)

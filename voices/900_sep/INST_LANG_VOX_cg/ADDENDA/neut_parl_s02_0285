@@ -1,0 +1,15 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("améliora_VER" VER (((n "a") 0) (("m" "e") 0) (("l" "j" "oh" rh ) 0) (("rh" "a") 0)))); LIA ; pe rh rh 
+(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("sûreté_NOM" "NOM" ((("s" "y" rh) 0) (("t" "e") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("sera_VER" "VER" ((("s" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("marge_NOM" "NOM" ((("m" "a" "rh")0) (("zh" ae) 0))))
+
+
+(set! text "On améliora encore la sûreté, mais ce sera à la marge.") ; neut_parl_s02_0285 ; 
+(dSayText text)

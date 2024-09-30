@@ -1,0 +1,11 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("attendait_VER" VER (((n "a") 0) (("t" "ahn") 0) (("d" "eh") 0)))); LIA
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("suite_NOM" "NOM" ((("s" "hw" i ) 0))))
+(lex.add.entry '("avec_PRE" "PRE" (((t "a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("gourmandise_NOM" "NOM" ((("g" "u" "rh") 0) (("m" "ahn") 0) (("d" "i")0) (("z" ae) 0))))
+
+
+(set! text "on attendait donc la suite avec gourmandise.") ; neut_parl_s02_0273
+(dSayText text)

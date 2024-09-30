@@ -1,0 +1,17 @@
+(lex.add.entry '("certains_PRO:ind" PRO:ind ((("s" "eh" "rh") 0) (("t" "ehn") 0)))); confusion
+(lex.add.entry '("certains_ADJ" ADJ ((("s" "eh" "rh") 0) (("t" "ehn") 0))))
+
+(lex.add.entry '("certains" nil ((("s" "eh" "rh") 0) (("t" "ehn") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0)))) ; non LIA
+(lex.add.entry '("pu_VER" "VER" ((("p" "y") 0))))
+(lex.add.entry '("suggérer_VER" VER ((("s" "y" g) 0) (("zh" "e") 0) (("rh" "e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("rédaction_NOM" "NOM" ((("rh" "e") 0) (("d" "a" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("d_un_ART:ind" ART:ind (((d "oen") 0))))
+(lex.add.entry '("livre_NOM" "NOM" ((("l" "i" "v" "rh") 0))))
+(lex.add.entry '("blanc_ADJ" "ADJ" ((("b" "l" "ahn") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+
+
+(set! text "Certains ont pu suggérer la rédaction d'un Livre blanc européen.") ; neut_parl_s01_0035
+(dSayText text)

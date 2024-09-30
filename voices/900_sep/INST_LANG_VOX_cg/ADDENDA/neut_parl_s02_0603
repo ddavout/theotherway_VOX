@@ -1,0 +1,9 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("salariés_NOM" NOM ((("s" "a") 0) (("l" "a") 0) (("rh" "j" "e") 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_ont_VER" "VER" (((n "ohn") 0))))
+(lex.add.entry '("vu_VER" "VER" ((("v" "y") 0))))
+(lex.add.entry '("aucun_ADJ:ind" "ADJ:ind" ((("o") 0) (("k" "oen") 0))))
+(lex.add.entry '("changement_NOM" "NOM" ((("sh" "ahn" "zh") 0) (("m" "ahn") 0))))
+
+(dSayText "Les salariés n'ont vu, aucun changement.") ; neut_parl_s02_0603

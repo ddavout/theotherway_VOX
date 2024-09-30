@@ -1,0 +1,7 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("concurrence_NOM" "NOM" ((("k" "ohn") 0) (("k" "y") 0) (("rh" "ahn" "s") 0))))
+(lex.add.entry '("déloyale_ADJ" "ADJ" ((("d" "e") 0) (("l" "w" "a") 0) (("j" "a")0) (("l" ae) 0))))
+(dSayText "C'est de la concurrence déloyale !") ; neut_parl_s04_0007

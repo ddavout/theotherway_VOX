@@ -1,0 +1,8 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((z "oen") 0)))); LIA
+(lex.add.entry '("geste_NOM" "NOM" ((("zh" "eh" "s") 0))))
+(lex.add.entry '("anodin_ADJ" "ADJ" ((("t" "a") 0) (("n" "oh") 0) (("d" "ehn") 0))))
+
+(set! text "Ce n'est pas un geste anodin.") ; neut_parl_s04_0224
+(dSayText text)

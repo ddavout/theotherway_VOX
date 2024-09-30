@@ -1,0 +1,8 @@
+(lex.add.entry '("Pourquoi_PRO:int" PRO:int ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("faisons_VER" VER ((("f" "ae") 0) (("z" "ohn") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("réforme_NOM" "NOM" ((("rh" "e") 0) (("f" "oh" "rh")0) (("m" ae) 0))))
+
+
+(dSayText "Pourquoi faisons-nous cette réforme ?") ; emph_parl_s02_0033

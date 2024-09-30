@@ -1,0 +1,11 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("vigueur_NOM" "NOM" ((("v" "i") 0) (("g" "oe" "rh") 0))))
+(lex.add.entry '("satisfait_ADJ" ADJ ((("s" "a") 0) (("t" "i" "s") 0) (("f" "eh") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("attentes_NOM" NOM (((z "a") 0) (("t" "ahn" "t") 0))))
+
+(set! text "Le droit en vigueur satisfait donc ces attentes.") ; neut_parl_s05_0031
+(dSayText text)

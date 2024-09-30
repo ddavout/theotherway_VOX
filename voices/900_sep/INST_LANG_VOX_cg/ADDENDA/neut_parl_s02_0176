@@ -1,0 +1,17 @@
+(lex.add.entry '("car_CON" "CON" ((("k" "a" "rh") 0))))
+(lex.add.entry '("car_NOM" "NOM" ((("k" "a" "rh") 0)))); confusion
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("jouons_VER" VER ((("zh" "u") 0) (("ohn") 0))))
+(lex.add.entry '("pleinement_ADV" "ADV" ((("p" "l" "eh" "n") 0) (("m" "ahn") 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("rôle_NOM" "NOM" ((("rh" "o" "l") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("parlementaire_NOM" "NOM" ((("p" "a" "rh") 0) (("l" "ae") 0) (("m" "ahn") 0) (("t" "eh" "rh") 0))))
+
+(set! text "Car c'est par notre travail que nous jouons pleinement notre rôle de parlementaire.") ; neut_parl_s02_0176
+(dSayText text)

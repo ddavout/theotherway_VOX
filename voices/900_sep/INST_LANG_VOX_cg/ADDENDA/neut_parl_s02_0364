@@ -1,0 +1,17 @@
+(lex.add.entry '("seul_ADJ" "ADJ" ((("s" "oe" "l") 0))))
+(lex.add.entry '("seul_NOM" "NOM" ((("s" "oe" "l") 0))))
+(lex.add.entry '("l_esclave_ADJ" "ADJ" (((l "eh" "s") 0) (("k" "l" "a")0) (("v" ae) 0))))
+(lex.add.entry '("l_esclave_NOM" "NOM" (((l "eh" "s") 0) (("k" "l" "a")0) (("v" ae) 0)))); confusion possible
+
+
+(lex.add.entry '("seul_ADJ" "ADJ" ((("s" "oe" "l") 0))))
+(lex.add.entry '("l_esclave" nil (((l "eh" "s") 0) (("k" "l" "a")0) (("v" ae) 0))))
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s )0) ((t rh ae) 0))))
+(lex.add.entry '("dit_VER" "VER" ((("d" "i") 0))))
+(lex.add.entry '("toujours_ADV" ADV ((("t" "u") 0) (("zh" "u" "rh") 0))))
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+
+(set! text "Seul l'esclave, madame la ministre, dit toujours oui.") ; neut_parl_s02_0364
+(dSayText text)

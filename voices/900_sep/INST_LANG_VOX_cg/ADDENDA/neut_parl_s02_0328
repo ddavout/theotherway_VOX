@@ -1,0 +1,11 @@
+(lex.add.entry '("malgré_PRE" "PRE" ((("m" "a" "l") 0) (("g" "rh" "e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("faible_ADJ" "ADJ" ((("f" "eh")0) ((b l ae) 0))))
+(lex.add.entry '("participation_NOM" "NOM" ((("p" "a" "rh") 0) (("t" "i") 0) (("s" "i") 0) (("p" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("jeudi_NOM" "NOM" ((("zh" "eu") 0) (("d" "i") 0))))
+(lex.add.entry '("soir_NOM" "NOM" ((("s" "w" "a" "rh") 0))))
+
+(set! text "malgré la faible participation de ce jeudi soir.") ; neut_parl_s02_0328
+(dSayText text)

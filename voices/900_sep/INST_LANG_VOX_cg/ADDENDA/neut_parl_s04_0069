@@ -1,0 +1,8 @@
+(lex.add.entry '("comment_CON" "CON" ((("k" "oh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("est-il_VER" "VER" ((("eh") 0)(("t" "i" l) 0))))
+(lex.add.entry '("construit_VER" "VER" ((("k" "ohn" "s") 0) (("t" "rh" "hw" i) 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("lamour_NAM" "NAM" (((l a) 0) ((m u rh) 0))))
+
+(set! text "Comment est-il construit, monsieur Lamour ?") ; neut_parl_s04_0069
+(dSayText text)

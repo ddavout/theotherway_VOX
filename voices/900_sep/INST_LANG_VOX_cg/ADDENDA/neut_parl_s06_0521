@@ -1,0 +1,15 @@
+(lex.add.entry '("Elles_PRO:per" PRO:per ((("eh" "l") 0))))
+(lex.add.entry '("doivent_VER" VER ((("d" "w" "a" "v") 0))))
+(lex.add.entry '("demeuré_VER" VER ((("d" "ae") 0) (("m" "oe") 0) (("rh" "e") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("exception_NOM" "NOM" ((("eh" "k") 0) (("s" "e" p) 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("même_ADJ" "ADJ" ((("m" "eh" "m") 0))))
+(lex.add.entry '("titre_NOM" "NOM" ((("t" "i")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("gares_NOM" NOM ((("g" "a" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("voyageurs_NOM" NOM ((("v" "w" "a") 0) (("j" "a") 0) (("zh" "oe" "rh") 0))))
+
+(dSayText "Elles doivent demeurer une exception, au même titre que les gares de voyageurs.") ; neut_parl_s06_0521

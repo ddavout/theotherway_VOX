@@ -1,0 +1,18 @@
+; 0.6112211815225708 seconds de silence entre noyé et et  
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("suis_VER" "VER" (((s hw i) 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("ma_ADJ:pos" "ADJ:pos" ((("m" "a") 0))))
+(lex.add.entry '("part_NOM" "NOM" ((("p" "a" "rh") 0))))
+(lex.add.entry '("noyé_VER" "VER" ((("n" "w" "a") 0) (("j" "e") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
+(lex.add.entry '("comprends_VER" VER ((("k" "ohn") 0) (("p" "rh" "ahn") 0))))
+(lex.add.entry '("toujours_ADV" ADV ((("t" "u") 0) (("zh" "u" "rh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("fonctionnement_NOM" NOM ((("f" "ohn" "k") 0) (("s" "j" "oh" "n") 0) (("m" "ahn") 0))))
+
+(set! text "Je suis, pour ma part, noyé, et je n'en comprends toujours pas le fonctionnement.") ; neut_parl_s05_0297
+(dSayText text)

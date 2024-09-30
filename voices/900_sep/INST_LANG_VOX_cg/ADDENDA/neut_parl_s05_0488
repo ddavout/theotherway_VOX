@@ -1,0 +1,11 @@
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("accordé_VER" VER ((("a") 0) (("k" "oh" "rh") 0) (("d" "e") 0))))
+(lex.add.entry '("moi_PRO:per" "PRO:per" ((("m" "w" "a") 0))))
+(lex.add.entry '("qu_CON" "CON" nil))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("existe_VER" "VER" ((("eh" "g") 0) (("z" "i" "s" "t") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("dispositifs_NOM" NOM ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("favorables_ADJ" ADJ ((("f" "a") 0) (("v" "oh") 0) (("rh" "a")0) (("b" "l" ae) 0))))
+
+(dSayText "Aussi, accordez-moi qu'il existe des dispositifs favorables.") ; neut_parl_s05_0488

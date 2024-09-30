@@ -1,0 +1,11 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("m" "ohn") 0))))
+(lex.add.entry '("veut_VER" "VER" ((("v" "eu") 0))))
+(lex.add.entry '("quand_CON" "CON" ((("k" "ahn") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" (((t "ohn") 0)))); LIA
+(lex.add.entry '("veut_VER" "VER" ((("v" "eu") 0))))
+
+(set! text "Ce n'est pas, comme on veut, quand on veut.") ; neut_parl_s04_0376
+(dSayText text)

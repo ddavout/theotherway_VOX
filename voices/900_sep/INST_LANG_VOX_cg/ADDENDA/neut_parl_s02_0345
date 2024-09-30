@@ -1,0 +1,14 @@
+(lex.add.entry '("cependant_ADV" "ADV" ((("s" "ae") 0) (("p" "ahn") 0) (("d" "ahn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("critères_NOM" NOM ((("k" "rh" "i") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("fixés_VER" VER ((("f" "i" "k") 0) (("s" "e") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("attribution_NOM" "NOM" ((("a") 0) (("t" "rh" "i") 0) (("b" "y") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("subventions_NOM" NOM ((("s" "y" "b") 0) (("v" "ahn") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("sont_AUX" AUX ((("s" "ohn") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("restrictifs_VER" VER ((("rh" "eh" "s") 0) (("t" "rh" "i" "k") 0) (("t" "i" "f") 0))))
+
+(dSayText "Cependant, les critères fixés pour l'attribution des subventions, sont très restrictifs.") ; neut_parl_s02_0345

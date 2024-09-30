@@ -1,0 +1,14 @@
+(lex.add.entry '("j_aurais_VER" VER ((("zh" "oh") 0) (("rh" "eh") 0))))
+(lex.add.entry '("préféré_NOM" NOM ((("p" "rh" "e") 0) (("f" "e") 0) (("rh" "e") 0))))
+(lex.add.entry '("qu_avant_VER" VER ((("k" "a") 0) (("v" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("décider_VER" VER ((("d" "e") 0) (("s" "i") 0) (("d" "e") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("ayons_VER" VER (((z "eh") 0) (("j" "ohn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("éléments_NOM" NOM (((z "e") 0) (("l" "e") 0) (("m" "ahn") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+
+(dSayText "J'aurais préféré qu'avant de décider, nous ayons les éléments pour ce faire.") ; neut_parl_s04_0325

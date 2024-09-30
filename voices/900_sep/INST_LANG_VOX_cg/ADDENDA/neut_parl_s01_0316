@@ -1,0 +1,9 @@
+(lex.add.entry '("l_argument_NOM" "NOM" (((l "a" "rh") 0) (("g" "y") 0) (("m" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_héritage_NOM" "NOM" (((l "e") 0) (("rh" "i") 0) (("t" "a")0) (("zh" "ae") 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("recevable_ADJ" ADJ (((rh ae) 0) ((s ae) 0) ((v a) 0) ((b l ae) 0))))
+
+
+(set! text "l'argument de l'héritage n'est pas recevable.") ; 
+(dSayText text); neut_parl_s01_0316

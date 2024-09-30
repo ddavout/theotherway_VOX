@@ -1,0 +1,19 @@
+(lex.add.entry '("bref_ADV" "ADV" ((("b" "rh" "eh" "f") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("crée_VER" "VER" ((("k" "rh" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("croissance_NOM" "NOM" ((("k" "rh" "w" "a") 0) (("s" "ahn" "s") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("emploi_NOM" "NOM" ((("ahn") 0) (("p" "l" "w" "a") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("améliore_VER" "VER" ((("a") 0) (("m" "eh") 0) (("l" "j" "oh" "rh") 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("qualité_NOM" "NOM" ((("k" "a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("vie_NOM" "NOM" ((("v" "i") 0))))
+
+
+(dSayText "Bref, on crée de la croissance, de l'emploi, et on améliore notre qualité de vie.") ; neut_parl_s03_0553

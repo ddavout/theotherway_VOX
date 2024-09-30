@@ -1,0 +1,10 @@
+(lex.add.entry '("ceux_là_nil" nil ((("s" "eu") 0) (("l" "a") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u" n) 0))))
+(lex.add.entry '("ne_ADV" "ADV" nil))
+(lex.add.entry '("les_PRO:per" "PRO:per" ((("l" "e") 0))))
+(lex.add.entry '("reverrons_VER" VER ((("rh" "ae") 0) (("v" "eh") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m eh) 0))))
+
+; POS de ceux_la 
+(dSayText "Ceux-là, nous ne les reverrons jamais.") ; neut_parl_s04_0532
+

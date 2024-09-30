@@ -1,0 +1,8 @@
+; dans moche
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("quel_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0))))
+(lex.add.entry '("monde_NOM" "NOM" ((("m" "ohn" "d") 0))))
+(lex.add.entry '("vivez-vous_VER" VER ((("v" "i") 0) (("v" "e") 0)((v u) 0))))
+
+(set! text "Dans quel monde vivez-vous ?") ; neut_parl_s03_0487
+(dSayText text)

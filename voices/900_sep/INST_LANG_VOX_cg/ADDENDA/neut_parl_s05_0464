@@ -1,0 +1,15 @@
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("premier_ADJ" "ADJ" ((("p" "rh" "ae") 0) (("m" "j" "e") 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s)0) ((t rh ae) 0))))
+(lex.add.entry '("mieux_ADV" "ADV" ((("m" "j" "eu") 0))))
+(lex.add.entry '("vaut_VER" "VER" (((v o) 0))))
+(lex.add.entry '("perdre_VER" "VER" ((("p" "eh" "rh")0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" (((d rh "y" "n") 0))))
+(lex.add.entry '("élection_NOM" "NOM" ((("e") 0) (("l" "eh" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("perdrehh_VER" "VER" ((("p" "eh" "rh")0) (("d" "rh" ae) 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("âme_NOM" "NOM" ((("a" "m") 0))))
+
+(dSayText "Monsieur le Premier ministre, mieux vaut perdre une élection, que perdrehh son âme.") ; neut_parl_s05_0464

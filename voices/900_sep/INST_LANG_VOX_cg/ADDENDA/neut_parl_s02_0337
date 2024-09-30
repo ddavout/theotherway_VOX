@@ -1,0 +1,15 @@
+(lex.add.entry '("être_VER" VER (((z "eh") 0) (("t" "rh" ae) 0)))); LIA
+(lex.add.entry '("être_PRE" PRE (((z "eh") 0) (("t" "rh" ae) 0)))); confusion !!
+(lex.add.entry '("rabat_joie_ADJ" ADJ ((("rh" "a") 0) (("b" "a") 0) (("zh" "w" "a") 0))))
+(lex.add.entry '("rabat_joie_NOM" NOM ((("rh" "a") 0) (("b" "a") 0) (("zh" "w" "a") 0))))
+
+
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("veux_VER" "VER" ((("v" "eu") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("être" nil (((z "eh") 0) (("t" "rh" ae) 0)))); LIA
+(lex.add.entry '("rabat_joie" nil ((("rh" "a") 0) (("b" "a") 0) (("zh" "w" "a") 0))))
+
+(set! text "Je ne veux pas être rabat-joie.") ; neut_parl_s02_0337
+(dSayText text)

@@ -1,0 +1,12 @@
+(lex.add.entry '("jamais_ADV" "ADV" ((("zh" "a") 0) ((m eh) 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_a_AUX" AUX ((("n" "a") 0))))
+(lex.add.entry '("construit_VER" "VER" ((("k" "ohn" "s") 0) (("t" "rh" "hw" i) 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("logements_NOM" NOM ((("l" "oh" "zh") 0) (("m" "ahn") 0))))
+
+(set! list_exclus*-> (append (list "jamais") list_exclus*->_default))
+(dSayText "Jamais on n'a construit, aussi peu de logements.") ; neut_parl_s03_0289

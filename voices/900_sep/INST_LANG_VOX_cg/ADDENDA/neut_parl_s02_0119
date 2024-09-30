@@ -1,0 +1,9 @@
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("option_NOM" "NOM" ((("oh" "p") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("garderons_VER" VER ((("g" "a" "rh") 0) (("d" "ae") 0) (("rh" "ohn") 0))))
+
+(set! text "C'est cette option que nous garderons.") ; neut_parl_s02_0119
+(dSayText text)

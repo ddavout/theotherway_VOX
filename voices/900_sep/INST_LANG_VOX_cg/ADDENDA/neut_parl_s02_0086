@@ -1,0 +1,10 @@
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("Greff_NAM" NAM ((("g" "rh" "eh" "f") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("eh") 0))))
+(lex.add.entry '("partie_VER" "VER" ((("p" "a" "rh") 0) (("t" "i")0) ((j ae) 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("dommage_NOM" "NOM" ((("d" "oh") 0) (("m" "a")0) (("zh" ae) 0))))
+
+
+(set! text "Madame Greff est partie, c'est dommage !") ; neut_parl_s02_0086
+(dSayText text)

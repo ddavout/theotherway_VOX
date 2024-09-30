@@ -1,0 +1,12 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("est_VER" "VER" (((l "e") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn") 0))))
+(lex.add.entry '("urgent_ADJ" "ADJ" (((k "y" "rh") 0) (("zh" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("renoué_VER" VER ((("rh" "ae") 0) (("n" "u") 0) ((w "e") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("croissance_NOM" "NOM" ((("k" "rh" "w" "a") 0) (("s" "ahn" "s") 0))))
+(lex.add.entry '("économique_ADJ" "ADJ" ((("e") 0) (("k" "oh") 0) (("n" "oh") 0) (("m" "i")0) (("k" ae) 0))))
+
+(dSayText "Il est donc urgent de renouer avec la croissance économique.") ; neut_parl_s05_0127

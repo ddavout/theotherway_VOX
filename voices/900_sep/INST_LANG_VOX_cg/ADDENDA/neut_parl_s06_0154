@@ -1,0 +1,18 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("seconde_ADJ" ADJ ((("s" "ae") 0) (("g" "ohn" "d") 0))))
+(lex.add.entry '("garantie_NOM" "NOM" ((("g" "a") 0) (("rh" "ahn") 0) (("t" "i") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("respect_NOM" "NOM" ((("rh" "eh" "s") 0) (("p" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("parole_NOM" "NOM" ((("p" "a") 0) (("rh" "oh" "l") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("situation_NOM" "NOM" ((("s" "i") 0) (("t" "hw" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("malade_NOM" "NOM" ((("m" "a") 0) (("l" "a")0) (("d" "ae") 0))))
+
+(dSayText "La seconde garantie, c'est le respect de la parole et de la situation du malade.") ; neut_parl_s06_0154

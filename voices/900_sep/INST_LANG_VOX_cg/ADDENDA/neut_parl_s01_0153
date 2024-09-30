@@ -1,0 +1,10 @@
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ont_AUX" "AUX" (((z "ohn") 0)))); LIA
+(lex.add.entry '("ont_VER" "VER" (((z "ohn") 0)))); LIA
+(lex.add.entry '("fait_VER" "VER" ((("f" "eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0)))); no LIA
+(lex.add.entry '("travail_NOM" "NOM" ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("formidable_ADJ" "ADJ" ((("f" "oh" "rh") 0) (("m" "i") 0) (("d" "a") 0) (("b" "l" ae) 0))))
+
+(set! text "ils ont fait un travail formidable.") ; 
+(dSayText text); neut_parl_s01_0153

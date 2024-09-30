@@ -1,0 +1,19 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("bois_NOM" NOM ((("b" "w" "a") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("chauffage_NOM" "NOM" (((sh o) 0) ((f a zh) 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("ancien_ADJ" "ADJ" ((("ahn") 0) (("s" "j" "ehn") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("usage_NOM" "NOM" ((("y") 0) (("z" "a" "zh") 0))))
+(lex.add.entry '("industriel_ADJ" "ADJ" ((("ehn") 0) (("d" "y" "s") 0) (("t" "rh" "i") 0) (("j" "eh" "l") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("récent_ADJ" "ADJ" ((("rh" "e") 0) (("s" "ahn") 0))))
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(set! list_exclus*-> (append (list "bois" ) list_exclus*->_default)) ; safe
+(dSayText "Le bois, est un chauffage très ancien, mais son usage industriel est beaucoup plus récent.") ; neut_parl_s04_0481

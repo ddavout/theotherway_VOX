@@ -1,0 +1,11 @@
+(lex.add.entry '("chacun_PRO:ind" "PRO:ind" ((("sh" "a") 0) (("k" "oen") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0)))); no LIA
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("entendu_VER" "VER" (((n "ahn") 0) (("t" "ahn") 0) (("d" "y") 0)))); LIA
+(lex.add.entry '("favorable_ADJ" "ADJ" ((("f" "a") 0) (("v" "oh") 0) (("rh" "a" "b" "l") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("parité_NOM" "NOM" ((("p" "a") 0) (("rh" "i") 0) (("t" "e") 0))))
+
+(set! text "chacun est, bien entendu, favorable à la parité.") ; 
+(dSayText text); neut_parl_s01_0159

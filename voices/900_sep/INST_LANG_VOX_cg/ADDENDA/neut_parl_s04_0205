@@ -1,0 +1,9 @@
+(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
+(lex.add.entry '("entendez-vous_VER" VER (((n "ahn") 0) (("t" "ahn") 0) (("d" "e") 0)((v u) 0)))); LIA
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("rumeur_NOM" "NOM" ((("rh" "y") 0) (("m" "oe" "rh") 0))))
+
+
+(set! text "N'en entendez-vous pas la rumeur ?") ; neut_parl_s04_0205
+(dSayText text)

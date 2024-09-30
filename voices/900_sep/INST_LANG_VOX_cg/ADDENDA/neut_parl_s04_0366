@@ -1,0 +1,21 @@
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("est_VER" "VER" ((("t" "e") 0))))
+(lex.add.entry '("parfaitement_ADV" "ADV" ((("p" "a" "rh") 0) (("f" "eh" "t") 0) (("m" "ahn") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("organisé_ADJ" "ADJ" ((("oh" "rh") 0) (("g" "a") 0) (("n" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("pratique_VER" VER ((("p" "rh" "a") 0) (("t" "i" "k") 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("cas_NOM" NOM ((("k" "a") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("présentent_VER" VER ((("p" "rh" "e") 0) (("z" "ahn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("à" PRE (((t a)0))))
+
+; bug tout
+(set! list_exclus*-> (append (list "tout" ) list_exclus*->_default))
+(set! never_exception_list (append (list "bien" ) never_exception_list_default))
+
+(dSayText "Tout est parfaitement bien organisé et, en pratique, deux cas se présentent à nous.") ; neut_parl_s04_0366

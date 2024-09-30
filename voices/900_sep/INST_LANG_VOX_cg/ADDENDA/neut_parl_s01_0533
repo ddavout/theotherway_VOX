@@ -1,0 +1,15 @@
+; TODO VER-en token
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" (((s "k" "j" "e") 0))))
+(lex.add.entry '("est_VER" "VER" nil))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("financement_NOM" "NOM" ((("f" "i") 0) (("n" "ahn") 0) ((s "m" "ahn") 0))))
+(lex.add.entry '("parlon_VER" VER ((("p" "a" "rh") 0) (("l" "ohn") 0))))
+(lex.add.entry '("z_en_PRE" "PRE" (((z ahn) 0))))
+(lex.add.entry '("parlons_en_VER" VER ((("p" "a" "rh") 0) (("l" "ohn") 0)((z ahn)0))))
+(lex.add.entry '("parlons-en_VER" VER ((("p" "a" "rh") 0) (("l" "ohn") 0)((z ahn)0))))
+
+
+(set! text "pour ce qui est du financement, parlons-en !") ; 
+(dSayText text); neut_parl_s01_0533

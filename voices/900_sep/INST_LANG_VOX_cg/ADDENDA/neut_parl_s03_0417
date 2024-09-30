@@ -1,0 +1,8 @@
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("lectures_NOM" NOM ((("l" "eh" "k") 0) (("t" "y" "rh") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((t ahn) 0) ((n e) 0) ((f eh) 0)))); LIA
+(lex.add.entry '("possibles_ADJ" ADJ ((("p" "oh") 0) (("s" "i")0) (("b" "l" "ae") 0))))
+
+(set! text "Deux lectures sont en effet possibles.") ; neut_parl_s03_0417
+(dSayText text)

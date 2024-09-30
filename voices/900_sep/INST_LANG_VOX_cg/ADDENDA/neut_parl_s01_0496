@@ -1,0 +1,15 @@
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("mémoire_NOM" "NOM" ((("m" "e") 0) (("m" "w" "a" "rh") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("crois_VER" VER ((("k" "rh" "w" "a") 0))))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i) 0))))
+(lex.add.entry '("a_AUX" "AUX" (((l "a") 0))))
+(lex.add.entry '("a_VER" "VER" (((l "a") 0)))); confusion
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("ajouté_VER" "VER" ((("a") 0) (("zh" "u") 0) (("t" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("ségolène_NAM" "NAM" (((s e) 0) ((g oh) 0) ((l eh n) 0))))
+(lex.add.entry '("royal_NAM" "NAM" ((("rh" "w" "a") 0) (("j" "a" "l") 0))))
+
+(set! text "De mémoire, je crois qu'il a été ajouté par Ségolène Royal.") ; 
+(dSayText text); neut_parl_s01_0496

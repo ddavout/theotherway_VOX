@@ -1,0 +1,12 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("modèle_NOM" "NOM" ((("m" "oh") 0) (("d" "eh") 0))))
+(lex.add.entry '("allemand_ADJ" ADJ (((l "a" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("lui-même_PRO:per" "PRO:per" ((("l" "hw" i) 0)(("m" "eh" "m") 0))))
+(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
+(lex.add.entry '("sortira_VER" "VER" ((("s" "oh" "rh") 0) (("t" "i") 0) (("rh" "a") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("indemne_ADJ" "ADJ" (((z "ehn") 0) (("d" "eh")0) (("m" ae) 0)))); LIA
+
+
+(set! text "Le modèle allemand lui-même n'en sortira pas indemne.") ; neut_parl_s02_0163
+(dSayText text)

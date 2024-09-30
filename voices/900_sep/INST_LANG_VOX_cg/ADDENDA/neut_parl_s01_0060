@@ -1,0 +1,14 @@
+; ceux moche
+
+
+(lex.add.entry '("or_CON" CON ((("oh" "rh") 0))))
+(lex.add.entry '("ceux-ci_PRO:dem" "PRO:dem" ((("s" "eu" "s") 0))));
+(lex.add.entry '("incluent_VER" VER (((j "ehn") 0) (("k" "l" "y") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("liberté_NOM" "NOM" ((("l" "i") 0) (("b" "eh" "rh") 0) (("t" "e") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("mariage_NOM" "NOM" ((("m" "a") 0) (("rh" "j" "a") 0) (("zh" ae) 0))))
+
+
+(set! text "or, ceux-ci incluent la liberté du mariage.") ; neut_parl_s01_0060
+(dSayText text)

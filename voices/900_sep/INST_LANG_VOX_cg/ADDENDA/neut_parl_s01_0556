@@ -1,0 +1,11 @@
+(lex.add.entry '("moins_NOM" NOM ((("m" "w" "ehn") 0)))); confusion
+
+(lex.add.entry '("moins_ADV" ADV ((("m" "w" "ehn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("moyens_NOM" NOM ((("m" "w" "a") 0) (("j" "ehn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("plus_ADV" ADV (((p l y s)0))))
+(lex.add.entry '("d_inégalités_NOM" "NOM" (((d "i") 0) (("n" "e") 0) (("g" "a") 0) (("l" "i") 0) (("t" "e") 0))))
+
+(set! text "Moins de moyens, et plus d'inégalités !") ; 
+(dSayText text); neut_parl_s01_0556

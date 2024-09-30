@@ -1,0 +1,7 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("matraquage_NOM" "NOM" ((("m" "a") 0) (("t" "rh" "a") 0) (("k" "a" "zh") 0))))
+(lex.add.entry '("fiscal_ADJ" "ADJ" ((("f" "i" "s") 0) (("k" "a")0) (("l" ae) 0))))
+
+(dSayText "C'est du matraquage fiscal.") ; neut_parl_s02_0445

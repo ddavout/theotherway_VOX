@@ -1,0 +1,13 @@
+(lex.add.entry '("en_effet_ADV" "ADV" (((ahn) 0) ((n e) 0) ((f eh) 0))))
+(lex.add.entry '("aujourd_hui_ADV" "ADV" (((o) 0) ((zh u rh) 0) ((d hw i) 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("données_NOM" NOM ((("d" "oh") 0) (("n" "e") 0))))
+(lex.add.entry '("appartiennent_VER" VER ((("a") 0) (("p" "a" "rh") 0) (("t" "j" "eh" "n") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((t "o") 0)))); LIA
+(lex.add.entry '("client_NOM" "NOM" ((("k" "l" "i") 0) ((j "ahn") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0)))); no LIA
+(lex.add.entry '("fournisseur_NOM" "NOM" ((("f" "u" "rh") 0) (("n" "i") 0) (("s" "oe" "rh") 0))))
+
+(set! text "En effet, aujourd'hui, ces données appartiennent au client, non au fournisseur.") ; neut_parl_s03_0630
+(dSayText text)

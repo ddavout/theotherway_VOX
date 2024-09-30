@@ -1,0 +1,13 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("nouveau_NOM" "NOM" ((("n" "u") 0) (("v" "o") 0))))
+(lex.add.entry '("présenté_VER" "VER" ((("p" "rh" "e") 0) (("z" "ahn") 0) (("t" "e") 0))))
+(lex.add.entry '("aujourd_hui_ADV" "ADV" (((o) 0) ((zh oh rh) 0) ((d hw i) 0))))
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+    ;(set! list_exclus*-> (append (list "xx" ) list_exclus*->_default))
+(dSayText "C'est pourquoi il est à nouveau présenté aujourd'hui.") ; neut_parl_s06_0090

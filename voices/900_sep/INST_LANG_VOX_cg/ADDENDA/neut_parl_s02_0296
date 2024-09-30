@@ -1,0 +1,9 @@
+(lex.add.entry '("Voyez_VER" VER ((("v" "w" "a") 0) (("j" "e") 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("ça_PRO:dem" "PRO:dem" ((("s" "a") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("servi_VER" "VER" ((("s" "eh" "rh") 0) (("v" "i") 0))))
+
+
+(set! text "Voyez comme ça a servi !") ; neut_parl_s02_0296
+(dSayText text)

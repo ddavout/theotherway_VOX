@@ -1,0 +1,6 @@
+(lex.add.entry '("j_émets_VER" VER ((("zh" "e") 0) (("m" "eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("avis_NOM" NOM (((n "a") 0) (("v" "i") 0))))
+(lex.add.entry '("défavorable_ADJ" "ADJ" ((("d" "e") 0) (("f" "a") 0) (("v" "oh") 0) (("rh" "a")0) (("b" "l" ae) 0))))
+
+(dSayText "J'émets un avis défavorable.") ; neut_parl_s03_0385

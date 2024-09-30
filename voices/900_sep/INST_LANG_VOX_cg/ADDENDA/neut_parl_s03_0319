@@ -1,0 +1,9 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("formulation_NOM" "NOM" ((("f" "oh" "rh") 0) (("m" "y") 0) (("l" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("parè_VER" VER ((("p" "a") 0) (("rh" "eh") 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("trop_ADV" "ADV" ((("t" "rh" "o") 0))))
+(lex.add.entry '("générale_ADJ" "ADJ" ((("zh" "e") 0) (("n" "e") 0) (("rh" "a")0) (("l" ae) 0))))
+
+(dSayText "Cette formulation me paraît, beaucoup trop générale.") ; neut_parl_s03_0319

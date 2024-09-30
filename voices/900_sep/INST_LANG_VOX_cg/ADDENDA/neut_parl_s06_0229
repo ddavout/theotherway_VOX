@@ -1,0 +1,12 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("réalité_NOM" "NOM" ((("rh" "e") 0) (("a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_appelle_ADJ" ADJ ((("n" "a") 0) (("p" "eh" "l") 0))))
+(lex.add.entry '("ni_CON" "CON" ((("n" "i") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("fusion_NOM" "NOM" ((("f" "y") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("ni_CON" "CON" ((("n" "i") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("dissolution_NOM" "NOM" ((("d" "i") 0) (("s" "oh") 0) (("l" "y") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "Cette réalité n'appelle ni une fusion, ni une dissolution.") ; neut_parl_s06_0229

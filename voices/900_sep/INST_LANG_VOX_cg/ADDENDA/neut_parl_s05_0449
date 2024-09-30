@@ -1,0 +1,17 @@
+(lex.add.entry '("d_autres_ADJ:ind" "ADJ:ind" (((d  "o" "t" "rh") 0))))
+(lex.add.entry '("pays_NOM" "NOM" (((p e) 0) ((i) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("Autriche_NAM" NAM ((( o) 0) ((t rh i sh) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("allemagne_NAM" "NAM" (((a l) 0) ((m a)0) ((jg ae) 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("grèce_NAM" "NAM" ((("g" "rh" "eh")0) (("s" ae) 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("opposé_VER" "VER" ((("oh") 0) (("p" "o") 0) (("z" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("telles_ADJ:ind" ADJ:ind ((("t" "eh" "l") 0))))
+(lex.add.entry '("clauses_NOM" NOM ((("k" "l" "o")0) (("z" "ae") 0))))
+
+(set! never_exception_list (append (list "ont" ) never_exception_list_default))
+(dSayText "d'autres pays, l'Autriche, l'Allemagne ou la Grèce, ont opposé de telles clauses.") ; neut_parl_s05_0449

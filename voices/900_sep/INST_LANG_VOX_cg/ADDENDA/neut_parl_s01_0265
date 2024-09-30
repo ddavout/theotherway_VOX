@@ -1,0 +1,21 @@
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("maliens_NOM" NOM ((("m" "a") 0) (("l" "j" "ehn") 0)))) ; no LIA 
+(lex.add.entry '("trois_NOM" NOM ((("t" "rh" "w" "a") 0)))); confusion POS
+(lex.add.entry '("maliens_ADJ" ADJ ((("m" "a") 0) (("l" "j" "ehn") 0)))); no LIA confusion POS
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("belge_NOM" "NOM" ((("b" "eh" "l") 0) (("zh" "ae") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("un_PRO:ind" PRO:ind ((("oen") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("compatriotes_NOM" NOM ((("k" "ohn") 0) (("p" "a") 0) (("t" "rh" "i") 0) (("j" "oh") 0) (("t" "ae") 0))))
+(lex.add.entry '("y_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("ont_AUX" "AUX" (((j "ohn") 0))))
+(lex.add.entry '("perdu_VER" "VER" ((("p" "eh" "rh") 0) (("d" "y") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("vie_NOM" "NOM" ((("v" "i") 0))))
+
+; pos Malien
+(set! text "trois maliens, un belge et un de nos compatriotes y ont perdu la vie.") ; 
+(dSayText text); neut_parl_s01_0265
+

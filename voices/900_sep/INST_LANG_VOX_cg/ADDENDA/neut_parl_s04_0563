@@ -1,0 +1,11 @@
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("flux_NOM" "NOM" ((("f" "l" "y") 0))))
+(lex.add.entry '("annuel_ADJ" "ADJ" ((("a") 0) (("n" "hw" "eh")0) (("l" ae) 0)))); no lia
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("loin_d_CON" "CON" ((("l" "w" "ehn") 0))))
+(lex.add.entry '("d_être_VER" "VER" (((d_"eh")0)(( "t" "rh" ae) 0))))
+(lex.add.entry '("négligeable_ADJ" "ADJ" ((("n" "e") 0) (("g" "l" "i") 0) (("zh" "a")0) (("b" "l" ae) 0))))
+
+
+(set! text "Comme flux annuel, c'est loin d'être négligeable.") ; neut_parl_s04_0563
+(dSayText text)

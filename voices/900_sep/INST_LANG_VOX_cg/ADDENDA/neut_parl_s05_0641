@@ -1,0 +1,11 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("chiffres_NOM" NOM ((("sh" "i") 0) (("f" "rh" ae) 0))))
+(lex.add.entry '("que_PRO:rel" "PRO:rel" (((k ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("attendions_VER" VER (((z "a") 0) (("t" "ahn") 0) (("d" "j" "ohn") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((t "o") 0)))); LIA
+(lex.add.entry '("rendez_vous__NOM" "NOM" (((rh ahn) 0) ((d e) 0) ((v u) 0)))); homo confusion 
+
+(set! text "Les chiffres que nous attendions sont au rendez-vous_.") ; neut_parl_s05_0641
+(dSayText text)

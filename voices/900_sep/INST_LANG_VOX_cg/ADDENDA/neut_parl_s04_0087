@@ -1,0 +1,13 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("région_NOM" "NOM" ((("rh" "e") 0) (("zh" "j" "ohn") 0))))
+(lex.add.entry '("Centre_NAM" NAM ((("s" "ahn") 0) (("t" "rh" "ae") 0))))
+(lex.add.entry '("s_est_AUX" "AUX" (((s e) 0))))
+(lex.add.entry '("constituée_VER" "VER" ((("k" "ohn" "s") 0) (("t" "i") 0) (("t" "hw" "e") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("six_ADJ:num" "ADJ:num" (((s i) 0))))
+(lex.add.entry '("départements_NOM" NOM ((("d" "e") 0) (("p" "a" "rh") 0) (("t" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("orphelins_ADJ" ADJ (((z "oh" "rh") 0) (("f" "ae") 0) (("l" "ehn") 0)))); LIA
+
+; POS Centre VER
+(set! text "La région Centre s'est constituée avec six départements orphelins.") ; neut_parl_s04_0087
+(dSayText text)

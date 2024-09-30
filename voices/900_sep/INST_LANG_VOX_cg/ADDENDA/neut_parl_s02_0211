@@ -1,0 +1,9 @@
+(lex.add.entry '("naturellement_ADV" "ADV" ((("n" "a") 0) (("t" "y") 0) (("rh" "eh" l) 0) (("m" "ahn") 0))))
+(lex.add.entry '("ça_PRO:dem" "PRO:dem" ((("s" "a") 0))))
+(lex.add.entry '("allait_VER" VER ((("a") 0) (("l" "eh") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("marcher_VER" VER ((("m" "a" "rh") 0) (("sh" "e") 0))))
+
+
+(set! text "Naturellement, ça allait bien marcher.") ; neut_parl_s02_0211
+(dSayText text)

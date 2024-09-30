@@ -1,0 +1,11 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("a_AUX" "AUX" (((n "a") 0)))); LIA
+(lex.add.entry '("compris_VER" VER ((("k" "ohn") 0) (("p" "rh" "i") 0))))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("y_avait_VER" "VER" ((("j" "a") 0) (("v" "eh") 0))))
+(lex.add.entry '("quelque_ADV" ADV ((("k" "eh" "l") 0) (("k" "ae") 0))))
+(lex.add.entry '("peu_ADV" "ADV" ((("p" "eu") 0))))
+(lex.add.entry '("urgence_NOM" "NOM" ((("y" "rh") 0) (("zh" "ahn") 0) (("s" ae) 0))))
+
+(set! text "on a compris qu'il y avait quelque peu urgence.") ; neut_parl_s02_0370
+(dSayText text)

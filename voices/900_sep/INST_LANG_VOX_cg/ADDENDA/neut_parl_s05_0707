@@ -1,0 +1,11 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_est_VER" "VER" (((n e) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("ainsi_ADV" "ADV" ((("ehn") 0) (("s" "i") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "l" "a") 0))))
+(lex.add.entry '("fonctionne_VER" "VER" ((("f" "ohn" "k") 0) (("s" "j" "oh")0) (("n" ae) 0))))
+
+(set! never_exception_list (append (list "pas" ) never_exception_list_default))
+(dSayText "Ce n'est pas ainsi que cela fonctionne.") ; neut_parl_s05_0707

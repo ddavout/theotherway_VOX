@@ -1,0 +1,7 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("suis_VER" "VER" (((s hw i) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("naïf_ADJ" "ADJ" ((("n" "a") 0) (("i" "f") 0))))
+
+(dSayText "Je ne suis pas naïf.") ; neut_parl_s04_0291

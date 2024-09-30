@@ -1,0 +1,13 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("niveaux_NOM" "NOM" ((("n" "i") 0) (("v" "o") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("protection_NOM" "NOM" ((("p" "rh" "oh") 0) (("t" "eh" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("diffèrent_VER" VER ((("d" "i") 0) (("f" "eh" "rh") 0))))
+(lex.add.entry '("toutefois_ADV" ADV ((("t" "u" t) 0) (("f" "w" "a") 0))))
+(lex.add.entry '("selon_PRE" "PRE" ((("s" "ae") 0) (("l" "ohn") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("nature_NOM" "NOM" ((("n" "a") 0) (("t" "y" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("fichiers_NOM" NOM ((("f" "i") 0) (("sh" "j" "e") 0))))
+
+(dSayText "Les niveaux de protection diffèrent toutefois, selon la nature des fichiers.") ; neut_parl_s04_0321

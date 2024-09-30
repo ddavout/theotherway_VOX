@@ -1,0 +1,11 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("devrions_VER" VER ((("d" "ae") 0) (("v" "rh" "j" "ohn") 0))))
+(lex.add.entry '("être_VER" "VER" ((("eh" "t" "rh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("accord_NOM" "NOM" ((("a") 0) (("k" "oh" "rh") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("point_NOM" "NOM" ((("p" "w" "ehn") 0))))
+
+(set! list_exclus*-> (append (list "devrions") list_exclus*->_default))
+(dSayText "Nous devrions être d'accord sur ce point.") ; neut_parl_s04_0348

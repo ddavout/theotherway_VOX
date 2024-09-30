@@ -1,0 +1,9 @@
+(lex.add.entry '("Qui_PRO:int" PRO:int ((("k" "i") 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("lancé_VER" "VER" ((("l" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("plan_NOM" "NOM" ((("p" "l" "ahn") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+
+(dSayText "Qui l'a lancé au plan européen ?") ; emph_parl_s01_0158

@@ -1,0 +1,11 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("croissance_NOM" "NOM" ((("k" "rh" "w" "a") 0) (("s" "ahn")0) (("s" ae) 0))))
+(lex.add.entry '("malgré_PRE" "PRE" ((("m" "a" "l") 0) (("g" "rh" "e") 0))))
+(lex.add.entry '("votre_ADJ:pos" "ADJ:pos" (((v oh)0) ((t rh ae) 0))))
+(lex.add.entry '("optimisme_NOM" "NOM" ((("oh" "p") 0) (("t" "i") 0) (("m" "i" "s")0) (("m" ae) 0))))
+(lex.add.entry '("reste_VER" "VER" ((("rh" "eh" "s") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((t ahn) 0))))
+(lex.add.entry '("berne_NOM" "NOM" ((("b" "eh" "rh")0) (("n" ae) 0))))
+
+(set! text "La croissance, malgré votre optimisme, reste en berne.") ; neut_parl_s02_0403
+(dSayText text)

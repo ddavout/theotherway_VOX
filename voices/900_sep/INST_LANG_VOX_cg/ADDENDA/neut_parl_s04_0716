@@ -1,0 +1,10 @@
+(lex.add.entry '("faison_VER" VER ((("f" "ae") 0) (("z" "ohn") 0))))
+
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("faisons_VER" VER ((("f" "ae") 0) (("z" "ohn") 0))))
+(lex.add.entry '("z_en_PRE" "PRE" (((z ahn) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("simplifions_VER" VER ((("s" "ehn") 0) (("p" "l" "i") 0) (("f" "j" "ohn") 0))))
+
+(set! text "Oui, faisons-en et simplifions !") ; neut_parl_s04_0716
+(dSayText text)

@@ -1,0 +1,10 @@
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("encore_ADV" "ADV" ((("ahn") 0) (("k" "oh" "rh") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_agit_VER" "VER" (((s "a") 0) (("zh" "i") 0))))
+(lex.add.entry '("d_un_ART:ind" ART:ind (((d "oen") 0))))
+(lex.add.entry '("pieu_NOM" NOM ((("p" "j" "eu") 0))))
+(lex.add.entry '("mensonge_NOM" "NOM" ((("m" "ahn") 0) (("s" "ohn" "zh") 0))))
+
+(set! text "Là encore, il s'agit d'un pieu mensonge.") ; neut_parl_s02_0338
+(dSayText text)

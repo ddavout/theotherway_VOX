@@ -1,0 +1,10 @@
+(lex.add.entry '("j_ai_VER" "VER" (((zh e) 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("campagnes_NOM" NOM ((("k" "ahn") 0) (("p" "a")0) (("jg" ae) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0)))); no LIA
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("grande_ADJ" "ADJ" ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("ambition_NOM" "NOM" (((d "ahn") 0) (("b" "i") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "J'ai pour nos campagnes, une plus grande ambition.") ; neut_parl_s04_0028

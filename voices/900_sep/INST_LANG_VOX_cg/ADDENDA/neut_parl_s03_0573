@@ -1,0 +1,13 @@
+(lex.add.entry '("Plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("nombreux_ADJ" "ADJ" ((("n" "ohn") 0) (("b" "rh" "eu") 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((ahn) 0) ((n e) 0) ((f eh) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("voterons_VER" VER ((("v" "oh") 0) (("t" "rh" "ohn") 0))))
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("amendement_NOM" "NOM" (((t "a") 0) (("m" "ahn" "d") 0) (("m" "ahn") 0))))
+(lex.add.entry '("mieux_ADV" "ADV" ((("m" "j" "eu") 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("sera_VER" "VER" ((("s" "rh" "a") 0))))
+
+(set! text "Plus nombreux en effet nous voterons cet amendement, mieux ce sera.") ; neut_parl_s03_0573
+(dSayText text)

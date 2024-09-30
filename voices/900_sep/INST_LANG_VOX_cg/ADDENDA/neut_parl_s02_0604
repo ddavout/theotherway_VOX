@@ -1,0 +1,14 @@
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("chercheurs_NOM" NOM ((("sh" "eh" "rh") 0) (("sh" "oe" "rh") 0))))
+(lex.add.entry '("doivent_VER" VER ((("d" "w" "a" "v") 0))))
+(lex.add.entry '("pouvoir_VER" "VER" ((("p" "u") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("coopéré_VER" VER ((("k" "oh") 0) (("oh") 0) (("p" "e") 0) (("rh" "e") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("partenaires_NOM" NOM ((("p" "a" "rh") 0) (("t" "ae") 0) (("n" "eh" "rh") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("bases_NOM" NOM ((("b" "a")0) (("z" ae) 0))))
+(lex.add.entry '("claires_ADJ" ADJ ((("k" "l" "eh" "rh") 0))))
+
+(dSayText "Nos chercheurs, doivent pouvoir coopérer avec nos partenaires, sur des bases claires.") ; neut_parl_s02_0604

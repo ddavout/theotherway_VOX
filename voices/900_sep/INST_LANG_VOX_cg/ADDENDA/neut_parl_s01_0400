@@ -1,0 +1,16 @@
+(lex.add.entry '("or_CON" CON ((("oh" "rh") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("s_agit_VER" "VER" (((s "a") 0) (("zh" "i") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0)))); no LIA
+(lex.add.entry '("travers_NOM" NOM ((("t" "rh" "a") 0) (("v" "eh" "rh") 0))))
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("article_NOM" "NOM" (((t "a" "rh") 0) (("t" "i") 0) (("k" "l" "ae") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nier_VER" VER ((("n" "j" "e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("famille_NOM" "NOM" ((("f" "a") 0) (("m" "i" "j") 0))))
+(lex.add.entry '("biologique_ADJ" "ADJ" ((("b" "j" "oh") 0) (("l" "oh") 0) (("zh" "i") 0) (("k" "ae") 0))))
+
+(set! text "or il s'agit bien à travers cet article, de nier la famille biologique.") ; 
+(dSayText text); neut_parl_s01_0400

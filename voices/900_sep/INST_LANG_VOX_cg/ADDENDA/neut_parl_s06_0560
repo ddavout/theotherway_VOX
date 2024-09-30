@@ -1,0 +1,8 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("serè_VER" "VER" ((("s" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("signal_NOM" "NOM" ((("s" "i") 0) (("jg" "a" "l") 0))))
+(lex.add.entry '("fort_ADJ" "ADJ" ((("f" "oh" "rh") 0))))
+
+(set! never_exception_list (append (list "serait" ) never_exception_list_default))
+(dSayText "Ce serait un signal fort.") ; neut_parl_s06_0560

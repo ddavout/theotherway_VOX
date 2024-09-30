@@ -1,0 +1,10 @@
+(lex.add.entry '("onze_ADJ:num" "ADJ:num" ((("ohn")0) (("z" ae) 0))))
+(lex.add.entry '("jours_NOM" NOM ((("zh" "u" "rh") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("texte_NOM" NOM ((("t" "eh" "k" s) 0) (("t" ae) 0))))
+(lex.add.entry '("comme_CON" "CON" ((("k" "oh" "m") 0))))
+(lex.add.entry '("celui-ci_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "hw" i) 0) (("s" "i") 0))))
+
+(set! text "onze jours sur un texte comme celui-ci.") ; neut_parl_s05_0460
+(dSayText text)

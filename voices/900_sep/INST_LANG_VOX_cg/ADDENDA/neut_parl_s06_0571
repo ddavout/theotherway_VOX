@@ -1,0 +1,17 @@
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("où_PRO:rel" "PRO:rel" ((("u") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("n_y_a_VER" "VER"  ((("n" j a) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("fichier_NOM" "NOM" ((("f" "i") 0) (("sh" "j" "e") 0))))
+(lex.add.entry '("identifié_VER" "VER" ((("i") 0) (("d" "ahn") 0) (("t" "i") 0) (("f" "j" "e") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("utilisera_VER" VER (((n "y") 0) (("t" "i") 0) (("l" "i") 0) (("z" "rh" "a") 0)))); LIA
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("mesures_NOM" NOM ((("m" "ae") 0) (("z" "y" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("publicité_NOM" NOM ((("p" "y") 0) (("b" "l" "i") 0) (("s" "i") 0) (("t" "e") 0))))
+
+(set! text "Là où il n'y a pas de fichier identifié, on utilisera des mesures de publicité.") ; neut_parl_s06_0571
+(dSayText text)

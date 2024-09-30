@@ -1,0 +1,8 @@
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("avez_VER" VER (((z "a") 0) (("v" "eh") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("en_PRO:ind" "PRO:ind" (((ahn) 0))))
+(lex.add.entry '("fumer_VER" VER ((("f" "y") 0) (("m" "e") 0))))
+
+(set! text "Vous avez du en fumer !") ; neut_parl_s02_0620
+(dSayText text)

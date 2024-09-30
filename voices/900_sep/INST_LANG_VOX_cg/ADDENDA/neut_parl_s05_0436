@@ -1,0 +1,19 @@
+(lex.add.entry '("tous_PRO:ind" "PRO:ind" ((("t" "u") 0))))
+
+
+(lex.add.entry '("malgré_PRE" "PRE" ((("m" "a" "l") 0) (("g" "rh" "e") 0))))
+(lex.add.entry '("tous_ADJ" "ADJ" (((t u) 0))))
+(lex.add.entry '("vos_ADJ:pos" "ADJ:pos" ((("v" "o") 0))))
+(lex.add.entry '("efforts_NOM" NOM (((z "e") 0) (("f" "oh" "rh") 0))))
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s) 0) ((t rh ae) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("échouez_VER" VER ((("e") 0) (("sh" "u") 0) (("e") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("toute_ADJ:ind" "ADJ:ind" ((("t" "u" t) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("ligne_NOM" NOM ((("l" "i") 0) (("jg" ae) 0))))
+
+(set! text "Malgré tous vos efforts, madame la ministre, vous échouez sur toute la ligne.") ; neut_parl_s05_0436
+(dSayText text)

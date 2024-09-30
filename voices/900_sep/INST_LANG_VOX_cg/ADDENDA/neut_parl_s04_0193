@@ -1,0 +1,8 @@
+(lex.add.entry '("voilà_VER" "VER" ((("v" "w" "a") 0) (("l" "a") 0))))
+(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("j_émets_VER" VER ((("zh" "e") 0) (("m" "e") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0)))); no LIA
+(lex.add.entry '("avis_NOM" NOM (((n "a") 0) (("v" "i") 0))))
+(lex.add.entry '("défavorable_ADJ" "ADJ" ((("d" "e") 0) (("f" "a") 0) (("v" "oh") 0) (("rh" "a")0) (("b" "l" ae) 0))))
+
+(dSayText "Voilà pourquoi j'émets un avis défavorable.") ; neut_parl_s04_0193

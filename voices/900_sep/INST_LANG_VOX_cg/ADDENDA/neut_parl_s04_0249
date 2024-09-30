@@ -1,0 +1,15 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
+(lex.add.entry '("demeure_VER" "VER" ((("d" "ae") 0) (("m" "oe" "rh") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("moins_ADV" ADV ((("m" "w" "ehn") 0))))
+(lex.add.entry '("j_y_PRO:per" "PRO:per" ((("zh" "i") 0))))
+(lex.add.entry '("insiste_VER" "VER" ((("ehn") 0) (("s" "i" "s")0) (("t" "ae") 0))))
+(lex.add.entry '("qu_il_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("établir_VER" "VER" (((t "e") 0) (("t" "a") 0) (("b" "l" "i" "rh") 0)))); LIA
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("hiérarchie_NOM" "NOM" ((( "j" "e") 0) (("rh" "a" "rh") 0) (("sh" "i") 0))))
+
+(set! text "Il n'en demeure pas moins, j'y insiste, qu'il faut établir une hiérarchie.") ; neut_parl_s04_0249
+(dSayText text)

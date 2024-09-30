@@ -1,0 +1,14 @@
+(lex.add.entry '("Dès_PRE" PRE ((("d" "eh") 0))))
+(lex.add.entry '("lors_ADV" ADV ((("l" "oh" "rh") 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("constat_NOM" "NOM" ((("k" "ohn" "s") 0) (("t" "a") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("être_AUX" "AUX" ((("eh" "t" "rh") 0)))) ; done
+(lex.add.entry '("jugé_VER" "VER" ((("zh" "y") 0) (("zh" "e") 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "e") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((k "oen") 0))))
+(lex.add.entry '("oeil_NOM" "NOM" ((("oe" "j") 0))))
+(lex.add.entry '("bienveillant_ADJ" "ADJ" ((("b" "j" "ehn") 0) (("v" "e") 0) ((j "ahn") 0))))
+
+(set! never_exception_list (append (list "doit" ) never_exception_list_default))
+(dSayText "Dès lors, notre constat doit être jugé avec un œil bienveillant.") ; neut_parl_s04_0584

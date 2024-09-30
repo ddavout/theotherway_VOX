@@ -1,0 +1,17 @@
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("services_NOM" NOM ((("s" "eh" "rh") 0) (("v" "i" "s") 0))))
+(lex.add.entry '("nécessitent_VER" VER ((("n" "e") 0) (("s" "e") 0) (("s" "i" "t") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("partage_NOM" NOM ((("p" "a" "rh") 0) (("t" "a" "zh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("équipements_NOM" "NOM" ((("e") 0) (("k" "i" "p") 0) (("m" "ahn") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("parcs_NOM" NOM ((("p" "a" "rh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("engins_NOM" "NOM" ((("ahn") 0) (("zh" "ehn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("véhicules_NOM" NOM ((("v" "e") 0) (("i") 0) (("k" "y" "l") 0))))
+
+(dSayText "Ces services nécessitent le partage d'équipements ou de parcs d'engins et de véhicules.") ; neut_parl_s03_0491

@@ -1,0 +1,14 @@
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("voulez_VER" VER ((("v" "u") 0) (("l" "e") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("entendre_VER" "VER" ((("ahn") 0) (("t" "ahn")0) (("d" "rh" ae) 0)))); no LIA
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("peuple_NOM" "NOM" ((("p" "oe") 0) (("p" "l" "ae") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m e) 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("indignation_NOM" NOM (((n "ehn") 0) (("d" "i") 0) (("n" "j" "a") 0) (("s" "j" "ohn") 0)))); LIA
+(lex.add.entry '("monte_VER" "VER" ((("m" "ohn") 0) (("t" "ae") 0))))
+
+(set! text "vous ne voulez pas entendre ce peuple, mais son indignation monte."); 
+(dSayText text); neut_parl_s01_0177

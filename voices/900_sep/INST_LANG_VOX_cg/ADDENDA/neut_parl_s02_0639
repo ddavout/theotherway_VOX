@@ -1,0 +1,11 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("marque_NOM" "NOM" ((("m" "a" "rh" "k") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("respect_NOM" "NOM" ((("rh" "eh" "s") 0) (("p" "eh") 0))))
+(lex.add.entry '("envers_PRE" PRE ((("ahn") 0) (("v" "eh" "rh") 0))))
+(lex.add.entry '("eux_PRO:per" "PRO:per" ((("rh" "eu") 0))))
+
+(set! never_exception_list (append (list "C_est" ) never_exception_list_default))
+(dSayText "C'est une marque de respect envers eux.") ; neut_parl_s02_0639

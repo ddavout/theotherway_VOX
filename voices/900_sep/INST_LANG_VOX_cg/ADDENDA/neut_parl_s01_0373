@@ -1,0 +1,15 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("loyer_NOM" "NOM" ((("l" "w" "a") 0) (("j" "e") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0)))); no LIA
+(lex.add.entry '("hausse_NOM" "NOM" ((("o") 0) (("s" "ae") 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("pouvoir_NOM" "NOM" ((("p" "u") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("d_achat_NOM" NOM (((d "a") 0) (("sh" "a") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0)))); no LIA
+(lex.add.entry '("baisse_NOM" "NOM" ((("b" "eh" "s") 0))))
+
+
+(set! text "et un loyer en hausse, c'est un pouvoir d'achat en baisse.") ; 
+(dSayText text); neut_parl_s01_0373

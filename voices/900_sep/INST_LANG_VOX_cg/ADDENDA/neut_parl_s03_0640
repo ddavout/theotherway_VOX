@@ -1,0 +1,8 @@
+(lex.add.entry '("j_aimerais_VER" VER ((("zh" "eh") 0) (("m" "ae") 0) (("rh" "eh") 0))))
+(lex.add.entry '("savoir_VER" "VER" ((("s" "a") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("quel_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("l_objectif_NOM" "NOM" (((l oh b) 0) ((zh eh k) 0) ((t i f) 0))))
+(lex.add.entry '("visé_ADJ" ADJ ((("v" "i") 0) (("z" "e") 0))))
+
+(dSayText "J'aimerais savoir quel est l'objectif visé.") ; neut_parl_s03_0640

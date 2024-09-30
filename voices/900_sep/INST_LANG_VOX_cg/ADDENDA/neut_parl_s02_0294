@@ -1,0 +1,9 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("baisser_VER" VER ((("b" "e") 0) (("s" "e") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("dépenses_NOM" NOM ((("d" "e") 0) (("p" "ahn")0) (("s" "ae") 0))))
+
+(set! text "Il faut donc baisser les dépenses.") ; neut_parl_s02_0294
+(dSayText text)

@@ -1,0 +1,10 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("handicap_NOM" "NOM" ((("ahn") 0) (("d" "i") 0) (("k" "a" "p") 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_a_VER" VER ((("n" a) 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("couleur_NOM" "NOM" ((("k" "u") 0) (("l" "oe" "rh") 0))))
+(lex.add.entry '("politique_ADJ" "ADJ" ((("p" "o") 0) (("l" "i") 0) (("t" "i") 0))))
+
+(dSayText "Le handicap n'a pas de couleur politique.") ; neut_parl_s04_0304

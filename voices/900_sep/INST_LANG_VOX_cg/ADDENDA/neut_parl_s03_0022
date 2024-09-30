@@ -1,0 +1,14 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("quand_CON" "CON" ((("k" "ahn") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("fonctionnera_VER" "VER" ((("f" "ohn" "k") 0) (("s" "j" "oh" n) 0) (("rh" "a") 0))))
+(lex.add.entry '("sera_VER" "VER" ((("s" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("quant_à" nil (((k ahn) 0) ((t a) 0))))
+(lex.add.entry '("lui_PRO:per" "PRO:per" ((("l" "hw" i) 0))))
+(lex.add.entry '("absolument_ADV" "ADV" ((("a" "p") 0) (("s" "o") 0) (("l" "y") 0) (("m" "ahn") 0))))
+(lex.add.entry '("efficace_ADJ" "ADJ" ((("e") 0) (("f" "i") 0) (("k" "a" "s") 0))))
+
+(set! list_exclus*-> (append (list "absolument") list_exclus*->_default))
+(set! never_exception_list (append (list "quand") never_exception_list_default))
+(dSayText "Ce dispositif quand il fonctionnera, sera quant à lui, absolument efficace.") ; neut_parl_s03_0022

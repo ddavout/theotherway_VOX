@@ -1,0 +1,17 @@
+(lex.add.entry '("tout_ADV" "ADV" (((t u) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" nil))
+(lex.add.entry '("monde_NOM" "NOM" (((l "m" "ohn" "d") 0))))
+(lex.add.entry '("le_PRO:per" "PRO:per" ((("l" "ae") 0))))
+(lex.add.entry '("sè_VER" VER ((("s" "eh") 0))))
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("uniquement_ADV" "ADV" ((("y") 0) (("n" "i" k) 0) (("m" "ahn") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("problème_NOM" "NOM" ((("p" "rh" "oh") 0) (("b" "l" "eh" "m") 0))))
+(lex.add.entry '("français_ADJ" ADJ ((("f" "rh" "ahn") 0) (("s" "eh") 0))))
+
+
+(set! list_exclus*-> (append (list "uniquement") list_exclus*->_default))
+
+(set! never_exception_list (append (list "c_est") never_exception_list_default))
+(dSayText "Tout le monde le sait : c'est uniquement un problème français.") ; neut_parl_s03_0218

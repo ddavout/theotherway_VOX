@@ -1,0 +1,18 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("urgent_ADJ" "ADJ" ((("y" "rh") 0) (("zh" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("relevé_VER" VER ((("rh" "ae" "l") 0) (("v" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("défi_NOM" "NOM" ((("d" "e") 0) (("f" "i") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("changement_NOM" "NOM" ((("sh" "ahn" "zh") 0) (("m" "ahn") 0))))
+(lex.add.entry '("climatique_ADJ" "ADJ" ((("k" "l" "i") 0) (("m" "a") 0) ((t i)0) ((k ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("budget_NOM" "NOM" ((("b" "y") 0) (("d" "zh" "eh") 0))))
+(lex.add.entry '("y_ADV" "ADV" (((i) 0))))
+(lex.add.entry '("contribuera_VER" VER ((("k" "ohn") 0) (("t" "rh" "i") 0) (("b" "y") 0) (("rh" "a") 0))))
+
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "Il est urgent de relever le défi du changement climatique : ce budget y contribuera.") ; neut_parl_s03_0621

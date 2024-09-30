@@ -1,0 +1,8 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("figure_VER" "VER" ((("f" "i") 0) (("g" "y" "rh") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("loi_NOM" "NOM" ((("l" "w" "a") 0))))
+(lex.add.entry '("Fillon_NAM" "NAM" (((f i) 0) ((j ohn) 0))))
+
+(dSayText "Cela figure dans la loi Fillon !") ; neut_parl_s04_0147

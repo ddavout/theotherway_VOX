@@ -1,0 +1,12 @@
+(lex.add.entry '("cela_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "a") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("justifie_VER" "VER" ((("zh" "y" "s") 0) (("t" "i") 0) (("f" "i") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("autant_ADV" "ADV" ((("o") 0) (("t" "ahn") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("statu_quo_NOM" "NOM" ((("s" "t" "a") 0) (("t" "y") 0) (("k" "o") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("départements_NOM" NOM ((("d" "e") 0) (("p" "a" "rh") 0) (("t" "ae") 0) (("m" "ahn") 0))))
+
+(dSayText "Cela ne justifie pas pour autant, un statu quo des départements.") ; neut_parl_s03_0419

@@ -1,0 +1,14 @@
+(lex.add.entry '("être_VER" "VER" ((("eh" "t" "rh") 0))))
+(lex.add.entry '("doué_VER" "VER" ((("d" w "e") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("mathématiques_NOM" "NOM" ((("m" "a") 0) (("t" "e") 0) (("m" "a") 0) (("t" "i" "k") 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("suffit_VER" "VER" ((("s" "y") 0) (("f" "i") 0))))
+(lex.add.entry '("pas_ADV" "ADV" ((("p" "a") 0)))); no LIA
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("bon_ADJ" "ADJ" ((("b" "ohn") 0))))
+(lex.add.entry '("professeur_NOM" "NOM" ((("p" "rh" "oh") 0) (("f" "eh") 0) (("s" "oe" "rh") 0))))
+
+(dSayText "Être doué en mathématiques, ne suffit pas à faire un bon professeur.") ; neut_parl_s06_0453

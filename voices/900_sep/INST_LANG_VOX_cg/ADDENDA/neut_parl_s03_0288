@@ -1,0 +1,12 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("faisons_VER" VER ((("f" "ae") 0) (("z" "ohn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("choses_NOM" NOM (((sh o z) 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("sérieusement_ADV" "ADV" ((("s" "e") 0) (("rh" "j" "eu" "z") 0) (("m" "ahn") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("sérieusement" ADV ((("s" "eh") 0) (("rh" "j" "eu" "z") 0) (("m" "ahn") 0))))
+
+(dSayText "Nous faisons les choses beaucoup plus sérieusement que vous.") ; neut_parl_s03_0288

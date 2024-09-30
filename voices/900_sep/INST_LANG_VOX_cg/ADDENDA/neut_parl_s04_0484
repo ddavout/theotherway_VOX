@@ -1,0 +1,13 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("cas_NOM" NOM ((("k" "a") 0))))
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("retournent_VER" VER ((("rh" "ae") 0) (("t" "u" "rh")0) (("n" ae) 0))))
+(lex.add.entry '("plus_ADV" ADV ((("p" "l" "y") 0))))
+(lex.add.entry '("chez_PRE" "PRE" ((("sh" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("médecin_NOM" "NOM" ((("m" "e" d) 0) (("s" "ehn") 0))))
+
+(dSayText "Et dans ce cas, ils ne retournent plus chez le médecin.") ; neut_parl_s04_0484

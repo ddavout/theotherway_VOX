@@ -1,0 +1,7 @@
+(lex.add.entry '("voilà_VER" "VER" ((("v" "w" "a") 0) (("l" "a") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("sera_VER" "VER" ((("s" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("chose_NOM" "NOM" (((sh o z) 0))))
+(lex.add.entry '("faite_ADJ" "ADJ" ((("f" "eh" "t") 0))))
+
+(dSayText "Voilà qui sera chose faite.") ; neut_parl_s02_0427

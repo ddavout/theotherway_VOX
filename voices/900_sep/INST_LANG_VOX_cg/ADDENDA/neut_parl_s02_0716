@@ -1,0 +1,18 @@
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh" "t" "rh") 0))))
+(lex.add.entry '("collègue_NOM" "NOM" ((("k" "oh") 0) (("l" "eh")0) (("g" ae) 0))))
+(lex.add.entry '("Piron_NAM" "NAM" ((("p" "i") 0) (("rh" "ohn") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("longuement_ADV" "ADV" ((("l" "ohn" g) 0) (("m" "ahn") 0))))
+(lex.add.entry '("évoqué_VER" "VER" ((("e") 0) (("v" "oh") 0) (("k" "e") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("rôle_NOM" "NOM" ((("rh" "o" "l") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("place_NOM" "NOM" ((("p" "l" "a" "s") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("sociétés_NOM" NOM ((("s" "oh") 0) (("s" "j" "e") 0) (("t" "e") 0))))
+
+(set! list_exclus*-> (append (list "longuement") list_exclus*->_default))
+
+(dSayText "Notre collègue Piron a longuement évoqué le rôle de la place dans nos sociétés.") ; neut_parl_s02_0716

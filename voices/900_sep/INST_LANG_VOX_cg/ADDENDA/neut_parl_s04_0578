@@ -1,0 +1,13 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("dira_VER" "VER" ((("d" "i") 0) (("rh" "a") 0))))
+(lex.add.entry '("s_il_PRO:per" "PRO:per" (((s i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("non_ADV" "ADV" ((("n" "ohn") 0))))
+(lex.add.entry '("réviser_VER" VER ((("rh" "e") 0) (("v" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("constitution_NOM" "NOM" ((("k" "ohn" "s") 0) (("t" "i") 0) (("t" "y") 0) (("s" "j" "ohn") 0))))
+
+(set! text "Il nous dira s'il faut ou non réviser la Constitution.") ; neut_parl_s04_0578
+(dSayText text)

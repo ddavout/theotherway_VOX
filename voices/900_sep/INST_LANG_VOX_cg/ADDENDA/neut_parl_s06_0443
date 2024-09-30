@@ -1,0 +1,12 @@
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("choix_NOM" "NOM" ((("sh" "w" "a") 0))))
+(lex.add.entry '("budgétaires_ADJ" ADJ ((("b" "y" d) 0) (("zh" "e") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("marqués_VER" VER ((("m" "a" "rh") 0) (("k" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a") 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("rh" "y" "n") 0))))
+(lex.add.entry '("démarche_NOM" "NOM" ((("d" "e") 0) (("m" "a" "rh")0) (("sh" "ae") 0))))
+(lex.add.entry '("clientéliste_ADJ" ADJ ((("k" "l" "i") 0) (("j" "ahn") 0) (("t" "e") 0) (("l" "i" "s") 0) (("t" "ae") 0))))
+
+(dSayText "Ce sont des choix budgétaires marqués par une démarche clientéliste.") ; neut_parl_s06_0443

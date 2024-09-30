@@ -1,0 +1,18 @@
+(lex.add.entry '("adopter_VER" VER ((("a") 0) (("d" "oh" "p") 0) (("t" "e") 0))))
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("article_NOM" "NOM" (((t "a" "rh") 0) (("t" "i") 0) (("k" "l" "ae") 0)))); LIA
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("dire_VER" "VER" ((("d" "i" "rh") 0))))
+(lex.add.entry '("oui_ADV" "ADV" (((u)0) (("w" "i") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("vision_NOM" "NOM" ((("v" "i") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("généreuse_ADJ" "ADJ" ((("zh" "e") 0) (("n" "e") 0) (("rh" "eu")0) (("z" "ae") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("ouverte_ADJ" "ADJ" ((("u") 0) (("v" "eh" "rh")0) (("t" "ae") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("famille_NOM" "NOM" ((("f" "a") 0) (("m" "i")0) (("j" "ae") 0))))
+
+(set! text "adopter cet article, c'est dire oui, à une vision généreuse et ouverte de la famille.") ; neut_parl_s06_0331
+(dSayText text)

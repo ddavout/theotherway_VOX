@@ -1,0 +1,14 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("monde_NOM" "NOM" ((("m" "ohn" "d") 0))))
+(lex.add.entry '("change_VER" "VER" ((("sh" "ahn" "zh") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("vite_ADV" "ADV" ((("v" "i")0) (("t" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("attendra_VER" VER (((z "a") 0) (("t" "ahn") 0) (("d" "rh" "a") 0)))); LIA
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+
+(set! text "Le monde change très vite et il ne nous attendra pas.") ; neut_parl_s02_0424
+(dSayText text)

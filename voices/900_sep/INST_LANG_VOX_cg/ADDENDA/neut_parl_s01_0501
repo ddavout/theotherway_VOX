@@ -1,0 +1,18 @@
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("regroupement_NOM" "NOM" ((("rh" "ae") 0) (("g" "rh" "u" "p") 0) (("m" "ahn") 0))))
+(lex.add.entry '("s_est_AUX" "AUX" (((s eh) 0))))
+(lex.add.entry '("opéré_VER" "VER" (((t "oh") 0) (("p" "e") 0) (("rh" "e") 0)))); LIA
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("mille_ADJ:num" ADJ:num ((("m" "i" "l") 0))))
+(lex.add.entry '("dix_NOM" "NOM" (((d i)0) ((s ae) 0))))
+(lex.add.entry '("entre_PRE" PRE ((("ahn") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("différents_ADJ" ADJ ((("d" "i") 0) (("f" "e") 0) (("rh" "ahn") 0))))
+(lex.add.entry '("centres_NOM" "NOM" ((("s" "ahn") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("existants_ADJ" ADJ ((("eh" "g") 0) (("z" "i" "s") 0) (("t" "ahn") 0)))); LIA
+
+
+(set! text "Un regroupement s'est opéré en deux mille dix entre les différents centres existants.") ; 
+(dSayText text); neut_parl_s01_0501
+

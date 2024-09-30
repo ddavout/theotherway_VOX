@@ -1,0 +1,9 @@
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("pensé_VER" VER
+ ((("p" "ahn") 0) (("s" "e") 0))))
+(lex.add.entry '("qu_CON" "CON" nil))
+(lex.add.entry '("qu_aux_ART:def" ART:def ((("k" "o") 0))))
+(lex.add.entry '("voyages_NOM" NOM ((("v" "w" "a") 0) (("j" "a")0) (("zh" ae) 0))))
+
+(dSayText "Vous ne pensez qu'aux voyages !") ; neut_parl_s06_0324

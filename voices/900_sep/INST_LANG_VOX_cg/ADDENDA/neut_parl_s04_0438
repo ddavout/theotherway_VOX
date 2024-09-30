@@ -1,0 +1,11 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("fameux_ADJ" "ADJ" ((("f" "a") 0) (("m" "eu") 0))))
+(lex.add.entry '("choc_NOM" "NOM" ((("sh" "oh" "k") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("simplification_NOM" "NOM" ((("s" "ehn") 0) (("p" "l" "i") 0) (("f" "i") 0) (("k" "a") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((t "o") 0)))); LIA
+(lex.add.entry '("rendez_vous__NOM" "NOM" (((rh ahn) 0) ((d e) 0) ((v u) 0)))); pas un QT0 !
+
+(set! text "Le fameux choc de simplification est au rendez-vous_.") ; neut_parl_s04_0438
+(dSayText text)

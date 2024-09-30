@@ -1,0 +1,18 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("pourquoi_ADV" "ADV" ((("p" "u" "rh") 0) (("k" "w" "a") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("souhaite_VER" "VER" ((("s" "w" "eh" "t") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("l_PRO:per" "PRO:per" nil))
+(lex.add.entry '("alinéa_VER" VER ((("a") 0) (("l" "i") 0) (("n" "e") 0) (("a") 0))))
+(lex.add.entry '("huit_PRO:ind" "PRO:ind" ((("hw" i)0) ((t ae) 0))))
+(lex.add.entry '("soit_VER" "VER" ((("s" "w" "a") 0))))
+(lex.add.entry '("complété_VER" "VER" ((("k" "ohn") 0) (("p" "l" "e") 0) (("t" "e") 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("ces_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("informations_NOM" NOM ((("ehn") 0) (("f" "oh" "rh") 0) (("m" "a") 0) (("s" "j" "ohn") 0))))
+
+
+; POS alinéa
+(dSayText "C'est pourquoi je souhaite, que l'alinéa huit soit complété, par ces informations.") ; neut_parl_s06_0004

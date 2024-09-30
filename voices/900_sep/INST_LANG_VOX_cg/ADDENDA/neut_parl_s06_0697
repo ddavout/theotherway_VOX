@@ -1,0 +1,12 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("me_PRO:per" "PRO:per" (((m "ae") 0))))
+(lex.add.entry '("semble_VER" "VER" ((("s" "ahn") 0))))
+(lex.add.entry '("important_ADJ" "ADJ" (((b l "ehn") 0) (("p" "oh" "rh") 0) (("t" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("bien_NOM" "NOM" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("organiser_VER" VER (((n "oh" "rh") 0) (("g" "a") 0) (("n" "i") 0) (("z" "e") 0))))
+(lex.add.entry '("l_articulation_NOM" "NOM" (((l "a" "rh") 0) (("t" "i") 0) (("k" "y") 0) (("l" "a") 0) (("s" "j" "ohn") 0)))); LIA
+
+(set! text "Il me semble important de bien organiser l'articulation.") ; neut_parl_s06_0697
+(dSayText text)
+

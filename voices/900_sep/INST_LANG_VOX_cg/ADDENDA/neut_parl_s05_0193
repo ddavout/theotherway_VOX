@@ -1,0 +1,9 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("monde_NOM" "NOM" ((("m" "ohn" "d") 0))))
+(lex.add.entry '("change_VER" "VER" ((("sh" "ahn")0) (("zh" ae) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("menaces_NOM" NOM ((("m" "ae") 0) (("n" "a" "s") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+
+(set! list_exclus*-> (append (list "menaces") list_exclus*->_default))
+(dSayText "Le monde change, les menaces aussi.") ; neut_parl_s05_0193

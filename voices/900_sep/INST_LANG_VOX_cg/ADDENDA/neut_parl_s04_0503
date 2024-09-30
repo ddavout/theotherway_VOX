@@ -1,0 +1,10 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("parole_NOM" "NOM" ((("p" "a") 0) (("rh" "oh") 0))))
+(lex.add.entry '("est_VER" "VER" (((l "e") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("monsieur_NOM" "NOM" (((m ae) 0) ((s j eu) 0))))
+(lex.add.entry '("Jean_Sébastien_NAM" "NAM" (((zh ahn) 0) ((s e) 0) ((b a s) 0) ((t j ehn) 0))))
+(lex.add.entry '("vialatte_NAM" "NAM" (((v j a) 0) ((l a)0) ((t ae) 0))))
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "La parole est à Monsieur, Jean-Sébastien Vialatte.") ; neut_parl_s04_0503

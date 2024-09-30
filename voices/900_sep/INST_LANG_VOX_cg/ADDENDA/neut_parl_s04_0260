@@ -1,0 +1,7 @@
+(lex.add.entry '("Malheureusement_ADV" "ADV" ((("m" "a") 0) (("l" "eu") 0) (("rh" "eu" "z") 0) (("m" "ahn") 0))))
+(lex.add.entry '("ce_PRO:dem" "PRO:dem" (((s ae) 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n eh) 0)(("p" "a") 0))))
+(lex.add.entry '("exact_ADJ" "ADJ" (((z "eh" "g") 0) (("z" "a" "k" "t") 0)))); LIA
+
+(set! text "Malheureusement, ce n'est pas exact.") ; neut_parl_s04_0260
+(dSayText text)

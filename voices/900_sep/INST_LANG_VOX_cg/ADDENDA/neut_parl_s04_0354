@@ -1,0 +1,8 @@
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("oui_ADV" "ADV" ((("w" "i") 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("rencontre_VER" VER ((("rh" "ahn") 0) (("k" "ohn") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("salariés_NOM" NOM ((("s" "a") 0) (("l" "a") 0) (("rh" "j" "e") 0))))
+
+(dSayText "Et oui, je rencontre des salariés !") ; neut_parl_s04_0354

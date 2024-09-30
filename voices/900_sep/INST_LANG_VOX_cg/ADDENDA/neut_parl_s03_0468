@@ -1,0 +1,13 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("voit_VER" "VER" ((("v" "w" "a") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("intentions_NOM" NOM (((z "ehn") 0) (("t" "ahn") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("cachent_VER" VER ((("k" "a" "sh") 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("derrière_PRE" "PRE" ((("d" "eh" "rh") 0) (("j" "eh" "rh") 0))))
+(lex.add.entry '("derrière_ADV" "ADV" ((("d" "eh" "rh") 0) (("j" "eh" "rh") 0))))
+
+(dSayText "On voit bien les intentions qui se cachent là derrière.") ; neut_parl_s03_0468

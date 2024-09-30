@@ -1,0 +1,9 @@
+(lex.add.entry '("j_insiste_VER" VER (((zh "ehn") 0) (("s" "i" "s") 0) (("t" ae) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("crèche_NOM" "NOM" ((("k" "rh" "eh" "sh") 0))))
+(lex.add.entry '("est_AUX" "AUX" ((("e") 0))))
+(lex.add.entry '("soutenue_VER" "VER" ((("s" "u" t) 0) (("n" "y") 0))))
+
+
+(set! text "j'insiste : cette crèche est soutenue.") ; 
+(dSayText text); neut_parl_s01_0708

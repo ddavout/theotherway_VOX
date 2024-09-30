@@ -1,0 +1,14 @@
+(lex.add.entry '("dieu_NOM" "NOM" ((("d" "j" "eu") 0))))
+(lex.add.entry '("merci_NOM" "NOM" ((("m" "eh" "rh") 0) (("s" "i") 0))))
+(lex.add.entry '("aujourd_hui_ADV" "ADV" (((o) 0) ((zh u rh) 0) ((d hw i) 0))))
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("suis_VER" "VER" (((s hw i) 0))))
+(lex.add.entry '("consciente_ADJ" "ADJ" ((("k" "ohn") 0) (("s" "j" "ahn" "t") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" (((t "oen") 0)))); LIA
+(lex.add.entry '("avantage_NOM" "NOM" (((n "a") 0) (("v" "ahn") 0) (("t" "a") 0) (("zh" ae) 0)))); LIA
+
+(set! text "dieu merci aujourd'hui, je suis consciente que c'est un avantage.") ; 
+(dSayText text); neut_parl_s01_0180
+

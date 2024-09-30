@@ -1,0 +1,15 @@
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("mémoire_NOM" "NOM" ((("m" "e") 0) (("m" "w" "a" "rh") 0))))
+(lex.add.entry '("elle_PRO:per" "PRO:per" ((("eh") 0))))
+(lex.add.entry '("a_AUX" "AUX" (((l "a") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("créée_VER" "VER" ((("k" "rh" "e") 0) (("e") 0))))
+(lex.add.entry '("suite_NOM" "NOM" ((("s" "hw" i) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((t a) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("guerre_NOM" "NOM" ((("g" "eh" "rh") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("golfe_NOM" "NAM" ((("g" "oh" "l" "f") 0))))
+
+(set! text "De mémoire, elle a été créée suite à la guerre du Golfe.") ; 
+(dSayText text); neut_parl_s01_0562

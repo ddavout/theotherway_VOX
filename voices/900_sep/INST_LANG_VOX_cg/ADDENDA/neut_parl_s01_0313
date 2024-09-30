@@ -1,0 +1,16 @@
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a") 0))))
+(lex.add.entry '("ailleurs_ADV" "ADV" ((("rh" "a") 0) (("j" "oe" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("gravité_NOM" NOM ((("g" "rh" "a") 0) (("v" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("pillage_NOM" "NOM" ((("p" "i") 0) (("j" "a")0) (("zh" "ae") 0))))
+(lex.add.entry '("n_est_pas_VER" "VER" (((n e) 0)(("p" "a") 0))))
+(lex.add.entry '("forcément_ADV" "ADV" ((("f" "oh" "rh") 0) (("s" "e") 0) (("m" "ahn") 0))))
+(lex.add.entry '("fonction_NOM" "NOM" ((("f" "ohn" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("chiffre_NOM" "NOM" ((("sh" "i")0) (("f" "rh" "ae") 0))))
+(lex.add.entry '("d_affaires_NOM" NOM (((d "a") 0) (("f" "eh" "rh") 0))))
+
+; Q f rh d 
+(set! text "par ailleurs, la gravité du pillage, n'est pas forcément fonction du chiffre d'affaires.") ; 
+(dSayText text); neut_parl_s01_0313

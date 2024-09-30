@@ -1,0 +1,11 @@
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("juge_NOM" "NOM" ((("zh" "y")0) (("zh" ae) 0))))
+(lex.add.entry '("administratif_ADJ" "ADJ" ((("a" "d") 0) (("m" "i") 0) (("n" "i" "s") 0) (("t" "rh" "a") 0) (("t" "i")0) (("f" ae) 0))))
+(lex.add.entry '("dispose_VER" "VER" ((("d" "i" "s") 0) (("p" "o" "z") 0))))
+(lex.add.entry '("déjà_ADV" "ADV" ((("d" "e") 0) (("zh" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("pouvoirs_NOM" NOM ((("p" "u") 0) (("v" "w" "a" "rh") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("injonction_NOM" "NOM" ((("ehn") 0) (("zh" "ohn" "k") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "Le juge administratif, dispose déjà de pouvoirs d'injonction.") ; neut_parl_s03_0363

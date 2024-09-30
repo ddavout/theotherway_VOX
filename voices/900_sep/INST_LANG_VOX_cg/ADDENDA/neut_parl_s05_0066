@@ -1,0 +1,15 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("fonte_NOM" "NOM" ((("f" "ohn" "t") 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("budget_NOM" "NOM" ((("b" "y" d) 0) (("zh" "eh") 0))))
+(lex.add.entry '("européen_ADJ" "ADJ" ((("oe") 0) (("rh" "oh") 0) (("p" "e") 0) (("ehn") 0))))
+(lex.add.entry '("frappe_VER" "VER" ((("f" "rh" "a" "p") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("plein_ADJ" ADJ ((("p" "l" "ehn") 0))))
+(lex.add.entry '("fouet_NOM" "NOM" ((("f" w "eh") 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("aide_NOM" "NOM" ((("eh") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((d "o") 0))))
+(lex.add.entry '("développement_NOM" "NOM" ((("d" "e") 0) (("v" "l" "oh" "p") 0) (("m" "ahn") 0))))
+
+(dSayText "La fonte du budget européen, frappe de plein fouet l'aide au développement.") ; neut_parl_s05_0066

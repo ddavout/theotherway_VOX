@@ -1,0 +1,8 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("potentialités_NOM" NOM ((("p" "oh") 0) (("t" "ahn") 0) (("s" "j" "a") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("semblent_VER" VER ((("s" "ahn" "b" "l") 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((ahn) 0) ((n e) 0) ((f eh) 0)))); no LIA
+(lex.add.entry '("importantes_ADJ" ADJ ((("ehn") 0) (("p" "oh" "rh") 0) (("t" "ahn")0) (("t" "ae") 0)))); no LIA
+
+(set! text "Les potentialités semblent en effet importantes.") ; neut_parl_s05_0497
+(dSayText text)

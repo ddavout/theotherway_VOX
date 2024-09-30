@@ -1,0 +1,11 @@
+;final moche
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("telle_ADJ:ind" "ADJ:ind" ((("t" "eh" "l") 0))))
+(lex.add.entry '("décision_NOM" "NOM" ((("d" "e") 0) (("s" "i") 0) (("z" "j" "ohn") 0))))
+(lex.add.entry '("choquera_VER" "VER" (((sh oh) 0) ((k rh a) 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("compatriotes_NOM" NOM ((("k" "ohn") 0) (("p" "a") 0) (("t" "rh" "i") 0) (("j" "oh" "t") 0))))
+
+
+(set! text "une telle décision choquera nos compatriotes.") ; neut_parl_s01_0096
+(dSayText text)

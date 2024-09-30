@@ -1,0 +1,18 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("sûr_ADJ" "ADJ" ((("s" "y" "rh") 0))))
+(lex.add.entry '("sortir_VER" VER ((("s" "oh" "rh") 0) (("t" "i" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("l_ART:def" "ART:def" nil))
+(lex.add.entry '("euro_NOM" "NOM" ((("eu") 0) (("rh" "o") 0))))
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("faut_VER" "VER" ((("f" "o") 0))))
+(lex.add.entry '("démantelé_VER" VER ((("d" "e") 0) (("m" "ahn") 0) (("t" "l" "e") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("monnaie_NOM" "NOM" ((("m" "oh") 0) (("n" "eh") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("échoué_VER" "VER" ((("e") 0) (("sh" "w" "e") 0))))
+
+(dSayText "Il faut bien sûr sortir de l'euro ; il faut démanteler cette monnaie qui a échoué.") ; neut_parl_s06_0074

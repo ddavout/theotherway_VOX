@@ -1,0 +1,14 @@
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("nouvelle_NAM" NAM ((("n" "u") 0) (("v" "eh" "l") 0))))
+(lex.add.entry '("donne_VER" "VER" ((("d" "oh" "n") 0))))
+(lex.add.entry '("pour_PRE" "PRE" ((("p" "u" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("langue_NOM" "NOM" ((("l" "ahn" "g") 0))))
+(lex.add.entry '("vivante_ADJ" "ADJ" ((("v" "i") 0) (("v" "ahn") 0) (("t" "ae") 0))))
+(lex.add.entry '("permettra_VER" "VER" ((("p" "eh" "rh") 0) (("m" "eh") 0) (("t" "rh" "a") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("facilité_VER" VER ((("f" "a") 0) (("s" "i") 0) (("l" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("son_ADJ:pos" "ADJ:pos" ((("s" "ohn") 0))))
+(lex.add.entry '("acquisition_NOM" "NOM" ((("a") 0) (("k" "i") 0) (("z" "i") 0) (("s" "j" "ohn") 0))))
+
+(dSayText "Cette nouvelle donne pour la langue vivante permettra de faciliter son acquisition.") ; neut_parl_s06_0628

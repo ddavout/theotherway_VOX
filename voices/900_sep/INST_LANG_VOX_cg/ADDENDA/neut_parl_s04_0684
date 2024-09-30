@@ -1,0 +1,7 @@
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((t ahn) 0) ((n e) 0) ((f eh) 0)))); LIA
+(lex.add.entry '("un_autre_ADJ" ADJ (((oen)0) ((n "o") 0) (("t" "rh" ae) 0))))
+(lex.add.entry '("débat_NOM" "NOM" ((("d" "e") 0) (("b" "a") 0))))
+
+(set! text "C'est en effet un autre débat !") ; neut_parl_s04_0684
+(dSayText text)

@@ -1,0 +1,10 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("syndicats_NOM" NOM ((("s" "ehn") 0) (("d" "i") 0) (("k" "a") 0))))
+(lex.add.entry '("ont_AUX" "AUX" ((("ohn") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("consultés_VER" VER ((("k" "ohn") 0) (("s" "y" "l") 0) (("t" "e") 0))))
+
+(set! list_exclus*-> (append (list "syndicats") list_exclus*->_default))
+
+(set! never_exception_list (append (list "ont" ) never_exception_list_default))
+(dSayText "Les syndicats ont été consultés !") ; neut_parl_s04_0547

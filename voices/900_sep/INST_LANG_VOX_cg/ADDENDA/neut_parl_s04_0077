@@ -1,0 +1,12 @@
+(lex.add.entry '("madame_NOM" "NOM" ((("m" "a") 0) (("d" "a" "m") 0))))
+(lex.add.entry '("Greff_ADJ" ADJ ((("g" "rh" "eh" "f") 0))))
+(lex.add.entry '("laissé_VER" VER
+ ((("l" "e") 0) (("s" "e") 0))))
+(lex.add.entry '("parlé_VER" VER ((("p" "a" "rh") 0) (("l" "e") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("garde_NOM" "NOM"  ((("g" "a" "rh" "d")0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("sceaux_NOM" "NOM" ((("s" "o") 0))))
+
+; d d
+(dSayText "Madame Greff, laissez parler la garde des sceaux.") ; neut_parl_s04_0077

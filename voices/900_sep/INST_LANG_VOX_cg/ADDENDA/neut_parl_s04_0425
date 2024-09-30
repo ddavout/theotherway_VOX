@@ -1,0 +1,13 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("rien_PRO:ind" "PRO:ind" ((("rh" "j" "ehn") 0))))
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_empêche_VER" "VER" (((n "ahn") 0) (("p" "eh" "sh") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("faits_NOM" NOM ((("f" "eh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("choisir_VER" "VER" ((("sh" "w" "a") 0) (("z" "i" "rh") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("téléspectateur_NOM" NOM ((("t" "e") 0) (("l" "e" "s") 0) (("p" "e" "k") 0) (("t" "a") 0) (("t" "oe" "rh") 0))))
+
+(dSayText "Mais rien n'empêche dans les faits, de choisir un téléspectateur.") ; neut_parl_s04_0425

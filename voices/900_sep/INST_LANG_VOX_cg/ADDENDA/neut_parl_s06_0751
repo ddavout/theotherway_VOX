@@ -1,0 +1,10 @@
+(lex.add.entry '("n_ADV" "ADV" nil))
+(lex.add.entry '("n_ayons_VER" "VER" (((n "eh") 0) (("j" "ohn") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("peur_NOM" "NOM" ((("p" "oe" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("démocratie_NOM" "NOM" ((("d" "e") 0) (("m" "oh") 0) (("k" "rh" "a") 0) (("s" "i") 0))))
+
+(dSayText "N'ayons donc pas peur de la démocratie !") ; neut_parl_s06_0751

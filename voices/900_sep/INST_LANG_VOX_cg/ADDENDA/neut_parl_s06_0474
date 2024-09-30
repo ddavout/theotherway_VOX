@@ -1,0 +1,18 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("difficile_ADJ" "ADJ" ((("d" "i") 0) (("f" "i") 0) (("s" "i" "l") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("suivre_VER" "VER" ((("s" "hw" i)0) (("v" "rh" ae) 0))))
+(lex.add.entry '("étant_AUX" "AUX" ((("e") 0) (("t" "ahn") 0))))
+(lex.add.entry '("donné_VER" "VER" ((("d" "oh") 0) (("n" "e") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("faites_VER" VER ((("f" "eh" "t") 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("défendre_VER" "VER" ((("d" "e") 0) (("f" "ahn")0) (("d" "rh" ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("statu_quo_NOM" "NOM" ((("s" "t" "a") 0) (("t" "y") 0) (("k" "o") 0))))
+
+(dSayText "Il est difficile de vous suivre, étant donné que vous ne faites que défendre le statu quo.") ; neut_parl_s06_0474

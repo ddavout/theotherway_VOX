@@ -1,0 +1,11 @@
+(lex.add.entry '("celui-ci_PRO:dem" "PRO:dem" ((("s" "ae") 0) (("l" "hw" "i") 0) (("s" "i") 0))))
+(lex.add.entry '("leur_PRO:per" "PRO:per" ((("l" "oe" "rh") 0))))
+(lex.add.entry '("propose_VER" "VER" ((("p" "rh" "oh") 0) (("p" "o" "z") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+(lex.add.entry '("chacun_PRO:ind" "PRO:ind" ((("sh" "a") 0) (("k" "oen") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("voeu_NOM" NOM ((("v" "eu") 0))))
+
+(set! text "celui-ci leur propose de faire chacun un vœu.") ; neut_parl_s04_0375
+(dSayText text)

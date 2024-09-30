@@ -1,0 +1,11 @@
+(lex.add.entry '("ceux_PRO:dem" "PRO:dem" ((("s" "eu") 0))))
+(lex.add.entry '("qui_PRO:rel" "PRO:rel" ((("k" "i") 0))))
+(lex.add.entry '("sont_AUX" AUX ((("s" "ohn") 0))))
+(lex.add.entry '("inscrits_VER" VER ((("ehn" "s") 0) (("k" "rh" "i") 0))))
+(lex.add.entry '("ici_ADV" "ADV" ((("i") 0) (("s" "i") 0))))
+(lex.add.entry '("mais_ADV" ADV ((("m" "e") 0))))
+(lex.add.entry '("vivent_VER" VER ((("v" "i" "v") 0))))
+(lex.add.entry '("ailleurs_ADV" "ADV" ((("a") 0) (("j" "oe" "rh") 0))))
+
+(set! never_exception_list (append (list "sontt" "vivent" ) never_exception_list_default))
+(dSayText "Ceux qui sont inscrits ici, mais vivent ailleurs.") ; neut_parl_s06_0708

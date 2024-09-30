@@ -1,0 +1,17 @@
+(lex.add.entry '("michel_NAM" "NAM" (((m i) 0) ((sh eh l) 0))))
+(lex.add.entry '("sapin_NAM" "NAM" ((("s" "a") 0) (("p" "ehn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("eh") 0))))
+(lex.add.entry '("aujourd_hui_NOM" "NOM" (((o) 0) ((zh u rh) 0) ((d hw i) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("istanbul_NAM" "NAM" (((i s) 0) ((t ahn) 0) ((b u)0) ((l ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("sera_VER" "VER" ((("s" "ae") 0) (("rh" "a") 0))))
+(lex.add.entry '("demain_NOM" NOM ((("d" "ae") 0) (("m" "ehn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("Bruxelles_NAM" "NAM" (((b rh y) 0) ((s eh)0) ((l ae) 0))))
+(lex.add.entry '("avec_PRE" "PRE" ((("a") 0) (("v" "eh" "k") 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("partenaires_NOM" NOM ((("p" "a" "rh") 0) (("t" "ae") 0) (("n" "eh" "rh") 0))))
+
+(set! never_exception_list (append (list "est" ) never_exception_list_default))
+(dSayText "Michel Sapin est aujourd'hui à Istanbul, et sera demain à Bruxelles, avec nos partenaires.") ; neut_parl_s04_0219

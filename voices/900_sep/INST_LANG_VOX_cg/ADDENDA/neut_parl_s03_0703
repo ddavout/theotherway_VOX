@@ -1,0 +1,12 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i) 0))))
+(lex.add.entry '("existe_VER" "VER" (((l "e" "g") 0) (("z" "i" "s") 0))))
+(lex.add.entry '("en_effet_ADV" "ADV" (((t ahn) 0) ((n e) 0) ((f eh) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("part_NOM" "NOM" ((("p" "a" "rh") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("temps_NOM" "NOM" (((t ahn) 0))))
+(lex.add.entry '("partiel_ADJ" "ADJ" ((("p" "a" "rh") 0) (("s" "j" "eh" "l") 0))))
+(lex.add.entry '("choisi_VER" "VER" ((("sh" "w" "a") 0) (("z" "i") 0))))
+
+(set! text "Il existe en effet une part de temps partiel choisi.") ; neut_parl_s03_0703
+(dSayText text)

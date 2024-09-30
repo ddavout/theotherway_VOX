@@ -1,0 +1,13 @@
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("protection_NOM" "NOM" ((("p" "rh" "oh") 0) (("t" "eh" "k") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("nos_ADJ:pos" "ADJ:pos" ((("n" "o") 0))))
+(lex.add.entry '("intérêts_NOM" NOM (((z "ehn") 0) (("t" "e") 0) (("rh" "eh") 0)))); LIA
+(lex.add.entry '("immédiats_ADJ" ADJ ((("i") 0) (("m" "e") 0) (("d" "j" "a") 0))))
+(lex.add.entry '("doit_VER" "VER" ((("d" "w" "a") 0))))
+(lex.add.entry '("être_VER" "VER" (((t "eh" "t" "rh") 0)))); LIA
+(lex.add.entry '("prioritaire_ADJ" "ADJ" ((("p" "rh" "i") 0) (("j" "oh") 0) (("rh" "i") 0) (("t" "eh" "rh") 0))))
+
+
+(set! text "La protection de nos intérêts immédiats, doit être prioritaire.") ; 
+(dSayText text); neut_parl_s01_0426

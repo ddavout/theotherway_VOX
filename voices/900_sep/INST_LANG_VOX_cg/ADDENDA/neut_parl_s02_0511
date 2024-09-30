@@ -1,0 +1,7 @@
+(lex.add.entry '("ils_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("travaillent_VER" VER ((("t" "rh" "a") 0) (("v" "a" "j") 0))))
+(lex.add.entry '("beaucoup_ADV" "ADV" ((("b" "o") 0) (("k" "u") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("savé_VER" VER ((("s" "a") 0) (("v" "e") 0))))
+
+(dSayText "Ils travaillent beaucoup, vous savez.") ; neut_parl_s02_0511

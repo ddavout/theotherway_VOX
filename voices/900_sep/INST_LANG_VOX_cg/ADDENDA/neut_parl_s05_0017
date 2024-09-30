@@ -1,0 +1,11 @@
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("suivi_NOM" NOM ((("s" "hw" "i") 0) (("v" "i") 0))))
+(lex.add.entry '("s_échelonnant_VER" "VER" (((s "e") 0) (("sh" "l" "o") 0) (("n" "ahn") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("cinq_ADJ:num" "ADJ:num" ((("s" "ehn" k) 0))))
+(lex.add.entry '("ans_NOM" NOM ((("ahn") 0))))
+(lex.add.entry '("est_VER" "VER" (((t "eh") 0))))
+(lex.add.entry '("extrêmement_ADV" ADV ((("eh" "k") 0) ((s "t" "rh" "eh") 0) (("m" "ae") 0) (("m" "ahn") 0))))
+(lex.add.entry '("lourd_ADJ" "ADJ" ((("l" "u" "rh") 0))))
+
+(dSayText "Un suivi s'échelonnant sur cinq ans, est extrêmement lourd.") ; neut_parl_s05_0017

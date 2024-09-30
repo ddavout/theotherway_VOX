@@ -1,0 +1,11 @@
+(lex.add.entry '("deux_ADJ:num" "ADJ:num" (((d eu) 0))))
+(lex.add.entry '("pistes_NOM" NOM ((("p" "i" "s") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" (((t "o") 0))))
+(lex.add.entry '("moins_NOM" NOM ((("m" "w" "ehn") 0))))
+(lex.add.entry '("auraient_AUX" "AUX" ((("oh") 0) (("rh" "eh") 0))))
+(lex.add.entry '("pu_VER" "VER" ((("p" "y") 0))))
+(lex.add.entry '("être_VER" "VER" ((("eh" "t" "rh") 0))))
+(lex.add.entry '("explorées_VER" VER ((("e" "k" "s") 0) (("p" "l" "oh") 0) (("rh" "e") 0))))
+
+(set! list_exclus*-> (append (list "moins") list_exclus*->_default)) ; todo 
+(dSayText "Deux pistes au moins auraient pu être explorées.") ; neut_parl_s04_0105

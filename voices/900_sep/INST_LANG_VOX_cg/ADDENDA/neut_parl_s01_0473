@@ -1,0 +1,12 @@
+(lex.add.entry '("il_PRO:per" "PRO:per" (((i l) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("semble_VER" "VER" ((("s" "ahn")0) (("b" "l" ae) 0))))
+(lex.add.entry '("que_CON" "CON" (((k ae) 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("notion_NOM" "NOM" ((("n" "o") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("est_VER" "VER" ((("e") 0))))
+(lex.add.entry '("trop_ADV" "ADV" ((("t" "rh" "o") 0))))
+(lex.add.entry '("imprécise_ADJ" "ADJ" (((p "ehn") 0) (("p" "rh" "e") 0) (("s" "i") 0) (("z" ae) 0)))); LIA
+
+(set! text "Il nous semble que cette notion est trop imprécise.") ; 
+(dSayText text); neut_parl_s01_0473

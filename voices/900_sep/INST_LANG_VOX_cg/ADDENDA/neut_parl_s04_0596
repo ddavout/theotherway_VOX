@@ -1,0 +1,9 @@
+(lex.add.entry '("c_PRO:dem" "PRO:dem" nil))
+(lex.add.entry '("c_est_VER" "VER" (((s eh) 0))))
+(lex.add.entry '("une_ART:ind" "ART:ind" ((("y" "n") 0))))
+(lex.add.entry '("lourde_ADJ" ADJ ((("l" "u" "rh") 0) (("d" ae) 0))))
+(lex.add.entry '("tâche_NOM" "NOM" ((("t" "a") 0) (("sh" "ae") 0))))
+
+
+(set! never_exception_list (append (list "c_est" "C_est" ) never_exception_list_default))
+(dSayText "C'est une lourde tâche !") ; neut_parl_s04_0596

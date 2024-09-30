@@ -1,0 +1,11 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("y_PRO:per" "PRO:per" (((z i) 0)))); LIA
+(lex.add.entry '("travaillons_VER" VER ((("t" "rh" "a") 0) (("v" "a") 0) (("j" "ohn") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0)))); no lia
+(lex.add.entry '("quotidien_NOM" "NOM" ((("k" "oh") 0) (("t" "i") 0) (("d" "j" "ehn") 0))))
+(lex.add.entry '("sans_PRE" PRE ((("s" "ahn") 0))))
+(lex.add.entry '("relâche_NOM" "NOM" ((("rh" "ae") 0) (("l" "a") 0) (("sh" ae) 0))))
+
+
+(set! text "Nous y travaillons au quotidien, sans relâche.") ; 
+(dSayText text); neut_parl_s01_0497

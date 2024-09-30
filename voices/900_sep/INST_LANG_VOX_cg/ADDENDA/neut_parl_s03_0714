@@ -1,0 +1,16 @@
+(lex.add.entry '("je_PRO:per" "PRO:per" ((("zh" "ae") 0))))
+(lex.add.entry '("trouve_VER" "VER" ((("t" "rh" "u" "v") 0))))
+(lex.add.entry '("dommage_NOM" "NOM" ((("d" "oh") 0) (("m" "a" "zh") 0))))
+(lex.add.entry '("qu_on_PRO:per" "PRO:per" (((k ohn) 0))))
+(lex.add.entry '("provisionne_VER" "VER" ((("p" "rh" "oh") 0) (("v" "i") 0) (("z" "j" "oh" "n") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("fonds_NOM" NOM ((("f" "ohn") 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("qu_ils_PRO:per" "PRO:per" (((k i l) 0))))
+(lex.add.entry '("ne_ADV" "ADV" (((n ae) 0))))
+(lex.add.entry '("soient_AUX" AUX ((("s" "w" "a") 0))))
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("utilisés_VER" VER (((z "y") 0) (("t" "i") 0) (("l" "i") 0) (("z" "e") 0)))); LIA
+
+(set! text "Je trouve dommage qu'on provisionne des fonds, et qu'ils ne soient pas utilisés.") ; neut_parl_s03_0714
+(dSayText text)

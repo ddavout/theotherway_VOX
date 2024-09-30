@@ -1,0 +1,25 @@
+(set! fileid "neut_book_s01_0045")
+(lex.add.entry '("suivant_PRE" PRE ((("s" "hw" "i") 0) (("v" "ahn") 0)))); confusion
+(lex.add.entry '("suivant_VER" VER ((("s" "hw" "i") 0) (("v" "ahn") 0))))
+
+
+
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("vous_PRO:per" "PRO:per" (((v u) 0))))
+(lex.add.entry '("accompagnerons_VER" VER (((z "a") 0) (("k" "ohn") 0) (("p" "a") 0) (("jg" "ae") 0) (("rh" "ohn") 0)))); LIA
+(lex.add.entry '("dis-je_VER" VER ((("d" "i")0) (("zh" ae) 0))))
+(lex.add.entry '("et_CON" "CON" ((("e") 0))))
+(lex.add.entry '("suivant" nil ((("s" "hw" "i") 0) (("v" "ahn") 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("capitaine_NOM" "NOM" ((("k" "a") 0) (("p" "i") 0) (("t" "eh" "n") 0))))
+(lex.add.entry '("nemo_NAM" "NAM" (((n e) 0) ((m o) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("dirigeâmes_VER" VER ((("d" "i") 0) (("rh" "i") 0) (("zh" "a")0) (("m" ae) 0))))
+(lex.add.entry '("vers_PRE" PRE ((("v" "eh" "rh") 0))))
+(lex.add.entry '("l_escalier_NOM" "NOM" (((l "eh" "s") 0) (("k" "a") 0) (("l" "j" "e") 0))))
+(lex.add.entry '("central_ADJ" "ADJ" ((("s" "ahn") 0) (("t" "rh" "a")0) (("l" ae) 0))))
+
+(set! text "nous vous accompagnerons, dis-je, et, suivant le capitaine nemo, nous nous dirigeâmes vers l'escalier central.") ; neut_book_s01_0045
+(dSayText text)
+

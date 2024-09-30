@@ -1,0 +1,14 @@
+(lex.add.entry '("Certes_ADV" ADV ((("s" "eh" "rh")0) (("t" "ae") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("avè_VER" "VER" ((("a") 0) (("v" "eh") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("sous-objectifs_NOM" NOM ((("s" "u") 0) ((z "oh" b) 0) (("zh" "eh" "k") 0) (("t" "i" "f") 0))))
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("y_ADV" "ADV" nil))
+(lex.add.entry '("allè_VER" VER (((n j "a") 0) (("l" "eh") 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("votè_VER" VER ((("v" "oh") 0) (("t" "eh") 0))))
+
+(set! never_exception_list (append (list "mais" "on" ) never_exception_list_default)) ; liaison on + y todo
+(dSayText "Certes, on avait des sous-objectifs, mais on y allait, on votait.") ; neut_parl_s06_0639

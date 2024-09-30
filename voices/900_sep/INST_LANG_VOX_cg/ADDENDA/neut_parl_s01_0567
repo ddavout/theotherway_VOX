@@ -1,0 +1,12 @@
+(lex.add.entry '("les_ART:def" "ART:def" ((("l" "e") 0))))
+(lex.add.entry '("familles_NOM" NOM ((("f" "a") 0) (("m" "i" "j") 0))))
+(lex.add.entry '("sont_VER" VER ((("s" "ohn") 0))))
+(lex.add.entry '("donc_CON" "CON" ((("d" "ohn" "k") 0))))
+(lex.add.entry '("bien_ADV" "ADV" ((("b" "j" "ehn") 0))))
+(lex.add.entry '("prioritaires_ADJ" ADJ ((("p" "rh" "i") 0) (("j" "oh") 0) (("rh" "i") 0) (("t" "eh" "rh") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("dialogue_NOM" "NOM" ((("d" "j" "a") 0) (("l" "oh")0) (("g" ae) 0))))
+
+(set! text "Les familles sont donc bien prioritaires dans ce dialogue.") ; 
+(dSayText text); neut_parl_s01_0567

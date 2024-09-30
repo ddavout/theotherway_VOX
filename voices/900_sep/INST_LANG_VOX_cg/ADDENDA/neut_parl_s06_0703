@@ -1,0 +1,11 @@
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("avions_AUX" AUX (((z "a") 0) (("v" "j" "ohn") 0))))
+(lex.add.entry '("mis_VER" "VER" (((m i) 0))))
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("ans_NOM" NOM (((z "ahn") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("la_PRO:per" "PRO:per" ((("l" "a") 0))))
+(lex.add.entry '("faire_VER" "VER" ((("f" "eh" "rh") 0))))
+
+(set! text "Nous avions mis trois ans à la faire.") ; neut_parl_s06_0703
+(dSayText text)

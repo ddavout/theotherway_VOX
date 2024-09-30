@@ -1,0 +1,9 @@
+(lex.add.entry '("enfin_ADV" "ADV" ((("ahn") 0) (("f" "ehn") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("grand_ADJ" "ADJ" ((("g" "rh" "ahn") 0))))
+(lex.add.entry '("merci_NOM" "NOM" ((("m" "eh" "rh") 0) (("s" "i") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
+(lex.add.entry '("cabinet_NOM" "NOM" ((("k" "a") 0) (("b" "i") 0) (("n" "eh") 0))))
+
+(dSayText "Enfin, un grand merci à mon cabinet.") ; neut_parl_s06_0014

@@ -1,0 +1,11 @@
+(lex.add.entry '("Trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("ordonnances_NOM" NOM (((z "oh" "rh") 0) (("d" "oh") 0) (("n" "ahn" "s") 0))))
+(lex.add.entry '("doivent_VER" VER ((("d" "w" "a" "v") 0))))
+(lex.add.entry '("être_AUX" AUX (((t "eh") 0) (("t" "rh" ae) 0)))); LIA
+(lex.add.entry '("prises_VER" VER ((("p" "rh" "i")0) (("z" "ae") 0))))
+(lex.add.entry '("sur_PRE" "PRE" ((("s" "y" "rh") 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("fondement_NOM" "NOM" ((("f" "ohn" "d") 0) (("m" "ahn") 0))))
+
+(set! text "Trois ordonnances doivent être prises sur ce fondement.") ; neut_parl_s02_0340
+(dSayText text)

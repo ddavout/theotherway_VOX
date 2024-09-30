@@ -1,0 +1,9 @@
+(set! fileid "neut_parl_s01_0627")
+(lex.add.entry '("rome_NAM" "NAM" (((rh oh)0) ((m ae) 0))))
+(lex.add.entry '("se_PRO:per" "PRO:per" (((s ae) 0))))
+(lex.add.entry '("résume-t-elle_VER" "VER" ((("rh" "e") 0) (("z" "y" "m") 0) ((t eh) 0))))
+(lex.add.entry '("à_PRE" "PRE" (((l a) 0))))
+(lex.add.entry '("néron_NAM" "NAM" (((n e) 0) ((rh ohn) 0))))
+
+(set! text "rome, se résume-t-elle à néron ?") ; neut_parl_s01_0627
+(dSayText text)

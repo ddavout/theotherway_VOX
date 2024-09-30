@@ -1,0 +1,10 @@
+(lex.add.entry '("Pas_NOM" NOM ((("p" "a") 0)))); confusion
+(lex.add.entry '("Pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((z a) 0)))); LIA
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("seconde_NOM" "NOM" ((("s" "ae") 0) (("g" "ohn" "d") 0))))
+(lex.add.entry '("chère_ADJ" ADJ ((("sh" "eh" "rh") 0))))
+(lex.add.entry '("collègue_NOM" "NOM" ((("k" "oh") 0) (("l" "eh") 0) (("g" ae) 0))))
+
+(set! text "Pas à la seconde chère collègue !") ; neut_parl_s02_0192
+(dSayText text)

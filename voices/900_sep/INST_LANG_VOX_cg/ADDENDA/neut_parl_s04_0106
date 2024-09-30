@@ -1,0 +1,16 @@
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i")0) (("f" ae) 0))))
+(lex.add.entry '("vise_VER" "VER" ((("v" "i") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((z a) 0))))
+(lex.add.entry '("posé_VER" VER ((("p" "o") 0) (("z" "e") 0))))
+(lex.add.entry '("un_ART:ind" "ART:ind" ((("oen") 0))))
+(lex.add.entry '("premier_ADJ" "ADJ" ((("p" "rh" "ae") 0) (("m" "j" "e") 0))))
+(lex.add.entry '("jalon_NOM" "NOM" ((("zh" "a") 0) (("l" "ohn") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("loi_NOM" "NOM" ((("l" "w" "a") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("sens_NOM" "NOM" ((("s" "ahn")0) (("s" ae) 0))))
+
+(dSayText "Ce dispositif vise à poser un premier jalon dans la loi, en ce sens.") ; neut_parl_s04_0106

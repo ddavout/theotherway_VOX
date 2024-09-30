@@ -1,0 +1,14 @@
+(lex.add.entry '("mon_ADJ:pos" "ADJ:pos" ((("m" "ohn") 0))))
+(lex.add.entry '("cher_ADJ" "ADJ" ((("sh" "eh" "rh") 0))))
+(lex.add.entry '("père_NOM" "NOM" ((("p" "eh" "rh") 0))))
+(lex.add.entry '("noël_NAM" "NAM" (((n o) 0) ((eh l) 0))))
+(lex.add.entry '("j_ai_AUX" AUX (((zh "e") 0))))
+(lex.add.entry '("été_VER" "VER" ((("e") 0) (("t" "e") 0))))
+(lex.add.entry '("très_ADV" ADV ((("t" "rh" "eh") 0))))
+(lex.add.entry '("sage_ADJ" ADJ ((("s" "a" "zh") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("année_NOM" "NOM" (((t "a") 0) (("n" "e") 0))))
+
+(set! text "mon cher père noël, j'ai été très sage cette année.") ; 
+(dSayText text); neut_parl_s01_0250
+

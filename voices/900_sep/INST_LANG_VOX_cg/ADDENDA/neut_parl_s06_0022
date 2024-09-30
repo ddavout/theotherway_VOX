@@ -1,0 +1,17 @@
+(lex.add.entry '("j_ai_VER" VER (((zh eh) 0))))
+(lex.add.entry '("du_ART:def" "ART:def" ((("d" "y") 0))))
+(lex.add.entry '("mal_NOM" "NOM" ((("m" "a" "l") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("voir_VER" "VER" ((("v" "w" "a" "rh") 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("plus_value_NOM" NOM ((("p" "l" "y") 0) (("v" "a") 0) (("l" "y") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" ((("s" "ae") 0))))
+(lex.add.entry '("dispositif_NOM" "NOM" ((("d" "i" "s") 0) (("p" "o") 0) (("z" "i") 0) (("t" "i")0) (("f" ae) 0))))
+(lex.add.entry '("par_PRE" "PRE" ((("p" "a" "rh") 0))))
+(lex.add.entry '("rapport_NOM" "NOM" ((("rh" "a") 0) (("p" "oh" "rh") 0))))
+(lex.add.entry '("au_ART:def" "ART:def" ((("o") 0))))
+(lex.add.entry '("droit_NOM" "NOM" ((("d" "rh" "w" "a") 0))))
+(lex.add.entry '("existant_ADJ" "ADJ" ((("eh" "g") 0) (("z" "i" "s") 0) (("t" "ahn") 0))))
+
+(dSayText "J'ai du mal à voir la plus-value de ce dispositif, par rapport au droit existant.") ; neut_parl_s06_0022

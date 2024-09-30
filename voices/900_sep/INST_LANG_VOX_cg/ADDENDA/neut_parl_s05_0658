@@ -1,0 +1,17 @@
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("a_AUX" "AUX" ((("a") 0))))
+(lex.add.entry '("parlé_VER" "VER" ((("p" "a" "rh") 0) (("l" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("malentendu_NOM" NOM ((("m" "a") 0) (("l" "ahn") 0) (("t" "ahn") 0) (("d" "y") 0))))
+(lex.add.entry '("ou_CON" "CON" ((("u") 0))))
+(lex.add.entry '("d_PRE" "PRE" nil))
+(lex.add.entry '("erreur_NOM" NOM ((("eh") 0) (("rh" "oe" "rh") 0))))
+(lex.add.entry '("dans_PRE" "PRE" (((d ahn) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("longue_ADJ" "ADJ" ((("l" "ohn") 0))))
+(lex.add.entry '("intervention_NOM" "NOM" (((g "ehn") 0) (("t" "eh" "rh") 0) (("v" "ahn") 0) (("s" "j" "ohn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("notre_ADJ:pos" "ADJ:pos" ((("n" "oh")0) (("t" "rh" ae) 0))))
+(lex.add.entry '("ministre_NOM" NOM (((m i) 0) ((n i s)0) ((t rh ae) 0))))
+
+(dSayText "On a parlé de malentendu, ou d'erreur, dans la longue intervention de notre ministre.") ; neut_parl_s05_0658

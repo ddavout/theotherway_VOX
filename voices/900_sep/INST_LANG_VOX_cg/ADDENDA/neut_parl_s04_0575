@@ -1,0 +1,18 @@
+(lex.add.entry '("conscients" NOM ((("k" "ohn") 0) (("s" "j" "ahn") 0)))); confusion
+
+(lex.add.entry '("conscients_ADJ" ADJ ((("k" "ohn") 0) (("s" "j" "ahn") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("nécessité_NOM" "NOM" ((("n" "e") 0) (("s" "eh") 0) (("s" "i") 0) (("t" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("cet_ADJ:dem" "ADJ:dem" (((s eh) 0))))
+(lex.add.entry '("équipement_NOM" "NOM" ((( t "e") 0) (("k" "i" "p") 0) (("m" "ahn") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("avons_AUX" AUX (((z "a") 0) (("v" "ohn") 0))))
+(lex.add.entry '("décidé_VER" "VER" ((("d" "e") 0) (("s" "i") 0) (("d" "e") 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("le_ART:def" "ART:def" ((("l" "ae") 0))))
+(lex.add.entry '("pérenniser_NOM" NOM ((("p" "e") 0) (("rh" "e") 0) (("n" "i") 0) (("z" "e") 0))))
+
+(set! text "conscients de la nécessité de cet équipement, nous avons décidé de le pérenniser.") ; neut_parl_s04_0575
+(dSayText text)

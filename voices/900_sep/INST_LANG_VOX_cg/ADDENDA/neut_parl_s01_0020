@@ -1,0 +1,12 @@
+(lex.add.entry '("mais_CON" "CON" (((m eh) 0))))
+(lex.add.entry '("de_PRE" "PRE" (((d ae) 0))))
+(lex.add.entry '("là_ADV" "ADV" ((("l" "a") 0))))
+(lex.add.entry '("à_PRE" "PRE" (((a) 0))))
+(lex.add.entry '("monter_VER" VER ((("m" "ohn") 0) (("t" "e") 0))))
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s e) 0))))
+(lex.add.entry '("histoire_NOM" "NOM" ((("t" "i" "s") 0) (("t" "w" "a" "rh") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("épingle_NOM" "NOM" ((("e") 0) (("p" "ehn") 0) (("g" "l" ae) 0))))
+
+(set! text "Mais de là à monter cette histoire en épingle.") ; neut_parl_s01_0020
+(dSayText text)

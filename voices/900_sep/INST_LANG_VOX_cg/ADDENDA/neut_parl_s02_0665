@@ -1,0 +1,12 @@
+(lex.add.entry '("Certains_PRO:ind" PRO:ind ((("s" "eh" "rh") 0) (("t" "ehn") 0))))
+(lex.add.entry '("en_PRE" "PRE" (((ahn) 0))))
+(lex.add.entry '("parlent_VER" VER ((("p" "a" "rh")0) (("l" ae) 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
+(lex.add.entry '("la_PRO:per" PRO:per ((("l" "a") 0))))
+(lex.add.entry '("faisons_VER" VER ((("f" "ae") 0) (("z" "ohn") 0))))
+
+
+(set! list_exclus->* (append (list "en" ) list_exclus->*_default))
+; marche pas (set! list_exclus*-> (append (list "Certains" ) list_exclus*->_default))
+(dSayText "Certains en parlent, nous, nous la faisons.") ; neut_parl_s02_0665

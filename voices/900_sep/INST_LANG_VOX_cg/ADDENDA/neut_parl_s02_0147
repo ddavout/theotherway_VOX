@@ -1,0 +1,9 @@
+(lex.add.entry '("c_est_VER" "VER" (((s e) 0))))
+(lex.add.entry '("pourtant_ADV" "ADV" ((("p" "u" "rh") 0) (("t" "ahn") 0))))
+(lex.add.entry '("exactement_ADV" "ADV" ((("eh" "g") 0) (("z" "a" "k") 0) (("t" "ae") 0) (("m" "ahn") 0)))); no LIA
+(lex.add.entry '("la_ART:def" "ART:def" ((("l" "a") 0))))
+(lex.add.entry '("même_ADJ" "ADJ" ((("m" "eh" "m") 0))))
+(lex.add.entry '("chose_NOM" "NOM" (((sh o)0) ((z ae) 0))))
+
+(set! text "C'est pourtant exactement la même chose !") ; neut_parl_s02_0147
+(dSayText text)

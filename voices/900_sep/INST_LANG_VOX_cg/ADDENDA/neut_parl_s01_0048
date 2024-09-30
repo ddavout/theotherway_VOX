@@ -1,0 +1,12 @@
+(lex.add.entry '("trois_ADJ:num" ADJ:num ((("t" "rh" "w" "a") 0))))
+(lex.add.entry '("rixes_NOM" NOM ((("rh" "i") 0) (("k" "s" "ae") 0))))
+(lex.add.entry '("ont_VER" "VER" ((("ohn") 0)))); no LIA
+(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh t) 0))))
+(lex.add.entry '("semaine_NOM" "NOM" ((("s" "ae") 0) (("m" "eh")0) (("n" "ae") 0))))
+(lex.add.entry '("entrainé_VER" "VER" ((("ahn") 0) (("t" "rh" "e") 0) (("n" "e") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("violences_NOM" NOM ((("v" "j" "oh") 0) (("l" "ahn" "s") 0))))
+(lex.add.entry '("graves_ADJ" "ADJ" ((("g" "rh" "a") 0) (("v" ae) 0))))
+
+(set! text "Trois rixes ont cette semaine, entraîné des violences graves.") ; neut_parl_s01_0048
+(dSayText text)

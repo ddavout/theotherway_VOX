@@ -1,0 +1,14 @@
+(lex.add.entry '("après_PRE" "PRE" ((("a") 0) ((p rh eh) 0))))
+(lex.add.entry '("ce_ADJ:dem" "ADJ:dem" (((s ae) 0))))
+(lex.add.entry '("reportage_NOM" "NOM" ((("rh" "ae") 0) (("p" "oh" "rh") 0) (("t" "a")0) (("zh" ae) 0))))
+(lex.add.entry '("on_PRO:per" "PRO:per" ((("ohn") 0))))
+(lex.add.entry '("a_AUX" "AUX" (((n "a") 0))))
+(lex.add.entry '("vu_VER" "VER" ((("v" "y") 0))))
+(lex.add.entry '("aussi_ADV" "ADV" ((("o") 0) (("s" "i") 0))))
+(lex.add.entry '("des_ART:ind" "ART:ind" (((d e) 0))))
+(lex.add.entry '("agences_NOM" NOM (((z "a") 0) (("zh" "ahn" "s") 0))))
+(lex.add.entry '("immobilières_ADJ" ADJ ((("i") 0) (("m" "oh") 0) (("b" "i") 0) (("l" "j" "eh" "rh") 0))))
+(lex.add.entry '("chuter_VER" VER ((("sh" "y") 0) (("t" "e") 0))))
+
+(set! list_exclus*-> (append (list "agences") list_exclus*->_default))
+(dSayText "Après ce reportage, on a vu aussi des agences immobilières chuter.") ; neut_parl_s04_0155

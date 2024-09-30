@@ -1,0 +1,8 @@
+(lex.add.entry '("elles_PRO:per" PRO:per ((("eh" "l") 0))))
+(lex.add.entry '("n_en_ADV" "ADV" (((n ahn) 0))))
+(lex.add.entry '("demandent_VER" VER ((("d" "ae") 0) (("m" "ahn")0) (("d" "ae") 0)))); Q
+(lex.add.entry '("pas_ADV" ADV ((("p" "a") 0))))
+(lex.add.entry '("plus_ADV" "ADV" ((("p" "l" "y" "s") 0))))
+
+(set! text "elles n'en demandent pas plus !") ; neut_parl_s04_0402
+(dSayText text)
