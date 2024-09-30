@@ -25,32 +25,36 @@ shopt -s extglob
 #so that an empty directory won't give you a literal '*'
 shopt -s nullglob
 chmod +x ./bin/*
-# voices='/home/getac/MyDevelop/Voices/'
-# un répertoire Voices dans lequel on aura copié build/fr/900_mars
-# ~/MyDevelop/Voices/build/fr/900_mars/INST_LANG_VOX_cg/..
-# dans ce même répertoire, il copie le répertoire config qui contient les fichiers de configuration qu'il aura à adapter.
-voices='/home/getac/MyDevelop/Voices'
+
+
 # caveats :
-# les fichiers waves fournis sont supposés tous adéquats ie SAMPFREQ=16000 mono ... etc.
-# hypothèse tacite de speech_tools
-# for file in *.wav; do sox $file -r 16000 -c 1 -b 16 "$(basename $file .wav)_16000_mono_16bit.wav" -V; done
+
 SAMPFREQ=16000
 export SAMPFREQ
 
 ###########################################################################
+# un répertoire Voices
+voices='/home/getac/MyDevelop/Voices_v1'
+# dans lequel on aura copié notre modèle
+# shellcheck disable=SC2034
+modele="${voices}"/build/fr/900_sep
+# # dans ce même répertoire, on copiera le répertoire config qui contient les fichiers de configuration et on l'adaptera.
 general="${voices}"/config/general.cfg
 environ="${voices}"/config/env_festvox_settings0.cfg
-festcat="${voices}"/config/festcat.cfg
 # à terme TODO ne contiendra que des variables paramétrables (voeu pieu ..)
 structure="${voices}"/config/env_settings2.cfg
-# modele pour la variante $VARIANTE de INST_LANG_VOX_cg
-LANG_VOX=fr
-# TODO symlink clunits.scm pb ,
-modele="${voices}"/build/fr/900_sep
-ls -l "${modele}"/
-# dans le répertoire $voices on a fait un lien vers frenchy, un lien est préconisé car en principe il n'a pas à modifier les waves.
-#waves16='/home/getac/MyDevelop/Voices/frenchy/waves16'
+analyse="${voices}"/config/env_ehmm_settings.cfg
+# dans le répertoire $voices on a fait un lien vers les waves utilisés
+# les fichiers waves fournis sont supposés tous satisfaire à l'hypothèse tacite de speech_tools
+# i.e mono de fréquence 16000 Hz et de format 16
+# on pourra utiliser pour ce faire sox
+# for file in *.wav; do sox $file -r 16000 -c 1 -b 16 "$(basename $file .wav)_16000_mono_16bit.wav" -V; done
+# shellcheck disable=SC2034
 waves16='/home/getac/Develop/festcat-voice-builder/resources/waves/wav_16000_mono_16_bit'
+###########################################################################
+
+LANG_VOX=fr
+
 ############################################################################
 # to be used to accueillir une nouvelle voix
 scratch="${scratch:-scratch}"
@@ -59,7 +63,7 @@ scratch_clean="${scratch_clean:-scratch_clean}"
 # pour récup_debug_investigation
 # fork='${voices}/build/fr/abouties/voix_complete_200_prompts_avec_tests_SPTK/INST_LANG_VOX/'
 
-analyse="${voices}"/config/env_ehmm_settings.cfg
+
 ############################################################################
 # appel obligatoire à "$0" pour changer de VARIANTE
 #declare -r VARIANTE
@@ -76,10 +80,10 @@ RSYNC_PARAMS=( -b --recursive --times --perms -v  --links \
 	    --exclude-from="${IGNORE_LIST}" )
 
 # exportation des variables environnement, outils, structure, analyse
-names=( "${general}" "${structure}" "${environ}" "${analyse}" "${festcat}")
+names=( "${general}" "${structure}" "${environ}" "${analyse}")
 for cfg in "${names[@]}"; do
     #shellcheck source=/dev/null
-    source "$cfg";
+    source "$cfg" || printf 'the configuration file %s is missing\n' "$cfg" && continue ;
     awk '/^[a-zA-Z0-9_]+=/ {
         split($0, a, /=/);
         # print a[1];
@@ -96,9 +100,6 @@ BUILD=${voices}/build/"${LANG_VOX}"
  # ici PROJECT='${voices}'
 # TODO encours
 
-# pour batterie de tests
-TEST="test"
-
 ### mon vocabulaire
 # plutôt VOX_DIR ?
 DIR_VOX="${BUILD}"/"${VARIANTE}"/INST_LANG_VOX_cg
@@ -106,8 +107,9 @@ WAV="$DIR_VOX"/"${sig_dir}"
 PROMPTFILE="${PROMPTFILE:-"${DIR_VOX}"/etc/txt.done.data}"
 STAMPS="${DIR_VOX}"/stamps
 data_file="${DIR_VOX}"/data_file.txt
+# declare -ax array exportable
 declare -ax requisite_files
-declare -ax temoin_dir1
+declare -ax temoin_dir1 ; #TODO pourquoi un array ?
 declare -ax temoin_dir2
 declare -ax temoin_ext1
 declare -ax temoin_ext2
@@ -236,21 +238,41 @@ done < <(timeout "${time_out}" tail -f "$log")
 exit 3
 }
 
+function confronte_datas() {
+# 2 parametres, $temoin_dir1 $temoin_ext1
+# echo parametre  "$1" > /dev/stdout
+find -L "${DIR_VOX}"/"$1"  -maxdepth 1 -type f -perm -o=r -name "*$2" -print0 | while IFS="/" read -r -d '' a; do
+    file="${a##*/}"; echo "${file%.*}";
+    done | sort > "${data_file}"
 
+export -f confronte_datas
 
+}
+
+function update_datas() {
+    export data_file CHMOD x z PROMPTFILE FIND DIR_VOX sig_dir sig_ext GREP CP RM TOP echov
+    declare -x -g FIND
+    command './bin/update_datas.sh' || exit
+}
+export -f update_datas
 
 # expected as prequisite of an action and expected as a "result" temoin_dir1 temoin_dir2 temoin_files
+# 1 parameter: the action
+# exemple
+# expected_list_files "do_build_build_prompts"
+# echo requisite "${requisite_files[@]}" donnera
+# echo temoin_dir1 "${temoin_dir1}" donnera "${prompt_utt_dir}" i.e ,par défaut,"./prompt-utt"
 function expected_list_files (){
     # When a match is found, the corresponding list is executed.  
     # If the ;; operator is used, no subsequent matches are attempted after the first pattern match.
-    echo parameter "$1" > /dev/stdout
+
     case "$1" in
     do_build_build_prompts) { temoin_files=()
-                            requisite_files=()
-                            temoin_dir1=()
-                            temoin_ext1=()
-                            temoin_dir2=()
-                            temoin_ext2=() ;};;
+                            requisite_files=("$promptfile")
+                            temoin_dir1=("$prompt_utt_dir"); #déclaré comme array TODO pourquoi
+                            temoin_ext1=("${utt_ext}")
+                            temoin_dir2=("$prompt_lab_dir")
+                            temoin_ext2=("${lab_ext}") ;};;
 
     do_build_setup)        { temoin_files=("./ehmm/etc/mysp_settings")
                             requisite_files=()
@@ -324,41 +346,77 @@ export -f enforce_requisite
 default() {
     echo 'are you afraid of missing files or exports ?'
     echo "${list_ext}"
-    echo DIR_VOX "${DIR_VOX}"
-    # ls -l "${DIR_VOX}"/wav
-    # TODO virer les non .sh
+    echo we shellcheck the scripts of DIR_VOX "${DIR_VOX}"
    shellcheck -ax ./build ./bin/*.sh # || true
     expected_list_files "do_clustergen_desc"
     # check requisites and allow/stop
     ok=1
-    echo "just checking"
+    echo 'we also check the prerequisite of an action, here for do_clustergen_desc'
     for file in "${requisite_files[@]}"; do
-        echo "${DIR_VOX}"/"$file"
+        # echo "${DIR_VOX}"/"$file"
         if [[ ! -s "${DIR_VOX}"/"$file" ]]; then ok=0; missing=$file; continue; fi
     done
     if [[ "$ok" == "0" ]]; then 
         echo at least a requisite is missing "$missing"
         echo check them all : "${requisite_files[*]}"; exit 66
+    else
+        echo no required files is missing;
     fi
     
 }
 # shellcheck disable=SC2317
 # mon bac à sable personnel
 bac() {
-    action_do_clustergen_generate_statenames
+replace_rename(){
+# 3 parameters VOX-> mau; file: INST_LANG_VOX_cg.scm -> INST_LANG_mau.scm dans lequel VOX sera remplacé par "mau"
+# $2 différent de VOX
+repl=$1
+remp=$2
+file_in=$3
+file_out="${file_in//"$repl"/"$remp"}"
+sed s/"$1"/"$2"/g "$file_in" > "${file_out}"
+#sed 's/VOX/mau/g' "$file_in" > "${file_out}"
 
-    # TODO our own ?
-    action_do_clustergen_generate_filters
-    action_do_clustergen_cluster
-    action_do_clustergen_dur
-    # export NEW=1; export VARIANTE="scratch; ./build our_setup_cg
-    # export NEW=0; export VARIANTE="scratch"; ./build common_cg
-    # new_scratch 'dry-run'
-    #new_scratch 'run'
-    #stepstamp "bidon"
-    #__verif_functions
-    #wcl './bin/truc.sh'
-    #./bin/truc.sh
+}
+export -f replace_rename
+    place="/home/getac/Develop/festival/lib/voices/LANG"
+    mkdir -p "${place}"/INST_LANG_mau_cg/festvox
+
+    fichier="festvox/INST_LANG_VOX_cg.scm"
+    replace_rename 'VOX' 'mau' "${place}"/INST_LANG_VOX_cg/"$fichier"
+
+    parallel replace_rename 'VOX' 'mau'{.} ::: festvox/*.scm
+
+
+    if false; then
+    command "./bin/update_datas.sh" "start"
+
+    expected_list_files "do_build_build_prompts"
+    confronte_datas "${temoin_dir1[0]}" "${temoin_ext1[0]}"
+    command "./bin/update_datas.sh" "acknowledge"
+        expected_list_files "do_build_build_prompts" ;
+        echo requisite "${requisite_files[@]}"
+        echo temoin_dir1 "${temoin_dir1[0]}"
+        echo temoin_dir2 "${temoin_dir2[0]}"
+        echo temoin_ext1 "${temoin_ext1[0]}"
+
+
+
+            action_do_clustergen_generate_statenames
+
+            # TODO our own ?
+            action_do_clustergen_generate_filters
+            action_do_clustergen_cluster
+            action_do_clustergen_dur
+            # export NEW=1; export VARIANTE="scratch; ./build our_setup_cg
+            # export NEW=0; export VARIANTE="scratch"; ./build common_cg
+            # new_scratch 'dry-run'
+            #new_scratch 'run'
+            #stepstamp "bidon"
+            #__verif_functions
+            #wcl './bin/truc.sh'
+            #./bin/truc.sh
+    fi
 }
 
 our_setup_cg() {
@@ -370,7 +428,7 @@ our_setup_cg() {
         #                                   the wav folder
         # rmdir supprimer le ou les RÉPERTOIRE, s'ils sont vides. (sans l'option --ignore-fail-on-non-empty )
         rmdir "$WAV" || rm -f -I "$WAV" || exit 66
-        #                                   création de répertoires supplémentaires
+        #                                   création de répertoires supplémentaires1
         ourfolders
         #
         echo "*"we don\'t remove the eventual stamps
@@ -497,9 +555,12 @@ trunk_cg(){
     # TODO our own ?
     action_do_build_build_utts
 }
-
+# if we interrupt action_do_build_build_prompts, we need to update the promptfile
+# removing the prompts that were not processed
 trunk2_cg(){
-    # TODO our own ?
+    expected_list_files "do_build_build_prompts"
+    confronte_datas "${temoin_dir1[0]}" "${temoin_ext1[0]}"
+    command "./bin/update_datas.sh" "acknowledge"
     action_do_build_setup
     action_do_build_phseq
     action_do_build_feats
@@ -519,9 +580,6 @@ action_do_clustergen_mcep() {
     action action_do_clustergen_mcep do_clustergen
 }
 
-#action_do_clustergen_mcep(){
-#	 action do_clustergen_mcep do_clustergen
-#}
 action_do_clustergen_voicing(){
 	 action do_clustergen_voicing do_clustergen
 }
@@ -532,7 +590,7 @@ action_do_clustergen_generate_statenames(){
      # we don't accept a missing etc/statenames 
 	 action do_clustergen_generate_statenames do_clustergen
 }
-# ajout de freq_response_vector_gen dans binary#
+
 action_do_clustergen_generate_filters(){
 	 action do_clustergen_generate_filters do_clustergen
 }
@@ -545,7 +603,7 @@ action_do_clustergen_generate_filters(){
 action_do_clustergen_desc(){
     action do_clustergen_desc do_clustergen
 }
-# TODO export CLUSTERGENDIR="bin/" sinon /cg_feats_all not found: cf clustergenbuild.scm
+# on a un  export CLUSTERGENDIR="bin/" sinon /cg_feats_all not found: cf clustergenbuild.scm
 action_do_clustergen_cluster() {
     action do_clustergen_cluster do_clustergen
 }
@@ -555,9 +613,10 @@ action_do_clustergen_() {
 action_do_clustergen_dur() {
     action do_clustergen_dur do_clustergen
 }
+# TODO pas clair
 # for a simple cg type, vanilla do_clustergen cares for both simple cg and random forest one
 # de plus du moment de mettre en place on doit changer le INST_LANG_VOX_cg.scm
-# dans le build on chargeit prélblement un fichier "local" festvox/safeload.scm
+# dans le build on chargeait préalablement un fichier "local" festvox/safeload.scm
 # on doit ajouter après
 # ;;;  Add the directory contains general voice stuff to load-path
 # (set! load-path (cons (path-append INST_LANG_VOX::dir "festvox/") 
@@ -614,7 +673,8 @@ apres_chgt_desc() {
     action_do_clustergen_cluster
     action_do_clustergen_dur
 }
-# not yet solved !
+############################################################################
+# issues festival not yet solved !
 issue_make_f0_pm() {
     # shellcheck disable=SC2006,SC2034,SC2086
     { cd "${DIR_VOX}"
@@ -678,33 +738,8 @@ issue_build_clunits(){
 #     action do_install_SPTK do_SPTK
 # }
 
-HTS(){
-    export TOP FESTVOXDIR SPTKDIR FESTCATDIR
-    # SPTK 3.10 patché
-    # # echo BUILD "$BUILD" BUILD /home/getac/MyDevelop/Voices/build/fr
-    # chmod +x "$0"/bin/install_SPTK.sh || exit 1
-    # ./bin/install_SPTK.sh
-    
-    # tempo you have to fill /home/getac/MyDevelop/Voices/config/festcat.cfg
-    source config/festcat.cfg || exit 1
+############################################################################
 
-    echo "${htk_password}"
-    echo "${htk_user}"
-    # dependencies 
-    # tcsh pour csh, tcl tk libsnack, ffmpeg, libncurses5-dev libncursesw5-dev gcc-fortran ? 
-    # 
-    hts=HTS-2.3_for_HTK-3.4.1.tar.bz2
-    #
-    cd "$FESTCATDIR" || exit 1
-    # ./configure htk_user="${htk_user}" htk_password="${htk_password}" --prefix="$FESTCATDIR" || exit 1
-        # ls -al ./deps/"${hts}"
-        # if [[ ! -s deps/"${hts}" ]] ; then
-        #     echo we copy 
-        #     cp  -a "$TOP"/src/"${hts}" ./deps || exit 1
-        # fi
-
-    make -B -w -f Makefile_my fr_zoe.spk
-}
 
 erreur_() {
     local message action
@@ -758,226 +793,12 @@ action_do_clustergen_f0() {
      action do_clustergen_f0 do_clustergen
  }
 
-action_do_flite_f0() {
-    action do_flite_f0 do_flite
-}
-
 action_do_clustergen_make_pm_wave() {
     action do_clustergen_make_pm_wave do_clustergen
 }
 
-# action_do_build_flite() {
-#     action do_clustergen_build_flite do_clustergen
-# }
-
-action_do_flite_cg() {
-    action do_flite_cg do_flite
-}
-
-action_do_build_flite() {
-    action do_flite_build_flite do_flite
-}
-
-flite() {
-# on recommence on suit flite pour clunits, puisqu'on peut construire les fichiers demandés
-# pourquoi s'en priver ? cela a eu marché
-# vu dans /home/getac/Develop/flite/tools/setup_flite, construction de "$flite_dir"/Makefile
-# 2 pb nous n'avons pas cmulex comme dicts et nous avons un phoneset différent de radio
-
-# The basic flite conversion takes place within a ***FestVox voice directory**
-# nous utilisons directement DIR_VOX
-# Thus all of the conversion scripts expect that the standard files are
-# available.  The first task is to build some new directories and copy in
-# the build scripts.  The scripts are copied rather than linked from the
-# Flite directories as you may need to change these for your particular
-# voices.
-                
-# on ne vérifie que l'existence de ./wav
-# If you don't have a @file{etc/voice.defs} you can construct one
-# with @code{festvox/src/general/guess_voice_defs} in the Festvox
-# distribution, or generate one by hand making it look
-# like
-# @example
-# FV_INST=cmu
-# FV_LANG=us
-# FV_NAME=ked_timit
-# FV_TYPE=clunits
-# FV_VOICENAME=$FV_INST"_"$FV_LANG"_"$FV_NAME
-# FV_FULLVOICENAME=$FV_VOICENAME"_"$FV_TYPE                       
-###### clunits
-# construction du Makefile "local"
-# cela crée 
-# /home/getac/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/flite/Makefile
-# /home/getac/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/flite/flite_main.c
-# /home/getac/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/flite/INST_LANG_VOX.c
-# /home/getac/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/flite/voxdefs.h
-# il faut changer dans Makefile
-# FLITE_LANG=cmu_LANG_lang
-# FLITE_LEX=cmu_LANG_lex
-# en 
-# FLITE_LANG=INST_LANG_LANG_lang
-# FLITE_LEX=INST_LANG_LANG_lex
-# qui soit dit en passant sont les répertoires de lang/ qui nous intéresse (versus pour les us usenglish et cmuex)
-# il faut cmu_lex -> INST_LANG_LEX
-# dans flite_main.c
-# /* Its not very appropriate that these are declared here */
-# void usenglish_init(cst_voice *v);
-# cst_lexicon *cmu_lex_init(void);
-
-# à changer en 
-
-# /* Its not very appropriate that these are declared here */
-# void INST_LANG_LANG_init(cst_voice *v);
-# cst_lexicon *INST_LANG_LANG_lex_init(void);
-# ces fichiers sont à proposer tels que
-# mais il faut aussi INST_LANG_LANG_lang.h
-
-# vu le #include "INST_LANG_LANG_lang.h" dans INST_LANG_VOX.c
-# on regarde usenglish.h
-# US_ENGLISH_H en __INST_LANG_LANG_LANG_H_
-
-# /* Voices call this to use usenglish. */
-# void usenglish_init(cst_voice *v);
-# en
-# /* Voices call this to use INST_LANG_LANG_lang. */
-# void INST_LANG_LANG_lang_init(cst_voice *v);
-
-# pour l'instant on commente
-# cst_utterance *us_f0_model(cst_utterance *u);
-# extern const cst_phoneset us_phoneset;
-# extern const cst_cart us_phrasing_cart;
-# extern const cst_cart us_int_accent_cart;
-# extern const cst_cart us_int_tone_cart;
-# extern const cst_cart us_durz_cart;
-# extern const cst_cart us_pos_cart;
-# extern const dur_stat * const us_dur_stats[];
-# oups encore un cmu_
-# making in flite ...
-# gcc -g -O2 -Wall     -I/home/getac/Develop/flite/lang/cmu_LANG_lang -I/home/getac/Develop/flite/lang/cmu_LANG_lex -I/home/getac/Develop/flite/include  -c -o INST_LANG_VOX.o INST_LANG_VOX.c
-# INST_LANG_VOX.c:44:10: fatal error: INST_LANG_LANG_lang.h: Aucun fichier ou dossier de ce type
-#    44 | #include "INST_LANG_LANG_lang.h"
-# on passe à make: ***  Aucune règle pour fabriquer la cible « INST_LANG_VOX_clunits.o 
-# il faut adapter /home/getac/Develop/flite/tools/VOICE_clunits.c
-# encore étourderie
-# INST_LANG_VOX_clunits.c: In function ‘register___VOICENAME__’:
-# INST_LANG_VOX_clunits.c:77:5: warning: implicit declaration of function ‘__FLITELANG___init’ [-Wimplicit-function-declaration]
-#    77 |     __FLITELANG___init(v);
-#       |     ^~~~~~~~~~~~~~~~~~
-# INST_LANG_VOX_clunits.c:87:11: warning: implicit declaration of function ‘__FLITELEX___init’ [-Wimplicit-function-declaration]
-#    87 |     lex = __FLITELEX___init();
-# pas __FLITE_LANG_ mais INST_LANG_LANG_lang, ni de FLITELEX
-# du coup
-# make: ***  Aucune règle pour fabriquer la cible « INST_LANG_VOX_cltrees.o », nécessaire pour « libINST_LANG_VOX.a ». Arrêt.
-# on est donc passé à la ligne suivante
-# ~/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/flite/Makefile:
-   # 77  ## Clunits/ldom
-   # 78  CSRCS += $(VOICENAME)_clunits.c
-   # 79: CSRCS += $(VOICENAME)_cltrees.c $(VOICENAME)_lpc.c $(VOICENAME)_mcep.c
-   # 80  CSRCS += $(VOICENAME)_cl_durmodel.c
-   # 81  MCEPSRCS = $(shell if [ -f $(VOICENAME)_mcep_000.c ]; then ls $(VOICENAME)_mcep_*.c ; 
-# pour les cltrees on a besoin de make_clunits.scm
-# ;;; Convert festvox voice to flite                                      ;;;
-# ;;;   clunits: catalogue, carts and param                               ;;;   
-# déclenché par tools/build_flite "clunits"
-#  /home/getac/MyDevelop/theotherway_VOX/bin/build_flite 
-# sauf que
-# $ /home/getac/MyDevelop/theotherway_VOX/bin/build_flite "clunits"
-# Building clunits/ldom index
-# sed: impossible de lire festival/clunits/INST_LANG_VOX.catalogue: Aucun fichier ou dossier de ce type
-# pos_pp_start_tag : VER 
-# ici: INST_LANG_VOX:select
-# SIOD ERROR: could not open file mcep/mcep.params.scm
-################ flite_cg
-# gcc -g -O2 -Wall     -I/home/getac/Develop/flite/lang/INST_LANG_LANG_lang -I/home/getac/Develop/flite/lang/INST_LANG_LANG_lex -I/home/getac/Develop/flite/include  -c -o INST_LANG_VOX.o INST_LANG_VOX.c
-# make: ***  Aucune règle pour fabriquer la cible « INST_LANG_VOX_cg.o », nécessaire pour « libINST_LANG_VOX.a ». Arrêt.
-# puis
-# make: ***  Aucune règle pour fabriquer la cible « INST_LANG_VOX_cg_phonestate.o », nécessaire pour « libINST_LANG_VOX.a ». Arrêt.
-
-# arevoir clunits versus cg 
-        # action_do_flite_f0
-        # # copie du Makefile
-        # # action do_flite_build_flite do_flite
-        # action do_clustergen_make_pm_wave do_clustergen
-
-        # echo PWD "$PWD"
-        # mkdir -p "${DIR_VOX}"/lpc
-        # chmod +x ./bin/make_lpc.sh 
-        # command ./bin/make_lpc.sh
-        # chmod +x ./bin/lpc_params.sh 
-        # command ./bin/lpc_params.sh    
-        # chmod +x ./bin/make_sts.sh 
-        # command ./bin/make_sts.sh    
-    # NO action do_flite_cg do_flite
-    
-    #
-    # chmod +x ./bin/f0_params.sh 
-    # command ./bin/f0_params.sh  
-
-    # voice.feats non généré TODO
-    # (gdb) r
-# Starting program: /home/getac/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/flite/flite_INST_LANG_VOX_cg 
-# [Thread debugging using libthread_db enabled]
-# Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
-
-# Program received signal SIGSEGV, Segmentation fault.
-# main (argc=<optimized out>, argv=<optimized out>) at flite_main.c:375
-# 375     feat_copy_into(extra_feats,v->features);
-
-    # v = desired_voice;
-    # feat_copy_into(extra_feats,v->features);
-    # durs = 0.0;
-
-    # for distribution de flitevox
-    # ##  ../etc/voice.feats should look something like                      ##
-    ##                                                                       ##
-    ##  age 42                                                               ##
-    ##  gender male                                                          ##
-    ##  variant Scots 
-    # If ../COPYING exists, the content is added as the feature copyright
-    # TODO etc/voice.feats 
-    # ls -l "${DIR_VOX}"/etc/voice.feats
-    # chmod +x ./bin/voice_feats.sh
-    # command ./bin/voice_feats.sh
-
-    # ok
-    # # /* Phoneset -- need to get this from voice */
-    # # feat_set(v->features,"phoneset",phoneset_val(&INST_LANG_phoneset))
-    # # make_lex
-    # # pour grapheme : $ESTDIR/../festival/bin/festival -b $FLITEDIR/tools/make_phoneset.scm '(phonesettoC "cmu_grapheme" (car (load "cmu_grapheme_all_phoneset.scm" t)) "pau" ".")' 
-    # # tempo 
-    # FV_VOICENAME=INST_LANG_VOX
-    # # (phonesettoC name phonesetdef ODIR)
-    # #    Convert a Phoneset definition to a C structure in ODIR/NAME_phoneset.c.
-    # cd "${DIR_VOX}" || exit 
-    # echo "$PWD"
-    # # TEMPO TODO
-    # phones et non pas phoneset
-    # copier 
-    # cp /home/getac/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/flite/INST_LANG_VOX_phoneset.c festvox/INST_LANG_VOX_phones.scm"
-    # puis (begin (phonesettoC "INST_LANG" (car (load "festvox/INST_LANG_VOX_phones.scm" t)) "pau" "flite"))
-    # (begin (phonesettoC "INST_LANG" (car (load "/home/getac/Develop/festival/lib/INST_LANG/INST_LANG_phones.scm" t)) "pau" "flite"))
-
-    # "$FESTIVAL" -b "$FLITEDIR"/tools/make_phoneset_my.scm '(begin (phonesettoC "INST_LANG" (car (load "/home/getac/Develop/festival/lib/INST_LANG/INST_LANG_phones.scm" t)) "pau" "flite")))'
-# si phoneset raté
-# gcc -g -O2 -Wall     -I/home/getac/Develop/flite/lang/INST_LANG_LANG_lang -I/home/getac/Develop/flite/lang/INST_LANG_LANG_lex -I/home/getac/Develop/flite/include  -c -o INST_LANG_VOX_phoneset.o INST_LANG_VOX_phoneset.c
-# INST_LANG_VOX_phoneset.c:10:1: error: expected expression at end of input
-#    10 | static const char * const INST_LANG_VOX_featnames[] = {
-#       | ^~~~~~
-# INST_LANG_VOX_phoneset.c:10:27: warning: ‘INST_LANG_VOX_featnames’ defined but not used [-Wunused-const-variable=]
-#    10 | static const char * const INST_LANG_VOX_featnames[] = {
-#       |                           ^~~~~~~~~~~~~~~~~~~~~~~
-# make: *** [<commande interne> : INST_LANG_VOX_phoneset.o] Erreur 1
 
 
-
-# /* Waveform synthesis */
-#     flite_feat_set(vox->features,"wave_synth_func",uttfunc_val(&cg_synth));
-#     flite_feat_set(vox->features,"cg_db",cg_db_val(&INST_LANG_VOX_db));
-#     flite_feat_set_int(vox->features,"sample_rate",INST_LANG_VOX_db.sample_rate); 
-
-/home/getac/Develop/flite/tools/build_flite "cg"
-
-}
 build_cg_voice() {
     mkdir -p "${DIR_VOX}"
     our_setup_cg
@@ -1096,7 +917,6 @@ REQUIRED_DIRS=(
 	 "${DIR_VOX}/${lab_dir}"
 	 "${DIR_VOX}/${mcep_deltas_dir}"
 	 "${DIR_VOX}/${mcep_dir}"
-	 "${DIR_VOX}/${mcep_sptk_dir}"
 	 "${DIR_VOX}/${minmax_dir}"
 	 "${DIR_VOX}/${pm_dir}"
 	 "${DIR_VOX}/${pm_unfilled_dir}"
@@ -1107,7 +927,6 @@ REQUIRED_DIRS=(
 	 "${DIR_VOX}/${sig_dir}"
 	 "${DIR_VOX}/${split_dir}"
 	 "${DIR_VOX}/${stamps_dir}"
-	 "${DIR_VOX}/${sptk_f0_dir}"
  	 "${DIR_VOX}/${tmpdir}"
      "${DIR_VOX}/${trees_dir}"
 	 "${DIR_VOX}/${trees_hmm_dir}"
@@ -1227,6 +1046,44 @@ oneway() {
         # avec changement de VARIANTE grâce à l'export et l'utilisation de $0
      VARIANTE="${scratch_clean}" ; export VARIANTE; "$0"  scratch_clean_voice
 }
+
+make_dist() {
+    my_voice=INST_LANG_VOX_cg_"$VARIANTE"
+    REQUIRED_RUNTIME_FESTVOXFILES=(
+        festvox/clustergen.scm
+        festvox/INST_LANG_VOX_cg.scm
+        festvox/INST_LANG_VOX_dur.scm
+        festvox/INST_LANG_VOX_duration.scm
+        festvox/INST_LANG_VOX_durdata.scm
+        festvox/INST_LANG_VOX_durdata_cg.scm
+        festvox/INST_LANG_VOX_f0model.scm
+        festvox/INST_LANG_VOX_intonation.scm
+        festvox/INST_LANG_VOX_lexicon.scm
+        festvox/INST_LANG_VOX_other.scm
+        festvox/INST_LANG_VOX_phoneset.scm
+        festvox/INST_LANG_VOX_phrasing.scm
+        festvox/INST_LANG_VOX_statenames.scm
+        festvox/INST_LANG_VOX_tagger.scm
+        festvox/INST_LANG_VOX_tokenizer.scm
+        festvox/lpf.track
+        festvox/select_phoneset.scm )
+
+# we need too the ${DIR_VOX}"/festival
+    REQUIRED_RUNTIME_FESTIVAL_FILES=(
+        festival/trees/INST_LANG_VOX_mcep.params
+        festival/trees/INST_LANG_VOX_mcep.tree
+        festival/trees/INST_LANG_VOX_f0.tree )
+# README and COPYING
+
+    REQUIRED_RUNTIME=( "$REQUIRED_RUNTIME_FESTVOXFILES" "$REQUIRED_RUNTIME_FESTIVAL_FILES"  README COPYING)
+touch "${DIR_VOX}"/README; touch "${DIR_VOX}"/COPYING
+# we have no  file names with newlines in them
+# https://stackoverflow.com/questions/16769004/bash-creating-tar-for-array-items
+tar --create --gzip --directory="$DIR_VOX" --file "${my_voice}".tgz --files-from <(printf "%s\n" "${REQUIRED_RUNTIME[@]}")
+# --absolute-names --strip-components=
+
+}
+
 
 # TODO autoriser succession de taches
 

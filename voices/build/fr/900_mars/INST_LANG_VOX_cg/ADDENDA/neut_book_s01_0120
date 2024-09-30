@@ -1,8 +1,0 @@
-(lex.add.entry '("quelle_ADJ:int" "ADJ:int" ((("k" "eh" "l") 0)))) ; manque de POS :(
-(lex.add.entry '("étrange_ADJ" "ADJ" ((("e") 0) ((t "rh" "ahn" "zh") 0))))
-(lex.add.entry '("puissance_NOM" "NOM" ((("p" "hw" i) 0) (("s" "ahn" "s") 0))))
-(lex.add.entry '("nous_PRO:per" "PRO:per" ((("n" "u") 0))))
-(lex.add.entry '("emportait_VER" "VER" (((z "ahn") 0) (("p" "oh" "rh") 0) (("t" "eh") 0)))) ; LIA
-
-(set! text  "quelle étrange puissance nous emportait !") ; neut_book_s01_0120
-(dSayText text)

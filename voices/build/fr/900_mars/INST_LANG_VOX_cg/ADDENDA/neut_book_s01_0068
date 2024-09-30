@@ -1,9 +1,0 @@
-(set! fileid "neut_book_s01_0068")
-(lex.add.entry '("poursuivons_VER" "VER" ((("p" "u" "rh") 0) (("s" "hw" "i") 0) (("v" "ohn") 0))))
-(lex.add.entry '("jusqu_au_bout_ADV" "ADV" (((zh y s) 0) ((k o) 0)(("b" "u") 0))))
-(lex.add.entry '("cette_ADJ:dem" "ADJ:dem" (((s eh) 0))))
-(lex.add.entry '("exploration_NOM" "NOM" (((t "eh" "k" "s") 0) (("p" "l" "oh") 0) (("rh" "a") 0) (("s" "j" "ohn") 0))))
-(lex.add.entry '("dit-il_VER" "VER" ((("d" "i") 0)(("t" "i")0) ((l ae) 0))))
-
-(set! text "poursuivons jusqu'au bout cette exploration, dit-il.") ; neut_book_s01_0068
-(dSayText text)

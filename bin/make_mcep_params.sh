@@ -1,16 +1,15 @@
 #!/usr/bin/env bash
 set -eauo pipefail -
 # make_mcep_params
-ESTDIR=/home/getac/Develop/speech_tools
+export ESTDIR
 # shellcheck disable=SC1091
 export PROMPTFILE
 ls "$PROMPTFILE"
-FV_VOICENAME=INST_LANG_VOX
-flite_dir=flite
 
 IFS=$'\n\t'
    echo "Finding MCEP min max and range"
-   cat $PROMPTFILE |
+   # shellcheck disable=SC2002
+   cat "$PROMPTFILE" |
    awk '{print $2}' |
    while read -r i ; do
        # TODO
