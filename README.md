@@ -19,7 +19,7 @@ L'utilisateur qui désire utiliser une installation existante de festival (de d�
 
 Pour une nouvelle installation, il suffit de changer une seule variable
 
-WHERE=/home/dop7/Develop
+WHERE=/home/getac/Develop
 
 (dans tous les cas, ne pas s'occuper des variables liées à l'installation de SPTK, on ne l'utilise plus)
 

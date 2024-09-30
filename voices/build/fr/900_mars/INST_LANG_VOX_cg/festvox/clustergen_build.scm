@@ -1994,7 +1994,7 @@ a track file"
     (system
      (format 
       nil
-      "./bin/ch_track -itype ascii -otype est_binary -s 0.005 -o %s %s"
+      "/bin/ch_track -itype ascii -otype est_binary -s 0.005 -o %s %s"
       (format nil "festival/trees/%s_%s.params"
 	      (get_param 'index_name params "all.") type)
       (format nil "festival/trees/%s_%s.rawparams"
@@ -2109,7 +2109,7 @@ a track file"
     (system
      (format 
       nil
-      "./bin/ch_track -itype ascii -otype est_binary -s 0.005 -o %s %s"
+      "/bin/ch_track -itype ascii -otype est_binary -s 0.005 -o %s %s"
       (format nil "festival/trees/%s_%s.params"
 	      (get_param 'index_name params "all.") "mcep")
       (format nil "festival/trees/%s_%s.rawparams"
@@ -2421,7 +2421,7 @@ a track file"
     (system
      (format 
       nil
-      "./bin/ch_track -itype ascii -otype est_binary -s 0.005 -o %s %s"
+      "/bin/ch_track -itype ascii -otype est_binary -s 0.005 -o %s %s"
       (format nil "festival/trees/%s_%s.params"
 	      (get_param 'index_name params "all.") "cga")
       (format nil "festival/trees/%s_%s.rawparams"

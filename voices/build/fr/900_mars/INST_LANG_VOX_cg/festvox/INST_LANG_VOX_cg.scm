@@ -34,7 +34,7 @@
 ;;;  Customized for: INST_LANG_VOX                                       ;;
 ;;;                                                                      ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(set! provided nil)
+
 ;;; Try to find the directory where the voice is, this may be from
 ;;; .../festival/lib/voices/ or from the current directory
 (if (assoc 'INST_LANG_VOX_cg voice-locations)
@@ -54,26 +54,7 @@
 ;;;  Add the directory contains general voice stuff to load-path
 (set! load-path (cons (path-append INST_LANG_VOX::dir "festvox/") 
 		      load-path))
-(set! load-path (cons (path-append libdir "INST_LANG/")
-		      load-path))
-(set! load-path (cons (path-append lexdir "INST_LANG/")
-		      load-path))
-(require 'INST_LANG_synthesis)
 
-;;; (require 'INST_LANG_intonation)
-;;; (require 'INST_LANG_lexicons)
-;;; (require 'INST_LANG_pauses)
-
-(require 'INST_LANG_pos) 
-
-;;; (require 'INST_LANG_phrase)
-(require 'INST_LANG_postlex)		      
-		      
-		      
-(require 'INST_LANG_phones)
-(require 'INST_LANG_token)
-(require 'INST_LANG_VOX_phoneset)
-(INST_LANG_VOX::select_phoneset)
 (require 'clustergen)  ;; runtime scheme support
 
 ;;; Voice specific parameter are defined in each of the following
@@ -90,7 +71,7 @@
 
 (require 'INST_LANG_VOX_statenames)
 ;; ... and others as required
-(require 'INST_LANG_norm)
+
 ;;;
 ;;;  Code specific to the clustergen waveform synthesis method
 ;;;
@@ -451,7 +432,6 @@ Define voice for LANG."
   ;; Select appropriate tokenization
   (INST_LANG_VOX::select_tokenizer)
 
-  (load_library "INST_LANG_pos.scm") 
   ;; For part of speech tagging
   (INST_LANG_VOX::select_tagger)
 

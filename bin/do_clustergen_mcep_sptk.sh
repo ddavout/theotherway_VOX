@@ -13,7 +13,7 @@ vanilla=0
 # neut_parl_s01_0001 COMBINE_COEFFS (f0,mcep_deltas,v)
 # BUG si FRAMELEN est renseignée ..
 #/$\ $ESTDIR/bin/ch_wave -otype raw < wav/$fname.wav < BUG
-#/home/dop7/MyDevelop/theotherway/bin/do_clustergen_mcep_sptk.sh : ligne 114 : 3081407 Relais brisé (pipe)    $FRAME -l $FRAMELEN -p $FRAMESHIFT $TMP.sf
+#/home/getac/MyDevelop/theotherway/bin/do_clustergen_mcep_sptk.sh : ligne 114 : 3081407 Relais brisé (pipe)    $FRAME -l $FRAMELEN -p $FRAMESHIFT $TMP.sf
 #     3081408 Erreur de segmentation  | $WINDOW -l $FRAMELEN -L $FFTLEN -w $WINDOWTYPE -n $NORMALIZE -n
 #     3081409 Fini                    | $MCEP -a $FREQWARP -m $MCEPORDER -l $FFTLEN -e 1.0E-08 > mcep_sptk/$fname.mcep
 

@@ -7,9 +7,9 @@ set -euao pipefail -
 # shellcheck disable=SC1091
 source etc/voice.defs || { echo to be run in the VOX directory; exit 66; }
 # needed if you use this file directly
-# environ=/home/dop7/MyDevelop/Voices/EXP2/config/env_festvox_settings0.cfg
+# environ=/home/getac/MyDevelop/Voices/EXP2/config/env_festvox_settings0.cfg
 # source $environ
-#DIR_VOX=/home/dop7/MyDevelop/Voices/EXP2/build/fr/scratch/INST_LANG_VOX_cg
+#DIR_VOX=/home/getac/MyDevelop/Voices/EXP2/build/fr/scratch/INST_LANG_VOX_cg
 #PROMPTFILE="etc/txt.done.data"
 HEAPSIZE=2000000
 export HEAPSIZE

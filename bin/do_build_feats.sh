@@ -102,7 +102,7 @@ if [[ "$vanilla" == "1" ]]; then
      echov ah
     # SC2086 (info): Double quote to prevent globbing and word splitting.
     # /!\ et non pas xargs -0 -n1 -I {} basename {} .mfcc
-    # Usage: /home/dop7/Develop/festvox/src/ehmm/bin/ConvertFeatsFileToBinaryFormat input_feat_file output_feat_file
+    # Usage: /home/getac/Develop/festvox/src/ehmm/bin/ConvertFeatsFileToBinaryFormat input_feat_file output_feat_file
     #find ehmm/feat -name '*.mfcc' -print0 | xargs -0 -n1 basename -s '.mfcc' 
     mkdir -p ehmm/binfeat
     find ehmm/feat -name '*.mfcc' -print0 | \

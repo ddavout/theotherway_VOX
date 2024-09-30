@@ -91,7 +91,7 @@ echo ';;; Extracting features from utterances'
 #             dump specific features etc.  If filename starts with a left
 #             parenthesis it it evaluated as lisp /!\ parenthis
 
-$DUMPFEATS -relation HMMstate -eval "festvox/safeload.scm" -eval "festvox/INST_LANG_VOX_cg.scm" -eval '(voice_INST_LANG_VOX_cg)' -feats festival/dur/etc/statedur.feats -output festival/dur/feats/%s.feats -eval festival/dur/etc/logdurn.scm -from_file utthmmfile || exit 13
+$DUMPFEATS -relation HMMstate -eval "festvox/select_phoneset.scm" -eval "festvox/INST_LANG_VOX_cg.scm" -eval '(voice_INST_LANG_VOX_cg)' -feats festival/dur/etc/statedur.feats -output festival/dur/feats/%s.feats -eval festival/dur/etc/logdurn.scm -from_file utthmmfile || exit 13
 
 ## Save all features in one file removing silence phones
 echo ';;; Collecting features in training and test data'
@@ -113,7 +113,7 @@ echo ';;; Build description file'
 
 
 echo ';;; fix it the heap of festvox/build_prosody.scm'
-"$FESTIVALDIR"/bin/festival --heap "$HEAPSIZE" -b 'festvox/safeload.scm' 'festvox/build_prosody.scm' '(begin (build_dur_feats_desc))'
+"$FESTIVALDIR"/bin/festival --heap "$HEAPSIZE" -b 'festvox/select_phoneset.scm' 'festvox/build_prosody.scm' '(begin (build_dur_feats_desc))'
 
 # emacs festival/dur/etc/dur.desc
 
@@ -130,7 +130,7 @@ tee dur."$PREF".S"$STOP".out
 
 
 echo ";;; Constructing the duration model as a loadable scheme file"
-"$FESTIVALDIR"/bin/festival --heap "$HEAPSIZE" -b 'festvox/safeload.scm' 'festvox/build_prosody.scm'  '(begin (finalize_dur_model "'"$MODELNAME"'" "'"$PREF.S$STOP.tree"'"))'
+"$FESTIVALDIR"/bin/festival --heap "$HEAPSIZE" -b 'festvox/select_phoneset.scm' 'festvox/build_prosody.scm'  '(begin (finalize_dur_model "'"$MODELNAME"'" "'"$PREF.S$STOP.tree"'"))'
 
 # the last part  of do_clustergen "dur"s
 cp -b 'festvox/INST_LANG_VOX_dur.scm' 'festvox/INST_LANG_VOX_durdata_cg.scm'

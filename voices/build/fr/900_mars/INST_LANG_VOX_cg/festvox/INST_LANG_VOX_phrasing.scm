@@ -45,26 +45,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (define (INST_LANG_VOX::select_phrasing)
-  "Set up phrasing"
- (INST_LANG_VOX::select_phrasing_default ))
-(define (INST_LANG_VOX::select_phrasing_default)
-  "(INST_LANG_VOX::select_phrasing)
-Set up the phrasing module."
-
-       (set! INST_LANG_phrase_cart_tree
-             '
-             ((lisp_token_end_punc in ("'" "\"" "?" "." "," ":" ";"))
-              ((B))
-              ((n.name is 0)
-               ((B))
-               ((NB)))))))
-
-
-
-
-  (set! phrase_cart_tree INST_LANG_phrase_cart_tree)
-  (Parameter.set 'Phrase_Method 'cart_tree)
-)
+  "Set up phrasing")
 
 
 (define (INST_LANG_VOX::reset_phrasing)
