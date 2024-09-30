@@ -1,0 +1,502 @@
+clear; NEW=1; export NEW ; VARIANTE="scratch" ./build build_cg_voice
+
+==
+build_cg_voice
+Making directories
+Copying relevant script files
+Generating clunits specific voice and build files
+Set up for INST_LANG_VOX complete
+Copying general files
+Copying intonation files
+Copying duration files
+Set up for INST_LANG_VOX prosody complete
+Generating additional clustergen specific voice and build files
+Set up for INST_LANG_VOX clustergen complete
+check the modele you exported
+total 4
+drwxr-xr-x 2 getac getac 4096 15 juil. 12:30 INST_LANG_VOX_cg
+getac@mx:~/MyDevelop/theotherway_VOX
+==
+$ echo $?
+130
+==
+on recommence 
+~/MyDevelop/Voices/build/fr/900_mars/INST_LANG_VOX_cg était vide !
+====
+build_cg_voice
+Making directories
+Copying relevant script files
+Generating clunits specific voice and build files
+Set up for INST_LANG_VOX complete
+Copying general files
+Copying intonation files
+Copying duration files
+Set up for INST_LANG_VOX prosody complete
+Generating additional clustergen specific voice and build files
+Set up for INST_LANG_VOX clustergen complete
+**the apriori vanilla vox files are to be replaced
+rm : supprimer 1 argument récursivement ? 
+
+==
+contenu du terminal :
+cd+++++++++ festvox/
+>f+++++++++ festvox/.INST_LANG_VOX_clunits.scm.kate-swp
+>f+++++++++ festvox/INST_LANG_VOX_cg.scm
+>f+++++++++ festvox/INST_LANG_VOX_cg_ex_build.scm
+>f+++++++++ festvox/INST_LANG_VOX_clunits.scm
+>f+++++++++ festvox/INST_LANG_VOX_dur.scm
+>f+++++++++ festvox/INST_LANG_VOX_duration.scm
+>f+++++++++ festvox/INST_LANG_VOX_durdata.scm
+>f+++++++++ festvox/INST_LANG_VOX_durdata_cg.ini
+>f+++++++++ festvox/INST_LANG_VOX_durdata_cg.scm
+>f+++++++++ festvox/INST_LANG_VOX_durdata_cg.scmNON
+>f+++++++++ festvox/INST_LANG_VOX_durdata_cg.scm~
+>f+++++++++ festvox/INST_LANG_VOX_durdata_ini.scm
+>f+++++++++ festvox/INST_LANG_VOX_f0model.scm
+>f+++++++++ festvox/INST_LANG_VOX_intonation.scm
+>f+++++++++ festvox/INST_LANG_VOX_lexicon.scm
+>f+++++++++ festvox/INST_LANG_VOX_other.scm
+>f+++++++++ festvox/INST_LANG_VOX_phoneset.scm
+>f+++++++++ festvox/INST_LANG_VOX_phrasing.scm
+>f+++++++++ festvox/INST_LANG_VOX_statenames.ini
+>f+++++++++ festvox/INST_LANG_VOX_statenames.scm
+>f+++++++++ festvox/INST_LANG_VOX_tagger.scm
+>f+++++++++ festvox/INST_LANG_VOX_tokenizer.scm
+>f+++++++++ festvox/aaa
+>f+++++++++ festvox/build_clunits.scm
+>f+++++++++ festvox/build_prosody.scm
+>f+++++++++ festvox/clunits.scm
+>f+++++++++ festvox/clunits_build.scm
+>f+++++++++ festvox/clustergen.scm
+>f+++++++++ festvox/clustergen.scm.xxx
+>f+++++++++ festvox/clustergen_build.scm
+>f+++++++++ festvox/do_prompt.scm
+>f+++++++++ festvox/do_text.scm
+>f+++++++++ festvox/lpf.track
+>f+++++++++ festvox/mef.track
+>f+++++++++ festvox/my_clunits_build.scm
+>f+++++++++ festvox/my_structure.scm
+>f+++++++++ festvox/my_var_mod.scm
+>f+++++++++ festvox/my_var_mod2.scm
+>f+++++++++ festvox/safedumpfeats.scm
+>f+++++++++ festvox/safeload.scm
+>f+++++++++ festvox/tree_f0.scm
+
+sent 911.698 bytes  received 799 bytes  1.824.994,00 bytes/sec
+total size is 908.695  speedup is 1,00
+'/home/getac/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/festvox/clunits.scm' -> '/home/getac/Develop/festival/lib/clunits.scm'
+/home/getac/MyDevelop/Voices/build/fr/900_mars/INST_LANG_VOX_cg/festvox /home/getac/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/
+rsync -b --recursive --times --perms -v --links --hard-links --ignore-existing --itemize-changes --protect-args --exclude-from=
+sending incremental file list
+
+sent 1.061 bytes  received 13 bytes  2.148,00 bytes/sec
+total size is 908.695  speedup is 846,08
+/home/getac/MyDevelop/Voices/build/fr/900_mars/INST_LANG_VOX_cg/ADDENDA /home/getac/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/
+rsync -b --recursive --times --perms -v --links --hard-links --ignore-existing --itemize-changes --protect-args --exclude-from=
+sending incremental file list
+cd+++++++++ ADDENDA/
+>f+++++++++ ADDENDA/neut_book_s01_0001
+>f+++++++++ ADDENDA/neut_book_s01_0002
+>f+++++++++ ADDENDA/neut_book_s01_0003
+>f+++++++++ ADDENDA/neut_book_s01_0004
+>f+++++++++ ADDENDA/neut_book_s01_0005
+>f+++++++++ ADDENDA/neut_book_s01_0006
+>f+++++++++ ADDENDA/neut_book_s01_0008
+>f+++++++++ ADDENDA/neut_book_s01_0009
+>f+++++++++ ADDENDA/neut_book_s01_0010
+>f+++++++++ ADDENDA/neut_book_s01_0011
+>f+++++++++ ADDENDA/neut_book_s01_0012
+>f+++++++++ ADDENDA/neut_book_s01_0013
+>f+++++++++ ADDENDA/neut_book_s01_0014
+>f+++++++++ ADDENDA/neut_book_s01_0015
+>f+++++++++ ADDENDA/neut_book_s01_0016
+>f+++++++++ ADDENDA/neut_book_s01_0017
+>f+++++++++ ADDENDA/neut_book_s01_0018
+>f+++++++++ ADDENDA/neut_book_s01_0019
+>f+++++++++ ADDENDA/neut_book_s01_0020
+>f+++++++++ ADDENDA/neut_book_s01_0021
+>f+++++++++ ADDENDA/neut_book_s01_0023
+>f+++++++++ ADDENDA/neut_book_s01_0025
+>f+++++++++ ADDENDA/neut_book_s01_0027
+>f+++++++++ ADDENDA/neut_book_s01_0028
+>f+++++++++ ADDENDA/neut_book_s01_0029
+>f+++++++++ ADDENDA/neut_book_s01_0030
+>f+++++++++ ADDENDA/neut_book_s01_0031
+>f+++++++++ ADDENDA/neut_book_s01_0032
+>f+++++++++ ADDENDA/neut_book_s01_0033
+>f+++++++++ ADDENDA/neut_book_s01_0035
+>f+++++++++ ADDENDA/neut_book_s01_0037
+>f+++++++++ ADDENDA/neut_book_s01_0039
+>f+++++++++ ADDENDA/neut_book_s01_0040
+>f+++++++++ ADDENDA/neut_book_s01_0041
+>f+++++++++ ADDENDA/neut_book_s01_0043
+>f+++++++++ ADDENDA/neut_book_s01_0045
+>f+++++++++ ADDENDA/neut_book_s01_0047
+>f+++++++++ ADDENDA/neut_book_s01_0049
+>f+++++++++ ADDENDA/neut_book_s01_0053
+>f+++++++++ ADDENDA/neut_book_s01_0054
+>f+++++++++ ADDENDA/neut_book_s01_0055
+>f+++++++++ ADDENDA/neut_book_s01_0056
+>f+++++++++ ADDENDA/neut_book_s01_0057
+>f+++++++++ ADDENDA/neut_book_s01_0058
+>f+++++++++ ADDENDA/neut_book_s01_0059
+>f+++++++++ ADDENDA/neut_book_s01_0060
+>f+++++++++ ADDENDA/neut_book_s01_0061
+>f+++++++++ ADDENDA/neut_book_s01_0062
+>f+++++++++ ADDENDA/neut_book_s01_0067
+>f+++++++++ ADDENDA/neut_book_s01_0068
+>f+++++++++ ADDENDA/neut_book_s01_0069
+>f+++++++++ ADDENDA/neut_book_s01_0071
+>f+++++++++ ADDENDA/neut_book_s01_0073
+>f+++++++++ ADDENDA/neut_book_s01_0074
+>f+++++++++ ADDENDA/neut_book_s01_0078
+>f+++++++++ ADDENDA/neut_book_s01_0079
+>f+++++++++ ADDENDA/neut_book_s01_0080
+>f+++++++++ ADDENDA/neut_book_s01_0081
+>f+++++++++ ADDENDA/neut_book_s01_0082
+>f+++++++++ ADDENDA/neut_book_s01_0084
+>f+++++++++ ADDENDA/neut_book_s01_0085
+>f+++++++++ ADDENDA/neut_book_s01_0086
+>f+++++++++ ADDENDA/neut_book_s01_0087
+>f+++++++++ ADDENDA/neut_book_s01_0088
+>f+++++++++ ADDENDA/neut_book_s01_0089
+>f+++++++++ ADDENDA/neut_book_s01_0090
+>f+++++++++ ADDENDA/neut_book_s01_0091
+>f+++++++++ ADDENDA/neut_book_s01_0092
+>f+++++++++ ADDENDA/neut_book_s01_0093
+>f+++++++++ ADDENDA/neut_book_s01_0098
+>f+++++++++ ADDENDA/neut_book_s01_0099
+>f+++++++++ ADDENDA/neut_book_s01_0100
+>f+++++++++ ADDENDA/neut_book_s01_0101
+>f+++++++++ ADDENDA/neut_book_s01_0107
+>f+++++++++ ADDENDA/neut_book_s01_0111
+>f+++++++++ ADDENDA/neut_book_s01_0112
+>f+++++++++ ADDENDA/neut_book_s01_0113
+>f+++++++++ ADDENDA/neut_book_s01_0114
+>f+++++++++ ADDENDA/neut_book_s01_0115
+>f+++++++++ ADDENDA/neut_book_s01_0116
+>f+++++++++ ADDENDA/neut_book_s01_0117
+>f+++++++++ ADDENDA/neut_book_s01_0118
+>f+++++++++ ADDENDA/neut_book_s01_0119
+>f+++++++++ ADDENDA/neut_book_s01_0120
+>f+++++++++ ADDENDA/neut_book_s01_0121
+>f+++++++++ ADDENDA/neut_book_s01_0122
+>f+++++++++ ADDENDA/neut_book_s01_0123
+>f+++++++++ ADDENDA/neut_book_s01_0124
+>f+++++++++ ADDENDA/neut_book_s01_0125
+>f+++++++++ ADDENDA/neut_book_s01_0126
+>f+++++++++ ADDENDA/neut_book_s01_0127
+>f+++++++++ ADDENDA/neut_book_s01_0128
+>f+++++++++ ADDENDA/neut_book_s01_0129
+>f+++++++++ ADDENDA/neut_book_s01_0130
+>f+++++++++ ADDENDA/neut_book_s01_0131
+>f+++++++++ ADDENDA/neut_book_s01_0133
+>f+++++++++ ADDENDA/neut_book_s01_0134
+>f+++++++++ ADDENDA/neut_book_s01_0135
+>f+++++++++ ADDENDA/neut_book_s01_0136
+>f+++++++++ ADDENDA/neut_book_s01_0137
+>f+++++++++ ADDENDA/neut_book_s01_0139
+>f+++++++++ ADDENDA/neut_book_s01_0140
+>f+++++++++ ADDENDA/neut_book_s01_0141
+>f+++++++++ ADDENDA/neut_book_s01_0142
+>f+++++++++ ADDENDA/neut_book_s01_0143
+>f+++++++++ ADDENDA/neut_book_s01_0144
+>f+++++++++ ADDENDA/neut_book_s01_0145
+>f+++++++++ ADDENDA/neut_book_s01_0146
+>f+++++++++ ADDENDA/neut_book_s01_0147
+>f+++++++++ ADDENDA/neut_book_s01_0148
+>f+++++++++ ADDENDA/neut_book_s01_0149
+>f+++++++++ ADDENDA/neut_book_s01_0150
+>f+++++++++ ADDENDA/neut_book_s01_0151
+>f+++++++++ ADDENDA/neut_book_s01_0152
+>f+++++++++ ADDENDA/neut_book_s01_0153
+>f+++++++++ ADDENDA/neut_book_s01_0154
+>f+++++++++ ADDENDA/neut_book_s01_0155
+>f+++++++++ ADDENDA/neut_book_s01_0266
+>f+++++++++ ADDENDA/neut_book_s01_0267
+>f+++++++++ ADDENDA/neut_book_s01_0314
+>f+++++++++ ADDENDA/neut_book_s01_0359
+>f+++++++++ ADDENDA/neut_parl_s01_0001
+>f+++++++++ ADDENDA/neut_parl_s01_0002
+>f+++++++++ ADDENDA/neut_parl_s01_0003
+>f+++++++++ ADDENDA/neut_parl_s01_0004
+>f+++++++++ ADDENDA/neut_parl_s01_0005
+>f+++++++++ ADDENDA/neut_parl_s01_0006
+>f+++++++++ ADDENDA/neut_parl_s01_0007
+>f+++++++++ ADDENDA/neut_parl_s01_0008
+>f+++++++++ ADDENDA/neut_parl_s01_0009
+>f+++++++++ ADDENDA/neut_parl_s01_0010
+>f+++++++++ ADDENDA/neut_parl_s01_0011
+>f+++++++++ ADDENDA/neut_parl_s01_0012
+>f+++++++++ ADDENDA/neut_parl_s01_0013
+>f+++++++++ ADDENDA/neut_parl_s01_0014
+>f+++++++++ ADDENDA/neut_parl_s01_0015
+>f+++++++++ ADDENDA/neut_parl_s01_0016
+>f+++++++++ ADDENDA/neut_parl_s01_0017
+>f+++++++++ ADDENDA/neut_parl_s01_0018
+>f+++++++++ ADDENDA/neut_parl_s01_0019
+>f+++++++++ ADDENDA/neut_parl_s01_0020
+>f+++++++++ ADDENDA/neut_parl_s01_0021
+>f+++++++++ ADDENDA/neut_parl_s01_0022
+>f+++++++++ ADDENDA/neut_parl_s01_0023
+>f+++++++++ ADDENDA/neut_parl_s01_0024
+>f+++++++++ ADDENDA/neut_parl_s01_0025
+>f+++++++++ ADDENDA/neut_parl_s01_0026
+>f+++++++++ ADDENDA/neut_parl_s01_0027
+>f+++++++++ ADDENDA/neut_parl_s01_0028
+>f+++++++++ ADDENDA/neut_parl_s01_0029
+>f+++++++++ ADDENDA/neut_parl_s01_0031
+>f+++++++++ ADDENDA/neut_parl_s01_0032
+>f+++++++++ ADDENDA/neut_parl_s01_0034
+>f+++++++++ ADDENDA/neut_parl_s01_0035
+
+sent 188.485 bytes  received 2.946 bytes  382.862,00 bytes/sec
+total size is 179.785  speedup is 0,94
+/home/getac/MyDevelop/Voices/build/fr/900_mars/INST_LANG_VOX_cg/etc/txt.done.data /home/getac/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/etc
+rsync -b --recursive --times --perms -v --links --hard-links --ignore-existing --itemize-changes --protect-args --exclude-from=
+sending incremental file list
+>f+++++++++ txt.done.data
+
+sent 16.926 bytes  received 35 bytes  33.922,00 bytes/sec
+total size is 16.834  speedup is 0,99
+'/home/getac/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/wav' -> '/MyDevelop/theotherway_VOX/voices/frenchy/waves16'
+setup_cg
+NEW 1
+1
+2
+===
+on note un lien cassé
+$ ls -al wav 
+lrwxrwxrwx 1 getac getac 49 15 juil. 13:03 wav -> /MyDevelop/theotherway_VOX/voices/frenchy/waves16
+getac@mx:~/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg
+
+on n'avait pas mis le lien préconisé vers frenchy
+==on recommence
+après avoir fait le lien
+ls -al frenchy
+lrwxrwxrwx 1 getac getac 52 15 juil. 13:08 frenchy -> /home/getac/MyDevelop/theotherway_VOX/voices/fren
+===
+pas bon 
+$ echo $?
+1
+et on a maintenant
+getac@mx:~/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg
+$ ls -al wav 
+lrwxrwxrwx 1 getac getac 49 15 juil. 13:09 wav -> /MyDevelop/theotherway_VOX/voices/frenchy/waves16
+
+cause 
+mauvaise ligne dans build ! oubli de /home/...
+waves16='/home/MyDevelop/theotherway_VOX/voices/frenchy/waves16'
+==
+on recommence
+waves16='/home/getac/MyDevelop/theotherway_VOX/voices/frenchy/waves16' !!!
+..
+on en est à ehmm 13:31 iteration 5
+
+grr
+
+Clustergen mcep tree build on: zh_2
+./bin/wagon  -track_feats 1-50 -vertex_output mean -desc festival/clunits/mcep.desc -data 'festival/feats/zh_2.feats' -test 'festival/feats/zh_2.feats' -balance 0 -track 'festival/disttabs/zh_2.mcep' -stop 50 -output 'festival/trees/zh_2_mcep.tree' 
+Dataset of 884 vectors of 64 parameters from: festival/feats/zh_2.feats
+Dataset of 884 vectors of 64 parameters from: festival/feats/zh_2.feats
+RMSE 0.9926 Correlation is 0.9903 Mean (abs) Error 0.7938 (0.5960)
+Clustergen mcep tree build on: zh_3
+./bin/wagon  -track_feats 1-50 -vertex_output mean -desc festival/clunits/mcep.desc -data 'festival/feats/zh_3.feats' -test 'festival/feats/zh_3.feats' -balance 0 -track 'festival/disttabs/zh_3.mcep' -stop 50 -output 'festival/trees/zh_3_mcep.tree' 
+Dataset of 792 vectors of 64 parameters from: festival/feats/zh_3.feats
+Dataset of 792 vectors of 64 parameters from: festival/feats/zh_3.feats
+RMSE 0.9930 Correlation is 0.9885 Mean (abs) Error 0.7945 (0.5958)
+Collect trees
+112 unittypes as 2239 subunittypes dumped
+Tree models and vector params dumped
+lun. 15 juil. 2024 13:41:44 CEST
+do_clustergen_cluster
+debug prg: /home/getac/MyDevelop/theotherway_VOX/bin/do_clustergen_dur.sh
+option dur
+       step: do_clustergen_dur
+we have our own version
+we will now run: /home/getac/MyDevelop/theotherway_VOX/bin/do_clustergen_dur.sh
+;;; Finding mean durations and standard deviation of each phone type
+./bin/durmeanstd: 2: exec: /home/getac/Develop/festival/bin/festival: not found
+getac@mx:~/MyDevelop/theotherway_VOX
+$ 
+===
+pb de 
+/home/getac/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/bin/durmeanstd
+la première ligne mise à
+"true" ; exec /home/getac/Develop/festival/bin/festival --script $0 $*
+au lieu de 
+"true" ; exec /home/getac/Develop/festival/bin/festival --script $0 $*
+
+même chose pour
+/home/getac/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/bin/dumpfeats
+
+
+
+on reprend à classic_cg
+
+on veut éviter
+do_clustergen_cluster
+debug prg: /home/getac/MyDevelop/theotherway_VOX/bin/do_clustergen_dur.sh
+option dur
+       step: do_clustergen_dur
+we have our own version
+we will now run: /home/getac/MyDevelop/theotherway_VOX/bin/do_clustergen_dur.sh
+;;; Finding mean durations and standard deviation of each phone type
+./bin/durmeanstd: 2: exec: /home/getac/Develop/festival/bin/festival: not found
+getac@mx:~/MyDevelop/theotherway_VOX
+
+ça passe
+we will now run: /home/getac/MyDevelop/theotherway_VOX/bin/do_clustergen_cluster.sh
+pos_pp_start_tag : VER 
+ici: INST_LANG_VOX:select
+debug: we enter build_clunits.scm
+lexicon INST_LANG_poslex recreated
+Ngrammar: INST_LANG_pos_ngram recreated
+pos_pp_start_tag : VER 
+Phoneset "INST_LANG" redefined
+lexicon INST_LANG_poslex recreated
+Ngrammar: INST_LANG_pos_ngram recreated
+pos_pp_start_tag : VER 
+Phoneset "INST_LANG" redefined
+now: build_clunits_init from build_clunits_init with file /home/getac/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/etc/txt.done.data:
+now: (INST_LANG_VOX::select_phoneset)
+now: (INST_LANG_VOX::select_tokenizer)
+now: (INST_LANG_VOX::select_tagger)
+now: (INST_LANG_VOX::select_lexicon)
+ici: INST_LANG_VOX:select
+now: build_clunits_init  we add the fileids
+now: actual_build_clunits_params closed
+....
+il aurait fallu corriger les fichiers dans le modele
+/home/getac/MyDevelop/Voices/build/fr/900_mars/INST_LANG_VOX_cg/bin/
+
+mis grr
+Collect trees
+112 unittypes as 2239 subunittypes dumped
+Tree models and vector params dumped
+lun. 15 juil. 2024 15:24:07 CEST
+do_clustergen_cluster
+debug prg: /home/getac/MyDevelop/theotherway_VOX/bin/do_clustergen_dur.sh
+option dur
+       step: do_clustergen_dur
+we have our own version
+we will now run: /home/getac/MyDevelop/theotherway_VOX/bin/do_clustergen_dur.sh
+;;; Finding mean durations and standard deviation of each phone type
+pos_pp_start_tag : VER 
+ici: INST_LANG_VOX:select
+;;; Extracting features from utterances
+pos_pp_start_tag : VER 
+ici: INST_LANG_VOX:select
+lexicon INST_LANG_poslex recreated
+Ngrammar: INST_LANG_pos_ngram recreated
+pos_pp_start_tag : VER 
+Phoneset "INST_LANG" redefined
+SIOD ERROR: unexpected close paren 
+BACKTRACE:
+   0: (load_library (string-append fname ".scm"))
+   1: (require (quote INST_LANG_VOX_phrasing))
+   2: (if
+    (string-matches (car (cdr o)) "^(.*")
+    (eval (read-from-string (car (cdr o))))
+    ...)
+   3: (if
+    (string-equal "-relation" (car o))
+    (begin
+     (if (not (cdr o)) (dumpfeats_error "no stream file specified"))
+     (set! desired_relation (car (cdr o)))
+     ...)
+    ...)
+   4: (begin
+    (if
+     (string-equal "-relation" (car o))
+     (...)
+     ...)
+    (set! o (cdr o)))
+   5: (while
+    o
+    (begin
+     (...)
+     (set! o (cdr o))))
+   6: (get_options)
+   7: (main)
+   8: (load "./bin/dumpfeats")
+;;; Collecting features in training and test data
+cat: festival/dur/feats/neut_book_s01_0001.feats: No such file or directory
+
+o
+n
+ 
+fait
+source /home/getac/MyDevelop/theotherway_VOX/config/env_festvox_settings0.cfg
+puis export ESTDIR
+
+et on retombe sur la même erreur !
+regardons 
+/home/getac/MyDevelop/Voices/build/fr/scratch/INST_LANG_VOX_cg/festvox/INST_LANG_VOX_phrasing.scm
+
+grrr : erreur de syntaxe il y avait il faudra corriger le modele !
+
+== grrr
+
+festival/utts_hmm/neut_parl_s01_0035.utt
+festival/utts_hmm/neut_parl_s01_0036.utt
+festival/utts_hmm/neut_parl_s01_0037.utt
+;;; Collecting features in training and test data
+;;; Build description file
+/home/getac/MyDevelop/theotherway_VOX/bin/do_clustergen_dur.sh: line 111: /home/getac/Develop/speech_tools/bin/make_wagon_desc: No such file or directory
+
+le $ESTDIR n'était pas le bon !
+
+je n'avais pas changer le modele lui-même
+
+/home/getac/MyDevelop/theotherway_VOX/config/env_festvox_settings0.cfg
+
+grrr
+
+;;; Collecting features in training and test data
+;;; Build description file
+;;; fix it the heap of festvox/build_prosody.scm
+/home/getac/MyDevelop/theotherway_VOX/bin/do_clustergen_dur.sh: line 116: FESTIVALDIR: unbound variable
+
+il fallait aussi exporter FESTIVALDIR
+
+...
+;;; Collecting features in training and test data
+;;; Build description file
+;;; fix it the heap of festvox/build_prosody.scm
+pos_pp_start_tag : VER 
+ici: INST_LANG_VOX:select
+;;; Build the duration model itself
+Dataset of 19651 vectors of 95 parameters from: festival/dur/data/dur.data.train.train
+Dataset of 2183 vectors of 95 parameters from: festival/dur/data/dur.data.train.test
+RMSE 0.9106 Correlation is 0.3595 Mean (abs) Error 0.6768 (0.6093)
+;;; Test the duration model
+;; RMSE 0.9714 Correlation is 0.3573 Mean (abs) Error 0.7061 (0.6672)
+;;; Constructing the duration model as a loadable scheme file
+pos_pp_start_tag : VER 
+ici: INST_LANG_VOX:select
+finalize festvox/INST_LANG_VOX_dur.scm
+
+
+INST_LANG_VOX_phrasing n'est pas bon ou pas correctement appelé !
+il a fallu encore faire
+ (INST_LANG_VOX::select_phrasing)
+==
+lexicon INST_LANG_poslex recreated
+Ngrammar: INST_LANG_pos_ngram recreated
+pos_pp_start_tag : VER 
+Phoneset "INST_LANG" redefined
+SIOD ERROR: unbound variable : INST_LANG_phrase_cart_tree
+BACKTRACE:
+   0: INST_LANG_phrase_cart_tree
+   1: (set! phrase_cart_tree INST_LANG_phrase_cart_tree)
+   2: (load_library (string-append fname ".scm"))
+   3: (require (quote INST_LANG_VOX_phrasing))
+   4: (load_library (string-append fname ".scm"))
+   5: (require
+    "/home/getac/Develop/festival/lib/voices/LANG/INST_LANG_VOX_cg/festvox/INST_LANG_VOX_cg")
+   6: (voice_INST_LANG_VOX_cg)
+closing a file left open: /home/getac/Develop/festival/lib/voices/LANG/INST_LANG_VOX_cg/festvox/INST_LANG_VOX_phrasing.scm
+closing a file left open: /home/getac/Develop/festival/lib/voices/LANG/INST_LANG_VOX_cg/festvox/INST_LANG_VOX_cg.scm
+
+

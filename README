@@ -1,0 +1,4 @@
+gg31g354hù6Decompress the downloaded `.tgz` file.
+Find out where the decompressed directory should be copied to.
+To do so, run: `festival -b "(if (boundp 'datadir) (print datadir) (print libdir))"`.
+ A directory (e.g: `/usr/share/festival`) will be returned.
