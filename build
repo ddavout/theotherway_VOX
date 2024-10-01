@@ -367,26 +367,6 @@ default() {
 # shellcheck disable=SC2317
 # mon bac à sable personnel
 bac() {
-replace_rename(){
-# 3 parameters VOX-> mau; file: INST_LANG_VOX_cg.scm -> INST_LANG_mau.scm dans lequel VOX sera remplacé par "mau"
-# $2 différent de VOX
-repl=$1
-remp=$2
-file_in=$3
-file_out="${file_in//"$repl"/"$remp"}"
-sed s/"$1"/"$2"/g "$file_in" > "${file_out}"
-#sed 's/VOX/mau/g' "$file_in" > "${file_out}"
-
-}
-export -f replace_rename
-    place="/home/getac/Develop/festival/lib/voices/LANG"
-    mkdir -p "${place}"/INST_LANG_mau_cg/festvox
-
-    fichier="festvox/INST_LANG_VOX_cg.scm"
-    replace_rename 'VOX' 'mau' "${place}"/INST_LANG_VOX_cg/"$fichier"
-
-    parallel replace_rename 'VOX' 'mau'{.} ::: festvox/*.scm
-
 
     if false; then
     command "./bin/update_datas.sh" "start"
@@ -1084,6 +1064,79 @@ tar --create --gzip --directory="$DIR_VOX" --file "${my_voice}".tgz --files-from
 
 }
 
+mise_en_place () {
+
+    replace_rename(){
+    # 3 parameters VOX-> mau; file: INST_LANG_VOX_cg.scm -> INST_LANG_mau.scm dans lequel VOX sera remplacé par "mau"
+    # $2 différent de VOX
+    repl_VOX=$1
+    remp_VOX=$2
+    repl_LANG=$3
+    remp_LANG=$4
+    repl_INST_LANG=$5
+    remp_INST_LANG=$6
+    file_in=$7
+    # name
+    echo "in ${file_in}" > /dev/stdout
+    # /home/getac/Develop/festival/lib/voices/LANG/INST_LANG_VOX_cg/festvox/INST_LANG_VOX_phrasing.scm
+    # toutes les occurences -> //
+    file_out="${file_in//"$repl_VOX"/"$remp_VOX"}"
+    # première occurence -> /
+    file_out="${file_out/"$repl_LANG"/"$remp_LANG"}"
+    echo "1 ${file_out}" > /dev/stdout
+    # /home/getac/Develop/festival/lib/voices/fr/INST_LANG_mau_cg/festvox/INST_LANG_mau_phrasing.scm
+    file_out="${file_out//"$repl_INST_LANG"/"$remp_INST_LANG"}"
+    echo "2 ${file_out}" > /dev/stdout
+    # 2 /home/getac/Develop/festival/lib/voices/fr/conso_fr_mau_cg/festvox/conso_fr_mau_intonation.sc
+    # replace
+    sed s/"$repl_VOX"/"$remp_VOX"/g "$file_in" > "${file_out}"
+    sed -i  s/"$repl_INST_LANG"/"$remp_INST_LANG"/g "${file_out}"
+    # comme dans proclaim de INST_LANG_VOX_cg
+    sed -i  s/"$repl_LANG"/"$remp_LANG"/g "${file_out}"
+
+
+    }
+    export -f replace_rename
+
+    baptise(){
+        origine="$1"
+        cible="$2"
+        vox="$3"
+        lang="$4"
+        inst_lang="$5"
+        mkdir -p "$cible" || exit 66
+        # copy the structure
+        cp -r --attributes-only -v "$origine"/*  "$cible"
+        # the directories, but not the files (even though they are empty ..)
+        find "$cible" -type f -exec rm {} \;
+        find "$origine"  -type f -perm -o=r  -print0 | while IFS="/" read -r -d '' fichier; do
+            #file="${a##*/}"; echo "${file%.*}";
+            echo fichier "$fichier"
+            replace_rename VOX "$vox" "\bLANG\b" "$lang" INST_LANG 'conso_fr' "$fichier"
+            done
+    }
+
+    vox='mau'; lang='fr'; inst_lang='conso_fr'
+    # TODO voicedir
+    voices="/home/getac/Develop/festival/lib/voices"
+    # TODO verif cohérence
+
+    origine="$voices"/LANG/INST_LANG_VOX_cg
+    cible="$voices"/"$lang"/"$inst_lang"_"$vox"_cg/
+    baptise "$origine" "$cible" "$vox" "$lang" "${inst_lang}"
+
+    origine="$FESTIVALDIR"/lib/INST_LANG/
+    cible="$FESTIVALDIR"/lib/"${inst_lang}"/
+    baptise "$origine" "$cible" "$vox" "$lang" "${inst_lang}"
+
+
+
+    # TODO dicts
+    origine="$FESTIVALDIR"/lib/dicts/INST_LANG/
+    cible="$FESTIVALDIR"/lib/dicts/"${inst_lang}"
+    baptise "$origine" "$cible" "$vox" "$lang" "${inst_lang}"
+
+}
 
 # TODO autoriser succession de taches
 
